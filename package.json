@@ -1,0 +1,19 @@
+{
+  "name": "kodstuga-ovningar",
+  "version": "1.0.0",
+  "description": "Scratchövningar som används av Kodstugan.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodcentrumcollaborative/Kodstuga_HT15.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15/issues"
+  },
+  "homepage": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-markdown": "^1.0.0",
+    "gulp-wrapper": "^1.0.0"
+  }
+}

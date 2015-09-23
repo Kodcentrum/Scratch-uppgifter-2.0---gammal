@@ -1,0 +1,232 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="rymdattack">Rymdattack</h1>
+<p>Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Spelet kommer att se ut så här:</p>
+<p><img src="image_0.jpg" alt="image alt text"></p>
+<h2 id="delmoment-1-bakgrund-och-sprajtar">Delmoment 1: Bakgrund och sprajtar</h2>
+<p>Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra en röd linje som rymdraketen ska sväva över, den linjen kommer att bli viktig senare i den här uppgiften!</p>
+<ol>
+<li><p>Skapa ett nytt Scratch-projekt och ta bort katten. Rita en ny <strong>bakgrund</strong> och fyll den med svart färg. Om du vill kan du rita dit små stjärnor också.</p>
+</li>
+<li><p>Använd <strong>rektangelverktyget</strong> och skapa en röd, <strong>fylld</strong>, rektangel på botten av scenen. Den ska inte vara för tjock men den ska täcka hela botten.</p>
+</li>
+<li><p>Lägg till sprajten <strong>Fantasy/Spaceship</strong> från biblioteket. Den är stor, så du behöver förminska den med <strong>förminskningsverktyget</strong> cirka <strong>16</strong> gånger. Placera sprajten precis ovanför den röda linjen.</p>
+</li>
+<li><p>Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten <strong>Fantasy/Robot1</strong> från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<p><em>Ungefär så här borde din scen se ut nu.</em></p>
+</li>
+</ol>
+<h2 id="delmoment-2-styra-och-skjuta">Delmoment 2: Styra och skjuta</h2>
+<p>Meningen med spelet är att styra rymdraketen åt vänster och höger för att skjuta ner de attackerande robotarna. Först behöver du skapa ett skript för att styra raketen.</p>
+<ol>
+<li><p>Ändra raketens <strong>rotationsstil</strong> så att den bara kan röra sig åt <strong>vänster-höger</strong>.</p>
+</li>
+<li><p>Skapa ett skript som säger:</p>
+<ul>
+<li>Starta när START klickas på</li>
+<li><p>För alltid:</p>
+<ul>
+<li><strong>Ändra x</strong> med -13 <strong>OM vänsterpil</strong> är nedtryckt</li>
+<li><strong>Ändra x</strong> med 13 <strong>OM högerpil</strong> är nedtryckt</li>
+<li><strong>Studsa vid kanten</strong> efter den har rört sig, oavsett håll</li>
+</ul>
+<p><img src="image_2.png" alt="image alt text"></p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Testa ditt projekt!</strong> Klicka på START. Kan du röra raketen åt vänster och höger? Studsar den vid kanten?</p>
+<p>Nu ska du göra så att raketen kan skjuta. För att göra det måste du först ändra raketens <strong>mittpunkt</strong> till dess topp.</p>
+<ol>
+<li><p>Klicka på raketen och sedan på fliken <strong>Klädslar</strong>. Högst upp till höger hittar du <strong>Sätt klädselns centrum</strong>. Sätt centrum till raketens spets, zooma in så kan du trycka på den enklare!</p>
+<p><img src="image_3.png" alt="image alt text"></p>
+<p>Nu behöver du själva skottet som raketen kommer att skjuta. För att göra det måste du <strong>skapa en ny sprajt</strong>.</p>
+</li>
+<li><p><strong>Rita en ny sprajt</strong> genom att zooma in så mycket så att du ser alla rutor (<strong>pixlar</strong>). Gör en gul ifylld rektangel som täcker mittpunkten. Den ska vara <strong>6 rutor lång</strong> och <strong>2 rutor bred</strong>.</p>
+<p><img src="image_4.png" alt="image alt text"></p>
+<p><em>Så här!</em></p>
+<p>Nu behöver du skapa ett skript för skottet som gör att det:</p>
+<ul>
+<li>Avfyras när du trycker på mellanslag</li>
+<li>Försvinner när den rör kanten</li>
+<li>Bara kan avfyras 3 skott åt gången på scenen, för annars kan du fylla hela scenen med skott!</li>
+</ul>
+<p>För att få flera skott samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge det skriptet går.</p>
+</li>
+<li><p>Börja med att skapa en <strong>variabel</strong> som heter <strong>&quot;Ammo&quot;</strong>, den ska vara <strong>synlig</strong> på scenen.</p>
+</li>
+<li><p>Skapa ett skript till skottet som säger:</p>
+<ul>
+<li>Starta när START klickas på</li>
+<li><strong>Göm</strong> sprajten</li>
+<li>Sätt <strong>&quot;Ammo&quot;</strong> till 0</li>
+</ul>
+</li>
+<li><p>Skapa ännu ett skript till skottet som:</p>
+<ul>
+<li>Starta när man trycker ner <strong>mellanslag</strong></li>
+<li>Kolla <strong>om &quot;Ammo&quot; &lt; 4</strong></li>
+<li><strong>Då</strong> ska den <strong>ändra &quot;Ammo&quot; med 1</strong></li>
+<li><strong>Skapa en klon av sig själv</strong></li>
+</ul>
+<p>Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om den krockar, med kanten!</p>
+</li>
+<li><p>Skapa ett till skript för skottet som säger:</p>
+<ul>
+<li>Starta när sprajten startas som en <strong>klon</strong></li>
+<li>Gå till x- och y-position för <strong>Spaceship</strong></li>
+<li><strong>Visa</strong> dig</li>
+<li>Repetera <strong>ändra y med 10 </strong>tills<strong> rör kanten</strong></li>
+<li><strong>Då</strong> ska den <strong>ändra &quot;Ammo&quot;</strong> med -1</li>
+<li>Och <strong>radera klonen</strong></li>
+</ul>
+<p><img src="image_5.png" alt="image alt text"></p>
+<p><em>Det här är alla block som du behöver för steg 11-14.</em></p>
+</li>
+</ol>
+<p><strong>Testa ditt projekt!</strong> Klicka på START. Skjuter du skott när du klickar på <strong>mellanslag</strong>? Skjuter du från raketen? Kan du bara skjuta tre skott?</p>
+<p>Tips: Om skotten rör sig för långsamt eller snabbt, ändra hur mycket <strong>y ändras</strong>. Testa dig fram!</p>
+<h2 id="delmoment-3-attackerande-robot">Delmoment 3: Attackerande robot</h2>
+<p>Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!</p>
+<p>För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.</p>
+<ol>
+<li><p>Skapa två nya VARIABLER, en som heter <strong>poäng</strong> och en som heter <strong>timer</strong>. De ska båda visas på scenen.</p>
+</li>
+<li><p>Nu finns det väldigt många VARIABLER som visas på scenen! Dra och lägg dem på rad längst upp på scenen, så att de inte täcker hela vänstra sidan.</p>
+</li>
+<li><p>Du behöver ett skript för sprajten <strong>Robot1</strong> som skapar en klon av sig själv varje sekund tills timern har blivit 0, då spelet avslutas. Skapa ett nytt skript som säger:</p>
+<ul>
+<li>Starta när START klickas på</li>
+<li>Göm dig</li>
+<li>Sätt <strong>poäng</strong> till 0</li>
+<li>Sätt <strong>timer</strong> till 16</li>
+<li>För alltid:</li>
+<li>Kolla <strong>om</strong> <strong>timer &gt; 0</strong></li>
+<li><strong>Då</strong> ska den <strong>skapa en klon av sig själv</strong><ul>
+<li>Ändra timer med -1</li>
+<li>Vänta 1 sekunder</li>
+</ul>
+</li>
+<li><strong>Annars</strong> ska den <strong>stoppa alla</strong> skript</li>
+</ul>
+</li>
+<li><p>Nu behöver du ett skript som kontrollerar vad varje klon gör! Skapa ett skript som säger:</p>
+<ul>
+<li>Starta när den <strong>startar som klon</strong></li>
+<li>Gå till <strong>x: ett slumptal mellan -230 till 230</strong> och <strong>y:140</strong></li>
+<li>Visa dig</li>
+<li>För alltid:<ul>
+<li>Kolla om den <strong>rör Sprite1</strong> (skottet)<ul>
+<li><strong>Då</strong> ska den <strong>ändra poäng med 1</strong> och <strong>radera klonen</strong></li>
+</ul>
+</li>
+<li>Kolla om den <strong>rör färgen röd eller Spaceship</strong> (raketen)<ul>
+<li><strong>Då</strong> ska den <strong>stoppa alla</strong> skript</li>
+</ul>
+</li>
+<li>Efter den har kollat dessa VILLKOR så ska den ändra <strong>y med -4</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="image_6.png" alt="image alt text"></p>
+<p><em>Det här är alla block du behöver för steg 17 och 18!</em></p>
+</li>
+</ol>
+<p><strong>Testa ditt projekt!</strong> Klicka på START. Rör sig robotarna nedåt från toppen av scenen mot botten? Förvinner de när de blir träffade av ett skott? Stoppas alla skript när en av robotarna nuddar botten eller raketen?</p>
+<h2 id="delmoment-4-game-over">Delmoment 4: Game Over</h2>
+<p>Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många poäng du fått. Det ska vi ändra på! Du ska låta roboten skicka ett <strong>meddelande</strong> när spelet avslutas, så att den kan tala om hur många poäng du fått.</p>
+<ol>
+<li><p>När <strong>Robot1</strong> (någon av klonerna) <strong>rör färgen röd</strong> eller <strong>Spaceship</strong> så ska den skicka ut ett <strong>meddelande</strong> innan den stoppar alla skript. Meddelandet kan du kalla för &quot;Game over&quot;.</p>
+</li>
+<li><p>Nu skapar du ett skript för sprajten <strong>Spaceship</strong> som säger:</p>
+<ul>
+<li>Starta när den <strong>tar emot meddelandet &quot;Game over&quot;</strong></li>
+<li><strong>Säg &quot;Game over! Du fick <poängvariabelns värde> poäng!&quot;</strong> i 2 sekunder</li>
+</ul>
+<p><img src="image_7.png" alt="image alt text"></p>
+<p><em>Det här kan vara lite klurigt att fästa ihop. Använd dessa block.
+Lägg till mellanslag för att få meddelandet att se snyggt ut!</em></p>
+</li>
+</ol>
+<p>Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!</p>
+<h2 id="delmoment-5-flera-niv-er-f-r-spelet">Delmoment 5: Flera nivåer för spelet</h2>
+<p>Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället går till en ny <strong>nivå</strong>, där robotarna ändrar färg och blir snabbare. Det blir alltså svårare att spela! Det här kan du göra genom att lägga till nya VARIABLER.</p>
+<ol>
+<li><p>Skapa två stycken nya <em>variabler</em> som heter <strong>hastighet</strong> och <strong>nivå</strong>. Hastighet ska inte visas på scenen, men nivå ska visas.</p>
+</li>
+<li><p>Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i Delmoment 3:</p>
+<ul>
+<li>När <strong>timern</strong> tar slut ska den istället för att avsluta <em>scriptet</em>:<ul>
+<li>Skicka <em>meddelandet</em> <strong>Nästa nivå</strong></li>
+<li>Ändra <strong>nivå</strong> med 1</li>
+<li>Vänta 2 sekunder</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>I samma skript lägger du till två block som:</p>
+<ul>
+<li>Sätter nivå till 1</li>
+<li>Sätter hastighet till -1</li>
+</ul>
+<p>Båda av dessa block ska fästas efter sprajten har <strong>gömts</strong>, men innan <strong>för alltid</strong>-loopen.</p>
+</li>
+<li><p>Byt ut <strong>ändra y med -4</strong> till <strong>ändra y med hastighet</strong> i det andra skriptet, det som du gjorde i steg 18.</p>
+<p><img src="image_8.png" alt="image alt text"></p>
+<p><em>Här ser du alla ändringar som du skall ha gjort för roboten!</em></p>
+<p>Nu gör du ett skript som <strong>tar emot <em>meddelandet</em></strong> för att byta nivå och försvåra spelet.</p>
+</li>
+<li><p>Gå till raketens SKRIPT-flik och skapa ett nytt skript som säger:</p>
+<ul>
+<li>Starta när den <strong>tar emot meddelande &quot;Nästa nivå&quot;</strong></li>
+<li>Kolla om <strong>nivå = 4</strong><ul>
+<li><strong>Då skicka meddelande &quot;vinst&quot;</strong></li>
+<li><strong>Stoppa</strong> alla <em>script</em></li>
+<li><strong>Annars</strong> sätt <strong>timer</strong> till 15</li>
+<li>Säg <strong>Nästa nivå!</strong> i 2 sekunder</li>
+<li><strong>Vänta</strong> 2 sekunder</li>
+</ul>
+</li>
+<li>Ändra sedan <em>färg</em> <strong>effekten</strong> med 50</li>
+<li>Ändra sedan <strong>hastigheten </strong>med -2</li>
+</ul>
+<p><img src="image_9.png" alt="image alt text"></p>
+<p><em>Dessa är blocken du behöver använda!</em></p>
+<p>Om du förstår skriptet så ser du att den gör ändringarna för <strong>varje nivå</strong>, så att det kan bli svårare och svårare. Nu ändrar den hastigheten och färgeffekten medan den lägger till mer tid.</p>
+</li>
+<li><p>Skapa sedan ett nytt skript som säger:</p>
+<ul>
+<li>Starta när den <strong>tar emot meddelandet vinst</strong></li>
+<li>Säg <strong>&quot;Du vann! Du fick &gt;poäng variabeln värde&lt; poäng!&quot;</strong></li>
+</ul>
+</li>
+</ol>
+<p>Tips: Titta på delmoment 4 om du har glömt hur du gjorde!</p>
+<p><strong>Testa ditt projekt!</strong> Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?</p>
+<h2 id="delmoment-6-bakgrund-n-r-spelet-r-vunnet">Delmoment 6: Bakgrund när spelet är vunnet</h2>
+<p>Du kan även lägga till skript som <strong>ändrar bakgrund</strong> för att göra ett snyggt slut för spelet!</p>
+<ol>
+<li><p>Gå till SCEN och kopiera <strong>klädseln</strong> som du har ritat i början av uppgiften.</p>
+</li>
+<li><p>Rita något som du vill att vinnaren ska se när du har vunnit spelet.</p>
+<p><img src="image_10.png" alt="image alt text"></p>
+<p><em>Du kan skriva med text-verktyget!</em></p>
+</li>
+<li><p>Gör nu två skript till scenen som säger:</p>
+<ul>
+<li>Starta när START klickas på</li>
+<li><strong>Byt</strong> till din första bakgrund utan text</li>
+</ul>
+<p>Och det andra skriptet:</p>
+<ul>
+<li>När den tar emot <em>meddelandet</em> <strong>vinst</strong></li>
+<li><strong>Byt</strong> till in nya bakgrund för att spelet är vunnet</li>
+</ul>
+</li>
+</ol>
+<p>Tips: Du kan se vad bakgrunderna heter om du klicka på fliken <strong>Bakgrunder</strong>!</p>
+<p><strong>Grattis, nu har du gjort klar spelet!</strong> Glöm inte att <strong>spara ditt projekt</strong>. Döp det uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<p>Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <strong>testa spelet!</strong></p>
+<p><img src="image_11.jpg" alt="image alt text"></p>
+</body></html>

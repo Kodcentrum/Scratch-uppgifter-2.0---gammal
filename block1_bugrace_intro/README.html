@@ -1,0 +1,141 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="bug-race-intro-">Bug Race (intro)</h1>
+<p>Nu ska du få lära känna Scratch och samtidigt skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
+Ett exempel på det färdiga spelet finns på: <a href="https://scratch.mit.edu/projects/27697024/">https://scratch.mit.edu/projects/27697024/</a></p>
+<h2 id="kom-ig-ng-med-scratch">Kom igång med Scratch</h2>
+<ul>
+<li><p>Skapa ett <strong>eget konto</strong> på Scratch: <a href="http://scratch.mit.edu/">http://scratch.mit.edu/</a></p>
+<p>Skriv ned ditt användarnamn och lösenord så att du inte glömmer det!</p>
+</li>
+<li><p>Tryck på <strong>Skapa</strong> på hemsidan för ett skapa ett nytt projekt</p>
+</li>
+<li><p>Om språket inte är svenska, tryck på <strong>jordklotet</strong> och scrolla ner tills du hittar <strong>Svenska</strong>.</p>
+<p><img src="image_0.png" alt="image alt text"></p>
+</li>
+</ul>
+<p>Så här ser din arbetsyta i Scratch ut:</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<ol>
+<li><p>Här är din vita bakgrund som också kallas för <strong>scen</strong>.</p>
+</li>
+<li><p>Här kan du se vilka <strong>sprajter</strong> du använder.</p>
+</li>
+<li><p>I kolumnen i mitten plockar du ditt <strong>skript</strong>. Det är skript-block som finns i olika kategorier. Förutom skript finns flikar för <strong>klädslar</strong> och <strong>ljud</strong>.</p>
+</li>
+<li><p>Kolumnen till höger är din <strong>skriptyta</strong> – där du kodar genom att lägga dina skript.
+Om du vill ta bort ett block drar du bara tillbaka blocket till mittkolumnen igen.</p>
+</li>
+<li><p>Här är en <strong>Hjälp</strong>-kolumn om du behöver, den kan du klicka bort uppe i det vänstra hörnet.**</p>
+</li>
+</ol>
+<h2 id="delmoment-1-v-lja-en-skalbagge-som-sprajt">Delmoment 1: Välja en skalbagge som sprajt</h2>
+<p>I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.</p>
+<ol>
+<li><p>Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
+<img src="image_2.png" alt="image alt text"></p>
+</li>
+<li><p>Nu vill du lägga till en skalbagge istället. Tryck på knappen för NY SPRAJT:
+<img src="image_3.png" alt="image alt text"></p>
+<p>I menyn till vänster finns en kategori som heter &quot;Djur&quot;, tryck på den. I listan hittar du skalbaggen. Tryck på skalbaggen så att den blir markerad och sedan på OK nere till höger.</p>
+</li>
+<li><p>För att spelet ska bli enklare att spela måste vi minska storleken på skalbaggen. Tryck på förminskningsknappen och sedan på sprajten tills den är lagom stor (som en tummnagel ungefär).</p>
+<p><img src="image_4.png" alt="image alt text"></p>
+<p><img src="image_5.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu är skalbaggen klar och det är dags att måla banan som skalbaggen skall springa på!</p>
+<h2 id="delmoment-2-rita-en-bana-som-bakgrund">Delmoment 2: Rita en bana som bakgrund</h2>
+<p>Du ska nu få rita en grå bana på grönt gräs som skalbaggen kan springa på.</p>
+<ol>
+<li><p>För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.</p>
+<p><img src="image_6.png" alt="image alt text">    <img src="image_7.png" alt="image alt text"></p>
+</li>
+<li><p>Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
+<img src="image_8a.png" alt="image alt text"></p>
+</li>
+<li><p>Tryck på PENSEL och välj en grå färg. Gör penseln större genom att dra reglaget ända till höger. Rita nu en oval (utdragen cirkel) - gör den så stor som du kan!</p>
+<p><img src="image_8.png" alt="image alt text">    <img src="image_9.png" alt="image alt text"></p>
+<p>Ungefär så här skall banan se ut. Om spåret är väldigt smalt kommer spelet bli väldigt svårt. Är banan bred blir spelet lättare!</p>
+<p><img src="image_10.png" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="delmoment-3-ditt-f-rsta-skript-">Delmoment 3: Ditt första skript**</h2>
+<p>Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att <strong>spara</strong> ofta!</p>
+<p>Börja med att dra skalbagge-sprajten till den målade banan (som på bilden ovanför). Tryck på SKRIPT-fliken om den inte redan är vald.</p>
+<p>Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
+Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START. För att göra det måste du lägga till ditt första skript som säger:</p>
+<blockquote>
+<p>&quot;När jag trycker på START, ska skalbaggen röra sig.&quot;</p>
+</blockquote>
+<ol>
+<li><p>Dra ut ett block för <strong>HÄNDELSER</strong>: <strong>&quot;när START (flaggan) klickas på&quot; </strong>till skriptytan.  Under den kopplar du fast blocket för <strong>RÖRELSE</strong>: <strong>&quot;gå 10 steg&quot;</strong>.</p>
+<p><img src="image_11.png" alt="image alt text"></p>
+<p><em>Tryck först på Händelser och dra sedan ut &quot;när START klickas på&quot; till fönstret till höger.</em></p>
+<p><img src="image_12.png" alt="image alt text"></p>
+<p><em>Tryck på Rörelse och dra sedan ut &quot;gå 10 steg&quot; och placera den som på bilden.</em></p>
+<p>Testa nu vad som händer när du trycker på START. Skalbaggen flyttar sig åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden. Hur gör du det?</p>
+</li>
+<li><p>Det kan du ordna med skriptet <strong>&quot;för alltid&quot;</strong> som finns under rubriken <strong>KONTROLL</strong>.
+Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.</p>
+<p><img src="image_13.png" alt="image alt text"></p>
+<p><em>För att skalbaggen ska fortsätta att gå måste du lägga &quot;gå 10 steg&quot; i mitten av &quot;för alltid&quot;-loopen. &quot;Gå 10 steg&quot; kommer då att upprepas för alltid.</em></p>
+</li>
+</ol>
+<p>Testa att trycka på START. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Välj en hastighet som du tror är lagom för att kunna styra skalbaggen.</p>
+<h2 id="delmoment-4-s-tt-en-startposition">Delmoment 4: Sätt en Startposition</h2>
+<p>För att slippa dra tillbaka skalbaggen varje gång du trycker på START kan du säga åt datorn att placera den på en särskild plats varje gång du startar spelet. Detta kallas för att initiera programmet, du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.</p>
+<p>Innan du gör ditt skript, flytta skalbaggen till en startposition som du väljer själv.</p>
+<ol>
+<li><p>Välj från <strong>RÖRELSE</strong> <strong>&quot;gå till x: y:&quot;</strong> och koppla fast direkt under flaggan, innan loopen. De värden som står för X och Y är KOORDINATER för den startposition som du har ställt skalbaggen på.  </p>
+<p><img src="image_14.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu kommer skalbaggen automatiskt att flyttas till sin startposition varje gång du trycker på flaggan, utan att du behöver dra den dit själv!</p>
+<h2 id="delmoment-5-styra-skalbaggen">Delmoment 5: Styra skalbaggen</h2>
+<p>Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver du två små skript. Ett som säger åt datorn att svänga höger på skalbaggen när du trycker ned höger piltangent, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.</p>
+<ol>
+<li><p>Under <strong>HÄNDELSER</strong> finns ett block som säger <strong>&quot;när mellanslag trycks ned&quot;</strong>. Dra två sådana block och lägg var som helst på skriptytan. Ändra den ena till <strong>vänsterpil</strong> och den andra till <strong>högerpil</strong>, du väljer i rullistan.</p>
+</li>
+<li><p>Koppla fast ett skript under varje block; under <strong>RÖRELSE</strong> hittar du ett som säger <strong>&quot;vänd (pil vänster) 15 grader&quot;</strong> och ett som säger <strong>&quot;vänd (pil höger) 15 grader&quot;</strong>.</p>
+<p><img src="image_15.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!</p>
+<h2 id="delmoment-6-ndra-startriktning">Delmoment 6: Ändra startriktning</h2>
+<p>Om du trycker på START igen märker du att skalbaggen behåller den riktning som den hade när du slutade sist. Det kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.</p>
+<ol>
+<li><p>Välj blocket som säger <strong>&quot;peka i 90 riktning&quot;</strong> från <strong>RÖRELSE</strong>. Testa vad som händer om du ändrar på värdet från 90 grader till något annat. Det står även en hjälptext i rullistan när du väljer riktning.</p>
+<p><img src="image_16.png" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="delmoment-7-k-nna-av-gr-set">Delmoment 7: Känna av gräset</h2>
+<p>Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför din utmålade bana. Hur ska den kunna göra det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen: OM skalbaggen rör vid färgen grön betyder det att den har åkt av banan, och DÅ ska spelet ta slut - Game Over!</p>
+<ol>
+<li><p>Välj blocket &quot;<strong>om &lt;&gt; då</strong>&quot; som finns under <strong>KONTROLL</strong>. Det här blocket säger att OM det som står i <strong>&lt;&gt;</strong> händer, DÅ ska något annat hända. Om skalbaggen rör färgen grön, säg Game Over!</p>
+</li>
+<li><p>Under <strong>KÄNNA AV </strong>finns blocket &quot;<strong>Rör färgen &lt;&gt; ?&quot;</strong>. Dra den till <strong>&lt;&gt;</strong>, tryck på den lilla fyrkanten och sedan på ditt gräs. Den lilla fyrkanten får nu samma gröna färg som gräset.</p>
+<p><img src="image_17.png" alt="image alt text"></p>
+</li>
+<li><p>Till sist skapar du ett skript för att spelet ska säga att spelet är över om skalbaggen nuddar den gröna färgen. Välj <strong>&quot;säg ___ i 2 sekunder&quot;</strong> under <strong>UTSEENDE</strong>, dra in det innanför &quot;<strong>om &lt;</strong>&quot;<strong>Rör färgen grön?&gt; då</strong>&quot; och ändra texten till det du vill ska stå.</p>
+</li>
+</ol>
+<p>Testa ditt spel! Händer något när skalbaggen nuddar det gröna gräset? Om inte, vad tror du att det kan bero på?</p>
+<h2 id="delmoment-8-g-ra-klart-skriptet">Delmoment 8: Göra klart skriptet</h2>
+<p>Något saknas! När vill du att datorn ska känna av om skalbaggen nuddar det gröna gräset? Det behöver göras efter varje steg skalbaggen tar, för att inte missa att den hamnar utanför banan. Därför måste du slå ihop skriptet som känner av gräset med skriptet som får skalbaggen att röra sig.</p>
+<ol>
+<li><p>Lägg skriptet som känner av den gröna färgen, in i din &quot;för alltid&quot;-loop.</p>
+</li>
+<li><p>Lägg till <strong>&quot;stoppa detta skript&quot;</strong>, under <strong>KONTROLL</strong>, om skalbaggen springer av banan. På så sätt avslutas spelet och det går inte längre att styra skalbaggen.</p>
+</li>
+</ol>
+<h2 id="ett-f-rdigt-spel-">Ett färdigt spel!</h2>
+<p>Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se ut så här:</p>
+<p><img src="image_18.png" alt="image alt text"></p>
+<p>Glöm inte att <strong>spara ditt projekt</strong>!
+Döp det t ex till <em>&quot;Bug Race&quot;</em> och ditt namn.</p>
+<p>Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <strong>testa spelet!</strong></p>
+<p><img src="image_19.jpg" alt="image alt text"></p>
+<p>Saknas något? Hur skulle du vilja utveckla spelet?</p>
+<p>Det får du göra i nästa uppgift!</p>
+</body></html>

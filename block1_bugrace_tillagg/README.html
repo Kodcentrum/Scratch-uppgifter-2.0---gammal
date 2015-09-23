@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="bug-race-till-gg-">Bug Race (tillägg)</h1>
+<p>Du har redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?</p>
+<p>Här finns förslag på hur du kan fortsätta med Bug Race, välj ett eller flera tillägg eller hitta på själv! Du kan behöva titta i instruktionen för <em>&quot;Bug Race (intro)&quot;</em> om du har glömt hur du gjorde vissa skript.</p>
+<h2 id="till-gg-1-m-llinje-f-r-att-vinna-spelet">Tillägg 1: Mållinje för att vinna spelet</h2>
+<p>För att kunna vinna spelet behöver du en mållinje för banan och ett skript som säger att du vinner spelet när skalbaggen rör vid mållinjen. Det liknar ditt skript för att det blir Game Over när skalbaggen rör vid det gröna gräset.</p>
+<ol>
+<li><p>Börja med att rita en mållinje där du vill ha den, förslagsvis bakom skalbaggens startposition.</p>
+<p><img src="image_0.jpg" alt="image alt text"></p>
+</li>
+<li><p>Skapa ett VILLKOR för skalbaggen: <strong>om</strong> skalbaggen rör vid färgen gul betyder det att den har nått mållinjen och <strong>då</strong> vinner du spelet. (Har du glömt hur du ska göra? Titta på ditt skript för Game Over.)</p>
+</li>
+<li><p>Vad ska hända <strong>om</strong> skalbaggen rör vid mållinjen? Den kan till exempel säga Mål! eller Grattis!
+Lägg till <strong>&quot;stoppa detta skript&quot;</strong> för att avsluta spelet.</p>
+</li>
+<li><p>Lägg det nya i din <strong>för alltid</strong>-LOOP. Så här kan det se ut:</p>
+<p><img src="image_1.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="till-gg-2-flera-spelare">Tillägg 2: Flera spelare</h2>
+<p>Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – eller spela med två händer! Om banan är tillräckligt bred kan du lägga till en skalbagge eller något annat djur och låta dem tävla mot varandra om vem som kommer först i mål.</p>
+<p><img src="image_2.png" alt="image alt text"></p>
+<ol>
+<li><p>Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller KOPIERA skalbaggens sprajt om du vill att två skalbaggar tävlar mot varandra. Ändra storlek så att båda får plats på banan.</p>
+</li>
+<li><p>Om du har en ny sprajt som inte är kopia på den första, kan du KOPIERA SKRIPT för skalbaggen.
+På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom att högerklicka överst på skriptet, välja kopiera, och dra till den nya sprajten.  Nu gör båda sprajtar samma sak!</p>
+<p><img src="image_3.jpg" alt="image alt text"></p>
+</li>
+<li><p>Du behöver ändra skripten för att styra sprajten så att inte båda ska styras med vänster- och högerpil. Välj i rullistan för <strong>&quot;när _ trycks ned&quot;</strong>, till exempel tangenterna A och D.</p>
+</li>
+<li><p>Du kanske märker att din nya sprajt startar på samma ställe som skalbaggen? Du behöver ändra startposition. Flytta sprajten dit du vill att den ska stå. Du hittar sprajtens koordinater i sprajtens informationsruta, markera sprajten och tryck på &quot;i&quot;. Ändra värden för <strong>&quot;gå till x: y:&quot;</strong>.</p>
+<p><img src="image_4.jpg" alt="image alt text"></p>
+<p><strong>Testa spelet!</strong> Nu kan du styra båda sprajtar. Men vad händer när en av dem hamnar utanför banan?</p>
+</li>
+<li><p>Om du vill kunna tävla om vem som kommer först i mål, kan det inte bli Game Over när en spelare hamnar utanför banan. Istället kan du t ex välja att sprajtarna säger &quot;Aj!&quot; och hamnar tillbaka på sin startposition. Så här kan det se ut då:</p>
+<p><img src="image_5.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<p><strong>Testa spelet!</strong> Om det buggar och någon sprajt säger &quot;Mål!&quot; för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.</p>
+<h2 id="till-gg-3-ndra-banan-till-en-labyrint">Tillägg 3: Ändra banan till en labyrint</h2>
+<p>Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg, och inte hur själva banan ser ut, är det enkelt att byta ut banan. Du kan till exempel göra en labyrint som bakgrund istället.</p>
+<p><img src="image_6.png" alt="image alt text"></p>
+<ol>
+<li><p>Tryck på din SCEN och gå till fliken för BAKGRUNDER. Välj <strong>Rita ny bakgrund</strong>.</p>
+</li>
+<li><p>Fyll först med samma gröna färg som i din första bakgrund. Du kan välja färg med färgväljaren som finns till höger om färgrutorna, tryck på den och sedan på den gröna färgen i din första bakgrund.</p>
+<p><img src="image_7.jpg" alt="image alt text"></p>
+</li>
+<li><p>Gör en labyrint genom att dra upp flera vita rektanglar på den gröna bakgrunden, eller rita själv med penseln. Tänk på att banan behöver vara tillräckligt bred för att kunna spela!</p>
+</li>
+<li><p>Rita en gul mållinje i slutet av labyrinten. Tänk på att använda samma gula färg som till mållinjen du ritade i Tillägg 1. Om du inte vill ha en mållinje kan du istället rita gula bananer eller något annat som spelaren ska nå fram till.</p>
+</li>
+</ol>
+<p>Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!</p>
+<h2 id="utmaning-flera-banor">Utmaning: Flera banor</h2>
+<p>Kan du skapa skript som <strong>byter scenens bakgrund</strong> när en spelare kommer i mål – så att spelet består av flera banor?</p>
+</body></html>
