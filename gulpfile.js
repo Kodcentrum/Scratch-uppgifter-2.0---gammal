@@ -1,7 +1,14 @@
 var gulp = require('gulp');
 var markdown = require('gulp-markdown');
+var markdownpdf = require('gulp-markdown-pdf');
 var wrapper = require('gulp-wrapper');
 
+
+gulp.task('pdf', function () {
+    return gulp.src('*/README.md')
+        .pipe(markdownpdf())
+        .pipe(gulp.dest(''));
+});
 
 gulp.task('html', function () {
     return gulp.src('*/README.md')
@@ -13,4 +20,4 @@ gulp.task('html', function () {
         .pipe(gulp.dest(''));
 });
 
-gulp.task('default', ['html']);
+gulp.task('default', ['html', 'pdf']);
