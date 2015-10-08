@@ -26,11 +26,13 @@ Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedags
 ## Delmoment 2: Fråga efter födelsedagsbarnets namn
 
 Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
-4. Gå till kattens sprajt och skapa ett skript som startar när START-flaggan klickas på. Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vem fyller år?"*.
+
+4. Gå till kattens sprajt och skapa ett skript som startar när START-flaggan klickas på. Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vem fyller år?"*.
 
 ![image alt text](image_1.png)
 
-*När du har skrivit in ett namn i rutan, tryck på Enter.Du kommer att förstå senare vad namnet ska användas till!*
+*När du har skrivit in ett namn i rutan, tryck på Enter.
+Du kommer att förstå senare vad namnet ska användas till!*
 
 **Testa ditt projekt!** Klicka på START. Frågar katten "Vem fyller år?"? Kan du skriva ett svar på frågan i rutan?
 
@@ -38,7 +40,8 @@ Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
 ## Delmoment 3: Katten kan dansa!
 
 Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist! Katten ska vända sig fram och tillbaka, så du behöver skapa en ny **klädsel** åt katten.
-5. Klicka på kattens sprajt och gå till fliken KLÄDSEL. Ta bort _Costume2_. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
+
+5. Klicka på kattens sprajt och gå till fliken KLÄDSLAR. Ta bort _Costume2_. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
 
   ![image alt text](image_2.png)
 
@@ -105,13 +108,17 @@ Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det ka
   _Kan du läsa steg för steg vad detta skript gör?_
 
 **Testa ditt projekt!** Slutar katten och dansa när melodin är slut? Säger katten _"Grattis …"_ och det namn som du skrev in när kortet frågade _"Vem fyller år?"_ i början?
-Tips: Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
+
+Tips: Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
 
 
 ## Delmoment 5: Alla ska dansa!
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför **skicka **och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
-13. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med katten.14. Nu ska du skapa två skript för vardera sprajt. Gör skriptet för en sprajt och kopiera sedan till den andra. Bestäm själv vad som händer när de **tar emot** meddelanden "FESTA" och "FESTEN SLUT".
+
+13. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med katten.
+
+14. Nu ska du skapa två skript för vardera sprajt. Gör skriptet för en sprajt och kopiera sedan till den andra. Bestäm själv vad som händer när de **tar emot** meddelanden "FESTA" och "FESTEN SLUT".
 
   ![image alt text](image_10.png)
 
@@ -123,7 +130,10 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 ## Delmoment 6: Partystämning och tårta
 
 Du har dansare och musik, men det är inget riktigt födelsedagsfirande utan en tårta! Tårtan ska få dyka upp i slutet av animationen. Du kan också skapa partystämning genom att byta färg på scenen i takt med musiken.
-15. Börja med tårtan. Lägg till sprajten **Saker > Cake** från biblioteket och ställ på scenen.16. Skapa ett skript för tårtan som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska visa sig när den tar emot meddelandet "FESTEN SLUT".
+
+15. Börja med tårtan. Lägg till sprajten **Saker > Cake** från biblioteket och ställ på scenen.
+
+16. Skapa ett skript för tårtan som säger att den ska **gömma** sig när START klickas på, och ett skript som säger att den ska visa sig när den tar emot meddelandet "FESTEN SLUT".
 
   ![image alt text](image_11.jpg)
 
@@ -161,4 +171,6 @@ Kan du hitta fler sätt att göra dom mer unika?
 
 **Glöm inte att spara ditt projekt!** Döp den till uppgiftens namn så att du enkelt kan hitta den igen.
 
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**![image alt text](image_13.jpg)
+Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+
+![image alt text](image_13.jpg)
