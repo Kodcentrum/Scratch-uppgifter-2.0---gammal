@@ -5,12 +5,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kodcentrumcollaborative/Kodstuga_HT15.git"
+    "url": "git+https://github.com/kodcentrumcollaborative/Aktuella-uppgifter-i-Scratch.git"
   },
   "bugs": {
-    "url": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15/issues"
+    "url": "https://github.com/kodcentrumcollaborative/Aktuella-uppgifter-i-Scratch/issues"
   },
-  "homepage": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15#readme",
+  "homepage": "https://github.com/kodcentrumcollaborative/Aktuella-uppgifter-i-Scratch#readme",
   "scripts": {
     "start": "gulp"
   },
