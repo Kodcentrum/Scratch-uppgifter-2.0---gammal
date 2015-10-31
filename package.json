@@ -11,6 +11,9 @@
     "url": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15/issues"
   },
   "homepage": "https://github.com/kodcentrumcollaborative/Kodstuga_HT15#readme",
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-markdown": "^1.0.0",
