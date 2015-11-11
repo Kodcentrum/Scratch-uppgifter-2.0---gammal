@@ -134,7 +134,7 @@ Tips: Nu kan du klicka ur och **gömma din variabel och din lista** så att de i
 
 ## Ett färdigt program!
 
-**Grattis, nu har du gjort klart din robotgenerator! **Glöm inte att **spara ditt projekt**. Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Grattis, nu har du gjort klart din robotgenerator! **Glöm inte att **spara ditt projekt**. Döp det till uppgiftens namn så att du enkelt kan hitta den igen.
 
 Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon annan **testa programmet!**
 
