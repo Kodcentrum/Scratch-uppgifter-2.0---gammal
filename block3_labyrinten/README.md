@@ -41,7 +41,7 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 
   Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
 
-7. Gör ett skript för din sprajt som säger!:    
+7. Gör ett skript för din sprajt som säger!:   
   * Starta när **pil upp**-tangenten trycks ned
   * Då ska sprajten först **peka uppåt**
   * Sedan **röra sig** ett par steg
