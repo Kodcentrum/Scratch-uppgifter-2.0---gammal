@@ -16,10 +16,12 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 1. Skapa ett nytt Scratch-projekt. Ta bort katten genom att högerklicka på den och välja radera.
 
 2. Tryck på SCEN och byt till fliken BAKGRUNDER. Börja med att välja **bakgrundsfärg**, genom att fylla bakgrunden med en färg.
-3. Rita sedan din labyrint. Kom ihåg att ha ganska stora **mellanrum mellan** **väggarna** och se till att väggarna har **en och samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
+
+3. Rita sedan din labyrint. Kom ihåg att ha ganska stora **mellanrum mellan** **väggarna** och se till att väggarna har **en och samma färg**. Du kan göra raka streck om du använder LINJE-verktyget.
 
 4. Rita en **startpunkt**, den får **inte ha samma färg** som väggarna eller bakgrundsfärgen. Du kan till exempel göra cirklar med CIRKEL-verktyget.
-5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**.
+
+5. Rita sedan en **målpunkt i slutet av din labyrint**. Målpunkten måste också ha en **helt egen färg**.
 
   ![image alt text](image_2.png)
 
@@ -39,18 +41,18 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 
   Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
 
-7. Gör ett skript för din sprajt som säger:
-
-  * Starta när **pil upp**-tangenten trycks ned
-  * Då ska sprajten först **peka uppåt**
-  * Sedan **röra sig** ett par steg
+7. Gör ett skript för din sprajt som säger!:
+* Starta när **pil upp**-tangenten trycks ned
+* Då ska sprajten först **peka uppåt**
+* Sedan **röra sig** ett par steg
 
 8. Gör tre till likadana skript, fast för att styra **vänster**, **höger** och **nedåt**.
 
   ![image alt text](image_4.png)
 
   _Tänk på att ha olika riktningar i de olika skripten_
-**Testa ditt projekt!** Klicka på START. Kan du röra din sprite åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
+
+**Testa ditt projekt!** Klicka på START. Kan du röra din sprite åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
 
 Tips: Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
 
@@ -58,7 +60,8 @@ Tips: Du kan själv ändra hastigheten genom att ändra hur många steg sprajten
 ## Delmoment 3: Vinna eller förlora
 
 Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt nuddar väggen, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten vinner du.
-9. Ta först reda på var din startpunkt är. Sätt din sprajt mitt på **startpunkten** på SCEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
+
+9. Ta först reda på var din startpunkt är. Sätt din sprajt mitt på **startpunkten** på SCEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
 
   ![image alt text](image_5.png)
 
@@ -89,7 +92,8 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 ## Delmoment 4: En timer
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du!
-1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen. Gör ett nytt skript för sprajten som säger:
+
+1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen. Gör ett nytt skript för sprajten som säger:
 
   * Starta när START klickas på
   * **Gå till** startpunkten
@@ -152,6 +156,7 @@ Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till star
 * Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
 
 **Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+
+Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
 
 ![image alt text](image_10.jpg)
