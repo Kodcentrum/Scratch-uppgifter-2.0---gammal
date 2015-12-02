@@ -2,9 +2,9 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Två exempel på hur olika spelet kan se ut ser du här:
 
-[https://scratch.mit.edu/projects/52105140/](https://scratch.mit.edu/projects/52105140/)
+<a href="https://scratch.mit.edu/projects/52105140/" target="_blank">https://scratch.mit.edu/projects/52105140/</a>
 
-[https://scratch.mit.edu/projects/34921466/](https://scratch.mit.edu/projects/34921466/)
+<a href="https://scratch.mit.edu/projects/34921466/" target="_blank">https://scratch.mit.edu/projects/34921466/</a>
 
 ![image alt text](image_0.png) ![image alt text](image_1.png)
 
