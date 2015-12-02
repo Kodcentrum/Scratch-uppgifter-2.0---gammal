@@ -3,35 +3,6 @@
 Nu ska du få lära känna Scratch och samtidigt skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
 Ett exempel på det färdiga spelet finns på: <a href="https://scratch.mit.edu/projects/27697024/"target="_blank">https://scratch.mit.edu/projects/27697024/</a>
 
-## Kom igång med Scratch
-
-* Skapa ett **eget konto** på Scratch: [http://scratch.mit.edu/](http://scratch.mit.edu/)
-
-  Skriv ned ditt användarnamn och lösenord så att du inte glömmer det!
-
-* Tryck på **Skapa** på hemsidan för ett skapa ett nytt projekt
-
-* Om språket inte är svenska, tryck på **jordklotet** och scrolla ner tills du hittar **Svenska**.
-
-  ![image alt text](image_0.png)
-
-
-Så här ser din arbetsyta i Scratch ut:
-
-![image alt text](image_1.png)
-
-1. Här är din vita bakgrund som också kallas för **scen**.
-
-2. Här kan du se vilka **sprajter** du använder.
-
-3. I kolumnen i mitten plockar du ditt **skript**. Det är skript-block som finns i olika kategorier. Förutom skript finns flikar för **klädslar** och **ljud**.
-
-4. Kolumnen till höger är din **skriptyta** – där du kodar genom att lägga dina skript.
-Om du vill ta bort ett block drar du bara tillbaka blocket till mittkolumnen igen.
-
-5. Här är en **Hjälp**-kolumn om du behöver, den kan du klicka bort uppe i det vänstra hörnet.**
-
-
 ## Delmoment 1: Välja en skalbagge som sprajt
 
 I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
