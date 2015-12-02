@@ -100,7 +100,7 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
 
   ![image alt text](image_15.png)
   
-  ```blocks
+```blocks
 när vänsterpil trycks ned
 vänd vänster (15) grader
 ```
@@ -113,17 +113,6 @@ Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt 
 Om du trycker på START igen märker du att skalbaggen behåller den riktning som den hade när du slutade sist. Det kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 
 12. Välj blocket som säger **"peka i 90 riktning"** från **RÖRELSE**. Testa vad som händer om du ändrar på värdet från 90 grader till något annat. Det står även en hjälptext i rullistan när du väljer riktning.
-
-[scratchblocks]
-when gf clicked
-forever
-   turn cw (15) degrees
-   say [Hello!] for (2) secs
-   if <mouse down?> then
-      change [mouse clicks v] by (1)
-   end
-[/scratchblocks]
-
 
   ![image alt text](image_16.png)
 
