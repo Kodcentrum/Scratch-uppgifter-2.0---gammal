@@ -2,7 +2,7 @@
 
 Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga! 
 
-Ett exempel på Robotgenerator hittar du här: [https://scratch.mit.edu/projects/83059676](https://scratch.mit.edu/projects/83059676) 
+Ett exempel på Robotgenerator hittar du här: <a href="https://scratch.mit.edu/projects/83059676" target="_blank">https://scratch.mit.edu/projects/83059676</a>
 
 ![image alt text](image_0.jpg)
 
