@@ -102,7 +102,7 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
   
   ```blocks
 när vänsterpil trycks ned
-turn cw (15) degrees
+vänd vänster (15) grader
 ```
 
 Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
