@@ -2,7 +2,7 @@
 
 Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk! Programmet låter dig rita med olika färgpennor, sudda med suddgummi och måla med stämplar som du själv väljer. 
 
-Här hittar du ett exempel på ritprogrammet: [https://scratch.mit.edu/projects/82515788/](https://scratch.mit.edu/projects/82515788/) 
+Här hittar du ett exempel på ritprogrammet: <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">https://scratch.mit.edu/projects/82515788/</a>
 
 ![image alt text](image_0.jpg)
 
