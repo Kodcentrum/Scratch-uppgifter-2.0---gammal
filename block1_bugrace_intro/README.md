@@ -1,6 +1,6 @@
 # Bug Race (intro)
 
-Nuu ska du få lära känna Scratch och samtidigt skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
+Nu ska du få lära känna Scratch och samtidigt skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
 Ett exempel på det färdiga spelet finns på: <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">https://scratch.mit.edu/projects/27697024/</a>
 
 ## Delmoment 1: Välja en skalbagge som sprajt
@@ -99,6 +99,11 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
 11. Koppla fast ett skript under varje block; under **RÖRELSE** hittar du ett som säger **"vänd (pil vänster) 15 grader"** och ett som säger **"vänd (pil höger) 15 grader"**.
 
   ![image alt text](image_15.png)
+  
+  ```blocks
+när vänsterpil trycks ned
+turn cw (15) degrees
+```
 
 Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
 
@@ -109,13 +114,15 @@ Om du trycker på START igen märker du att skalbaggen behåller den riktning so
 
 12. Välj blocket som säger **"peka i 90 riktning"** från **RÖRELSE**. Testa vad som händer om du ändrar på värdet från 90 grader till något annat. Det står även en hjälptext i rullistan när du väljer riktning.
 
-```blocks
-när ⚑ klickas på
-peka i (90 v) riktning
-gå till x:(-45) y:(115)
-för alltid
-	gå (3) steg
-```
+[scratchblocks]
+when gf clicked
+forever
+   turn cw (15) degrees
+   say [Hello!] for (2) secs
+   if <mouse down?> then
+      change [mouse clicks v] by (1)
+   end
+[/scratchblocks]
 
 
   ![image alt text](image_16.png)
