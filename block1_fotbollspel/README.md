@@ -1,6 +1,7 @@
 # Fotbollsspel
 
-Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. Ett exempel på det färdiga spelet finns här: [scratch.mit.edu/projects/72797634](http://www.scratch.mit.edu/projects/72797634).
+Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. 
+Ett exempel på det färdiga spelet finns på: <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">http://www.scratch.mit.edu/projects/72797634/</a>
 
 ![image alt text](image_0.png)
 
@@ -31,10 +32,15 @@ Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajta
 ## Delmoment 2: Fotbollsplan som bakgrund
 
 Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enkelt!
-5. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
+
+5. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
 
   ![image alt text](image_6.png)	![image alt text](image_7.png)
-6. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.7. Rita ett mål i höger kant med REKTANGEL-verktyget. Målet ska vara vitt. Välj sedan PENSEL eller OVAL och gör en halvcirkel utanför målet, med en färg som ser vit ut men har en annan nyans än målet. Det är viktigt att du använder **två olika vita nyanser**, du kommer att förstå varför senare!
+
+
+6. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
+
+7. Rita ett mål i höger kant med REKTANGEL-verktyget. Målet ska vara vitt. Välj sedan PENSEL eller OVAL och gör en halvcirkel utanför målet, med en färg som ser vit ut men har en annan nyans än målet. Det är viktigt att du använder **två olika vita nyanser**, du kommer att förstå varför senare!
 
   ![image alt text](image_8.png)
 
@@ -60,7 +66,8 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
 10. Nu gäller det att välja rätt riktning för varje skript: du ser i rullistan vilket gradantal som det ska vara för **vänster**, **höger**, **upp** och **ned**.
 
   **Testa ditt projekt!** Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?
-  Tips: Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
+
+  Tips: Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
 
   ![image alt text](image_10.jpg)
 
@@ -82,7 +89,8 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
   _Om bollen rör pingvinen, då går den 50 steg._
 
   **Testa ditt projekt!** Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?
-  Tips: Om bollen försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter **"om <> då"**.
+
+  Tips: Om bollen försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter **"om <> då"**.
 
   **Testa ditt projekt** igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
 
@@ -111,7 +119,8 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 16. Nu ska du be bollen **skicka meddelande** när den rör färgen för målet. I **HÄNDELSER** hittar du **"skicka ___"**, ändra till nytt meddelande i rullistan och skriv in "Mål".
 
   ![image alt text](image_13.jpg)
-  _Så här borde bollens skript se ut nu._
+
+  _Så här borde bollens skript se ut nu._
 
 17. Nu är det spelarens tur! Du behöver tala om för spelarens sprajt att när den **tar emot meddelande** "Mål", då ska den säga "Mål!" – eller något annat om du hellre vill det. Under **UTSEENDE**** **hittar du **"säg ____ i 2 sekunder"**. Ändra antalet sekunder om du vill att det spelaren säger ska stå längre.
 
@@ -151,7 +160,8 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
 Grattis, nu har du skapat ett spel. Glöm inte att **spara ditt projekt**!
 Döp det t ex till _"Fotbollsspel":_ och ditt namn.
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+
+Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
 
 **Har du tid över?** Om du vill kan du själv försöka utveckla spelet!
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
