@@ -5,8 +5,10 @@ Det kan vara ett par musikspelande skor, ett armband, en mössa eller något hel
 
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
 
-Exempel på Framtidens musikspelare hittar du här: [https://scratch.mit.edu/projects/83586544](https://scratch.mit.edu/projects/83586544), [https://scratch.mit.edu/projects/81999316/](https://scratch.mit.edu/projects/81999316/)  
-
+Exempel på Framtidens musikspelare hittar du här:
+<a href="https://scratch.mit.edu/projects/83586544" target="_blank">https://scratch.mit.edu/projects/83586544</a>
+<a href="https://scratch.mit.edu/projects/81999316/" target="_blank">https://scratch.mit.edu/projects/81999316/</a>
+ 
 ![image alt text](image_0.jpg)   ![image alt text](image_1.jpg)
 
 
