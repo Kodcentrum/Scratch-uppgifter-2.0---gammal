@@ -82,11 +82,11 @@ Grattis, nu har du gjort klart tillägget!
 				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 			</td>
 		</tr>
-	</tbody>
+	</tbody
 </table>
 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
 
 * Flera banor
-Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
+ Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
