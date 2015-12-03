@@ -2,7 +2,8 @@
 
 Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga! 
 
-Ett exempel på Robotgenerator hittar du här: <a href="https://scratch.mit.edu/projects/83059676" target="_blank">https://scratch.mit.edu/projects/83059676</a>
+Ett exempel på Robotgenerator hittar du <a href="https://scratch.mit.edu/projects/83059676" target="_blank">
+här på Scratch</a>
 
 ![image alt text](image_0.jpg)
 
@@ -131,12 +132,10 @@ Tips: Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det r
 
 Tips: Nu kan du klicka ur och **gömma din variabel och din lista** så att de inte syns på scenen!
 
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
 
-## Ett färdigt program!
-
-**Grattis, nu har du gjort klart din robotgenerator! 
-
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -149,12 +148,11 @@ Tips: Nu kan du klicka ur och **gömma din variabel och din lista** så att de i
 	</tbody>
 </table>
 
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta med robotgeneratorn.
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-
-## Utmaning: Uppgraderingar av roboten
+### Utmaning: Uppgraderingar av roboten
 
 Om du vill uppgradera din robot med fler funktioner så kan du göra det. Du kan lägga till fler *klädslar* för de olika robotdelarna eller ge den ben eller rullband att röra sig med! 
 
 Du kan också skapa interaktiva moment till din robotgenerator: Kanske kan roboten ha knappar som du kan trycka på för att få den att utföra olika saker? Fundera på vad du skulle vilja ha för en robot hemma – vad vill du ha hjälp med som en robot kan utföra?
-
