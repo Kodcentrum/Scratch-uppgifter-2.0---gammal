@@ -236,7 +236,10 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 
 Tips: Du kan se vad bakgrunderna heter om du klicka på fliken **Bakgrunder**!
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
