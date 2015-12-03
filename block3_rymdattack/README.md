@@ -45,7 +45,8 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 8. Klicka på raketen och sedan på fliken **Klädslar**. Högst upp till höger hittar du **Sätt klädselns centrum**. Sätt centrum till raketens spets, zooma in så kan du trycka på den enklare!
 
   ![image alt text](image_3.png)
-  Nu behöver du själva skottet som raketen kommer att skjuta. För att göra det måste du **skapa en ny sprajt**.
+
+  Nu behöver du själva skottet som raketen kommer att skjuta. För att göra det måste du **skapa en ny sprajt**.
 
 10. **Rita en ny sprajt** genom att zooma in så mycket så att du ser alla rutor (**pixlar**). Gör en gul ifylld rektangel som täcker mittpunkten. Den ska vara **6 rutor lång** och **2 rutor bred**.
 
@@ -75,7 +76,8 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
   * Kolla **om "Ammo" < 4**
   * **Då** ska den **ändra "Ammo" med 1**
   * **Skapa en klon av sig själv**
-  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om den krockar, med kanten!
+
+  Nu har du gjort ett skript som styr hur många skott du kan ha på scenen samtidigt, den klonar sig själv tills det finns tre skott. Nu behöver du ett skript som gör att skottet startar från raketen och att det upptäcker KOLLISION, det vill säga om den krockar, med kanten!
 
 14. Skapa ett till skript för skottet som säger:
 
@@ -151,7 +153,8 @@ Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många p
 
   _Det här kan vara lite klurigt att fästa ihop. Använd dessa block.
   Lägg till mellanslag för att få meddelandet att se snyggt ut!_
-Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!
+
+Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!
 
 
 ## Delmoment 5: Flera nivåer för spelet
@@ -173,7 +176,8 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
   * Sätter hastighet till -1
 
   Båda av dessa block ska fästas efter sprajten har **gömts**, men innan **för alltid**-loopen.
-24. Byt ut **ändra y med -4** till **ändra y med hastighet** i det andra skriptet, det som du gjorde i steg 18.
+
+24. Byt ut **ändra y med -4** till **ändra y med hastighet** i det andra skriptet, det som du gjorde i steg 18.
 
   ![image alt text](image_8.png)
 
@@ -198,7 +202,8 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
   _Dessa är blocken du behöver använda!_
 
   Om du förstår skriptet så ser du att den gör ändringarna för **varje nivå**, så att det kan bli svårare och svårare. Nu ändrar den hastigheten och färgeffekten medan den lägger till mer tid.
-26. Skapa sedan ett nytt skript som säger:
+
+26. Skapa sedan ett nytt skript som säger:
 
   * Starta när den **tar emot meddelandet vinst**
   * Säg **"Du vann! Du fick >poäng variabeln värde< poäng!"**
@@ -231,7 +236,15 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 
 Tips: Du kan se vad bakgrunderna heter om du klicka på fliken **Bakgrunder**!
 
-**Grattis, nu har du gjort klar spelet!** Glöm inte att **spara ditt projekt**. Döp det uppgiftens namn så att du enkelt kan hitta den igen.
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
 
-![image alt text](image_11.jpg)
+<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
+	<tbody>
+		<tr>
+			<td>
+				<strong>Testa ditt projekt</strong>
+				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			</td>
+		</tr>
+	</tbody>
+</table>
