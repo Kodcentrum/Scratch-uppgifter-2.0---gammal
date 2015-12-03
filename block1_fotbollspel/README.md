@@ -155,12 +155,10 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
 
+## Färdig!
+Grattis, nu har du gjort klart uppgiften!
 
-## Ett färdigt spel!
-
-Grattis, nu har du skapat ett spel!
-
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -173,10 +171,15 @@ Grattis, nu har du skapat ett spel!
 	</tbody>
 </table>
 
-**Har du tid över?** Om du vill kan du själv försöka utveckla spelet!
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta med XXX:
+* Animera fotbollsspelaren
+
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
 
 ![image alt text](image_17.jpg)
+
+* Poängräknare
 
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
