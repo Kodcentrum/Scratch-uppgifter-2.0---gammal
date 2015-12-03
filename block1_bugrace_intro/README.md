@@ -2,7 +2,7 @@
 
 Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
 
-Ett exempel på det färdiga spelet finns på: <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">https://scratch.mit.edu/projects/27697024/</a>
+Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
 ## Delmoment 1: Välja en skalbagge som sprajt
 
@@ -137,13 +137,12 @@ Något saknas! När vill du att datorn ska känna av om skalbaggen nuddar det gr
 17. Lägg till **"stoppa detta skript"**, under **KONTROLL**, om skalbaggen springer av banan. På så sätt avslutas spelet och det går inte längre att styra skalbaggen.
 
 
-## Ett färdigt spel!
-
-Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se ut så här:
+## Färdig!
+Grattis, nu har duskapat ett spel! Det färdiga skriptet i sin helhet borde se ut så här:
 
 ![image alt text](image_18.png)
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -156,6 +155,7 @@ Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se 
 	</tbody>
 </table>
 
+##Utmaning
 Saknas något? Hur skulle du vilja utveckla spelet?
 
 Det får du göra i nästa uppgift!
