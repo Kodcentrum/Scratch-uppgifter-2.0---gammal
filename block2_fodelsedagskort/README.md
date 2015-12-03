@@ -155,9 +155,10 @@ värdet för färgeffekten och se vad som händer!_
 
 **Testa ditt projekt!** Kommer det upp en tårta när katten säger _"Grattis …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
 
-**Nu har du gjort klart animationen!** Om du vill kan du göra utmaningen innan du avslutar uppgiften.
+## Färdig!
+Grattis, nu har du gjort klart XXX
 
-**Glöm inte att spara ditt projekt!** Döp det till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -170,8 +171,10 @@ värdet för färgeffekten och se vad som händer!_
 	</tbody>
 </table>
 
-## Utmaning: Unika sprajtar
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
+### Unika sprajtar
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
 
 * Ändra färgeffekt under dansen
