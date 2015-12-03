@@ -157,18 +157,6 @@ värdet för färgeffekten och se vad som händer!_
 
 **Nu har du gjort klart animationen!** Om du vill kan du göra utmaningen innan du avslutar uppgiften.
 
-
-## Utmaning: Unika sprajtar
-
-Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
-
-* Ändra färgeffekt under dansen
-* Ändra storlek på sprajten
-* Lägg till rotation så att de vrider på sig
-* Ändra hur fort dom dansar
-
-Kan du hitta fler sätt att göra dom mer unika?
-
 **Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
@@ -181,3 +169,14 @@ Kan du hitta fler sätt att göra dom mer unika?
 		</tr>
 	</tbody>
 </table>
+
+## Utmaning: Unika sprajtar
+
+Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
+
+* Ändra färgeffekt under dansen
+* Ändra storlek på sprajten
+* Lägg till rotation så att de vrider på sig
+* Ändra hur fort dom dansar
+
+Kan du hitta fler sätt att göra dom mer unika?
