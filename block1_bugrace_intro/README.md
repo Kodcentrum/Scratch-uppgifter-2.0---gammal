@@ -1,6 +1,7 @@
 # Bug Race (intro)
 
-Nu ska du få lära känna Scratch och samtidigt skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
+Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet.
+
 Ett exempel på det färdiga spelet finns på: <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">https://scratch.mit.edu/projects/27697024/</a>
 
 ## Delmoment 1: Välja en skalbagge som sprajt
@@ -144,6 +145,9 @@ Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se 
 
 Glöm inte att **spara ditt projekt**!
 Döp det t ex till _"Bug Race"_ och ditt namn.
+
+### Testa ditt projekt
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 <table border="0" cellspacing="0" cellpadding="0" class="noheader">
 <tbody>
