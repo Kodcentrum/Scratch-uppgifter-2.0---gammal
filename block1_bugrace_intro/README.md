@@ -146,26 +146,11 @@ Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se 
 Glöm inte att **spara ditt projekt**!
 Döp det t ex till _"Bug Race"_ och ditt namn.
 
-<p>
-<div style="border-color: rgb(230, 63, 152);" class="small interact">
-	<div class="clearfix">
-		<div class="icon comment">
-			<span></span>
-			<span>
-				<strong>Testa ditt projekt</strong>
-				Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. 
-			</span>
-		</div>
-	</div>
-</div>
-
-### Testa ditt projekt
-
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 <tbody>
 <tr>
 <td><strong>Testa ditt projekt</strong>
-<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <b>testa spelet!</b></td>
+<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</td>
 </tr>
 </tbody>
 </table>
