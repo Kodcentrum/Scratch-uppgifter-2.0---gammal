@@ -2,9 +2,9 @@
 
 Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Två exempel på hur olika spelet kan se ut ser du här:
 
-<a href="https://scratch.mit.edu/projects/52105140/" target="_blank">https://scratch.mit.edu/projects/52105140/</a>
+* <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 
-<a href="https://scratch.mit.edu/projects/34921466/" target="_blank">https://scratch.mit.edu/projects/34921466/</a>
+* <a href="https://scratch.mit.edu/projects/34921466/" target="_blank">Exempel 2</a>
 
 ![image alt text](image_0.png) ![image alt text](image_1.png)
 
@@ -132,30 +132,13 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
   * När sprajten **tar emot meddelandet NästaNivå**
   * Byt till **nästa klädsel**
-
+  
 **Testa ditt projekt!** Klicka på START. Vad händer när du har klarat den första banan?
 
-Tips: Du kan lägga till ännu fler nivåer genom att rita nya **klädslar** som följer reglerna:
+## Färdig!
+Grattis, nu har du gjort klart uppgiften!
 
-  * Samma position på startpunkten
-  * Samma färg på väggarna
-  * Samma färg på målpunkten
-  * Att det inte finns andra saker med samma färg som väggen eller målpunkten
-
-**Grattis, nu har du gjort klart spelet!** Vill du ha en utmaning?
-
-
-## Utmaning: Lägg till hinder
-
-Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till startpunkten. Du kan hitta på egna monster eller andra slags hinder som du måste ta dig förbi på väg till mål.
-
-* Tänk på vilken färg hindren har, så att de inte har samma färg som vägg eller målpunkt
-* Välj själv om du vill att hindren rör sig eller om de ska stå stilla
-* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindren
-* Ändra skriptet för sprajten så att den känner av hindren på samma sätt som väggen
-* Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
-
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -167,3 +150,23 @@ Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till star
 		</tr>
 	</tbody>
 </table>
+
+## Utmaningar
+Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
+
+### Fler nivåer
+Du kan lägga till ännu fler nivåer genom att rita nya **klädslar** som följer reglerna:
+
+  * Samma position på startpunkten
+  * Samma färg på väggarna
+  * Samma färg på målpunkten
+  * Att det inte finns andra saker med samma färg som väggen eller målpunkten
+
+### Lägg till hinder
+Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till startpunkten. Du kan hitta på egna monster eller andra slags hinder som du måste ta dig förbi på väg till mål.
+
+* Tänk på vilken färg hindren har, så att de inte har samma färg som vägg eller målpunkt
+* Välj själv om du vill att hindren rör sig eller om de ska stå stilla
+* Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindren
+* Ändra skriptet för sprajten så att den känner av hindren på samma sätt som väggen
+* Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
