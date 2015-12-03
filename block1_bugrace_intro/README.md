@@ -157,7 +157,7 @@ Döp det t ex till _"Bug Race"_ och ditt namn.
 </table>
 
 <div class="clearfix">
-	<div class="icon splitscreen">
+	<div class="icon lightbulb">
 		<span></span>
 		<span>
 			<strong>Testa ditt projekt</strong>
