@@ -41,7 +41,8 @@ Börja med att ta bort katten och välja en ny sprajt till din berättelse. Du b
 ## Delmoment 3: VAR – välja bakgrund
 
 Nu ska du välja bakgrund för din berättelse, en eller flera olika ifall du vill kunna byta scen i berättelsen. Du kan använda färdiga bakgrunder från biblioteket, eller rita själv.  
-5. För att ändra bakgrund trycker du först på SCEN längst till vänster.  Nedanför kan du trycka på "Välj bakgrund från bibliotek". Vill du rita själv går du in på fliken BAKGRUNDER högst upp i mitten.
+
+5. För att ändra bakgrund trycker du först på SCEN längst till vänster.  Nedanför kan du trycka på "Välj bakgrund från bibliotek". Vill du rita själv går du in på fliken BAKGRUNDER högst upp i mitten.
 
   ![image alt text](image_3.png)	![image alt text](image_4.png)
 
@@ -123,7 +124,15 @@ t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en vi
 
 ## En färdig berättelse!
 
-Är du klar med din berättelse? Glöm inte att **spara ditt projekt**. Döp det t ex till _"Sagan om …"_.
-Tryck på DELA för att andra ska kunna hitta berättelsen på Scratch. Gå ut till projektsidan och låt någon annan **titta på berättelsen!**
+**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
 
-![image alt text](image_20.jpg)
+<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
+	<tbody>
+		<tr>
+			<td>
+				<strong>Testa ditt projekt</strong>
+				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			</td>
+		</tr>
+	</tbody>
+</table>
