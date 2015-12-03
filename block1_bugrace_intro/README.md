@@ -154,8 +154,7 @@ Döp det t ex till _"Bug Race"_ och ditt namn.
 			<span>
 				<strong>Testa ditt projekt</strong>
 				<br>Visa gärna någon det som du har gjort och låt dem testa. 
-				<br>Tryck på DELA för att andra ska kunna hitta spelet på Scratch. 
-				<br>Gå ut till projektsidan och låt någon annan testa spelet!
+				Tryck på DELA för att andra ska kunna hitta spelet på Scratch. 
 			</span>
 		</div>
 	</div>
