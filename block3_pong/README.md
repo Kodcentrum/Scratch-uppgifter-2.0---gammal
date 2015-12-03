@@ -61,7 +61,9 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
 8. Skapa en ny sprajt genom att klicka på **"Välj en sprajt från biblioteket"**. Välj en som liknar en boll! I exemplet används **Saker/Baseball**.
 
-9. Gör bollen till den storlek som du tycker passar, du kan alltid ändra storleken sen om det blir för enkelt eller svårt att spela.10. Nu behöver du se till att bollen startar i mitten varje gång vi sätter på spelet, och åker därifrån åt ett slumpmässigt håll!
+9. Gör bollen till den storlek som du tycker passar, du kan alltid ändra storleken sen om det blir för enkelt eller svårt att spela.
+
+10. Nu behöver du se till att bollen startar i mitten varje gång vi sätter på spelet, och åker därifrån åt ett slumpmässigt håll!
 
   Skapa ett skript för bollen som säger:  
 
@@ -172,7 +174,15 @@ Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan n
 
 Tips: Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
 
-**Glöm inte att spara ditt projekt!** Döp den till uppgiftens namn så att du enkelt kan hitta den igen.
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
 
-![image alt text](image_10.jpg)
+<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
+	<tbody>
+		<tr>
+			<td>
+				<strong>Testa ditt projekt</strong>
+				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			</td>
+		</tr>
+	</tbody>
+</table>
