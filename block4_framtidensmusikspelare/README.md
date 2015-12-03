@@ -126,9 +126,20 @@ Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du 
 
 ## Ett färdigt program!
 
-**Grattis, nu har du gjort klart din framtida musikspelare! **Glöm inte att **spara ditt projekt**. Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Grattis, nu har du gjort klart din framtida musikspelare!
 
-Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon annan **testa programmet!**
+**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+
+<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
+	<tbody>
+		<tr>
+			<td>
+				<strong>Testa ditt projekt</strong>
+				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 **Har du tid över?** Här kommer en utmaning för dig som vill fortsätta med musikspelaren:
 
