@@ -6,8 +6,8 @@ Det kan vara ett par musikspelande skor, ett armband, en mössa eller något hel
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
 
 Exempel på Framtidens musikspelare hittar du här:
-<br><a href="https://scratch.mit.edu/projects/83586544" target="_blank">https://scratch.mit.edu/projects/83586544</a>
-<br><a href="https://scratch.mit.edu/projects/81999316/" target="_blank">https://scratch.mit.edu/projects/81999316/</a>
+* <a href="https://scratch.mit.edu/projects/83586544" target="_blank">Exempel 1</a>
+* <a href="https://scratch.mit.edu/projects/81999316/" target="_blank">Exempel 2</a>
  
 ![image alt text](image_0.jpg)   ![image alt text](image_1.jpg)
 
@@ -123,12 +123,10 @@ Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du 
 
 **Testa ditt projekt! **Klicka på START. Har musikspelaren den *klädsel* du vill att den ska ha från början? Är alla ljud avstängda? Kan du starta musikspelaren? Kan du byta musik? Kan du stänga av?
 
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
 
-## Ett färdigt program!
-
-**Grattis, nu har du gjort klart din framtida musikspelare!
-
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -141,10 +139,10 @@ Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du 
 	</tbody>
 </table>
 
-**Har du tid över?** Här kommer en utmaning för dig som vill fortsätta med musikspelaren:
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-
-## Utmaning: Gör en dj-mixer
+### Utmaning: Gör en dj-mixer
 
 Om du vill fortsätta med din musikspelare kan du göra om den till en ljudmixer så att du kan vara DJ och mixa ihop ljud till egna låtar. Här får du testa dig fram med olika ljud från biblioteket, och hur du ska kunna byta mellan ljuden. Det går även att ändra **tempo** och **volym** för ljud i Scratch.
 
