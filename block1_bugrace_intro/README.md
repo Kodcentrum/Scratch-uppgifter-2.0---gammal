@@ -156,6 +156,16 @@ Döp det t ex till _"Bug Race"_ och ditt namn.
 </tbody>
 </table>
 
+<div class="clearfix">
+	<div class="icon splitscreen">
+		<span></span>
+		<span>
+			<strong>Testa ditt projekt</strong>
+			Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+		</span>
+	</div>
+</div>
+
 Saknas något? Hur skulle du vilja utveckla spelet?
 
 Det får du göra i nästa uppgift!
