@@ -150,14 +150,13 @@ Grattis, nu har du skapat ett spel! Det färdiga skriptet i sin helhet borde se 
 Glöm inte att **spara ditt projekt**!
 Döp det t ex till _"Bug Race"_ och ditt namn.
 
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
-
-![image alt text](image_19.jpg)
+[comment]: <>Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+[comment]: <>![image alt text](image_19.jpg)
 
 <table border="0" cellspacing="0" cellpadding="0" class="noheader">
 <tbody>
 <tr>
-<td style="vertical-align: top; width: 150px;"><strong>Testa ditt projekt</strong></td>
+<td style="vertical-align: top; width: 170px;"><strong>Testa ditt projekt</strong></td>
 <td>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <b>testa spelet!</b> <br> <img src="image_19.jpg"></td>
 </tr>
 </tbody>
