@@ -173,14 +173,13 @@ Grattis, nu har du gjort klart uppgiften!
 
 ## Utmaning
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta:
-* Animera fotbollsspelaren
 
+###Animera fotbollsspelaren
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
 
 ![image alt text](image_17.jpg)
 
-* Poängräknare
-
+###Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
 Tips: Titta på det här exemplet på hur spelet kan se ut: [scratch.mit.edu/projects/32369372](http://www.scratch.mit.edu/projects/32369372).
