@@ -157,8 +157,8 @@ Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till pr
 <table border="0" cellspacing="0" cellpadding="0" class="noheader">
 <tbody>
 <tr>
-<td style="vertical-align: top; width: 100px;"><strong>Testa ditt projekt</strong></td>
-<td>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!** <br> <img src="image_19.jpg"></td>
+<td style="vertical-align: top; width: 150px;"><strong>Testa ditt projekt</strong></td>
+<td>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <b>testa spelet!</b> <br> <img src="image_19.jpg"></td>
 </tr>
 </tbody>
 </table>
