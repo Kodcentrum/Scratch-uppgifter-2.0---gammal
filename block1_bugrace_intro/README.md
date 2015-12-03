@@ -155,7 +155,8 @@ Grattis, nu har duskapat ett spel! Det färdiga skriptet i sin helhet borde se u
 	</tbody>
 </table>
 
-##Utmaning
+
+## Utmaning
 Saknas något? Hur skulle du vilja utveckla spelet?
 
 Det får du göra i nästa uppgift!
