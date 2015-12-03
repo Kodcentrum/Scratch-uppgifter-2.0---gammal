@@ -122,9 +122,10 @@ t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en vi
   ![image alt text](image_18.jpg)![image alt text](image_19.jpg)
 
 
-## En färdig berättelse!
+## Färdig!
+Grattis, nu har du gjort klart uppgiften!
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
