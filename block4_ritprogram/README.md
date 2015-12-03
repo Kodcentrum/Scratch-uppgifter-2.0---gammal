@@ -2,7 +2,7 @@
 
 Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk! Programmet låter dig rita med olika färgpennor, sudda med suddgummi och måla med stämplar som du själv väljer. 
 
-Här hittar du ett exempel på ritprogrammet: <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">https://scratch.mit.edu/projects/82515788/</a>
+Du kan se ett exempel på ritprogrammet <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">på Scratch</a>
 
 ![image alt text](image_0.jpg)
 
@@ -265,7 +265,10 @@ Tips: Titta på hur du gjorde för *variabeln* **"pennläge"**. Använd **"sant"
 
 **Testa ditt projekt!** Kan du byta mellan regnbågspennan och de andra färgerna?
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+## Färdig!
+Grattis, nu har du gjort klart uppgiften.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -277,4 +280,3 @@ Tips: Titta på hur du gjorde för *variabeln* **"pennläge"**. Använd **"sant"
 		</tr>
 	</tbody>
 </table>
-
