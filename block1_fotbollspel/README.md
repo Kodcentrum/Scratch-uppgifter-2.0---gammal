@@ -158,8 +158,9 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
 ## Ett färdigt spel!
 
-Grattis, nu har du skapat ett spel. Glöm inte att **spara ditt projekt**!
-Döp det t ex till _"Fotbollsspel":_ och ditt namn.
+Grattis, nu har du skapat ett spel!
+
+**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
