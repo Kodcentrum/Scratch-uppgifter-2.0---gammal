@@ -157,7 +157,7 @@ värdet för färgeffekten och se vad som händer!_
 
 **Nu har du gjort klart animationen!** Om du vill kan du göra utmaningen innan du avslutar uppgiften.
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
