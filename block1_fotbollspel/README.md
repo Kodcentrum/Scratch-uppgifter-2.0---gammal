@@ -1,7 +1,7 @@
 # Fotbollsspel
 
 Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. 
-Ett exempel på det färdiga spelet finns på: <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">http://www.scratch.mit.edu/projects/72797634/</a>
+Ett exempel på det färdiga spelet finns på <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">här på Scratch</a>
 
 ![image alt text](image_0.png)
 
@@ -172,7 +172,7 @@ Grattis, nu har du gjort klart uppgiften!
 </table>
 
 ## Utmaning
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta med XXX:
+Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta:
 * Animera fotbollsspelaren
 
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
