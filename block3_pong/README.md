@@ -153,9 +153,10 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
 **Testa ditt projekt!** Klicka på START. Stoppas spelet om någon spelare får 5 poäng?
 *Du kan ändra talet 5 så att man kan vinna med färre eller fler poäng!*
 
-**Grattis, nu har du gjort klar spelet!** Vågar du försöka dig på utmaningen?
+## Färdig!
+Grattis, nu har du gjort klart XXX
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -168,8 +169,10 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
 	</tbody>
 </table>
 
-## Utmaning: En timer
+## Utmaning
+Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 
+### Utmaning: En timer
 Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan någon får poäng. Därför kan du göra en timer som får bollen att röra sig fortare och fortare tills någon får poäng.
 
 18. Gör en ny **variabel** för bollen som heter "Hastighet". Välj att den inte ska synas på scenen.
@@ -184,4 +187,5 @@ Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan n
 
 21. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om-**block som kollar om bollen har **rört blå färg** respektive **röd färg**.
 
-Tips: Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
+### Utmaning: Mindre plattor
+Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
