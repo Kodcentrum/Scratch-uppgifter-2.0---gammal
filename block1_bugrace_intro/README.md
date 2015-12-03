@@ -160,10 +160,11 @@ Döp det t ex till _"Bug Race"_ och ditt namn.
 </div>
 
 ### Testa ditt projekt
-<table border="0" cellspacing="0" cellpadding="0" class="noheader">
+<table border="0" cellspacing="0" cellpadding="0" class="noheader" style="border-color: rgb(230, 63, 152);" >
 <tbody>
 <tr>
-<td>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <b>testa spelet!</b></td>
+<td><strong>Testa ditt projekt</strong>
+<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan <b>testa spelet!</b></td>
 </tr>
 </tbody>
 </table>
@@ -173,7 +174,7 @@ Döp det t ex till _"Bug Race"_ och ditt namn.
 		<span></span>
 		<span>
 			<strong>Testa ditt projekt</strong>
-			Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 		</span>
 	</div>
 </div>
