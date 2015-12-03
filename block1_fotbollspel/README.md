@@ -161,7 +161,16 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 Grattis, nu har du skapat ett spel. Glöm inte att **spara ditt projekt**!
 Döp det t ex till _"Fotbollsspel":_ och ditt namn.
 
-Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan **testa spelet!**
+<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
+	<tbody>
+		<tr>
+			<td>
+				<strong>Testa ditt projekt</strong>
+				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 **Har du tid över?** Om du vill kan du själv försöka utveckla spelet!
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
