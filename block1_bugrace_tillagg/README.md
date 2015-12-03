@@ -69,7 +69,10 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
-**Glöm inte att spara ditt projekt!** Döp det uppgiftens namn så att du enkelt kan hitta den igen.
+## Färdig!
+Grattis, nu har du gjort klart tillägget!
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 <table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
 	<tbody>
@@ -82,6 +85,8 @@ Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 	</tbody>
 </table>
 
-## Utmaning: Flera banor
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
 
+* Flera banor
 Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
