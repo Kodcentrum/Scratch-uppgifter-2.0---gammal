@@ -56,7 +56,7 @@ Det första du ska göra är att se till att skalbaggen rör sig när du trycker
 
 "När jag trycker på START, ska skalbaggen röra sig."
 
-7. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på" **till skriptytan.  Under den kopplar du fast blocket för **RÖRELSE**: **"gå 10 steg"**.
+7. Dra ut ett block för **HÄNDELSER**: "när START (flaggan) klickas på" till skriptytan.  Under den kopplar du fast blocket för **RÖRELSE**: **"gå 10 steg"**.
 
   ![image alt text](image_11.png)
 
@@ -119,7 +119,7 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 
 13. Välj blocket "**om <> då**" som finns under **KONTROLL**. Det här blocket säger att OM det som står i **<>** händer, DÅ ska något annat hända. Om skalbaggen rör färgen grön, säg Game Over!
 
-14. Under **KÄNNA AV **finns blocket "**Rör färgen <> ?"**. Dra den till **<>**, tryck på den lilla fyrkanten och sedan på ditt gräs. Den lilla fyrkanten får nu samma gröna färg som gräset.
+14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. Dra den till **<>**, tryck på den lilla fyrkanten och sedan på ditt gräs. Den lilla fyrkanten får nu samma gröna färg som gräset.
 
   ![image alt text](image_17.png)
 
