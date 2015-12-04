@@ -38,7 +38,7 @@ Meningen med spelet är att styra rymdraketen åt vänster och höger för att s
 
     ![image alt text](image_2.png)
 
-**Testa ditt projekt!** Klicka på START. Kan du röra raketen åt vänster och höger? Studsar den vid kanten?
+> Testa ditt projekt! Klicka på START. Kan du röra raketen åt vänster och höger? Studsar den vid kanten?
 
 Nu ska du göra så att raketen kan skjuta. För att göra det måste du först ändra raketens **mittpunkt** till dess topp.
 
@@ -93,7 +93,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
   _Det här är alla block som du behöver för steg 11-14._
 
 
-**Testa ditt projekt!** Klicka på START. Skjuter du skott när du klickar på **mellanslag**? Skjuter du från raketen? Kan du bara skjuta tre skott?
+> Testa ditt projekt! Klicka på START. Skjuter du skott när du klickar på **mellanslag**? Skjuter du från raketen? Kan du bara skjuta tre skott?
 
 Tips: Om skotten rör sig för långsamt eller snabbt, ändra hur mycket **y ändras**. Testa dig fram!
 
@@ -195,7 +195,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
     * Säg **Nästa nivå!** i 2 sekunder
     * **Vänta** 2 sekunder
   * Ändra sedan _färg_ **effekten** med 50
-  * Ändra sedan **hastigheten **med -2
+  * Ändra sedan **hastigheten** med -2
 
   ![image alt text](image_9.png)
 
@@ -210,7 +210,7 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
 Tips: Titta på delmoment 4 om du har glömt hur du gjorde!
 
-**Testa ditt projekt!** Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?
+> Testa ditt projekt! Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?
 
 
 ## Delmoment 6: Bakgrund när spelet är vunnet
@@ -236,18 +236,11 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 
 Tips: Du kan se vad bakgrunderna heter om du klicka på fliken **Bakgrunder**!
 
+
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
