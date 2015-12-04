@@ -18,7 +18,7 @@ Samtidigt som du ritar upp berättelsen steg för steg, behöver du fundera på 
   * VAD ska hända som innebär ett hinder på vägen?
   * HUR ska det lösas?
 
-2. **Testa din storyboard** på någon. Förstår hen berättelsen? Går den att animera i Scratch?
+2. Testa din storyboard på någon. Förstår hen berättelsen? Går den att animera i Scratch?
 
 
 ## Delmoment 2: VEM? Välja huvudkaraktär
@@ -55,25 +55,25 @@ Nu när du har sprajt och bakgrund färdig kan du börja skapa ditt första skri
 
 Eftersom det är din berättelse behöver du själv prova dig fram och hitta de skript du behöver. Titta gärna på dina tidigare projekt och hur du gjorde skripten då. Här får du några tips på användbara skript för att skapa en berättelse.
 
-Gör **ett skript i taget och** **testa** ofta, tryck på START-knappen och se om skriptet gör det som du hade tänkt. Kom ihåg att **spara** ofta!
+> Gör **ett skript i taget och testa** ofta, tryck på START-knappen och se om skriptet gör det som du hade tänkt. Kom ihåg att **spara** ofta!
 
 * **Vad ska hända när berättelsen startar?**
 
-Använd blocket **"när START (flaggan) klickas på" **från **HÄNDELSER**.
+Använd blocket **"när START (flaggan) klickas på"** från **HÄNDELSER**.
 
 ![image alt text](image_5.png)
 
-Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:" **från **RÖRELSE**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
+Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:"** från **RÖRELSE**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
 
 ![image alt text](image_6.png)
 
 Tips: En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**,
-t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en viss färg eller vid en annan sprajt.
+t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
 ![image alt text](image_7.jpg) ![image alt text](image_8.jpg) ![image alt text](image_9.jpg)
 
 * **Hur ska sprajten röra sig?**
 
-  Använd block från **RÖRELSE**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg.** **Om sprajten ska röra sig under hela berättelsen, eller upprepa ett mönster av olika rörelser, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
+  Använd block från **RÖRELSE**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg. **Om sprajten ska röra sig under hela berättelsen, eller upprepa ett mönster av olika rörelser, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
 
   ![image alt text](image_10.png)
 
@@ -83,7 +83,7 @@ t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en vi
 
 * **Ska sprajten säga något?**
 
-  Använd blocket **"säg ___ i 2 sekunder" **från **UTSEENDE**. Välj vad sprajten ska säga och hur länge pratbubblan ska synas. Bestäm **när** eller **om < > då** pratbubblan ska visas.
+  Använd blocket **"säg ___ i 2 sekunder"** från **UTSEENDE**. Välj vad sprajten ska säga och hur länge pratbubblan ska synas. Bestäm **när** eller **om < > då** pratbubblan ska visas.
 
   ![image alt text](image_12.jpg)
 
@@ -95,7 +95,7 @@ t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en vi
 
 * **Ska scenen byta bakgrund?**
 
-  Om berättelsen ska utspela sig i flera olika miljöer, kan du byta bakgrund på scenen. Använd blocket **"byt bakgrund till ()"**från **UTSEENDE**. Bestäm **när** eller **om < > då** bakgrunden ska bytas ut.
+  Om berättelsen ska utspela sig i flera olika miljöer, kan du byta bakgrund på scenen. Använd blocket **"byt bakgrund till ()"** från **UTSEENDE**. Bestäm **när** eller **om < > då** bakgrunden ska bytas ut.
 
   ![image alt text](image_14.jpg)
 
@@ -123,17 +123,9 @@ t ex att något sker **när** bakgrunden ändras,** om** sprajten **rör** en vi
 
 
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften!
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
