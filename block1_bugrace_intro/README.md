@@ -54,7 +54,7 @@ Börja med att dra skalbagge-sprajten till den målade banan (som på bilden ova
 Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
 Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START. För att göra det måste du lägga till ditt första skript som säger:
 
-> "När jag trycker på START, ska skalbaggen röra sig."
+"När jag trycker på START, ska skalbaggen röra sig."
 
 7. Dra ut ett block för **HÄNDELSER**: **"när START (flaggan) klickas på" **till skriptytan.  Under den kopplar du fast blocket för **RÖRELSE**: **"gå 10 steg"**.
 
