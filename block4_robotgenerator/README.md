@@ -34,7 +34,7 @@ Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. D
 
 Tips: Behöver du inspiration för att hitta på hur en robot kan se ut? Sök på "robot" på nätet och titta på bilder. Tänk på att du kan ge roboten olika känslolägen med glad eller ledsen mun, trötta eller pigga ögon och så vidare.
 
-Hamnar någon del bakom en annan, till exempel ögonen bakom huvudet? Du kommer strax att göra ett *skript* som säger åt delarna att lägga sig i rätt ordning, så att det ser rätt ut.
+> Testa ditt projekt! Klicka på START. Hamnar någon del bakom en annan, till exempel ögonen bakom huvudet? Du kommer strax att göra ett *skript* som säger åt delarna att lägga sig i rätt ordning, så att det ser rätt ut.
 
 
 ## Delmoment 2: Skript som kombinerar robotar
@@ -53,13 +53,13 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
 
   ![image alt text](image_3.jpg)
 
-  **Testa ditt projekt! **Klicka på START. Ändras robotens mun och ögon och stannar på en slumpmässigt vald klädsel?
+  > Testa ditt projekt! Klicka på START. Ändras robotens mun och ögon och stannar på en slumpmässigt vald klädsel?
 
-10. Kopiera *skriptet* till **"huvud"**,** "kropp"**,** "armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. Byt ut blocket **lägg överst** till **gå tillbaka** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
+10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. Byt ut blocket **lägg överst** till **gå tillbaka** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
 
   ![image alt text](image_4.jpg)
 
-**Testa ditt projekt! **Klicka på START. Ändras alla robotens delar? Stannar de efter en halv sekund på en slumpmässigt vald klädsel? Sitter alla delar där du vill att de ska vara? Är de i rätt lager?
+> Testa ditt projekt! Klicka på START. Ändras alla robotens delar? Stannar de efter en halv sekund på en slumpmässigt vald klädsel? Sitter alla delar där du vill att de ska vara? Är de i rätt lager?
 
 Tips: Om det är någon *klädsel* som inte sitter helt rätt, kan du prova att ändra **_klädselns_ centrum** på just den!
 
@@ -68,11 +68,11 @@ Tips: Om det är någon *klädsel* som inte sitter helt rätt, kan du prova att 
 
 Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje gång du trycker på START. Du får själv välja olika bakgrundsbilder till *scenen*.
 
-11. Markera *Scen* och **välj ny ****_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
+11. Markera *Scen* och **välj ny** **_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
 
-12. Skapa ett *skript *för *scenen* som gör samma sak som *sprajternas* skript, fast att du byter *bakgrund* istället för *klädsel*. Du behöver inte tänka på lager här. 
+12. Skapa ett *skript* för *scenen* som gör samma sak som *sprajternas* skript, fast att du byter *bakgrund* istället för *klädsel*. Du behöver inte tänka på lager här. 
 
-**Testa ditt projekt!** Klicka på START. Ändras bakgrunden nu?
+> Testa ditt projekt! Klicka på START. Ändras bakgrunden nu?
 
 
 ## Delmoment 4: Vad ska roboten säga?
@@ -97,15 +97,15 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
   ![image alt text](image_6.jpg)
 
-15. Välj själv vad roboten ska säga och** lägg till **flera meningar **i "Strängar" **under varandra i samma *skript*. 
+15. Välj själv vad roboten ska säga och lägg till flera meningar i **"Strängar"** under varandra i samma *skript*. 
 
-  **Testa ditt projekt! **Klicka på START. Kan du se dina *strängar* i en *lista* på scenen? Ser du att de är numrerade? *Listan* kan du sedan klicka ur och gömma, men just nu är det bra att du ser den.
+  > Testa ditt projekt! Klicka på START. Kan du se dina *strängar* i en *lista* på scenen? Ser du att de är numrerade? *Listan* kan du sedan klicka ur och gömma, men just nu är det bra att du ser den.
 
   ![image alt text](image_7.jpg)
 
   Nu ska du programmera roboten att slumpmässigt **välja ett objekt ur listan med strängar** och säga den meningen. För det behöver du skapa en *variabel* som innehåller det slumpmässiga valet.
 
-1. Skapa en *variabel* och kalla den för **"Val"**. I det *skript* som du redan har skapat för *scenen*, lägg till en blockrad som säger:
+16. Skapa en *variabel* och kalla den för **"Val"**. I det *skript* som du redan har skapat för *scenen*, lägg till en blockrad som säger:
 
   * **Sätt "Val" till** 
     * Det **objekt i "strängar"**
@@ -115,7 +115,7 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
   *Så här borde skriptet för scenen se ut, fast med dina strängar.*
 
-17. Nästa steg är att få roboten att säga den valda *strängen*, och samtidigt göra ett robotljud! Gå till *sprajten* **"huvud" **och fliken LJUD. Klicka på **Nytt ljud från bibliotek** och välj ett passande ljud, till exempel **"computer beeps1"**. 
+17. Nästa steg är att få roboten att säga den valda *strängen*, och samtidigt göra ett robotljud! Gå till *sprajten* **"huvud"** och fliken LJUD. Klicka på **Nytt ljud från bibliotek** och välj ett passande ljud, till exempel **"computer beeps1"**. 
 
 18. Fortsätt på ditt *skript* för *sprajten* **"huvud"**. Lägg till att den ska:
 
@@ -128,30 +128,24 @@ Tips: Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det r
 
 *Så här borde skriptet för robotens huvud se ut.*
 
-**Testa ditt projekt! **Klicka på START. Säger roboten något? Säger den olika saker varje gång du klickar på START? Låter roboten? 
+>Testa ditt projekt! Klicka på START. Säger roboten något? Säger den olika saker varje gång du klickar på START? Låter roboten? 
 
 Tips: Nu kan du klicka ur och **gömma din variabel och din lista** så att de inte syns på scenen!
+
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-### Utmaning: Uppgraderingar av roboten
+### Uppgraderingar av roboten
 
 Om du vill uppgradera din robot med fler funktioner så kan du göra det. Du kan lägga till fler *klädslar* för de olika robotdelarna eller ge den ben eller rullband att röra sig med! 
 
