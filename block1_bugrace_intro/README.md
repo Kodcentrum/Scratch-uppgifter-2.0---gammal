@@ -4,15 +4,9 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
-Gör så här: Skriv en ”>” framför stycket som ska ha en ruta runt sig. Om ni vill ha rubrik så skriv två mellanslag på raden efter rubriken och ett enterslag, då hamnar allt i samma ruta. så här alltså:
-> ## This is a header.
+> ## Testa ditt projekt
 > 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
+> Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Delmoment 1: Välja en skalbagge som sprajt
 
