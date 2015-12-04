@@ -70,7 +70,7 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
   * Starta när START klickas på
   * Starta på positionen **x:0 och y:0**
   * Från start **peka i en slumpmässig riktning mellan 10 och 350 grader** så att bollen sedan rör sig åt ett slumpmässigt håll
-  * **Vänta 2 sekunder**, så att du hinner sätta sig bekvämt innan spelet startar
+  * **Vänta 2 sekunder**, så att du hinner sätta dig bekvämt innan spelet startar
   * Därefter ska bollen **för alltid gå tio steg**, men om den **rör kanten, ska den studsa**
 
   ![image alt text](image_4.png)
