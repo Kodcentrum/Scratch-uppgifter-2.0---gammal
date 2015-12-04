@@ -4,10 +4,6 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
-> ## Testa ditt projekt
-> 
-> Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-
 ## Delmoment 1: Välja en skalbagge som sprajt
 
 I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
