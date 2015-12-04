@@ -41,13 +41,13 @@ På så sätt behöver du inte skapa samma skript en gång till. Du kopierar gen
 
   ![image alt text](image_4.jpg)
 
-  **Testa spelet!** Nu kan du styra båda sprajtar. Men vad händer när en av dem hamnar utanför banan?
+> Testa spelet! Nu kan du styra båda sprajtar. Men vad händer när en av dem hamnar utanför banan?
 
 5. Om du vill kunna tävla om vem som kommer först i mål, kan det inte bli Game Over när en spelare hamnar utanför banan. Istället kan du t ex välja att sprajtarna säger "Aj!" och hamnar tillbaka på sin startposition. Så här kan det se ut då:
 
   ![image alt text](image_5.jpg)
 
-**Testa spelet!** Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
+> Testa spelet! Om det buggar och någon sprajt säger "Mål!" för tidigt kan det bero på att färgen gult finns i den nya sprajten. Testa att ändra färg då.
 
 
 ## Tillägg 3: Ändra banan till en labyrint
@@ -69,23 +69,15 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
 ## Färdig!
-Grattis, nu har du gjort klart tillägget!
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
 
-###Flera banor
+### Flera banor
 Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
