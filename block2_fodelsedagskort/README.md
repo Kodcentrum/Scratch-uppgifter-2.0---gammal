@@ -34,7 +34,7 @@ Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
 *När du har skrivit in ett namn i rutan, tryck på Enter.
 Du kommer att förstå senare vad namnet ska användas till!*
 
-**Testa ditt projekt!** Klicka på START. Frågar katten "Vem fyller år?"? Kan du skriva ett svar på frågan i rutan?
+> Testa ditt projekt! Klicka på START. Frågar katten "Vem fyller år?"? Kan du skriva ett svar på frågan i rutan?
 
 
 ## Delmoment 3: Katten kan dansa!
@@ -59,7 +59,7 @@ Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist!
 
   Nu har du två klädslar som du kan animera för att skapa en dans, men du behöver en melodi som katten kan dansa till.
 
-9. Gå till fliken LJUD och välj t ex ljudet **Musikloopar > Birthday **från biblioteket. Prova att spela genom att trycka på **play** knappen!
+9. Gå till fliken LJUD och välj t ex ljudet **Musikloopar > Birthday** från biblioteket. Prova att spela genom att trycka på **play** knappen!
 
   ![image alt text](image_6.png)
 
@@ -86,7 +86,7 @@ om en stund. Kan du lista ut varför?_
 
   ![image alt text](image_8.png)
 
-**Testa ditt projekt!** Spelas ljudet efter att du har skrivit in ett namn? Dansar katten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.
+> Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar katten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.
 
 
 ## Delmoment 4: Festens slut
@@ -107,14 +107,14 @@ Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det ka
 
   _Kan du läsa steg för steg vad detta skript gör?_
 
-**Testa ditt projekt!** Slutar katten och dansa när melodin är slut? Säger katten _"Grattis …"_ och det namn som du skrev in när kortet frågade _"Vem fyller år?"_ i början?
+> Testa ditt projekt! Slutar katten och dansa när melodin är slut? Säger katten _"Grattis …"_ och det namn som du skrev in när kortet frågade _"Vem fyller år?"_ i början?
 
 Tips: Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
 
 
 ## Delmoment 5: Alla ska dansa!
 
-Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför **skicka **och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
+Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
 
 13. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med katten.
 
@@ -124,7 +124,7 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 
   _Tips: Titta på hur du gjorde skripten för katten om du inte kommer ihåg!_
 
-**Testa ditt projekt!** Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
+> Testa ditt projekt! Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
 
 ## Delmoment 6: Partystämning och tårta
@@ -156,20 +156,13 @@ värdet för färgeffekten och se vad som händer!_
 **Testa ditt projekt!** Kommer det upp en tårta när katten säger _"Grattis …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
 
 ## Färdig!
-Grattis, nu har du gjort klart XXX
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
