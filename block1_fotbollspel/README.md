@@ -59,13 +59,13 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
 
   _Kopiera det här skriptet tre gånger!_
 
-  **Testa ditt projekt! **Klicka på START. Se vad som händer när du styr med vänster och höger piltangent. Spelaren går i samma riktning vilken piltangent du än trycker på! Hur kan du ändra det?
+> Testa ditt projekt! Klicka på START. Se vad som händer när du styr med vänster och höger piltangent. Spelaren går i samma riktning vilken piltangent du än trycker på! Hur kan du ändra det?
 
 9. Du behöver tala om för sprajten åt vilket håll den ska peka innan den börjar röra på sig, så att den står i rätt riktning! Välj blocket **"peka i () riktning"** från **RÖRELSE**** **och lägg ovanför **"gå 10 steg"** i alla fyra skript.
 
 10. Nu gäller det att välja rätt riktning för varje skript: du ser i rullistan vilket gradantal som det ska vara för **vänster**, **höger**, **upp** och **ned**.
 
-  **Testa ditt projekt!** Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?
+> Testa ditt projekt! Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?
 
   Tips: Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
 
@@ -88,11 +88,11 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
 
   _Om bollen rör pingvinen, då går den 50 steg._
 
-  **Testa ditt projekt!** Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?
+> Testa ditt projekt! Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?
 
   Tips: Om bollen försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter **"om <> då"**.
 
-  **Testa ditt projekt** igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
+> Testa ditt projekt igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
 
 
 ## Delmoment 5: Få bollen att röra sig i rätt riktning
@@ -101,11 +101,11 @@ Antagligen rör sig bollen bara i samma riktning, oavsett vilket håll din spela
 
 Eftersom du vill att spelaren ska kunna sparka på bollen från alla möjliga håll, behöver du tala om för bollen att den ska röra sig i **motsatt riktning från där spelaren står** när den rör vid bollen. Det här är lite knepigt, men går om du gör det i två steg: först säger du åt bollen att **peka mot spelaren**, sedan säger du åt den att **vända sig helt om**. Det behöver den göra innan den rör sig framåt!
 
-14. Ta blocket **"peka mot ____"** från **RÖRELSE**** **och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vända sig helt om.  Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
+14. Ta blocket **"peka mot ____"** från **RÖRELSE** **och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vända sig helt om.  Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
 
   ![image alt text](image_12.jpg)
 
-  **Testa ditt projekt!** Klicka på START. Kan du få spelaren att sparka på bollen åt olika håll? Kan du sparka bollen i mål?
+> Testa ditt projekt! Klicka på START. Kan du få spelaren att sparka på bollen åt olika håll? Kan du sparka bollen i mål?
 
 
 ## Delmoment 7: Göra mål
@@ -128,7 +128,7 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
   _Nu vet spelaren när det blir mål!_
 
-  **Testa ditt projekt! **Klicka på START. Vad händer när du får spelaren att sparka bollen i mål? Ropar fotbollsspelaren "Mål!" när bollen är i mål?
+> Testa ditt projekt! Klicka på START. Vad händer när du får spelaren att sparka bollen i mål? Ropar fotbollsspelaren "Mål!" när bollen är i mål?
 
   Tips: Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!
 
@@ -141,11 +141,11 @@ En **startposition** är alltid bra att sätta, för att slippa dra tillbaka spe
 
 Men istället för att sätta startpositionen i början på skriptet, ska du få använda dig av **meddelanden** igen! På så sätt skapar du nämligen en FUNKTION som går att använda på flera ställen i ditt program, och du behöver inte upprepa samma skript.
 
-18. Börja med att sätta sprajterna för spelare och boll där du vill att de ska starta på fotbollsplanen. Markera sedan spelarens sprajt. Gör ett nytt skript för **"när START (flaggan) klickas på" **och fäst ett block för **"skicka ___"**, ändra till nytt meddelande i rullistan och skriv in "Nytt spel".
+18. Börja med att sätta sprajterna för spelare och boll där du vill att de ska starta på fotbollsplanen. Markera sedan spelarens sprajt. Gör ett nytt skript för **"när START (flaggan) klickas på"** och fäst ett block för **"skicka ___"**, ändra till nytt meddelande i rullistan och skriv in "Nytt spel".
 
 19. Gå till skriptet för **"när jag tar emot [mål]"** och lägg till blocket **"skicka [nytt spel]"** även där, efter det att sprajten har sagt "Mål!".
 
-20. Skapa ett nytt skript för spelaren som **tar emot meddelande** "nytt spel". Välj från **RÖRELSE ****"gå till x: y:"** och koppla fast det blocket under. De värden som redan står för X och Y ska nu stämma överens med sprajtens KOORDINATER, den plats där den står.
+20. Skapa ett nytt skript för spelaren som **tar emot meddelande** "nytt spel". Välj från **RÖRELSE "gå till x: y:"** och koppla fast det blocket under. De värden som redan står för X och Y ska nu stämma överens med sprajtens KOORDINATER, den plats där den står.
 
   ![image alt text](image_15.jpg)
 
@@ -155,31 +155,25 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
 
+
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften!
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaning
-Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta:
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-###Animera fotbollsspelaren
+### Animera fotbollsspelaren
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
 
 ![image alt text](image_17.jpg)
 
-###Poängräknare
+### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
 Tips: Titta på det här exemplet på hur spelet kan se ut: [scratch.mit.edu/projects/32369372](http://www.scratch.mit.edu/projects/32369372).
