@@ -243,7 +243,7 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-## Utmaning: Regnbågspenna
+### Regnbågspenna
 
 Du kan lägga till en specialpenna som målar i regnbågens alla färger istället för bara med en färg. 
 
