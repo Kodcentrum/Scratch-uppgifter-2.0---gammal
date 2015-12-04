@@ -2,8 +2,7 @@
 
 Du har redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
 
-Här finns förslag på hur du kan fortsätta med Bug Race, välj ett eller flera tillägg eller hitta på själv! Du kan behöva titta i instruktionen för _"Bug Race (intro)"_ om du har glömt hur du gjorde vissa skript.
-
+Här finns förslag på hur du kan fortsätta med Bug Race, välj ett eller flera tillägg eller hitta på själv! Du kan behöva titta i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
 
 ## Tillägg 1: Mållinje för att vinna spelet
 
