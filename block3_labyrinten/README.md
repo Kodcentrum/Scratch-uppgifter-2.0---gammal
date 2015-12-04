@@ -52,7 +52,7 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 
   _Tänk på att ha olika riktningar i de olika skripten_
 
-**Testa ditt projekt!** Klicka på START. Kan du röra din sprite åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
+> Testa ditt projekt! Klicka på START. Kan du röra din sprite åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
 
 Tips: Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
 
@@ -86,7 +86,7 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
 
-**Testa ditt projekt!** Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten?
+> Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten?
 
 
 ## Delmoment 4: En timer
@@ -113,7 +113,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 
   _Så här ska alla skript se ut som kollar om sprajten nuddar väggen_
 
-  **Testa ditt projekt!** Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
+> Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
 
 ## Delmoment 5: Flera banor
@@ -133,23 +133,17 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
   * När sprajten **tar emot meddelandet NästaNivå**
   * Byt till **nästa klädsel**
   
-**Testa ditt projekt!** Klicka på START. Vad händer när du har klarat den första banan?
+> Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
+
 
 ## Färdig!
-Grattis, nu har du gjort klart uppgiften!
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaningar
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
