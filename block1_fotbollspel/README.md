@@ -61,7 +61,7 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
 
 > Testa ditt projekt! Klicka på START. Se vad som händer när du styr med vänster och höger piltangent. Spelaren går i samma riktning vilken piltangent du än trycker på! Hur kan du ändra det?
 
-9. Du behöver tala om för sprajten åt vilket håll den ska peka innan den börjar röra på sig, så att den står i rätt riktning! Välj blocket **"peka i () riktning"** från **RÖRELSE**** **och lägg ovanför **"gå 10 steg"** i alla fyra skript.
+9. Du behöver tala om för sprajten åt vilket håll den ska peka innan den börjar röra på sig, så att den står i rätt riktning! Välj blocket **"peka i () riktning"** från **RÖRELSE** och lägg ovanför **"gå 10 steg"** i alla fyra skript.
 
 10. Nu gäller det att välja rätt riktning för varje skript: du ser i rullistan vilket gradantal som det ska vara för **vänster**, **höger**, **upp** och **ned**.
 
@@ -80,7 +80,7 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
 
 11. Gå till bollens SKRIPT. Välj en **"för alltid"**-LOOP från **KONTROLL** **och sätt under startpositionen i skriptet för **"när START (flaggan) klickas på"**.
 
-12. Välj blocket **"om <> då"** som finns under **KONTROLL** och lägg inuti loopen. Från **KÄNNA AV **tar du blocket "**Rör \_____?"** och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att **om** bollen **rör** sprajten **då** ska något hända.
+12. Välj blocket **"om <> då"** som finns under **KONTROLL** och lägg inuti loopen. Från **KÄNNA AV** tar du blocket **Rör \_____?"** och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att **om** bollen **rör** sprajten **då** ska något hända.
 
 13. Vad ska hända? Jo, bollen ska röra sig! Välj **"gå 10 steg"** från **RÖRELSE** och lägg in i kommandot för **"om <> då"**. Ändra antalet steg – det ska vara högre än 10 eftersom spelaren rör sig med den hastigheten och du vill att bollen ska röra sig fortare. Prova dig fram tills du får rätt effekt!
 
@@ -101,7 +101,7 @@ Antagligen rör sig bollen bara i samma riktning, oavsett vilket håll din spela
 
 Eftersom du vill att spelaren ska kunna sparka på bollen från alla möjliga håll, behöver du tala om för bollen att den ska röra sig i **motsatt riktning från där spelaren står** när den rör vid bollen. Det här är lite knepigt, men går om du gör det i två steg: först säger du åt bollen att **peka mot spelaren**, sedan säger du åt den att **vända sig helt om**. Det behöver den göra innan den rör sig framåt!
 
-14. Ta blocket **"peka mot ____"** från **RÖRELSE** **och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vända sig helt om.  Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
+14. Ta blocket **"peka mot ____"** från **RÖRELSE** och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vändas helt om.  Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
 
   ![image alt text](image_12.jpg)
 
@@ -122,7 +122,7 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
   _Så här borde bollens skript se ut nu._
 
-17. Nu är det spelarens tur! Du behöver tala om för spelarens sprajt att när den **tar emot meddelande** "Mål", då ska den säga "Mål!" – eller något annat om du hellre vill det. Under **UTSEENDE**** **hittar du **"säg ____ i 2 sekunder"**. Ändra antalet sekunder om du vill att det spelaren säger ska stå längre.
+17. Nu är det spelarens tur! Du behöver tala om för spelarens sprajt att när den **tar emot meddelande** "Mål", då ska den säga "Mål!" – eller något annat om du hellre vill det. Under **UTSEENDE** hittar du **"säg ____ i 2 sekunder"**. Ändra antalet sekunder om du vill att det spelaren säger ska stå längre.
 
   ![image alt text](image_14.jpg)
 
@@ -149,7 +149,7 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   ![image alt text](image_15.jpg)
 
-21. Markera nu bollen och gör ett likadant skript som **tar emot meddelande** "nytt spel" som för spelaren i punkt 20. Ta sedan ett block för **"skicka [nytt spel]" **och lägg in i bollens START-skript, innan dess **"för alltid"**-LOOP.
+21. Markera nu bollen och gör ett likadant skript som **tar emot meddelande** "nytt spel" som för spelaren i punkt 20. Ta sedan ett block för **"skicka [nytt spel]"** och lägg in i bollens START-skript, innan dess **"för alltid"**-LOOP.
 
   ![image alt text](image_16.jpg)
 
@@ -176,7 +176,7 @@ Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på spr
 ### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
-Tips: Titta på det här exemplet på hur spelet kan se ut: [scratch.mit.edu/projects/32369372](http://www.scratch.mit.edu/projects/32369372).
+Tips: Titta på [det här exemplet](http://www.scratch.mit.edu/projects/32369372) på hur spelet kan se ut.
 För att se koden bakom projektet trycker du på SE INUTI.
 
 ![image alt text](image_18.jpg)
