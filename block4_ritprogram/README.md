@@ -27,20 +27,19 @@ Börja med att skapa en penna som ritar när du drar runt den på scenen.
 
   Nu vill du kunna använda *sprajten* som en riktig penna, som du kan styra med musen och rita med genom att trycka ned musknappen. Titta under skriptfliken **PENNA**, här finns alla block som har att göra med att kunna rita. 
 
-4. Skapa ett skript som säger att när musknappen är nedtryckt ska pennan vara nere, och annars ska pennan vara uppe. Lägg ett **KONTROLL**** **-block i ditt första skript, som säger att: 
+4. Skapa ett skript som säger att när musknappen är nedtryckt ska pennan vara nere, och annars ska pennan vara uppe. Lägg ett **KONTROLL** -block i ditt första skript, som säger att: 
 
   * **Om musknappen** är **nedtryckt** ska **penna** vara **ned**
   * **annars** ska **penna** vara **upp**
 
   ![image alt text](image_4.jpg)
 
-**Testa ditt projekt! **Klicka på START. Följer pennan muspekaren? Vad händer om du håller nere musknappen och flyttar musen? (Tänk inte på vilken färg pennan har, det kommer du till senare!)
+> Testa ditt projekt! Klicka på START. Följer pennan muspekaren? Vad händer om du håller nere musknappen och flyttar musen? (Tänk inte på vilken färg pennan har, det kommer du till senare!)
+> Testa att stänga av och starta programmet på nytt. Märker du att det du har ritat fortsätter att vara kvar? Det behöver du ändra på! 
 
-Testa att stänga av och starta programmet på nytt. Märker du att det du har ritat fortsätter att vara kvar? Det behöver du ändra på! 
+5. Lägg till blocket **radera** (finns under **PENNA**), precis ovanför **för alltid-loopen**. Då raderas allt som blivit ritat när programmet startas på nytt. 
 
-5. Lägg till blocket **radera** (finns under **PENNA**), precis ovanför** för alltid-***loopen*.* *Då raderas allt som blivit ritat när programmet startas på nytt. 
-
-**Testa ditt projekt! **Klicka på START. Försvinner din teckning när du klickar på den gröna flaggan?
+> Testa ditt projekt! Klicka på START. Försvinner din teckning när du klickar på den gröna flaggan?
 
 
 ## Delmoment 2: Radera allt
@@ -53,14 +52,14 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
 8. Skapa ett *skript* som säger att den ska **radera** allt när du **klickar på** *sprajten*. Detta kräver endast två block, kan du lista ut vilka? Titta annars hur du gjorde i skriptet för *sprajten* **"penna"**. 
 
-**Testa ditt projekt! **Klicka på START och rita något. Kan du sudda hela teckningen genom att klicka på *sprajten ***"radera"**?
+> Testa ditt projekt! Klicka på START och rita något. Kan du sudda hela teckningen genom att klicka på *sprajten ***"radera"**?
 
 
 ## Delmoment 3: Byta färg på pennan
 
 Än så länge kan du bara rita blåa streck men det ska så klart gå att rita med andra färger! För att göra det behöver du först nya *sprajter* för olika färgade knappar som du ska kunna klicka på för att ändra färg på pennan. 
 
-9. Välj en *sprajt *som ser ut som en knapp, t ex **Saker/Button1** och ge den namnet **"grön knapp"**. Förminska knappen så att du får plats med flera bredvid varandra, och placera den till exempel längst ned på scenen bredvid **"radera"**-knappen.
+9. Välj en *sprajt* som ser ut som en knapp, t ex **Saker/Button1** och ge den namnet **"grön knapp"**. Förminska knappen så att du får plats med flera bredvid varandra, och placera den till exempel längst ned på scenen bredvid **"radera"**-knappen.
 
 10. Skapa ett *skript* för *sprajten* **"grön knapp"** som säger:
 
@@ -69,7 +68,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
   ![image alt text](image_5.jpg)
 
-  Det är allt som knappen behöver göra! Själva jobbet med att byta färg görs av *sprajten*** "penna"**.
+  Det är allt som knappen behöver göra! Själva jobbet med att byta färg görs av *sprajten* **"penna"**.
 
 11. Klicka på *sprajten* **"penna"** och gå in på KLÄDSLAR. Här finns två klädslar som båda föreställer gula pennor. Ta bort en av klädslarna. Kopiera den du behållit – en gång för varje färg du vill ha: t ex grön, röd, blå. 
 
@@ -79,7 +78,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
 14. Skapa nu ett nytt *skript* för *sprajten* **"penna"** som säger:
 
-  * Starta när den **tar emot ***meddelandet* **"grön"**
+  * Starta när den **tar emot** *meddelandet* **"grön"**
   * Då **byt klädsel till** **"grön"**
   * Sedan **sätt pennans färg till** ***grön**
 
@@ -87,14 +86,14 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
 Tips: Klicka på den färgade rutan i blocket **sätt pennans färg till** och klicka sedan på din gröna knapp på scenen, så får du rätt färg att rita med.
 
-**Testa ditt projekt! **Klicka på START och rita något. Klicka nu på den gröna knappen och rita igen. Byter pennan klädsel? Ritar den i grönt nu? Ritar den från pennspetsen?
+> Klicka på START och rita något. Klicka nu på den gröna knappen och rita igen. Byter pennan klädsel? Ritar den i grönt nu? Ritar den från pennspetsen?
 
 
 Nu ska du få göra fler knappar för alla olika färger, och skript som ändrar pennans färg när du klickar på knappen.
 
 15. Kopiera *sprajten* **"grön knapp"** så att du har lika många knappar som du vill ha färger. Om du tittar på skript-fliken ser du att även skriptet har kopierats. 
 
-16. Börja med att döpa om knapparna till t ex **"gul knapp"**, "**"röd knapp"**,** "blå knapp"** och placera dem där du vill ha dem på scenen, förslagsvis i en rad längst ned.
+16. Börja med att döpa om knapparna till t ex **"gul knapp"**, **"röd knapp"**, **"blå knapp"** och placera dem där du vill ha dem på scenen, förslagsvis i en rad längst ned.
 
 17. Nu behöver du byta färg på knapparna. Gå in under KLÄDSLAR. Ändra färg med FÄRGLÄGG EN FORM (färgburken). 
 
@@ -111,9 +110,9 @@ Ungefär så här borde din knapprad se ut på scenen:
 
 18. Nu behöver du ändra i *skripten* för varje *sprajt*. De ska **skicka meddelande** för sin färg när de **klickas på**.
 
-19. Gå sedan till *sprajten* **"penna"**. Kopiera *skriptet* som **tar emot ***meddelande*, och gör ett sådant skript för varje ny färg. Skripten ska **byta klädsel** och **ändra pennans färg** till den färg som meddelandet anger. 
+19. Gå sedan till *sprajten* **"penna"**. Kopiera *skriptet* som **tar emot** *meddelande*, och gör ett sådant skript för varje ny färg. Skripten ska **byta klädsel** och **ändra pennans färg** till den färg som meddelandet anger. 
 
-**Testa ditt projekt!** Klicka på START och rita något. Klicka nu på de olika knapparna. Fungerar alla färgvalknappar? Byter de pennans *klädsel* till rätt färg? Får de pennan att måla med rätt färg? Ritar alla pennans *klädslar* med pennspetsen?
+> Testa ditt projekt! Klicka på START och rita något. Klicka nu på de olika knapparna. Fungerar alla färgvalknappar? Byter de pennans *klädsel* till rätt färg? Får de pennan att måla med rätt färg? Ritar alla pennans *klädslar* med pennspetsen?
 
 
 ## Delmoment 4: Rita inom ramarna
@@ -138,7 +137,7 @@ Nu behöver du ta reda på din ritytas KOORDINATER. Hela *Scenen* går mellan -2
       * **mus y** är *mer* än **-115**
       * och **mus y** är *mindre* än **180**
       * och **mus x** är *mer än* **-240**
-      * och mus x **är *mindre än* **240**
+      * och mus x är *mindre än* **240**
     * **Då** ska *sprajten* **visas** och fortsätta med *skriptet* som du redan gjort
     * **Annars** ska *sprajten* **gömmas** så att det inte går att rita
 
@@ -152,9 +151,9 @@ Tips 2: **Mer än** har symbolen **>**. **Mindre än** har symbolen **<**. De ä
 
 ![image alt text](image_12.jpg)
 
-Tips 3: Tänk på att du ska sätta in **koordinaterna för din rityta**. Här gäller det att få **alla värden rätt**, allt måste stämma för att** **skriptet ska utföras och pennan visas. Testa dig fram om det blir fel!
+Tips 3: Tänk på att du ska sätta in **koordinaterna för din rityta**. Här gäller det att få **alla värden rätt**, allt måste stämma för att skriptet ska utföras och pennan visas. Testa dig fram om det blir fel!
 
-**Testa ditt projekt! **Klicka på START och rita något. Syns pennan? Vad händer med pennan när du lämnar ritytan? Kan du fortfarande rita inom ritytan? Kan du rita utanför ritytan?
+> Testa ditt projekt! Klicka på START och rita något. Syns pennan? Vad händer med pennan när du lämnar ritytan? Kan du fortfarande rita inom ritytan? Kan du rita utanför ritytan?
 
 ![image alt text](image_13.jpg)
 *Så här ser vårt exempel ut, tänk på att du behöver skriva in koordinaterna för din rityta!*
@@ -171,9 +170,9 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
   * Starta när *sprajten* **klickas på**
   * **Skicka** *meddelandet* **"sudda"**
 
-25. Markera *sprajten* **"penna"** och gå till KLÄDSLAR. Lägg till *klädseln* **Saker/Button3 **från biblioteket. Ändra namnet till **"sudd"**.
+25. Markera *sprajten* **"penna"** och gå till KLÄDSLAR. Lägg till *klädseln* **Saker/Button3** från biblioteket. Ändra namnet till **"sudd"**.
 
-26. Skapa ett nytt *skript* för *sprajten* **"penna" **som säger:
+26. Skapa ett nytt *skript* för *sprajten* **"penna"** som säger:
 
   * Starta när den **tar emot ***meddelandet*** "sudda"**
   * **Byt klädsel** till **"sudd"**.
@@ -185,7 +184,7 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
 
 Tips: Om pennstorleken är väldigt stor kan du behöva ändra koordinaterna för ritytan, annars kan det bli så att du ritar utanför. Samma gäller för suddet, testa så att du inte kan sudda utanför!
 
-**Testa ditt projekt! **Klicka på START och rita något, klicka sedan på suddgummit. Suddar den? Fungerar det ända fram till kanten – men inte utanför? Kan du byta mellan penna och sudd?
+> Testa ditt projekt! Klicka på START och rita något, klicka sedan på suddgummit. Suddar den? Fungerar det ända fram till kanten – men inte utanför? Kan du byta mellan penna och sudd?
 
 **Nu har du ett fungerande ritprogram!** För att göra det extra roligt kan du nu lägga till stämplar.
 
@@ -205,11 +204,11 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 30. Gör ett *skript* för *sprajten* som säger:
 
   * Starta när *sprajten* **klickas på**
-  * **Skicka ***meddelandet ***"blomma" **– eller det som din stämpel föreställer
+  * **Skicka** *meddelandet* **"blomma"**– eller det som din stämpel föreställer
 
-31. Gå till *sprajten* **"penna" **och gå till fliken KLÄDSLAR. Lägg till en ny *klädsel* och välj samma bild som stämpeln, här **Saker/Flower Shape**. Döp klädseln till det bilden föreställer, t ex **"blomma"**.
+31. Gå till *sprajten* **"penna"** och gå till fliken KLÄDSLAR. Lägg till en ny *klädsel* och välj samma bild som stämpeln, här **Saker/Flower Shape**. Döp klädseln till det bilden föreställer, t ex **"blomma"**.
 
-32. För *sprajten* **"penna" **behöver du nu skapa en VARIABEL som du kallar **"pennläge"** och som bara gäller för den *sprajten*. Gör ett nytt *skript* för *sprajten* **"penna" **som säger:
+32. För *sprajten* **"penna"** behöver du nu skapa en VARIABEL som du kallar **"pennläge"** och som bara gäller för den *sprajten*. Gör ett nytt *skript* för *sprajten* **"penna"** som säger:
 
   * Starta när den **tar emot** *meddelandet* **"blomma"**
   * **Byt klädsel till "blomma"**
@@ -219,9 +218,9 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 
 33. Lägg till ett block för att sätta **pennläge** till **"sant"** i alla dina *skript* som väljer färg på pennan och även den som suddar. 
 
-  Nu behöver du se till att variabeln **"pennläge"** kontrolleras **när musknappen är nere**, så att* sprajten* **"penna" **vet om den ska rita eller stämpla. 
+  Nu behöver du se till att variabeln **"pennläge"** kontrolleras **när musknappen är nere**, så att *sprajten* **"penna"** vet om den ska rita eller stämpla. 
 
-3. Lägg in** **ett skript innanför **Om musknappen **är **nedtryckt **som säger:
+34. Lägg in ett skript innanför **Om musknappen** är **nedtryckt** som säger:
 
   * **Om pennläge = "sant"**
     * ska vi använda **penna ned**
@@ -229,54 +228,43 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 
  ![image alt text](image_16.jpg)
 
-**Testa ditt projekt! **Klicka på START och prova stämplarna. Fungerar de som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka pennan?
+> Testa ditt projekt! Klicka på START och prova stämplarna. Fungerar de som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka pennan?
 
-
-## Ett färdigt program!
-
-**Grattis, nu har du gjort klart ditt ritprogram! **Glöm inte att **spara ditt projekt**. Döp det uppgiftens namn så att du enkelt kan hitta den igen.
-
-Har du tid över? Här kommer en utmaning för dig som vill fortsätta med ritprogrammet:
-
-
-## Utmaning: Regnbågspenna
-
-Du kan lägga till en specialpenna som målar i regnbågens alla färger istället för bara med en färg. 
-
-35. Lägg till en *sprajt* eller rita en egen som ska vara knappen för regnbågsfärg. Placera den i din knapprad. Här i exemplet har vi använt **Saker/Button2** och ändrat färg på *klädseln*. 
-
-  ![image alt text](image_17.jpg)
-
-36. Gör ett skript som säger att den ska **skicka** *meddelandet* **"regnbåge"** när du klickar på den.
-
-37. Gå till *sprajten* **"penna"** och lägg till en *klädsel *för regnbågspennan. Du får själv* *hitta på hur du vill att regnbågspennan ska se ut!
-
-38. Skapa ett *skript* som **för alltid** **ändrar pennans färg** när den **tar emot** *meddelandet* **"regnbåge"**. Färgen ska ändras ett visst **antal **gånger och sedan **vänta** en stund för att skapa regnbågseffekten. Testa dig fram för att hitta bra värden!
-
-**Testa ditt projekt!** Klicka på START och prova regnbågspennan. Fungerar den som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka rätt färg?
-
-![image alt text](image_18.jpg)
-
-Om pennan fortsätter rita med regnbågsfärg även när du trycker på någon annan knapp, beror det på att du inte har sagt åt *sprajten* när den ska **sluta ändra pennans färg**. Det ska du göra nu.
-
-39. Ändra i *loopen* för regnbågs-*skriptet* så att den bara ändrar pennans färg **om** du har valt regnbågsfärg. För det behöver du en *variabel* som du kallar för **"regnbågsfärg"** och **sätter till** **"sant"** när den ska **ändra pennans färg**.
-
-Tips: Titta på hur du gjorde för *variabeln* **"pennläge"**. Använd **"sant"** och **"falskt"** på samma sätt för att kontrollera **om** *sprajten* ska rita med regnbågsfärg eller inte. Du behöver använda **sätt "regnbågsfärg" till "falskt"** för varje *skript* där du inte vill att pennan ska rita med regnbågsfärg.
-
-**Testa ditt projekt!** Kan du byta mellan regnbågspennan och de andra färgerna?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+
+## Utmaning
+Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
+
+## Utmaning: Regnbågspenna
+
+Du kan lägga till en specialpenna som målar i regnbågens alla färger istället för bara med en färg. 
+
+1. Lägg till en *sprajt* eller rita en egen som ska vara knappen för regnbågsfärg. Placera den i din knapprad. Här i exemplet har vi använt **Saker/Button2** och ändrat färg på *klädseln*. 
+
+  ![image alt text](image_17.jpg)
+
+2. Gör ett skript som säger att den ska **skicka** *meddelandet* **"regnbåge"** när du klickar på den.
+
+3. Gå till *sprajten* **"penna"** och lägg till en *klädsel *för regnbågspennan. Du får själv* *hitta på hur du vill att regnbågspennan ska se ut!
+
+4. Skapa ett *skript* som **för alltid** **ändrar pennans färg** när den **tar emot** *meddelandet* **"regnbåge"**. Färgen ska ändras ett visst **antal **gånger och sedan **vänta** en stund för att skapa regnbågseffekten. Testa dig fram för att hitta bra värden!
+
+> Testa ditt projekt! Klicka på START och prova regnbågspennan. Fungerar den som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka rätt färg?
+
+![image alt text](image_18.jpg)
+
+Om pennan fortsätter rita med regnbågsfärg även när du trycker på någon annan knapp, beror det på att du inte har sagt åt *sprajten* när den ska **sluta ändra pennans färg**. Det ska du göra nu.
+
+5. Ändra i *loopen* för regnbågs-*skriptet* så att den bara ändrar pennans färg **om** du har valt regnbågsfärg. För det behöver du en *variabel* som du kallar för **"regnbågsfärg"** och **sätter till** **"sant"** när den ska **ändra pennans färg**.
+
+Tips: Titta på hur du gjorde för *variabeln* **"pennläge"**. Använd **"sant"** och **"falskt"** på samma sätt för att kontrollera **om** *sprajten* ska rita med regnbågsfärg eller inte. Du behöver använda **sätt "regnbågsfärg" till "falskt"** för varje *skript* där du inte vill att pennan ska rita med regnbågsfärg.
+
+> Testa ditt projekt! Kan du byta mellan regnbågspennan och de andra färgerna?  
