@@ -68,7 +68,7 @@ Först behöver du en *scen* för din animation och en *sprajt* som ska förest�
 
 Nu ska du få ta din idé till musikspelare och omvandla den till en PROTOTYP i Scratch. En prototyp är en enkel testversion som du gör för att visa upp din idé. Din prototyp ska visa hur musikspelaren är tänkt att **se ut** och **fungera**, och **när** den kan användas.
 
-6. **Rita** själv eller **välj sprajt från biblioteket** för din musikspelare. Om du vill **ladda upp sprajt** och hitta en bild på nätet, använd Creative Commons sökmotor för att hitta bilder som är fria att använda! ([http://search.creativecommons.org/](http://search.creativecommons.org/)) 
+6. **Rita** själv eller **välj sprajt från biblioteket** för din musikspelare. Om du vill **ladda upp sprajt** och hitta en bild på nätet, använd <a href="http://search.creativecommons.org/" target="_blank">Creative Commons sökmotor</a> för att hitta bilder som är fria att använda!
 
 Tips: Om *sprajten* som föreställer dig i framtiden redan har på sig det som du vill använda som musikspelare, till exempel skor eller kläder, kan du använda det.   
 
