@@ -176,7 +176,7 @@ Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på spr
 ### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
-Tips: Titta på [det här exemplet](http://www.scratch.mit.edu/projects/32369372) på hur spelet kan se ut.
+Tips: Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = "_blank">det här exemplet</a> på hur spelet kan se ut.
 För att se koden bakom projektet trycker du på SE INUTI.
 
 ![image alt text](image_18.jpg)
