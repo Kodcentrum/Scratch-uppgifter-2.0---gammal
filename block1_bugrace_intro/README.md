@@ -45,7 +45,7 @@ Du ska nu få rita en grå bana på grönt gräs som skalbaggen kan springa på.
   ![image alt text](image_10.png)
 
 
-## Delmoment 3: Ditt första skript**
+## Delmoment 3: Ditt första skript
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
@@ -66,7 +66,7 @@ Det första du ska göra är att se till att skalbaggen rör sig när du trycker
 
   _Tryck på Rörelse och dra sedan ut "gå 10 steg" och placera den som på bilden._
 
-  Testa nu vad som händer när du trycker på START. Skalbaggen flyttar sig åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden. Hur gör du det?
+> Testa nu vad som händer när du trycker på START. Skalbaggen flyttar sig åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden. Hur gör du det?
 
 8. Det kan du ordna med skriptet **"för alltid"** som finns under rubriken **KONTROLL**.
 Det här är en LOOP som gör att sprajten fortsätter röra sig så länge programmet är igång.
@@ -75,7 +75,7 @@ Det här är en LOOP som gör att sprajten fortsätter röra sig så länge prog
 
   _För att skalbaggen ska fortsätta att gå måste du lägga "gå 10 steg" i mitten av "för alltid"-loopen. "Gå 10 steg" kommer då att upprepas för alltid._
 
-Testa att trycka på START. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Välj en hastighet som du tror är lagom för att kunna styra skalbaggen.
+> Testa att trycka på START. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Välj en hastighet som du tror är lagom för att kunna styra skalbaggen.
 
 
 ## Delmoment 4: Sätt en Startposition
@@ -101,7 +101,7 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
 
   ![image alt text](image_15.png)
 
-Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
+> Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
 
 
 ## Delmoment 6: Ändra startriktning
@@ -125,7 +125,7 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 
 15. Till sist skapar du ett skript för att spelet ska säga att spelet är över om skalbaggen nuddar den gröna färgen. Välj **"säg ___ i 2 sekunder"** under **UTSEENDE**, dra in det innanför "**om <**"**Rör färgen grön?> då**" och ändra texten till det du vill ska stå.
 
-Testa ditt spel! Händer något när skalbaggen nuddar det gröna gräset? Om inte, vad tror du att det kan bero på?
+> Testa ditt spel! Händer något när skalbaggen nuddar det gröna gräset? Om inte, vad tror du att det kan bero på?
 
 
 ## Delmoment 8: Göra klart skriptet
@@ -138,11 +138,11 @@ Något saknas! När vill du att datorn ska känna av om skalbaggen nuddar det gr
 
 
 ## Färdig!
-Grattis, nu har duskapat ett spel! Det färdiga skriptet i sin helhet borde se ut så här:
+Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet borde se ut så här:
 
 ![image alt text](image_18.png)
 
-**Glöm inte att spara ditt projekt!** Döp det till uppgiftens namn så att du enkelt kan hitta den igen.
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
