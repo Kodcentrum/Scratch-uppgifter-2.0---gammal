@@ -5,6 +5,7 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
 [Google] (http://www.google.com){target="_blank"}
+
 This is an [example link](http://example.com/)
 
 ## Delmoment 1: Välja en skalbagge som sprajt
