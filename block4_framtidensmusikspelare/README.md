@@ -45,15 +45,15 @@ Tips: Är det ändå svårt att komma på en idé, **Välj sprajt från bibliote
 
 Först behöver du en *scen* för din animation och en *sprajt* som ska föreställa dig själv i framtiden. Du kommer att få klippa in en bild av ditt eget ansikte och sätta som *sprajtens* huvud – om du vill!
 
-1. Skapa ett nytt Scratch-projekt och ta bort katten. **Välj sprajt från biblioteket **och ta en figur som du vill ska föreställa dig själv i framtiden. Du kan såklart även **rita** en egen *sprajt*, men väljer du en ur biblioteket finns redan flera *klädslar* att animera mellan. 
+1. Skapa ett nytt Scratch-projekt och ta bort katten. **Välj sprajt från biblioteket** och ta en figur som du vill ska föreställa dig själv i framtiden. Du kan såklart även **rita** en egen *sprajt*, men väljer du en ur biblioteket finns redan flera *klädslar* att animera mellan. 
 
 2. Välj en **bakgrund** till *Scenen* som du tycker passar för att visa när du vill kunna använda musikspelaren. Är det hemma? Utomhus? På stranden? När du sportar?
 
-3. Nu ska du få göra om *sprajten* så att den får ditt huvud! Gå till din *sprajt*, och välj **Rita ny klädsel**. Klicka på** Importera** ovanför ritytan, och välj en bild på dig själv. (Här behöver du ha sparat en bild på din dator i förväg.)
+3. Nu ska du få göra om *sprajten* så att den får ditt huvud! Gå till din *sprajt*, och välj **Rita ny klädsel**. Klicka på ** Importera** ovanför ritytan, och välj en bild på dig själv. (Här behöver du ha sparat en bild på din dator i förväg.)
 
   ![image alt text](image_2.jpg)
 
-4. **Sudda** ut all bakgrund från din bild, så att bara ditt huvud är kvar.  Zooma in om det är svårt att komma åt och sudda runt om. **Förminska **sedan huvudet om du tror att det behövs för att passa in på *sprajtens* kropp. 
+4. **Sudda** ut all bakgrund från din bild, så att bara ditt huvud är kvar.  Zooma in om det är svårt att komma åt och sudda runt om. **Förminska** sedan huvudet om du tror att det behövs för att passa in på *sprajtens* kropp. 
 
   ![image alt text](image_3.jpg)
 
@@ -92,7 +92,7 @@ Nu behöver du säga åt *sprajten* att den ska känna av om du har muspekaren p
     * **Om** *sprajten* **rör muspekaren och** den har **klädselnummer 1** då ska en viss musikloop **spelas**
     * **Annars** ska den kontrollera **om** *sprajten* **rör muspekaren och** har **klädselnummer 2** då ska en annan musikloop **spelas**
     * **Annars** ska den kontrollera **om** *sprajten* **rör muspekaren och** har **klädselnummer 3** (Och så vidare så många klädslar som du har)
-    * **Annars **växlar *sprajten* till **nästa klädsel** och **väntar** en kort stund innan den börjar om
+    * **Annars** växlar *sprajten* till **nästa klädsel** och **väntar** en kort stund innan den börjar om
 
 Tips: För att inte alla ljud ska spelas samtidigt och bli ett enda kaos, lägg in ett block som **stoppar alla ljud** innan en ny musikloop ska starta.  
 
@@ -100,7 +100,7 @@ Tips: För att inte alla ljud ska spelas samtidigt och bli ett enda kaos, lägg 
 
 *Så här kan ett skript se ut för att musikspelaren ska byta musik.*
 
-**Testa ditt projekt! **Klicka på START. Prova att klicka på *sprajten* för musikspelaren. Byter den *klädsel*? Vad händer när du för muspekaren över *sprajten*? Byter den musikloop? Spelar den ett ljud i taget?
+> Testa ditt projekt! Klicka på START. Prova att klicka på *sprajten* för musikspelaren. Byter den *klädsel*? Vad händer när du för muspekaren över *sprajten*? Byter den musikloop? Spelar den ett ljud i taget?
 
 
 ## Delmoment 4: Stoppa musiken
@@ -109,7 +109,7 @@ Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du 
 
 11. Gör ett *skript* för musikspelarens *sprajt* som **skickar meddelandet "Musikspelare av"** när du klickar på START. 
 
-12. Gör ett skript för att **ta emot** **meddelandet "Musikspelare av" **och som **stoppar **alla **andra skript i sprajten** och som **byter till **den **klädsel** du vill att musikspelaren ska ha när den är avstängd.  
+12. Gör ett skript för att **ta emot** **meddelandet "Musikspelare av"** och som **stoppar** alla **andra skript i sprajten** och som **byter till** den **klädsel** du vill att musikspelaren ska ha när den är avstängd.  
 
   ![image alt text](image_8.jpg)
 
@@ -121,28 +121,22 @@ Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du 
   *Sprajten kan till exempel vara en knapp på musikspelaren.*
 
 
-**Testa ditt projekt! **Klicka på START. Har musikspelaren den *klädsel* du vill att den ska ha från början? Är alla ljud avstängda? Kan du starta musikspelaren? Kan du byta musik? Kan du stänga av?
+> Testa ditt projekt! Klicka på START. Har musikspelaren den *klädsel* du vill att den ska ha från början? Är alla ljud avstängda? Kan du starta musikspelaren? Kan du byta musik? Kan du stänga av?
+
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaning
 Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 
-### Utmaning: Gör en dj-mixer
+### Gör en dj-mixer
 
 Om du vill fortsätta med din musikspelare kan du göra om den till en ljudmixer så att du kan vara DJ och mixa ihop ljud till egna låtar. Här får du testa dig fram med olika ljud från biblioteket, och hur du ska kunna byta mellan ljuden. Det går även att ändra **tempo** och **volym** för ljud i Scratch.
 
@@ -151,4 +145,3 @@ Om du inte vill skapa en ljudmixer kan du till exempel göra:
 * Ett piano som spelar olika toner
 * En trummaskin med olika trumljud
 * Ett helt band som spelar på olika instrument
-
