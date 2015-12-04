@@ -50,7 +50,7 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
 
 7. Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.
 
-**Testa ditt projekt!** Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?
+> Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?
 
 Tips: Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra **rotationsstil**. Se till att båda plattorna bara kan rotera **vänster-höger**.
 
@@ -88,7 +88,7 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   _Lägg blocken innanför **för alltid**-blocket men ovanför **gå 10 steg**_
 
-**Testa ditt projekt!** Klicka på START. Studsar bollen på plattorna? Startar den i mitten? Rör den sig åt ett slumpmässigt håll varje gång du startar?
+> Testa ditt projekt! Klicka på START. Studsar bollen på plattorna? Startar den i mitten? Rör den sig åt ett slumpmässigt håll varje gång du startar?
 
 
 ## Delmoment 4: Poängsystem
@@ -107,7 +107,7 @@ En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägge
 
 14. Gå till skriptet för bollen och lägga till:
 
-  * Två **om**-block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en vit färg)
+  * Två **om** -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en vit färg)
   * Två block ovanför **för alltid**-blocket som sätter variablerna till 0 när spelet startar
 
   ![image alt text](image_7.png)
@@ -128,7 +128,7 @@ En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägge
 
   _Här är blocken du behöver. Tänk på att om bollen rör blå färg så ska röd spelaren få poäng och vice versa!_
 
-**Testa ditt projekt!** Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?
+> Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?
 
 
 ## Delmoment 5: Game Over!
@@ -150,29 +150,23 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
 
   _Här är blocken som du behöver använda!_
 
-**Testa ditt projekt!** Klicka på START. Stoppas spelet om någon spelare får 5 poäng?
+> Testa ditt projekt! Klicka på START. Stoppas spelet om någon spelare får 5 poäng?
 *Du kan ändra talet 5 så att man kan vinna med färre eller fler poäng!*
 
+
 ## Färdig!
-Grattis, nu har du gjort klart XXX
+Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-<table border="1" cellspacing="0" cellpadding="0" class="noheader" style="border-top: solid rgb(230, 63, 152);" >
-	<tbody>
-		<tr>
-			<td>
-				<strong>Testa ditt projekt</strong>
-				<br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
-			</td>
-		</tr>
-	</tbody>
-</table>
+> **Testa ditt projekt**  
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
 
 ## Utmaning
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 
-### Utmaning: En timer
+### En timer
 Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan någon får poäng. Därför kan du göra en timer som får bollen att röra sig fortare och fortare tills någon får poäng.
 
 18. Gör en ny **variabel** för bollen som heter "Hastighet". Välj att den inte ska synas på scenen.
