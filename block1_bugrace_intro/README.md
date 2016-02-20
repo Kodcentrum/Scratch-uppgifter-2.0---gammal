@@ -99,7 +99,13 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
 
 11. Koppla fast ett skript under varje block; under **RÖRELSE** hittar du ett som säger **"vänd (pil vänster) 15 grader"** och ett som säger **"vänd (pil höger) 15 grader"**.
 
-  ![image alt text](image_15.png)
+  ```
+  när [vänsterpil v] trycks
+  vänd ↺ (15) grader
+
+  när [högerpil v] trycks
+  vänd ↻ (15) grader
+  ```
 
 > Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
 
@@ -110,7 +116,14 @@ Om du trycker på START igen märker du att skalbaggen behåller den riktning so
 
 12. Välj blocket som säger **"peka i 90 riktning"** från **RÖRELSE**. Testa vad som händer om du ändrar på värdet från 90 grader till något annat. Det står även en hjälptext i rullistan när du väljer riktning.
 
-  ![image alt text](image_16.png)
+  ```
+  när ⚑ klickas på
+  peka i (90 v) riktning
+  gå till x:(-45) y:(115)
+  för alltid
+    gå (3) steg
+  ```
+
 
 
 ## Delmoment 7: Känna av gräset
@@ -121,7 +134,10 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 
 14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. Dra den till **<>**, tryck på den lilla fyrkanten och sedan på ditt gräs. Den lilla fyrkanten får nu samma gröna färg som gräset.
 
-  ![image alt text](image_17.png)
+  ```
+  om <rör färgen [#4A7023]?> då
+    säg [Game Over] i (2) sekunder
+  ```
 
 15. Till sist skapar du ett skript för att spelet ska säga att spelet är över om skalbaggen nuddar den gröna färgen. Välj **"säg ___ i 2 sekunder"** under **UTSEENDE**, dra in det innanför "**om <**"**Rör färgen grön?> då**" och ändra texten till det du vill ska stå.
 
@@ -140,7 +156,22 @@ Något saknas! När vill du att datorn ska känna av om skalbaggen nuddar det gr
 ## Färdig!
 Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet borde se ut så här:
 
-![image alt text](image_18.png)
+```
+när ⚑ klickas på
+peka i (90 v) riktning
+gå till x:(-45) y:(115)
+för alltid
+  gå (3) steg
+  om <rör färgen [#4A7023]> då
+    säg [Game Over] i (2) sekunder
+    stop [detta script v]
+
+när [vänsterpil v] trycks
+vänd ↺ (5) grader
+
+när [högerpil v] trycks
+vänd ↻ (5) grader
+```
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
