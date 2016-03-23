@@ -68,6 +68,37 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
+## Tillägg 4: Mjukare styrning
+
+Du har kanske märkt att det kan vara svårt att styra sprajten när du spelar. Varje tryckning vrider den ett visst antal grader,
+men om du håller inne händer ingenting - förrän efter en liten stund. Då börjar den snurra jättefort!
+
+Den här "ketchupeffekten" kan man se när man skriver text också. Testa i en ruta där du kan skriva text, som till
+exempel längst upp i Internet-browsern där Scratch är öppet. Om du trycker ner "a" på tangentbordet kommer först ett a,
+sedan ingenting - och sedan en hel rad, jättesnabbt.
+
+För varje "bokstav" som datorn får inskickad, kommer Händelsen "När [a] trycks in" att skickas, och det lilla skriptet
+som vrider sprajten blir utfört. Det är därifrån "ketchupeffekten" kommer.
+
+![Hur sprajten styrts hittills](old_turning.png)
+
+Men det finns andra sätt för Scratch att läsa av tangentbordet. Under "Känna av" finns ett villkor som heter 
+"tangent [mellanslag] nedtryckt?".
+
+![Ett villkor som läser av tangentbordet](keypress.png)
+
+Det kan man använda i ett "Om"-block (som man kan hämta från fliken "Kontroll")
+för att få sprajten att vrida sig lite grann när en viss knapp är nedtryckt (man kan ändra [Mellanslag] till vilken
+tangent som helst).
+
+![Ett "om"-block med tangentbordsvillkor i](if_turning.png)
+
+Var ska man placera "Om"-blocket, då? Tja, om man lägger det på samma ställe som flyttar sprajten framåt hela tiden,
+så kommer den vrida sig lite grann för varje steg framåt, om knappen man valt är nedtryckt. Då får man en mjuk sväng.
+
+Prova olika värden för hur många grader den ska vrida sig! Och glöm inte att ta borde de andra skripten som vrider
+på sprajten!
+
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
 
