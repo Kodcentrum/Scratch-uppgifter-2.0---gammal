@@ -12,7 +12,7 @@
 <ol>
 <li><p>Skapa ett nytt Scratch-projekt och ta bort katten. Rita en ny <strong>bakgrund</strong> som ser ut som ett rutnät. Det gör du lättast med <strong>linjeverktyget</strong>.</p>
 </li>
-<li><p>Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och en fylld cirkel. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.</p>
+<li><p>Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och <strong>fylld cirkel</strong>. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.</p>
 </li>
 <li><p>Kalla denna sprajt <strong>&quot;Cell&quot;</strong>. Klicka på <img src="image_2.png" alt="image alt i"> bredvid sprajten och skriv in <strong>&quot;Cell&quot;</strong> istället för <strong>&quot;Sprajt1&quot;</strong>.</p>
 </li>
@@ -28,7 +28,7 @@
 <h2 id="delmoment-2-styra-spelaren">Delmoment 2: Styra spelaren</h2>
 <p>Du skall styra sprajten <strong>Cell</strong> med musen och när du äter de små kulorna skall storleken på sprajten öka. Därför behöver vi en variabel <strong>&quot;Vikt&quot;</strong> som håller reda på storleken eller vikten.</p>
 <ol>
-<li><p>Skapa en <strong>variabel</strong> som heter <strong>&quot;Vikt&quot;</strong>, den ska vara <strong>synlig</strong> på scenen. Du hittar variablar under kategorin <strong>Data</strong>.</p>
+<li><p>Skapa en <strong>variabel</strong> som heter <strong>&quot;Vikt&quot;</strong>, den ska vara <strong>synlig</strong> på scenen. Du hittar variabler under kategorin <strong>Data</strong>.</p>
 </li>
 <li><p>Skapa ett skript till <strong>Cell</strong> som säger:</p>
 <ul>
@@ -42,7 +42,7 @@
 <ul>
 <li><strong>Peka mot</strong> muspekare</li>
 <li><strong>Gå</strong> 20 <strong>steg</strong></li>
-<li><strong>Sätt sorleken till</strong> <strong>&quot;Vikt&quot;%</strong></li>
+<li><strong>Sätt storleken till</strong> <strong>&quot;Vikt&quot;%</strong></li>
 </ul>
 </li>
 </ul>
@@ -71,6 +71,7 @@
 </ul>
 </li>
 </ul>
+<p>Det här skriptet ser till att det finns 25 kloner av <strong>Mat</strong> i början av spelet. Därefter kommer det dyka upp en ny klon varje halv sekund. Om du tycker det är för mycket eller för lite, kan du öka/minska antalet eller se till att det dyker upp kloner oftare/mer sällan.</p>
 </li>
 <li><p>Skapa sedan ett nytt skript för <strong>Mat</strong> som säger:</p>
 <ul>
@@ -84,10 +85,11 @@
 </li>
 <li><p>För alltid:</p>
 <ul>
-<li>Ändra <strong>&quot;Vikt&quot;</strong> med 1 och <strong>radera</strong> klonen <strong>OM</strong> rör <strong>&quot;Cell&quot;</strong></li>
+<li>Ändra <strong>&quot;Vikt&quot;</strong> med 1 och <strong>radera</strong> klonen <strong>OM</strong> rör <strong>Cell</strong></li>
 </ul>
 </li>
 </ul>
+<p>Det här skriptet körs varje gång en ny klon dyker upp. Klonen kommer dyka upp på en slumpmässig plats på spelplanen och kommer ha en slumpmässigt vald klädsel. Om <strong>Cell</strong> rör vid en klon försvinner den klonen.</p>
 </li>
 <li><p>Till sist skapa ett tredje skript som säger:</p>
 <ul>
@@ -98,6 +100,7 @@
 <li><p><strong>Radera klonen</strong></p>
 </li>
 </ul>
+<p>Det här skriptet ser till att ta bort klonen av <strong>Mat</strong> om den inte äts upp inom en viss tid.</p>
 <p><img src="image_5.png" alt="image alt kod"></p>
 <p><em>Det här är alla block du behöver för punkterna 1-3.</em></p>
 </li>
@@ -105,12 +108,12 @@
 <p>Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
 och äta upp små kulor.</p>
 <h2 id="delmoment-4-ut-kad-speldynamik">Delmoment 4: Utökad speldynamik</h2>
-<p>Du skall nu se till att utökada spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att <strong>Cell</strong> rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tynge/större den blir.</p>
+<p>Du skall nu se till att utökad spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att <strong>Cell</strong> rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tyngre/större den blir.</p>
 <ol>
-<li><p>Just nu går <strong>Cell</strong> 20 steg varje gång du rör musen: <img src="image_6.png" alt="image alt kod">. Ändra det så att den rör sig i proportion till vad variablen <strong>&quot;Vikt&quot;</strong> har för värde.</p>
+<li><p>Just nu går <strong>Cell</strong> 20 steg varje gång du rör musen: <img src="image_6.png" alt="image alt kod">. Ändra det så att den rör sig i proportion till vad variabeln <strong>&quot;Vikt&quot;</strong> har för värde.</p>
 <ul>
 <li>Om du ändrar den till <img src="image_7.png" alt="image alt kod"> så kommer <strong>Cell</strong> röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.</li>
-<li>Om du i stället ändrar till <img src="image_8.png" alt="image alt kod"> så kommer den röra sig mindre ju större den är. Till exempel så kommer den röra sig 80 steg i början (100 - 20 = 80) och 70 steg när du ätit 10 kulor. Detta är ganska bra men den rör sig väldigit fort.</li>
+<li>Om du i stället ändrar till <img src="image_8.png" alt="image alt kod"> så kommer den röra sig mindre ju större den är. Till exempel så kommer den röra sig 80 steg i början (100 - 20 = 80) och 70 steg när du ätit 10 kulor. Detta är ganska bra men den rör sig väldigt fort.</li>
 <li>Multiplicera därför denna vikt med 0.1: <img src="image_9.png" alt="image alt kod">. Nu kommer den röra sig 8 steg i början ((100 - 20)*0.1 = 8) och 7 steg när du ätit 10 kulor. Det är en lagom hastighet, men prova gärna att multiplicera med 0.2 eller 0.05 istället!  </li>
 </ul>
 </li>
@@ -122,7 +125,7 @@ och äta upp små kulor.</p>
 <ul>
 <li><p><strong>Vänta</strong> (100 - <strong>&quot;Vikt</strong>)*0.1 sekunder. Detta kommer gör att vi väntar 8 sekunder i början och 7 sekunder när du har ätit 10 kulor.</p>
 </li>
-<li><p><strong>Ändra &quot;Vikt&quot;</strong> med -1*(<strong>&quot;Vikt&quot;</strong>0.1) och avrunda. <strong>-1</strong> gör att vi minskar storleken/vikten och den kommer minska med 2 i början och 3 när du har ätit 10 kulor. Vi avrundar så att vi alltid minskar med ett helttal.</p>
+<li><p><strong>Ändra &quot;Vikt&quot;</strong> med -1*(<strong>&quot;Vikt&quot;</strong>0.1) och avrunda. <strong>-1</strong> gör att vi minskar storleken/vikten och den kommer minska med 2 i början och 3 när du har ätit 10 kulor. Vi avrundar så att vi alltid minskar med ett heltal (t. ex. 2 istället för 2.2).</p>
 </li>
 </ul>
 </li>
@@ -149,7 +152,7 @@ och äta upp små kulor.</p>
 </li>
 <li><p>För alltid:</p>
 <ul>
-<li><p>OM <strong>&quot;Vikt&quot;</strong> är större än 50 OCH ett slumptal mellan 1 och 100 är större än 60.</p>
+<li><p>OM <strong>&quot;Vikt&quot;</strong> är större än 50 OCH ett <strong>slumptal</strong> mellan 1 och 100 är <strong>större än</strong> 60.</p>
 <ul>
 <li><p><strong>Skicka</strong> meddelandet <strong>&quot;skapa&quot;</strong></p>
 </li>
@@ -193,6 +196,7 @@ och äta upp små kulor.</p>
 </ul>
 </li>
 </ul>
+<p>Det här skriptet kontrollerar hur <strong>Fiende</strong> skall bete sig. Nu dyker den upp på ett slumpmässigt ställe på spelplanen och går i en slumpmässig riktning. Detta fortgår tills <strong>storlek</strong> är mindre än 100, vilket är ett sätt att stoppa skriptet när den försvinner (blir gömd) av skriptet i punkt 3. Det är därför vi använder oss av en <strong>&quot;repetera tills&quot;</strong>-block istället för ett <strong>&quot;för alltid&quot;</strong>-block.</p>
 <p><img src="image_12.png" alt="image alt kod"></p>
 <p><em>Det här är alla block du behöver för punkt 4.</em></p>
 </li>
@@ -207,15 +211,15 @@ och äta upp små kulor.</p>
 <p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
 <p><strong>Testa ditt projekt</strong><br>  Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
 <h2 id="utmaningar">Utmaningar</h2>
-<p>Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta</p>
+<p>Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta. För tillfället kan du fortsätta spela spelet för alltid, men dessa extrauppgifter går ut på att avsluta spelet antingen när du har kommit upp i ett visst antal poäng eller när du har blivit biten av fienden.</p>
 <h3 id="game-over">Game over</h3>
-<p>Du kan lägga in så att spelet slutar när du har kommit upp i 100.</p>
+<p>Du kan lägga in så att spelet slutar när du har kommit upp i 100. Du måste:</p>
 <ul>
 <li>Stoppa all skript.</li>
 <li>Visa ett meddelande på skärmen.</li>
 </ul>
 <h3 id="upp-ten">Uppäten</h3>
-<p>I stället för att du förlorar 5 i vikt kan du koda så att du dör om <strong>Cell</strong> träffar <strong>Fiende</strong> mer än till exempel 5 gånger.</p>
+<p>I stället för att du förlorar 5 i vikt kan du koda så att du dör om <strong>Cell</strong> träffar <strong>Fiende</strong> mer än till exempel 5 gånger. Du måste:</p>
 <ul>
 <li>Skapa en ny variabel som håller reda på hur många gånger <strong>Cell</strong> och <strong>Fiende</strong> har rört varandra.</li>
 <li>Stoppa all skript om den variabel är större än 5.</li>
