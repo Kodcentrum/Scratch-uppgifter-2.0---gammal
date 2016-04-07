@@ -99,7 +99,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten.  Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha! 
 
-7. Välj en knapp och gå till fliken för SKRIPT. Dra ut ett block för **HÄNDELSER***:* **"när denna sprajt klickas på” **till skriptytan. 
+7. Välj en knapp och gå till fliken för SKRIPT. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan. 
 
 8. Nu ska du be knappen att **skicka meddelande** när du klickar på den. I **HÄNDELSER** hittar du **"skicka ”**, fäst blocket till det ovan och ändra till ett nytt meddelande i rullistan. Skriv in namnet på din effekt, till exempel *”glasögon”*. 
 
@@ -174,21 +174,21 @@ Det kan vara användbart med en funktion som tar bort effekter allt eftersom du 
 
 1. Gå in på fliken för SKRIPT på en av dina effekter. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg på skriptytan. 
 
-2. Under **KÄNNA AV **finns blocket "**tangent ___ nedtryckt?”**. Välj **”mellanslag”** ur rullistan och fäst blocket inuti **<>** på **”om <> då: annars”**.
+2. Under **KÄNNA AV** finns blocket "**tangent nedtryckt?”**. Välj **”mellanslag”** ur rullistan och fäst blocket inuti **<>** på **”om <> då: annars”**.
 
 3. Flytta ditt block **"visa”** som sitter under **”när jag tar emot ”** och fäst det efter **”annars”**. Ta ett nytt block för **”göm”** under **UTSEENDE** och fäst det efter **”om <> då”**.
 
 4. Fäst hela skriptet till händelsen **”när jag tar emot ”** med meddelandet. Nu ska skriptet säga att:
 
-	När sprajten tar emot meddelandet
+	* När sprajten tar emot meddelandet
 
-	Om mellanslag är nedtryckt
+	* Om mellanslag är nedtryckt
 
-	Göm sprajten
+	* Göm sprajten
 
-	Annars visa sprajten
+	* Annars visa sprajten
 
-	Välj vilken ordning sprajten ska hamna på scenen, om det behövs
+	* Välj vilken ordning sprajten ska hamna på scenen, om det behövs
 
 
 ![image alt text](image_14.png)
@@ -219,7 +219,7 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 
 > Testa ditt projekt! Klicka på START. Kan du ändra utseende på din effekt genom att trycka på den tangent som du har angett i skriptet? 
 
-**Tips:** Ett annat sätt att byta färg är att använda blocket för att **”ändra färgeffekten”** som finns under **UTSEENDE**.
+**Tips:** Ett annat sätt att byta färg är att använda blocket för att **”ändra färgeffekten”** som finns under **UTSEENDE**. Då behöver du inte skapa olika klädslar.
 
 ![image alt text](image_16.png)
 
