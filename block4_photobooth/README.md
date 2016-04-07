@@ -147,13 +147,13 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
 
 Nu kan du hitta på dina helt egna funktioner till ditt program – eller fortsätta med någon av våra utmaningar som finns här i instruktionen: 
 
-1. Ta bort en effekt
+* Ta bort en effekt
 
-2. Ändra färg på din effekt
+* Ändra färg på din effekt
 
-3. Ändra storlek på din effekt
+* Ändra storlek på din effekt
 
-4. Ramar
+* Ramar
 
 > **_Varför kan jag inte ta bilder med mitt Photo Booth?_**
 
