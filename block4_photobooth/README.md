@@ -27,7 +27,7 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
 ![image alt text](image_2.png)
 
-> Nu har du skapat ditt första skript - Testa ditt projekt! Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild?
+> Nu har du skapat ditt första skript! Testa ditt projekt. Klicka på START. Du ska få upp en popup-ruta som frågar ifall du vill att Scratch får tillgång till din webbkamera. Välj "*Allow*”. Ser du dig själv i bild?
 
 
 
@@ -77,6 +77,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 1. Börja med att göra en sprajt som ska vara menyrad. Välj **"Rita ny sprajt”** (penseln) och använd REKTANGEL för att skapa en menyrad i valfri färg. Tänk på att göra rektangeln tillräckligt stor för alla dina knappar – men inte för stor, du vill ju kunna se dig själv i bild också!
 
 ![image alt text](image_8.png)
+
 *Så här kan en menyrad se ut när du ritar den.*
 
 2. Dra din menyrad dit du vill ha den på Scen: på sidan, nere eller upptill i bild. 
@@ -93,6 +94,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 5. Gå in på informationsrutan för varje sprajt och se till så att rutan för **"kan dras på scenen”** inte är ikryssad, eftersom du inte vill kunna flytta på knapparna i programmet.
 
 6. Gå till fliken för SKRIPT och sätt rätt startposition för varje knapp, på samma sätt som du gjorde med dina effekter under Delmoment 2. 
+
 
 
 Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** till effekten.  Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. Det är ett sätt för olika delar i programmet att kunna "prata” med varandra. Du kommer snart att se varför det är bra att ha! 
@@ -117,6 +119,7 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
 12. Nu behöver du göra likadana skript för alla dina knappar och alla effekter. Du kan kopiera skript genom att högerklicka, välja kopiera och sedan dra det till nästa sprajt. Byt namn på meddelandet för varje sprajt så att de stämmer överens med vardera knapp/effekt.
 
+
 **Tips:** Ibland hamnar effekterna på varandra i fel ordning, så att till exempel en hatt hamnar under en peruk istället för tvärtom. Om det händer kan du lägga till **"lägg överst”** eller **”gå tillbaka 1 lager”** från **UTSEENDE** och välja vilken ordning du vill att effekterna ska ligga ovanpå varandra.
 
 > Testa ditt projekt! Klicka på START. Är alla effekter gömda när du startar programmet? Händer det något när du trycker på knapparna? Hamnar effekterna i rätt ordning? 
@@ -127,7 +130,7 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
 Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet. Det skriptet skapar du för scenen, precis som när du startade kameran.
 
-1. Markera SCEN längst ned till vänster och gå in på fliken SKRIPT. Dra ut ett block för **"när ___ trycks ned” **från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV***:* **”sätt video AV”**.
+1. Markera SCEN längst ned till vänster och gå in på fliken SKRIPT. Dra ut ett block för **”när trycks ned”** från **HÄNDELSER** till skriptytan. Under den kopplar du fast blocket för **KÄNNA AV**: **”sätt video AV”**.
 
 2. Välj vilken tangent som ska tryckas ned för att stänga av kameran. Här i exemplet har vi valt "Q” som i Quit. 
 
@@ -135,6 +138,7 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
 
 
 > Testa ditt projekt! Klicka på START. Går det att stänga av webbkameran med Q-tangenten?
+
 
 
 **Nu har du ett färdigt program!**
@@ -145,7 +149,8 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
 
 * Gå ut till projektsidan och låt någon annan **testa ditt program**.
 
-Nu kan du hitta på dina helt egna funktioner till ditt program – eller fortsätta med någon av våra utmaningar som finns här i instruktionen: 
+
+Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program – eller fortsätta med någon av våra utmaningar som finns här i instruktionen: 
 
 * Ta bort en effekt
 
@@ -155,13 +160,11 @@ Nu kan du hitta på dina helt egna funktioner till ditt program – eller forts�
 
 * Ramar
 
-> **_Varför kan jag inte ta bilder med mitt Photo Booth?_**
 
-> *Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live.*
-
-> *Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det?*
-
-> *Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda ***_Print Screen_***, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!*
+> **_Varför kan jag inte ta bilder med mitt Photo Booth?_** 
+*Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live. 
+Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det? 
+Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda ***_Print Screen_***, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!*
 
 
 
