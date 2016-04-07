@@ -141,13 +141,13 @@ Till sist ska du lägga till ett skript som stänger av kameran när du trycker 
 
 
 
-**Nu har du ett färdigt program!**
+## Färdig!
+Grattis, nu har du ett färdigt program.
 
-* Döp ditt projekt i rutan högst upp till vänster. 
+**Glöm inte att spara ditt projekt!** Döp ditt projekt i rutan högst upp till vänster så att du enkelt kan hitta det igen. 
 
-* Tryck på DELA högst upp till höger för att andra ska kunna hitta projektet på Scratch. 
-
-* Gå ut till projektsidan och låt någon annan **testa ditt program**.
+> **Testa ditt projekt**
+Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon testa. 
 
 
 Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program – eller fortsätta med någon av våra utmaningar som finns här i instruktionen: 
