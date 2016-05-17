@@ -1,5 +1,7 @@
 # Agar
 
+**Spelet Agar.io är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga!**
+
 I det här spelet är du en cell som äter små kulor. Det är en variant på agar.io för en spelare. Detta är en bra övning för dig som tycker om matte. Ett exempel på hur  spelet kan se ut ser du här:
 
 * <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">Exempel</a>
