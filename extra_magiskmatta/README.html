@@ -1,0 +1,202 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="magisk-matta">Magisk matta</h1>
+<p>I denna uppgift ska du få skapa en magisk matta som kan flyga till spännande ställen! Du skall få jobba mycket med meddelanden.</p>
+<p>Ett exempel på hur  spelet kan se ut ser du här:</p>
+<ul>
+<li><a href="https://scratch.mit.edu/projects/116594645/" target="_blank">Exempel</a></li>
+</ul>
+<p><img src="image_1.png" alt="image alt exempel"></p>
+<h2 id="delmoment-1-s-tt-upp-en-scen-och-sprajtar">Delmoment 1: Sätt upp en scen och sprajtar</h2>
+<ol>
+<li><p>Skapa ett nytt projekt och ta bort katten.</p>
+</li>
+<li><p>Välj en ny bakgrund från biblioteket. Välj något varmt ställe, jag valde <strong>Desert</strong>.</p>
+</li>
+<li><p>Lägg till sprajten <strong>Magic Carpet</strong></p>
+</li>
+<li><p><strong>Flytta</strong> mattan så att dess <strong>y-värde</strong> är <strong>mer än 100</strong>.</p>
+</li>
+<li><p><strong>Förminska</strong> den med förminskningsverktyget (<img src="image_2.png" alt="image alt verktyg">). Ungefär <strong>10</strong> gångers förminskning är lagom.</p>
+</li>
+<li><p>Lägg till sprajten <strong>Basketball</strong>. Den skall ligga på marken så se till att dess <strong>y-värde</strong> är <strong>mindre än 0</strong>.</p>
+</li>
+<li><p>Gå in på scenen och <strong>lägg till</strong> en <strong>bakgrund</strong>. Välj en <strong>basketplan</strong> från biblioteket.</p>
+</li>
+</ol>
+<h2 id="delmoment-2-f-mattan-att-sv-va-och-ka">Delmoment 2: Få mattan att sväva och åka</h2>
+<p>Nu skall du koda så att mattan far uppåt och sen neråt om och om igen, så att det ser ut som att den svävar i luften. Sedan skall du koda så att mattan följer efter musen.</p>
+<p>  <img src="image_3.png" alt="image alt scenen"></p>
+<p>  <em>Klicka här för att skapa skript för scenen</em></p>
+<ol>
+<li><p>Klicka på <strong>scenen</strong> i nedre vänsta hörnet så att den markeras.  Skapa ett skript för <strong>scenen</strong> som gör att när den <strong>klickas på</strong> så skickas meddelandet <strong>”matta åk”</strong></p>
+</li>
+<li><p>Skapa ett skript för mattan som säger:</p>
+<ul>
+<li><p>Startar när START klickas på</p>
+</li>
+<li><p>För alltid:</p>
+</li>
+<li><p><strong>Glider</strong> under 1 sekund till <strong>X:samma som förut</strong>, <strong>Y:samma som förut minus 5</strong></p>
+</li>
+<li><p><strong>Glider</strong> under 1 sekund till <strong>X:samma som förut</strong>, <strong>Y:samma som förut plus 5</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett till skript för <strong>mattan</strong> som säger:</p>
+<ul>
+<li><p>Startar när den tar emot meddelandet <strong>”matta åk”</strong></p>
+</li>
+<li><p><strong>Stoppa</strong> andra skript i sprajten</p>
+</li>
+<li><p><strong>Glider</strong> under 1 sekund till <strong>X och Y-position för musen</strong></p>
+</li>
+<li><p>Sedan skall mattan <strong>för alltid glida upp och ner</strong> igen. <strong>Återanvänd koden</strong> du skapade ovan i punkt 1! (<strong>Högerklicka</strong> på kodblocket och välj <strong>kopiera</strong>.)</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Testa programmet! Glider mattan upp och ner? Vad händer om du klickar på bakgrunden?</p>
+<p>  <img src="image_4.png" alt="image alt block"></p>
+<p>  <em>Här är några av de block som behövs för delmoment 2. Tänkt på att du kan behöva använda ett block mer än en gång.</em></p>
+<h2 id="delmoment-3-byta-scen-n-r-mattan-r-r-bollen">Delmoment 3: Byta scen när mattan rör bollen</h2>
+<p>Nu skall du koda så att mattan åker till basketplanen när den åker in i basketbollen.</p>
+<ol>
+<li><p>Skapa ett skript för <strong>basketbollen</strong> som säger:</p>
+<ul>
+<li><p>Startar när sprajten klickas på</p>
+</li>
+<li><p>Skickar meddelandet <strong>”matta åk”</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa sedan ett till skript för <strong>basketbollen</strong> som säger:</p>
+<ul>
+<li><p>Startar när START klickas på</p>
+</li>
+<li><p><strong>För alltid</strong>: skicka meddelande <strong>”bollkollision”</strong> OM den <strong>rör</strong> sprajten <strong>Magic Carpet</strong> (mattan).</p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett skript för <strong>mattan</strong> som säger:</p>
+<ul>
+<li><p>Startar när den tar emot meddelandet <strong>”bollkollision”</strong></p>
+</li>
+<li><p><strong>Repetera</strong> till mattans <strong>storlek</strong> är <strong>mindre än 10</strong>:</p>
+</li>
+<li><p>Ändra storleken med <strong>-2</strong></p>
+</li>
+<li><p>Skicka meddelande <strong>”basketplan”</strong></p>
+</li>
+<li><p><strong>Repetera</strong> till mattans <strong>storlek</strong> är <strong>större än 50</strong>:</p>
+</li>
+<li><p>Ändra storleken med <strong>2</strong></p>
+</li>
+</ul>
+</li>
+<li><p><strong>Ändra</strong> skriptet för <strong>mattan</strong> som utförs när START klickas på, så att den <strong>sätter storleken</strong> till <strong>50%</strong>. Då har mattan en lagom storlek i början av spelet.</p>
+</li>
+<li><p>Ändra också så att mattan <strong>läggs överst</strong> i början av  spelet. Annars kan det hända att den blir gömd bakom basketbollen.</p>
+<p><img src="image_5.png" alt="image alt block"></p>
+<p><em>Här är de block som behövs för punkterna 1 till 5. Tänk på att vissa skall användas till skript för basketbollen och vissa skall användas till skript för mattan.</em></p>
+</li>
+</ol>
+<p>Testa programmet! Vad händer när du klickar på bollen?</p>
+<p><img src="image_6.png" alt="image alt block"></p>
+<p><em>Så här kan det se ut på ljud-fliken när du lagt till <strong>spiral</strong>.</em></p>
+<ol>
+<li><p>Nu kan du lägga till en <strong>ljudeffekt</strong> när mattan åker in i bollen. Gå till mattan och klicka på <strong>ljud-fliken</strong>. Lägg till ljudet <strong>&quot;Spiral&quot;</strong></p>
+</li>
+<li><p>Sätt in <strong>ljudblocket</strong> på rätt ställe så att det spelas när mattan far in i bollen. Testa dig fram för att se vart det passar bäst att placera ljudet.</p>
+</li>
+<li><p>Nu skall vi byta bakgrund, så skapa ett skript för <strong>scenen</strong> som säger:</p>
+<ul>
+<li><p>Startar när den tar emot meddelandet <strong>”basketplan”</strong></p>
+</li>
+<li><p>Byter till <strong>bakgrund</strong> till <strong>basketplan</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett skript för <strong>scenen</strong> som ser till att bakgrunden är <strong>Öken</strong> (desert) när START klickas på.</p>
+</li>
+<li><p>Skapa ett skript i <strong>basketbollen</strong> som <strong>gömmer</strong> sprajten när den tar emot meddelandet <strong>”basketplan”</strong></p>
+</li>
+<li><p>Skapa också ett skript i <strong>basketbollen</strong> som <strong>visar</strong> sprajten när START klickas på.</p>
+<p><img src="image_7.png" alt="image alt block"></p>
+<p><em>Här är de block som behövs för punkterna 2 till 6.</em></p>
+</li>
+</ol>
+<p>Nu har du kodat ett enkelt program med en magisk matta som kan åka till en basketplan!</p>
+<h2 id="delmoment-4-ka-tillbaka-till-knen">Delmoment 4: Åka tillbaka till öknen</h2>
+<ol>
+<li><p>Lägg till sprajten <strong>Sun</strong> från biblioteket.</p>
+</li>
+<li><p>Skapa ett skript för den sprajten som säger:</p>
+<ul>
+<li><p>Startar när man klickar på START</p>
+</li>
+<li><p><strong>Gömmer</strong> sprajten</p>
+</li>
+<li><p>För alltid:</p>
+</li>
+<li><p>Om solen rör mattan så skicka meddelandet <strong>”solkollision”</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett till skript för <strong>solen</strong> som säger:</p>
+<ul>
+<li><p>Startar när sprajten klickas på</p>
+</li>
+<li><p>Skickar meddelande <strong>”matta åk”</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett tredje skript för <strong>solen</strong> som ser till att solen <strong>göms</strong> när den tar emot meddelandet <strong>”öknen”</strong></p>
+</li>
+<li><p>Till sist skapa ett skript för <strong>solen</strong> som <strong>visar</strong> den om den tar emot meddelandet <strong>”basketplan”</strong></p>
+</li>
+<li><p>Klicka på <strong>scenen</strong> och skapa ett skript där som säger:</p>
+<ul>
+<li><p>Startar när den tar emot meddelandet <strong>”öknen”</strong></p>
+</li>
+<li><p>Byter <strong>bakgrund</strong> till <strong>öknen (”desert”)</strong></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett skript för <strong>mattan</strong> säger:</p>
+<ul>
+<li><p>Startar när den tar emot meddelandet <strong>”solkollision”</strong></p>
+</li>
+<li><p>Spela ljudet ”spiral”</p>
+</li>
+<li><p><strong>Repetera</strong> till mattans <strong>storlek</strong> är <strong>mindre än 10</strong>:</p>
+</li>
+<li><p>Ändra storleken med <strong>-2</strong></p>
+</li>
+<li><p>Skicka meddelande <strong>öken</strong></p>
+</li>
+<li><p><strong>Repetera</strong> till mattans <strong>storlek</strong> är <strong>större än 30</strong>:</p>
+</li>
+<li><p>Ändra storleken med <strong>2</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Detta är nästan samma skript som händer när den tar emot meddelandet <strong>”bollkollision”</strong>. Du kan därför kopiera den koden om du vill och göra de nödvändiga ändringarna.</p>
+<p>  <img src="image_8.png" alt="image alt block"></p>
+<p>  <em>Här är de block som behövs för punkterna 2 till 6.</em></p>
+<p>Testa spelet! Kan du åka tillbaka till öknen genom att klicka på solen?</p>
+<p>Är basketbollen försvunnen i öknen? Varför? Kan du fixa det?</p>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du gjort klart uppgiften.</p>
+<p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<p><strong>Testa ditt projekt</strong><br>  Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+<h2 id="utmaningar">Utmaningar</h2>
+<p><strong>Var startar mattan?</strong> Om du startar spelet när mattan är på basketplanen kan det hända att mattan är på samma plats som basketbollen. Då åker du direkt tillbaka till öknen. Ändra så att mattan startar på ett specifikt ställe!</p>
+<p><strong>Lägg till en tredje värld!</strong> Lägg till en ny sprajt och en ny bakgrund. Det finns oändliga möjligheter! Vilka världar skall du kunna åka mellan?</p>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li>Vad händer man sänker Y-värdet på en sprajt?</li>
+<li>Vad är ett meddelande? Vad kan man använda sådana till?</li>
+</ul>
+</body></html>
