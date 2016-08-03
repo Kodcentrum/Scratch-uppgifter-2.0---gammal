@@ -1,6 +1,6 @@
 # Fotbollsspel
 
-Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. 
+Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 Ett exempel på det färdiga spelet finns på <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">här på Scratch</a>
 
 ![image alt text](image_0.png)
@@ -116,9 +116,11 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
 15. Börja med att säga till bollens sprajt att **om** den **rör färgen** för målet, **då** ska bollen göra något. Lägg kommandot i samma LOOP som den första **"om <> då"**-blocket. Färgen för målet får du om du klickar i rutan för **"rör färgen [ ]"** och sedan klickar på ditt mål på scenen.
 
-16. Nu ska du be bollen **skicka meddelande** när den rör färgen för målet. I **HÄNDELSER** hittar du **"skicka ___"**, ändra till nytt meddelande i rullistan och skriv in "Mål".
+16. Nu ska du be bollen **skicka meddelande** när den rör färgen för målet. I **HÄNDELSER** hittar du **"skicka ___ och vänta"**, ändra till nytt meddelande i rullistan och skriv in "Mål".
 
-  ![image alt text](image_13.jpg)
+    Det är viktigt att du använder blocket som _skickar meddelande_ OCH _väntar_, annars så kommer koden av fastna i loopen.
+
+  ![image alt text](image_13.png)
 
   _Så här borde bollens skript se ut nu._
 
