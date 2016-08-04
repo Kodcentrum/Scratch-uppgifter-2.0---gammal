@@ -181,5 +181,47 @@ Om båda spelare är tillräckligt bra så kan det ta väldigt lång tid innan n
 
 21. Du behöver också sätta tillbaka hastigheten till startvärdet varje gång en spelare får poäng. Lägg in **"sätt hastighet till 10"** för de **om-**block som kollar om bollen har **rört blå färg** respektive **röd färg**.
 
-### Utmaning: Mindre plattor
+### Mindre plattor
 Du kan även göra så att plattorna blir mindre med tiden på samma sätt som du gjorde bollen snabbare med tiden, klarar du att lista ut hur?
+
+### Förhindra upprepade studsar
+
+Ibland kan bollen studsa flera gånger på plattorna, vilket är onaturligt och ser konstigt ut. Här är en lösning.
+
+Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan (eller väggarna) från koden som rör bollen på skärmen. Sedan kan du fördröja upprepade kollar om bollen rör plattan tills bollen har åkt iväg.
+
+1. Gå till koden för bollen. Ta bort blocken för **Gå __ steg** och **studsa** som du lade till ovan i en **"För alltid"**-loop.
+
+2. Skapa ett skript för bollen som säger:
+
+  * Startar när meddelandet ** "flytta boll"**
+
+  * För ALLTID: **Gå 10 steg** och **studsa** vid kanten.
+
+  ![image alt text](image_11.png)
+
+3. Se till att meddelandet **"flytta boll"** skickas precis innan spelet börjar, efter du har väntat i några sekunder.
+
+  ![image alt text](image_12.png)
+
+4. Nu måste vi se till att bollen stannar upp när de har träffat väggarna. Lägg därför till ett block som säger **stoppa andra skript i sprajt** precis efter du har känt efter om bollen rör röd (eller blå) färg.
+
+5. Skicka meddelandet **"flytta boll"** efter du har väntat i två sekunder.
+
+6. Se till att du göra båda dessa ändringar för när du känner av _"röd"_ OCH _"blå"_ färg.
+
+  ![image alt text](image_13.png)
+
+  _Så här kan koden se ut som körs när bollen rör röd färg. Tänk på att du måste köra liknande kod när bollen rör blå färg._
+
+   Dessa ändringar frikopplar koden som känner av om bollen rör plattan från koden som rör bollen.
+
+7. Lägg till ett skript efter du har känt av _"vit"_ färg och ändrat riktning på bollen:
+
+  * REPETERA tills **_inte_ rör vit färg** :
+
+    * **Vänta** 0.05 sekunder.
+
+  Detta förhindrar att vi känner av om bollen rör plattorna upprepade gånger eftersom bollen kommer ha tid att åka bort från dem.
+
+  ![image alt text](image_14.png)
