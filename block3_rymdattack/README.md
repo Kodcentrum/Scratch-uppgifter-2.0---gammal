@@ -170,18 +170,21 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
     * Ändra **nivå** med 1
     * Vänta 2 sekunder
 
+  ![image alt text](image_8a.png)
+  _Den röda rektangeln markerar den nya koden_
+
 23. I samma skript lägger du till två block som:
 
   * Sätter nivå till 1
   * Sätter hastighet till -1
 
+  ![image alt text](image_8b.png)
+
   Båda av dessa block ska fästas efter sprajten har **gömts**, men innan **för alltid**-loopen.
 
 24. Byt ut **ändra y med -4** till **ändra y med hastighet** i det andra skriptet, det som du gjorde i steg 18.
 
-  ![image alt text](image_8.png)
-
-  _Här ser du alla ändringar som du skall ha gjort för roboten!_
+  ![image alt text](image_8c.png)
 
   Nu gör du ett skript som **tar emot _meddelandet_** för att byta nivå och försvåra spelet.
 

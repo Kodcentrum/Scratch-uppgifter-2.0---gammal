@@ -4,9 +4,11 @@ Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma 
 
 * <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 
+![image alt text](image_0.png)
+
 * <a href="https://scratch.mit.edu/projects/34921466/" target="_blank">Exempel 2</a>
 
-![image alt text](image_0.png) ![image alt text](image_1.png)
+![image alt text](image_1.png)
 
 
 ## Delmoment 1: Rita en labyrint
@@ -132,7 +134,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 
   * När sprajten **tar emot meddelandet NästaNivå**
   * Byt till **nästa klädsel**
-  
+
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
 
 

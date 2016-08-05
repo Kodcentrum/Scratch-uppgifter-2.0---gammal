@@ -69,7 +69,7 @@ Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du 
 
 Tips: En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**,
 t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
-![image alt text](image_7.jpg) ![image alt text](image_8.jpg) ![image alt text](image_9.jpg)
+![image alt text](image_7.jpg)
 
 * **Hur ska sprajten röra sig?**
 
@@ -105,7 +105,7 @@ t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en vi
 
   Använd blocken **"visa"** och **"göm"** från **UTSEENDE** och bestäm **när** eller **om < > då** det ska hända. Glöm inte att ställa in startposition för den nya sprajten, både koordinaterna och om den ska visas eller vara gömd från början.
 
-  ![image alt text](image_15.jpg)![image alt text](image_16.jpg)
+  ![image alt text](image_15.jpg)
 
 * **Vill du använda ljud i berättelsen?**
 
@@ -119,7 +119,7 @@ t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en vi
 
   Välj från **HÄNDELSER** om du t ex ska klicka på sprajten eller använda tangentbordet för att styra. Bestäm vad som ska hända **när** eller **om < > då** du styr berättelsen, och vad som ska hända om du inte gör något.
 
-  ![image alt text](image_18.jpg)![image alt text](image_19.jpg)
+  ![image alt text](image_18.jpg)
 
 
 ## Färdig!
