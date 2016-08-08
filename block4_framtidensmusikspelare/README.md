@@ -1,6 +1,6 @@
 # Framtidens musikspelare
 
-Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, senare cd-spelare och mp3-spelare, och nu streamar många musik direkt från nätet vilket gör att du kan lyssna lite varstans. Vad vill du ha för pryl eller program som spelar din favoritmusik? Hur ska den fungera? 
+Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, senare cd-spelare och mp3-spelare, och nu streamar många musik direkt från nätet vilket gör att du kan lyssna lite varstans. Vad vill du ha för pryl eller program som spelar din favoritmusik? Hur ska den fungera?
 Det kan vara ett par musikspelande skor, ett armband, en mössa eller något helt annat – och du får animera dig själv i framtiden när du dansar till musiken!
 
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
@@ -8,7 +8,7 @@ Det kan vara ett par musikspelande skor, ett armband, en mössa eller något hel
 Exempel på Framtidens musikspelare hittar du här:
 * <a href="https://scratch.mit.edu/projects/83586544" target="_blank">Exempel 1</a>
 * <a href="https://scratch.mit.edu/projects/81999316/" target="_blank">Exempel 2</a>
- 
+
 ![image alt text](image_0.jpg)   ![image alt text](image_1.jpg)
 
 
@@ -45,7 +45,7 @@ Tips: Är det ändå svårt att komma på en idé, **Välj sprajt från bibliote
 
 Först behöver du en *scen* för din animation och en *sprajt* som ska föreställa dig själv i framtiden. Du kommer att få klippa in en bild av ditt eget ansikte och sätta som *sprajtens* huvud – om du vill!
 
-1. Skapa ett nytt Scratch-projekt och ta bort katten. **Välj sprajt från biblioteket** och ta en figur som du vill ska föreställa dig själv i framtiden. Du kan såklart även **rita** en egen *sprajt*, men väljer du en ur biblioteket finns redan flera *klädslar* att animera mellan. 
+1. Skapa ett nytt Scratch-projekt och ta bort katten. **Välj sprajt från biblioteket** och ta en figur som du vill ska föreställa dig själv i framtiden. Du kan såklart även **rita** en egen *sprajt*, men väljer du en ur biblioteket finns redan flera *klädslar* att animera mellan.
 
 2. Välj en **bakgrund** till *Scenen* som du tycker passar för att visa när du vill kunna använda musikspelaren. Är det hemma? Utomhus? På stranden? När du sportar?
 
@@ -53,7 +53,7 @@ Först behöver du en *scen* för din animation och en *sprajt* som ska förest�
 
   ![image alt text](image_2.jpg)
 
-4. **Sudda** ut all bakgrund från din bild, så att bara ditt huvud är kvar.  Zooma in om det är svårt att komma åt och sudda runt om. **Förminska** sedan huvudet om du tror att det behövs för att passa in på *sprajtens* kropp. 
+4. **Sudda** ut all bakgrund från din bild, så att bara ditt huvud är kvar.  Zooma in om det är svårt att komma åt och sudda runt om. **Förminska** sedan huvudet om du tror att det behövs för att passa in på *sprajtens* kropp.
 
   ![image alt text](image_3.jpg)
 
@@ -74,7 +74,7 @@ Tips: Om *sprajten* som föreställer dig i framtiden redan har på sig det som 
 
 Du väljer själv hur du ska kunna **starta**, **stoppa** och **byta musik** på musikspelaren. Här i exemplet startar musikspelaren när du klickar på den och du kan byta musik när den ändrar färg, vilket den gör automatiskt genom att byta *klädslar*. Varje *klädsel* ska ha en egen låt!
 
-7. Gör ett *skript* för musikspelarens *sprajt* som **skickar meddelandet "Musikspelare på"** när du klickar på *sprajten*. 
+7. Gör ett *skript* för musikspelarens *sprajt* som **skickar meddelandet "Musikspelare på"** när du klickar på *sprajten*.
 
 8. Gå in på fliken LJUD och **välj ljud från bibliotek**. Välj ut några olika **musikloopar** som du vill kunna byta mellan.
 
@@ -82,7 +82,7 @@ Du väljer själv hur du ska kunna **starta**, **stoppa** och **byta musik** på
 
 9. Gå nu in på fliken KLÄDSLAR. Om din sprajt redan har flera olika *klädslar*, till exempel olika **färger**, så kan du använda dem. Om inte: **kopiera** *sprajtens klädsel* och gör **lika många versioner som du vill ha musikloopar**. Använd FÄRGLÄGG EN FORM (färgburken) om du vill byta färg på *klädseln*.
 
-Tips: Vill du kunna byta musik utan att musikspelaren ändrar sitt utseende? Gör i så fall flera *klädslar* som får se likadana ut. 
+Tips: Vill du kunna byta musik utan att musikspelaren ändrar sitt utseende? Gör i så fall flera *klädslar* som får se likadana ut.
 
 Nu behöver du säga åt *sprajten* att den ska känna av om du har muspekaren på dig, samtidigt som den kollar vilken *klädsel* den har för att spela rätt ljud. För det behöver du använda en OPERATOR som säger att båda saker måste stämma för att skriptet ska utföras. Titta under fliken **OPERATORER **och se om du kan lista ut vilken du ska använda!
 
@@ -105,15 +105,15 @@ Tips: För att inte alla ljud ska spelas samtidigt och bli ett enda kaos, lägg 
 
 ## Delmoment 4: Stoppa musiken
 
-Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du även vill ha den avstängd när du trycker på START, gör du det som ett INIT-SKRIPT som du kan använda flera ställen i ditt program. 
+Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du även vill ha den avstängd när du trycker på START, gör du det som ett INIT-SKRIPT som du kan använda flera ställen i ditt program.
 
-11. Gör ett *skript* för musikspelarens *sprajt* som **skickar meddelandet "Musikspelare av"** när du klickar på START. 
+11. Gör ett *skript* för musikspelarens *sprajt* som **skickar meddelandet "Musikspelare av"** när du klickar på START.
 
 12. Gör ett skript för att **ta emot** **meddelandet "Musikspelare av"** och som **stoppar** alla **andra skript i sprajten** och som **byter till** den **klädsel** du vill att musikspelaren ska ha när den är avstängd.  
 
   ![image alt text](image_8.jpg)
 
-13. Nu får du göra ett *skript* för att stänga av musikspelaren, när den är igång. Här i exemplet är det en egen *sprajt* som du klickar på för att **skicka meddelandet "Musikspelare av"**. 
+13. Nu får du göra ett *skript* för att stänga av musikspelaren, när den är igång. Här i exemplet är det en egen *sprajt* som du klickar på för att **skicka meddelandet "Musikspelare av"**.
 
   ![image alt text](image_9.jpg)
   ![image alt text](image_10.jpg)
@@ -145,3 +145,12 @@ Om du inte vill skapa en ljudmixer kan du till exempel göra:
 * Ett piano som spelar olika toner
 * En trummaskin med olika trumljud
 * Ett helt band som spelar på olika instrument
+
+
+## Frågeställningar
+
+* Vad är en prototyp?
+
+* Varför kan det vara bra att göra en prototyp?
+
+* Hur skulle du förbättra din prototyp om du gjorde den till en riktig 

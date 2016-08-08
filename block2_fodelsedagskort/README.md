@@ -168,3 +168,13 @@ Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga
 * Ändra hur fort dom dansar
 
 Kan du hitta fler sätt att göra dom mer unika?
+
+## Frågeställningar
+
+* Hur är denna uppgift en berättelse?  
+
+* Vad för block kan du använda för att få spelaren att ge ett svar på en fråga?
+
+* Vad är ett meddelande?
+
+* Vad kan du använda ett meddelande till?

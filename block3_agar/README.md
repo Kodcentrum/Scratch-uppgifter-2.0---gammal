@@ -227,3 +227,15 @@ I stället för att du förlorar 5 i vikt kan du koda så att du dör om **Cell*
   * Skapa en ny variabel som håller reda på hur många gånger **Cell** och **Fiende** har rört varandra.
   * Stoppa all skript om den variabel är större än 5.
   * Visa ett meddelande på skärmen.
+
+## Frågeställningar
+
+* Vad är en variabel?
+
+* Vad är en klon? 
+
+* Varför kan det vara bra att skapa kloner i stället för att bara kopiera en sprajt flera gånger?
+
+* Vad är slumptal och vad kan du använda dem till?
+
+* Vad innebär det att du avrundar ett tal?

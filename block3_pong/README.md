@@ -225,3 +225,15 @@ Lösningen går ut på att frikoppla koden som känner av om bollen rör plattan
   Detta förhindrar att vi känner av om bollen rör plattorna upprepade gånger eftersom bollen kommer ha tid att åka bort från dem.
 
   ![image alt text](image_14.png)
+
+## Frågeställningar
+
+* Vad är slumptal och vad kan du använda dem till?
+
+* Vad är en variabel?
+
+* Hur får du en sprajt att gå i motsatt riktning när den har träffat en annan sprajt?
+
+* Hur kan du göra så att en sprajt inte åker utanför spelplanen när du har flyttat på den?
+
+* Vad händer om du ändrar y-värdet på en sprajt?

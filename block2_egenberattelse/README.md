@@ -129,3 +129,15 @@ Grattis, nu har du gjort klart uppgiften.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Frågeställningar
+
+* Vad är ett storyboard?
+
+* Vilka delar bör ingå i en storyboard?
+
+* Varför är det en bra idé att använda sig av en storyboard när du vill skapa en berättelse?
+
+* Vad betyder det att animera något?
+
+* Vad finns det för alternativ att styra en berättelse med?

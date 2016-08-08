@@ -182,3 +182,13 @@ Tips: Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = 
 För att se koden bakom projektet trycker du på SE INUTI.
 
 ![image alt text](image_18.jpg)
+
+## Frågeställningar
+
+* Hur kan du göra så att en sprajt inte åker utanför spelplanen när du har flyttat på den?
+
+* Hur kan du göra så att en sprajt som pingvinen inte hamnar på huvudet när den byter riktning?
+
+* Vad är ett meddelande?
+
+* Vad kan du använda ett meddelande till?

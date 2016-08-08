@@ -247,3 +247,16 @@ Grattis, nu har du gjort klart uppgiften.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+
+## Frågeställningar
+
+* Varför kan det vara bra att ändra en sprajts mittpunkt?
+
+* Vad är en variabel?
+
+* Vad är en klon?
+
+* Varför kan det vara bra att skapa kloner i stället för att bara kopiera en sprajt flera gånger?
+
+* Vad kan du använda ett meddelande till?

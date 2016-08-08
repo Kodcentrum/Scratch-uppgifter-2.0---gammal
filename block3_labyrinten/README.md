@@ -166,3 +166,13 @@ Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till star
 * Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindren
 * Ändra skriptet för sprajten så att den känner av hindren på samma sätt som väggen
 * Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
+
+## Frågeställningar
+
+* Var kan du hitta de nuvarande koordinaterna för en sprajt?
+
+* Vad är en variabel?
+
+* Vad händer om start och mål har samma färg?
+
+* Vad måste du tänka på när du skapar flera banor?
