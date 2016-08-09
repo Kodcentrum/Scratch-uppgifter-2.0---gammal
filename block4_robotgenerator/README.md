@@ -5,8 +5,7 @@ Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpm
 Ett exempel på Robotgenerator hittar du <a href="https://scratch.mit.edu/projects/83059676" target="_blank">
 här på Scratch</a>
 
-![image alt text](image_0.jpg)
-
+<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/83059676/?autostart=false" frameborder="0" allowfullscreen=""></iframe>
 
 ## Delmoment 1: Skapa robotklädslar
 
