@@ -1,9 +1,8 @@
 # Födelsedagskort
 
-Här får du göra ett digitalt födelsedagskort som du kan skicka till någon som fyller år. Det är interaktivt så att födelsedagsbarnet kan skriva in sitt namn och bli personligt firad med fest, musik och tårta! Kortets tema går att ändra om du vill göra julkort eller annat.
+Här får du göra ett digitalt födelsedagskort som du kan skicka till någon som fyller år. Det är interaktivt så att födelsedagsbarnet kan skriva in sitt namn och bli personligt firad med fest, musik och tårta! Kortets tema går att ändra om du vill göra julkort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
 
 ![image alt text](image_0.png)
-
 
 ## Delmoment 1: Välja sprajtar och bakgrund
 

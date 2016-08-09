@@ -1,12 +1,12 @@
 # Flygande valen
 
-Nu ska du få göra en version av spelet <a href="http://www.nickelodeon.se/apps/4fb1Y5JOKkiyAq4yoWWG0c-skywhale" target="_blank">Skywhale</a> där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre. Här är det en flygande val som åker runt på himlen och ska äta så många munkar som möjligt. Varje munk ger poäng!
+Nu ska du få göra en version av spelet <a href="http://www.nickelodeon.se/apps/4fb1Y5JOKkiyAq4yoWWG0c-skywhale" target="_blank">Skywhale</a> där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre. Här är det en flygande val som åker runt på himlen och ska äta så många munkar som möjligt. Varje munk ger poäng! Du kommer att lära dig att använda variabler och slumptal.
 
 Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">Flygande valen</a> i Scratch.
 
 ![image alt text](image_0.png)
 
-## Delmoment 1: En val som följer muspekaren
+## Delmoment 1: En val som följer muspekaren
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
 1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
@@ -47,12 +47,12 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
 > Testa ditt projekt! Klicka på START. Fungerar det bättre att styra valen nu?
 
-## Delmoment 2: En himmel som bakgrund
+## Delmoment 2: En himmel som bakgrund
 Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajter. Då kan du välja att programmera dem senare i en av våra utmaningar!
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
 
-  ![image alt text](image_6.png)  ![image alt text](image_7.png)
+  ![image alt text](image_6.png)  ![image alt text](image_7.png)
 
 10. Tryck på FYLL MED FÄRG (målarburken). Välj en färg som passar till din himmel och tryck på den vita bakgrunden, då fylls den med den valda färgen.
 
@@ -60,7 +60,7 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 
   ![image alt text](image_8.png)
 
-## Delmoment 3: Munkar att äta**
+## Delmoment 3: Munkar att äta**
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita själv finns det färdiga i Scratch-biblioteket. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
 12. Rita en egen munk med **"Rita ny sprajt”** eller gå till biblioteket med **”Välj sprajt från bibliotek”**. Under ”Saker” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den!
@@ -105,7 +105,7 @@ Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig mu
 
   ![image alt text](image_11.png)
 
-> Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
+> Testa ditt projekt! Klicka på START. Försvinner munken när den nuddar vid valen? Spelar det någon roll vilken del av valen som rör vid munken?
 
 Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!
 
@@ -129,7 +129,7 @@ Om du vill att munkarna ska bli unika kan du:
 
 **Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
 
-## Delmoment 4: Poäng för att äta munkar!
+## Delmoment 4: Poäng för att äta munkar!
 Det räcker inte med att bara äta munkar. Du ska kunna samla poäng också! För varje munk som valen äter ska spelet lägga till 1 poäng, och du vill kunna se hur många poäng du har fått.
 
 För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.
@@ -169,7 +169,7 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
 
 
 
-## Utmaning 1: Tidsgräns för spelet
+## Utmaning 1: Tidsgräns för spelet
 Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på 30 sekunder?
 
 För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** och som gäller för alla sprajtar. Sedan gör du ett skript för SCEN som talar om att:
@@ -186,10 +186,10 @@ För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** 
 
 * Om **tid = 0**, då **stoppa alla skript** så att spelet avslutas
 
-## Utmaning 2: Minuspoäng för moln
+## Utmaning 2: Minuspoäng för moln
 I spelet SkyWhale ska valen undvika vissa flygande objekt, som bläckfiskar och hårtorkar. Kan du skapa ett skript för att minska poäng, **"ändra poäng med -1”**, om valen flyger på ett moln?
 
-## Utmaning 3: Flera banor
+## Utmaning 3: Flera banor
 I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattensvärld. Kan du göra ett skript som **byter scenens bakgrund** när spelaren når en viss poäng – så att ditt spel består av flera banor? Rita flera bakgrundsbilder eller välj ur biblioteket under fliken BAKGRUNDER.
 
 ## Frågeställningar

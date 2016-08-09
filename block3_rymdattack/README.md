@@ -1,9 +1,10 @@
 # Rymdattack
 
-Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Spelet kommer att se ut så här:
+Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Du kommer att få lära dig att skapa kloner och att använda slumptal och variabler.
+
+Spelet kommer att se ut så här:
 
 ![image alt text](image_0.jpg)
-
 
 ## Delmoment 1: Bakgrund och sprajtar
 

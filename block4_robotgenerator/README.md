@@ -1,6 +1,6 @@
 # Robotgenerator
 
-Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga!
+Nu ska du få skapa ett program som sätter ihop olika robotdelar till en slumpmässig robot! Roboten får olika klädslar och säger olika saker varje gång du trycker på start. Programmet kommer även att växla bakgrund för varje ny robot. Du får själv rita robotens delar och bestämma vad den ska säga! Dessutom kommer du att få lära dig att använda strängar och listor.
 
 Ett exempel på Robotgenerator hittar du <a href="https://scratch.mit.edu/projects/83059676" target="_blank">
 här på Scratch</a>
@@ -162,4 +162,4 @@ Du kan också skapa interaktiva moment till din robotgenerator: Kanske kan robot
 
 * Vad är en lista?
 
-* Vad kan du använda en lista till? 
+* Vad kan du använda en lista till?

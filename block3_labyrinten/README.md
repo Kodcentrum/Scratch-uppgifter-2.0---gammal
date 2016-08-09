@@ -1,6 +1,8 @@
 # Labyrinten
 
-Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Två exempel på hur olika spelet kan se ut ser du här:
+Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma till nästa nivå, en ny bana. Det är ett roligt spel för dig som vill hitta på och rita mycket själv! Du kommer att få lära dig att använda variabler och funktioner.
+
+Två exempel på hur olika spelet kan se ut ser du här:
 
 * <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 

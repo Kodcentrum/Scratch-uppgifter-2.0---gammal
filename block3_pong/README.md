@@ -1,6 +1,8 @@
 # Pong
 
-Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. I vår version kommer spelet att se ut så här:
+Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler. 
+
+I vår version kommer spelet att se ut så här:
 
 ![image alt text](image_0.png)
 

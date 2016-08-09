@@ -1,6 +1,7 @@
 # Fotbollsspel
 
-Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
+Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. 
+
 Ett exempel på det färdiga spelet finns på <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">här på Scratch</a>
 
 ![image alt text](image_0.png)
