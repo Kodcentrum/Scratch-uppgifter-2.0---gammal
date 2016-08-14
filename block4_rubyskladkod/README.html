@@ -1,0 +1,406 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="rubys-kl-dkod">Rubys klädkod</h1>
+<p>Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du skall få koda ett program som hjälper flickan Ruby att välja kläder. Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby.</p>
+<p>Ett exempel på hur programmet kan se ut hittar du här:</p>
+<ul>
+<li><a href="https://scratch.mit.edu/projects/117618751/" target="_blank">Exempel</a></li>
+</ul>
+<p>men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.</p>
+<p><img src="image_1.png" alt="image alt exempel"></p>
+<blockquote>
+<p>För att klara uppgiften behöver du ett antal bilder på Ruby i olika kläder. Dessa kan du ladda ner från <a href="http://www.kodboken.se/media/584133/ruby-clothes-360.zip">här</a>.</p>
+</blockquote>
+<h2 id="delmoment-1-komma-p-regler">Delmoment 1: Komma på regler</h2>
+<p>Det första du behöver göra är att komma på de regler som avgör vilka kläder Ruby skall ha på sig. Det är främst vilken veckodag som ska avgöra vad Ruby ska ha på sig. Det är din fantasi som styr och det är helt upp till dig vilka regler som skall gälla.</p>
+<p>Ett förslag är följande:</p>
+<ol>
+<li><p>På måndagar klär sig Ruby i röda eller gröna kläder</p>
+</li>
+<li><p>På tisdagar klär sig Ruby i kläder med röda prickar</p>
+</li>
+<li><p>På fredagar klär sig Ruby i kläder som INTE är svarta</p>
+</li>
+<li><p>På helgen klär sig Ruby i valfria kläder</p>
+</li>
+</ol>
+<p>Du kan också tänka på <strong>olika aktiviteter</strong> som Ruby kan ha för sig som t.ex. lyssna på musik. Vad skall Ruby ha för kläder eller saker ska Ruby ha på sig då?</p>
+<p>Du kan också tänka på vad det är för <strong>väder</strong> och om Ruby skall vara <strong>inomhus eller utomhus</strong>. Vad skall Ruby ha på sig om hon skall gå ut och det regnar?</p>
+<p>Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.</p>
+<p><em>Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder.</em></p>
+<h2 id="delmoment-2-bakgrund-och-en-sprajt">Delmoment 2: Bakgrund och en sprajt</h2>
+<p>Vi börjar med en bakgrund och en sprajt för Ruby!</p>
+<ol>
+<li><p>Skapa ett nytt projekt och ta bort katten.</p>
+</li>
+<li><p>Välj en bakgrund till från biblioteket som passar som ett rum. Förslag är <strong>bedroom1</strong> och <strong>bedroom2</strong>, men du kanske tycker att Ruby ska bo på ett slott!</p>
+<p><img src="image_2.png" alt="image alt exempel"></p>
+</li>
+<li><p>Välj en ny sprajt genom att <strong>ladda upp en bild från din dator</strong>. Välj bilden där <strong>Ruby är i underkläderna</strong>.</p>
+<p><img src="image_3.png" alt="image alt exempel">
+<em>Bilden med Ruby i underkläder</em></p>
+</li>
+<li><p>Sätt <strong>namnet</strong> på sprajten till <strong>Ruby</strong>. Placera den på ett lämpligt ställe i rummet.</p>
+</li>
+<li><p>Du kan förminska sprajten lite om du tycker den är för stor.</p>
+</li>
+<li><p><strong>Lägg till flera klädslar</strong> till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i Delmoment 1.</p>
+<p><img src="image_4.png" alt="image alt exempel"></p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger:</p>
+<ul>
+<li><p>Startar när START klickas på</p>
+</li>
+<li><p><strong>Byt klädsel</strong> till <strong>&quot;RUBY_underware&quot;</strong></p>
+</li>
+<li><p><strong>Säg</strong> <em>”Hej mitt namn är Ruby! Jag måste välja kläder. Kan du hjälpa mig?&quot;</em></p>
+</li>
+</ul>
+<p><img src="image_5.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du för punkt 7.</em></p>
+</li>
+</ol>
+<h2 id="delmoment-2-acceptera-uppdraget">Delmoment 2: Acceptera uppdraget</h2>
+<p>När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren ska sedan acceptera uppdraget genom att klicka på en knapp.</p>
+<ol>
+<li><p><strong>Lägg till en sprajt</strong> från biblioteket, till exempel <strong>”Button1”</strong>.</p>
+</li>
+<li><p>Placera sprajten någonstans i rummet.</p>
+</li>
+<li><p>Gå till fliken för KLÄDSLAR och använd <strong>textverktyget</strong> för att skriva <strong>”JA”</strong> på knappen.</p>
+<p><img src="image_6.png" alt="image alt block"></p>
+</li>
+<li><p>Skapa ett skript för <strong>knappen</strong> som säger</p>
+<ul>
+<li><p>Startar när START klickas på</p>
+</li>
+<li><p><strong>Visa</strong> sprajten</p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett andra skript för sprajten som säger</p>
+<ul>
+<li><p>Startar när denna sprajt klickas på</p>
+</li>
+<li><p>Skicka <strong>meddelandet ”byt klädsel”</strong></p>
+</li>
+<li><p><strong>Göm</strong> sprajten</p>
+</li>
+</ul>
+<p><img src="image_7.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du delmoment 3.</em></p>
+</li>
+</ol>
+<h2 id="delmoment-3-v-lja-dag">Delmoment 3: Välja dag</h2>
+<p>Många av de reglerna som du skapade i Delmoment 1 är beroende på vilken dag det är. Nu skall du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.</p>
+<ol>
+<li><p>Fråga användaren vad det är för dag</p>
+</li>
+<li><p>Slumpa fram en dag</p>
+</li>
+<li><p>Gör en liten enkel kalender</p>
+</li>
+</ol>
+<p>Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite svårare och du hittar instruktioner under utmaningar i slutet på uppgiften.</p>
+<h3 id="fr-ga-anv-ndaren-">Fråga användaren:</h3>
+<ol>
+<li><p>Skapa en <strong>variabel</strong> som heter <strong>”Idag är det: ”</strong>. Den kan visas på skärmen.</p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger:</p>
+<ul>
+<li><p>När den tar emot meddelandet <strong>”byt klädsel”</strong></p>
+</li>
+<li><p><strong>Fråga</strong> <em>”Vad är det för dag?”</em> och vänta</p>
+</li>
+<li><p><strong>Sätt ”Idag är det: ”</strong> till <strong>”svar”</strong></p>
+</li>
+</ul>
+<p><img src="image_8.png" alt="image alt block"></p>
+<p><em>Block du behöver för punkt 2.</em></p>
+</li>
+</ol>
+<h3 id="slumpa-fram-en-dag-">Slumpa fram en dag:</h3>
+<ol>
+<li><p>Skapa en <strong>variabel</strong> som heter <strong>”veckodag”</strong>. Den ska inte visas på skärmen.</p>
+</li>
+<li><p>Skapa en <strong>variabel</strong> som heter <strong>”Idag är det: ”</strong>. Den kan visas på skärmen.</p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger:</p>
+<ul>
+<li><p>När den tar emot meddelandet <strong>”byt klädsel”</strong></p>
+</li>
+<li><p><strong>Sätt ”veckodag”</strong> till ett <strong>slumptal mellan 1 och 7</strong></p>
+</li>
+<li><p><strong>Sätt ”Idag är det: ”</strong> till <strong>”Måndag&quot;</strong> OM <strong>”veckodag”</strong> är 1</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Tisdag&quot;</strong> OM <strong>”veckodag”</strong> är 2</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Onsdag&quot;</strong> OM <strong>”veckodag”</strong> är 3</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Torsdag&quot;</strong> OM <strong>”veckodag”</strong> är 4</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Fredag&quot;</strong> OM <strong>”veckodag”</strong> är 5</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Lördag&quot;&quot;</strong> OM <strong>”veckodag”</strong> är 6</p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>&quot;Söndag&quot;</strong> OM <strong>”veckodag”</strong> är 7</p>
+</li>
+</ul>
+<p><img src="image_9.png" alt="image alt block"></p>
+<p><em>Block du behöver för punkt 3. Tänk på att du behöver använda vissa block mer än en gång!</em></p>
+</li>
+</ol>
+<p>Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?</p>
+<h2 id="delmoment-4-byta-kl-der-p-ruby">Delmoment 4: Byta kläder på Ruby</h2>
+<p>Nu är det dags att <em>implementera</em> dina regler från Delmoment 1. <em>”Implementera”</em> innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.</p>
+<ol>
+<li><p><strong>Fortsätt på skriptet</strong> du gjorde ovan som startar när sprajten tar emot meddelandet <strong>”byt klädsel”</strong>.</p>
+</li>
+<li><p>Använd ett <strong>OM-block</strong> och variabeln <strong>”Idag är det: ”</strong> för att utföra ett klädbyte</p>
+</li>
+<li><p><strong>Repetera</strong> med fler OM-block tills du har lagt in alla regler</p>
+<p><img src="image_10.png" alt="image alt block"></p>
+<p><em>Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena.</em></p>
+</li>
+<li><p>Efter du har kodat alla OM-block så <strong>säg</strong> <em>”Tack! Nu kan jag börja leka.”</em></p>
+</li>
+</ol>
+<h2 id="delmoment-5-v-lja-mellan-tv-kl-der">Delmoment 5: Välja mellan två kläder</h2>
+<p>Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du till exempel göra så här:</p>
+<ol>
+<li><p><strong>Skicka</strong> meddelandet <strong>”välj kläder”</strong> OM [det är helg]. Här får du själv välja när du meddelandet ska skickas och när två kläder ska slumpas fram.</p>
+</li>
+<li><p>Skapa två <strong>variabler</strong> som heter <strong>”val1”</strong> och <strong>”val2”</strong> och som inte ska synas</p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger</p>
+<ul>
+<li><p>När jag tar emot <strong>”välj kläder”</strong></p>
+</li>
+<li><p><strong>Sätt ”val1”</strong> till ett <strong>slumptal mellan 2 och 9</strong>. Byt ut <strong>9</strong> mot det antal klädslar du lade till sprajten.</p>
+</li>
+<li><p>Sätt <strong>”val2”</strong> till <strong>”val1”</strong></p>
+</li>
+<li><p>REPETERA tills <strong>”val1”</strong> INTE ÄR LIKA <strong>”val2”</strong>: Sätt <strong>”val2”</strong> till ett <strong>slumptal mellan 2 och 9</strong>.</p>
+</li>
+<li><p><strong>Säg</strong> <em>”Ska jag ha den här…?”</em></p>
+</li>
+<li><p><strong>Byt</strong> klädsel till <strong>”val1”</strong></p>
+</li>
+<li><p><strong>Vänta</strong> 4 sekunder</p>
+</li>
+<li><p><strong>Säg</strong> <em>”… eller den här?”</em></p>
+</li>
+<li><p><strong>Byt</strong> klädsel till <strong>”val2”</strong></p>
+</li>
+</ul>
+<p><img src="image_11.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du för koden ovan.</em></p>
+</li>
+</ol>
+<p>Nu måste användaren välja klädsel ett eller två på något sätt. Ett sätt du kan göra det på är att skapa två knappar som det står ”1” och ”2” på.</p>
+<ol>
+<li><p><strong>Välj</strong> en sprajt från biblioteket. Ett exempel är <strong>”Ball”</strong>.</p>
+</li>
+<li><p>Sätt <strong>namnet</strong> på sprajten till <strong>Val1</strong></p>
+</li>
+<li><p>Skapa ett skript för <strong>Val1</strong> som säger:</p>
+<ul>
+<li><p>När START klickas på</p>
+</li>
+<li><p><strong>Göm</strong> sprajten</p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett till skript för <strong>Val1</strong> som säger:</p>
+<ul>
+<li><p>När jag tar emot <strong>meddelandet ”välj kläder”</strong></p>
+</li>
+<li><p><strong>Visa</strong> sprajten</p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett tredje skript för sprajten som säger:</p>
+<ul>
+<li><p>När denna sprajt klickas på</p>
+</li>
+<li><p><strong>Göm</strong> sprajten</p>
+</li>
+<li><p><strong>Skicka</strong> meddelandet <strong>”gjorde val1”</strong></p>
+</li>
+</ul>
+<p><img src="image_12.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du för koden till <strong>Val1</strong>.</em></p>
+</li>
+<li><p><strong>Kopiera</strong> nu sprajten så du har två knappar. Kalla den nya sprajten <strong>Val2</strong>.</p>
+</li>
+<li><p>Ändra klädseln på sprajten så att den har en annan färg.</p>
+</li>
+<li><p>Använd <strong>textverktyget</strong> och <strong>skriv ”1”</strong> på <strong>Val1</strong> och <strong>”2”</strong> på <strong>Val2</strong>.</p>
+<p><img src="image_13.png" alt="image alt block"></p>
+</li>
+<li><p><strong>Ändra</strong> i skriptet för <strong>Val2</strong> så att meddelandet <strong>”gjorde val2”</strong> skickas när sprajten klickas på.</p>
+</li>
+<li><p>Skapa också skript så att <strong>Val2</strong> döljs när <strong>Val1</strong> klickas på, och tvärtom. Båda sprajterna ska ju försvinna när användaren har gjort sitt val.</p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger</p>
+<ul>
+<li><p>När jag tar emot <strong>meddelandet ”gjorde val1”</strong></p>
+</li>
+<li><p><strong>Byt</strong> klädsel till <strong>”val1”</strong></p>
+</li>
+<li><p><strong>Säg</strong> <em>”Tack! Nu kan jag börja leta”</em></p>
+</li>
+</ul>
+<p><img src="image_14.png" alt="image alt block"></p>
+</li>
+<li><p>Skapa ett liknande skript för Ruby när sprajten tar emot <strong>meddelandet ”gjorde val2”</strong>.</p>
+</li>
+</ol>
+<p>Testa programmet! Vad händer när du är på en veckodag där två kläder skall slumpas fram? Visas de två valen på skärmen med lite mellanrum?</p>
+<h2 id="delmoment-6-andra-aktiviteter-och-val">Delmoment 6: Andra aktiviteter och val</h2>
+<p>Nu har du en stomme till ett program där du har kodat vilka kläder Ruby skall få på olika dagar. Nu är det fritt fram att koda andra aktiviteter och val. Det är väldigt fritt och kanske känner du att det är svårt att komma på hur du ska koda. Här är några tips.</p>
+<ol>
+<li><p>Utgå ifrån koden när Ruby tar emot <strong>meddelandet ”byt käder”</strong> och där du har lagt in OM-block för att göra olika saker på olika veckodagar.</p>
+</li>
+<li><p>Om du vill att något särskilt ska hända på en specifik dag, <strong>skicka ett meddelande</strong> på den dagen.</p>
+</li>
+<li><p>Skapa ett <strong>nytt skript</strong> för <strong>Ruby</strong> eller en <strong>annan sprajt</strong> som körs när det meddelandet tas emot.</p>
+</li>
+<li><p>I det skriptet lägger du in all kod som gör att Ruby till sist får rätt kläder</p>
+<ul>
+<li><p>Du kan till exempel <strong>fråga användaren</strong> om det är soligt eller regnigt väder</p>
+</li>
+<li><p>Du kan <strong>visa en sprajt</strong> på skärmen och använda den för att få information från användaren. Tänk på hur du kodade knappar <strong>Val1</strong> och <strong>Val2</strong> ovan.</p>
+</li>
+<li><p>När du har fått ett <strong>svar från användaren</strong>, genom variabeln <strong>”svar”</strong> eller genom att <strong>meddelandet</strong> har skickats så <strong>byter du kläder</strong> på Ruby.</p>
+</li>
+<li><p>Självklart kan du <strong>kombinera</strong> de två sätten att få information från användaren om du till exempel först vill fråga om det är regnigt och sedan fråga om Ruby vill vara inne eller ute.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby lyssna på musik.</p>
+<ol>
+<li><p>Skapa ett OM-block som kollar om <strong>”Idag är det: ”</strong> är lika med <strong>”Fredag”</strong></p>
+<ul>
+<li><p><strong>Byt</strong> klädsel till <strong>&quot;RUBY_jeans_tshirt&quot;</strong></p>
+</li>
+<li><p><strong>Säg</strong> <em>”Kan du hitta mina hörlurar?”</em></p>
+</li>
+<li><p><strong>Skicka</strong> meddelandet <strong>”hitta hörlurar”</strong></p>
+</li>
+</ul>
+<p><img src="image_15.png" alt="image alt block"></p>
+</li>
+<li><p>Lägg till en sprajt genom att ladda upp bilden för <strong>hörlurarna</strong> från din dator.</p>
+</li>
+<li><p>Skapa ett skript för <strong>hörlurarna</strong> som ser till att de är <strong>gömda</strong> när START klickas på</p>
+</li>
+<li><p>Skapa sedan ett skript till för <strong>hörlurarna</strong> som <strong>visar</strong> dem när meddelandet <strong>”hitta hörlurar”</strong> tas emot.</p>
+</li>
+<li><p><strong>Skicka</strong> meddelandet <strong>”hörlurar”</strong> när sprajten klickas på.</p>
+</li>
+<li><p>Skapa ett skript för <strong>Ruby</strong> som säger</p>
+<ul>
+<li><p>När meddelandet <strong>”hörlurar”</strong> tas emot</p>
+</li>
+<li><p><strong>Byt</strong> klädsel till <strong>&quot;RUBY_jeans_tshirt_headphones&quot;</strong></p>
+</li>
+<li><p><strong>Säg</strong> <em>”Tack! Nu kan jag börja leta”</em></p>
+</li>
+</ul>
+<p><img src="image_16.png" alt="image alt block"></p>
+</li>
+</ol>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du gjort klart uppgiften.</p>
+<p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<p><strong>Testa ditt projekt</strong><br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+<h2 id="utmaningar">Utmaningar</h2>
+<h3 id="en-enkel-kalender">En enkel kalender</h3>
+<p>Det här är ett tredje förslag på hur veckodag kan kodas istället för att fråga användaren eller slumpa fram dagen. Det kommer finnas två pilar på skärmen så att användaren enkelt kan bläddra mellan de olika veckodagarna.</p>
+<p>  <img src="image_18.png" alt="image alt kalender"></p>
+<p>  <em>Ungefär så här kommer kalendern se ut.</em></p>
+<ol>
+<li><p>Skapa en <strong>variabel</strong> som heter <strong>”idag”</strong> och som inte ska visas på skärmen.</p>
+</li>
+<li><p>Skapa en <strong>lista</strong> som heter <strong>&quot;veckodagar&quot;</strong>. Den ska inte visas på skärmen. Du hittar knappen för att skapa lista på fliken DATA.
+<img src="image_17.png" alt="image alt knapp"></p>
+<p>En lista är som en variabel som kan innehålla flera värden. I din lista skall du lägga in namnet på alla veckodagarna.</p>
+</li>
+<li><p>Markera scenen och skapa ett skript för den som säger</p>
+<ul>
+<li><p>När START klickas på</p>
+</li>
+<li><p><strong>Ta bort allt</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p><strong>Lägg till ”Måndag&quot; i ”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>”Tisdag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>&quot;Onsdag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>&quot;Torsdag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>&quot;Fredag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>”Lördag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Lägg till <strong>”Söndag&quot;</strong> i <strong>”veckodagar”</strong></p>
+</li>
+<li><p>Sätt <strong>”idag”</strong> till ett <strong>slumptal mellan 1 och 7</strong></p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>objekt ”idag”</strong> i <strong>”veckodagar”</strong></p>
+</li>
+</ul>
+<p><img src="image_19.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du för koden ovan. Tänk på att du måste lägga till fler block för att lägga in alla dagar i listan.</em></p>
+</li>
+<li><p><strong>Lägg till en sprajt</strong> från biblioteket som ser ut som en pil, till exempel <strong>Arrow2</strong>.</p>
+</li>
+<li><p>Förminska pilen så att den blir lagom stor och placera den till höger om variabeln <strong>”Idag är det: ”</strong></p>
+</li>
+<li><p>Skapa ett skript för <strong>pilen</strong> som säger:</p>
+<ul>
+<li><p>Startar när sprajten klickas på</p>
+</li>
+<li><p>OM <strong>”idag”</strong> är <strong>mindre än 7</strong>: <strong>ändra ”idag”</strong> med <strong>1</strong></p>
+</li>
+<li><p>ANNARS: <strong>sätt ”idag&quot;</strong> till <strong>1</strong></p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>objekt ”idag”</strong> i <strong>”veckodagar”</strong></p>
+</li>
+</ul>
+<p><img src="image_20.png" alt="image alt block"></p>
+<p><em>Dessa block behöver du för koden ovan.</em></p>
+</li>
+<li><p><strong>Kopiera sprajten</strong> så att du har två pilar.</p>
+</li>
+<li><p><strong>Ändra klädsen</strong> på den andra sprajten så att den pekar åt vänster.</p>
+</li>
+<li><p>Placera den till vänster om variabeln <strong>”Idag är det: ”</strong></p>
+</li>
+<li><p>Ändra i koden för <strong>vänster-pilen</strong> så den säger:</p>
+<ul>
+<li><p>Startar när sprajten klickas på</p>
+</li>
+<li><p>OM <strong>”idag”</strong> är <strong>större än 1</strong>: <strong>ändra ”idag”</strong> med <strong>-1</strong></p>
+</li>
+<li><p>ANNARS: <strong>sätt ”idag&quot;</strong> till <strong>7</strong></p>
+</li>
+<li><p>Sätt <strong>”Idag är det: ”</strong> till <strong>objekt ”idag”</strong> i <strong>”veckodagar”</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Testa! Vad händer om du klickar på de olika pilarna? Vad händer om det är söndag och du klickar på höger-pilen?</p>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li><p>Vad innebär det att du implementerar regler?</p>
+</li>
+<li><p>På vilka olika sätt kan du få information från användaren?</p>
+</li>
+<li><p>Vilka för- och nackdelar finns det med de olika sätt att få information från användaren?</p>
+</li>
+</ul>
+</body></html>
