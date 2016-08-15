@@ -31,11 +31,11 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
 
 
-## Delmoment 2: Ändra utseende!
+## Delmoment 2: Ändra utseende
 
 Nu är det dag att skapa frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
-> **_Kan jag använda bilder som jag hittar på nätet?_***
+> **_Kan jag använda bilder som jag hittar på nätet?_**
 *Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>
 
 
@@ -45,7 +45,7 @@ Nu är det dag att skapa frisyrer, glasögon, mustascher eller andra effekter so
 ![image alt text](image_3.png)
 
 
-2. Dra sprajtarna dit där du vill ha dem på scenen. Testa med ditt ansikte i bild så att det ser bra ut! Döp gärna sprajtarna till *"Peruk”, ”Glasögon”* och så vidare efter vad de föreställer.
+2. Dra sprajtarna dit där du vill ha dem på scenen. Testa med ditt ansikte i bild så att det ser bra ut! Döp gärna sprajtarna till **"Peruk”**, **”Glasögon”** och så vidare efter vad de föreställer.
 
 3. Om du behöver ändra storlek på sprajten, tryck på knappen med pilar inåt eller utåt och sedan på sprajten tills den är lagom stor.
 
@@ -82,7 +82,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 2. Dra din menyrad dit du vill ha den på Scen: på sidan, nere eller upptill i bild.
 
-3. Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en, genom att högerklicka och välja kopiera. Döp gärna sprajtarna till *"Knapp ….”* och din effekt.
+3. Nu behöver du kopiera dina sprajtar som du har gjort för olika effekter, en och en, genom att högerklicka och välja kopiera. Döp gärna sprajtarna till **"Knapp ….”** och din effekt.
 
 4. De kopierade sprajtarna ska fungera som knappar. Du behöver förminska dem så att de får plats i din menyrad. Dra dem dit och lägg i en rad så att alla får plats.
 
@@ -103,19 +103,17 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
 8. Nu ska du be knappen att **skicka meddelande** när du klickar på den. I **HÄNDELSER** hittar du **"skicka ”**, fäst blocket till det ovan och ändra till ett nytt meddelande i rullistan. Skriv in namnet på din effekt, till exempel *”glasögon”*.
 
-![image alt text](image_10.png)
-
+   ![image alt text](image_10.png)
 
 9. Markera nu sprajten som föreställer den effekt som knappen ska prata med. Gå till fliken för SKRIPT och dra ut blocket **”när jag tar emot ”** från **HÄNDELSER**. Välj meddelandet för din effekt i rullistan, till exempel meddelandet *”glasögon”*.
 
 10. Fäst blocket för **”visa”** som du hittar under **UTSEENDE**. Nu har du sagt åt din effekt att visa sig när den får meddelandet från knappen. Men du behöver också säga åt den att gömma sig innan knappen skickar meddelandet!
 
-![image alt text](image_11.png)
-
+    ![image alt text](image_11.png)
 
 11. Dra ut blocket för **”göm”** som också finns under **UTSEENDE** och fäst det till din startposition, alltså under **”när START (flaggan) klickas på”**.
 
-![image alt text](image_12.png)
+  ![image alt text](image_12.png)
 
 12. Nu behöver du göra likadana skript för alla dina knappar och alla effekter. Du kan kopiera skript genom att högerklicka, välja kopiera och sedan dra det till nästa sprajt. Byt namn på meddelandet för varje sprajt så att de stämmer överens med vardera knapp/effekt.
 
@@ -150,6 +148,15 @@ Grattis, nu har du ett färdigt program.
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta projektet på Scratch. Gå ut till projektsidan och låt någon testa.
 
 
+> **_Varför kan jag inte ta bilder med mitt Photo Booth?_**
+*Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live.
+Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det?
+Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda ***_Print Screen_***, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!*
+
+
+
+## Utmaningar
+
 Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program – eller fortsätta med någon av våra utmaningar som finns här i instruktionen:
 
 * Ta bort en effekt
@@ -160,15 +167,7 @@ Nu är det fritt fram att hitta på dina helt egna funktioner till ditt program 
 
 * Ramar
 
-
-> **_Varför kan jag inte ta bilder med mitt Photo Booth?_**
-*Det finns inget sätt att spara bilden från webbkameran i Scratch. Så ditt Photo Booth kommer inte att kunna spara bilder på dig utan bara vara för att testa olika effekter live.
-Det handlar om din ***_integritet på nätet_***. Scratch får inte göra det möjligt för dig eller någon annan att programmera något som sparar bilder eller film på den som använder programmet. Tänk om du spelade ett spel i Scratch och att du utan att du visste om det blev inspelad via webbkameran. Vad skulle du tycka om det?
-Vill du ändå spara bilden på dig själv i ditt Photo Booth? Då kan du använda ***_Print Screen_***, en funktion i datorn för att spara en bild på det som visas på skärmen. Kom ihåg att inte spara bilder på någon som inte gett dig tillåtelse till det!*
-
-
-
-## Utmaning 1: Ta bort en effekt
+### Ta bort en effekt
 
 Det kan vara användbart med en funktion som tar bort effekter allt eftersom du provar dem och väljer ditt utseende. På så sätt kan du ångra dina val. Här får du göra ett skript som gömmer effekten igen om du trycker ned mellanslag-tangenten (Space) samtidigt som du klickar på effektknappen.
 
@@ -190,17 +189,14 @@ Det kan vara användbart med en funktion som tar bort effekter allt eftersom du 
 
 	* Välj vilken ordning sprajten ska hamna på scenen, om det behövs
 
-
-![image alt text](image_14.png)
-
+   ![image alt text](image_14.png)
 
 5. Gör samma ändringar i skriptet för alla dina effekter!
 
 > Testa ditt projekt! Klicka på START. Visar sig effekterna när du klickar på knapparna? Gömmer de sig igen när du håller ned mellanslag (Space) samtidigt som du klickar på knappen?
 
 
-
-## Utmaning 2: Ändra utseende på dina effekter
+### Ändra utseende på dina effekter
 
 Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunna ändra färg på dem? Eller ändra något annat med effektens utseende, till exempel göra olika sorters mustascher eller frisyrer? Istället för att göra massor av sprajtar, kan du ha flera olika KLÄDSLAR till dina sprajtar.
 
@@ -224,7 +220,7 @@ Om du har gjort en peruk, ett par läppar eller en mustasch, kanske du vill kunn
 ![image alt text](image_16.png)
 
 
-## Utmaning 3: Ändra storlek på dina effekter
+### Ändra storlek på dina effekter
 
 Du vill kanske också kunna ändra storlek på effekterna, så att de kan passa ansikten som är olika stora i bild. Här får du göra ett skript som låter dig ändra storlek genom att klicka på effekten. Den blir större om du klickar på den, och mindre om du samtidigt håller in mellanslag på tangentbordet.
 
@@ -239,7 +235,7 @@ Du vill kanske också kunna ändra storlek på effekterna, så att de kan passa 
 
 
 
-## Utmaning 4: Ramar
+### Ramar
 
 Du kan göra ramar som går att välja till bilden i ditt Photo Booth.  Om du inte har plats i menyraden för en till knapp, kan du låta användaren välja ram med R-tangenten på tangentbordet.
 
@@ -263,4 +259,4 @@ Du kan göra ramar som går att välja till bilden i ditt Photo Booth.  Om du in
 
 * Vad för funktion, som inte är tillgänglig i Scratch, skulle du vilja lägga till i programmet?
 
-* Hur kan hitta fler bilder för ditt program?
+* Hur kan du hitta fler bilder för ditt program?

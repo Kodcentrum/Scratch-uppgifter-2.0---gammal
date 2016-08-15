@@ -11,27 +11,29 @@ här på Scratch</a>
 
 Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. Du kommer att göra flera olika huvuden, armar, munnar, ögon och så vidare så att du sedan kan göra till flera olika kombinationer av robotar!
 
-1. Skapa ett nytt Scratch-projekt och ta bort katten. Klicka på **Rita ny** *_sprajt_*. Klicka igen tills du har totalt sex tomma *sprajtar*. Döp om *sprajtarna* till: **"kropp"**, **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**.
+1. Skapa ett nytt Scratch-projekt och ta bort katten.
 
-2. Nu får du gå in på varje *sprajt* och rita egna *klädslar* till dem. Börja med att markera *sprajten* **"kropp"**. Gör den första klädseln som är en **stor grå kvadrat**. Välj **Rita ny ****_klädsel_** och gör den som en **stor grå cirkel**.
+2. Klicka på **Rita ny** *_sprajt_*. Klicka igen tills du har totalt sex tomma *sprajtar*. Döp om *sprajtarna* till: **"kropp"**, **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**.
 
-3. Gör nu två till *klädslar* som du väljer helt själv – hur vill du att en **robots kropp** ska se ut?
+3. Nu får du gå in på varje *sprajt* och rita egna *klädslar* till dem. Börja med att markera *sprajten* **"kropp"**. Gör den första klädseln som är en **stor grå kvadrat**. Välj **Rita ny** _klädsel_ och gör den som en **stor grå cirkel**.
 
-  Tips: Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer *sprajten* att hoppa hit och dit på Scenen! Du kan fixa det genom att **sätta *_klädselns_* centrum** till mitten av klädseln.
+4. Gör nu två till *klädslar* som du väljer helt själv. Hur vill du att en **robots kropp** ska se ut?
+
+  **Tips:** Det är viktigt att alla *klädslar* är centrerade i ritytan, annars kommer *sprajten* att hoppa hit och dit på Scenen! Du kan fixa det genom att **sätta *_klädselns_* centrum** till mitten av klädseln.
 
   ![image alt text](image_1.png)
 
-4. Dra sedan *sprajten* **"kropp"** till mitten av *Scenen* och lägg i nederkant så att kroppen sticker upp från nederkanten.
+5. Dra sedan *sprajten* **"kropp"** till mitten av *Scenen* och lägg i nederkant så att kroppen sticker upp från nederkanten.
 
-5. Gör på samma sätt med *sprajterna* **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**. Hitta på flera olika klädslar för varje *sprajt*.
+6. Gör på samma sätt med *sprajterna* **"huvud"**, **"armar"**, **"mun"**, **"ögon"**, **"extra"**. Hitta på flera olika klädslar för varje *sprajt*.
 
-6. **"Extra"** kan till exempel vara antenner, en hatt eller ett halsband. Du kan behöva placera just dessa *klädslar* lite olika och **inte centrerat** som för de andra *sprajterna*!
+7. **"Extra"** kan till exempel vara antenner, en hatt eller ett halsband. Du kan behöva placera just dessa *klädslar* lite olika och **inte centrerat** som för de andra *sprajterna*!
 
-7. Placera alla *sprajter* på Scenen så att alla robotens delar sitter där du vill ha dem.
+8. Placera alla *sprajter* på Scenen så att alla robotens delar sitter där du vill ha dem.
 
   ![image alt text](image_2.jpg)
 
-Tips: Behöver du inspiration för att hitta på hur en robot kan se ut? Sök på "robot" på nätet och titta på bilder. Tänk på att du kan ge roboten olika känslolägen med glad eller ledsen mun, trötta eller pigga ögon och så vidare.
+**Tips:** Behöver du inspiration för att hitta på hur en robot kan se ut? Sök på "robot" på nätet och titta på bilder. Tänk på att du kan ge roboten olika känslolägen med glad eller ledsen mun, trötta eller pigga ögon och så vidare.
 
 > Testa ditt projekt! Klicka på START. Hamnar någon del bakom en annan, till exempel ögonen bakom huvudet? Du kommer strax att göra ett *skript* som säger åt delarna att lägga sig i rätt ordning, så att det ser rätt ut.
 
@@ -45,7 +47,7 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
   * Starta när START klickas på
   * **Lägg överst **av alla lager
   * **Repetera slumptal** 1 till 10:
-    * **Vänta **0.1** sekunder**
+    * **Vänta **0.5** sekunder**
     * Byt till **nästa klädsel**
 
 9. Kopiera *skriptet* till *sprajten* **"mun"**. Både mun och ögon kan ligga i översta lagret.
@@ -54,20 +56,20 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
 
   > Testa ditt projekt! Klicka på START. Ändras robotens mun och ögon och stannar på en slumpmässigt vald klädsel?
 
-10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. Byt ut blocket **lägg överst** till **gå tillbaka** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
+10. Kopiera *skriptet* till **"huvud"**, **"kropp"**, **"armar"** och **"extra"**. Här behöver du flytta bak *sprajterna* till olika lager. **Byt ut** blocket **lägg överst** till **gå tillbaka** 0 **lager**. Sätt olika värden för att bestämma vilken *sprajt* som ska ligga framför den andra.  
 
   ![image alt text](image_4.jpg)
 
 > Testa ditt projekt! Klicka på START. Ändras alla robotens delar? Stannar de efter en halv sekund på en slumpmässigt vald klädsel? Sitter alla delar där du vill att de ska vara? Är de i rätt lager?
 
-Tips: Om det är någon *klädsel* som inte sitter helt rätt, kan du prova att ändra **_klädselns_ centrum** på just den!
+**Tips**: Om det är någon *klädsel* som inte sitter helt rätt, kan du prova att ändra **_klädselns_ centrum** på just den!
 
 
 ## Delmoment 3: Slumpmässig bakgrund
 
-Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje gång du trycker på START. Du får själv välja olika bakgrundsbilder till *scenen*.
+Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje gång du trycker på START. Du får själv välja olika bakgrundsbilder till *Scenen*.
 
-11. Markera *Scen* och **välj ny** **_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
+11. Markera *Scenen* och **välj ny** **_Bakgrund_** **från biblioteket** – välj ut fyra bakgrunder som du vill använda och ta bort den vita bakgrunden som fanns från början.
 
 12. Skapa ett *skript* för *scenen* som gör samma sak som *sprajternas* skript, fast att du byter *bakgrund* istället för *klädsel*. Du behöver inte tänka på lager här.
 
@@ -86,12 +88,12 @@ En LISTA är en *variabel* som innehåller flera andra variabler. Om variabeln �
 
 Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
-13. Välj blocket **Skapa en lista** under **DATA** och kalla den för "Strängar".
+13. Välj blocket **Skapa en lista** under **DATA** och kalla den för **"Strängar"**.
 
-14. Markera *Scen* och skapa ett nytt *skript* som säger:
+14. Markera *Scenen* och skapa ett nytt *skript* som säger:
 
   * Starta när START klickas på
-  * Först **ta bort alla i** **listan** **"Strängar"**
+  * Först **ta bort alla i** listan **"Strängar"**
   * Sedan **lägg till** *"Hej, jag heter Robin!"* **i "Strängar"**
 
   ![image alt text](image_6.jpg)
@@ -118,10 +120,10 @@ Nu ska du få göra en lista med strängar för vad roboten ska kunna säga!
 
 18. Fortsätt på ditt *skript* för *sprajten* **"huvud"**. Lägg till att den ska:
 
-  * **Spela ljudet** "computer beeps 1"
-  * **Säga** innehållet i variabeln **"Sträng"**
+  * **Spela** ljudet _"computer beeps 1"_
+  * **Säg** innehållet i variabeln **"Sträng"**
 
-Tips: Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det räcker alltså inte att skriva ordet "Val" i **Säg**-blocket.
+**Tips:** Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det räcker alltså inte att skriva ordet "Val" i **Säg**-blocket.
 
 ![image alt text](image_9.jpg)
 
@@ -129,7 +131,7 @@ Tips: Du behöver lägga in variabeln **"Val"** som du har under **DATA**, det r
 
 >Testa ditt projekt! Klicka på START. Säger roboten något? Säger den olika saker varje gång du klickar på START? Låter roboten?
 
-Tips: Nu kan du klicka ur och **gömma din variabel och din lista** så att de inte syns på scenen!
+**Tips:** Nu kan du klicka ur och **gömma din variabel och din lista** så att de inte syns på scenen!
 
 
 ## Färdig!
