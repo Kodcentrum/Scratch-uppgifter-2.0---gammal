@@ -1,8 +1,11 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="fotbollsspel">Fotbollsspel</h1>
-<p>Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. </p>
-<p>Ett exempel på det färdiga spelet finns på <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">här på Scratch</a></p>
+<p>Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.</p>
+<p>Ett exempel på det färdiga spelet finns här:</p>
+<ul>
+<li><a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">Exempel</a></li>
+</ul>
 <p><img src="image_0.png" alt="image alt text"></p>
 <h2 id="delmoment-1-v-lj-sprajtar-f-r-fotbollsspelare-och-boll">Delmoment 1: Välj sprajtar för fotbollsspelare och boll</h2>
 <p>Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.</p>
@@ -57,13 +60,13 @@
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?</p>
 </blockquote>
-<p>  Tips: Om spelaren försvinner ut från scenen behöver du säga åt den att <strong>studsa vid kanten</strong> så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i <strong>RÖRELSE</strong>.</p>
+<p>  <strong>Tips:</strong> Om spelaren försvinner ut från scenen behöver du säga åt den att <strong>studsa vid kanten</strong> så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i <strong>RÖRELSE</strong>.</p>
 <p>  <img src="image_10.jpg" alt="image alt text"></p>
 <p>  <em>Så här borde dina skript för fotbollsspelaren se ut nu.</em></p>
 <h2 id="delmoment-4-f-spelaren-att-sparka-p-bollen">Delmoment 4: Få spelaren att sparka på bollen</h2>
 <p>Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! Du ska göra så att bollens sprajt <strong>känner av</strong> spelarens sprajt, och <strong>då</strong> få bollen att röra sig i samma riktning som spelaren men med en högre hastighet, så att det ser ut som att bollen skjuts iväg.  </p>
 <ol>
-<li><p>Gå till bollens SKRIPT. Välj en <strong>&quot;för alltid&quot;</strong>-LOOP från <strong>KONTROLL</strong> <strong>och sätt under startpositionen i skriptet för </strong>&quot;när START (flaggan) klickas på&quot;**.</p>
+<li><p>Gå till bollens SKRIPT. Välj en <strong>&quot;för alltid&quot;</strong>-LOOP från <strong>KONTROLL</strong> och sätt under startpositionen i skriptet för <strong>&quot;när START (flaggan) klickas på&quot;</strong>.</p>
 </li>
 <li><p>Välj blocket <strong>&quot;om &lt;&gt; då&quot;</strong> som finns under <strong>KONTROLL</strong> och lägg inuti loopen. Från <strong>KÄNNA AV</strong> tar du blocket <strong>Rör _<em>__</em>?&quot;</strong> och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att <strong>om</strong> bollen <strong>rör</strong> sprajten <strong>då</strong> ska något hända.</p>
 </li>
@@ -75,7 +78,7 @@
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?</p>
 </blockquote>
-<p>  Tips: Om bollen försvinner ut från scenen behöver du säga åt den att <strong>studsa vid kanten</strong> på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter <strong>&quot;om &lt;&gt; då&quot;</strong>.</p>
+<p>  <strong>Tips:</strong> Om bollen försvinner ut från scenen behöver du säga åt den att <strong>studsa vid kanten</strong> på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter <strong>&quot;om &lt;&gt; då&quot;</strong>.</p>
 <blockquote>
 <p>Testa ditt projekt igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?</p>
 </blockquote>
@@ -109,7 +112,7 @@
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Vad händer när du får spelaren att sparka bollen i mål? Ropar fotbollsspelaren &quot;Mål!&quot; när bollen är i mål?</p>
 </blockquote>
-<p>  Tips: Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!</p>
+<p>  <strong>Tips:</strong> Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!</p>
 <h2 id="delmoment-8-starta-om-efter-m-l">Delmoment 8: Starta om efter mål</h2>
 <p>Något saknas! Vad ska hända när fotbollsspelaren har skjutit bollen i mål? Nu ligger bara bollen kvar och spelaren har inget mer att göra. Det ska du få fixa till nu. När bollen går i mål, flyttas spelare och boll tillbaka till där de stod från början, så att du kan spela igen.</p>
 <p>En <strong>startposition</strong> är alltid bra att sätta, för att slippa dra tillbaka spelaren varje gång du trycker på START. Du gör då ett INIT-SKRIPT som talar om hur programmet ska starta.</p>
@@ -124,9 +127,11 @@
 </li>
 <li><p>Markera nu bollen och gör ett likadant skript som <strong>tar emot meddelande</strong> &quot;nytt spel&quot; som för spelaren i punkt 20. Ta sedan ett block för <strong>&quot;skicka [nytt spel]&quot;</strong> och lägg in i bollens START-skript, innan dess <strong>&quot;för alltid&quot;</strong>-LOOP.</p>
 <p><img src="image_16.jpg" alt="image alt text"></p>
-<p><strong>Testa ditt projekt! </strong>Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?</p>
 </li>
 </ol>
+<blockquote>
+<p><strong>Testa ditt projekt! </strong>Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?</p>
+</blockquote>
 <h2 id="f-rdig-">Färdig!</h2>
 <p>Grattis, nu har du gjort klart uppgiften.</p>
 <p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
@@ -140,7 +145,7 @@
 <p><img src="image_17.jpg" alt="image alt text"></p>
 <h3 id="po-ngr-knare">Poängräknare</h3>
 <p>Du kan även skapa en <strong>poängräknare</strong> som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för <strong>två spelare</strong> och skapa en målvakt som ska försöka stoppa bollen.</p>
-<p>Tips: Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = "_blank">det här exemplet</a> på hur spelet kan se ut.
+<p><strong>Tips:</strong> Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = "_blank">det här exemplet</a> på hur spelet kan se ut.
 För att se koden bakom projektet trycker du på SE INUTI.</p>
 <p><img src="image_18.jpg" alt="image alt text"></p>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>

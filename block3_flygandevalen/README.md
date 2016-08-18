@@ -60,7 +60,7 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 
   ![image alt text](image_8.png)
 
-## Delmoment 3: Munkar att äta**
+## Delmoment 3: Munkar att äta
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita själv finns det färdiga i Scratch-biblioteket. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
 12. Rita en egen munk med **"Rita ny sprajt”** eller gå till biblioteket med **”Välj sprajt från bibliotek”**. Under ”Saker” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den!
@@ -100,7 +100,6 @@ Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig mu
 
   * Visa sig igen
 
-
 16.  Lägg till ett block för **"visa”** även direkt under **”när START klickas på”**. Annars kan det bli fel när du startar spelet!
 
   ![image alt text](image_11.png)
@@ -111,7 +110,7 @@ Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen b
 
 17. Hur kan du se till att munken bara försvinner om den nuddar valens mun? Du kan byta ut blocket **"rör sprajten”** mot **”rör färgen”** och se till så att din val har en speciell färg på sin mun.
 
-**Tips:** När du har ritat munnen kan du i skriptet för **"rör färgen”** välja färg genom att klicka i färgrutan och därefter på valens mun!
+  **Tips:** När du har ritat munnen kan du i skriptet för **"rör färgen”** välja färg genom att klicka i färgrutan och därefter på valens mun!
 
 18. Sedan kan du få munken att gå till en slumpvis punkt på scenen innan den visas igen. För det behöver du lägga till ett **"gå till x: y:”** och välja **”slumptal”** som koordinater! Dra runt med munken på scenen för att se vilka värden som hela scenen har.
 
@@ -138,7 +137,7 @@ För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låd
 
   ![image alt text](image_13.png)
 
-12. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **DATA** som du döper till "*poäng*”. Fäst blocket **”ändra ****_poäng_**** med 1” **efter** ”tar emot meddelandet”**.
+12. Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du **skapa en variabel** från **DATA** som du döper till "*poäng*”. Fäst blocket **”ändra **_poäng_** med 1” **efter** ”tar emot meddelandet”**.
 
 13. Välj att variabeln ska vara **synlig** och att den **gäller för alla sprajtar**. Placera poängräknaren där du vill ha den på scenen.
 
@@ -158,6 +157,7 @@ Grattis, nu har du gjort färdigt uppgiften.
 
 * Gå ut till projektsidan och låt någon annan **testa ditt spel**.
 
+## Utmaningar
 
 Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel – eller fortsätta med någon av våra utmaningar:
 
@@ -168,8 +168,8 @@ Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel
   * Flera banor
 
 
+### Tidsgräns för spelet
 
-## Utmaning 1: Tidsgräns för spelet
 Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på 30 sekunder?
 
 För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** och som gäller för alla sprajtar. Sedan gör du ett skript för SCEN som talar om att:
@@ -180,16 +180,16 @@ För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** 
 
   * **Repetera** tills **tid = 0**
 
-  * **ändra tid med -1**
+    * **ändra tid med -1**
 
-  * **vänta** 1 sekund
+    * **vänta** 1 sekund
 
 * Om **tid = 0**, då **stoppa alla skript** så att spelet avslutas
 
-## Utmaning 2: Minuspoäng för moln
+### Minuspoäng för moln
 I spelet SkyWhale ska valen undvika vissa flygande objekt, som bläckfiskar och hårtorkar. Kan du skapa ett skript för att minska poäng, **"ändra poäng med -1”**, om valen flyger på ett moln?
 
-## Utmaning 3: Flera banor
+### Flera banor
 I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattensvärld. Kan du göra ett skript som **byter scenens bakgrund** när spelaren når en viss poäng – så att ditt spel består av flera banor? Rita flera bakgrundsbilder eller välj ur biblioteket under fliken BAKGRUNDER.
 
 ## Frågeställningar

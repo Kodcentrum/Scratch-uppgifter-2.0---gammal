@@ -17,7 +17,7 @@ Två exempel på hur olika spelet kan se ut ser du här:
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
 
-1. Skapa ett nytt Scratch-projekt. Ta bort katten genom att högerklicka på den och välja radera.
+1. Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.
 
 2. Tryck på SCEN och byt till fliken BAKGRUNDER. Börja med att välja **bakgrundsfärg**, genom att fylla bakgrunden med en färg.
 
@@ -37,17 +37,20 @@ för bakgrund, väggar, start- och målpunkt._
 
 Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för karaktär vill du spela som?
 
-6. Radera **Sprite1** (Katten) och välj **Rita ny sprajt**. Rita vad du vill, men **gör den tillräcklig liten** för att den ska få plats att ta sig igenom labyrinten. Tänk på att du kan använda förminskningsknappen efter det att du har ritat sprajten.
+6. Radera **Sprajt1** (Katten) och välj **Rita ny sprajt**. Rita vad du vill, men **gör den tillräcklig liten** för att den ska få plats att ta sig igenom labyrinten. Tänk på att du kan använda förminskningsknappen efter det att du har ritat sprajten.
 
   ![image alt text](image_3.png)
 
-  _Exempel på en sprite._
+  _Exempel på en sprajt._
 
   Nu vill du att din sprajt ska kunna röra sig igenom labyrinten.
 
-7. Gör ett skript för din sprajt som säger2:    
+7. Gör ett skript för din sprajt som säger2:
+
   * Starta när **pil upp**-tangenten trycks ned
+
   * Då ska sprajten först **peka uppåt**
+
   * Sedan **röra sig** ett par steg
 
 8. Gör tre till likadana skript, fast för att styra **vänster**, **höger** och **nedåt**.
@@ -56,9 +59,9 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 
   _Tänk på att ha olika riktningar i de olika skripten_
 
-> Testa ditt projekt! Klicka på START. Kan du röra din sprite åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
+> Testa ditt projekt! Klicka på START. Kan du röra din sprajt åt alla håll? Går den i lagom hastighet? Nu kan du använda piltangenterna för att styra sprajten, men du skulle också kunna välja helt andra tangenter.
 
-Tips: Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
+**Tips:** Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
 
 
 ## Delmoment 3: Vinna eller förlora
@@ -76,17 +79,22 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 1. Börja med skriptet för **uppåt** och ändra så att det säger:
 
   * Starta när **pil upp**-knappen trycks ned
+
   * **Känn av om** sprajten har nuddat en vägg
+
     * **Då** ska sprajten **säga "Du dog"** och **gå till** startpunkten
+
   * **Känn av om** sprajten har nuddat målpunkten
+
     * **Då** ska sprajten **säga "Du vann"**
+
   * **Annars** ska sprajten **röra sig** som förut (peka uppåt och gå ett par steg framåt)
 
   ![image alt text](image_6.png)
 
   _Det här är blocken som du behöver använda_
 
-  Tips: Förstår du hur sprajten ska kunna **känna av** väggen, startpunkten och målpunkten? Kom ihåg att de har olika **färg**! Förstår du hur sprajten ska kunna **veta var startpunkten är**, när den ska gå tillbaka dit? Tänk på att du har tagit fram dess KOORDINATER tidigare. Minns du?
+  **Tips:** Förstår du hur sprajten ska kunna **känna av** väggen, startpunkten och målpunkten? Kom ihåg att de har olika **färg**! Förstår du hur sprajten ska kunna **veta var startpunkten är**, när den ska gå tillbaka dit? Tänk på att du har tagit fram dess KOORDINATER tidigare. Minns du?
 
 11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
 
@@ -97,21 +105,29 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du!
 
-1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen. Gör ett nytt skript för sprajten som säger:
+1. Skapa en VARIABEL som heter **Tid**. Den ska vara **synlig** på scenen.
+
+2. Gör ett nytt skript för sprajten som säger:
 
   * Starta när START klickas på
+
   * **Gå till** startpunkten
+
   * **Sätt Tid** till 60 sekunder (eller välj själv antal sekunder)
+
   * **För alltid om Tid > 0**
+
     * **Då** ska sprajten **vänta** 1 sekund
+
     * **Ändra Tid** med -1
+
     * Annars **säg "Game over"** och **stoppa** alla skript
 
   ![image alt text](image_7.png)
 
   Nu har du en timer, det vill säga en tidräknare! Men för att göra det ännu svårare ska du nu säga åt sprajten att den förlorar extra mycket tid om den nuddar väggen.
 
-13. Lägg till ett block som **ändrar Tid med -10** på alla dina skript som kollar om sprajten har nuddat väggen. Kommer du ihåg vilka skript det är?
+3. Lägg till ett block som **ändrar Tid med -10** på alla dina skript som kollar om sprajten har nuddat väggen. Kommer du ihåg vilka skript det är?
 
   ![image alt text](image_8.png)
 
@@ -135,6 +151,7 @@ Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu!
 17. Lägg sedan till ett nytt skript för scenen som säger:
 
   * När sprajten **tar emot meddelandet NästaNivå**
+
   * Byt till **nästa klädsel**
 
 > Testa ditt projekt! Klicka på START. Vad händer när du har klarat den första banan?
@@ -156,17 +173,24 @@ Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 Du kan lägga till ännu fler nivåer genom att rita nya **klädslar** som följer reglerna:
 
   * Samma position på startpunkten
+
   * Samma färg på väggarna
+
   * Samma färg på målpunkten
+
   * Att det inte finns andra saker med samma färg som väggen eller målpunkten
 
 ### Lägg till hinder
 Det behöver inte vara väggarna i labyrinten som skickar tillbaka dig till startpunkten. Du kan hitta på egna monster eller andra slags hinder som du måste ta dig förbi på väg till mål.
 
 * Tänk på vilken färg hindren har, så att de inte har samma färg som vägg eller målpunkt
+
 * Välj själv om du vill att hindren rör sig eller om de ska stå stilla
+
 * Se till så att det faktiskt är möjligt för sprajten att ta sig förbi hindren
+
 * Ändra skriptet för sprajten så att den känner av hindren på samma sätt som väggen
+
 * Kan du ändra i skriptet för din sprajt så att den kan krocka mot väggen utan att gå tillbaka till startpunkten, men att väggen fortfarande är ogenomtränglig?
 
 ## Frågeställningar

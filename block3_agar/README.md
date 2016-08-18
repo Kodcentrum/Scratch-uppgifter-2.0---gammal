@@ -12,11 +12,14 @@ I det här spelet är du en cell som äter små kulor. Det är en variant på ag
 
 Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och ytterligare en mindre sprajt som skall bli mat.
 
-1. Skapa ett nytt Scratch-projekt och ta bort katten. Rita en ny **bakgrund** som ser ut som ett rutnät. Det gör du lättast med **linjeverktyget**.
+1. Skapa ett nytt projekt och ta bort katten.
 
-2. Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och **fylld cirkel**. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.
 
-3. Kalla denna sprajt **"Cell"**. Klicka på ![image alt i](image_2.png) bredvid sprajten och skriv in **"Cell"** istället för **"Sprajt1"**.
+2. Rita en ny **bakgrund** som ser ut som ett rutnät. Det gör du lättast med **linjeverktyget**.
+
+3. Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och **fylld cirkel**. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.
+
+4. Kalla denna sprajt **"Cell"**. Klicka på ![image alt i](image_2.png) bredvid sprajten och skriv in **"Cell"** istället för **"Sprajt1"**.
 
 5. Nu behöver du mat och det gör du genom att rita en ny sprajt. Men rita bara en! De andra kommer du skapa med kod. Rita en liten cirkel som du fyller med valfri färg.
 
@@ -45,18 +48,20 @@ Du skall styra sprajten **Cell** med musen och när du äter de små kulorna ska
   * För alltid:
 
     * **Peka mot** muspekare
+
     * **Gå** 20 **steg**
+
     * **Sätt storleken till** **"Vikt"%**
 
   ![image alt block](image_4.png)
 
   _Det här är alla block du behöver för punkt 2._
 
-Testa ditt skript. Följer **Cell** med när du drar musen över spelplanen?
+> Testa ditt skript. Följer **Cell** med när du drar musen över spelplanen?
 
 ## Delmoment 3: Mat
 
-Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge det skriptet går.
+Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge skriptet går.
 
 1. Börja med ett skript för sprajten **Mat** som säger:
 
@@ -104,7 +109,7 @@ Nästa steg är att se till att du har något att äta. Vi har redan skapat en s
 
   _Det här är alla block du behöver för punkterna 1-3._
 
-Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
+> Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
 och äta upp små kulor.
 
 ## Delmoment 4: Utökad speldynamik
@@ -114,7 +119,9 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 1. Just nu går **Cell** 20 steg varje gång du rör musen: ![image alt kod](image_6.png). Ändra det så att den rör sig i proportion till vad variabeln **"Vikt"** har för värde.
 
   * Om du ändrar den till ![image alt kod](image_7.png) så kommer **Cell** röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.
+
   * Om du i stället ändrar till ![image alt kod](image_8.png) så kommer den röra sig mindre ju större den är. Till exempel så kommer den röra sig 80 steg i början (100 - 20 = 80) och 70 steg när du ätit 10 kulor. Detta är ganska bra men den rör sig väldigt fort.
+
   * Multiplicera därför denna vikt med 0.1: ![image alt kod](image_9.png). Nu kommer den röra sig 8 steg i början ((100 - 20)*0.1 = 8) och 7 steg när du ätit 10 kulor. Det är en lagom hastighet, men prova gärna att multiplicera med 0.2 eller 0.05 istället!  
 
 2. Skapa ett nytt skript för **Cell** som säger:
@@ -131,13 +138,13 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 
   _Det här är alla block du behöver för punkt 2._
 
-Testa din kod! Du kan självklart göra det enklare eller svårare genom att ändra på skripten du gjorde ovan.
+> Testa din kod! Du kan självklart göra det enklare eller svårare genom att ändra på skripten du gjorde ovan.
 
-Tycker du att **Cell** rör sig för fort? Ändra koden i punkt 1. Tycker du att **Cell** förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.
+**Tips:** Tycker du att **Cell** rör sig för fort? Ändra koden i punkt 1. Tycker du att **Cell** förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.
 
 ## Delmoment 5: En motståndare
 
-Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas artificiell intelligens och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.
+Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas _artificiell intelligens_ och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.
 
 Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan du koda en helt annan motståndare. Det finns inget som sätter stopp - bara din fantasi!
 
@@ -206,7 +213,7 @@ Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-**Testa ditt projekt**  
+> **Testa ditt projekt**  
   Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Utmaningar
@@ -218,6 +225,7 @@ Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta. F
 Du kan lägga in så att spelet slutar när du har kommit upp i 100. Du måste:
 
   * Stoppa all skript.
+
   * Visa ett meddelande på skärmen.
 
 ### Uppäten
@@ -225,10 +233,13 @@ Du kan lägga in så att spelet slutar när du har kommit upp i 100. Du måste:
 I stället för att du förlorar 5 i vikt kan du koda så att du dör om **Cell** träffar **Fiende** mer än till exempel 5 gånger. Du måste:
 
   * Skapa en ny variabel som håller reda på hur många gånger **Cell** och **Fiende** har rört varandra.
+
   * Stoppa all skript om den variabel är större än 5.
+
   * Visa ett meddelande på skärmen.
 
 ## Frågeställningar
+
 
 * Vad är en variabel?
 

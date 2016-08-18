@@ -15,15 +15,26 @@
 </ol>
 <p>Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedagskortet att:</p>
 <ul>
-<li>Fråga vem som fyller år</li>
-<li>Spela upp en födelsedagssång</li>
-<li>Få alla att dansa på sitt eget sätt</li>
-<li>Säga grattis till födelsedagsbarnet</li>
+<li><p>Fråga vem som fyller år</p>
+</li>
+<li><p>Spela upp en födelsedagssång</p>
+</li>
+<li><p>Få alla att dansa på sitt eget sätt</p>
+</li>
+<li><p>Säga grattis till födelsedagsbarnet</p>
+</li>
 </ul>
 <h2 id="delmoment-2-fr-ga-efter-f-delsedagsbarnets-namn">Delmoment 2: Fråga efter födelsedagsbarnets namn</h2>
 <p>Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.</p>
 <ol>
-<li>Gå till kattens sprajt och skapa ett skript som startar när START-flaggan klickas på. Välj <strong>KÄNNA AV</strong>: <strong>&quot;Fråga ___ och vänta&quot;</strong> och skriv in &quot;<em>Vem fyller år?&quot;</em>.</li>
+<li><p>Gå till kattens sprajt och skapa ett skript som säger:</p>
+<ul>
+<li><p>Startar när START-flaggan klickas på.</p>
+</li>
+<li><p>Välj <strong>KÄNNA AV</strong>: <strong>&quot;Fråga ___ och vänta&quot;</strong> och skriv in &quot;<em>Vem fyller år?&quot;</em>.</p>
+</li>
+</ul>
+</li>
 </ol>
 <p><img src="image_1.png" alt="image alt text"></p>
 <p><em>När du har skrivit in ett namn i rutan, tryck på Enter.
@@ -43,14 +54,18 @@ Du kommer att förstå senare vad namnet ska användas till!</em></p>
 </li>
 <li><p>Gå till fliken LJUD och välj t ex ljudet <strong>Musikloopar &gt; Birthday</strong> från biblioteket. Prova att spela genom att trycka på <strong>play</strong> knappen!</p>
 <p><img src="image_6.png" alt="image alt text"></p>
-<p><em>Tips: Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!</em></p>
+<p><strong>Tips:</strong> Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!</p>
 </li>
 <li><p>Gå till fliken SKRIPT och ändra skriptet som du skapade i Delmoment 2. Det ska nu:</p>
 <ul>
-<li>Starta när START-flaggan klickas på</li>
-<li>Fråga <em>&quot;Vem fyller år?&quot;</em> och vänta på svar</li>
-<li><strong>Skicka</strong> meddelandet <em>&quot;Festa&quot;</em></li>
-<li><strong>Spela ljudet</strong> <em>Birthday</em> tills det har spelats färdigt</li>
+<li><p>Starta när START-flaggan klickas på</p>
+</li>
+<li><p><strong>Fråga</strong> <em>&quot;Vem fyller år?&quot;</em> och vänta på svar</p>
+</li>
+<li><p><strong>Skicka</strong> meddelandet <em>&quot;Festa&quot;</em></p>
+</li>
+<li><p><strong>Spela ljudet</strong> <em>Birthday</em> tills det har spelats färdigt</p>
+</li>
 </ul>
 <p><img src="image_7.png" alt="image alt text"></p>
 <p><em>Meddelandet &quot;Festa&quot; kommer att bli viktigt
@@ -58,10 +73,14 @@ om en stund. Kan du lista ut varför?</em></p>
 </li>
 <li><p>Skapa nu ett nytt skript till katten som ska:</p>
 <ul>
-<li>Starta när det <strong>tar emot meddelandet</strong> <em>&quot;Festa&quot;</em></li>
-<li><strong>För alltid</strong>:<ul>
-<li>Byta till <strong>nästa klädsel</strong></li>
-<li><strong>Vänta 0.25 sekunder</strong></li>
+<li><p>Starta när det <strong>tar emot meddelandet</strong> <em>&quot;Festa&quot;</em></p>
+</li>
+<li><p><strong>För alltid</strong>:</p>
+<ul>
+<li><p>Byta till <strong>nästa klädsel</strong></p>
+</li>
+<li><p><strong>Vänta 0.25 sekunder</strong></p>
+</li>
 </ul>
 </li>
 </ul>
@@ -75,13 +94,17 @@ om en stund. Kan du lista ut varför?</em></p>
 <p>Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det kan du fixa med ett nytt <strong>meddelande</strong> som berättar att festen är slut, så att katten kan säga &quot;<em>Grattis&quot;</em> och sluta dansa.</p>
 <ol>
 <li><p>Gör så att skriptet du gjorde i steg 10 skickar ut <strong>meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em> efter att ljudet <em>Birthday</em> har spelats.</p>
-<p>Skapa ett nytt skript för katten som ska:</p>
+</li>
+<li><p>Skapa ett nytt skript för katten som ska:</p>
 <ul>
-<li>Starta när det <strong>tar emot meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em></li>
-<li><strong>Stoppa</strong> alla <em>andra skript i sprite</em></li>
-<li><strong>Säga</strong> <em>&quot;Grattis&quot;</em> och <strong>namnet du skrev in i början</strong> i 2 sekunder!</li>
+<li><p>Starta när det <strong>tar emot meddelande</strong> <em>&quot;FESTEN SLUT&quot;</em></p>
+</li>
+<li><p><strong>Stoppa</strong> alla <em>andra skript i sprajt</em></p>
+</li>
+<li><p><strong>Säga</strong> <em>&quot;Grattis&quot;</em> och <strong>namnet du skrev in i början</strong> i 2 sekunder!</p>
+</li>
 </ul>
-<p>Exempel: <em>&quot;Grattis Jasmine&quot;</em>. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!</p>
+<p><strong>Exempel:</strong> <em>&quot;Grattis Jasmine&quot;</em>. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!</p>
 <p><img src="image_9.png" alt="image alt text"></p>
 <p><em>Kan du läsa steg för steg vad detta skript gör?</em></p>
 </li>
@@ -89,7 +112,7 @@ om en stund. Kan du lista ut varför?</em></p>
 <blockquote>
 <p>Testa ditt projekt! Slutar katten och dansa när melodin är slut? Säger katten <em>&quot;Grattis …&quot;</em> och det namn som du skrev in när kortet frågade <em>&quot;Vem fyller år?&quot;</em> i början?</p>
 </blockquote>
-<p>Tips: Om den säger orden ihop så lägg till ett mellanslag efter <em>&quot;Grattis&quot;</em> i skriptet!</p>
+<p><strong>Tips:</strong> Om den säger orden ihop så lägg till ett mellanslag efter <em>&quot;Grattis&quot;</em> i skriptet!</p>
 <h2 id="delmoment-5-alla-ska-dansa-">Delmoment 5: Alla ska dansa!</h2>
 <p>Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför <strong>skicka</strong> och <strong>ta emot meddelande</strong> är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.</p>
 <ol>
@@ -97,7 +120,7 @@ om en stund. Kan du lista ut varför?</em></p>
 </li>
 <li><p>Nu ska du skapa två skript för vardera sprajt. Gör skriptet för en sprajt och kopiera sedan till den andra. Bestäm själv vad som händer när de <strong>tar emot</strong> meddelanden &quot;FESTA&quot; och &quot;FESTEN SLUT&quot;.</p>
 <p><img src="image_10.png" alt="image alt text"></p>
-<p><em>Tips: Titta på hur du gjorde skripten för katten om du inte kommer ihåg!</em></p>
+<p><strong>Tips:</strong> Titta på hur du gjorde skripten för katten om du inte kommer ihåg!</p>
 </li>
 </ol>
 <blockquote>
@@ -115,20 +138,24 @@ om en stund. Kan du lista ut varför?</em></p>
 </li>
 <li><p>Skriptet för &quot;FESTA&quot; ska använda en LOOP som gör att scenen <strong>för alltid</strong> ska:</p>
 <ul>
-<li><strong>Ändra</strong> <em>färg</em> <strong>effekten med</strong> <em>25</em></li>
-<li><strong>Vänta</strong> <em>2</em> <strong>sekunder</strong></li>
+<li><p><strong>Ändra</strong> <em>färg</em> <strong>effekten med</strong> <em>25</em></p>
+</li>
+<li><p><strong>Vänta</strong> <em>2</em> <strong>sekunder</strong></p>
+</li>
 </ul>
 </li>
 <li><p>Skriptet för &quot;FESTEN SLUT&quot; ska:</p>
 <ul>
 <li><strong>Stoppa</strong> alla <em>andra skript i sprajt</em></li>
 </ul>
-<p><img src="image_12.png" alt="image alt text"></p>
-<p><em>Testa att ändra antal sekunder för vänta och
-värdet för färgeffekten och se vad som händer!</em></p>
 </li>
 </ol>
+<p>  <img src="image_12.png" alt="image alt text"></p>
+<p>  <em>Testa att ändra antal sekunder för vänta och
+värdet för färgeffekten och se vad som händer!</em></p>
+<blockquote>
 <p><strong>Testa ditt projekt!</strong> Kommer det upp en tårta när katten säger <em>&quot;Grattis …&quot;</em>? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?</p>
+</blockquote>
 <h2 id="f-rdig-">Färdig!</h2>
 <p>Grattis, nu har du gjort klart uppgiften.</p>
 <p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
@@ -140,10 +167,14 @@ värdet för färgeffekten och se vad som händer!</em></p>
 <h3 id="unika-sprajtar">Unika sprajtar</h3>
 <p>Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:</p>
 <ul>
-<li>Ändra färgeffekt under dansen</li>
-<li>Ändra storlek på sprajten</li>
-<li>Lägg till rotation så att de vrider på sig</li>
-<li>Ändra hur fort dom dansar</li>
+<li><p>Ändra färgeffekt under dansen</p>
+</li>
+<li><p>Ändra storlek på sprajten</p>
+</li>
+<li><p>Lägg till rotation så att de vrider på sig</p>
+</li>
+<li><p>Ändra hur fort dom dansar</p>
+</li>
 </ul>
 <p>Kan du hitta fler sätt att göra dom mer unika?</p>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>

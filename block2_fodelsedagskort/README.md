@@ -17,8 +17,11 @@ Först behöver du en festlig **bakgrund** och några dansande **sprajtar**!
 Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedagskortet att:
 
 * Fråga vem som fyller år
+
 * Spela upp en födelsedagssång
+
 * Få alla att dansa på sitt eget sätt
+
 * Säga grattis till födelsedagsbarnet
 
 
@@ -26,7 +29,11 @@ Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedags
 
 Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
 
-4. Gå till kattens sprajt och skapa ett skript som startar när START-flaggan klickas på. Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vem fyller år?"*.
+4. Gå till kattens sprajt och skapa ett skript som säger:
+
+  * Startar när START-flaggan klickas på.
+
+  * Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vem fyller år?"*.
 
 ![image alt text](image_1.png)
 
@@ -54,13 +61,16 @@ Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist!
 
   ![image alt text](image_6.png)
 
-  _Tips: Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!_
+  **Tips:** Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!
 
 8. Gå till fliken SKRIPT och ändra skriptet som du skapade i Delmoment 2. Det ska nu:
 
   * Starta när START-flaggan klickas på
-  * Fråga _"Vem fyller år?"_ och vänta på svar
+
+  * **Fråga** _"Vem fyller år?"_ och vänta på svar
+
   * **Skicka** meddelandet _"Festa"_
+
   * **Spela ljudet** _Birthday_ tills det har spelats färdigt
 
   ![image alt text](image_7.png)
@@ -71,8 +81,11 @@ om en stund. Kan du lista ut varför?_
 9. Skapa nu ett nytt skript till katten som ska:
 
   * Starta när det **tar emot meddelandet** _"Festa"_
+
   * **För alltid**:
+
     * Byta till **nästa klädsel**
+
     * **Vänta 0.25 sekunder**
 
   ![image alt text](image_8.png)
@@ -84,15 +97,17 @@ om en stund. Kan du lista ut varför?_
 
 Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det kan du fixa med ett nytt **meddelande** som berättar att festen är slut, så att katten kan säga "*Grattis"* och sluta dansa.
 
-10. Gör så att skriptet du gjorde i steg 10 skickar ut **meddelande** _"FESTEN SLUT"_ efter att ljudet _Birthday_ har spelats.
+1. Gör så att skriptet du gjorde i steg 10 skickar ut **meddelande** _"FESTEN SLUT"_ efter att ljudet _Birthday_ har spelats.
 
-  Skapa ett nytt skript för katten som ska:
+2. Skapa ett nytt skript för katten som ska:
 
   * Starta när det **tar emot meddelande** _"FESTEN SLUT"_
-  * **Stoppa** alla _andra skript i sprite_
+
+  * **Stoppa** alla _andra skript i sprajt_
+
   * **Säga** _"Grattis"_ och **namnet du skrev in i början** i 2 sekunder!
 
-  Exempel: _"Grattis Jasmine"_. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!
+  **Exempel:** _"Grattis Jasmine"_. Men tänk på att du ska kunna skriva in olika namn och ändå få ett personligt grattis!
 
   ![image alt text](image_9.png)
 
@@ -100,7 +115,7 @@ Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det ka
 
 > Testa ditt projekt! Slutar katten och dansa när melodin är slut? Säger katten _"Grattis …"_ och det namn som du skrev in när kortet frågade _"Vem fyller år?"_ i början?
 
-Tips: Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
+**Tips:** Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
 
 
 ## Delmoment 5: Alla ska dansa!
@@ -113,7 +128,7 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 
   ![image alt text](image_10.png)
 
-  _Tips: Titta på hur du gjorde skripten för katten om du inte kommer ihåg!_
+  **Tips:** Titta på hur du gjorde skripten för katten om du inte kommer ihåg!
 
 > Testa ditt projekt! Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
@@ -133,18 +148,20 @@ Du har dansare och musik, men det är inget riktigt födelsedagsfirande utan en 
 16. Skriptet för "FESTA" ska använda en LOOP som gör att scenen **för alltid** ska:
 
   * **Ändra** _färg_ **effekten med** _25_
+
   * **Vänta** _2_ **sekunder**
 
 17. Skriptet för "FESTEN SLUT" ska:
 
   * **Stoppa** alla _andra skript i sprajt_
 
+
   ![image alt text](image_12.png)
 
   _Testa att ändra antal sekunder för vänta och
 värdet för färgeffekten och se vad som händer!_
 
-**Testa ditt projekt!** Kommer det upp en tårta när katten säger _"Grattis …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
+> **Testa ditt projekt!** Kommer det upp en tårta när katten säger _"Grattis …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.
@@ -162,8 +179,11 @@ Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 Kan du ändra i skripten för dina sprajtar så att de blir mer olika och roliga? Testa till exempel att:
 
 * Ändra färgeffekt under dansen
+
 * Ändra storlek på sprajten
+
 * Lägg till rotation så att de vrider på sig
+
 * Ändra hur fort dom dansar
 
 Kan du hitta fler sätt att göra dom mer unika?

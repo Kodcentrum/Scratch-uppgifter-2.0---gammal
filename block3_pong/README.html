@@ -1,13 +1,16 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="pong">Pong</h1>
-<p>Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler. </p>
-<p>I vår version kommer spelet att se ut så här:</p>
+<p>Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.</p>
+<p>Här kan du se en version av spelet:</p>
+<ul>
+<li><a href="https://scratch.mit.edu/projects/80839730/" target="_blank">Exampel</a></li>
+</ul>
 <p><img src="image_0.png" alt="image alt text"></p>
 <h2 id="delmoment-1-g-r-plattorna-och-en-spelplan">Delmoment 1: Gör plattorna och en spelplan</h2>
 <p>Först behöver du göra en bakgrund och två plattor som du ska kunna styra.</p>
 <ol>
-<li><p>Skapa ett nytt Scratch-projekt. Ta bort katten genom att högerklicka på den och välja radera.</p>
+<li><p>Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.</p>
 </li>
 <li><p>Klicka på <strong>&quot;Rita ny bakgrund&quot;</strong>.</p>
 </li>
@@ -28,16 +31,24 @@
 <ol>
 <li><p>Skapa ett skript som säger:</p>
 <ul>
-<li>Starta när START klickas på</li>
-<li>För alltid:<ul>
-<li><strong>Om</strong> <strong>K är nedtryckt</strong><ul>
-<li>Ändra <strong>y med 10</strong></li>
-<li>Studsa vid kanten</li>
+<li><p>Starta när START klickas på</p>
+</li>
+<li><p>För alltid:</p>
+<ul>
+<li><p>OM <strong>K är nedtryckt</strong></p>
+<ul>
+<li><p>Ändra <strong>y med 10</strong></p>
+</li>
+<li><p>Studsa vid kanten</p>
+</li>
 </ul>
 </li>
-<li>Men <strong>Om</strong> <strong>M är nedtryckt</strong><ul>
-<li>Ändra <strong>y med -10</strong></li>
-<li>Studsa vid kanten</li>
+<li><p>OM <strong>M är nedtryckt</strong></p>
+<ul>
+<li><p>Ändra <strong>y med -10</strong></p>
+</li>
+<li><p>Studsa vid kanten</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -52,7 +63,7 @@
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?</p>
 </blockquote>
-<p>Tips: Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra <strong>rotationsstil</strong>. Se till att båda plattorna bara kan rotera <strong>vänster-höger</strong>.</p>
+<p><strong>Tips:</strong> Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra <strong>rotationsstil</strong>. Se till att båda plattorna bara kan rotera <strong>vänster-höger</strong>.</p>
 <h2 id="delmoment-3-en-studsande-boll">Delmoment 3: En studsande boll</h2>
 <p>Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!</p>
 <ol>
@@ -63,11 +74,16 @@
 <li><p>Nu behöver du se till att bollen startar i mitten varje gång vi sätter på spelet, och åker därifrån åt ett slumpmässigt håll!</p>
 <p>Skapa ett skript för bollen som säger:  </p>
 <ul>
-<li>Starta när START klickas på</li>
-<li>Starta på positionen <strong>x:0 och y:0</strong></li>
-<li>Från start <strong>peka i en slumpmässig riktning mellan 10 och 350 grader</strong> så att bollen sedan rör sig åt ett slumpmässigt håll</li>
-<li><strong>Vänta 2 sekunder</strong>, så att du hinner sätta dig bekvämt innan spelet startar</li>
-<li>Därefter ska bollen <strong>för alltid gå tio steg</strong>, men om den <strong>rör kanten, ska den studsa</strong></li>
+<li><p>Starta när START klickas på</p>
+</li>
+<li><p>Starta på positionen <strong>x:0 och y:0</strong></p>
+</li>
+<li><p><strong>Peka i en slumpmässig riktning mellan 10 och 350 grader</strong>. På så att rör sig bollen sedan åt ett slumpmässigt håll.</p>
+</li>
+<li><p><strong>Vänta 2 sekunder</strong>, så att du hinner sätta dig bekvämt innan spelet startar</p>
+</li>
+<li><p>Därefter ska bollen <strong>för alltid gå tio steg</strong>, men om den <strong>rör kanten, ska den studsa</strong></p>
+</li>
 </ul>
 <p><img src="image_4.png" alt="image alt text"></p>
 <p><em>Dessa block behöver du. I exemplet används gå 10 steg, men du kan själv välja hastighet för bollen.</em></p>
@@ -75,8 +91,10 @@
 <li><p>Nu har du en boll som studsar omkring. Fast nu behöver du se till att den kan studsa på plattorna så att du kan fånga bollen!</p>
 <p>Inuti <strong>för alltid</strong> blocket i bollens skript behöver du lägga till:</p>
 <ul>
-<li>Kolla <strong>om bollen rör färgen vit</strong>, det vill säga plattornas färg, innan bollen rör sig</li>
-<li>OM bollen rör färgen vit, <strong>peka i riktningen</strong> <strong>360 – den nuvarande riktningen</strong>. Då kommer bollen att studsa på ett naturligt sätt!</li>
+<li><p>Kolla <strong>om bollen rör färgen vit</strong>, det vill säga plattornas färg, innan bollen rör sig</p>
+</li>
+<li><p>OM bollen rör färgen vit, <strong>peka i riktningen</strong> <strong>360 – den nuvarande riktningen</strong>. Då kommer bollen att studsa på ett naturligt sätt!</p>
+</li>
 </ul>
 <p><img src="image_5.png" alt="image alt text"></p>
 <p><em>Lägg blocken innanför <strong>för alltid</strong>-blocket men ovanför <strong>gå 10 steg</strong></em></p>
@@ -97,19 +115,26 @@
 </li>
 <li><p>Gå till skriptet för bollen och lägga till:</p>
 <ul>
-<li>Två <strong>om</strong> -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en vit färg)</li>
-<li>Två block ovanför <strong>för alltid</strong>-blocket som sätter variablerna till 0 när spelet startar</li>
+<li><p>Två <strong>om</strong> -block ovanför det vi hade lagt tidigare (som kollade om bollen rörde en vit färg)</p>
+</li>
+<li><p>Två block ovanför <strong>för alltid</strong>-blocket som sätter variablerna till 0 när spelet startar</p>
+</li>
 </ul>
 <p><img src="image_7.png" alt="image alt text"></p>
 <p><em>Där ska du ha lagt de två om-blocken och variabelblocken!</em></p>
 </li>
 <li><p>Gör så att det ena <strong>om</strong>-blocket säger:</p>
 <ul>
-<li>Om du <strong>rör färgen röd</strong> (den vänstra mållinjen)</li>
-<li><strong>Ändra Blå poäng med 1</strong></li>
-<li><strong>Gå till</strong> mitten av planen igen <strong>(x:0 y:0)</strong></li>
-<li><strong>Vänta 2 sekunder</strong></li>
-<li><strong>Peka i</strong> en slumpmässig riktning <strong>(slumptal 10 till 350)</strong></li>
+<li><p>Om du <strong>rör färgen röd</strong> (den vänstra mållinjen)</p>
+</li>
+<li><p><strong>Ändra Blå poäng med 1</strong></p>
+</li>
+<li><p><strong>Gå till</strong> mitten av planen igen <strong>(x:0 y:0)</strong></p>
+</li>
+<li><p><strong>Vänta 2 sekunder</strong></p>
+</li>
+<li><p><strong>Peka i</strong> en slumpmässig riktning <strong>(slumptal 10 till 350)</strong></p>
+</li>
 </ul>
 </li>
 <li><p>Gör samma sak för det andra <strong>om-</strong>blocket, men den ska kolla om du <strong>rör färgen blå</strong> (den högra mållinjen) och ska i så fall ändra <strong>Röd poäng med 1</strong> istället.</p>
@@ -125,16 +150,24 @@
 <ol>
 <li><p>Gör ett nytt skript för bollen som säger:</p>
 <ul>
-<li>Starta när START klickas på</li>
-<li>För alltid:</li>
-<li><strong>Om Blå poäng är lika med 5</strong> (det antal poäng man ska behöva för att vinna)<ul>
-<li>Säg <strong>&quot;Blå spelare vann!&quot; i 2 sekunder</strong></li>
-<li><strong>Stoppa alla</strong> skript</li>
+<li><p>Starta när START klickas på</p>
+</li>
+<li><p>För alltid:</p>
+</li>
+<li><p>OM <strong>Blå poäng är lika med 5</strong> (det antal poäng man ska behöva för att vinna)</p>
+<ul>
+<li><p>Säg <strong>&quot;Blå spelare vann!&quot; i 2 sekunder</strong></p>
+</li>
+<li><p><strong>Stoppa alla</strong> skript</p>
+</li>
 </ul>
 </li>
-<li><strong>Om Röd poäng är lika med 5</strong> (det antal poäng man ska behöva för att vinna)<ul>
-<li>Säg <strong>&quot;Röd spelare vann!&quot; i 2 sekunder</strong></li>
-<li><strong>Stoppa alla</strong> skript</li>
+<li><p>OM <strong>Röd poäng är lika med 5</strong> (det antal poäng man ska behöva för att vinna)</p>
+<ul>
+<li><p>Säg <strong>&quot;Röd spelare vann!&quot; i 2 sekunder</strong></p>
+</li>
+<li><p><strong>Stoppa alla</strong> skript</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -163,8 +196,10 @@
 </li>
 <li><p>Gör ett nytt skript för bollen som säger:</p>
 <ul>
-<li>Sätt &quot;<strong>hastighet&quot;</strong> till 10 varje gång du startar spelet</li>
-<li>För alltid:<ul>
+<li><p>Sätt &quot;<strong>hastighet&quot;</strong> till 10 varje gång du startar spelet</p>
+</li>
+<li><p>För alltid:</p>
+<ul>
 <li><strong>Ändra &quot;hastighet&quot; med 1</strong> <strong>var femte sekund</strong></li>
 </ul>
 </li>

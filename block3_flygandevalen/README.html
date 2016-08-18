@@ -60,7 +60,7 @@ Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det u
 <p><img src="image_8.png" alt="image alt text"></p>
 </li>
 </ol>
-<h2 id="delmoment-3-munkar-att-ta-">Delmoment 3: Munkar att äta**</h2>
+<h2 id="delmoment-3-munkar-att-ta">Delmoment 3: Munkar att äta</h2>
 <p>I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita själv finns det färdiga i Scratch-biblioteket. Du gör en sprajt som du kopierar efter att skriptet är klart.</p>
 <ol>
 <li><p>Rita en egen munk med <strong>&quot;Rita ny sprajt”</strong> eller gå till biblioteket med <strong>”Välj sprajt från bibliotek”</strong>. Under ”Saker” hittar du en munk, <strong>”Donut”</strong>. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den!</p>
@@ -99,8 +99,6 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 </li>
 </ul>
 </li>
-</ol>
-<ol>
 <li><p>Lägg till ett block för <strong>&quot;visa”</strong> även direkt under <strong>”när START klickas på”</strong>. Annars kan det bli fel när du startar spelet!</p>
 <p><img src="image_11.png" alt="image alt text"></p>
 </li>
@@ -110,10 +108,9 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 </blockquote>
 <p>Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen bara försvinna om den nuddar valens mun eftersom den blir uppäten. Dessutom kan valen nu vänta på stället och äta upp munken igen när den dyker upp, vilket inte är så rättvist!</p>
 <ol>
-<li>Hur kan du se till att munken bara försvinner om den nuddar valens mun? Du kan byta ut blocket <strong>&quot;rör sprajten”</strong> mot <strong>”rör färgen”</strong> och se till så att din val har en speciell färg på sin mun.</li>
-</ol>
+<li><p>Hur kan du se till att munken bara försvinner om den nuddar valens mun? Du kan byta ut blocket <strong>&quot;rör sprajten”</strong> mot <strong>”rör färgen”</strong> och se till så att din val har en speciell färg på sin mun.</p>
 <p><strong>Tips:</strong> När du har ritat munnen kan du i skriptet för <strong>&quot;rör färgen”</strong> välja färg genom att klicka i färgrutan och därefter på valens mun!</p>
-<ol>
+</li>
 <li><p>Sedan kan du få munken att gå till en slumpvis punkt på scenen innan den visas igen. För det behöver du lägga till ett <strong>&quot;gå till x: y:”</strong> och välja <strong>”slumptal”</strong> som koordinater! Dra runt med munken på scenen för att se vilka värden som hela scenen har.</p>
 <p><img src="image_12.png" alt="image alt text"></p>
 </li>
@@ -139,7 +136,7 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 <li><p>Börja med att skapa ett skript som får munken att skicka ett <strong>meddelande</strong> när den blir uppäten. Fäst blocket <strong>&quot;skicka ”</strong> från <strong>HÄNDELSER</strong> under <strong>”rör färgen”</strong> och ändra till ett nytt meddelande i rullistan. Döp meddelandet till ”<em>poäng</em>”. Gör likadant för alla dina munkar!</p>
 <p><img src="image_13.png" alt="image alt text"></p>
 </li>
-<li><p>Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du <strong>skapa en variabel</strong> från <strong>DATA</strong> som du döper till &quot;<em>poäng</em>”. Fäst blocket <strong>”ändra **</strong><em>poäng</em><strong>** med 1” </strong>efter<strong> ”tar emot meddelandet”</strong>.</p>
+<li><p>Markera nu SCEN och gör ett skript för den som tar emot meddelandet. Här vill du tala om för scenen att den ska räkna poäng. För det behöver du <strong>skapa en variabel</strong> från <strong>DATA</strong> som du döper till &quot;<em>poäng</em>”. Fäst blocket <strong>”ändra </strong><em>poäng</em><strong> med 1” </strong>efter<strong> ”tar emot meddelandet”</strong>.</p>
 </li>
 <li><p>Välj att variabeln ska vara <strong>synlig</strong> och att den <strong>gäller för alla sprajtar</strong>. Placera poängräknaren där du vill ha den på scenen.</p>
 </li>
@@ -160,6 +157,7 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 <li><p>Gå ut till projektsidan och låt någon annan <strong>testa ditt spel</strong>.</p>
 </li>
 </ul>
+<h2 id="utmaningar">Utmaningar</h2>
 <p>Nu är det fritt fram för dig att hitta på helt egna funktioner till ditt spel – eller fortsätta med någon av våra utmaningar:</p>
 <ul>
 <li><p>Tidsgräns för spelet</p>
@@ -169,7 +167,7 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 <li><p>Flera banor</p>
 </li>
 </ul>
-<h2 id="utmaning-1-tidsgr-ns-f-r-spelet">Utmaning 1: Tidsgräns för spelet</h2>
+<h3 id="tidsgr-ns-f-r-spelet">Tidsgräns för spelet</h3>
 <p>Om du vill att spelet ska vara på tid kan du göra ett skript som avslutar spelet efter ett visst antal sekunder. Hur många munkar hinner valen äta på 30 sekunder?</p>
 <p>För det behöver du först skapa en ny VARIABEL som du döper till <strong>&quot;tid”</strong> och som gäller för alla sprajtar. Sedan gör du ett skript för SCEN som talar om att:</p>
 <ul>
@@ -178,18 +176,20 @@ Pröva att byta ut värdena för &quot;slumptal” och ”gå”-blocken. Rör s
 <li><p>Sätt <strong>&quot;tid”</strong> till 30</p>
 </li>
 <li><p><strong>Repetera</strong> tills <strong>tid = 0</strong></p>
-</li>
+<ul>
 <li><p><strong>ändra tid med -1</strong></p>
 </li>
 <li><p><strong>vänta</strong> 1 sekund</p>
 </li>
 </ul>
+</li>
+</ul>
 <ul>
 <li>Om <strong>tid = 0</strong>, då <strong>stoppa alla skript</strong> så att spelet avslutas</li>
 </ul>
-<h2 id="utmaning-2-minuspo-ng-f-r-moln">Utmaning 2: Minuspoäng för moln</h2>
+<h3 id="minuspo-ng-f-r-moln">Minuspoäng för moln</h3>
 <p>I spelet SkyWhale ska valen undvika vissa flygande objekt, som bläckfiskar och hårtorkar. Kan du skapa ett skript för att minska poäng, <strong>&quot;ändra poäng med -1”</strong>, om valen flyger på ett moln?</p>
-<h2 id="utmaning-3-flera-banor">Utmaning 3: Flera banor</h2>
+<h3 id="flera-banor">Flera banor</h3>
 <p>I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattensvärld. Kan du göra ett skript som <strong>byter scenens bakgrund</strong> när spelaren når en viss poäng – så att ditt spel består av flera banor? Rita flera bakgrundsbilder eller välj ur biblioteket under fliken BAKGRUNDER.</p>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>
 <ul>

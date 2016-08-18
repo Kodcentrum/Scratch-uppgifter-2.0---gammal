@@ -11,7 +11,10 @@
 <h2 id="delmoment-1-bakgrund-och-sprajtar">Delmoment 1: Bakgrund och sprajtar</h2>
 <p>Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och ytterligare en mindre sprajt som skall bli mat.</p>
 <ol>
-<li><p>Skapa ett nytt Scratch-projekt och ta bort katten. Rita en ny <strong>bakgrund</strong> som ser ut som ett rutnät. Det gör du lättast med <strong>linjeverktyget</strong>.</p>
+<li>Skapa ett nytt projekt och ta bort katten.</li>
+</ol>
+<ol>
+<li><p>Rita en ny <strong>bakgrund</strong> som ser ut som ett rutnät. Det gör du lättast med <strong>linjeverktyget</strong>.</p>
 </li>
 <li><p>Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och <strong>fylld cirkel</strong>. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.</p>
 </li>
@@ -41,9 +44,12 @@
 </li>
 <li><p>För alltid:</p>
 <ul>
-<li><strong>Peka mot</strong> muspekare</li>
-<li><strong>Gå</strong> 20 <strong>steg</strong></li>
-<li><strong>Sätt storleken till</strong> <strong>&quot;Vikt&quot;%</strong></li>
+<li><p><strong>Peka mot</strong> muspekare</p>
+</li>
+<li><p><strong>Gå</strong> 20 <strong>steg</strong></p>
+</li>
+<li><p><strong>Sätt storleken till</strong> <strong>&quot;Vikt&quot;%</strong></p>
+</li>
 </ul>
 </li>
 </ul>
@@ -51,9 +57,11 @@
 <p><em>Det här är alla block du behöver för punkt 2.</em></p>
 </li>
 </ol>
+<blockquote>
 <p>Testa ditt skript. Följer <strong>Cell</strong> med när du drar musen över spelplanen?</p>
+</blockquote>
 <h2 id="delmoment-3-mat">Delmoment 3: Mat</h2>
-<p>Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge det skriptet går.</p>
+<p>Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge skriptet går.</p>
 <ol>
 <li><p>Börja med ett skript för sprajten <strong>Mat</strong> som säger:</p>
 <ul>
@@ -106,16 +114,21 @@
 <p><em>Det här är alla block du behöver för punkterna 1-3.</em></p>
 </li>
 </ol>
+<blockquote>
 <p>Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
 och äta upp små kulor.</p>
+</blockquote>
 <h2 id="delmoment-4-ut-kad-speldynamik">Delmoment 4: Utökad speldynamik</h2>
 <p>Du skall nu se till att utökad spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att <strong>Cell</strong> rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tyngre/större den blir.</p>
 <ol>
 <li><p>Just nu går <strong>Cell</strong> 20 steg varje gång du rör musen: <img src="image_6.png" alt="image alt kod">. Ändra det så att den rör sig i proportion till vad variabeln <strong>&quot;Vikt&quot;</strong> har för värde.</p>
 <ul>
-<li>Om du ändrar den till <img src="image_7.png" alt="image alt kod"> så kommer <strong>Cell</strong> röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.</li>
-<li>Om du i stället ändrar till <img src="image_8.png" alt="image alt kod"> så kommer den röra sig mindre ju större den är. Till exempel så kommer den röra sig 80 steg i början (100 - 20 = 80) och 70 steg när du ätit 10 kulor. Detta är ganska bra men den rör sig väldigt fort.</li>
-<li>Multiplicera därför denna vikt med 0.1: <img src="image_9.png" alt="image alt kod">. Nu kommer den röra sig 8 steg i början ((100 - 20)*0.1 = 8) och 7 steg när du ätit 10 kulor. Det är en lagom hastighet, men prova gärna att multiplicera med 0.2 eller 0.05 istället!  </li>
+<li><p>Om du ändrar den till <img src="image_7.png" alt="image alt kod"> så kommer <strong>Cell</strong> röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.</p>
+</li>
+<li><p>Om du i stället ändrar till <img src="image_8.png" alt="image alt kod"> så kommer den röra sig mindre ju större den är. Till exempel så kommer den röra sig 80 steg i början (100 - 20 = 80) och 70 steg när du ätit 10 kulor. Detta är ganska bra men den rör sig väldigt fort.</p>
+</li>
+<li><p>Multiplicera därför denna vikt med 0.1: <img src="image_9.png" alt="image alt kod">. Nu kommer den röra sig 8 steg i början ((100 - 20)*0.1 = 8) och 7 steg när du ätit 10 kulor. Det är en lagom hastighet, men prova gärna att multiplicera med 0.2 eller 0.05 istället!  </p>
+</li>
 </ul>
 </li>
 <li><p>Skapa ett nytt skript för <strong>Cell</strong> som säger:</p>
@@ -135,10 +148,12 @@ och äta upp små kulor.</p>
 <p><em>Det här är alla block du behöver för punkt 2.</em></p>
 </li>
 </ol>
+<blockquote>
 <p>Testa din kod! Du kan självklart göra det enklare eller svårare genom att ändra på skripten du gjorde ovan.</p>
-<p>Tycker du att <strong>Cell</strong> rör sig för fort? Ändra koden i punkt 1. Tycker du att <strong>Cell</strong> förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.</p>
+</blockquote>
+<p><strong>Tips:</strong> Tycker du att <strong>Cell</strong> rör sig för fort? Ändra koden i punkt 1. Tycker du att <strong>Cell</strong> förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.</p>
 <h2 id="delmoment-5-en-motst-ndare">Delmoment 5: En motståndare</h2>
-<p>Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas artificiell intelligens och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.</p>
+<p>Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas <em>artificiell intelligens</em> och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.</p>
 <p>Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan du koda en helt annan motståndare. Det finns inget som sätter stopp - bara din fantasi!</p>
 <ol>
 <li><p>Rita en ny sprajt. Rita en fylld cirkel i valfri färg som  skall vara lite mindre än sprajten <strong>Cell</strong>.</p>
@@ -210,21 +225,28 @@ och äta upp små kulor.</p>
 <h2 id="f-rdig-">Färdig!</h2>
 <p>Grattis, nu har du gjort klart uppgiften.</p>
 <p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
 <p><strong>Testa ditt projekt</strong><br>  Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+</blockquote>
 <h2 id="utmaningar">Utmaningar</h2>
 <p>Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta. För tillfället kan du fortsätta spela spelet för alltid, men dessa extrauppgifter går ut på att avsluta spelet antingen när du har kommit upp i ett visst antal poäng eller när du har blivit biten av fienden.</p>
 <h3 id="game-over">Game over</h3>
 <p>Du kan lägga in så att spelet slutar när du har kommit upp i 100. Du måste:</p>
 <ul>
-<li>Stoppa all skript.</li>
-<li>Visa ett meddelande på skärmen.</li>
+<li><p>Stoppa all skript.</p>
+</li>
+<li><p>Visa ett meddelande på skärmen.</p>
+</li>
 </ul>
 <h3 id="upp-ten">Uppäten</h3>
 <p>I stället för att du förlorar 5 i vikt kan du koda så att du dör om <strong>Cell</strong> träffar <strong>Fiende</strong> mer än till exempel 5 gånger. Du måste:</p>
 <ul>
-<li>Skapa en ny variabel som håller reda på hur många gånger <strong>Cell</strong> och <strong>Fiende</strong> har rört varandra.</li>
-<li>Stoppa all skript om den variabel är större än 5.</li>
-<li>Visa ett meddelande på skärmen.</li>
+<li><p>Skapa en ny variabel som håller reda på hur många gånger <strong>Cell</strong> och <strong>Fiende</strong> har rört varandra.</p>
+</li>
+<li><p>Stoppa all skript om den variabel är större än 5.</p>
+</li>
+<li><p>Visa ett meddelande på skärmen.</p>
+</li>
 </ul>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>
 <ul>
