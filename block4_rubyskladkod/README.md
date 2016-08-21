@@ -1,6 +1,8 @@
 # Rubys klädkod
 
-Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du skall få koda ett program som hjälper flickan Ruby att välja kläder. Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby.
+Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du ska få koda ett program som hjälper flickan Ruby att välja kläder.
+
+*Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. *
 
 Ett exempel på hur programmet kan se ut hittar du här:
 
@@ -10,13 +12,24 @@ men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
 
 ![image alt exempel](image_1.png)
 
+## Delmoment 1: Ladda ner bilder
 
-> För att klara uppgiften behöver du ett antal bilder på Ruby i olika kläder. Dessa kan du ladda ner från <a href="http://www.kodboken.se/media/584133/ruby-clothes-360.zip">här</a>.
 
+Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan välja bilder ur.
 
-## Delmoment 1: Komma på regler
+  1. Gå till <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">http://www.kodboken.se/start/lana-bild-ljud/hej-ruby</a>
 
-Det första du behöver göra är att komma på de regler som avgör vilka kläder Ruby skall ha på sig. Det är främst vilken veckodag som ska avgöra vad Ruby ska ha på sig. Det är din fantasi som styr och det är helt upp till dig vilka regler som skall gälla.
+  2. Högerklicka på Ruby och spara filen **ruby-clothes-360.zip** till din dator.
+
+  <a href="http://www.kodboken.se/media/584133/ruby-clothes-360.zip">![image alt exempel](ruby-helkropp.png)</a> _Bilden du ska högerklicka på._
+
+  3. Öppna upp zip-filen på din dator så att du kan titta på de olika bilderna.
+
+## Delmoment 2: Bestämma regler
+
+Det första du behöver göra är att komma på de regler som avgör vilka kläder Ruby ska ha på sig. Det är främst vilken veckodag som ska avgöra vad Ruby ska ha på sig. Det är din fantasi som styr och det är helt upp till dig vilka regler som ska gälla.
+
+**Obs!** _Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
 
 Ett förslag är följande:
 
@@ -28,15 +41,13 @@ Ett förslag är följande:
 
 4.	På helgen klär sig Ruby i valfria kläder
 
-Du kan också tänka på **olika aktiviteter** som Ruby kan ha för sig som t.ex. lyssna på musik. Vad skall Ruby ha för kläder eller saker ska Ruby ha på sig då?
+Du kan också tänka på **olika aktiviteter** som Ruby kan ha för sig som t.ex. lyssna på musik. Vad ska Ruby ha för kläder eller saker ska Ruby ha på sig då?
 
-Du kan också tänka på vad det är för **väder** och om Ruby skall vara **inomhus eller utomhus**. Vad skall Ruby ha på sig om hon skall gå ut och det regnar?
+Du kan också tänka på vad det är för **väder** och om Ruby ska vara **inomhus eller utomhus**. Vad ska Ruby ha på sig om hon ska gå ut och det regnar?
 
-Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
+**Tips:** Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
 
-_Tänk på att kläderna som finns i dina regler också måste finnas tillgängliga som bilder._
-
-## Delmoment 2: Bakgrund och en sprajt
+## Delmoment 3: Bakgrund och en sprajt
 
 Vi börjar med en bakgrund och en sprajt för Ruby!
 
@@ -55,7 +66,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
 5.  Du kan förminska sprajten lite om du tycker den är för stor.
 
-6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i Delmoment 1.
+6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i Delmoment 2.
 
     ![image alt exempel](image_4.png)
 
@@ -71,7 +82,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
   _Dessa block behöver du för punkt 7._
 
-## Delmoment 2: Acceptera uppdraget
+## Delmoment 4: Acceptera uppdraget
 
 När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren ska sedan acceptera uppdraget genom att klicka på en knapp.
 
@@ -99,11 +110,11 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
   ![image alt block](image_7.png)
 
-  _Dessa block behöver du delmoment 3._
+  _Dessa block behöver du delmoment 4._
 
-## Delmoment 3: Välja dag
+## Delmoment 5: Välja dag
 
-Många av de reglerna som du skapade i Delmoment 1 är beroende på vilken dag det är. Nu skall du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
+Många av de reglerna som du skapade i Delmoment 2 är beroende på vilken dag det är. Nu ska du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
 
 1.	Fråga användaren vad det är för dag
 
@@ -112,6 +123,10 @@ Många av de reglerna som du skapade i Delmoment 1 är beroende på vilken dag d
 3.	Gör en liten enkel kalender
 
 Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite svårare och du hittar instruktioner under utmaningar i slutet på uppgiften.
+
+![image alt block](image_25.png)
+
+_Så här kommer veckodagen visas på skärmen om du väljer att göra alternativ 1 eller 2._
 
 ### Fråga användaren:
 
@@ -159,32 +174,92 @@ Här får du hjälp hur du kan göra alternativ 1 och 2. Alternativ 3 är lite s
 
   _Block du behöver för punkt 3. Tänk på att du behöver använda vissa block mer än en gång!_
 
-Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
+> Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
 
 
-## Delmoment 4: Byta kläder på Ruby
+## Delmoment 6: Byta kläder på Ruby
 
-Nu är det dags att _implementera_ dina regler från Delmoment 1. _”Implementera”_ innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.
+Nu är det dags att IMPLEMENTERA dina regler från Delmoment 2. IMPLEMENTERA innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.
 
 1.	**Fortsätt på skriptet** du gjorde ovan som startar när sprajten tar emot meddelandet **”byt klädsel”**.
 
 2.	Använd ett **OM-block** och variabeln **”Idag är det: ”** för att utföra ett klädbyte
 
-3.	**Repetera** med fler OM-block tills du har lagt in alla regler
+  ![image alt block](image_10.png)
 
-   ![image alt block](image_10.png)
+  _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
 
-   _Det är sådana här kodblock du behöver skapa för att utföra de olika klädbytena._
+3. Innuti **OM**-blocket lägger du in ett **byt klädsel til..."**-block för att byta klädsel. Du kan också lägga in andra block om du vill att något annat ska hända.
 
-4.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
+  ![image alt block](image_21.png)
 
-## Delmoment 5: Välja mellan två kläder
+  _Så här kan koden se ut_
 
-Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du till exempel göra så här:
+4.	**Repetera** med fler OM-block tills du har lagt in alla regler
+
+  ![image alt block](image_26.png)
+
+  _Flera OM-block behövs för att implementera alla regler._
+
+5.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
+
+## Delmoment 7: Välja mellan två kläder
+
+Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du följa detta exempel.
+
+Det går ut på att:
+
+1. Välj ut två slumpmässiga klädslar
+
+2. Visa dessa två klädslar
+
+3. Låta användaren välja mellan de två klädslarna genom att klicka på en av två knappar.
+
+Det kan se ut så här:
+
+  ![image alt block](image_22.png)
+
+Vi börjar med att lägga till två knappar som det står ”1” och ”2” på. De ska vara gömda när programmet startar och visas först när meddelandet **"välj kläder"** skickas.
+
+1.	**Lägg till** en sprajt från biblioteket. Ett exempel är **”Ball”**.
+
+2.	Sätt **namnet** på sprajten till **Val1**
+
+3.	Skapa ett skript för **Val1** som säger:
+
+  * När START klickas på
+
+  * **Göm** sprajten
+
+4.	Skapa ett till skript för **Val1** som säger:
+
+  * När jag **tar emot **meddelandet **”välj kläder”**
+
+  * **Visa** sprajten
+
+  ![image alt block](image_12.png)
+
+  _Så är ska koden för **Val1** se ut._
+
+5.	**Kopiera** nu sprajten så du har två knappar. Kalla den nya sprajten **Val2**.
+
+6.	Ändra klädseln på sprajten så att den har en annan färg.
+
+7.	Använd **textverktyget** och **skriv ”1”** på **Val1** och **”2”** på **Val2**.
+
+   ![image alt block](image_13.png)
+
+   _Så här kan knapparna se ut_
+
+Nu är det dags att skapa kod för **Ruby**. För ska du koda så att två slumpmässiga klädslar väljs och visas.
 
 1.	**Skicka** meddelandet **”välj kläder”** OM [det är helg]. Här får du själv välja när du meddelandet ska skickas och när två kläder ska slumpas fram.
 
-2.	Skapa två **variabler** som heter **”val1”** och **”val2”** och som inte ska synas
+  ![image alt block](image_23.png)
+
+  _Så här kan koden se ut som skickar meddelandet **"välj kläder"**_
+
+2.	Skapa två **variabler** som heter **”val1”** och **”val2”** och som inte ska synas. Dessa kommer användas för att hålla reda på de två slumpmässigt valda klädslarna.
 
 3.	Skapa ett skript för **Ruby** som säger
 
@@ -210,65 +285,41 @@ Om du vill låta användaren välja mellan två slumpmässigt valda klädslar ka
 
   _Dessa block behöver du för koden ovan._
 
-Nu måste användaren välja klädsel ett eller två på något sätt. Ett sätt du kan göra det på är att skapa två knappar som det står ”1” och ”2” på.
+  **"repetera tills"**-loopen behöver du ha så att inte två likadana klädslar väljs. Tyvärr gör det koden lite svårare att läsa.
 
-1.	**Välj** en sprajt från biblioteket. Ett exempel är **”Ball”**.
+Det sista som du ska koda är att se till att klädseln ändras när ett meddelande från knapparna tas emot.
 
-2.	Sätt **namnet** på sprajten till **Val1**
+1.	Skapa ett skript för **Ruby** som säger
 
-3.	Skapa ett skript för **Val1** som säger:
+  * När jag **tar emot** meddelandet ** ”gjorde val1”**
 
-  * När START klickas på
+  * **Byt** klädsel till **”val1”**
 
-  * **Göm** sprajten
+  * **Säg** *”Tack! Nu kan jag börja leka”*
 
-4.	Skapa ett till skript för **Val1** som säger:
+  ![image alt block](image_14.png)
 
-  * När jag tar emot **meddelandet ”välj kläder”**
+2.	Skapa ett liknande skript för Ruby när sprajten **tar emot** meddelandet **”gjorde val2”**, men byt istället till klädseln **"val2"**.
 
-  * **Visa** sprajten
+3.	Skapa ett skript för sprajten **Val1** som säger:
 
-5.	Skapa ett tredje skript för sprajten som säger:
-
-  * När denna sprajt klickas på
+  * När denna sprajt **klickas på**
 
   * **Göm** sprajten
 
   * **Skicka** meddelandet **”gjorde val1”**
 
-  ![image alt block](image_12.png)
+  ![image alt block](image_24.png)
 
-  _Dessa block behöver du för koden till **Val1**._
+4. Skapa ett liknande skript för **Val2**-knappen men skicka där meddelandet **"gjorde val2"**.
 
-6.	**Kopiera** nu sprajten så du har två knappar. Kalla den nya sprajten **Val2**.
+5.	Skapa också skript så att **Val2** döljs när **Val1** klickas på, och tvärtom. Båda sprajterna ska ju försvinna när användaren har gjort sitt val.
 
-7.	Ändra klädseln på sprajten så att den har en annan färg.
+> Testa programmet! Vad händer när du är på en veckodag där två kläder ska slumpas fram? Visas de två valen på skärmen med lite mellanrum?
 
-8.	Använd **textverktyget** och **skriv ”1”** på **Val1** och **”2”** på **Val2**.
+## Delmoment 8: Egna aktiviteter och val
 
-   ![image alt block](image_13.png)
-
-9.	**Ändra** i skriptet för **Val2** så att meddelandet **”gjorde val2”** skickas när sprajten klickas på.
-
-10.	Skapa också skript så att **Val2** döljs när **Val1** klickas på, och tvärtom. Båda sprajterna ska ju försvinna när användaren har gjort sitt val.
-
-11.	Skapa ett skript för **Ruby** som säger
-
-  * När jag tar emot **meddelandet ”gjorde val1”**
-
-  * **Byt** klädsel till **”val1”**
-
-  * **Säg** *”Tack! Nu kan jag börja leta”*
-
-  ![image alt block](image_14.png)
-
-12.	Skapa ett liknande skript för Ruby när sprajten tar emot **meddelandet ”gjorde val2”**.
-
-Testa programmet! Vad händer när du är på en veckodag där två kläder skall slumpas fram? Visas de två valen på skärmen med lite mellanrum?
-
-## Delmoment 6: Andra aktiviteter och val
-
-Nu har du en stomme till ett program där du har kodat vilka kläder Ruby skall få på olika dagar. Nu är det fritt fram att koda andra aktiviteter och val. Det är väldigt fritt och kanske känner du att det är svårt att komma på hur du ska koda. Här är några tips.
+Nu har du en stomme till ett program där du har kodat vilka kläder Ruby ska få på olika dagar. Nu är det fritt fram att koda andra aktiviteter och val. Det är väldigt fritt och kanske känner du att det är svårt att komma på hur du ska koda. Här är några tips.
 
 1.	Utgå ifrån koden när Ruby tar emot **meddelandet ”byt käder”** och där du har lagt in OM-block för att göra olika saker på olika veckodagar.
 
@@ -285,6 +336,8 @@ Nu har du en stomme till ett program där du har kodat vilka kläder Ruby skall 
   * När du har fått ett **svar från användaren**, genom variabeln **”svar”** eller genom att **meddelandet** har skickats så **byter du kläder** på Ruby.
 
   * Självklart kan du **kombinera** de två sätten att få information från användaren om du till exempel först vill fråga om det är regnigt och sedan fråga om Ruby vill vara inne eller ute.
+
+### Exempel
 
 Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby lyssna på musik.
 
@@ -312,7 +365,7 @@ Här kommer ett konkret exempel. Det går ut på att på fredagar så vill Ruby 
 
   * **Byt** klädsel till **"RUBY_jeans_tshirt_headphones"**
 
-  * **Säg** _”Tack! Nu kan jag börja leta”_
+  * **Säg** _”Tack! Nu kan jag börja leka”_
 
   ![image alt block](image_16.png)
 
@@ -321,10 +374,16 @@ Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-**Testa ditt projekt**  
+> **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Utmaningar
+
+### Välja igen
+
+Nu avslutas programmet när du har valt klädsel till Ruby. Gör så att det kommer upp en knapp som frågar användaren om hjälp igen.
+
+**Tips:** Skicka meddelandet **"byt kläder"** när användaren klickar på knappen.
 
 ### En enkel kalender
 
@@ -334,12 +393,14 @@ Det här är ett tredje förslag på hur veckodag kan kodas istället för att f
 
   _Ungefär så här kommer kalendern se ut._
 
+**Obs!** Du måste komma ihåg att välja dag innan du klickar på **Ja**-knappen.
+
 1.	Skapa en **variabel** som heter **”idag”** och som inte ska visas på skärmen.
 
 2.	Skapa en **lista** som heter **"veckodagar"**. Den ska inte visas på skärmen. Du hittar knappen för att skapa lista på fliken DATA.
     ![image alt knapp](image_17.png)
 
-    En lista är som en variabel som kan innehålla flera värden. I din lista skall du lägga in namnet på alla veckodagarna.
+    En lista är som en variabel som kan innehålla flera värden. I din lista ska du lägga in namnet på alla veckodagarna.
 
 3.	Markera scenen och skapa ett skript för den som säger
 
@@ -403,7 +464,7 @@ Det här är ett tredje förslag på hur veckodag kan kodas istället för att f
 
   * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
 
-Testa! Vad händer om du klickar på de olika pilarna? Vad händer om det är söndag och du klickar på höger-pilen?
+> Testa! Vad händer om du klickar på de olika pilarna? Vad händer om det är söndag och du klickar på höger-pilen?
 
 
 ## Frågeställningar
