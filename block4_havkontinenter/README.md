@@ -1,6 +1,6 @@
 # Hav och kontinenter
 
-I denna uppgift skall du få skapa en prototyp till frågesport som du till exempel kan använda i skolan. Först skall du få koda ett spel som går ut på att gissa var olika hav ligger. Därefter kommer du att få utöka programmet med frågor om var olika kontinenter ligger. Även om det i detta exempel är ett geografispel, kan frågesporten också göras på helt andra teman, allt från att gissa djur till ABC-spel eller matematikfrågor! I uppgiften kommer du få använda dig av många funktioner och sprajtar.
+I denna uppgift ska du få skapa en prototyp till frågesport som du till exempel kan använda i skolan. Först ska du få koda ett spel som går ut på att gissa var olika hav ligger. Därefter kommer du att få utöka programmet med frågor om var olika kontinenter ligger. Även om det i detta exempel är ett geografispel, kan frågesporten också göras på helt andra teman, allt från att gissa djur till ABC-spel eller matematikfrågor! I uppgiften kommer du få använda dig av många funktioner och sprajtar.
 
   ![image alt exempel](image_1.png)
 
@@ -19,7 +19,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 3.	Nu behöver du en knapp för att starta frågesporten. Du kan till exempel använda dig av sprajten Sport/Ball. Sätt den i ett hörn av spelplanen.
 
-4.	Rita en ny sprajt och gör den till en ganska liten cirkel. Det är denna sprajt som du skall klicka på för att **gissa på olika hav** så till att den är **fylld**. Dra sprajten så att den ligger i **”Indiska oceanen”** på kartan.
+4.	Rita en ny sprajt och gör den till en ganska liten cirkel. Det är denna sprajt som du ska klicka på för att **gissa på olika hav** så till att den är **fylld**. Dra sprajten så att den ligger i **”Indiska oceanen”** på kartan.
 
 5.	Skapa en variabel för alla sprajter som heter **”poäng”**
 
@@ -59,7 +59,7 @@ I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt v
 
 > Testa spelet! Läggs det till olika hav i listan när du klickar på sprajten?
 
-9.	Skapa en variabel som heter **”rätt svar”**. Den skall inte visas på skärmen. Denna variabel ska peka på det svarsalternativ som är rätt.
+9.	Skapa en variabel som heter **”rätt svar”**. Den ska inte visas på skärmen. Denna variabel ska peka på det svarsalternativ som är rätt.
 
   ![image alt nyttblock](image_4.png)
 
@@ -79,7 +79,7 @@ I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt v
 
 ## Delmoment 3: Hav-prickar!
 
-Nu skall du göra så att du eller någon annan kan gissa på olika hav genom att klicka på hav-prickar. Du skapade en sådan sprajt ovan och det ska bli enkelt att skapa fler sådana prickar utan för mycket kod:
+Nu ska du göra så att du eller någon annan kan gissa på olika hav genom att klicka på hav-prickar. Du skapade en sådan sprajt ovan och det ska bli enkelt att skapa fler sådana prickar utan för mycket kod:
 
 * Du kan först **skapa många sprajter** och **sedan koda** för de olika sprajterna. Det kommer innebära att du får koda väldigt mycket.
 
@@ -91,7 +91,7 @@ Nu skall du göra så att du eller någon annan kan gissa på olika hav genom at
 
 Nu till kodandet:
 
-1.	Skapa en variabel för alla sprajter som heter **”svar”**. Den skall inte visas på skärmen.
+1.	Skapa en variabel för alla sprajter som heter **”svar”**. Den ska inte visas på skärmen.
 
 2.	Skapa ett skript i sprajten **Sprajt1** (cirkeln du ritade) som säger:
 
@@ -108,7 +108,7 @@ Nu till kodandet:
 
   _Det här är några av de block du behöver för punkt 2._
 
-Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har. Det är i allmänhet inte bra att använda sig av siffror på det här sättet. Och det blir krångligt när du ska kopiera sprajten. Till exempel behöver du byta ut **3**:an på flera ställen. Därför skall du ersätta **3**:an med en LOKAL VARIABEL som bara finns för denna sprajt. Den kommer att fungera som ett **id-nummer** för sprajten.
+Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har. Det är i allmänhet inte bra att använda sig av siffror på det här sättet. Och det blir krångligt när du ska kopiera sprajten. Till exempel behöver du byta ut **3**:an på flera ställen. Därför ska du ersätta **3**:an med en LOKAL VARIABEL som bara finns för denna sprajt. Den kommer att fungera som ett **id-nummer** för sprajten.
 
   ![image alt lokalvar](image_7.png)
 
@@ -154,7 +154,7 @@ Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 
     * Skicka meddelandet **”starta nytt havsspel”**
 
-  > Nu skall du ha en första fungerande version av spelet. Testa! Ökar poängen om du gissar på rätt hav? Nollställs poängen om du gissar fel?
+  > Nu ska du ha en första fungerande version av spelet. Testa! Ökar poängen om du gissar på rätt hav? Nollställs poängen om du gissar fel?
 
 2.	Lägg till **ny** kod **efter** att du ändrat poäng med **1**:
 
@@ -170,7 +170,7 @@ _Det här är några av de block du behöver för punkterna ovan._
 
 ## Delmoment 5: Kontinenter
 
-Nu skall du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från spelet du redan gjort. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
+Nu ska du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från spelet du redan gjort. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
 
 1.	Kopiera sprajten **Ball** och placera den i ett annat hörn. Välja en annan klädsel för den nya sprajten så att den ser annorlunda ut.
 
@@ -198,7 +198,7 @@ Nu skall du få utöka programmet med ett spel som går ut på att gissa kontine
 
 5.	Ändra så att den kör kod för att rätta spelet när den tar emot meddelandet **”rätta kontinent”** istället för **”rätta hav”**.
 
-> Nu skall bollen fungera. Vad händer om du klickar på den? Frågar den efter en kontinent?
+> Nu ska bollen fungera. Vad händer om du klickar på den? Frågar den efter en kontinent?
 
 Nästa steg är att lägga till prickar för de olika kontinenterna.
 
