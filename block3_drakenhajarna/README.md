@@ -1,16 +1,20 @@
 # Draken mot hajarna
 
-I den här uppgiften skall du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem.
+I den här uppgiften ska du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem. Ett mål är att skapa mer effektiv kod.
 
 Ett exempel på hur  spelet kan se ut ser du här:
 
 * <a href="https://scratch.mit.edu/projects/116717825/" target="_blank">Exempel</a>
 
+![image alt exempel](image_1.png)
+
 ## Delmoment 1: Sätta upp bakgrunden och draken
+
+Du börjar med att skapa en bakgrund och lägga till en drake. Draken kommer att åka upp och ner på scenen och styrs med hjälp av piltangenterna.
 
 1.	Skapa ett nytt projekt och ta bort katten
 
-2.	Lägg till en valfri **bakgrund** som du tycker är rolig. Jag valde **city with water 2**
+2.	Lägg till en valfri **bakgrund** som du tycker är rolig. I det här exemplet används **city with water 2**
 
 3.	Lägg till sprajten **Dragon** från biblioteket och **byt namn** på den till **Drake**. Placera den i mitten av scenen.
 
@@ -22,9 +26,9 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
   * För alltid:
 
-    * **Repetera 10 gånger**: Ändra **y** med **10** och **vänta** 0.1 sekunder
+    * **Repetera** _10_ **gånger**: Ändra **y** med **10** och **vänta** 0.1 sekunder
 
-    * **Repetera 10 gånger**: Ändra **y** med **-10** och **vänta** 0.1
+    * **Repetera** _10_ **gånger**: Ändra **y** med **-10** och **vänta** 0.1
 
 5.	Skapa ett nytt skript för **Drake** som säger:
 
@@ -42,19 +46,19 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
    ![image alt block](image_2.png)
 
-   _Här är några av de block du behöver för punkt 4 och 5. Tänk på att vissa block kan du behöva använda mer än 1 gång._
+   _Här är några av de block du behöver för punkt 4 och 5. Tänk på att vissa block kan du behöva använda mer än en gång._
 
-Klicka på START knappen. Åker draken upp och ner precis som om den svävar? Kan du styra den med piltangenterna?
+> Klicka på START knappen. Åker draken upp och ner precis som om den svävar? Kan du styra den med piltangenterna?
 
-Om du vill att drakens klädsel bara ska vända sig åt höger och vänster även om draken åker uppåt och neråt så kan du sätta **rotationsstil** till **vänster-höger**.
+**Tips:** Om du vill att drakens klädsel bara ska vända sig åt höger och vänster även om draken åker uppåt och neråt så kan du sätta **rotationsstil** till **vänster-höger**.
 
 ![image alt rotationsstil](image_3.png)
 
 _Den röda rektangeln visar de olika rotationsstilarna. Den blåmarkerade är **vänster-höger**._
 
-## Delmoment 2: Hajar!
+## Delmoment 2: Hajar
 
-Nu skall du få skapa hajar som skall försöka äta upp draken. Flera hajar skapar vi med hjälp av kloner.
+Nu ska du få skapa hajar som ska försöka äta upp draken. Flera hajar skapar du med hjälp av KLONER, vilket är ett sätt att skapa kopior av en sprajt som ser likadana ut och beter sig på samma sätt.
 
 1.	Lägg till sprajten **Shark** och ge den namnet **Haj**
 
@@ -92,30 +96,32 @@ Nu skall du få skapa hajar som skall försöka äta upp draken. Flera hajar ska
 
   * Starta när START klickas på
 
-  * För alltid:
-
-    * **Göm** om rör hajen
+  * FÖR ALLTID: **Göm** OM rör hajen
 
 5.	Lägg till ljudet **chomp** och **spela** det när hajen rör draken
 
-6.	Lägg till ett **visa**-block på lämpligt ställe så draken syns när **spelet start**.
+6.	Lägg till ett **visa**-block på lämpligt ställe så draken syns när **spelet startar**.
 
   ![image alt block](image_4.png)
 
-  _Här de block du behöver för delmoment 2. Tänk på att vissa skall användas för **Drake** och andra för **Haj**._
+  _Här de block du behöver för delmoment 2. Tänk på att vissa ska användas för **Drake** och andra för **Haj**._
 
-Testa spelet! Försvinner draken när hajen äter upp den?
+> Testa spelet! Försvinner draken när hajen äter upp den?
+
+**Tips:** Är spelet för svårt? Blir draken uppäten för fort? Du kan pröva med att använda **förminskningsverktyget** och göra hajen mindre.
 
 ## Delmoment 3: Spelet slutar och börjar om
-Nu skall du få skapa en ny bakgrund som skall visas när spelet tar slut. Du skall också få koda så att det räcker med att trycka på mellanslag för att börja om spelet.
+Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska också få koda så att det räcker med att trycka på mellanslag för att börja om spelet.
 
-![image alt namn](image_5.png)
 
-_Den röda rutan visar var du kan ändra namn på en bakgrund._
 
-1.	**Rita en ny bakgrund!** Den skall visas när spelet tar slut så jag använde pensel för att skriva **”Spelet slut!”**.
+1.	**Rita en ny bakgrund.** Den ska visas när spelet tar slut så du kan använda t. ex. penseln för att skriva **”Spelet slut!”**.
 
-2.	Ge bakgrunden namnet **”spelet slut”**
+2.	Ge bakgrunden namnet **”spelet slut”**.
+
+  ![image alt namn](image_5.png)
+
+  _Den röda rutan visar var du kan ändra namn på en bakgrund._
 
 3. Ändra i **drakens skript** så att den skickar meddelandet **”spelet slut”** när den **rör hajen**. Lägg också still **stoppa andra skript** i sprajten.
 
@@ -131,7 +137,7 @@ _Den röda rutan visar var du kan ändra namn på en bakgrund._
 
   * Skicka meddelandet **”nytt spel”**
 
-5.	Skapa ett nytt skript för scenen som ser till att bakgrunden är **”city with water”** när **spelet startar**.
+5.	Skapa ett nytt skript för scenen som ser till att bakgrunden är **”city with water”** visas när **spelet startar**.
 
 6.	Skapa ett skript i **Haj** som säger:
 
@@ -143,7 +149,7 @@ _Den röda rutan visar var du kan ändra namn på en bakgrund._
 
   ![image alt block](image_6.png)
 
-  _Här de block du behöver för punkterna 4 till 6 ovan. Tänk på att vissa skall användas för **Haj** och andra för **scenen**._
+  _Här de block du behöver för punkterna 4 till 6 ovan. Tänk på att vissa ska användas för **Haj** och andra för **scenen**._
 
 7.	Skapa ett nytt skript för **Haj** som säger:
 
@@ -155,16 +161,18 @@ _Den röda rutan visar var du kan ändra namn på en bakgrund._
 
   _Denna meny kommer upp om du högerklickar på ett block._
 
-8.	Skapa nya skript för **draken**. **Alla skript** som körs när START klickas på skall också köras när den tar emot meddelandet **”nytt spel”**. Du kan **högerklicka** på blocken och välj **kopiera!**
+8.	Skapa nya skript för **draken**. **Alla skript** som körs när START klickas på ska också köras när den tar emot meddelandet **”nytt spel”**. Du kan **högerklicka** på blocken och välj **kopiera!**
 
-Testa! Kan du starta om spelet genom att klicka på mellanslag?
+> Testa! Kan du starta om spelet genom att klicka på mellanslag?
 
 ![image alt block](image_8.png)
 
-_Ungefär så här mycket kod skall du ha skapat för **Drake** nu._
+_Ungefär så här mycket kod ska du ha skapat för **Drake** nu._
 
 ## Delmoment 4: Funktioner
-Du kanske tidigare stött på funktioner i matematik eller på andra ställen. När du kodar funktioner så fungerar dom på ett lite annorlunda sätt. Du kan använda funktioner du koder till att spara tid och göras så att din kod är lättare att förstå. I förra delmomentet kopierade du massor av block som gör precis som sak. Det är onödigt och kan skapa en massa problem. I stället skall du få koda funktioner som sedan kan återanvändas.
+Du kanske tidigare stött på FUNKTIONER i matematik eller på andra ställen. När du kodar FUNKTIONER så fungerar dom på ett lite annorlunda sätt. FUNKTIONER är en **litet skript** som kan **köras flera gånger**.
+
+Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra delmomentet **kopierade** du massor av block som gör precis som sak. Det är **onödigt och kan skapa en massa problem**. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste **ändra på många ställen**. I stället ska du få koda **funktioner** som sedan kan **återanvändas** och **köras flera gånger**. De kommer fungera som vanliga **block**.
 
 Vi börjar med hajen:
 
@@ -177,7 +185,7 @@ Vi börjar med hajen:
 
 _Hur det kan se ut på skärmen när du klickat på **Skapa ett block**_
 
-3.	Nu skall det ha dykt upp ett **stort lila block** i hajen som används för att berätta **vad funktionen gör**. ![image alt nyttblock](image_10.png) Flytta koden som startar när START klickas på så dessa block är under **definitionen** av **”för alltid(klona mig)”**.
+3.	Nu ska det ha dykt upp ett **stort lila block** i hajen som används för att berätta **vad funktionen gör**. ![image alt nyttblock](image_10.png) Flytta koden som startar när START klickas på så dessa block är under **definitionen** av **”för alltid(klona mig)”**.
 
 4.	Lägg till ett **block** för **”för alltid(klona mig)”** under blocket med den gröna flaggan. Nu kommer denna funktion köras när du klickar på START
 
@@ -187,7 +195,7 @@ _Hur det kan se ut på skärmen när du klickat på **Skapa ett block**_
 
 _Ungefär så här kan koden för **Haj** set ut nu. Fiffigt va!_
 
-Testa spelet! Fungerar det precis som förut? Tycker du det är enklare att förstå koden nu?
+> Testa spelet! Fungerar det precis som förut? Tycker du det är enklare att förstå koden nu?
 
 Nu till draken:
 1.	Skapa ett **nytt block** för varje funktion som du vill göra. **Namnge blocket** till något som gör det lätt att förstå vad **funktionen gör**.
@@ -207,18 +215,29 @@ Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
 
-**Testa ditt projekt**  
+> **Testa ditt projekt**  
   Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
 
 ## Utmaningar
 
-**Hajens utseende**. Om du klickar på hajen och kollar på sprajtens klädslar, så ser du att den har flera stycken. Kan du skapa ett skript i hajen så att den har en öppen mun när den hoppar mot draken och stänger munnen när den rör vid draken?
+### Hajens utseende
 
-**Ofarlig haj**. När hajen har nått taken är den egentligen ofarlig eftersom den har misslyckats med att äta upp draken. Men för tillfället kan den äta upp draken även på vägen ner från ”taket”. Kan du fixa så att den inget händer med draken om den stöter på en haj på vägen ner? Tips: Använd en **lokal variabel** för att hålla koll på om hajen har slagit i taket.
+Om du klickar på hajen och kollar på sprajtens klädslar, så ser du att den har flera stycken. Kan du skapa ett skript i hajen så att den har en öppen mun när den hoppar mot draken och stänger munnen när den rör vid draken?
 
-**Ökad svårighet**. Kan du göra så att spelet blir svårare efter ett tag? Det finns flera olika varianter på detta.
+### Ofarlig haj
+
+När hajen har nått taken är den egentligen ofarlig eftersom den har misslyckats med att äta upp draken. Men för tillfället kan den äta upp draken även på vägen ner från ”taket”. Kan du fixa så att den inget händer med draken om den stöter på en haj på vägen ner?
+
+**Tips:** Använd en **lokal variabel** för att hålla koll på om hajen har slagit i taket.
+
+### Ökad svårighet
+
+Kan du göra så att spelet blir svårare efter ett tag? Det finns flera olika varianter på detta.
 
 ## Frågeställningar
 
 * Hur kan du kopiera kod i Scratch?
-* Vad är en funktion? Varför är det bättre att använda en funktion än kopiera kod?
+
+* Vad är en funktion?
+
+* Varför är det bättre att använda en funktion än kopiera kod?
