@@ -1,14 +1,14 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="fruktsallads-ventyret">Fruktsalladsäventyret</h1>
-<p>I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där du kommer kunna köpa lite varor som spelaren har fått i uppgift att handla till en fruktsallad. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.</p>
+<p>I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pankakor eller brädor till en koja. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.</p>
 <p>Ett exempel på hur  spelet kan se ut ser du här:</p>
 <ul>
 <li><a href="https://scratch.mit.edu/projects/116997344/" target="_blank">Exempel</a></li>
 </ul>
 <p><img src="image_1.png" alt="image alt exempel"></p>
-<h2 id="delmoment-1-g-r-runt-i-spelet">Delmoment 1: Går runt i spelet</h2>
-<p>Du ska börja med att skapa <strong>3 scener</strong>, några sprajter och sedan koda så att spelaren kan ta sig mellan scenerna.</p>
+<h2 id="delmoment-1-r-ra-sig-mellan-bakgrunder">Delmoment 1: Röra sig mellan bakgrunder</h2>
+<p>Du ska börja med att skapa <strong>3 bakgrunder</strong> och sedan koda så att spelaren kan ta sig mellan bakgrunderna med hjälp av olika pilar. Du ska också få skapa en sprajt som är den spelkaraktären som ger uppdraget att handla till spelaren.</p>
 <ol>
 <li><p>Skapa ett nytt projekt och ta bort katten.</p>
 </li>
@@ -38,7 +38,7 @@
 </li>
 </ul>
 </li>
-<li><p><strong>Lägg till en sprajt</strong> som du kan prata med. Du kan till exempel välja <strong>Calvrett</strong> och sätta honom på bänken i köket.</p>
+<li><p><strong>Lägg till en sprajt</strong> som användaren kan prata med och få uppdrag av. Du kan till exempel välja <strong>Calvrett</strong> och sätta honom på bänken i köket.</p>
 </li>
 <li><p><strong>Lägg till</strong> sprajten <strong>Arrow1</strong> från biblioteket och ge den <strong>namnet &quot;gå-gata&quot;</strong>.</p>
 </li>
@@ -146,6 +146,9 @@
 </li>
 <li><p>Skapa ett skript för <strong>Ja-knapp</strong> och <strong>Nej-knapp</strong> så att de även <strong>göms</strong> om du <strong>klickar på den andra knappen</strong>. Annars kan spelaren klicka på båda och det är inte bra.</p>
 </li>
+</ol>
+<p>Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du har att köpa med och en LISTA som håller reda på <em>vad</em> du ska handla. Om en VARIABEL är en låda där du kan lägga in en sak eller ett värde, är en LISTA en hel byrålåda där du kan lägga in många olika värden.</p>
+<ol>
 <li><p>Skapa en <strong>variabel</strong> för alla sprajter som heter <strong>”kronor”</strong></p>
 </li>
 <li><p>Skapa en <strong>lista</strong> för alla sprajter och kalla den <strong>”inköpslista”.</strong> Du hittar <em>listor</em> under fliken <strong>Data</strong>.<img src="image_5.png" alt="image alt nylista">.</p>
@@ -186,7 +189,7 @@
 <p>  <img src="image_8.png" alt="image alt block"></p>
 <p>  <em>Dessa block behöver du för punkterna 12 och 14 ovan.</em></p>
 <h2 id="delmoment-3-skapa-sprajtar-f-r-aff-ren">Delmoment 3: Skapa sprajtar för affären</h2>
-<p>Nu ska du få skapa en affär.</p>
+<p>Nu ska du få skapa en affär. Den kommer innehålla de varor som du behöver för fruktsalladen, men också <em>minst</em> en annan vara. Varorna som behövs till salladen ska spelaren ha råd med, men det kan finnas andra varor som är för dyra.</p>
 <ol>
 <li><p>Starta spelet och körs tills du har gått in i affären.</p>
 </li>
@@ -203,6 +206,7 @@
 <li><p>Valfritt <strong>transportmedel</strong>, t. Ex. Car-bug – <strong>namnge</strong> den <strong>”transportmedel”</strong></p>
 </li>
 </ul>
+<p><strong>Tips:</strong> Om du vill kan du byta ut transportmedlet mot något annat. Det viktiga för uppgiften är att det finns något som är för dyrt att handla med de pengarna spelaren fick av <strong>Calvrett</strong>.</p>
 </li>
 <li><p>Skapa ett skript för <strong>säljare</strong> som säger:</p>
 <ul>
@@ -259,7 +263,7 @@
 </li>
 </ul>
 </li>
-<li><p><strong>Flytta variablerna</strong> på skärmen så att de är nära varorna de hör ihop med.</p>
+<li><p><strong>Flytta variablerna</strong> på skärmen så att de är nära varorna de hör ihop med. Då kommer de se ut som prislappar!</p>
 </li>
 <li><p>Skapa kod i <strong>scenen</strong> så att <strong>variablerna visas</strong> på skärmen när meddelandet <strong>”visa affär”</strong> tas emot och så att de <strong>göms</strong> när meddelandena <strong>”visa hem”</strong> och <strong>”visa gata”</strong> tas emot.</p>
 <p><img src="image_9.png" alt="image alt affär"></p>
@@ -314,10 +318,11 @@
 <blockquote>
 <p>Testa spelet igen! Vad händer om du försöker köpa ett transportmedel? Läggs saker till i listan om du till exempel försöker köpa en banan eller en vattenmelon?</p>
 </blockquote>
-<h2 id="delmoment-8-laga-fruktsallad">Delmoment 8: Laga fruktsallad</h2>
+<h2 id="delmoment-5-laga-fruktsallad">Delmoment 5: Laga fruktsallad</h2>
 <p>Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bara att du går tillbaka till <strong>Calvrett</strong> och ser till att han lagar den!</p>
 <ol>
 <li><p>Skapa en <strong>variabel</strong> för alla sprajter som heter <strong>”äventyr”</strong>. Den behöver inte visas på skärmen.</p>
+<p>Denna variabel behövs för att programmet inte ska köra koden du nu ska skapa förrän spelaren har fått ett uppdrag. Den kan även användas om du utvecklar programmet vidare med andra äventyr.</p>
 </li>
 <li><p>Skapa ett skript för <strong>scenen</strong> som <strong>sätter &quot;äventyr&quot;</strong> till <strong>&quot;inget&quot;</strong> när spelet startar</p>
 </li>
@@ -359,6 +364,8 @@
 </li>
 </ul>
 </li>
+<li><p>Gör ett skript för sprajten <strong>gå-gata</strong> som <strong>gömmer</strong> sprajten när den tar emot meddelandet <strong>&quot;gör fruktsallad&quot;</strong>. Användaren ska inte kunna iväg igen eftersom uppdraget är färdigt!</p>
+</li>
 </ol>
 <h2 id="f-rdig-">Färdig!</h2>
 <p>Grattis, nu har du gjort klart uppgiften.</p>
@@ -372,7 +379,7 @@
 <h3 id="animera-calvrett-och-fruktsalladen">Animera Calvrett och fruktsalladen</h3>
 <p>Skapa en rolig animation för <strong>Calvrett</strong> när han gör fruktsalladen. På så sätt blir spelet lite roligare!</p>
 <h3 id="flera-ventyr">Flera äventyr</h3>
-<p>Nu har du skapat ett ganska enkelt äventyrsspel. Skapa <strong>fler scener</strong> och koda <strong>fler äventyr</strong>. Till exempel kan det vara så att du behöver gå någonstans för att hämta en kniv så att <strong>Calvrett</strong> kan skära frukten.</p>
+<p>Nu har du skapat ett ganska enkelt äventyrsspel. Skapa <strong>fler bakgrunder</strong> och koda <strong>fler äventyr</strong>. Till exempel kan det vara så att du behöver gå någonstans för att hämta en kniv så att <strong>Calvrett</strong> kan skära frukten.</p>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>
 <ul>
 <li><p>Vad är en variabel?</p>
