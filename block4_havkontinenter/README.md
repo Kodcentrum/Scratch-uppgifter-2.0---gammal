@@ -31,7 +31,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 ## Delmoment 2: Starta spelet
 
-I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt variabeln **"poäng"** och listan **"alternativ"**. När du klickar på knappen ska spelet börja: **"poäng"** ska nollställas och i listan **"alternativ"** ska all svars alternativ läggas till. Det ska du få koda nu!
+I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt variabeln **"poäng"** och listan **"alternativ"**. När du klickar på knappen ska spelet börja: **"poäng"** ska nollställas och i listan **"alternativ"** ska alla svars alternativ läggas till. Det ska du få koda nu!
 
 1.	Skapa ett skript för sprajten **Ball** som säger:
 
@@ -170,7 +170,7 @@ _Det här är några av de block du behöver för punkterna ovan._
 
 ## Delmoment 5: Kontinenter
 
-Nu ska du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från spelet du redan gjort. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
+Nu ska du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från sprajtar du redan kodat. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
 
 1.	Kopiera sprajten **Ball** och placera den i ett annat hörn. Välja en annan klädsel för den nya sprajten så att den ser annorlunda ut.
 
@@ -245,4 +245,4 @@ Du kan till exempel lägga till ett spel går ut på att gissa länder.
 
 * Vad kan du använda en lokal variabel till?
 
-* Varför kan det vara bara att skapa ett nytt block?  
+* Varför kan det vara bra att skapa ett nytt block?  

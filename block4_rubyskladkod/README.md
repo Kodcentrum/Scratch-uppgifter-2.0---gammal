@@ -2,7 +2,7 @@
 
 Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du ska få koda ett program som hjälper flickan Ruby att välja kläder.
 
-*Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. *
+_Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. _
 
 Ett exempel på hur programmet kan se ut hittar du här:
 
@@ -233,7 +233,7 @@ Vi börjar med att lägga till två knappar som det står ”1” och ”2” p�
 
 4.	Skapa ett till skript för **Val1** som säger:
 
-  * När jag **tar emot **meddelandet **”välj kläder”**
+  * När jag **tar emot** meddelandet **”välj kläder”**
 
   * **Visa** sprajten
 
@@ -291,7 +291,7 @@ Det sista som du ska koda är att se till att klädseln ändras när ett meddela
 
 1.	Skapa ett skript för **Ruby** som säger
 
-  * När jag **tar emot** meddelandet ** ”gjorde val1”**
+  * När jag **tar emot** meddelandet **”gjorde val1”**
 
   * **Byt** klädsel till **”val1”**
 

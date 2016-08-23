@@ -23,7 +23,7 @@ _Så här kan huvudet på ninjan se ut. Den röda rutan visar var du kan ändra 
 
 Nu ska du rita ninjan:
 
-1.	**Rita** en ny sprajt. Använd **rektangelverktyget** för att gör en ninjans **ansikte**. Det kan se ut som bilden ovan.
+1.	**Rita** en ny sprajt. Använd **rektangelverktyget** för att gör ninjans **ansikte**. Det kan se ut som bilden ovan.
 
 2.	**Kopiera** den klädseln så att vi har **6 likadana** klädslar. Du ska lite senare rita benen på ninjan.
 

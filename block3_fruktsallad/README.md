@@ -335,7 +335,7 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
 
   * **Visa** sprajten
 
-8. Gör ett skript för sprajten **gå-gata** som **gömmer** sprajten när den tar emot meddelandet **"gör fruktsallad"**. Användaren ska inte kunna iväg igen eftersom uppdraget är färdigt!
+8. Gör ett skript för sprajten **gå-gata** som **gömmer** sprajten när den tar emot meddelandet **"gör fruktsallad"**. Användaren ska inte kunna gå iväg igen eftersom uppdraget är färdigt!
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.

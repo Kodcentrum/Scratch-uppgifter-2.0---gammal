@@ -47,9 +47,9 @@ Nu ska du koda så att mattan rör sig upp och ned om och om igen, så att det s
 
   *	För alltid:
 
-  * **Glider** under 1 sekund till **X:samma som förut**, **Y:samma som förut minus 5**
+    * **Glider** under 1 sekund till **X:samma som förut**, **Y:samma som förut minus 5**
 
-  * **Glider** under 1 sekund till **X:samma som förut**, **Y:samma som förut plus 5**
+    * **Glider** under 1 sekund till **X:samma som förut**, **Y:samma som förut plus 5**
 
 3.	Skapa ett till skript för **mattan** som säger:
 
@@ -118,7 +118,9 @@ Nu ska du koda så att mattan åker till basketplanen när den åker in i basket
 
 6.	Sätt in **ljudblocket** på rätt ställe så att det spelas när mattan far in i bollen. Testa dig fram för att se vart det passar bäst att placera ljudet.
 
-7.	Nu ska vi byta bakgrund, så skapa ett skript för **scenen** som säger:
+Nu är det dags att byta bakgrund och dölja basketbollen:
+
+7. Skapa ett skript för **scenen** som säger:
 
   * Startar när den tar emot meddelandet **”basketplan”**
 

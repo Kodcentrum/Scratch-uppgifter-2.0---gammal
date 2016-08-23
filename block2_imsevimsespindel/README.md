@@ -176,7 +176,7 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 ## Delmoment 6: Skicka meddelanden
 
-När du klickar på molnet ska även spindeln spindeln spolas bort och glida bort ifrån tråden. Men hur ska spindeln få reda på att du klickat på molnet? Svaret är meddelanden! När molnet har klickats på skickar den ut ett meddelande som spindeln kan lyssna på. Fiffigt va?
+När du klickar på molnet ska även spindeln spindeln spolas bort och glida bort ifrån tråden. Men hur ska spindeln få reda på att du klickat på molnet? Svaret är MEDDELANDEN! När molnet har klickats på skickar den ut ett meddelande som spindeln kan lyssna på. Fiffigt va?
 
 Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 
