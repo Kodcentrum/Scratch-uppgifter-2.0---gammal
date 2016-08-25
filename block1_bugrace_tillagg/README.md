@@ -82,7 +82,7 @@ som vrider sprajten blir utfört. Det är därifrån "ketchupeffekten" kommer.
 
 ![Hur sprajten styrts hittills](old_turning.png)
 
-Men det finns andra sätt för Scratch att läsa av tangentbordet. Under "Känna av" finns ett villkor som heter 
+Men det finns andra sätt för Scratch att läsa av tangentbordet. Under "Känna av" finns ett villkor som heter
 "tangent [mellanslag] nedtryckt?".
 
 ![Ett villkor som läser av tangentbordet](keypress.png)
@@ -112,3 +112,9 @@ Har du tid över? Här kommer en utmaning för dig som vill fortsätta:
 
 ### Flera banor
 Kan du skapa skript som **byter scenens bakgrund** när en spelare kommer i mål – så att spelet består av flera banor?
+
+## Frågeställningar
+
+* Hur kan du kopiera kod i Scratch?
+
+* Vad kan du behöva tänka på när du kopierar kod mellan olika sprajter?
