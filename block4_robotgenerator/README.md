@@ -7,6 +7,8 @@ här på Scratch</a>
 
 <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/83059676/?autostart=false" frameborder="0" allowfullscreen=""></iframe>
 
+  ![image alt text](image_0.jpg)
+
 ## Delmoment 1: Skapa robotklädslar
 
 Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. Du kommer att göra flera olika huvuden, armar, munnar, ögon och så vidare så att du sedan kan göra till flera olika kombinationer av robotar!
