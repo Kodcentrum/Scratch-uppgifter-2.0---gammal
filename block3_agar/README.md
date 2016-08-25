@@ -1,6 +1,6 @@
 # Agar
 
-## Nivå: ▪▪▫
+### Nivå: ▪▪▫
 
 **Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga!**
 
