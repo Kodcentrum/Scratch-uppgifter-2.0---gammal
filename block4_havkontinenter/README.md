@@ -12,7 +12,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
-2.	Som bakgrund behöver du en världskarta. En sådan kan du hitta genom att googla eller så kan du välja en från  <a href="https://commons.wikimedia.org/wiki/Category:Blank_maps_of_the_world" target="_blank">Wikimedia</a>. Spara bilden på din dator och ladda upp den som bakgrund i ditt Scratch projekt.
+2.	Som bakgrund behöver du en världskarta. En sådan kan du hitta genom att söka på nätet eller så kan du välja en från  <a href="https://commons.wikimedia.org/wiki/Category:Blank_maps_of_the_world" target="_blank">Wikimedia</a>. Spara bilden på din dator och ladda upp den som bakgrund i ditt Scratch projekt.
 
   > **_Kan jag använda bilder som jag hittar på nätet?_**
 *Om du vill använda bilder från nätet, tänk på att det måste vara en bild som du har tillåtelse att använda för personen som skapat den. De flesta bilder på nätet är* ***_upphovsrättsskyddade_***, *vilket innebär att du inte får använda dem utan att fråga om lov först. Men det finns bilder som är ok att använda, till exempel om du söker med* <a href="http://search.creativecommons.org/" target="_blank"> *Creative Commons sökmotor.* </a>

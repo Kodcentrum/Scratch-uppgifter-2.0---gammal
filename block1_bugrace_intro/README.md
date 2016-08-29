@@ -152,3 +152,15 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Saknas något? Hur skulle du vilja utveckla spelet?
 
 Det får du göra i nästa uppgift!
+
+## Frågeställningar
+
+* Vad är en sprajt?
+
+* Vad är en loop? 
+
+* Varför kan det vara bra att använda en loop?
+
+* Vad är ett INIT- eller Start-Skript?
+
+* Vad händer i spelet om sprajten har samma färg som bakgrunden?

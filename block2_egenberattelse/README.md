@@ -9,13 +9,18 @@ Exempel: _En spindel är på väg till sitt hus uppe i spindelnätet. Då börja
 
 Det är en god idé att först tänka igenom vad berättelsen ska handla om. Du kan rita upp det som ska hända på ett papper, det kallas för att göra ett STORYBOARD. Det behöver inte vara snyggt utan bara så att det går att förstå, streckgubbar fungerar bra!
 
-Samtidigt som du ritar upp berättelsen steg för steg, behöver du fundera på vilka skript du kommer att behöva för att ANIMERA din berättelse i Scratch.  Att animera betyder att "levandegöra", t ex att göra så att karaktärerna rör sig och låter.
+Samtidigt som du ritar upp berättelsen steg för steg, behöver du fundera på vilka skript du kommer att behöva för att ANIMERA din berättelse i Scratch.  Att _animera_ betyder att _levandegöra_, t ex att göra så att karaktärerna rör sig och låter.
 
 1. Rita upp din berättelse. Håll det enkelt! Tänk på det här:
+
   * VEM ska berättelsen handla om?
+
   * VAR ska berättelsen utspela sig?  
+
   * Vilket MÅL ska huvudkaraktären nå?
+
   * VAD ska hända som innebär ett hinder på vägen?
+
   * HUR ska det lösas?
 
 2. Testa din storyboard på någon. Förstår hen berättelsen? Går den att animera i Scratch?
@@ -46,7 +51,7 @@ Nu ska du välja bakgrund för din berättelse, en eller flera olika ifall du vi
 
   ![image alt text](image_3.png)	![image alt text](image_4.png)
 
-Tips: Ska du rita flera bakgrunder trycker du på "Rita ny bakgrund" för att skapa en ny rityta. Du kan även kopiera din första bakgrund om du vill använda samma miljö men t ex rita till ett hus som sprajten ska komma fram till.
+**Tips:** Ska du rita flera bakgrunder trycker du på "Rita ny bakgrund" för att skapa en ny rityta. Du kan även kopiera din första bakgrund om du vill använda samma miljö men t ex rita till ett hus som sprajten ska komma fram till.
 
 
 ## Delmoment 4: Animera berättelsen med skript
@@ -67,13 +72,13 @@ Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du 
 
 ![image alt text](image_6.png)
 
-Tips: En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**,
-t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
-![image alt text](image_7.jpg) ![image alt text](image_8.jpg) ![image alt text](image_9.jpg)
+**Tips:** En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**, t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
+
+![image alt text](image_7.jpg)
 
 * **Hur ska sprajten röra sig?**
 
-  Använd block från **RÖRELSE**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg. **Om sprajten ska röra sig under hela berättelsen, eller upprepa ett mönster av olika rörelser, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
+  Använd block från **RÖRELSE**. Om sprajten ska gå en liten bit kan det räcka med att sätta antalet steg. **Om sprajten ska röra sig under hela berättelsen**, eller **upprepa ett mönster av olika rörelse**r, kan du behöva en LOOP från **KONTROLL**.  Du bestämmer om den ska vara **"för alltid"** eller bara repetera ett visst antal gånger.
 
   ![image alt text](image_10.png)
 
@@ -99,13 +104,13 @@ t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en vi
 
   ![image alt text](image_14.jpg)
 
-  Tips: Om sprajten ska röra sig från en bakgrund till en annan, t ex från en skog in i en stad, tänk på att flytta sprajten samtidigt som du byter bakgrund, så att det ser ut som att sprajten går ut ur bild till höger och sedan kommer in i bild på vänster sida!
+  **Tips:** Om sprajten ska röra sig från en bakgrund till en annan, t ex från en skog in i en stad, tänk på att flytta sprajten samtidigt som du byter bakgrund, så att det ser ut som att sprajten går ut ur bild till höger och sedan kommer in i bild på vänster sida!
 
 * **Ska en ny sprajt dyka upp senare i berättelsen? Eller försvinna?**
 
   Använd blocken **"visa"** och **"göm"** från **UTSEENDE** och bestäm **när** eller **om < > då** det ska hända. Glöm inte att ställa in startposition för den nya sprajten, både koordinaterna och om den ska visas eller vara gömd från början.
 
-  ![image alt text](image_15.jpg)![image alt text](image_16.jpg)
+  ![image alt text](image_15.jpg)
 
 * **Vill du använda ljud i berättelsen?**
 
@@ -119,7 +124,7 @@ t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en vi
 
   Välj från **HÄNDELSER** om du t ex ska klicka på sprajten eller använda tangentbordet för att styra. Bestäm vad som ska hända **när** eller **om < > då** du styr berättelsen, och vad som ska hända om du inte gör något.
 
-  ![image alt text](image_18.jpg)![image alt text](image_19.jpg)
+  ![image alt text](image_18.jpg)
 
 
 ## Färdig!
@@ -129,3 +134,15 @@ Grattis, nu har du gjort klart uppgiften.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Frågeställningar
+
+* Vad är ett storyboard?
+
+* Vilka delar bör ingå i en storyboard?
+
+* Varför är det en bra idé att använda sig av en storyboard när du vill skapa en berättelse?
+
+* Vad betyder det att animera något?
+
+* Vad finns det för alternativ att styra en berättelse med?

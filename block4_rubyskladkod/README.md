@@ -2,7 +2,7 @@
 
 Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du ska få koda ett program som hjälper flickan Ruby att välja kläder.
 
-_Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas._
+_Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>_
 
 Ett exempel på hur programmet kan se ut hittar du här:
 
@@ -17,7 +17,7 @@ men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
 
 Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan välja bilder ur.
 
-  1. Gå till <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">http://www.kodboken.se/start/lana-bild-ljud/hej-ruby</a>
+  1. Gå till <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Låna bild och ljud / Hej Ruby</a>
 
   2. Högerklicka på Ruby och spara filen **ruby-clothes-360.zip** till din dator.
 
