@@ -1,11 +1,11 @@
 # Fantasisynth
 
-Hur skulle du vilja spela musik? Förr i tiden fanns bara piano eller violer eller gitarrer som kunde spela klassisk musik. Idag finns datorer som kan spela nästan vilka otroliga ljud som helst som används som digitala instrument. Om du kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill! 
+Hur skulle du vilja spela musik? Förr i tiden fanns bara piano eller violer eller gitarrer som kunde spela klassisk musik. Idag finns datorer som kan spela nästan vilka otroliga ljud som helst som används som digitala instrument. 
+
+Om du kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill! 
 
 Ett exempel på projektet hittar du här:  
  <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">  Exempel</a>
-
-
  
 ![image alt text](image_0.png)
 
@@ -18,7 +18,6 @@ Du kommer att få göra en synth som du spelar med datorns tangenter. Bara din f
 1.	Ska det vara frukt som du spelar på? Ska det vara djur? Klura ut hur du vill att din synth ska se ut! 
 
 2.	Har du fått en idé för din synth? Rita eller skriv ned dina idéer, berätta gärna för någon som kan komma med förslag. Tänk inte att någon idé är dum eller fel – i framtiden kan allt vara möjligt!
-
 
 **Tips:** Är det ändå svårt att komma på en idé, **Välj sprajt från biblioteket** i Scratch och se om du kan hitta något där som kan bli tangenter till en synth!
 
