@@ -103,4 +103,4 @@ Vill du göra din egen musik i Sonic Pi? Testa att ändra tonerna och prova dig 
 
 Kan du skapa musik som du kan använda i Scratch-uppgiften <a href="http://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare" target="_blank"> **Framtidens musikspelare**</a>?
 
-Om du vill spara din musik i Sonic Pi, finns en instruktion för det här. 
+Om du vill spara din musik i Sonic Pi, finns en  <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-sonic-pi/spara-musik-i-sonic-pi" target="_blank"> **instruktion för det här**</a>. 
