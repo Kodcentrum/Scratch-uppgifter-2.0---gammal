@@ -101,6 +101,6 @@ Testa dig fram!
 ## Utmaning 3: Musik till "Framtidens musikspelare"
 Vill du göra din egen musik i Sonic Pi? Testa att ändra tonerna och prova dig fram för att skapa en helt ny melodi. 
 
-Kan du skapa musik som du kan använda i Scratch-uppgiften <a href="http://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare" target="_blank"> **Framtidens musikspelare**</a>?
+Kan du skapa musik som du kan använda i Scratch-uppgiften <a href="http://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare" target="_blank"> **Framtidens musikspelare**</a>? Till det behöver du två låtar, en glad och en arg, eller så många som behövs i din musikspelare.
 
 Om du vill spara din musik i Sonic Pi, finns en  <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-sonic-pi/spara-musik-i-sonic-pi" target="_blank"> **instruktion för det här**</a>. 
