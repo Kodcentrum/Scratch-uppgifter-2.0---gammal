@@ -22,11 +22,11 @@
 </ol>
 <h2 id="-nskan-2-det-syns-ett-rutn-t">Önskan 2. Det syns ett rutnät</h2>
 <p>Vi vill att det ske ut något i den här stilen om vi svarat <code>BREDD</code> 5 och <code>HÖJD</code> 3.</p>
-<p>Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där <code>X</code> går från &ndash;240 till 240 och <code>Y</code> går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför valt att sätta variablerna
+<p>Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där <code>X</code> går från &ndash;240 till 240 och <code>Y</code> går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför använt variablerna
 <code>XSTART</code>,
 <code>YSTART</code>,
 <code>XSLUT</code> och
-<code>YSLUT</code> som du kan se i bilden.</p>
+<code>YSLUT</code> som du kan se i bilden. Jag satte t.ex. <code>XSTART</code> till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövas.</p>
 <p><img src="02-coords.png" alt="Koordinater"></p>
 <p>Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bredden och fyra på höjden. Avståndet mellan ytterhörnen på bredden är <code>XSLUT</code>&ndash;<code>XSTART</code> pixlar och genom att dividera med <code>BREDD</code> får vi antalet pixlar mellan hörnprickarna. Vi kallar det avståndet <code>XSTEG</code>. Se bilden, där <code>YSTEG</code> också visas.</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
@@ -38,9 +38,13 @@
 <ul>
 <li><p>Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.</p>
 </li>
-<li><p>Några block som kan vara bra att ha: &hellip;</p>
+<li><p>Hörnprickarna kanske kan vara en ny klädsel hos katten? Då slipper vi skapa en ny sprajt.</p>
+</li>
+<li><p>Några block som kan vara bra att ha:</p>
 </li>
 </ul>
+<p><img src="02-set-variable.png" alt="Sätt variabelns värde"></p>
+<p><img src="02-stamp.png" alt="Stämpla"></p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 <p><img src="02-solution.png" alt="Lösningsförslag. Det syns ett rutnät"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>

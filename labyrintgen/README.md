@@ -35,11 +35,11 @@ Här är några block som kan vara bra att ha:
 ## Önskan 2. Det syns ett rutnät
 Vi vill att det ske ut något i den här stilen om vi svarat `BREDD` 5 och `HÖJD` 3.
 
-Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där `X` går från &ndash;240 till 240 och `Y` går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför valt att sätta variablerna
+Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där `X` går från &ndash;240 till 240 och `Y` går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför använt variablerna
 `XSTART`,
 `YSTART`,
 `XSLUT` och
-`YSLUT` som du kan se i bilden.
+`YSLUT` som du kan se i bilden. Jag satte t.ex. `XSTART` till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövas.
 
 ![Koordinater](02-coords.png)
  
@@ -54,7 +54,13 @@ där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, 
 
 * Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.
 
-* Några block som kan vara bra att ha: &hellip;
+* Hörnprickarna kanske kan vara en ny klädsel hos katten? Då slipper vi skapa en ny sprajt.
+
+* Några block som kan vara bra att ha:
+
+![Sätt variabelns värde](02-set-variable.png)
+
+![Stämpla](02-stamp.png)
 
 ### Lösningsförslag
 ![Lösningsförslag. Det syns ett rutnät](02-solution.png)
