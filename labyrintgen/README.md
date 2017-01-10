@@ -28,12 +28,16 @@ Här är några block som kan vara bra att ha:
 
 Än så länge är det bara katten som frågar. Ingen labyrint syns än.
 
+Jag har valt STORA BOKSTÄVER för variabler som används av flera block. Ett exempel är variabeln `BREDD`. Sådana globala variabler kan ge programfel som är svåra att hitta. Därför sätts deras värden bara en gång.
+
+Variabler med små bokstäver används inom ett block.
+ 
 ### Förbättringsidéer
 
 1. Behöver vi kontrollera indata bättre? Vad är rimliga värden på variablerna `BREDD` och `HÖJD`?
 
 ## Önskan 2. Det syns ett rutnät
-Vi vill att det ske ut något i den här stilen om vi svarat `BREDD` 5 och `HÖJD` 3.
+Vi vill att det ser ut något i den här stilen om vi svarar `BREDD` 5 och `HÖJD` 3.
 
 Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där `X` går från &ndash;240 till 240 och `Y` går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför använt variablerna
 `XSTART`,
@@ -88,11 +92,11 @@ Det är fyra ytterväggar att rita. Kan du dela upp jobbet i mindre delar?
 
 ### Lösningsförslag
 
-Här är de block som jag har lagt till eller ändrat.
+Här ser du de block som jag har lagt till eller ändrat. Resten är som innan.
 
-![Förslag på Rita vägg](03-Wall-complete.png)
-![Förslag på Rita ytterväggar](03-Walls-complete.png)
 ![Koden för grön flagga](03-Top-complete.png)
+![Förslag på Rita ytterväggar](03-Walls-complete.png)
+![Förslag på Rita vägg](03-Wall-complete.png)
 
 ### Förbättringsidéer
 
