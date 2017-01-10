@@ -1,0 +1,54 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="labyrintgenerator">Labyrintgenerator</h1>
+<p>Vårt uppdrag är att skriva en labyrintgenerator i Scratch. Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.</p>
+<p>Det ska gå att ta sig mellan labyrintens fyra hörn. Labyrinten ska se olika ut från gång till gång.</p>
+<p>En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.</p>
+<p>Så här kan det se ut när vi är klara:</p>
+<p><img src="00-maze-goal.png" alt="Målbild för labyrinten"></p>
+<p>Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske kan hjälpa.</p>
+<h2 id="-nskan-1-det-g-r-att-v-lja-bredd-och-h-jd-p-labyrinten">Önskan 1. Det går att välja bredd och höjd på labyrinten</h2>
+<p>Den här önskan kan vi uppfylla genom att katten frågar om bredd och höjd. Vi sparar svaren i variablerna <code>BREDD</code> och <code>HÖJD</code>.</p>
+<p>Pröva nu att göra en lösning på egen hand innan du går vidare.</p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<p>Här är några block som kan vara bra att ha:</p>
+<p><img src="01-useful-blocks.png" alt="Användbara block"></p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p><img src="01-solution.png" alt="Lösningsförslag. Det går att välja bredd och höjd på labyriten"></p>
+<p>Än så länge är det bara katten som frågar. Ingen labyrint syns än.</p>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<ol>
+<li>Behöver vi kontrollera indata bättre? Vad är rimliga värden på variablerna <code>BREDD</code> och <code>HÖJD</code>?</li>
+</ol>
+<h2 id="-nskan-2-det-syns-ett-rutn-t">Önskan 2. Det syns ett rutnät</h2>
+<p>Vi vill att det ske ut något i den här stilen om vi svarat <code>BREDD</code> 5 och <code>HÖJD</code> 3.</p>
+<p>Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där <code>X</code> går från &ndash;240 till 240 och <code>Y</code> går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför valt att sätta variablerna
+<code>XSTART</code>,
+<code>YSTART</code>,
+<code>XSLUT</code> och
+<code>YSLUT</code> som du kan se i bilden.</p>
+<p><img src="02-coords.png" alt="Koordinater"></p>
+<p>Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bredden och fyra på höjden. Avståndet mellan ytterhörnen på bredden är <code>XSLUT</code>&ndash;<code>XSTART</code> pixlar och genom att dividera med <code>BREDD</code> får vi antalet pixlar mellan hörnprickarna. Vi kallar det avståndet <code>XSTEG</code>. Se bilden, där <code>YSTEG</code> också visas.</p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<ul>
+<li>Det kan vara bra att dela upp koden i flera block. Tänk på att du kan skapa egna block. Ett användbart block kan vara</li>
+</ul>
+<p><img src="02-custom-block.png" alt="Rita hörn(B, H)"></p>
+<p>där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, H) = (0, 0) och övre högra hörnet (B, H) = (<code>BREDD</code>, <code>HÖJD</code>).</p>
+<ul>
+<li><p>Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.</p>
+</li>
+<li><p>Några block som kan vara bra att ha: &hellip;</p>
+</li>
+</ul>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p><img src="02-solution.png" alt="Lösningsförslag. Det syns ett rutnät"></p>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<h2 id="-nskan-3-det-syns-en-ytterv-gg">Önskan 3. Det syns en yttervägg</h2>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<h2 id="-nskan-4-det-finns-minst-en-v-g-genom-labyrinten-f-r-varje-par-av-h-rn">Önskan 4. Det finns minst en väg genom labyrinten för varje par av hörn</h2>
+<h2 id="-nskan-5-v-ggarna-delar-sig-p-olika-st-llen-inte-alltid-i-mitten-som-i-nr-4">Önskan 5. Väggarna delar sig på olika ställen, inte alltid i mitten som i nr 4</h2>
+<h2 id="-nskan-6-v-ggarna-delar-sig-antingen-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-5">Önskan 6. Väggarna delar sig antingen horisontellt eller vertikalt, inte bara horisontellt som i nr 5</h2>
+</body></html>
