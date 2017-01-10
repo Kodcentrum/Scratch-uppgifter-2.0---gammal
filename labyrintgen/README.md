@@ -39,13 +39,14 @@ Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsy
 `XSTART`,
 `YSTART`,
 `XSLUT` och
-`YSLUT` som du kan se i bilden. Jag satte t.ex. `XSTART` till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövas.
+`YSLUT` som du kan se i bilden. Jag satte t.ex. `XSTART` till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövs.
 
 ![Koordinater](02-coords.png)
  
 Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bredden och fyra på höjden. Avståndet mellan ytterhörnen på bredden är `XSLUT`&ndash;`XSTART` pixlar och genom att dividera med `BREDD` får vi antalet pixlar mellan hörnprickarna. Vi kallar det avståndet `XSTEG`. Se bilden, där `YSTEG` också visas.
 
 ### Ledtrådar
+
 * Det kan vara bra att dela upp koden i flera block. Tänk på att du kan skapa egna block. Ett användbart block kan vara
 
 ![Rita hörn(B, H)](02-custom-block.png)
@@ -63,16 +64,39 @@ där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, 
 ![Stämpla](02-stamp.png)
 
 ### Lösningsförslag
+
 ![Lösningsförslag. Det syns ett rutnät](02-solution.png)
 
 ### Förbättringsidéer
 
 ## Önskan 3. Det syns en yttervägg
+
+Så här kan det se ut när vi är klara:
+
+![Labyrint med ytterväggar](03-Goal.png)
+
+Det är fyra ytterväggar att rita. Kan du dela upp jobbet i mindre delar?
+
 ### Ledtrådar
+* Det kan vara praktiskt att ha ett block för att rita en vägg med olika startpunkt och riktning.
+
+![Blocket Rita vägg](03-Wall.png)
+
+* Har vi ett block för att rita en vägg så kan vi använda det fyra gånger för de olika väggarna.
+
+![Blocket Rita ytterväggar](03-Walls.png)
+
 ### Lösningsförslag
+
+Här är de block som jag har lagt till eller ändrat.
+
+![Förslag på Rita vägg](03-Wall-complete.png)
+![Förslag på Rita ytterväggar](03-Walls-complete.png)
+![Koden för grön flagga](03-Top-complete.png)
+
 ### Förbättringsidéer
 
-## Önskan 4. Det finns minst en väg genom labyrinten för varje par av hörn
+## Önskan 4. Det finns minst en väg mellan olika hörn
 
 ## Önskan 5. Väggarna delar sig på olika ställen, inte alltid i mitten som i nr 4
 

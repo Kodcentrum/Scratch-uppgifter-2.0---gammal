@@ -26,7 +26,7 @@
 <code>XSTART</code>,
 <code>YSTART</code>,
 <code>XSLUT</code> och
-<code>YSLUT</code> som du kan se i bilden. Jag satte t.ex. <code>XSTART</code> till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövas.</p>
+<code>YSLUT</code> som du kan se i bilden. Jag satte t.ex. <code>XSTART</code> till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövs.</p>
 <p><img src="02-coords.png" alt="Koordinater"></p>
 <p>Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bredden och fyra på höjden. Avståndet mellan ytterhörnen på bredden är <code>XSLUT</code>&ndash;<code>XSTART</code> pixlar och genom att dividera med <code>BREDD</code> får vi antalet pixlar mellan hörnprickarna. Vi kallar det avståndet <code>XSTEG</code>. Se bilden, där <code>YSTEG</code> också visas.</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
@@ -49,10 +49,25 @@
 <p><img src="02-solution.png" alt="Lösningsförslag. Det syns ett rutnät"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
 <h2 id="-nskan-3-det-syns-en-ytterv-gg">Önskan 3. Det syns en yttervägg</h2>
+<p>Så här kan det se ut när vi är klara:</p>
+<p><img src="03-Goal.png" alt="Labyrint med ytterväggar"></p>
+<p>Det är fyra ytterväggar att rita. Kan du dela upp jobbet i mindre delar?</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
+<ul>
+<li>Det kan vara praktiskt att ha ett block för att rita en vägg med olika startpunkt och riktning.</li>
+</ul>
+<p><img src="03-Wall.png" alt="Blocket Rita vägg"></p>
+<ul>
+<li>Har vi ett block för att rita en vägg så kan vi använda det fyra gånger för de olika väggarna.</li>
+</ul>
+<p><img src="03-Walls.png" alt="Blocket Rita ytterväggar"></p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p>Här är de block som jag har lagt till eller ändrat.</p>
+<p><img src="03-Wall-complete.png" alt="Förslag på Rita vägg">
+<img src="03-Walls-complete.png" alt="Förslag på Rita ytterväggar">
+<img src="03-Top-complete.png" alt="Koden för grön flagga"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
-<h2 id="-nskan-4-det-finns-minst-en-v-g-genom-labyrinten-f-r-varje-par-av-h-rn">Önskan 4. Det finns minst en väg genom labyrinten för varje par av hörn</h2>
+<h2 id="-nskan-4-det-finns-minst-en-v-g-mellan-olika-h-rn">Önskan 4. Det finns minst en väg mellan olika hörn</h2>
 <h2 id="-nskan-5-v-ggarna-delar-sig-p-olika-st-llen-inte-alltid-i-mitten-som-i-nr-4">Önskan 5. Väggarna delar sig på olika ställen, inte alltid i mitten som i nr 4</h2>
 <h2 id="-nskan-6-v-ggarna-delar-sig-antingen-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-5">Önskan 6. Väggarna delar sig antingen horisontellt eller vertikalt, inte bara horisontellt som i nr 5</h2>
 </body></html>
