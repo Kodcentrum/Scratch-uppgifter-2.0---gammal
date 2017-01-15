@@ -101,44 +101,47 @@ Här ser du de block som jag har lagt till eller ändrat. Resten är som innan.
 ### Förbättringsidéer
 
 ## Önskan 4. Det finns minst en väg mellan olika hörn
-Här är vi nu:
+Här är vi nu om vi svarar `BREDD` 6 och `HÖJD` 4:
 
-![Labyrint med ytterväggar](03-Goal.png)
+![Labyrint med ytterväggar](04-start.png)
 
-Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill komma igenom labyrinten.
+Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.
 
 Kan de här två reglerna funka?
 * Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.
-* Regel 2. Använd regel 1 på de två mindre rektanglarna tills du har så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.
+* Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.
 
 Regel 1 gör att vi alltid kan komma igenom på ett ställe. 
 
 Regel 2 gör att vi bryter ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.
 
-Enklast möjliga lösning kan se ut något i den här stilen. Vi delar alltid väggen horisontellt och sätter hålet i mitten.
+Enklast möjliga lösning kan se ut något i den här stilen. Just nu delar vi väggen horisontellt och sätter hålet på ett slumpmässigt ställe.
 
 ![Steg 1](04-split-1.png) 
 ![Steg 2](04-split-2.png) 
 ![Steg 3](04-split-3.png) 
 ![Steg 4](04-split-4.png)
 
-Det blev ingen spännande labyrint än, men våra två regler ger en fungerande mall som vi kan förbättra.
+Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.
 
 ### Ledtrådar
 De här blocken kan komma till användning:
 
-Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i.
+Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i. Kanske en listvariabel kan hjälpa till?
 
 ### Lösningsförslag
 Här är blocken som jag har lagt till eller ändrat. Resten är som innan.
 
-Variabeln `vägglista` är en lista. Den håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.
+Variabeln `ritlista` håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.
 
 ![Koden för grön flagga](04-green-flag.png)
 ![Vägglista](04-wall-list.png)
 ![Rita innerväggar](04-interior-walls.png)
 ![Rita vägg med hål](04-wall-hole.png)
 
-## Önskan 5. Väggarna delar sig på olika ställen, inte alltid i mitten som i nr 4
+## Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4
 
-## Önskan 6. Väggarna delar sig antingen horisontellt eller vertikalt, inte bara horisontellt som i nr 5
+### Ledtrådar
+De här blocken kan komma till användning:
+
+### Lösningsförslag

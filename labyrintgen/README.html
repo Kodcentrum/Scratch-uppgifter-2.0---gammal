@@ -70,31 +70,34 @@
 <img src="03-Wall-complete.png" alt="Förslag på Rita vägg"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
 <h2 id="-nskan-4-det-finns-minst-en-v-g-mellan-olika-h-rn">Önskan 4. Det finns minst en väg mellan olika hörn</h2>
-<p>Här är vi nu:</p>
-<p><img src="03-Goal.png" alt="Labyrint med ytterväggar"></p>
-<p>Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill komma igenom labyrinten.</p>
+<p>Här är vi nu om vi svarar <code>BREDD</code> 6 och <code>HÖJD</code> 4:</p>
+<p><img src="04-start.png" alt="Labyrint med ytterväggar"></p>
+<p>Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.</p>
 <p>Kan de här två reglerna funka?</p>
 <ul>
 <li>Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.</li>
-<li>Regel 2. Använd regel 1 på de två mindre rektanglarna tills du har så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.</li>
+<li>Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.</li>
 </ul>
 <p>Regel 1 gör att vi alltid kan komma igenom på ett ställe. </p>
-<p>Så enklast möjliga lösning kan se ut något i den här stilen. Vi börjar så enkelt som möjligt: vi delar alltid väggen horisontellt och sätter hålet i mitten.</p>
+<p>Regel 2 gör att vi bryter ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.</p>
+<p>Enklast möjliga lösning kan se ut något i den här stilen. Just nu delar vi väggen horisontellt och sätter hålet på ett slumpmässigt ställe.</p>
 <p><img src="04-split-1.png" alt="Steg 1"> 
 <img src="04-split-2.png" alt="Steg 2"> 
 <img src="04-split-3.png" alt="Steg 3"> 
 <img src="04-split-4.png" alt="Steg 4"></p>
-<p>Det blev ingen spännande labyrint än, men våra regler 1 och 2 är en början som vi kan bygga vidare på.</p>
+<p>Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
 <p>De här blocken kan komma till användning:</p>
-<p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i.</p>
+<p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i. Kanske en listvariabel kan hjälpa till?</p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 <p>Här är blocken som jag har lagt till eller ändrat. Resten är som innan.</p>
-<p>Variabeln <code>vägglista</code> är en lista. Den håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.</p>
+<p>Variabeln <code>ritlista</code> håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.</p>
 <p><img src="04-green-flag.png" alt="Koden för grön flagga">
 <img src="04-wall-list.png" alt="Vägglista">
 <img src="04-interior-walls.png" alt="Rita innerväggar">
 <img src="04-wall-hole.png" alt="Rita vägg med hål"></p>
-<h2 id="-nskan-5-v-ggarna-delar-sig-p-olika-st-llen-inte-alltid-i-mitten-som-i-nr-4">Önskan 5. Väggarna delar sig på olika ställen, inte alltid i mitten som i nr 4</h2>
-<h2 id="-nskan-6-v-ggarna-delar-sig-antingen-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-5">Önskan 6. Väggarna delar sig antingen horisontellt eller vertikalt, inte bara horisontellt som i nr 5</h2>
+<h2 id="-nskan-5-v-ggarna-delar-sig-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-4">Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4</h2>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<p>De här blocken kan komma till användning:</p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 </body></html>
