@@ -1,4 +1,6 @@
 # Labyrintgenerator
+*(Bidrag till kodboken.se)*
+
 Vårt uppdrag är att skriva en labyrintgenerator i Scratch. Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.
 
 Det ska gå att ta sig mellan labyrintens fyra hörn. Labyrinten ska se olika ut från gång till gång.
@@ -73,7 +75,7 @@ där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, 
 
 ### Förbättringsidéer
 
-## Önskan 3. Det syns en yttervägg
+## Önskan 3. Det finns en yttervägg
 
 Så här kan det se ut när vi är klara:
 
@@ -100,48 +102,55 @@ Här ser du de block som jag har lagt till eller ändrat. Resten är som innan.
 
 ### Förbättringsidéer
 
-## Önskan 4. Det finns minst en väg mellan olika hörn
+## Önskan 4. Det finns innerväggar och man kan gå mellan labyrintens hörn
 Här är vi nu om vi svarar `BREDD` 6 och `HÖJD` 4:
 
 ![Labyrint med ytterväggar](04-start.png)
 
 Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.
 
-Kan de här två reglerna funka?
+Kan de här två reglerna fungera?
 * Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.
 * Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.
 
-Regel 1 gör att vi alltid kan komma igenom på ett ställe. 
+Regel 1 gör att vi alltid kan komma igenom på ett ställe i labyrinten. 
 
-Regel 2 gör att vi bryter ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.
+Regel 1 och 2 tillsammans hjälper oss att bryta ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.
 
-Enklast möjliga lösning kan se ut något i den här stilen. Just nu delar vi väggen horisontellt och sätter hålet på ett slumpmässigt ställe.
+Så här kan det se ut. Siffrorna 1 och 2 visar var vi använder regel 1 och 2:
 
 ![Steg 1](04-split-1.png) 
+
+Vi ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.
+
+Nu upprepar vi två gånger och får något i den här stilen:
+
 ![Steg 2](04-split-2.png) 
 ![Steg 3](04-split-3.png) 
-![Steg 4](04-split-4.png)
 
 Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.
 
 ### Ledtrådar
-De här blocken kan komma till användning:
+Vi behöver ett sätt att hålla reda på vilka rektanglar vi jobbar med. Kanske en listvariabel kan hjälpa till? De här blocken kan vara bra att känna till:
 
-Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i. Kanske en listvariabel kan hjälpa till?
+![Användbara block](04-useful-blocks.png) 
 
 ### Lösningsförslag
-Här är blocken som jag har lagt till eller ändrat. Resten är som innan.
 
-Variabeln `ritlista` håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.
+Variabeln `ritlista` håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: `b`, `h` för nedre vänstra hörnet, `b1`, `h1` för övre högre hörnet i rektangeln.
 
-![Koden för grön flagga](04-green-flag.png)
-![Vägglista](04-wall-list.png)
-![Rita innerväggar](04-interior-walls.png)
-![Rita vägg med hål](04-wall-hole.png)
+![Kod 1](04-b1.png)
+![Kod 2](04-b2.png)
+![Kod 3](04-b3.png)
+![Kod 4](04-b4.png)
+![Kod 5](04-b5.png)
 
 ## Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4
 
 ### Ledtrådar
-De här blocken kan komma till användning:
+* De här blocken kan komma till användning: &hellip;
+* Ändra i funktionen *Rita vägg med hål* så att den ibland delar vertikalt istället för bara horisontellt
+* Bild som illustrerar
 
 ### Lösningsförslag
+

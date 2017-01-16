@@ -1,6 +1,7 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="labyrintgenerator">Labyrintgenerator</h1>
+<p><em>(Bidrag till kodboken.se)</em></p>
 <p>Vårt uppdrag är att skriva en labyrintgenerator i Scratch. Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.</p>
 <p>Det ska gå att ta sig mellan labyrintens fyra hörn. Labyrinten ska se olika ut från gång till gång.</p>
 <p>En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.</p>
@@ -50,7 +51,7 @@
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 <p><img src="02-solution.png" alt="Lösningsförslag. Det syns ett rutnät"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
-<h2 id="-nskan-3-det-syns-en-ytterv-gg">Önskan 3. Det syns en yttervägg</h2>
+<h2 id="-nskan-3-det-finns-en-ytterv-gg">Önskan 3. Det finns en yttervägg</h2>
 <p>Så här kan det se ut när vi är klara:</p>
 <p><img src="03-Goal.png" alt="Labyrint med ytterväggar"></p>
 <p>Det är fyra ytterväggar att rita. Kan du dela upp jobbet i mindre delar?</p>
@@ -69,35 +70,40 @@
 <img src="03-Walls-complete.png" alt="Förslag på Rita ytterväggar">
 <img src="03-Wall-complete.png" alt="Förslag på Rita vägg"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
-<h2 id="-nskan-4-det-finns-minst-en-v-g-mellan-olika-h-rn">Önskan 4. Det finns minst en väg mellan olika hörn</h2>
+<h2 id="-nskan-4-det-finns-innerv-ggar-och-man-kan-g-mellan-labyrintens-h-rn">Önskan 4. Det finns innerväggar och man kan gå mellan labyrintens hörn</h2>
 <p>Här är vi nu om vi svarar <code>BREDD</code> 6 och <code>HÖJD</code> 4:</p>
 <p><img src="04-start.png" alt="Labyrint med ytterväggar"></p>
 <p>Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.</p>
-<p>Kan de här två reglerna funka?</p>
+<p>Kan de här två reglerna fungera?</p>
 <ul>
 <li>Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.</li>
 <li>Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.</li>
 </ul>
-<p>Regel 1 gör att vi alltid kan komma igenom på ett ställe. </p>
-<p>Regel 2 gör att vi bryter ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.</p>
-<p>Enklast möjliga lösning kan se ut något i den här stilen. Just nu delar vi väggen horisontellt och sätter hålet på ett slumpmässigt ställe.</p>
-<p><img src="04-split-1.png" alt="Steg 1"> 
-<img src="04-split-2.png" alt="Steg 2"> 
-<img src="04-split-3.png" alt="Steg 3"> 
-<img src="04-split-4.png" alt="Steg 4"></p>
+<p>Regel 1 gör att vi alltid kan komma igenom på ett ställe i labyrinten. </p>
+<p>Regel 1 och 2 tillsammans hjälper oss att bryta ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.</p>
+<p>Så här kan det se ut. Siffrorna 1 och 2 visar var vi använder regel 1 och 2:</p>
+<p><img src="04-split-1.png" alt="Steg 1"> </p>
+<p>Vi ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.</p>
+<p>Nu upprepar vi två gånger och får något i den här stilen:</p>
+<p><img src="04-split-2.png" alt="Steg 2"> 
+<img src="04-split-3.png" alt="Steg 3"> </p>
 <p>Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
-<p>De här blocken kan komma till användning:</p>
-<p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi ska rita innerväggar i. Kanske en listvariabel kan hjälpa till?</p>
+<p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi jobbar med. Kanske en listvariabel kan hjälpa till? De här blocken kan vara bra att känna till:</p>
+<p><img src="04-useful-blocks.png" alt="Användbara block"> </p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
-<p>Här är blocken som jag har lagt till eller ändrat. Resten är som innan.</p>
-<p>Variabeln <code>ritlista</code> håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: B, H för nedre vänstra hörnet, B1, H1 för övre högre hörnet i rektangeln.</p>
-<p><img src="04-green-flag.png" alt="Koden för grön flagga">
-<img src="04-wall-list.png" alt="Vägglista">
-<img src="04-interior-walls.png" alt="Rita innerväggar">
-<img src="04-wall-hole.png" alt="Rita vägg med hål"></p>
+<p>Variabeln <code>ritlista</code> håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: <code>b</code>, <code>h</code> för nedre vänstra hörnet, <code>b1</code>, <code>h1</code> för övre högre hörnet i rektangeln.</p>
+<p><img src="04-b1.png" alt="Kod 1">
+<img src="04-b2.png" alt="Kod 2">
+<img src="04-b3.png" alt="Kod 3">
+<img src="04-b4.png" alt="Kod 4">
+<img src="04-b5.png" alt="Kod 5"></p>
 <h2 id="-nskan-5-v-ggarna-delar-sig-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-4">Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4</h2>
 <h3 id="ledtr-dar">Ledtrådar</h3>
-<p>De här blocken kan komma till användning:</p>
+<ul>
+<li>De här blocken kan komma till användning: &hellip;</li>
+<li>Ändra i funktionen <em>Rita vägg med hål</em> så att den ibland delar vertikalt istället för bara horisontellt</li>
+<li>Bild som illustrerar</li>
+</ul>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 </body></html>
