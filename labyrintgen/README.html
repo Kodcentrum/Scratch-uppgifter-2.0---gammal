@@ -37,7 +37,7 @@
 <li>Det kan vara bra att dela upp koden i flera block. Tänk på att du kan skapa egna block. Ett användbart block kan vara</li>
 </ul>
 <p><img src="02-custom-block.png" alt="Rita hörn(B, H)"></p>
-<p>där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, H) = (0, 0) och övre högra hörnet (B, H) = (<code>BREDD</code>, <code>HÖJD</code>).</p>
+<p>där <code>B</code> är bredden och <code>H</code> höjden. Det nedre vänstra hörnet kan t.ex. vara <code>(B, H) (0, 0)</code> och övre högra hörnet <code>(B, H) = (BREDD, HÖJD)</code>.</p>
 <ul>
 <li><p>Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.</p>
 </li>
@@ -71,22 +71,47 @@
 <img src="03-Wall-complete.png" alt="Förslag på Rita vägg"></p>
 <h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
 <h2 id="-nskan-4-det-finns-innerv-ggar-och-man-kan-g-mellan-labyrintens-h-rn">Önskan 4. Det finns innerväggar och man kan gå mellan labyrintens hörn</h2>
-<p>Här är vi nu om vi svarar <code>BREDD</code> 6 och <code>HÖJD</code> 4:</p>
+<p>Just nu får vi den här rektangeln om vi svarar <code>BREDD</code> 6 och <code>HÖJD</code> 4:</p>
 <p><img src="04-start.png" alt="Labyrint med ytterväggar"></p>
-<p>Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.</p>
-<p>Kan de här två reglerna fungera?</p>
+<p>Utan innerväggar är det ingen labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.</p>
+<p>Kan de här reglerna fungera?</p>
 <ul>
-<li>Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.</li>
-<li>Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.</li>
+<li>Regel 1. En rektangel som är minst 2 bred eller hög kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.</li>
+<li>Regel 2. En rektangel som har bredd eller längd 1 kan inte delas i mindre bitar. Den duger som den är.</li>
 </ul>
-<p>Regel 1 gör att vi alltid kan komma igenom på ett ställe i labyrinten. </p>
-<p>Regel 1 och 2 tillsammans hjälper oss att bryta ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.</p>
-<p>Så här kan det se ut. Siffrorna 1 och 2 visar var vi använder regel 1 och 2:</p>
-<p><img src="04-split-1.png" alt="Steg 1"> </p>
-<p>Vi ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.</p>
-<p>Nu upprepar vi två gånger och får något i den här stilen:</p>
-<p><img src="04-split-2.png" alt="Steg 2"> 
-<img src="04-split-3.png" alt="Steg 3"> </p>
+<p>Vi behöver ett sätt att komma ihåg vilka rektanglar vi jobbar med.</p>
+<ul>
+<li>Vi kallar kom ihåg-listan för <code>ritlista</code>. Du ser den till höger i bilden.</li>
+<li>I <code>ritlista</code> sparar vi hörnen i rektanglarna som vi har kvar att fixa</li>
+<li>Till en början är det hela labyrinten med koordinaterna (0,0) och (6,4) för hörnen</li>
+<li>Koordinaterna (0,0) är nedre vänstra hörnet</li>
+<li>Koordinaterna (6,4) är övre högre hörnet</li>
+</ul>
+<p><img src="04-ritlista-01.png" alt="Steg 1"> </p>
+<h3 id="vi-delar-p-h-jden-och-f-r-tv-mindre-rektanglar">Vi delar på höjden och får två mindre rektanglar</h3>
+<ul>
+<li>I vår kod tar vi nu och delar rektangeln på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.</li>
+<li>Väggen som delar den stora rektangeln ska alltså ha y = 2.</li>
+<li>Var hålet i vägggen ska vara slumpar vi fram med blocket <em>slumptal a till b</em></li>
+<li>Vi ritar väggen och lämnar hålet som är en ruta brett. </li>
+<li>Vi tar bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna</li>
+<li>Den undre, grönmarkerade rektangeln har hörnen (0,0) och (6,2)</li>
+<li>Den övre, gulmarkerade rektangeln har hörnen (0,2) till (6,4)</li>
+</ul>
+<p>Så här ser det ut nu:</p>
+<p><img src="04-ritlista-02.png" alt="Steg 1"> </p>
+<h3 id="vi-delar-igen-och-f-r-fler-rektanglar">Vi delar igen och får fler rektanglar</h3>
+<p><img src="04-ritlista-03.png" alt="Steg 1"> </p>
+<p><img src="04-ritlista-04.png" alt="Steg 1"> </p>
+<p><img src="04-ritlista-05.png" alt="Steg 1"> </p>
+<p><img src="04-ritlista-06.png" alt="Steg 1"> </p>
+<p>Vad hände? Vi utgick från hela rektangeln, använde regel 1 och ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.</p>
+<p>Hur håller vi reda på de nya mindre rektanglarna som blev? Vi behöver ha en kom ihåg-lista. En listvariabel är en bra kompis i det här läget.</p>
+<ul>
+<li>Vi kallar kom ihåg-listan för <code>ritlista</code></li>
+<li>Kom ihåg den undre rektangeln genom att spara koordinaterna för nedre vänstra och övre högra hörnet. Det blir sammanlagt fyra värden att stoppa in i listan. Så här ser det ut: BILD</li>
+<li>Kom ihåg den övre rektangeln på samma sätt genom att stoppa in koordinaterna för den. Så här hela listan ut nu: BILD</li>
+</ul>
 <p>Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.</p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
 <p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi jobbar med. Kanske en listvariabel kan hjälpa till? De här blocken kan vara bra att känna till:</p>

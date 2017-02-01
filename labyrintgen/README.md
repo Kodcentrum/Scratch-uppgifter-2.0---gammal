@@ -57,7 +57,7 @@ Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bred
 
 ![Rita hörn(B, H)](02-custom-block.png)
 
-där B är bredden och H höjden. Det nedre vänstra hörnet kan t.ex. vara (B, H) = (0, 0) och övre högra hörnet (B, H) = (`BREDD`, `HÖJD`).
+där `B` är bredden och `H` höjden. Det nedre vänstra hörnet kan t.ex. vara `(B, H) (0, 0)` och övre högra hörnet `(B, H) = (BREDD, HÖJD)`.
 
 * Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.
 
@@ -103,30 +103,56 @@ Här ser du de block som jag har lagt till eller ändrat. Resten är som innan.
 ### Förbättringsidéer
 
 ## Önskan 4. Det finns innerväggar och man kan gå mellan labyrintens hörn
-Här är vi nu om vi svarar `BREDD` 6 och `HÖJD` 4:
+Just nu får vi den här rektangeln om vi svarar `BREDD` 6 och `HÖJD` 4:
 
 ![Labyrint med ytterväggar](04-start.png)
 
-Det behövs innerväggar för att det ska bli en intressant labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.
+Utan innerväggar är det ingen labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.
 
-Kan de här två reglerna fungera?
-* Regel 1. En rektangel kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.
-* Regel 2. Vi kör regel 1 på de två mindre rektanglarna tills vi får så små rektanglar att de har bredd eller längd 1, alltså formen av en korridor.
+Kan de här reglerna fungera?
+* Regel 1. En rektangel som är minst 2 bred eller hög kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.
+* Regel 2. En rektangel som har bredd eller längd 1 kan inte delas i mindre bitar. Den duger som den är.
 
-Regel 1 gör att vi alltid kan komma igenom på ett ställe i labyrinten. 
+Vi behöver ett sätt att komma ihåg vilka rektanglar vi jobbar med.
+* Vi kallar kom ihåg-listan för `ritlista`. Du ser den till höger i bilden.
+* I `ritlista` sparar vi hörnen i rektanglarna som vi har kvar att fixa
+* Till en början är det hela labyrinten med koordinaterna (0,0) och (6,4) för hörnen
+* Koordinaterna (0,0) är nedre vänstra hörnet
+* Koordinaterna (6,4) är övre högre hörnet
 
-Regel 1 och 2 tillsammans hjälper oss att bryta ner problemet i flera mindre bitar. När bitarna är tillräckligt små är vi färdiga.
+![Steg 1](04-ritlista-01.png) 
 
-Så här kan det se ut. Siffrorna 1 och 2 visar var vi använder regel 1 och 2:
+### Vi delar på höjden och får två mindre rektanglar
 
-![Steg 1](04-split-1.png) 
+* I vår kod tar vi nu och delar rektangeln på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.
+* Väggen som delar den stora rektangeln ska alltså ha y = 2.
+* Var hålet i vägggen ska vara slumpar vi fram med blocket *slumptal a till b*
+* Vi ritar väggen och lämnar hålet som är en ruta brett. 
+* Vi tar bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna
+* Den undre, grönmarkerade rektangeln har hörnen (0,0) och (6,2)
+* Den övre, gulmarkerade rektangeln har hörnen (0,2) till (6,4)
 
-Vi ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.
+Så här ser det ut nu:
 
-Nu upprepar vi två gånger och får något i den här stilen:
+![Steg 1](04-ritlista-02.png) 
 
-![Steg 2](04-split-2.png) 
-![Steg 3](04-split-3.png) 
+### Vi delar igen och får fler rektanglar
+
+![Steg 1](04-ritlista-03.png) 
+
+![Steg 1](04-ritlista-04.png) 
+
+![Steg 1](04-ritlista-05.png) 
+
+![Steg 1](04-ritlista-06.png) 
+
+
+Vad hände? Vi utgick från hela rektangeln, använde regel 1 och ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.
+
+Hur håller vi reda på de nya mindre rektanglarna som blev? Vi behöver ha en kom ihåg-lista. En listvariabel är en bra kompis i det här läget.
+* Vi kallar kom ihåg-listan för `ritlista`
+* Kom ihåg den undre rektangeln genom att spara koordinaterna för nedre vänstra och övre högra hörnet. Det blir sammanlagt fyra värden att stoppa in i listan. Så här ser det ut: BILD
+* Kom ihåg den övre rektangeln på samma sätt genom att stoppa in koordinaterna för den. Så här hela listan ut nu: BILD
 
 Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.
 
