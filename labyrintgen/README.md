@@ -124,40 +124,48 @@ Vi behöver ett sätt att komma ihåg vilka rektanglar vi jobbar med.
 
 ### Vi delar på höjden och får två mindre rektanglar
 
-* I vår kod tar vi nu och delar rektangeln på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.
+* I vår kod tar vi nu och delar rektangeln mitt på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.
 * Väggen som delar den stora rektangeln ska alltså ha y = 2.
 * Var hålet i vägggen ska vara slumpar vi fram med blocket *slumptal a till b*
 * Vi ritar väggen och lämnar hålet som är en ruta brett. 
-* Vi tar bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna
+* Nu är vi klara med den stora rektangeln. Därför tar vi bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna som vi strax ska rita väggar i
 * Den undre, grönmarkerade rektangeln har hörnen (0,0) och (6,2)
 * Den övre, gulmarkerade rektangeln har hörnen (0,2) till (6,4)
 
-Så här ser det ut nu:
+Så här ser det ut när vi är klara:
 
 ![Steg 1](04-ritlista-02.png) 
 
 ### Vi delar igen och får fler rektanglar
 
+* Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De är grönmarkerade ovan
+* Vi gör på samma sätt som vi gjorde för den stora rektangeln
+* Du ser ändringarna i grönt och gult i bilden
+* Rektangeln (0, 0) till (6,2) försvann ur ritlistan
+* Den byttes ut mot de två mindre gröna och gula rektanglarna
+
 ![Steg 1](04-ritlista-03.png) 
+
+### En delning till
+* Vi gör likadant som ovan. Det nya är markerat med grönt och gult
 
 ![Steg 1](04-ritlista-04.png) 
 
+### Bara små rektanglar kvar
+* Första rektangeln i ritlistan är (0,0) till (6, 1)
+* Den rektangeln är för liten för att delas. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar
+
 ![Steg 1](04-ritlista-05.png) 
+
+### Inga rektanglar kvar
+
+Vi går igenom ritlistan och till slut är ritlistan tom och vi är färdiga:
 
 ![Steg 1](04-ritlista-06.png) 
 
-
-Vad hände? Vi utgick från hela rektangeln, använde regel 1 och ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.
-
-Hur håller vi reda på de nya mindre rektanglarna som blev? Vi behöver ha en kom ihåg-lista. En listvariabel är en bra kompis i det här läget.
-* Vi kallar kom ihåg-listan för `ritlista`
-* Kom ihåg den undre rektangeln genom att spara koordinaterna för nedre vänstra och övre högra hörnet. Det blir sammanlagt fyra värden att stoppa in i listan. Så här ser det ut: BILD
-* Kom ihåg den övre rektangeln på samma sätt genom att stoppa in koordinaterna för den. Så här hela listan ut nu: BILD
-
-Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.
-
 ### Ledtrådar
-Vi behöver ett sätt att hålla reda på vilka rektanglar vi jobbar med. Kanske en listvariabel kan hjälpa till? De här blocken kan vara bra att känna till:
+
+De här blocken kan vara bra att känna till:
 
 ![Användbara block](04-useful-blocks.png) 
 

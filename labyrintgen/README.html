@@ -90,31 +90,41 @@
 <p><img src="04-ritlista-01.png" alt="Steg 1"> </p>
 <h3 id="vi-delar-p-h-jden-och-f-r-tv-mindre-rektanglar">Vi delar på höjden och får två mindre rektanglar</h3>
 <ul>
-<li>I vår kod tar vi nu och delar rektangeln på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.</li>
+<li>I vår kod tar vi nu och delar rektangeln mitt på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.</li>
 <li>Väggen som delar den stora rektangeln ska alltså ha y = 2.</li>
 <li>Var hålet i vägggen ska vara slumpar vi fram med blocket <em>slumptal a till b</em></li>
 <li>Vi ritar väggen och lämnar hålet som är en ruta brett. </li>
-<li>Vi tar bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna</li>
+<li>Nu är vi klara med den stora rektangeln. Därför tar vi bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna som vi strax ska rita väggar i</li>
 <li>Den undre, grönmarkerade rektangeln har hörnen (0,0) och (6,2)</li>
 <li>Den övre, gulmarkerade rektangeln har hörnen (0,2) till (6,4)</li>
 </ul>
-<p>Så här ser det ut nu:</p>
+<p>Så här ser det ut när vi är klara:</p>
 <p><img src="04-ritlista-02.png" alt="Steg 1"> </p>
 <h3 id="vi-delar-igen-och-f-r-fler-rektanglar">Vi delar igen och får fler rektanglar</h3>
-<p><img src="04-ritlista-03.png" alt="Steg 1"> </p>
-<p><img src="04-ritlista-04.png" alt="Steg 1"> </p>
-<p><img src="04-ritlista-05.png" alt="Steg 1"> </p>
-<p><img src="04-ritlista-06.png" alt="Steg 1"> </p>
-<p>Vad hände? Vi utgick från hela rektangeln, använde regel 1 och ritade en horisontell vägg med ett hål på ett slumpmässigt ställe.</p>
-<p>Hur håller vi reda på de nya mindre rektanglarna som blev? Vi behöver ha en kom ihåg-lista. En listvariabel är en bra kompis i det här läget.</p>
 <ul>
-<li>Vi kallar kom ihåg-listan för <code>ritlista</code></li>
-<li>Kom ihåg den undre rektangeln genom att spara koordinaterna för nedre vänstra och övre högra hörnet. Det blir sammanlagt fyra värden att stoppa in i listan. Så här ser det ut: BILD</li>
-<li>Kom ihåg den övre rektangeln på samma sätt genom att stoppa in koordinaterna för den. Så här hela listan ut nu: BILD</li>
+<li>Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De är grönmarkerade ovan</li>
+<li>Vi gör på samma sätt som vi gjorde för den stora rektangeln</li>
+<li>Du ser ändringarna i grönt och gult i bilden</li>
+<li>Rektangeln (0, 0) till (6,2) försvann ur ritlistan</li>
+<li>Den byttes ut mot de två mindre gröna och gula rektanglarna</li>
 </ul>
-<p>Våra två regler verkar fungera och i nästa steg ska vi förbättra labyrinten.</p>
+<p><img src="04-ritlista-03.png" alt="Steg 1"> </p>
+<h3 id="en-delning-till">En delning till</h3>
+<ul>
+<li>Vi gör likadant som ovan. Det nya är markerat med grönt och gult</li>
+</ul>
+<p><img src="04-ritlista-04.png" alt="Steg 1"> </p>
+<h3 id="bara-sm-rektanglar-kvar">Bara små rektanglar kvar</h3>
+<ul>
+<li>Första rektangeln i ritlistan är (0,0) till (6, 1)</li>
+<li>Den rektangeln är för liten för att delas. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar</li>
+</ul>
+<p><img src="04-ritlista-05.png" alt="Steg 1"> </p>
+<h3 id="inga-rektanglar-kvar">Inga rektanglar kvar</h3>
+<p>Vi går igenom ritlistan och till slut är ritlistan tom och vi är färdiga:</p>
+<p><img src="04-ritlista-06.png" alt="Steg 1"> </p>
 <h3 id="ledtr-dar">Ledtrådar</h3>
-<p>Vi behöver ett sätt att hålla reda på vilka rektanglar vi jobbar med. Kanske en listvariabel kan hjälpa till? De här blocken kan vara bra att känna till:</p>
+<p>De här blocken kan vara bra att känna till:</p>
 <p><img src="04-useful-blocks.png" alt="Användbara block"> </p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
 <p>Variabeln <code>ritlista</code> håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: <code>b</code>, <code>h</code> för nedre vänstra hörnet, <code>b1</code>, <code>h1</code> för övre högre hörnet i rektangeln.</p>
