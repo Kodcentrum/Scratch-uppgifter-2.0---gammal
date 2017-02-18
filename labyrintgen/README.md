@@ -11,7 +11,7 @@ Så här kan det se ut när vi är klara:
 
 ![Målbild för labyrinten](00-maze-goal.png)
 
-Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske kan hjälpa.
+Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske hjälper.
 
 ## Önskan 1. Det går att välja bredd och höjd på labyrinten
 
@@ -138,7 +138,7 @@ Så här ser det ut när vi är klara:
 
 ### Vi delar igen och får fler rektanglar
 
-* Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De är grönmarkerade ovan
+* Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De var grönmarkerade ovan
 * Vi gör på samma sätt som vi gjorde för den stora rektangeln
 * Du ser ändringarna i grönt och gult i bilden
 * Rektangeln (0, 0) till (6,2) försvann ur ritlistan
@@ -153,7 +153,7 @@ Så här ser det ut när vi är klara:
 
 ### Bara små rektanglar kvar
 * Första rektangeln i ritlistan är (0,0) till (6, 1)
-* Den rektangeln är för liten för att delas. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar
+* Den rektangeln har höjden 1 och kan därför inte delas på höjden. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar
 
 ![Steg 1](04-ritlista-05.png) 
 
@@ -181,10 +181,11 @@ Variabeln `ritlista` håller reda på alla rektanglar där vi ska rita innerväg
 
 ## Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4
 
-### Ledtrådar
-* De här blocken kan komma till användning: &hellip;
-* Ändra i funktionen *Rita vägg med hål* så att den ibland delar vertikalt istället för bara horisontellt
-* Bild som illustrerar
+Det enda som behövs är att ändra
+i funktionen *Rita vägg med hål* så att den ibland delar vertikalt istället för bara horisontellt.
 
 ### Lösningsförslag
 
+Så här blev min version:
+
+![Nya Rita vägg med hål](05-final.png)

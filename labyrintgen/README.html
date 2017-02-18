@@ -7,7 +7,7 @@
 <p>En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.</p>
 <p>Så här kan det se ut när vi är klara:</p>
 <p><img src="00-maze-goal.png" alt="Målbild för labyrinten"></p>
-<p>Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske kan hjälpa.</p>
+<p>Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske hjälper.</p>
 <h2 id="-nskan-1-det-g-r-att-v-lja-bredd-och-h-jd-p-labyrinten">Önskan 1. Det går att välja bredd och höjd på labyrinten</h2>
 <p>Den här önskan kan vi uppfylla genom att katten frågar om bredd och höjd. Vi sparar svaren i variablerna <code>BREDD</code> och <code>HÖJD</code>.</p>
 <p>Pröva nu att göra en lösning på egen hand innan du går vidare.</p>
@@ -102,7 +102,7 @@
 <p><img src="04-ritlista-02.png" alt="Steg 1"> </p>
 <h3 id="vi-delar-igen-och-f-r-fler-rektanglar">Vi delar igen och får fler rektanglar</h3>
 <ul>
-<li>Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De är grönmarkerade ovan</li>
+<li>Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De var grönmarkerade ovan</li>
 <li>Vi gör på samma sätt som vi gjorde för den stora rektangeln</li>
 <li>Du ser ändringarna i grönt och gult i bilden</li>
 <li>Rektangeln (0, 0) till (6,2) försvann ur ritlistan</li>
@@ -117,7 +117,7 @@
 <h3 id="bara-sm-rektanglar-kvar">Bara små rektanglar kvar</h3>
 <ul>
 <li>Första rektangeln i ritlistan är (0,0) till (6, 1)</li>
-<li>Den rektangeln är för liten för att delas. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar</li>
+<li>Den rektangeln har höjden 1 och kan därför inte delas på höjden. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar</li>
 </ul>
 <p><img src="04-ritlista-05.png" alt="Steg 1"> </p>
 <h3 id="inga-rektanglar-kvar">Inga rektanglar kvar</h3>
@@ -134,11 +134,9 @@
 <img src="04-b4.png" alt="Kod 4">
 <img src="04-b5.png" alt="Kod 5"></p>
 <h2 id="-nskan-5-v-ggarna-delar-sig-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-4">Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4</h2>
-<h3 id="ledtr-dar">Ledtrådar</h3>
-<ul>
-<li>De här blocken kan komma till användning: &hellip;</li>
-<li>Ändra i funktionen <em>Rita vägg med hål</em> så att den ibland delar vertikalt istället för bara horisontellt</li>
-<li>Bild som illustrerar</li>
-</ul>
+<p>Det enda som behövs är att ändra
+i funktionen <em>Rita vägg med hål</em> så att den ibland delar vertikalt istället för bara horisontellt.</p>
 <h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p>Så här blev min version:</p>
+<p><img src="05-final.png" alt="Nya Rita vägg med hål"></p>
 </body></html>
