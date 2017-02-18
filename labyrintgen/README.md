@@ -1,17 +1,17 @@
 # Labyrintgenerator
 *(Bidrag till kodboken.se)*
 
-Vårt uppdrag är att skriva en labyrintgenerator i Scratch. Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.
-
-Det ska gå att ta sig mellan labyrintens fyra hörn. Labyrinten ska se olika ut från gång till gång.
-
-En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.
+Vårt uppdrag är att skriva en labyrintgenerator i Scratch. 
+* Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.
+* Det ska gå att ta sig mellan labyrintens fyra hörn. 
+* Labyrinten ska se olika ut från gång till gång.
+* En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.
 
 Så här kan det se ut när vi är klara:
 
 ![Målbild för labyrinten](00-maze-goal.png)
 
-Låter det krångligt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske hjälper.
+Verkar det svårt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske hjälper.
 
 ## Önskan 1. Det går att välja bredd och höjd på labyrinten
 
@@ -189,3 +189,7 @@ i funktionen *Rita vägg med hål* så att den ibland delar vertikalt istället 
 Så här blev min version:
 
 ![Nya Rita vägg med hål](05-final.png)
+
+[Här hittar du projektet på Scratch](https://scratch.mit.edu/studios/3568525/)
+
+[Fler algoritmer för att skapa labyrinter finns här](https://github.com/theJollySin/mazelib/blob/master/docs/MAZE_GEN_ALGOS.md)
