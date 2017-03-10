@@ -121,8 +121,9 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 
 1. Gå till fliken KLÄDSLAR
 
-2. Tryck på kopierings-knappen (högt uppe i mitten) och sedan på klädseln. Nu ska du ha två likadana klädslar.
+2. Högerklicka på klädseln. Du ska då få fram en meny där du kan klicka på KOPIERA. Nu ska du ha två likadana klädslar.
   ![image alt text](image_15.png)
+  ![image alt text](image_15b.png)
 
 3. Använd linjeverktyget och en blå färg och rita  till lite regndroppar.
 
@@ -218,7 +219,7 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 Du ska få göra det lite roligare genom att lägga till ett ljud till animationen.
 
-1.	Klicka på fiken LJUD och därefter på knappen för **NYTT LJUD**: ![image alt text](image_26.png)
+1.	Klicka på fliken LJUD och därefter på knappen för **NYTT LJUD**: ![image alt text](image_26.png)
 
 2.	Välj ljudet **”screech”** genom att klicka på det så att det blir markerad och sedan på knappen OK.
 
