@@ -37,7 +37,7 @@ Först behöver du lägga in en bakgrund.
 **Tips:** Sprajten Giga har flera utseenden, som du ser om du trycker på fliken för KLÄDSLAR. Vi kommer att använda tre klädslar: en där Giga ler, en där Giga skrattar och en där Giga är arg. Om du har valt en annan sprajt, se till så att det är en **sprajt med olika klädslar** för de utseenden som du behöver!
 
 
-## Delmoment 3: Knappar som ändrar humör
+## Delmoment 2: Knappar som ändrar humör
 Nu ska vi lägga in skript så att Giga ändrar humör när man klickar på två knappar. Giga ska kunna bli antingen glad eller arg. Vi behöver lägga in två knappar som gör så att d kan styra Gigas humör. I vårt exempel är knapparna två sprajter som ser ut som hjärtan med ansikten.
 
 6.	Tryck på knappen för NY SPRAJT. Välj sprajten som heter **Heart Face**. Klicka OK. 
@@ -89,7 +89,7 @@ Hur ska Giga veta om att den ska bli glad eller arg? Genom att få ett meddeland
 > Testa ditt projekt! Klicka på START. Ändras variabeln när du klickar på knapparna? Du måste ha variabeln synlig på scenen för att kunna se det.
 
 
-## Delmoment 4: Giga ändrar humör
+## Delmoment 3: Giga ändrar humör
 Nu ska Gigas humör ändras beroende på vilken knapp du trycker på. Giga ska ta emot meddelanden från knapparna och behöver hela tiden KÄNNA AV om den är glad eller arg, om variabeln är 1 eller 0. Till det använder vi en LOOP.
 
  
@@ -109,7 +109,7 @@ Nu ska Gigas humör ändras beroende på vilken knapp du trycker på. Giga ska t
 
   ![image alt text](image_18.png) 
 
-## Delmoment 5: Glasögon som spelar musik
+## Delmoment 4: Glasögon som spelar musik
 Nu ska Giga få ett par musikspelande glasögon som känner av om Giga är glad eller arg. Du kan tänka att glasögonen har en sensor som kan läsa av känslor, kanske genom Gigas hjärnvågor? Beroende på humöret spelar glasögonen olika musik!
 
 18.	Lägg in en ny sprajt. Tryck på knappen för NY SPRAJT. Välj sprajten som heter **Glasses**. Klicka OK. 
@@ -154,7 +154,7 @@ Nu ska Giga få ett par musikspelande glasögon som känner av om Giga är glad 
 
 > Testa ditt projekt! Klicka på START. Spelas ljudet om och om igen nu? Bra! I nästa steg ska vi se till att du kan stoppa och starta musiken. 
 
-## Delmoment 6: Styr musiken med glasögonen
+## Delmoment 5: Styr musiken med glasögonen
 I detta delmoment lägger vi in skript så att du kan spela och stoppa musiken genom att klicka på dem. Glasögonen ska ändra färg beroende på om spela eller stopp är klickad på, så att du kan se om musikspelaren är igång!
 
 32.	Klicka på fliken KLÄDSEL. Kopiera glasögonens klädsel genom att klicka på **stämpel** i den grå bannern och sedan på glasögonen. 
@@ -203,7 +203,7 @@ Såhär ska alla skript för glasögonen se ut:
 > Testa ditt projekt! Klicka på START. Kan du starta och stoppa musiken genom att trycka på glasögonen? Ändrar de färg så att de är gröna när musiken är på och röda när musiken är av? 
 
 
-## Delmoment 7: Giga förklarar hur du gör
+## Delmoment 6: Giga förklarar hur du gör
 I det sista delmomentet lägger vi in skript för att Giga ska hälsa när du trycker på START-flaggan och förklara hur glasögonen funderar. Giga ska också ha ett INIT-SKRIPT som säger att hon varken ska skratta eller se arg ut när programmet börjar.
 
 40.	Lägg in skript: HÄNDELSER: **när flagga klickas på**. Här lägger du till UTSEENDE: **byt klädsel till giga-a**. 
