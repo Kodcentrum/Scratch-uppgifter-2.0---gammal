@@ -18,7 +18,7 @@ Först behöver du lägga in en bakgrund.
  
 1.	För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten. 
 
-2.	Tryck sedan på knappen för **ladda upp bakgrund från fil**. 
+2.	Tryck sedan på knappen för **välj bakgrund från biblioteket**. 
 
   ![image alt text](image_1.png)
 
