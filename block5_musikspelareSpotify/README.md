@@ -4,6 +4,16 @@ För denna uppgift kommer du använda ScratchX som du kan använda för interage
 
 http://scratchx.org/?url=https://chrisse23.github.io/spotifyExtension/musicPlayer.sbx
 
+Om du inte kommer in på sidan, prova med att trycka på "Open Extension URL". 
+
+![image alt text](image_10.png)
+
+Klistra in https://chrisse23.github.io/spotifyExtension/musicPlayer.sbx.
+
+![image alt text](image_11.png)
+
+Klicka på open. Sedan klicka där det står "Klicka här för att aktivera Adobe Flash Player" och sedan tillåt i dialogen.
+
 ## Delmoment 1: Titta på startblocken
 
 1. I detta projekt får du redan några utplacerade startblock.
@@ -78,7 +88,7 @@ Nu visar vi på skärmen vilken artist och låt som kommer att spelas. Ditt bloc
 
         1. **Sätt variabel [Låt] till** blocket **hämta från variabel [svar] på variabel [position] låten**.
 
-        2. Under kategorien **FLER BLOCK **välj blocket **Spela låt från url variabel [låt]**. 
+        2. Under kategorien **FLER BLOCK** välj blocket **Spela låt från url variabel [låt]**. 
 
         3. **Byt klädsel till pausa-knapp**.
 
@@ -88,7 +98,7 @@ Nu visar vi på skärmen vilken artist och låt som kommer att spelas. Ditt bloc
 
         6. För alltid:
 
-            1. Under kategorien **FLER BLOCK **välj blocket **Om låten har slutat spela** är lika med sant (men skriv true) så **byt klädsel till spela-knapp**,
+            1. Under kategorien **FLER BLOCK** välj blocket **Om låten har slutat spela** är lika med sant (men skriv true) så **byt klädsel till spela-knapp**,
 
     2. Annars så:
 
@@ -182,7 +192,7 @@ Nu borde ditt skript se ut ungefär som på bilden nedan.
 
 Nu när du har gjort klart din musikspelare kanske du vill utveckla den lite mer, nedan finns två förslag på extra funktioner att ha med i din musikspelare.
 
-Under blocket **DATA **går det också att skapa en lista, skulle du kunna använda det för att låta användaren köa låtar som ska spela efteråt?
+Under blocket **DATA** går det också att skapa en lista, skulle du kunna använda det för att låta användaren köa låtar som ska spela efteråt?
 
-Om du tittar under kategorien **FLER BLOCK ** så finns det tre block som du inte använt. Dessa heter **Starta från x sekunder**, **Fade in** och **Fade out**. Det första blocket kan du använda för att starta på en plats i låten du väljer mellan 0-30 sekunder. **Fade in **kan användas för tona in låten och **Fade out **för att tona ut låten. Kan du använda dessa tre block för att kunna göra dj-spelare?
+Om du tittar under kategorien **FLER BLOCK** så finns det tre block som du inte använt. Dessa heter **Starta från x sekunder**, **Fade in** och **Fade out**. Det första blocket kan du använda för att starta på en plats i låten du väljer mellan 0-30 sekunder. **Fade in **kan användas för tona in låten och **Fade out **för att tona ut låten. Kan du använda dessa tre block för att kunna göra dj-spelare?
 
