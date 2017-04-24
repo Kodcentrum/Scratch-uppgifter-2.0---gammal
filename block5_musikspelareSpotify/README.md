@@ -102,7 +102,7 @@ Nu visar vi på skärmen vilken artist och låt som kommer att spelas. Ditt bloc
 
     2. Annars så:
 
-        7. Under katergorien** FLER BLOCK** välj blocket **Pausa låt**.
+        7. Under katergorien **FLER BLOCK** välj blocket **Pausa låt**.
 
         8. **Byt klädsel till spela-knapp**.
 
@@ -194,5 +194,5 @@ Nu när du har gjort klart din musikspelare kanske du vill utveckla den lite mer
 
 Under blocket **DATA** går det också att skapa en lista, skulle du kunna använda det för att låta användaren köa låtar som ska spela efteråt?
 
-Om du tittar under kategorien **FLER BLOCK** så finns det tre block som du inte använt. Dessa heter **Starta från x sekunder**, **Fade in** och **Fade out**. Det första blocket kan du använda för att starta på en plats i låten du väljer mellan 0-30 sekunder. **Fade in **kan användas för tona in låten och **Fade out **för att tona ut låten. Kan du använda dessa tre block för att kunna göra dj-spelare?
+Om du tittar under kategorien **FLER BLOCK** så finns det tre block som du inte använt. Dessa heter **Starta från x sekunder**, **Fade in** och **Fade out**. Det första blocket kan du använda för att starta på en plats i låten du väljer mellan 0-30 sekunder. **Fade in** kan användas för tona in låten och **Fade out** för att tona ut låten. Kan du använda dessa tre block för att kunna göra dj-spelare?
 
