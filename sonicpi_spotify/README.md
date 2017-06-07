@@ -131,7 +131,7 @@ Men det kräver att du kan läsa noter, om inte rekommenderar vi alternativ 1 el
 ## Utmaning 2: Musik till "Framtidens musikspelare"
 Vill du göra din egen musik i Sonic Pi till Scratch-uppgiften <a href="http://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare" target="_blank"> **Framtidens musikspelare**</a>? Du behöver göra två olika låtar, till exempel en glad och en arg låt, eller så många som behövs för din musikspelare.
 
-Om du vill spara din musik i Sonic Pi, finns en <a href="https://www.kodboken.se/start/musik/uppgifter-i-sonic-pi/spara-musik-i-sonic-pi" target="_blank"> **instruktion för det här**</a>. 
+Om du vill spara din musik i Sonic Pi, finns en <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-sonic-pi/spara-musik-i-sonic-pi" target="_blank"> **instruktion för det här**</a>. 
 
 ## Tips på fler låtar!
 Här är exempel på andra låtar som vi har översatt till Sonic Pi, som du kan bygga vidare på. Följ koden på bilden och skriv in i ditt program. Testa då och då och försök lyssna om det låter rätt!
