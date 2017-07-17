@@ -1,7 +1,10 @@
 # Fotbollsspel
 
-Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål. 
-Ett exempel på det färdiga spelet finns på <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">här på Scratch</a>
+Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
+
+Ett exempel på det färdiga spelet finns här:
+
+ * <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">Exempel</a>
 
 ![image alt text](image_0.png)
 
@@ -67,7 +70,7 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
 
 > Testa ditt projekt! Klicka på START. Vad händer nu när du styr med piltangenterna? Vad händer när spelaren når scenkanten?
 
-  Tips: Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
+  **Tips:** Om spelaren försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** så att den stannar inuti scenen! Se om du kan hitta ett sådant kommando i **RÖRELSE**.
 
   ![image alt text](image_10.jpg)
 
@@ -78,7 +81,7 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
 
 Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! Du ska göra så att bollens sprajt **känner av** spelarens sprajt, och **då** få bollen att röra sig i samma riktning som spelaren men med en högre hastighet, så att det ser ut som att bollen skjuts iväg.  
 
-11. Gå till bollens SKRIPT. Välj en **"för alltid"**-LOOP från **KONTROLL** **och sätt under startpositionen i skriptet för **"när START (flaggan) klickas på"**.
+11. Gå till bollens SKRIPT. Välj en **"för alltid"**-LOOP från **KONTROLL** och sätt under startpositionen i skriptet för **"när START (flaggan) klickas på"**.
 
 12. Välj blocket **"om <> då"** som finns under **KONTROLL** och lägg inuti loopen. Från **KÄNNA AV** tar du blocket **Rör \_____?"** och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att **om** bollen **rör** sprajten **då** ska något hända.
 
@@ -90,7 +93,7 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
 
 > Testa ditt projekt! Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?
 
-  Tips: Om bollen försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter **"om <> då"**.
+  **Tips:** Om bollen försvinner ut från scenen behöver du säga åt den att **studsa vid kanten** på samma sätt som du gjorde med din fotbollsspelare. Lägg blocket inuti din LOOP men efter **"om <> då"**.
 
 > Testa ditt projekt igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
 
@@ -116,9 +119,11 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
 15. Börja med att säga till bollens sprajt att **om** den **rör färgen** för målet, **då** ska bollen göra något. Lägg kommandot i samma LOOP som den första **"om <> då"**-blocket. Färgen för målet får du om du klickar i rutan för **"rör färgen [ ]"** och sedan klickar på ditt mål på scenen.
 
-16. Nu ska du be bollen **skicka meddelande** när den rör färgen för målet. I **HÄNDELSER** hittar du **"skicka ___"**, ändra till nytt meddelande i rullistan och skriv in "Mål".
+16. Nu ska du be bollen **skicka meddelande** när den rör färgen för målet. I **HÄNDELSER** hittar du **"skicka ___ och vänta"**, ändra till nytt meddelande i rullistan och skriv in "Mål".
 
-  ![image alt text](image_13.jpg)
+    Det är viktigt att du använder blocket som _skickar meddelande_ OCH _väntar_, annars så kommer koden av fastna i loopen.
+
+  ![image alt text](image_13.png)
 
   _Så här borde bollens skript se ut nu._
 
@@ -130,7 +135,7 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
 > Testa ditt projekt! Klicka på START. Vad händer när du får spelaren att sparka bollen i mål? Ropar fotbollsspelaren "Mål!" när bollen är i mål?
 
-  Tips: Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!
+  **Tips:** Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!
 
 
 ## Delmoment 8: Starta om efter mål
@@ -153,7 +158,7 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   ![image alt text](image_16.jpg)
 
-  **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
+> **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
 
 
 ## Färdig!
@@ -176,7 +181,17 @@ Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på spr
 ### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.
 
-Tips: Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = "_blank">det här exemplet</a> på hur spelet kan se ut.
+**Tips:** Titta på <a href="http://www.scratch.mit.edu/projects/32369372" target = "_blank">det här exemplet</a> på hur spelet kan se ut.
 För att se koden bakom projektet trycker du på SE INUTI.
 
 ![image alt text](image_18.jpg)
+
+## Frågeställningar
+
+* Hur kan du göra så att en sprajt inte åker utanför spelplanen när du har flyttat på den?
+
+* Hur kan du göra så att en sprajt som pingvinen inte hamnar på huvudet när den byter riktning?
+
+* Vad är ett meddelande?
+
+* Vad kan du använda ett meddelande till?
