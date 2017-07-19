@@ -9,11 +9,12 @@ Klicka på  ![Se inuti](se-inuti.PNG) och sedan på ![Remix](remix.PNG)
 
 ## Uppgift
 
-![Labyrint](maze.PNG)
+![Labyrint](labyrint.PNG)
 
-Testa att köra igång programmet! Du kommer att se en liten robot som snurrar runt på stället.
+Testa att köra igång programmet! Du kommer att se en liten robot som bara åker rakt fram tills den kör in i väggen. Det är hjärnan, nere till höger,
+som säger till den vad den ska göra för varje steg.
 
-Roboten ska ta sig genom labyrinten fram till det gula målet.
+Du ska ändra i hjärnan, så att den hjälper roboten att ta sig genom labyrinten fram till det gula målet.
 
 _Du får bara ändra på sprajten "Hjärna"!_
 
@@ -47,6 +48,13 @@ Det kan vara svårt att förstå hur roboten "tänker". Då kan det vara bra att
 Om du klickar en gång på "Skicka 'stega'"-blocket så kommer roboten att följa ditt program ett enda steg. På så sätt är det lätt att undersöka vad roboten kommer göra, steg för steg.
 
 ![Stega](stega.png)
+
+Tankebubblan som hjärnan visar upp varje steg går att ändra på. Man kan använda den för att visa hur roboten tänker, till exempel. Eller kan man ta bort den helt, om den stör.
+
+![Tänker: "Framåt"](tankebubbla.png)
+
+![Tänk 'kommando' i 0.5 sekunder](tankeskript.png)
+
 
 ## Nästa nivå!
 
