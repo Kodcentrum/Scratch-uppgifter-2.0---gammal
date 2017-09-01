@@ -22,7 +22,7 @@ Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
 
 *Klicka på den markerade knappen*
 
-Klicka sedan på knappen **"Remix" **så att du får din egen version av projektet.
+Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
 
 ![image alt text](image_2.png)
 
@@ -42,11 +42,11 @@ Vi ska börja med att lägga till en penna i projektet.
 
 ![image alt text](image_4.png)
 
-1. Klicka på **"Välj sprajt från biblioteket" **
+1. Klicka på **"Välj sprajt från biblioteket"**
 
-2. Markera **Pennan **och klicka på **Ok**
+2. Markera **Pennan** och klicka på **Ok**
 
-Nu har vi en penna i spelet. I början av spelet vill vi att den ska vara placerad vid prick nummer 1. Skapa därför ett skript för **Pennan **som säger
+Nu har vi en penna i spelet. I början av spelet vill vi att den ska vara placerad vid prick nummer 1. Skapa därför ett skript för **Pennan** som säger
 
 1. När START klickas på
 
@@ -80,7 +80,7 @@ Det kommer den inte göra. Anledningen är att centrum för pennan är satt till
 
 ## Delmoment 3 – Rita
 
-Vi ska börja med att fortsätta på start-skriptet som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till…"**-blocket.
+Vi ska börja med att fortsätta på start-skriptet som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till..."**-blocket.
 
 1. Radera
 
@@ -96,7 +96,7 @@ Alla dessa kodblock hittar du under kategorin **Penna**. Koden ser till att den 
 
 För att gå vidare behöver vi en variabel som håller svaret till en fråga vi ska ställa den ska spela.
 
-1. Gå till kategorin **Data **och klicka på **"Skapa en variabel"**
+1. Gå till kategorin **Data** och klicka på **"Skapa en variabel"**
 
 2. Döp variabeln till **"temp"** (för temporär)
 
@@ -138,7 +138,7 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 
 ## Utmaning
 
-I stället för figuren som kom med projektet så kan du rita din egen. Klicka på **Rita ny bakgrund**. Använd sedan **penseln** och **textverktyget** för att skapa ett nytt mönster. Var kreativ! Glöm inte att ändra på **Pennans **startposition.
+I stället för figuren som kom med projektet så kan du rita din egen. Klicka på **Rita ny bakgrund**. Använd sedan **penseln** och **textverktyget** för att skapa ett nytt mönster. Var kreativ! Glöm inte att ändra på **Pennans** startposition.
 
 ## Frågeställningar
 
