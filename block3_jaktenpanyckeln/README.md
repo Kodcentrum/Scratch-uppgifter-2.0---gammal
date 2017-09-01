@@ -150,7 +150,7 @@ För att roboten ska starta på samma ställe varje gång så ska vi lägga in e
 
 Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
-1. Klicka på **"Välj sprajt från biblioteket"**
+1. Klicka på **"Välj sprajt från biblioteket"** ![image alt text](image_1617.png)
 
 2. Markera Nyckeln och klicka på **Ok**
 
@@ -160,7 +160,7 @@ Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
 ![image alt text](image_17.png)
 
-Skapa ett skript för nyckeln som säger
+Skapa ett skript för **nyckeln** som säger
 
 1. När START klickas på
 
@@ -296,7 +296,7 @@ Du kan lägga till hinder i vägen för den som spelar. Då blir det lite klurig
 
 1. Lägg till en sprajt, t.ex. en dinosaurie
 
-2. I "för alltid"-loopen för **Roboten** lägg in ett skript som säger
+2. I **"för alltid"**-loopen för **Roboten** lägg in ett skript som säger
 
     1. OM avstånd till **Dinosaurie** är mindre än **15**
 

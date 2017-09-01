@@ -136,9 +136,9 @@ Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först
 
 7. Fortsätt så tills du har animerat **Roboten** att gå runt till alla frukterna.
 
-> Testa programmet! Går Roboten runt till alla frukterna?
+> Testa programmet genom att klicka på Roboten! Går Roboten runt till alla frukterna?
 
-Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitten när spelet startar. Detta kallas ett *startskript*. Skapa följande skript för **Roboten**
+Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitten när spelet startar. Vi vill också göra så att roboten inte döljs av frukterna. Detta kallas ett *startskript*. Skapa följande skript för **Roboten**
 
 1. När START klickas på
 
