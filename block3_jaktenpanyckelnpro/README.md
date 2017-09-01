@@ -66,7 +66,7 @@ Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på
 
 ### Roboten
 
-Sprajten **Robot **har lite mer kod, men mycket av den fungerar på samma sätt. Vi börjar med att titta på startskriptet.
+Sprajten **Robot** har lite mer kod, men mycket av den fungerar på samma sätt. Vi börjar med att titta på startskriptet.
 
 ![image alt text](image_8.png)
 
