@@ -22,7 +22,7 @@ Klicka på knappen **"Se inuti"** så att du kan se koden.
 
 *Projektsidan som visas när du följer länken ovan*
 
-Klicka sedan på knappen **"Remix" **så att du får din egen version av projektet.
+Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
 
 ![image alt text](image_2.png)*Remix-knappen markerad*
 
@@ -44,7 +44,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 Om du markerar sprajten **Koordinater** så får du upp koden för denna sprajt. Det är en enkel kod som helt enkelt placerar sprajten på rätt ställe på scenen.
 
-Om du klickar på fliken **Klädslar **kan du se att det finns koordinatsystemet uppritat på olika sätt.
+Om du klickar på fliken **Klädslar** kan du se att det finns koordinatsystemet uppritat på olika sätt.
 
 ![image alt text](image_6.png)
 
@@ -82,7 +82,7 @@ Du ska få börja med att ladda en bakgrundsbild för spelet.
 
 ![image alt text](image_10.png)
 
-* Klicka på fliken** Bakgrunder **
+* Klicka på fliken** Bakgrunder**
 
 * Klicka på **Färgburken** och färglägg bakgrunden med en grön färg.
 
@@ -96,11 +96,11 @@ Nu ska vi placera ut några frukter på scenen!
 
 1. Klicka på "Välj sprajt från biblioteket"
 
-2. Markera **Äpplet **och klicka på **Ok**
+2. Markera **Äpplet** och klicka på **Ok**
 
 3. Placera **Äpplet** i övre vänstra hörnet på scenen.
 
-Nu får själv lägga till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Bananer**, **Apelsin **och **Vattenmelon**.
+Nu får själv lägga till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut **Bananer**, **Apelsin** och **Vattenmelon**.
 
 Det kan se ut så här:
 
@@ -110,7 +110,7 @@ Det kan se ut så här:
 
 Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först till äpplet, sedan till bananerna, sedan till vattenmelonen och till sist till apelsinen.
 
-1. Börja med att markera **Robot **sprajten:
+1. Börja med att markera **Robot** sprajten:
 
 ![image alt text](image_14.png)
 
@@ -128,11 +128,11 @@ Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först
 
 ![image alt text](image_17.png)
 
-5. Dra in sedan ett kodblock **"Vänta 1 sekund" **och fäst det underst i skriptet.
+5. Dra in sedan ett kodblock **"Vänta 1 sekund"** och fäst det underst i skriptet.
 
 ![image alt text](image_18.png)
 
-6. Nu drar du in ett till **"gå till x: y:" **och anger koordinaterna för bananerna. Och sedan ett **“vänta”**-block.
+6. Nu drar du in ett till **"gå till x: y:"** och anger koordinaterna för bananerna. Och sedan ett **“vänta”**-block.
 
 7. Fortsätt så tills du har animerat **Roboten** att gå runt till alla frukterna.
 
@@ -148,7 +148,7 @@ Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitte
 
 ![image alt text](image_19.png)
 
-*Detta är robotens startskript *
+*Detta är robotens startskript*
 
 ## Färdig!
 
@@ -176,7 +176,7 @@ Kan du pussla ihop detta skript från dessa kodblock ?
 
 ![image alt text](image_20.png)
 
-> **Tips! **Du kan kopiera kod mellan sprajter genom att dra ett skript till en sprajt.
+> **Tips!** Du kan kopiera kod mellan sprajter genom att dra ett skript till en sprajt.
 
 ![image alt text](image_21.png)
 
