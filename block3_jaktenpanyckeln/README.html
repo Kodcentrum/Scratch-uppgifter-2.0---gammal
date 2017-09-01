@@ -1,0 +1,325 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="jakten-p-nyckeln">Jakten på nyckeln</h1>
+<p>Har du någon gång letat efter en skatt? I denna uppgift ska du få koda en enklare skattjakt för din kompis. Du kommer få öva dig på koordinater som är ett sätt att ange någon eller någots position. I spelet kommer det vara skattens position som är viktig.</p>
+<p>Så här kan det se ut:</p>
+<p><a href="https://scratch.mit.edu/projects/172502923/">https://scratch.mit.edu/projects/172502923/</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<h2 id="delmoment-1-remixa-ett-projekt">Delmoment 1 - Remixa ett projekt</h2>
+<p>Vi börjar med att remixa ett projekt som redan finns på Scratch. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!</p>
+<p>Öppna din webbläsare och gå till</p>
+<p><a href="https://scratch.mit.edu/projects/172763192/">https://scratch.mit.edu/projects/172763192/</a></p>
+<p>Klicka på knappen <strong>&quot;Se inuti&quot;</strong> så att du kan se koden.</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<p><em>Projektsidan som visas när du följer länken ovan</em></p>
+<p>Klicka sedan på knappen <strong>&quot;Remix&quot;</strong> så att du får din egen version av projektet.</p>
+<p><img src="image_2.png" alt="image alt text"><em>Remix-knappen markerad</em></p>
+<p>När du har remixat programmet så ser du att projektets namn har förändrats. Om du tittar under namnet ska du också se ditt eget användarnamn. Du kan döpa om projekt till något som passar bättre.</p>
+<p><img src="image_3.png" alt="image alt text"></p>
+<p><em>Namnet på projektet har fått ordet &quot;remix&quot; på slutet</em></p>
+<p>I projektet har du nu två sprajter: <img src="image_4.png" alt="image alt text"></p>
+<ol>
+<li><p>En robot-sprajt som är din spelare</p>
+</li>
+<li><p>Koordinataxlar som visar x- och y-axeln.</p>
+</li>
+</ol>
+<p>Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter och koordinatsystemet i Scratch. Varje Sprajt har en specifik position i koordinatsystemet som anges med två siffror. En som anger positionen i höger–vänster riktning och en som anger positionen i upp–ner riktning. Positionen i höger–vänster riktning kallas x–värdet och positionen i upp–ner riktning kallas y-värdet. X– och y–värdena anges på två axlar: x–axeln och y–axeln. X–axeln går mellan –240 och 240, medan y–axeln går mellan –180 och 180.</p>
+<p><img src="image_5.png" alt="image alt text"><em>Så här ser en markerad sprajt ut</em></p>
+<p>Om du markerar sprajten <strong>Koordinater</strong> så får du upp koden för denna sprajt. Det är en enkel kod som helt enkelt placerar sprajten på rätt ställe på skärmen.</p>
+<p>Om du klickar på fliken <strong>Klädslar</strong> kan du se att det finns koordinatsystemet uppritat på olika sätt.</p>
+<p><img src="image_6.png" alt="image alt text"></p>
+<p><em>De olika sätten att rita koordinatsystemet</em></p>
+<p>Om du klickar på klädseln <strong>&quot;mitten_svart&quot;</strong> så får du upp ett sätt att visa koordinatsystemet som du kanske känner igen bättre. I detta koordinatsystem korsar x– och y–axeln med varandra.</p>
+<p><img src="image_7.png" alt="image alt text"></p>
+<p>Det är dock lika rätt att visa koordinatsystemet som det gjordes när du remixade projektet. Klicka på klädseln <strong>&quot;uppe_svart&quot;</strong>. I detta koordinatsystem visas x–axeln överst på scenen och y–axeln till vänster i scenen. På så sätt så skyms inte så mycket av spelet av koordinatsystemet, så vi kommer använda oss av det i denna övning. Om du känner dig säkrare med “korset” så klicka på klädseln <strong>“mitten_svart”</strong>.</p>
+<p>Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!</p>
+<p><img src="image_8.png" alt="image alt text"></p>
+<p><em>När du har musen vid –50 på x-axeln så visas koordinaterna i nedre-högra hörnet</em></p>
+<p><em>Flytta musen så att den är vid siffran <strong>–50</strong> på <em>*x-axeln</em></em>.</p>
+<ul>
+<li><p>Om du tittar i nedre högra hörnet på spelplanen så visar Scratch koordinaterna för musen. Stämmer den siffran överrens med siffran på den utritade x-axeln?</p>
+</li>
+<li><p>Upprepa proceduren men flytta musen till <strong>50</strong> på <strong>y-axeln</strong>.</p>
+</li>
+</ul>
+<p>Klicka nu sprajten <strong>Robot</strong> så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i området med kod. Vilka koordinater har sprajten?</p>
+<p><img src="image_9.png" alt="image alt text"></p>
+<ul>
+<li><p>Flytta omkring <strong>Robot-sprajten</strong> på spelplanen och se hur koordinaterna ändrar sig</p>
+</li>
+<li><p>Placera <strong>Robot</strong>-sprajten ungefär vid <strong>x: 0, y:0</strong>. Denna punkt kallas <em>origo</em>, och är mitt på spelplanen.</p>
+</li>
+</ul>
+<h2 id="delmoment-2-s-tta-bakgrund">Delmoment 2 - Sätta bakgrund</h2>
+<p>Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad du vill, men i detta exempel har vi valt en spöklik skog.</p>
+<p><img src="image_10.png" alt="image alt text"></p>
+<ul>
+<li><p>Klicka på <strong>Välj bakgrund</strong> från bibliotek</p>
+</li>
+<li><p>Markera en bakgrund och klicka på <strong>Ok</strong></p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Tips!</strong> Om du har valt en mörk bakgrund kan det vara svårt att se koordinatsystemet. Om det är så kan du byta färg på koordinatsystemet</p>
+</blockquote>
+<ul>
+<li><p>Markera <strong>Koordinater</strong> sprajten och klicka på fliken <strong>Klädslar</strong></p>
+</li>
+<li><p>Markera klädseln <em>uppe_vit</em> så blir färgen på koordinaterna vit</p>
+</li>
+</ul>
+<p><img src="image_11.png" alt="image alt text"></p>
+<p>Så här kan spelet se ut nu!</p>
+<p><img src="image_12.png" alt="image alt text"></p>
+<h2 id="delmoment-3-flytta-roboten">Delmoment 3 - Flytta roboten</h2>
+<p>Nu ska du få koda roboten så att den förflyttar sig på scenen. Det sker genom att ställa en fråga till spelaren om vilka koordinater den vill att roboten ska gå till. Markera <strong>Robot</strong> sprajten.</p>
+<p>Skapa följande kod</p>
+<ol>
+<li><p>När <strong>START</strong> klickas på</p>
+</li>
+<li><p>För alltid</p>
+<ol>
+<li><p>OM tangenten <strong>x</strong> är nedtryckt</p>
+<ol>
+<li><p>Fråga <strong>&quot;Vilken är x-koordinaten?&quot;</strong> och vänta</p>
+</li>
+<li><p>Sätt x till SVAR</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_13.png" alt="image alt text"></p>
+<p><em>Skriptet som beskrivs ovan</em></p>
+<p>Nu ska du kunna flytta roboten i längs x-axeln.</p>
+<blockquote>
+<p>Tryck ner <strong>tangenten x</strong> och testa. Kommer en ruta upp där du kan ange vilken x-koordinaten är? Förflyttar sig roboten till den x-koordinat du angav</p>
+</blockquote>
+<p>Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta på koden du skapade ovan. Innanför <strong>&quot;För alltid&quot;</strong>-loopen lägg följande kod</p>
+<ol>
+<li><p>OM <strong>y</strong>-tangenten är nedtryckt</p>
+<ol>
+<li><p>Fråga <strong>&quot;Vilken är y-koordinaten?&quot;</strong> och vänta</p>
+</li>
+<li><p>Sätt y till SVAR</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_14.png" alt="image alt text"></p>
+<p><em>Dessa kodblock behöver du!</em></p>
+<p><img src="image_15.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa programmet. Tryck ner <strong>tangenten y</strong>. Kommer en ruta upp där du kan ange vilken y-koordinaten är? Förflyttar sig roboten till den y-koordinat du angav</p>
+</blockquote>
+<p>För att roboten ska starta på samma ställe varje gång så ska vi lägga in ett <strong>Start-skript</strong>. Precis efter blocket med <strong>&quot;När START klickas på&quot;</strong>, lägger du in följande block</p>
+<ol>
+<li>Gå till <strong>x:0 y:0</strong></li>
+</ol>
+<p><img src="image_16.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa spelet igen! Var hamnar roboten när spelet startar?</p>
+</blockquote>
+<h2 id="delmoment-4-g-mma-nyckel">Delmoment 4: Gömma nyckel</h2>
+<p>Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.</p>
+<ol>
+<li><p>Klicka på <strong>&quot;Välj sprajt från biblioteket&quot;</strong> <img src="image_1617.png" alt="image alt text"></p>
+</li>
+<li><p>Markera Nyckeln och klicka på <strong>Ok</strong></p>
+</li>
+<li><p>Klicka på knappen <strong>Förminska</strong> och sedan några gånger på <strong>Nyckeln</strong> så att den blir mindre.</p>
+</li>
+<li><p>Placera nyckeln på ett bra ställe på spelplanen</p>
+</li>
+</ol>
+<p><img src="image_17.png" alt="image alt text"></p>
+<p>Skapa ett skript för <strong>nyckeln</strong> som säger</p>
+<ol>
+<li><p>När START klickas på</p>
+</li>
+<li><p>Gå till <strong>x: y:</strong> . (De koordinater som står i detta kodblock kommer vara de koordinater som nyckeln är placerad på.)</p>
+</li>
+<li><p>Göm</p>
+</li>
+</ol>
+<p><img src="image_18.png" alt="image alt text"></p>
+<p><em>Nyckelns startskript</em></p>
+<p>Skapa ett nytt Skript för nyckeln:</p>
+<ol>
+<li>Dra in ett block <strong>&quot;när jag tar emot meddelande1&quot;</strong> till skriptområdet</li>
+</ol>
+<p><img src="image_19.png" alt="image alt text"></p>
+<ol>
+<li>Klicka på den lilla <strong>nedåtpilen</strong> på kodblocket och klicka på <strong>&quot;nytt meddelande”</strong>.</li>
+</ol>
+<p><img src="image_20.png" alt="image alt text"></p>
+<ol>
+<li>I rutan som dyker upp skriver du <strong>&quot;visa nyckeln&quot;</strong>.</li>
+</ol>
+<p><img src="image_21.png" alt="image alt text"></p>
+<ol>
+<li><p>Under detta kodblock lägger du in följande kod</p>
+<ol>
+<li><p>Lägg överst</p>
+</li>
+<li><p>Visa</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_22.png" alt="image alt text"></p>
+<p><em>Så här ska skriptet se ut till slut</em></p>
+<p>Nu kommer nyckeln att visas när den tar emot meddelandet <strong>&quot;visa nyckeln&quot;</strong>. Men när kommer det ske? Jo, när roboten är vid nyckeln. Det ska du koda nu. Vi ska säga åt roboten att när den är alldeles i närheten av nyckeln ska nyckeln visas på scenen. För att det inte ska bli allt för svårt, räcker det att roboten är 15 pixlar ifrån nyckeln.  </p>
+<p>Markera <strong>Robot</strong>-sprajten. Skapa följande skript och lägg det innanför <strong>&quot;För alltid&quot;</strong>-loopen.</p>
+<ol>
+<li><p>OM avstånd till <strong>Key</strong> är mindre än <strong>15</strong></p>
+<ol>
+<li><p>Skicka meddelandet <strong>&quot;visa nyckeln&quot;</strong> och vänta</p>
+</li>
+<li><p>Säg <strong>&quot;Jag hittade den!&quot;</strong> i 2 sekunder</p>
+</li>
+<li><p>Stoppa alla</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_23.png" alt="image alt text"></p>
+<p><em>Dessa kodblock behöver du</em></p>
+<blockquote>
+<p>Testa spelet! Klicka på START och försök styra roboten så att den är vid nyckeln. Visar sig nyckeln?</p>
+<p>Testa spelet på en kompis! Har din kompis svårt att hitta nyckeln?</p>
+</blockquote>
+<h2 id="delmoment-5-ledtr-dar">Delmoment 5: Ledtrådar</h2>
+<p>Om du låter en kompis spela programmet nu så kommer det vara svårt att hitta nyckeln eftersom spelplanen är så stor. Därför ska vi skapa ledtrådar som gör det lite lättare att hitta nyckeln.</p>
+<p>Det första vi ska göra är att skapa ett antalet stenar som är utplacerade på spelplanen. Under en av dessa kommer nyckeln vara gömd.</p>
+<ol>
+<li><p>Skapa en <strong>ny sprajt från biblioteket</strong></p>
+</li>
+<li><p>Markera <strong>Stenarna</strong> och klicka på <strong>OK</strong>.</p>
+</li>
+<li><p>Lägg den så att den är ungefär ovanför nyckeln</p>
+</li>
+</ol>
+<p>Skapa ett skript för denna sprajt som säger</p>
+<ol>
+<li><p>När START klickas på</p>
+</li>
+<li><p>Gå till <strong>x: y:</strong>. Här anger du samma start-koordinater som för nyckeln. På så sätt kommer stenen vara precis där nyckeln är.</p>
+</li>
+</ol>
+<p><img src="image_24.png" alt="image alt text"></p>
+<p>Skapa nu <strong>minst 3 nya sprajter</strong> som också är stenar. Placera ut dem på spelplanen, men</p>
+<ol>
+<li><p>Inte för nära Roboten</p>
+</li>
+<li><p>Inte för nära nyckeln</p>
+</li>
+</ol>
+<p>Dessa sprajter behöver ingen kod.</p>
+<p>Så här kan det se ut nu:</p>
+<p><img src="image_25.png" alt="image alt text"></p>
+<blockquote>
+<p><strong>Tips:</strong> Om du märker att Roboten hamnar bakom stenarna, så kan du lägga in kodblocket <strong>&quot;Lägg överst&quot;</strong> precis i början av Robotens startskript.</p>
+</blockquote>
+<p>En annan ledtråd som vi ska skapa är att <strong>Roboten</strong> kommer förändra utseende om det &quot;bränns&quot;, det vill säga om Roboten kommer i närheten av nyckeln.</p>
+<p><strong>Robot</strong> sprajten har flera klädslar som du ser om du klickar på fliken <strong>Klädslar</strong>.</p>
+<p><img src="image_26.png" alt="image alt text"></p>
+<p><em>Robotens klädslar</em></p>
+<ul>
+<li><p>Välj ut en klädsel som du tycker roboten ska ha när den är långt ifrån nyckeln och en klädsel som den ska ha när den är nära</p>
+</li>
+<li><p>Du kan också rita på klädslarna för att göra dem olika. Här i bilden bredvid har roboten fått röda kinder.</p>
+</li>
+</ul>
+<p><img src="image_27.png" alt="image alt text"><em>En robot med röda kinder</em></p>
+<p>Markera Roboten och skapa följande skript innanför <strong>&quot;För alltid&quot;</strong>-loopen.</p>
+<ol>
+<li><p>OM avstånd till <strong>Key</strong> är mindre än <strong>45</strong></p>
+<ol>
+<li>Byt till klädsel <strong>Robot3</strong>. Välj den klädsel som roboten ska ha i närheten av nyckeln.</li>
+</ol>
+</li>
+<li><p>ANNARS</p>
+<ol>
+<li>Byt till klädsel <strong>Robot1</strong>. Välj den klädsel som roboten ska ha långt i från nyckeln.</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_28.png" alt="image alt text"></p>
+<p><em>Dessa kodblock behöver du</em></p>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du skapat ett nytt spel!</p>
+<p>Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong></p>
+<p>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+</blockquote>
+<h2 id="utmaningar">Utmaningar</h2>
+<h3 id="hinder-p-v-gen">Hinder på vägen</h3>
+<p>Du kan lägga till hinder i vägen för den som spelar. Då blir det lite kluriga att ta sig mellan stenarna.</p>
+<ol>
+<li><p>Lägg till en sprajt, t.ex. en dinosaurie</p>
+</li>
+<li><p>I <strong>&quot;för alltid&quot;</strong>-loopen för <strong>Roboten</strong> lägg in ett skript som säger</p>
+<ol>
+<li><p>OM avstånd till <strong>Dinosaurie</strong> är mindre än <strong>15</strong></p>
+<ol>
+<li><p>Säg <strong>&quot;Neeej!</strong> I 2 sekunder</p>
+</li>
+<li><p>Stoppa alla</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="image_29.png" alt="image alt text"></p>
+<p>Du kan lägga in flera olika sorters sprajtar.</p>
+<p>Du kan också rita saker på bakgrunden i en särskild färg som du kan känna av om <strong>Roboten</strong> nuddar.</p>
+<h3 id="begr-nsa-antalet-gissningar">Begränsa antalet gissningar</h3>
+<p>Nu kan spelaren gissa hur många gånger som helst. Du kan göra det lite svårare genom att koda ett maximalt antal gissningar.</p>
+<p><img src="image_30.png" alt="image alt text"></p>
+<ol>
+<li><p>Börja med att skapa en variabel som heter <strong>&quot;antal gissningar&quot;</strong></p>
+</li>
+<li><p>Varje gång du flyttar Roboten ändrar du värdet på <strong>&quot;antal gissningar&quot;</strong> med 1.</p>
+</li>
+</ol>
+<p><img src="image_31.png" alt="image alt text"></p>
+<ol>
+<li><p>Du får också kolla om <strong>&quot;antalet gissningar&quot;</strong> är lika med det maximala antalet som du har bestämt.</p>
+</li>
+<li><p>När detta sker så stoppar du alla skript</p>
+</li>
+</ol>
+<h3 id="slumpm-ssig-placering">Slumpmässig placering</h3>
+<p>För att göra det svårare för dig som har skapat spelet kan du placera ut stenarna och nyckeln helt slumpmässigt i början av spelet. Då får du en helt ny utmaning varje gång du spelar.</p>
+<p>Här är några ledtrådar till hur du kan göra för att få en sten och nyckeln på samma plats:</p>
+<ol>
+<li><p>Skapa en variabel som heter <strong>&quot;ny x&quot;</strong></p>
+</li>
+<li><p>Skapa en variabel som heter <strong>&quot;ny y&quot;</strong></p>
+</li>
+<li><p>I början av spelet sätter du dessa till slumptal.</p>
+</li>
+</ol>
+<p><img src="image_32.png" alt="image alt text"></p>
+<ol>
+<li><p>Placera nyckeln på x: <strong>&quot;ny x&quot;</strong> y: <strong>“ny y”</strong></p>
+</li>
+<li><p>Gör samma sak med stenen som är precis ovan stenen.</p>
+</li>
+</ol>
+<p>På så sätt kommer dessa två sprajter alltid vara precis ovanpå varandra. Du behöver också kolla så att nyckeln inte hamnar precis vid roboten så att spelet slutar vid starten.</p>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<p>Vad är en koordinat?</p>
+<p>Hur lång är x–axeln i Scratch?</p>
+<p>Hur lång är y–axeln i Scratch?</p>
+<p>Vilken koordinat har mitten på scenen?</p>
+<p>Vad innebär det att Remixa ett projekt?</p>
+<p>Vad är ett startskript? Varför är det bra att använda det?</p>
+<p>Vad är ett meddelanden? Vad kan du använda det till?</p>
+<p>Vad är en variabel? Hur kan du använda en variabel för att få input från spelaren?</p>
+</body></html>
