@@ -82,7 +82,7 @@ Du ska få börja med att ladda en bakgrundsbild för spelet.
 
 ![image alt text](image_10.png)
 
-* Klicka på fliken** Bakgrunder**
+* Klicka på fliken **Bakgrunder**
 
 * Klicka på **Färgburken** och färglägg bakgrunden med en grön färg.
 
