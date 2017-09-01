@@ -48,13 +48,13 @@ Om du klickar på fliken **Klädslar **kan du se att det finns koordinatsystemet
 
 ![image alt text](image_6.png)
 
-*De olika sätten att rita koordinatsystemet *
+*De olika sätten att rita koordinatsystemet*
 
-Om du klickar på klädseln **"mitten_svart" **så får du upp ett sätt att visa koordinatsystemet som du kanske känner igen bättre. I detta koordinatsystem korsar x– och y–axeln med varandra.
+Om du klickar på klädseln **"mitten_svart"** så får du upp ett sätt att visa koordinatsystemet som du kanske känner igen bättre. I detta koordinatsystem korsar x– och y–axeln med varandra.
 
 ![image alt text](image_7.png)
 
-Det är dock lika rätt att visa koordinatsystemet som det gjordes när du remixade projektet. Klicka på klädseln **"uppe_svart"**. I detta koordinatsystem visas x–axeln överst på scenen och y–axeln till vänster i scenen. På så sätt så skyms inte så mycket av spelet av koordinatsystemet, så vi kommer använda oss av det i denna övning. Om du känner dig säkrare med “korset” så klicka på klädseln **“mitten_svart”. **
+Det är dock lika rätt att visa koordinatsystemet som det gjordes när du remixade projektet. Klicka på klädseln **"uppe_svart"**. I detta koordinatsystem visas x–axeln överst på scenen och y–axeln till vänster i scenen. På så sätt så skyms inte så mycket av spelet av koordinatsystemet, så vi kommer använda oss av det i denna övning. Om du känner dig säkrare med “korset” så klicka på klädseln **“mitten_svart”**.
 
 > Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!
 
