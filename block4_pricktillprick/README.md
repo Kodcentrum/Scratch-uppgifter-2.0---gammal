@@ -6,7 +6,7 @@ Ett exempel på hur det kan se ut hittar du här:
 
 [https://scratch.mit.edu/projects/172632019/](https://scratch.mit.edu/projects/172632019/)
 
-## ![image alt text](image_0.png)
+![image alt text](image_0.png)
 
 ## Delmoment 1 - Remixa ett projekt
 
