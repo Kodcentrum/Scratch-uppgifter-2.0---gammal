@@ -8,7 +8,7 @@ Ett exempel på hur det kan se ut hittar du här:
 
 ![image alt text](image_0.png)
 
-## Delmoment 1 - Remixa ett projekt
+## Delmoment 1: Remixa ett projekt
 
 Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!
 
@@ -36,7 +36,7 @@ Denna sprajt har en enkel kod som placerar axlarna på rätt ställe på spelpla
 
 Du har också fått en bakgrund som består av 10 prickar, samt ett streck mellan punkt 1 och 10. Din uppgift är nu att koda så att du kan spela prick-till-prick.
 
-## Delmoment 2 – En penna
+## Delmoment 2: En penna
 
 Vi ska börja med att lägga till en penna i projektet.
 
@@ -78,7 +78,7 @@ Det kommer den inte göra. Anledningen är att centrum för pennan är satt till
 
 > Testa programmet igen! Flyttar sig pennan så att den nu pekar på prick nummer 1?
 
-## Delmoment 3 – Rita
+## Delmoment 3: Rita
 
 Vi ska börja med att fortsätta på start-skriptet som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till..."**-blocket.
 
