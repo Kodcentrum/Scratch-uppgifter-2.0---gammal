@@ -1,0 +1,177 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="f-lj-frukten">Följ frukten</h1>
+<p>I denna uppgift ska du få leka med koordinater i Scratch. Koordinater behövs för att ange någon eller någots position. Du ska få animera en robot så att den rör sig runt på scenen och äter frukt. Roboten och frukterna kommer ha olika koordinater som anger deras position.</p>
+<p>Ett exempel på hur det kan se ut hittar du här:</p>
+<p><a href="https://scratch.mit.edu/projects/172523787/">https://scratch.mit.edu/projects/172523787/</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<h2 id="delmoment-1-remixa-ett-projekt">Delmoment 1 - Remixa ett projekt</h2>
+<p>Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!</p>
+<p>Öppna din webbläsare och gå till</p>
+<p><a href="https://scratch.mit.edu/projects/172763192/">https://scratch.mit.edu/projects/172763192/</a></p>
+<p>Klicka på knappen <strong>&quot;Se inuti&quot;</strong> så att du kan se koden.</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<p><em>Projektsidan som visas när du följer länken ovan</em></p>
+<p>Klicka sedan på knappen <strong>&quot;Remix&quot; </strong>så att du får din egen version av projektet.</p>
+<p><img src="image_2.png" alt="image alt text"><em>Remix-knappen markerad</em></p>
+<p>När du har remixat programmet så ser du att projektets namn har förändrats. Om du tittar under namnet ska du också se ditt eget användarnamn. Du kan döpa om projekt till något som passar bättre.</p>
+<p><img src="image_3.png" alt="image alt text"></p>
+<p><em>Namnet på projektet har fått ordet &quot;remix&quot; på slutet</em></p>
+<p>I projektet har du nu två sprajter: <img src="image_4.png" alt="image alt text"></p>
+<ol>
+<li><p>En robot-sprajt som är din spelare</p>
+</li>
+<li><p>Koordinataxlar som visar x- och y-axeln.</p>
+</li>
+</ol>
+<p>Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter och koordinatsystemet i Scratch. Varje Sprajt har en specifik position i koordinatsystemet som anges med två siffror. En som anger positionen i höger–vänster riktning och en som anger positionen i upp–ner riktning. Positionen i höger–vänster riktning kallas x–värdet och positionen i upp–ner riktning kallas y-värdet. X– och y–värdena anges på två axlar: x–axeln och y–axeln. X–axeln går mellan –240 och 240, medan y–axeln går mellan –180 och 180.</p>
+<p><img src="image_5.png" alt="image alt text"><em>Så här ser en markerad sprajt ut</em></p>
+<p>Om du markerar sprajten <strong>Koordinater</strong> så får du upp koden för denna sprajt. Det är en enkel kod som helt enkelt placerar sprajten på rätt ställe på scenen.</p>
+<p>Om du klickar på fliken <strong>Klädslar </strong>kan du se att det finns koordinatsystemet uppritat på olika sätt.</p>
+<p><img src="image_6.png" alt="image alt text"></p>
+<p><em>De olika sätten att rita koordinatsystemet </em></p>
+<p>Om du klickar på klädseln <strong>&quot;mitten_svart&quot; </strong>så får du upp ett sätt att visa koordinatsystemet som du kanske känner igen bättre. I detta koordinatsystem korsar x– och y–axeln med varandra.</p>
+<p><img src="image_7.png" alt="image alt text"></p>
+<p>Det är dock lika rätt att visa koordinatsystemet som det gjordes när du remixade projektet. Klicka på klädseln <strong>&quot;uppe_svart&quot;</strong>. I detta koordinatsystem visas x–axeln överst på scenen och y–axeln till vänster i scenen. På så sätt så skyms inte så mycket av spelet av koordinatsystemet, så vi kommer använda oss av det i denna övning. Om du känner dig säkrare med “korset” så klicka på klädseln <strong>“mitten_svart”. </strong></p>
+<blockquote>
+<p>Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!</p>
+</blockquote>
+<p><img src="image_8.png" alt="image alt text"></p>
+<p><em>När du har musen vid –50 på x-axeln så visas koordinaterna i nedre-högra hörnet</em></p>
+<ul>
+<li><p>Flytta musen så att den är vid siffran <strong>–50</strong> på <strong>x-axeln</strong>.</p>
+</li>
+<li><p>Om du tittar i högra hörnet under scenen så visar Scratch koordinaterna för musen. Stämmer den siffran överens med siffran på den utritade x-axeln?</p>
+</li>
+<li><p>Flytta nu musen till <strong>50</strong> på <strong>y-axeln</strong>. Visas rätt koordinater under scenen?</p>
+</li>
+</ul>
+<p>Klicka nu på sprajten <strong>Robot</strong> så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i skriptytan. Vilka koordinater har sprajten?</p>
+<p><img src="image_9.png" alt="image alt text"></p>
+<ul>
+<li><p>Flytta omkring <strong>Robot-sprajten</strong> på scenen och se hur koordinaterna ändrar sig</p>
+</li>
+<li><p>Placera <strong>Robot</strong>-sprajten ungefär vid <strong>x: 0, y:0</strong>. Denna punkt kallas <em>origo</em>, och är mitt på scenen.</p>
+</li>
+</ul>
+<h2 id="delmoment-2-bakgrund-och-frukter">Delmoment 2 - Bakgrund och frukter</h2>
+<p>Du ska få börja med att ladda en bakgrundsbild för spelet.</p>
+<p><img src="image_10.png" alt="image alt text"></p>
+<ul>
+<li><p>Klicka på fliken<strong> Bakgrunder </strong></p>
+</li>
+<li><p>Klicka på <strong>Färgburken</strong> och färglägg bakgrunden med en grön färg.</p>
+</li>
+</ul>
+<p><img src="image_11.png" alt="image alt text"></p>
+<p><em>Färgburken är markerad i bilden</em></p>
+<p>Nu ska vi placera ut några frukter på scenen!</p>
+<p><img src="image_12.png" alt="image alt text"></p>
+<ol>
+<li><p>Klicka på &quot;Välj sprajt från biblioteket&quot;</p>
+</li>
+<li><p>Markera <strong>Äpplet </strong>och klicka på <strong>Ok</strong></p>
+</li>
+<li><p>Placera <strong>Äpplet</strong> i övre vänstra hörnet på scenen.</p>
+</li>
+</ol>
+<p>Nu får själv lägga till tre sprajter och placera ut dem på scenen. Här har vi valt att lägga ut <strong>Bananer</strong>, <strong>Apelsin </strong>och <strong>Vattenmelon</strong>.</p>
+<p>Det kan se ut så här:</p>
+<p><img src="image_13.png" alt="image alt text"></p>
+<h2 id="delmoment-3-animera-roboten">Delmoment 3 - Animera roboten</h2>
+<p>Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först till äpplet, sedan till bananerna, sedan till vattenmelonen och till sist till apelsinen.</p>
+<ol>
+<li>Börja med att markera <strong>Robot </strong>sprajten:</li>
+</ol>
+<p><img src="image_14.png" alt="image alt text"></p>
+<p><em>När en sprajt är markerad ser du ett blå ruta runt den sprajten</em></p>
+<ol>
+<li>Sedan ska vi skapa ett skript för roboten. Börja med att dra in ett kodblock som heter <strong>&quot;När denna sprajt klickas på&quot;</strong> till skriptytan.</li>
+</ol>
+<p><img src="image_15.png" alt="image alt text"></p>
+<ol>
+<li>Under detta block fäster du ett kodblock <strong>&quot;Gå till x: y:&quot;</strong></li>
+</ol>
+<p><img src="image_16.png" alt="image alt text"></p>
+<ol>
+<li>I stället för koordinaterna som står i kodblocket skriver du vilka koordinater <strong>du tror att äpplet har</strong>. Använd det utritade koordinatsystemet som hjälp. Det kan se ut se här.</li>
+</ol>
+<p><img src="image_17.png" alt="image alt text"></p>
+<ol>
+<li>Dra in sedan ett kodblock <strong>&quot;Vänta 1 sekund&quot; </strong>och fäst det underst i skriptet.</li>
+</ol>
+<p><img src="image_18.png" alt="image alt text"></p>
+<ol>
+<li><p>Nu drar du in ett till <strong>&quot;gå till x: y:&quot; </strong>och anger koordinaterna för bananerna. Och sedan ett <strong>“vänta”</strong>-block.</p>
+</li>
+<li><p>Fortsätt så tills du har animerat <strong>Roboten</strong> att gå runt till alla frukterna.</p>
+</li>
+</ol>
+<blockquote>
+<p>Testa programmet! Går Roboten runt till alla frukterna?</p>
+</blockquote>
+<p>Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitten när spelet startar. Detta kallas ett <em>startskript</em>. Skapa följande skript för <strong>Roboten</strong></p>
+<ol>
+<li><p>När START klickas på</p>
+</li>
+<li><p>Gå till x:0 y:0</p>
+</li>
+<li><p>Lägg överst</p>
+</li>
+</ol>
+<p><img src="image_19.png" alt="image alt text"></p>
+<p><em>Detta är robotens startskript </em></p>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du skapat ett nytt program!</p>
+<p>Glöm inte att spara ditt projekt! Kom ihåg att ge spelet ett bra namn.</p>
+<h2 id="utmaningar">Utmaningar</h2>
+<h3 id="frukterna-ts-upp">Frukterna äts upp</h3>
+<p>Du kan göra så att frukterna försvinner när roboten besöker dem. För varje skript behöver du skapa följande skript</p>
+<ol>
+<li><p>När START klickas på</p>
+</li>
+<li><p>Visa</p>
+</li>
+<li><p>För alltid</p>
+<ol>
+<li><p>OM rör vid <strong>Robot</strong></p>
+<ol>
+<li>Göm</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>Kan du pussla ihop detta skript från dessa kodblock ?</p>
+<p><img src="image_20.png" alt="image alt text"></p>
+<blockquote>
+<p><strong>Tips! </strong>Du kan kopiera kod mellan sprajter genom att dra ett skript till en sprajt.</p>
+</blockquote>
+<p><img src="image_21.png" alt="image alt text"></p>
+<h3 id="snitslad-bana">Snitslad bana</h3>
+<p>Du kan rita en bana på bakgrunden som roboten måste röra sig innanför. På detta sätt blir det viktigare att ange exakta koordinater där <strong>Roboten</strong> ska röra sig. Det kan se ut så här</p>
+<p><img src="image_22.png" alt="image alt text"></p>
+<p>Skapa ett skript för <strong>Roboten</strong> som säger</p>
+<ol>
+<li><p>När START klickas på</p>
+</li>
+<li><p>För alltid</p>
+<ol>
+<li><p>OM rör <strong>grön</strong> färg</p>
+<ol>
+<li>Stoppa alla</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>Dessa kodblock behöver du:</p>
+<p><img src="image_23.png" alt="image alt text"></p>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<p>Vad är en koordinat?</p>
+<p>Hur lång är x–axeln i Scratch?</p>
+<p>Hur lång är y–axeln i Scratch?</p>
+<p>Vilken koordinat har mitten på scenen?</p>
+<p>Vad innebär det att Remixa ett projekt?</p>
+<p>Vad är ett startskript? Varför är det bra att använda det?</p>
+</body></html>
