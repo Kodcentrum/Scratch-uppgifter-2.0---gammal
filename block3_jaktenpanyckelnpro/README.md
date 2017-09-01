@@ -143,13 +143,13 @@ Detta är **startskriptet** för nyckeln. Eftersom vi kommer att skapa nycklar m
 
 Nu ska vi koda vad som händer när klonerna startar.
 
-* Börja med att skapa två variabler **"mitt x"** och **“mitt y”**. **OBS!** Dessa två variabler ska endast vara för **Nyckel**–sprajten.
+* Börja med att skapa två variabler **"mitt x"** och **“mitt y”**. **OBS!** Dessa två variabler ska endast vara för **Nyckel**–sprajten. De ska inte visas på scenen.
 
 ![image alt text](image_16.png)
 
 *Det är viktigt att du kryssar i "Enbart för denna sprajt"*
 
-Detta kommer att vara klonens x och y–koordinater i samma koordinatsystem som bakgrunden.
+Detta kommer att vara klonens x- och y–koordinater i samma koordinatsystem som bakgrunden.
 
 Skapa ett skript för nyckeln som säger
 
@@ -226,4 +226,34 @@ För tillfället så skapas bara fem nycklar och när roboten har hittat alla s�
 
 ### Utökad bakgrund
 
-Rita fler sprajter som kan användas som bakgrund. Se bara till att det är 480 x 360 pixlar stora. Du kan klicka på **"Rita ny sprajt"** och sedan **färga sprajten med grönt**, så har du kommit igång.
+Rita fler sprajter som kan användas som bakgrund. Se bara till att det är 480 x 360 pixlar stora.
+
+Så här kan du göra:
+
+* Klicka på **"Rita ny sprajt"**
+
+* **Färga sprajten med grönt** genom att använda **Färgburken**
+
+* Lägg till ett skript så att sprajten placeras korrekt när meddelandet **"flytta"** tas emot
+
+* Ändra i **Robotens** skript som körs när piltangenterna trycks ned
+
+* Ändra i **Nyckelns** skript så att de kan placeras ut på den utökade bakgrunden
+
+## Frågeställningar
+
+Vad är en koordinat?
+
+Hur lång är x–axeln i Scratch?
+
+Hur lång är y–axeln i Scratch?
+
+Vilken koordinat har mitten på scenen?
+
+Vad innebär det att Remixa ett projekt?
+
+Varför behövs det nytt koordinatsystem för bakgrunden?
+
+Vad används KLONER till?
+
+Varför är det bra att använda KLONER i ställer för flera sprajter som ser likadana ut? 

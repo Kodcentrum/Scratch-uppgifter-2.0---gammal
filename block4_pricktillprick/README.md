@@ -94,7 +94,7 @@ Alla dessa kodblock hittar du under kategorin **Penna**. Koden ser till att den 
 
 *Så här ska startskriptet se ut*
 
-För att gå vidare behöver vi en variabel som håller svaret till en fråga vi ska ställa den ska spela.
+För att gå vidare behöver vi en variabel som håller svaret till en fråga vi ska ställa till den som ska spela.
 
 1. Gå till kategorin **Data** och klicka på **"Skapa en variabel"**
 
@@ -106,7 +106,7 @@ För att gå vidare behöver vi en variabel som håller svaret till en fråga vi
 
 Skapa ett nytt skript som säger:
 
-1. När **"r"** trycks ned
+1. När **"r"**-tangenten trycks ned
 
 2. Fråga **"Ange x-koordinat**" och vänta
 
