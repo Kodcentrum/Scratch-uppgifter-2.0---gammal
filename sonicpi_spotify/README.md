@@ -1,6 +1,6 @@
-# Koda musik med Spotify
+# Koda musik med Sonic Pi
 
-Den här uppgiften har vi tagit fram tillsammans med Julia och Maria som jobbar på Spotify. Det är en fortsättning på förra uppgiften där du fick komma igång och lära känna programmeringsspråket <a href="http://sonic-pi.net/" target="_blank"> **Sonic Pi**</a>, och här får du chans att utforska vidare och skapa helt egen musik!
+Den här uppgiften har vi tagit fram tillsammans med Julia och Maria som jobbar på Spotify i Stockholm. Det är en fortsättning på förra uppgiften där du fick komma igång och lära känna programmeringsspråket <a href="http://sonic-pi.net/" target="_blank"> **Sonic Pi**</a>, och här får du chans att utforska vidare och skapa helt egen musik!
 
 
 ## Delmoment 1: MIDI-noter och toner
