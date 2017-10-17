@@ -12,8 +12,10 @@ Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och 
 
 1. Skapa ett nytt projekt och ta bort katten.
 
-
 2. Rita en ny **bakgrund** som ser ut som ett rutnät. Det gör du lättast med **linjeverktyget**.
+
+    Så här kan det se ut:
+    ![image alt exempel](image-rutnat.png)
 
 3. Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och **fylld cirkel**. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.
 
@@ -114,7 +116,7 @@ och äta upp små kulor.
 
 Du skall nu se till att utökad spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att **Cell** rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tyngre/större den blir.
 
-1. Just nu går **Cell** 20 steg varje gång du rör musen: ![image alt kod](image_6.png). Ändra det så att den rör sig i proportion till vad variabeln **"Vikt"** har för värde.
+1. Just nu går **Cell** 20 steg varje gång du rör musen: ![image alt kod](image_6.png). Ändra det så att den får ett värde som beror på vad variabeln **"Vikt"** har för värde:
 
   * Om du ändrar den till ![image alt kod](image_7.png) så kommer **Cell** röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.
 
