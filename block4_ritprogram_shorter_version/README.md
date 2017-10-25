@@ -9,7 +9,7 @@ Du kan se ett exempel på ritprogrammet här:
 ![image alt text](image_0.jpg)
 
 
-## En penna som kan rita
+## Steg 1 En penna som kan rita
 
 Börja med att skapa en penna som ritar när du drar runt den på scenen.
 
@@ -20,7 +20,7 @@ Börja med att skapa en penna som ritar när du drar runt den på scenen.
   ![image alt text](image_1.png)
   ![image alt text](image_2.png)
 
-## Gör så pennan följer musen
+## Steg 2 Gör så pennan följer musen
 
 3. Skapa ett *skript* för pennan som säger:
 
@@ -31,7 +31,7 @@ Börja med att skapa en penna som ritar när du drar runt den på scenen.
 
   Nu vill du kunna använda *sprajten* som en riktig penna, som du kan styra med musen och rita med genom att trycka ned musknappen. Titta under skriptfliken **PENNA**, här finns alla block som har att göra med att kunna rita.
 
-## Gör så pennan ritar när man klickar med musen
+## Steg  3 Gör så pennan ritar när man klickar med musen
 
 4. Skapa ett skript som säger att när musknappen är nedtryckt ska pennan vara nere, och annars ska pennan vara uppe. Lägg ett **KONTROLL** -block i ditt första skript, som säger att:
 
@@ -49,7 +49,7 @@ Börja med att skapa en penna som ritar när du drar runt den på scenen.
 > Testa ditt projekt! Klicka på START. Försvinner din teckning när du klickar på den gröna flaggan?
 
 
-## Gör en knapp som kan radera allt
+## Steg 4  Gör en knapp som kan radera allt
 
 Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behöver starta och stoppa projektet varje gång. Här i exemplet används ett kryss, men du kan välja att göra en egen knapp.
 
@@ -62,7 +62,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 > Testa ditt projekt! Klicka på START och rita något. Kan du sudda hela teckningen genom att klicka på *sprajten* **"radera"**?
 
 
-## Gör en knapp som kan byta färg på pennan
+## Steg 5  Gör en knapp som kan byta färg på pennan
 
 Än så länge kan du bara rita blåa streck men det ska så klart gå att rita med andra färger! För att göra det behöver du först nya *sprajter* för olika färgade knappar som du ska kunna klicka på för att ändra färg på pennan.
 
@@ -78,7 +78,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
   Det är allt som knappen behöver göra! Själva jobbet med att byta färg görs av *sprajten* **"penna"**.
 
-##  Gör  så pennan har många olika färger
+## Steg 6  Gör  så pennan har många olika färger
 
 11. Klicka på *sprajten* **"penna"** och gå in på KLÄDSLAR. Här finns två klädslar som båda föreställer gula pennor. Ta bort en av klädslarna. Kopiera den du behållit – en gång för varje färg du vill ha: t ex grön, röd, blå.
 
@@ -86,7 +86,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
 13. Byt namn på *klädslarna* så att de heter som sin färg, t ex **"grön"**.
 
-## Gör så pennan byter färg när man klickar på pennan
+## Steg 7 Gör så pennan byter färg när man klickar på pennan
 
 14. Skapa nu ett nytt *skript* för *sprajten* **"penna"** som säger:
 
@@ -102,7 +102,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 
 > Klicka på START och rita något. Klicka nu på den gröna knappen och rita igen. Byter pennan klädsel? Ritar den i grönt nu? Ritar den från pennspetsen?
 
-## Gör en knapp för varje färg
+## Steg 8 Gör en knapp för varje färg
 
 Nu ska du få göra fler knappar för alla olika färger, och skript som ändrar pennans färg när du klickar på knappen.
 
@@ -110,7 +110,7 @@ Nu ska du få göra fler knappar för alla olika färger, och skript som ändrar
 
 16. Börja med att döpa om knapparna till t ex **"gul knapp"**, **"röd knapp"**, **"blå knapp"** och placera dem där du vill ha dem på scenen, förslagsvis i en rad längst ned.
 
-## Byt färg på knapparna
+## Steg  9 Byt färg på knapparna
 
 17. Nu behöver du byta färg på knapparna. Gå in under KLÄDSLAR. Ändra färg med FÄRGLÄGG EN FORM (färgburken).
 
@@ -124,7 +124,7 @@ Ungefär så här borde din knapprad se ut på scenen:
 
 ![image alt text](image_9.jpg)
 
-## Lägg till kod för att byta färg när knappen klickas på
+## Steg 10 Lägg till kod för att byta färg när knappen klickas på
 
 18. Nu behöver du ändra i *skripten* för varje *sprajt*. De ska **skicka meddelande** för sin färg när de **klickas på**.
 
@@ -133,7 +133,7 @@ Ungefär så här borde din knapprad se ut på scenen:
 > Testa ditt projekt! Klicka på START och rita något. Klicka nu på de olika knapparna. Fungerar alla färgvalknappar? Byter de pennans *klädsel* till rätt färg? Får de pennan att måla med rätt färg? Ritar alla pennans *klädslar* med pennspetsen?
 
 
-## Gör så man inte kan rita på knapparna
+## Steg 11 Gör så man inte kan rita på knapparna
 
 Du har säkert märkt att du kan måla överallt på skärmen, till och med där knapparna sitter. Nu kommer du att få göra en bakgrund till ritprogrammet, och bestämma var pennan ska kunna rita – och inte rita.
 
@@ -143,13 +143,13 @@ Du har säkert märkt att du kan måla överallt på skärmen, till och med där
 
 **Tips:** Här i exemplet är knappraden en mörkt grå REKTANGEL som täcker hela nederkanten. För ritytan kan du använda FYLL MED FÄRG om du t ex vill ha en ljusgrå nyans istället för helt vit.
 
-## Hitta hur stor ritytan är
+## Steg 12  Hitta hur stor ritytan är
 
 Nu behöver du ta reda på din ritytas KOORDINATER. Hela *Scenen* går mellan -240 och 240 på x-axeln och -180 och 180 på y-axeln, det kan du se om du för muspekaren vänster och höger (X), uppåt och nedåt (Y) på *Scenen*. Titta längst ned till höger under *Scenen* för att se hur värdena ändras!
 
 21. Ta reda på **koordinaterna för din rityta** genom att dra muspekaren till ritytans kanter. I det här exemplet är ritytan mellan 240 och -240 på x-axeln och 180 och -115 på y-axeln. Skriv ner koordinaterna så du kommer ihåg
 
-## Gör så pennan bara kan röra sig mellan koordinaterna
+## Steg 13 Gör så pennan bara kan röra sig mellan koordinaterna
 
 2. Gå till *skriptet* för *sprajten* **"penna"** och ändra inuti *loopen*. Nu är det många block som behövs för att det ska bli rätt! Du behöver dels använda **KÄNNA AV** var musen är, dels plocka fram **OPERATORER** som säger vad som måste stämma för att skriptet ska utföras:
 
@@ -174,7 +174,7 @@ Verkar det krångligt? Här är några tips!
 
 **Tips 3:** Tänk på att du ska sätta in **koordinaterna för din rityta**. Här gäller det att få **alla värden rätt**, allt måste stämma för att skriptet ska utföras och pennan visas. Testa dig fram om det blir fel!
 
-## Testa hur ditt program fungerar
+## Steg 14 Testa hur ditt program fungerar
 
 > Testa ditt projekt! Klicka på START och rita något. Syns pennan? Vad händer med pennan när du lämnar ritytan? Kan du fortfarande rita inom ritytan? Kan du rita utanför ritytan?
 
@@ -182,13 +182,13 @@ Verkar det krångligt? Här är några tips!
 *Så här ser vårt exempel ut, tänk på att du behöver skriva in koordinaterna för din rityta!*
 
 
-## Skapa ett suddgummi som kan sudda
+## Steg 15 Skapa ett suddgummi som kan sudda
 
 Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna sudda? Nu ska du lägga till ett verktyg som ser ut att sudda, men som egentligen ritar med bakgrundsfärgen.
 
 23. Välj en ny *sprajt* för suddgummi, här i exemplet **Saker/Button3**. Förminska den om det behövs och placera i knappraden. Ändra namnet till **"sudd"**.
 
-## Lägg till kod för suddgummi som skickar meddelande
+## Steg  16 Lägg till kod för suddgummi som skickar meddelande
 
 24. Gör ett *skript* för *sprajten* som säger:
 
@@ -196,7 +196,7 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
 
   * **Skicka** *meddelandet* **"sudda"**
 
-## Gör så pennan kan se ut som ett sudd
+## Steg 17 Gör så pennan kan se ut som ett sudd
 
 25. Markera *sprajten* **"penna"** och gå till KLÄDSLAR. Lägg till *klädseln* **Saker/Button3** från biblioteket. Ändra namnet till **"sudd"**.
 
@@ -210,7 +210,7 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
 
   * **Sätt pennans storlek** till en större storlek – testa dig fram vad som passar för suddet!
 
-## Gör så pennan blir lagom stor när man väljer färg
+## Steg 18 Gör så pennan blir lagom stor när man väljer färg
 
 27. Lägg nu in block som sätter **pennans storlek** för alla *skript* som byter färg på pennan, annars kommer storleken ändras utifrån suddet. Välj själv hur tjockt pennstreck du vill ha.
 
@@ -222,7 +222,7 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
 **Nu har du ett fungerande ritprogram!** För att göra det extra roligt kan du nu lägga till stämplar.
 
 
-## Lägg till en stämpel
+## Steg 19 Lägg till en stämpel
 
 Nu ska skapa ett stämpelverktyg som du kan använda för att stämpla små bilder på teckningen. Det går att göra flera olika stämplar och du väljer själv hur de ska se ut.
 
@@ -234,7 +234,7 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 
   ![image alt text](image_14.jpg)
 
-## Gör så när stämpel klickas att den skickar ett meddelande
+## Steg 20 Gör så när stämpel klickas att den skickar ett meddelande
 
 30. Gör ett *skript* för *sprajten* som säger:
 
@@ -242,7 +242,7 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 
   * **Skicka** *meddelandet* **"blomma"**– eller det som din stämpel föreställer
 
-## Gör så när stämpel klickas på att pennan ser ut som stämpeln
+## Steg 21  Gör så när stämpel klickas på att pennan ser ut som stämpeln
 
 31. Gå till *sprajten* **"penna"** och gå till fliken KLÄDSLAR. Lägg till en ny *klädsel* och välj samma bild som stämpeln, här **Saker/Flower Shape**. Döp klädseln till det bilden föreställer, t ex **"blomma"**.
 
@@ -256,7 +256,7 @@ Du kommer att använda *sprajten* **"penna"** även när du stämplar. För att 
 
   ![image alt text](image_15.jpg)
 
-## Gör så pennan kan både rita och stämpla
+## Steg  22 Gör så pennan kan både rita och stämpla
 
 33. Lägg till ett block för att sätta **pennläge** till **"sant"** i alla dina *skript* som väljer färg på pennan och även den som suddar.
 
