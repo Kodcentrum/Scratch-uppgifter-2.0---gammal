@@ -9,8 +9,7 @@ Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/1047325
 ## Delmoment 1: En val som följer muspekaren
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
-1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
-![image alt text](image_1.png)
+1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.![image alt text](image_1.png)
 
 2. Välj **"Rita ny sprajt”** (penseln). Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, gå till biblioteket genom att trycka på knappen för **”Välj sprajt från bibliotek”**.
 
