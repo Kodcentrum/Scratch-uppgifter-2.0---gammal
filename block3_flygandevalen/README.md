@@ -10,8 +10,7 @@ Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/1047325
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
 1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
-
-  ![image alt text](image_1.png)
+![image alt text](image_1.png)
 
 2. Välj **"Rita ny sprajt”** (penseln). Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, gå till biblioteket genom att trycka på knappen för **”Välj sprajt från bibliotek”**.
 
@@ -31,7 +30,8 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
 **Tips:** För att valen inte ska vända sig upp och ned i spelet, gå in på sprajtens informationsruta och välj att den bara kan vända sig åt höger-vänster*.*
 
-> Testa ditt projekt! Klicka på START. Kan du styra valen med muspekaren? Går den lagom snabbt?Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
+> Testa ditt projekt! Klicka på START. Kan du styra valen med muspekaren? Går den lagom snabbt?
+Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
 
 7. Du kan förhindra att valen flippar omkring som en galning genom att lägga till blocket **"om <> då”** som finns under **KONTROLL**. Lägg blocket inuti loopen så att den omsluter dina rörelse-skript.
 
@@ -52,7 +52,8 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
 
-  ![image alt text](image_6.png)  ![image alt text](image_7.png)
+  ![image alt text](image_6.png)
+  ![image alt text](image_7.png)
 
 10. Tryck på FYLL MED FÄRG (målarburken). Välj en färg som passar till din himmel och tryck på den vita bakgrunden, då fylls den med den valda färgen.
 
@@ -88,7 +89,8 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 > Testa ditt projekt! Klicka på START. Flyger munken runt på himlen?
 Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
 
-Nu ska du få valen att äta munken. När valen når en munk ska den försvinna för att komma tillbaka en stund senare, så att munkarna inte tar slut!
+
+Nu ska du få valen att äta munken. När valen når en munk ska den försvinna för att komma tillbaka en stund senare, så att munkarna inte tar slut!
 
 15. Dra ut blocket **"om <> då: annars”** som finns under **KONTROLL** och lägg det inuti munkens **”för alltid”**-loop, efter rörelserna. Nu ska skriptet **KÄNNA AV** om munken **”rör sprajten”** som är valen.
 
@@ -116,7 +118,8 @@ Munken försvinner oavsett vart på valen den nuddar. Men den borde egentligen b
 
   ![image alt text](image_12.png)
 
-> Testa ditt projekt! Klicka på START. Försvinner munken bara om den nuddar valens mun? Dyker den upp igen på en slumpvis plats på scenen istället för där den försvann?
+
+> Testa ditt projekt! Klicka på START. Försvinner munken bara om den nuddar valens mun? Dyker den upp igen på en slumpvis plats på scenen istället för där den försvann?
 
 19. Nu kan du kopiera sprajten så att du får så många munkar som du vill ha på himlen!
 
@@ -186,10 +189,12 @@ För det behöver du först skapa en ny VARIABEL som du döper till **"tid”** 
 
 * Om **tid = 0**, då **stoppa alla skript** så att spelet avslutas
 
-### Minuspoäng för moln
+
+### Minuspoäng för moln
 I spelet SkyWhale ska valen undvika vissa flygande objekt, som bläckfiskar och hårtorkar. Kan du skapa ett skript för att minska poäng, **"ändra poäng med -1”**, om valen flyger på ett moln?
 
-### Flera banor
+
+### Flera banor
 I spelet SkyWhale kan valen även flyga ut i rymden och ner till en undervattensvärld. Kan du göra ett skript som **byter scenens bakgrund** när spelaren når en viss poäng – så att ditt spel består av flera banor? Rita flera bakgrundsbilder eller välj ur biblioteket under fliken BAKGRUNDER.
 
 ## Frågeställningar
