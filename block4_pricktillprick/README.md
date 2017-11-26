@@ -4,7 +4,7 @@ I denna uppgift ska du få skapa ett enkelt prick-till-prick spel. Du ska få l�
 
 Ett exempel på hur det kan se ut hittar du här:
 
-[https://scratch.mit.edu/projects/172632019/](https://scratch.mit.edu/projects/172632019/)
+[https://scratch.mit.edu/projects/188770418/](https://scratch.mit.edu/projects/188770418/)
 
 ![image alt text](image_0.png)
 
@@ -12,27 +12,25 @@ Ett exempel på hur det kan se ut hittar du här:
 
 Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!
 
-Öppna din webbläsare och gå till
+1. Öppna din webbläsare och gå till
 
-[https://scratch.mit.edu/projects/172763429/](https://scratch.mit.edu/projects/172763429/)
+    [https://scratch.mit.edu/projects/172763429/](https://scratch.mit.edu/projects/172763429/)
 
-Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
+2. Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
 
-![image alt text](image_1.png)
+    ![image alt text](image_1.png)
 
-*Klicka på den markerade knappen*
+3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
 
-Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+    ![image alt text](image_2.png)
 
-![image alt text](image_2.png)
+    När du har remixat programmet så ser du att projektets namn har förändrats.
 
-När du har remixat programmet så ser du att projektets namn har förändrats. Om du tittar under namnet ska du också se ditt eget användarnamn. Du kan döpa om projekt till något som passar bättre.
+3. Döp om projektet till något som passar bättre.
 
 ![image alt text](image_3.png)
 
-I projektet har du nu en sprajt som visar koordinatsystemet scenen. Dels visas positionen i höger–vänster riktning och dels visas positionen i upp–ner riktning. Positionen i höger–vänster riktning kallas x–värdet och positionen i upp–ner riktning kallas y-värdet. X– och y–värdena anges på två axlar: x–axeln och y–axeln. X–axeln går mellan –240 och 240, medan y–axeln går mellan –180 och 180.
-
-Denna sprajt har en enkel kod som placerar axlarna på rätt ställe på spelplanen.
+I projektet har du nu en sprajt som visar koordinatsystemet scenen. Denna sprajt har en enkel kod som placerar axlarna på rätt ställe på spelplanen.
 
 Du har också fått en bakgrund som består av 10 prickar, samt ett streck mellan punkt 1 och 10. Din uppgift är nu att koda så att du kan spela prick-till-prick.
 
@@ -40,29 +38,27 @@ Du har också fått en bakgrund som består av 10 prickar, samt ett streck mella
 
 Vi ska börja med att lägga till en penna i projektet.
 
-![image alt text](image_4.png)
-
 1. Klicka på **"Välj sprajt från biblioteket"**
+
+    ![image alt text](image_4.png)
 
 2. Markera **Pennan** och klicka på **Ok**
 
-Nu har vi en penna i spelet. I början av spelet vill vi att den ska vara placerad vid prick nummer 1. Skapa därför ett skript för **Pennan** som säger
+I början av spelet vill vi att den ska vara placerad vid prick nummer 1.
 
-1. När START klickas på
+* Skapa ett skript för **Pennan** som säger:
 
-2. Gå till x: 40 y: 20
+    * När START klickas på
+
+    * Gå till x: 50 y: 25
 
 ![image alt text](image_5.png)
 
-*Skript som sätter pennans startposition*
-
 > Testa ditt program: klicka på den **Gröna flaggan**. Hamnar spetsen på vid prick nummer 1?
 
-Det kommer den inte göra. Anledningen är att centrum för pennan är satt till ett helt annat ställe än spetsen. Detta kan vi ändra på!
+Det kommer den inte göra! Anledningen är att centrum för pennan är satt till ett helt annat ställe än spetsen. Detta kan vi ändra på.
 
 ![image alt text](image_6.png)
-
-*Klädslar och ritytan - hjälp för att sätta centrum för pennan*
 
 1. Klicka på fliken **Klädslar**
 
@@ -80,7 +76,7 @@ Det kommer den inte göra. Anledningen är att centrum för pennan är satt till
 
 ## Delmoment 3: Rita
 
-Vi ska börja med att fortsätta på start-skriptet som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till..."**-blocket.
+Vi ska börja med att fortsätta på *start-skriptet* som du skapade ovan och placerade pennan. Lägg därför till följande kod precis under **"Gå till..."**-blocket.
 
 1. Radera
 
@@ -88,37 +84,34 @@ Vi ska börja med att fortsätta på start-skriptet som du skapade ovan och plac
 
 3. Sätt pennans storlek till **3**
 
-Alla dessa kodblock hittar du under kategorin **Penna**. Koden ser till att den uppritade figuren tas bort när spelet börjar, och sätter stilen på pennan.
+Alla dessa kodblock hittar du under kategorin **Penna**.
 
 ![image alt text](image_8.png)
 
-*Så här ska startskriptet se ut*
+1. Skapa en variabel som ska hålla svaret till en fråga vi ska ställa till den som ska spela.
 
-För att gå vidare behöver vi en variabel som håller svaret till en fråga vi ska ställa till den som ska spela.
+    1. Gå till kategorin **Data** och klicka på **"Skapa en variabel"**
 
-1. Gå till kategorin **Data** och klicka på **"Skapa en variabel"**
+    2. Döp variabeln till **"temp"** (för temporär)
 
-2. Döp variabeln till **"temp"** (för temporär)
+    ![image alt text](image_9.png)
 
-![image alt text](image_9.png)
 
-*Hur du skapar en ny variabel*
+2. Skapa ett nytt skript som säger:
 
-Skapa ett nytt skript som säger:
+    1. När **"r"**-tangenten trycks ned
 
-1. När **"r"**-tangenten trycks ned
+    2. Fråga **"Ange x-koordinat**" och vänta
 
-2. Fråga **"Ange x-koordinat**" och vänta
+    3. Sätt variabelen **temp** till "**svar"**
 
-3. Sätt variabelen **temp** till "**svar"**
+    4. Fråga **"Ange y-koordinat"** och vänta
 
-4. Fråga **"Ange y-koordinat"** och vänta
+    5. Penna ned
 
-5. Penna ned
+    6. Gå till **x: "temp" y: “svar”**
 
-6. Gå till **x: "temp" y: “svar”**
-
-7. Penna upp
+    7. Penna upp
 
 ![image alt text](image_10.png)
 
