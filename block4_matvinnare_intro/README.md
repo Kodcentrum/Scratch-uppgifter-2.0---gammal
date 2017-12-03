@@ -199,7 +199,7 @@ du redan har skapat.
 
 1.  Du kopierar hela skriptet genom att ta tag högst upp i blocket **”när START klickas på”** och dra och släppa skriptet på de sprajtar som du vill kopiera skriptet till.
 
-![image alt text](image_17.png)
+![image alt text](image_18.png)
 
 **Tips:** Var noga så att du inte släpper skriptet i mitten, där alla
 skriptblock ligger, för då försvinner all din kod! Ta tag i skriptet och
