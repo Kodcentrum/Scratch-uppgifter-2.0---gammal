@@ -10,25 +10,23 @@ Ett exempel på hur spelet kan se ut hittar du här:
 
 ## Delmoment 1 - Remixa ett projekt
 
-Vi börjar med att remixa ett befintligt projekt. Detta gör att det blir enklare att komma igång. Dessutom får du några sprajtar och lite kod på köpet. Smart va?!
+Vi börjar med att remixa ett befintligt projekt.
 
-Öppna din webbläsare och gå till
+1. Öppna din webbläsare och gå till
 
-[https://scratch.mit.edu/projects/172763496/](https://scratch.mit.edu/projects/172763496/)
+    [https://scratch.mit.edu/projects/172763496/](https://scratch.mit.edu/projects/172763496/)
 
-Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
+2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 
-![image alt text](image_1.png)
+    ![image alt text](image_1.png)
 
-*Klicka på knappen som är rödmarkerad*
+3. Klicka sedan på knappen **"Remix"**.
 
-Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+    ![image alt text](image_2.png)
 
-![image alt text](image_2.png)
+4. Döp om projekt till något som passar bättre.
 
-När du har remixat programmet så ser du att projektets namn har förändrats. Om du tittar under namnet ska du också se ditt eget användarnamn. Du kan döpa om projekt till något som passar bättre.
-
-![image alt text](image_3.png)
+    ![image alt text](image_3.png)
 
 I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta som spelet utspelar sig på. Hur dessa fungerar ska vi titta på strax. Du har också en sprajt som är en robot och som kan röra sig över scenen.
 
@@ -86,9 +84,9 @@ Resten av koden är till för att förflytta bakgrunden. Först ändras variabel
 
 Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du få  skapa målet för spelet: nycklar som roboten ska hitta.
 
-![image alt text](image_10.png)
-
 1. Klicka på **"Välj sprajt från biblioteket"**
+
+    ![image alt text](image_10.png)
 
 2. Markera Nyckeln och klicka på **Ok**
 
@@ -97,8 +95,6 @@ Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
 ![image alt text](image_11.png)
-
-*Roboten får en ledtråd var en nyckel är gömd genom att vi visar en klädseln som är en ring.*
 
 1. Markera **Nyckel** sprajten och klicka på fliken **Klädslar**.
 
@@ -136,8 +132,6 @@ Nu är det äntligen dags att koda! Vi ska placera ut ett antal nycklar slumpmä
         2. **Skapa klon** av mig själv
 
 ![image alt text](image_15.png)
-
-*Dessa kodblock behöver du*
 
 Detta är **startskriptet** för nyckeln. Eftersom vi kommer att skapa nycklar med hjälp av KLONER kommer vi att gömma sprajten. Sedan placerar vid ut 5 KLONER på scenen med 3 sekunders mellanrum.
 
@@ -256,4 +250,4 @@ Varför behövs det nytt koordinatsystem för bakgrunden?
 
 Vad används KLONER till?
 
-Varför är det bra att använda KLONER i ställer för flera sprajter som ser likadana ut? 
+Varför är det bra att använda KLONER i ställer för flera sprajter som ser likadana ut?

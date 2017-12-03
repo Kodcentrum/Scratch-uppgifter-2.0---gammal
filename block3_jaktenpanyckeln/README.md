@@ -1,6 +1,6 @@
 # Jakten på nyckeln
 
-Har du någon gång letat efter en skatt? I denna uppgift ska du få koda en enklare skattjakt för din kompis. Du kommer få öva dig på koordinater som är ett sätt att ange någon eller någots position. I spelet kommer det vara skattens position som är viktig.
+Har du någon gång letat efter en skatt? I denna uppgift ska du få koda en enklare skattjakt. Du kommer få öva dig på koordinater som är ett sätt att ange någon eller någots position. I spelet kommer det vara skattens position som är viktig.
 
 Så här kan det se ut:
 
@@ -10,23 +10,24 @@ Så här kan det se ut:
 
 ## Delmoment 1 - Remixa ett projekt
 
-Vi börjar med att remixa ett projekt som redan finns på Scratch. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!
+Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
-Öppna din webbläsare och gå till
+1. Öppna din webbläsare och gå till
 
-[https://scratch.mit.edu/projects/172763192/](https://scratch.mit.edu/projects/172763192/)
+    [https://scratch.mit.edu/projects/172763192/](https://scratch.mit.edu/projects/172763192/)
 
-Klicka på knappen **"Se inuti"** så att du kan se koden.
+2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 
-![image alt text](image_1.png)
+    ![image alt text](image_1.png)
 
-*Projektsidan som visas när du följer länken ovan*
+3. Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
 
-Klicka sedan på knappen **"Remix"** så att du får din egen version av projektet.
+    ![image alt text](image_2.png)
 
-![image alt text](image_2.png)*Remix-knappen markerad*
+    När du har remixat programmet så ser du att projektets namn har förändrats.
 
-När du har remixat programmet så ser du att projektets namn har förändrats. Om du tittar under namnet ska du också se ditt eget användarnamn. Du kan döpa om projekt till något som passar bättre.
+4. Döp om projekt till något som passar bättre.
+
 
 ![image alt text](image_3.png)
 
@@ -38,61 +39,59 @@ I projektet har du nu två sprajter: ![image alt text](image_4.png)
 
 2. Koordinataxlar som visar x- och y-axeln.
 
-Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter och koordinatsystemet i Scratch. Varje Sprajt har en specifik position i koordinatsystemet som anges med två siffror. En som anger positionen i höger–vänster riktning och en som anger positionen i upp–ner riktning. Positionen i höger–vänster riktning kallas x–värdet och positionen i upp–ner riktning kallas y-värdet. X– och y–värdena anges på två axlar: x–axeln och y–axeln. X–axeln går mellan –240 och 240, medan y–axeln går mellan –180 och 180.
+Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter och koordinatsystemet i Scratch.
 
-![image alt text](image_5.png)*Så här ser en markerad sprajt ut*
 
-Om du markerar sprajten **Koordinater** så får du upp koden för denna sprajt. Det är en enkel kod som helt enkelt placerar sprajten på rätt ställe på skärmen.
+1. Markera sprajten **Koordinater** så får du upp koden för denna sprajt. Det är en enkel kod som helt enkelt placerar sprajten på rätt ställe på skärmen.
 
-Om du klickar på fliken **Klädslar** kan du se att det finns koordinatsystemet uppritat på olika sätt.
+    ![image alt text](image_5.png)
 
-![image alt text](image_6.png)
+2. Klicka på fliken **Klädslar** kan du se att det finns koordinatsystemet uppritat på olika sätt.
 
-*De olika sätten att rita koordinatsystemet*
+    ![image alt text](image_6.png)
 
-Om du klickar på klädseln **"mitten_svart"** så får du upp ett sätt att visa koordinatsystemet som du kanske känner igen bättre. I detta koordinatsystem korsar x– och y–axeln med varandra.
+3. Klickar på klädseln **"uppe_svart"**
 
-![image alt text](image_7.png)
+    ![image alt text](image_7.png)
 
-Det är dock lika rätt att visa koordinatsystemet som det gjordes när du remixade projektet. Klicka på klädseln **"uppe_svart"**. I detta koordinatsystem visas x–axeln överst på scenen och y–axeln till vänster i scenen. På så sätt så skyms inte så mycket av spelet av koordinatsystemet, så vi kommer använda oss av det i denna övning. Om du känner dig säkrare med “korset” så klicka på klädseln **“mitten_svart”**.
+> Detta koordinatsystem visar x-axeln i övre delen av scenen och y-axeln till vänster, vilket gör att de inte är i vägen för spelet. Om du känner dig osäker på detta koordinatsystem så använd klädseln **"mitten_svart"**
 
-Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!
+**Nu ska vi kolla så att placeringen av koordinatsystemet fungerar!**
 
-![image alt text](image_8.png)
+1. Flytta musen vid **–50** på **x-axeln** och så visas koordinaterna i nedre-högra hörnet
 
-*När du har musen vid –50 på x-axeln så visas koordinaterna i nedre-högra hörnet*
+    ![image alt text](image_8.png)
 
-*Flytta musen så att den är vid siffran **–50** på **x-axeln**.
+> Stämmer den siffran överrens med siffran på den utritade x-axeln?
 
-* Om du tittar i nedre högra hörnet på spelplanen så visar Scratch koordinaterna för musen. Stämmer den siffran överrens med siffran på den utritade x-axeln?
+2. Flytta musen till **50** på **y-axeln** och kolla koordinaten i nedre hörnet.
 
-* Upprepa proceduren men flytta musen till **50** på **y-axeln**.
+3. Klicka på sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i området med kod. Vilka koordinater har sprajten?
 
-Klicka nu sprajten **Robot** så att den blir markerad. Koordinaten för en sprajt visas i övre högra hörnet i området med kod. Vilka koordinater har sprajten?
+    ![image alt text](image_9.png)
 
-![image alt text](image_9.png)
+4. Flytta omkring **Robot-sprajten** på spelplanen och se hur koordinaterna ändrar sig
 
-* Flytta omkring **Robot-sprajten** på spelplanen och se hur koordinaterna ändrar sig
-
-* Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på spelplanen.
+5. Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på spelplanen.
 
 ## Delmoment 2 - Sätta bakgrund
 
 Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad du vill, men i detta exempel har vi valt en spöklik skog.
 
-![image alt text](image_10.png)
 
-* Klicka på **Välj bakgrund** från bibliotek
+1. Klicka på **Välj bakgrund** från bibliotek
 
-* Markera en bakgrund och klicka på **Ok**
+    ![image alt text](image_10.png)
+
+2. Markera en bakgrund och klicka på **Ok**
 
 > **Tips!** Om du har valt en mörk bakgrund kan det vara svårt att se koordinatsystemet. Om det är så kan du byta färg på koordinatsystemet
 
-* Markera **Koordinater** sprajten och klicka på fliken **Klädslar**
+3. Markera **Koordinater** sprajten och klicka på fliken **Klädslar**
 
-* Markera klädseln *uppe_vit* så blir färgen på koordinaterna vit
+4. Markera klädseln *uppe_vit* så blir färgen på koordinaterna vit
 
-![image alt text](image_11.png)
+    ![image alt text](image_11.png)
 
 Så här kan spelet se ut nu!
 
@@ -100,35 +99,36 @@ Så här kan spelet se ut nu!
 
 ## Delmoment 3 - Flytta roboten
 
-Nu ska du få koda roboten så att den förflyttar sig på scenen. Det sker genom att ställa en fråga till spelaren om vilka koordinater den vill att roboten ska gå till. Markera **Robot** sprajten.
+Nu ska du få koda roboten så att den förflyttar sig på scenen. Det sker genom att ställa en fråga till spelaren om vilka koordinater den vill att roboten ska gå till.
 
-Skapa följande kod
 
-1. När **START** klickas på
+1. Markera **Robot** sprajten
 
-2. För alltid
+2. Skapa följande kod
 
-    1. OM tangenten **x** är nedtryckt
+    1. När **START** klickas på
 
-        1. Fråga **"Vilken är x-koordinaten?"** och vänta
+    2. För alltid
 
-        2. Sätt x till SVAR
+        1. OM tangenten **x** är nedtryckt
+
+            1. Fråga **"Vilken är x-koordinaten?"** och vänta
+
+            2. Sätt x till SVAR
 
 ![image alt text](image_13.png)
 
-*Skriptet som beskrivs ovan*
-
-Nu ska du kunna flytta roboten i längs x-axeln.
-
 > Tryck ner **tangenten x** och testa. Kommer en ruta upp där du kan ange vilken x-koordinaten är? Förflyttar sig roboten till den x-koordinat du angav
 
-Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta på koden du skapade ovan. Innanför **"För alltid"**-loopen lägg följande kod
+Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta på koden du skapade ovan.
 
-1. OM **y**-tangenten är nedtryckt
+1. Innanför **"För alltid"**-loopen lägg följande kod
 
-    1. Fråga **"Vilken är y-koordinaten?"** och vänta
+    1. OM **y**-tangenten är nedtryckt
 
-    2. Sätt y till SVAR
+        1. Fråga **"Vilken är y-koordinaten?"** och vänta
+
+        2. Sätt y till SVAR
 
 ![image alt text](image_14.png)
 
@@ -138,11 +138,13 @@ Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta p�
 
 > Testa programmet. Tryck ner **tangenten y**. Kommer en ruta upp där du kan ange vilken y-koordinaten är? Förflyttar sig roboten till den y-koordinat du angav
 
-För att roboten ska starta på samma ställe varje gång så ska vi lägga in ett **Start-skript**. Precis efter blocket med **"När START klickas på"**, lägger du in följande block
+* För att roboten ska starta på samma ställe varje gång så ska vi lägga in ett **Start-skript**.
 
-1. Gå till **x:0 y:0**
+* Precis efter blocket med **"När START klickas på"**, lägger du in följande block
 
-![image alt text](image_16.png)
+    1. Gå till **x:0 y:0**
+
+    ![image alt text](image_16.png)
 
 > Testa spelet igen! Var hamnar roboten när spelet startar?
 
@@ -156,71 +158,69 @@ Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
 3. Klicka på knappen **Förminska** och sedan några gånger på **Nyckeln** så att den blir mindre.
 
+    ![image alt text](image_17b.png)
+
 4. Placera nyckeln på ett bra ställe på spelplanen
 
 ![image alt text](image_17.png)
 
-Skapa ett skript för **nyckeln** som säger
+1.  Skapa ett skript för **nyckeln** som säger
 
-1. När START klickas på
+    1. När START klickas på
 
-2. Gå till **x: y:** . (De koordinater som står i detta kodblock kommer vara de koordinater som nyckeln är placerad på.)
+    2. Gå till **x: y:** . (De koordinater som står i detta kodblock kommer vara de koordinater som nyckeln är placerad på.)
 
-3. Göm
+    3. Göm
 
-![image alt text](image_18.png)
+    ![image alt text](image_18.png)
 
-*Nyckelns startskript*
+2. Skapa ett nytt Skript för nyckeln:
 
-Skapa ett nytt Skript för nyckeln:
+    1. Dra in ett block **"när jag tar emot meddelande1"** till skriptområdet
 
-1. Dra in ett block **"när jag tar emot meddelande1"** till skriptområdet
+    ![image alt text](image_19.png)
 
-![image alt text](image_19.png)
+    2. Klicka på den lilla **nedåtpilen** på kodblocket och klicka på **"nytt meddelande”**.
 
-2. Klicka på den lilla **nedåtpilen** på kodblocket och klicka på **"nytt meddelande”**.
+    ![image alt text](image_20.png)
 
-![image alt text](image_20.png)
+    3. I rutan som dyker upp skriver du **"visa nyckeln"**.
 
-3. I rutan som dyker upp skriver du **"visa nyckeln"**.
+    ![image alt text](image_21.png)
 
-![image alt text](image_21.png)
+    4. Under detta kodblock lägger du in följande kod
 
-4. Under detta kodblock lägger du in följande kod
+        1. Lägg överst
 
-    1. Lägg överst
+        2. Visa
 
-    2. Visa
+        ![image alt text](image_22.png)
 
-![image alt text](image_22.png)
+> Nu kommer nyckeln att visas när den tar emot meddelandet **"visa nyckeln"**. Men när kommer det ske? Jo, när roboten är vid nyckeln. Det ska du koda nu. Vi ska säga åt roboten att när den är alldeles i närheten av nyckeln ska nyckeln visas på scenen. För att det inte ska bli allt för svårt, räcker det att roboten är 15 pixlar ifrån nyckeln.  
 
-*Så här ska skriptet se ut till slut*
+1. Markera **Robot**-sprajten.
 
-Nu kommer nyckeln att visas när den tar emot meddelandet **"visa nyckeln"**. Men när kommer det ske? Jo, när roboten är vid nyckeln. Det ska du koda nu. Vi ska säga åt roboten att när den är alldeles i närheten av nyckeln ska nyckeln visas på scenen. För att det inte ska bli allt för svårt, räcker det att roboten är 15 pixlar ifrån nyckeln.  
+2. Skapa följande skript och lägg det innanför **"För alltid"**-loopen.
 
-Markera **Robot**-sprajten. Skapa följande skript och lägg det innanför **"För alltid"**-loopen.
+    1. OM avstånd till **Key** är mindre än **15**
 
-1. OM avstånd till **Key** är mindre än **15**
+        1. Skicka meddelandet **"visa nyckeln"** och vänta
 
-    1. Skicka meddelandet **"visa nyckeln"** och vänta
+        2. Säg **"Jag hittade den!"** i 2 sekunder
 
-    2. Säg **"Jag hittade den!"** i 2 sekunder
+        3. Stoppa alla
 
-    3. Stoppa alla
-
-![image alt text](image_23.png)
-
-*Dessa kodblock behöver du*
+        ![image alt text](image_23.png)
 
 > Testa spelet! Klicka på START och försök styra roboten så att den är vid nyckeln. Visar sig nyckeln?
 
 > Testa spelet på en kompis! Har din kompis svårt att hitta nyckeln?
 
-## Delmoment 5: Ledtrådar
+## Delmoment 5: Ledtrådar - stenar
 
 Om du låter en kompis spela programmet nu så kommer det vara svårt att hitta nyckeln eftersom spelplanen är så stor. Därför ska vi skapa ledtrådar som gör det lite lättare att hitta nyckeln.
 
-Det första vi ska göra är att skapa ett antalet stenar som är utplacerade på spelplanen. Under en av dessa kommer nyckeln vara gömd.
+Först vi ska göra är att skapa ett antalet stenar som är utplacerade på spelplanen. Under en av dessa kommer nyckeln vara gömd.
 
 1. Skapa en **ny sprajt från biblioteket**
 
@@ -228,21 +228,21 @@ Det första vi ska göra är att skapa ett antalet stenar som är utplacerade p�
 
 3. Lägg den så att den är ungefär ovanför nyckeln
 
-Skapa ett skript för denna sprajt som säger
+4. Skapa ett skript för denna sprajt som säger
 
-1. När START klickas på
+    1. När START klickas på
 
-2. Gå till **x: y:**. Här anger du samma start-koordinater som för nyckeln. På så sätt kommer stenen vara precis där nyckeln är.
+    2. Gå till **x: y:**. Här anger du samma start-koordinater som för nyckeln. På så sätt kommer stenen vara precis där nyckeln är.
 
-![image alt text](image_24.png)
+    ![image alt text](image_24.png)
 
-Skapa nu **minst 3 nya sprajter** som också är stenar. Placera ut dem på spelplanen, men
+4. Skapa nu **minst 3 nya sprajter** som också är stenar. Placera ut dem på spelplanen, men
 
-1. Inte för nära Roboten
+    1. Inte för nära Roboten
 
-2. Inte för nära nyckeln
+    2. Inte för nära nyckeln
 
-Dessa sprajter behöver ingen kod.
+5. Dessa sprajter behöver ingen kod.
 
 Så här kan det se ut nu:
 
@@ -250,33 +250,103 @@ Så här kan det se ut nu:
 
 > **Tips:** Om du märker att Roboten hamnar bakom stenarna, så kan du lägga in kodblocket **"Lägg överst"** precis i början av Robotens startskript.
 
+## Delmoment 6: Ledtrådar  - roboten
+
 En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseende om det "bränns", det vill säga om Roboten kommer i närheten av nyckeln.
 
-**Robot** sprajten har flera klädslar som du ser om du klickar på fliken **Klädslar**.
+1. Klicka på fliken **Klädslar** för sprajten **Robot**.
 
-![image alt text](image_26.png)
+    ![image alt text](image_26.png)
 
-*Robotens klädslar*
+2. Välj ut en klädsel som du tycker roboten ska ha när den är långt ifrån nyckeln och en klädsel som den ska ha när den är nära
 
-* Välj ut en klädsel som du tycker roboten ska ha när den är långt ifrån nyckeln och en klädsel som den ska ha när den är nära
-
-* Du kan också rita på klädslarna för att göra dem olika. Här i bilden bredvid har roboten fått röda kinder.
+3. Du kan också rita på klädslarna för att göra dem olika. Här i bilden nedan har roboten fått röda kinder.
 
 ![image alt text](image_27.png)*En robot med röda kinder*
 
-Markera Roboten och skapa följande skript innanför **"För alltid"**-loopen.
+1. Markera Roboten
 
-2. OM avstånd till **Key** är mindre än **45**
+2. Skapa följande skript innanför **"För alltid"**-loopen
 
-    4. Byt till klädsel **Robot3**. Välj den klädsel som roboten ska ha i närheten av nyckeln.
+    1. OM avstånd till **Key** är mindre än **45**
 
-3. ANNARS
+        * Byt till klädsel **Robot3**. Välj den klädsel som roboten ska ha i närheten av nyckeln.
 
-    5. Byt till klädsel **Robot1**. Välj den klädsel som roboten ska ha långt i från nyckeln.
+    2. ANNARS
+
+        * Byt till klädsel **Robot1**. Välj den klädsel som roboten ska ha långt i från nyckeln.
 
 ![image alt text](image_28.png)
 
-*Dessa kodblock behöver du*
+## Delmoment 7: Slumpmässig placering
+
+Detta delmoment är valfritt men gör att spelat blir roligare för dig som har kodadet det. Nu ska du nämligen koda så att nyckeln hamnar på en slumpmässig plats på spelplanen!
+
+1. Markera sprajten **Robot**
+
+2. Lägg in ett block som säger **när jag tar emot** meddelandet **"starta"**
+
+3. Flytta ALL kod som ligger under blocket **när start klickas på** till det nya blocket.
+
+    ![image alt text](image_70-72.gif)
+
+4. Lägg in ett block **Gå till x:0 y:0** under **När start klickas på**
+
+    ![](image_73.png)
+
+> Nu ska roboten starta i mitten av spelplanen men den kommer inte kunna styras innan meddelande **starta** tas emot. Testa!
+
+1. Markera **nyckeln**
+
+2. Skapa en variabel som heter **nyx**
+
+3. Skapa en variabel som heter **nyy**
+
+4. Visa INTE **nyx** och **nyy** på skärmen
+
+5. Högerklicka på koden under **När start klickas på** och ta bort koden
+
+    ![](image_74.png)
+
+6. Skapa ett nytt skript som säger
+
+    1. När **start** klickas på
+
+    2. Gå till **x:** **x-läge av Robot** **y:** **y-läge av Robot**
+
+    3. Repetera tills **avstånd till Robot > 50**
+
+        1. Sätt **nyx** till ett **slumptal** mellan -160 och 200
+
+        2. Sätt **nyy** till ett **slumptal** mellan -150 och 100
+
+        3. Gå till **x: nyx**, **y: nyy**
+
+    4. Göm
+
+    5. Skicka meddelandet **starta**
+
+    ![](image_75.png)
+
+7. Markera stenen som är ovanpå nyckeln
+
+8. Skapa ett skript som säger
+
+    1. När meddelandet **starta** tas emot
+
+    2. Gå till **x: nyx**, **y: nyy**
+
+    ![](image_76.png)
+
+> Testa spelet! Nu ska en av stenarna placeras ut slumpmässigt på spelplanen.
+
+1. Skapa följande skript för de andra stenarna i spelet
+
+    1. När meddelandet **starta** tas emot
+
+    2. Gå till **x: slumptal** mellan -160 och 200, **y: slumptal** mellan -150 och 100
+
+    ![](image_77.png)
 
 ##  Färdig!
 
@@ -325,26 +395,6 @@ Nu kan spelaren gissa hur många gånger som helst. Du kan göra det lite svåra
 3. Du får också kolla om **"antalet gissningar"** är lika med det maximala antalet som du har bestämt.
 
 4. När detta sker så stoppar du alla skript
-
-### Slumpmässig placering
-
-För att göra det svårare för dig som har skapat spelet kan du placera ut stenarna och nyckeln helt slumpmässigt i början av spelet. Då får du en helt ny utmaning varje gång du spelar.
-
-Här är några ledtrådar till hur du kan göra för att få en sten och nyckeln på samma plats:
-
-1. Skapa en variabel som heter **"ny x"**
-
-2. Skapa en variabel som heter **"ny y"**
-
-3. I början av spelet sätter du dessa till slumptal.
-
-![image alt text](image_32.png)
-
-4. Placera nyckeln på x: **"ny x"** y: **“ny y”**
-
-5. Gör samma sak med stenen som är precis ovan stenen.
-
-På så sätt kommer dessa två sprajter alltid vara precis ovanpå varandra. Du behöver också kolla så att nyckeln inte hamnar precis vid roboten så att spelet slutar vid starten.
 
 ## Frågeställningar
 
