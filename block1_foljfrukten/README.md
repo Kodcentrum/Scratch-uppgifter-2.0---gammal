@@ -71,9 +71,9 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 Du ska få börja med att ladda en bakgrundsbild för spelet.
 
-![image alt text](image_10.png)
-
 1. Klicka på fliken **Bakgrunder**
+
+    ![image alt text](image_10.png)
 
 2. Klicka på **Färgburken** och färglägg bakgrunden med en rolig färg. Här i exemplet har jag använt grönt.
 
@@ -87,6 +87,8 @@ Du ska få börja med att ladda en bakgrundsbild för spelet.
     ![image alt text](image_12.png)
 
 2. Markera **Äpplet** och klicka på **Ok**
+
+    ![image alt text](image_12b.png)
 
 3. Placera **Äpplet** i övre vänstra hörnet på scenen.
 
@@ -126,15 +128,17 @@ Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först
 
 > Testa programmet genom att klicka på Roboten! Går Roboten runt till alla frukterna?
 
-Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitten när spelet startar. Vi vill också göra så att roboten inte döljs av frukterna. Detta kallas ett *startskript*. Skapa följande skript för **Roboten**
+Vi ska göra programmet lite bättre, så att roboten kommer tillbaka till mitten när spelet startar. Vi vill också göra så att roboten inte döljs av frukterna. Detta kallas ett *startskript*.
 
-1. När START klickas på
+* Skapa följande skript för **Roboten**
 
-2. Gå till x:0 y:0
+    1. När START klickas på
 
-3. Lägg överst
+    2. Gå till x:0 y:0
 
-![image alt text](image_19.png)
+    3. Lägg överst
+
+    ![image alt text](image_19.png)
 
 ## Färdig!
 

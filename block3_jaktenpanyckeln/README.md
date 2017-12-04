@@ -89,7 +89,7 @@ Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad d
 
 3. Markera **Koordinater** sprajten och klicka på fliken **Klädslar**
 
-4. Markera klädseln *uppe_vit* så blir färgen på koordinaterna vit
+4. Markera klädseln **uppe_vit** så blir färgen på koordinaterna vit
 
     ![image alt text](image_11.png)
 
@@ -108,7 +108,7 @@ Nu ska du få koda roboten så att den förflyttar sig på scenen. Det sker geno
 
     1. När **START** klickas på
 
-    2. För alltid
+    2. För alltid:
 
         1. OM tangenten **x** är nedtryckt
 
@@ -152,7 +152,9 @@ Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta p�
 
 Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
-1. Klicka på **"Välj sprajt från biblioteket"** ![image alt text](image_1617.png)
+1. Klicka på **"Välj sprajt från biblioteket"**
+
+    ![image alt text](image_1617.png)
 
 2. Markera Nyckeln och klicka på **Ok**
 
@@ -286,11 +288,11 @@ Detta delmoment är valfritt men gör att spelat blir roligare för dig som har 
 
 2. Lägg in ett block som säger **när jag tar emot** meddelandet **"starta"**
 
-3. Flytta ALL kod som ligger under blocket **när start klickas på** till det nya blocket.
+3. Flytta ALL kod som ligger under blocket **"när start klickas på""** till det nya blocket.
 
     ![image alt text](image_70-72.gif)
 
-4. Lägg in ett block **Gå till x:0 y:0** under **När start klickas på**
+4. Lägg in ett block **Gå till x:0 y:0** under **"när start klickas på"**
 
     ![](image_73.png)
 
@@ -300,13 +302,21 @@ Detta delmoment är valfritt men gör att spelat blir roligare för dig som har 
 
 2. Skapa en variabel som heter **nyx**
 
-3. Skapa en variabel som heter **nyy**
+    1. Gå till kategorin **Data** och klicka på **"Skapa en variabel"**
 
-4. Visa INTE **nyx** och **nyy** på skärmen
-
-5. Högerklicka på koden under **När start klickas på** och ta bort koden
+    2. Döp variabeln till **nyx**
 
     ![](image_74.png)
+
+3. Skapa också en variabel som heter **nyy**
+
+4. Visa INTE **nyx** och **nyy** på skärmen, genom att klicka bort krysset bredvid variablerna
+
+    ![](image_75.png)
+
+5. Högerklicka på koden under **"när start klickas på"** och radera koden
+
+    ![](image_76.png)
 
 6. Skapa ett nytt skript som säger
 
@@ -326,9 +336,9 @@ Detta delmoment är valfritt men gör att spelat blir roligare för dig som har 
 
     5. Skicka meddelandet **starta**
 
-    ![](image_75.png)
+    ![](image_77.png)
 
-7. Markera stenen som är ovanpå nyckeln
+7. Markera **stenen som är ovanpå nyckeln**
 
 8. Skapa ett skript som säger
 
@@ -336,7 +346,7 @@ Detta delmoment är valfritt men gör att spelat blir roligare för dig som har 
 
     2. Gå till **x: nyx**, **y: nyy**
 
-    ![](image_76.png)
+    ![](image_78.png)
 
 > Testa spelet! Nu ska en av stenarna placeras ut slumpmässigt på spelplanen.
 
@@ -346,7 +356,7 @@ Detta delmoment är valfritt men gör att spelat blir roligare för dig som har 
 
     2. Gå till **x: slumptal** mellan -160 och 200, **y: slumptal** mellan -150 och 100
 
-    ![](image_77.png)
+    ![](image_79.png)
 
 ##  Färdig!
 
