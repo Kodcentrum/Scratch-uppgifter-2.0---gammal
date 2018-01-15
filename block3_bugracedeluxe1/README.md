@@ -69,7 +69,7 @@ Visst är det tråkigt att spelet tar slut när du kommit runt ett varv? Nu ska 
 
     ![image alt text](image_7.png)
 
-1. Ändra på koden fö sprajten **Skalbagge**
+1. Ändra på koden för sprajten **Skalbagge**
 
     1. Under "När **start** klickas på" dra in ett block “**Sätt Varv** till **0**”
 
@@ -79,7 +79,7 @@ Visst är det tråkigt att spelet tar slut när du kommit runt ett varv? Nu ska 
 
 2. Skapa följande skript i stället när skalbaggen rör mållinjen
 
-    3. Säg **"Mål"* *i **2 sekunder**
+    3. Säg **"Mål"** i **2 sekunder**
 
     4. Öka variabel **"Varv"** med 1
 
@@ -125,7 +125,7 @@ Nu ska du få koda en till variabel som håller reda på hur många liv skalbagg
 
 För att skalbaggen ska få nya liv när den har åkt ut i gräset ska du få koda en ny sprajt som ska föreställa mat.
 
-1. Skapa en ny sprajt som ska bli mat åt Skalbaggen.* Här har jag använt mig av ett äpple, men du kan välja vad du vill!*
+1. Skapa en ny sprajt som ska bli mat åt Skalbaggen. *Här har jag använt mig av ett äpple, men du kan välja vad du vill!*
 
     ![image alt text](image_13.png)
 
