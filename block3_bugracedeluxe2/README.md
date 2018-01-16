@@ -1,6 +1,6 @@
 # Bug race deluxe - del 2
 
-Detta är fortsättning på uppgifterna **Bug race** och **Bug race deluxe – del 1**. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort du kommer lägga in hinder för den och du kommer skapa flera banor. 
+Detta är fortsättning på uppgifterna **Bug race** och **Bug race deluxe – del 1**. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort, du kommer lägga in hinder för den och du kommer skapa flera banor.
 
 Ett exempel på hur det kan se ut hittar du [här:](https://scratch.mit.edu/projects/197016490)
 
@@ -28,7 +28,7 @@ Vi vill att farten ska ändras när skalbaggen äter mat så att det blir svåra
 
 4. Ändra på koden för sprajten som är **Mat**
 
-5. Ändra** Fart** med 0.5 eller 1 när **sprajten** rör **skalbaggen**
+5. Ändra **Fart** med 0.5 eller 1 när **sprajten** rör **skalbaggen**
 
     ![image alt text](image_4.png)
 
@@ -48,7 +48,7 @@ Nu ska du göra det ännu svårare för Skalbaggen genom att koda hinder som dyk
 
     ![image alt text](image_7.png)
 
-4. Kryssa och i rutan **Visa** så du tillfälligt visar sprajten på spelplanen
+4. Kryssa i rutan **Visa** så du tillfälligt visar sprajten på spelplanen
 
 5. Gå till fliken **Klädsel**
 
@@ -68,7 +68,7 @@ Nu behöver du ändra koden så att den nya sprajten beter sig mer som ett hinde
 
     1. Ändra **Liv** med **-1**
 
-    2. **Skicka** meddelandet **"Game over?"** och **vänta**
+    2. **Skicka** meddelandet **"game over?"** och **vänta**
 
     3. **Skicka** meddelandet **"starta"**
 
@@ -142,7 +142,7 @@ Nu har du skript som gör att maximalt 4 skott avfyras när du trycker ner mella
 
         1. **Gå 5** steg
 
-    6. Ändra "**Antal skott" **med **-1**
+    6. Ändra "**Antal skott"** med **-1**
 
     7. **Radera** klonen
 
