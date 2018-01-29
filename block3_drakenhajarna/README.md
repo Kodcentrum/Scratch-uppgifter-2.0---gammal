@@ -8,7 +8,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Sätta upp bakgrunden och draken
+## 1: Sätta upp bakgrunden och draken
 
 Du börjar med att skapa en bakgrund och lägga till en drake. Draken kommer att åka upp och ner på scenen och styrs med hjälp av piltangenterna.
 
@@ -56,7 +56,7 @@ Du börjar med att skapa en bakgrund och lägga till en drake. Draken kommer att
 
 _Den röda rektangeln visar de olika rotationsstilarna. Den blåmarkerade är **vänster-höger**._
 
-## Delmoment 2: Hajar
+## 2: Hajar
 
 Nu ska du få skapa hajar som ska försöka äta upp draken. Flera hajar skapar du med hjälp av KLONER, vilket är ett sätt att skapa kopior av en sprajt som ser likadana ut och beter sig på samma sätt.
 
@@ -104,13 +104,13 @@ Nu ska du få skapa hajar som ska försöka äta upp draken. Flera hajar skapar 
 
   ![image alt block](image_4.png)
 
-  _Här de block du behöver för delmoment 2. Tänk på att vissa ska användas för **Drake** och andra för **Haj**._
+  _Här de block du behöver för 2. Tänk på att vissa ska användas för **Drake** och andra för **Haj**._
 
 > Testa spelet! Försvinner draken när hajen äter upp den?
 
 **Tips:** Är spelet för svårt? Blir draken uppäten för fort? Du kan pröva med att använda **förminskningsverktyget** och göra hajen mindre.
 
-## Delmoment 3: Spelet slutar och börjar om
+## 3: Spelet slutar och börjar om
 Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska också få koda så att det räcker med att trycka på mellanslag för att börja om spelet.
 
 
@@ -169,10 +169,10 @@ Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska oc
 
 _Ungefär så här mycket kod ska du ha skapat för **Drake** nu._
 
-## Delmoment 4: Funktioner
+## 4: Funktioner
 Du kanske tidigare stött på FUNKTIONER i matematik eller på andra ställen. När du kodar FUNKTIONER så fungerar dom på ett lite annorlunda sätt. FUNKTIONER är en **litet skript** som kan **köras flera gånger**.
 
-Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra delmomentet **kopierade** du massor av block som gör precis som sak. Det är **onödigt och kan skapa en massa problem**. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste **ändra på många ställen**. I stället ska du få koda **funktioner** som sedan kan **återanvändas** och **köras flera gånger**. De kommer fungera som vanliga **block**.
+Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra uppgiften **kopierade** du massor av block som gör precis som sak. Det är **onödigt och kan skapa en massa problem**. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste **ändra på många ställen**. I stället ska du få koda **funktioner** som sedan kan **återanvändas** och **köras flera gånger**. De kommer fungera som vanliga **block**.
 
 Vi börjar med hajen:
 

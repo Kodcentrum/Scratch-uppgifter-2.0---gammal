@@ -8,7 +8,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Sätt upp en scen och sprajtar
+## 1: Sätt upp en scen och sprajtar
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
@@ -28,7 +28,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 
 
-## Delmoment 2: Få mattan att sväva och åka
+## 2: Få mattan att sväva och åka
 
 Nu ska du koda så att mattan rör sig upp och ned om och om igen, så att det ser ut som att den svävar i luften. Sedan ska du koda så att mattan åker dit på scenen som du klickar med musen. Hur kommer mattan veta att användaren har klickat på bakgrunden? Svaret är MEDDELANDEN, vilket är ett sätt att kommunicera mellan olika delar av koden. Scenen kommer skicka ut ett meddelande som mattan lyssnar på. Fiffigt va?
 
@@ -68,9 +68,9 @@ Nu ska du koda så att mattan rör sig upp och ned om och om igen, så att det s
 
   ![image alt block](image_4.png)
 
-  _Här är några av de block som behövs för delmoment 2. Tänkt på att du kan behöva använda ett block mer än en gång._
+  _Här är några av de block som behövs för koden ovan. Tänkt på att du kan behöva använda ett block mer än en gång._
 
-## Delmoment 3: Byta bakgrund när mattan rör bollen
+## 3: Byta bakgrund när mattan rör bollen
 
 Nu ska du koda så att mattan åker till basketplanen när den åker in i basketbollen. Då behöver du kod som upptäcker en KOLLISION, det vill säga om mattan krockar med basketbollen.
 
@@ -138,7 +138,7 @@ Nu är det dags att byta bakgrund och dölja basketbollen:
 
 > Nu har du kodat ett enkelt program med en magisk matta som kan åka till en basketplan!
 
-## Delmoment 4: Åka tillbaka till öknen
+## 4: Åka tillbaka till öknen
 
 Det sista du ska få koda är att göra så att mattan kan åka tillbaka till öknen. Då behöver du en ny sprajt att klicka på.
 

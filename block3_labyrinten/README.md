@@ -13,7 +13,7 @@ Två exempel på hur olika spelet kan se ut ser du här:
 ![image alt text](image_1.png)
 
 
-## Delmoment 1: Rita en labyrint
+## 1: Rita en labyrint
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
 
@@ -33,7 +33,7 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 för bakgrund, väggar, start- och målpunkt._
 
 
-## Delmoment 2: Gör din karaktär
+## 2: Gör din karaktär
 
 Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för karaktär vill du spela som?
 
@@ -64,7 +64,7 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 **Tips:** Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
 
 
-## Delmoment 3: Vinna eller förlora
+## 3: Vinna eller förlora
 
 Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt nuddar väggen, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten vinner du.
 
@@ -101,7 +101,7 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 > Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten?
 
 
-## Delmoment 4: En timer
+## 4: En timer
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du!
 
@@ -136,7 +136,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
 
-## Delmoment 5: Flera banor
+## 5: Flera banor
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 

@@ -9,7 +9,7 @@ Ett exempel på det färdiga spelet finns här:
 ![image alt text](image_0.png)
 
 
-## Delmoment 1: Välj sprajtar för fotbollsspelare och boll
+## 1: Välj sprajtar för fotbollsspelare och boll
 
 Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.
 
@@ -32,7 +32,7 @@ Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajta
   ![image alt text](image_4.jpg)   ![image alt text](image_5.jpg)
 
 
-## Delmoment 2: Fotbollsplan som bakgrund
+## 2: Fotbollsplan som bakgrund
 
 Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enkelt!
 
@@ -50,7 +50,7 @@ Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enke
   _Ungefär så här ska fotbollsplanen se ut!_
 
 
-## Delmoment 3: Få spelaren att röra på sig
+## 3: Få spelaren att röra på sig
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
@@ -77,7 +77,7 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
   _Så här borde dina skript för fotbollsspelaren se ut nu._
 
 
-## Delmoment 4: Få spelaren att sparka på bollen
+## 4: Få spelaren att sparka på bollen
 
 Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! Du ska göra så att bollens sprajt **känner av** spelarens sprajt, och **då** få bollen att röra sig i samma riktning som spelaren men med en högre hastighet, så att det ser ut som att bollen skjuts iväg.  
 
@@ -98,7 +98,7 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
 > Testa ditt projekt igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
 
 
-## Delmoment 5: Få bollen att röra sig i rätt riktning
+## 5: Få bollen att röra sig i rätt riktning
 
 Antagligen rör sig bollen bara i samma riktning, oavsett vilket håll din spelare kommer från. Du behöver säga åt bollen i vilken riktning du vill att den ska röra sig!
 
@@ -111,7 +111,7 @@ Eftersom du vill att spelaren ska kunna sparka på bollen från alla möjliga h�
 > Testa ditt projekt! Klicka på START. Kan du få spelaren att sparka på bollen åt olika håll? Kan du sparka bollen i mål?
 
 
-## Delmoment 7: Göra mål
+## 6: Göra mål
 
 Nu ska du få fotbollsspelaren att ropa "Mål!" när bollen nuddar det vita målet. För att göra det måste bollen **känna av** när den nuddar det vita målet, och **då meddela** spelaren att den är i mål.
 
@@ -138,7 +138,7 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
   **Tips:** Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!
 
 
-## Delmoment 8: Starta om efter mål
+## 7: Starta om efter mål
 
 Något saknas! Vad ska hända när fotbollsspelaren har skjutit bollen i mål? Nu ligger bara bollen kvar och spelaren har inget mer att göra. Det ska du få fixa till nu. När bollen går i mål, flyttas spelare och boll tillbaka till där de stod från början, så att du kan spela igen.
 

@@ -9,7 +9,7 @@ Här kan du se en version av spelet:
 ![image alt text](image_0.png)
 
 
-## Delmoment 1: Gör plattorna och en spelplan
+## 1: Gör plattorna och en spelplan
 Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 
 1. Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.
@@ -31,7 +31,7 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
   _Ju mindre plattor du gör, desto svårare blir spelet!_
 
 
-## Delmoment 2: Styra plattorna
+## 2: Styra plattorna
 
 Nu ska du göra ett skript för att styra plattorna och skydda din mållinje!
 
@@ -66,7 +66,7 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
 **Tips:** Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra **rotationsstil**. Se till att båda plattorna bara kan rotera **vänster-höger**.
 
 
-## Delmoment 3: En studsande boll
+## 3: En studsande boll
 
 Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!
 
@@ -107,7 +107,7 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 > Testa ditt projekt! Klicka på START. Studsar bollen på plattorna? Startar den i mitten? Rör den sig åt ett slumpmässigt håll varje gång du startar?
 
 
-## Delmoment 4: Poängsystem
+## 4: Poängsystem
 
 Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bollen nuddar den andra spelarens mållinje! För att göra det behöver du skapa en VARIABEL för poäng.
 
@@ -152,7 +152,7 @@ En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägge
 > Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?
 
 
-## Delmoment 5: Game Over!
+## 5: Game Over!
 
 Nu när du har poängräkning så behöver du se till att det går att vinna spelet, och inte bara få poäng i en evighet!
 

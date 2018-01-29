@@ -8,7 +8,7 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Röra sig mellan bakgrunder
+## 1: Röra sig mellan bakgrunder
 
 Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan ta sig mellan bakgrunderna med hjälp av olika pilar. Du ska också få skapa en sprajt som är den spelkaraktären som ger uppdraget att handla till spelaren.
 
@@ -96,7 +96,7 @@ Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan d
 
 > Testa spelet igen! Kan du nu gå mellan de olika scenerna?
 
-## Delmoment 2: Prata med Calvrett
+## 2: Prata med Calvrett
 
 Nu ska du gå till första scenen och skapa skript för Calvrett (eller sprajten du valde) som gör att du får i uppdrag att köpa frukt.
 
@@ -173,7 +173,7 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
   _Dessa block behöver du för punkterna 12 och 14 ovan._
 
-## Delmoment 3: Skapa sprajtar för affären
+## 3: Skapa sprajtar för affären
 
 Nu ska du få skapa en affär. Den kommer innehålla de varor som du behöver för fruktsalladen, men också _minst_ en annan vara. Varorna som behövs till salladen ska spelaren ha råd med, men det kan finnas andra varor som är för dyra.
 
@@ -247,7 +247,7 @@ Nu ska du sätta priser på varorna:
 
 > Testa programmet! Visas varor och priser när du kommer in i affären? Vad händer när du går tillbaka till gatan, försvinner varorna och priserna?
 
-## Delmoment 4: Köpa varor
+## 4: Köpa varor
 
 Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har handlat i affären. Sedan ska du koda så att när spelaren klickar på en vara ska den hamna i ryggsäcken om spelaren har tillräckligt med pengar.
 
@@ -289,7 +289,7 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
 
 > Testa spelet igen! Vad händer om du försöker köpa ett transportmedel? Läggs saker till i listan om du till exempel försöker köpa en banan eller en vattenmelon?
 
-## Delmoment 5: Laga fruktsallad
+## 5: Laga fruktsallad
 
 Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bara att du går tillbaka till **Calvrett** och ser till att han lagar den!
 

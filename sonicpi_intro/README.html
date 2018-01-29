@@ -1,0 +1,91 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="kom-ig-ng-med-sonic-pi">Kom igång med Sonic-Pi</h1>
+<p>Det här är en introduktion till <a href="http://sonic-pi.net/" target="_blank"> <strong>Sonic Pi</strong></a>, ett programmeringsspråk där du kan programmera musik. I förra uppgiften installerade du programmet på din dator. Nu ska du få lära dig att använda det för att spela toner.</p>
+<p>Sam Aaron skapade Sonic Pi för att han tycker att musik och programmering passar väldigt bra ihop. När du programmerar i Sonic Pi hör du direkt det som du kodar – på så sätt kan du lära dig programmera samtidigt som du skapar musik!</p>
+<h2 id="1-l-r-k-nna-sonic-pi">1: Lär känna Sonic Pi</h2>
+<p>Starta programmet Sonic Pi. Så här ser Sonic Pi ut när du öppnar programmet:</p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<p>Titta runt en stund. Det finns tre fönster:</p>
+<ol>
+<li><p>Det stora fönstret till vänster programmerar du i, den kallas för PROGRAMMERINGSPANEL.</p>
+</li>
+<li><p>Till höger finns en OUTPUTPANEL som visar information om koden som körs.</p>
+</li>
+<li><p>Längst ner finns en HJÄLPPANEL som hjälper till att visa information och hjälp.</p>
+</li>
+</ol>
+<p>I hjälppanelen finns bland annat <strong>förslag på kod</strong> som du kan skriva, <strong>tips</strong> på olika synthljud och mycket mer.  </p>
+<ol>
+<li>Om du skriver fel eller gör stavfel i koden så kommer en BUGGVARNING, en <strong>rosa pil</strong> fram på den raden som du skrivit felet och visar var någonstans i koden som du har skrivit fel. Titta och försök hitta vad felet är, det syns både i hjälppanelen och i programmeringspanelen!</li>
+</ol>
+<p>Buggvarning ser ut såhär:</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<h2 id="2-b-rja-koda-musik">2: Börja koda musik</h2>
+<p>Nu kan vi börja programmera musik! Du ska få testa att skriva kod för olika toner.</p>
+<ol>
+<li>Klicka på <strong>Buffer 1</strong> som finns längst ner i programmeringspanelen.</li>
+</ol>
+<p><img src="image_2.png" alt="image alt text"></p>
+<ol>
+<li>Skriv <strong>play 60</strong> i progammeringspanelen. Det är viktigt att du skriver med små bokstäver (gemena) när du programmerar!</li>
+</ol>
+<p><img src="image_3.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa ditt program! Klicka på RUN längst upp i vänstra hörnet av programmeringspanelen. Vad händer? Hör du något? Spelas en ton?</p>
+</blockquote>
+<p><img src="image_4.png" alt="image alt text"></p>
+<ol>
+<li>Fortsätt att skriva kod i programmeringspanelen, som bilden nedan visar. Nu vill du spela <strong>60</strong> två gånger och sedan <strong>67</strong> två gånger.</li>
+</ol>
+<p><img src="image_5.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa ditt program! Klicka på RUN igen. Hör du fyra toner nu? 60 och 67 är två olika toner som spelas två gånger var, men datorn spelar tonerna så fort att vi knappt hinner höra dem separat. Det låter som att alla kommer på samma gång! Vi vill att de ska spelas efter varandra med en paus emellan. Det gör vi i nästa steg.</p>
+</blockquote>
+<ol>
+<li>Nu ska du koda en paus mellan varje ton. Det gör du genom att skriva <strong>sleep 1</strong> mellan varje rad som spelar en ton.</li>
+</ol>
+<p><img src="image_6.png" alt="image alt text"></p>
+<p><strong>Tips!</strong> Sleep betyder sova på engelska. <strong>Sleep 1</strong> betyder att du lägger in en paus som är en sekund lång. Du kan ändra detta genom att skriva <strong>sleep 0,5</strong> eller <strong>sleep 2</strong> om du vill ha snabbare eller långsammare  tempo mellan tonerna.</p>
+<blockquote>
+<p>Testa ditt program! Klicka på RUN igen. Spelas fyra toner i rad med en paus mellan tonerna nu? Nu hinner vi höra de olika tonerna! Du kan stoppa musiken genom att klicka på STOP. Hör du vilken sång det är som du kommer att programmera redan nu?</p>
+</blockquote>
+<ol>
+<li>Nu fortsätter du att koda hela sången! Skriv som på bilden här:</li>
+</ol>
+<p><img src="image_7.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa ditt program! Klicka på RUN igen. Känner du igen låten? Det är &quot;Blinka lilla stjärna&quot;!</p>
+</blockquote>
+<h2 id="3-loopa-musiken">3: Loopa musiken</h2>
+<p>Låten spelas bara en gång. Nu kan vi använda en LOOP som gör att vi kan spela låten två gånger utan att behöva trycka på play två gånger. Att loopa kod betyder att repetera, göra något flera gånger.</p>
+<ol>
+<li>Längst upp i din kod, innan första <strong>play 60</strong>, skriv  in <strong>2. times do</strong>. Det betyder att datorn ska spela programmet två gånger.</li>
+</ol>
+<p><img src="image_8.png" alt="image alt text"></p>
+<ol>
+<li>Längst ner i koden, efter sista <strong>sleep 1</strong>, skriv in <strong>end</strong>. Det betyder att programmet slutar där. Nu vet datorn var musiken slutar och varifrån musiken ska spelas en gång till.</li>
+</ol>
+<p><img src="image_9.png" alt="image alt text"></p>
+<ol>
+<li>Om du vill spela musiken oändligt många gånger, testa att skriva <strong>loop do</strong> istället för <em>2.times do</em>. Den nya loopen gör att tonerna spelas FÖR ALLTID och aldrig slutar förrän du klickar på STOP och stoppar ditt program.</li>
+</ol>
+<p><img src="image_10.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa ditt program! Klicka på RUN igen. Spelas &quot;Blinka lilla stjärna&quot; så många gånger som du har valt att repetera den? Vad tror du händer om du ändrar siffran i <strong>2. times do</strong>?</p>
+</blockquote>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du lärt dig att programmera musik! I nästa uppgift får du fler tips på hur du kan skapa egen musik med Sonic Pi. Men redan här har du några utmaningar om du vill testa dig fram på egen hand:</p>
+<h2 id="utmaning-1-ndra-hastighet">Utmaning 1: Ändra hastighet</h2>
+<p>Vill du att blinka lilla stjärna ska spelas snabbare eller långsammare?</p>
+<p>Testa att ändra på hur långa pauserna ska vara genom att ändra antal sekunder på <strong>sleep</strong>. Till exempel 0.5 eller 2 sekunder – experimentera och hitta en lagom snabb version.</p>
+<h2 id="utmaning-2-ndra-ljud-p-synthen">Utmaning 2: Ändra ljud på synthen</h2>
+<p>Prova olika ljud för att göra din favoritversion av &quot;Blinka lilla stjärna&quot;!</p>
+<p>Du kan använda olika synthljud i Sonic Pi. Längst upp i koden, skriv <strong>use_synth :</strong>. Efter kolon kommer du att få förslag på olika synthljud som du kan använda. Prova till exempel <strong>use_synth :fm</strong> eller <strong>use_synth :dull_bell</strong>.</p>
+<p><img src="image_11.png" alt="image alt text"></p>
+<p>Testa dig fram!</p>
+<h2 id="utmaning-3-musik-till-framtidens-musikspelare-">Utmaning 3: Musik till &quot;Framtidens musikspelare&quot;</h2>
+<p>Vill du göra din egen musik i Sonic Pi? Testa att ändra tonerna och prova dig fram för att skapa en helt ny melodi.</p>
+<p>Kan du skapa musik som du kan använda i Scratch-uppgiften <a href="http://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/framtidens-musikspelare" target="_blank"> <strong>Framtidens musikspelare</strong></a>? Till det behöver du två låtar, en glad och en arg, eller så många som behövs i din musikspelare.</p>
+<p>Om du vill spara din musik i Sonic Pi, finns en  <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-sonic-pi/spara-musik-i-sonic-pi" target="_blank"> <strong>instruktion för det här</strong></a>.</p>
+</body></html>

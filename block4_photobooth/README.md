@@ -11,7 +11,7 @@ Här kan du titta på exempel på
 
 
 
-## Delmoment 1: Få igång webbkameran
+## 1: Få igång webbkameran
 
 Det första du ska göra är att programmera ett skript som sätter igång webbkameran och visar dig i bild så fort du startar ditt Photo Booth-program.
 
@@ -31,7 +31,7 @@ Det första du ska göra är att programmera ett skript som sätter igång webbk
 
 
 
-## Delmoment 2: Ändra utseende
+## 2: Ändra utseende
 
 Nu är det dag att skapa frisyrer, glasögon, mustascher eller andra effekter som du kan välja att lägga till din bild för att ändra utseende. Du skapar dem som SPRAJTAR och väljer om du vill rita själv eller välja ur biblioteket. Börja med att göra 2-3 sprajtar, du kan alltid göra fler senare!
 
@@ -70,7 +70,7 @@ För att din sprajt alltid ska hamna rätt på scenen, behöver du sätta en *st
 
 
 
-## Delmoment 3: Knappar för att välja effekt
+## 3: Knappar för att välja effekt
 
 Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Photo Booth. När du startar ditt Photo Booth ska inga effekter vara synliga, utan det blir de först när du trycker på knapparna. Du behöver en knapp för varje effekt du vill använda.
 
@@ -93,7 +93,7 @@ Nästa steg är att skapa en meny med knappar för att välja effekt i ditt Phot
 
 5. Gå in på informationsrutan för varje sprajt och se till så att rutan för **"kan dras på scenen”** inte är ikryssad, eftersom du inte vill kunna flytta på knapparna i programmet.
 
-6. Gå till fliken för SKRIPT och sätt rätt startposition för varje knapp, på samma sätt som du gjorde med dina effekter under Delmoment 2.
+6. Gå till fliken för SKRIPT och sätt rätt startposition för varje knapp, på samma sätt som du gjorde med dina effekter tidigare.
 
 
 
@@ -124,7 +124,7 @@ Nu ska du få göra ett skript som säger åt knappen att **skicka meddelande** 
 
 
 
-## Delmoment 4: Stäng av kameran
+## 4: Stäng av kameran
 
 Till sist ska du lägga till ett skript som stänger av kameran när du trycker på Q-tangenten på tangentbordet. Det skriptet skapar du för scenen, precis som när du startade kameran.
 

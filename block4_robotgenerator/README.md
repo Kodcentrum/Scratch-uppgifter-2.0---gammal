@@ -7,7 +7,7 @@ här på Scratch</a>
 
   ![image alt text](image_0.jpg)
 
-## Delmoment 1: Skapa robotklädslar
+## 1: Skapa robotklädslar
 
 Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. Du kommer att göra flera olika huvuden, armar, munnar, ögon och så vidare så att du sedan kan göra till flera olika kombinationer av robotar!
 
@@ -38,7 +38,7 @@ Du börjar med att rita olika *klädslar* som ska föreställa robotens delar. D
 > Testa ditt projekt! Klicka på START. Hamnar någon del bakom en annan, till exempel ögonen bakom huvudet? Du kommer strax att göra ett *skript* som säger åt delarna att lägga sig i rätt ordning, så att det ser rätt ut.
 
 
-## Delmoment 2: Skript som kombinerar robotar
+## 2: Skript som kombinerar robotar
 
 Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olika *klädslar *varje gång du trycker på START. Ungefär som när du drar i spaken på en Enarmad bandit! Du behöver också säga åt programmet att lägga *sprajterna* i rätt ordning, i det LAGER där du vill ha dem.
 
@@ -65,7 +65,7 @@ Nu vill du programmera din robotgenerator så att den slumpmässigt väljer olik
 **Tips**: Om det är någon *klädsel* som inte sitter helt rätt, kan du prova att ändra **_klädselns_ centrum** på just den!
 
 
-## Delmoment 3: Slumpmässig bakgrund
+## 3: Slumpmässig bakgrund
 
 Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje gång du trycker på START. Du får själv välja olika bakgrundsbilder till *Scenen*.
 
@@ -76,7 +76,7 @@ Nu ska du se till att även din scen byter till en slumpmässig bakgrund varje g
 > Testa ditt projekt! Klicka på START. Ändras bakgrunden nu?
 
 
-## Delmoment 4: Vad ska roboten säga?
+## 4: Vad ska roboten säga?
 
 Nu ska du få hitta på vad roboten ska säga, och som också blir olika varje gång du trycker på START. För att göra det behöver du skapa en LISTA med slumpmässiga STRÄNGAR.
 

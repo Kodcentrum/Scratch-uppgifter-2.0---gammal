@@ -8,7 +8,7 @@ Här kan du se en version av spelet:
 
 ![image alt text](image_0.jpg)
 
-## Delmoment 1: Bakgrund och sprajtar
+## 1: Bakgrund och sprajtar
 
 Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra en röd linje som rymdraketen ska sväva över, den linjen kommer att bli viktig senare i den här uppgiften!
 
@@ -25,7 +25,7 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
   _Ungefär så här borde din scen se ut nu._
 
 
-## Delmoment 2: Styra och skjuta
+## 2: Styra och skjuta
 
 Meningen med spelet är att styra rymdraketen åt vänster och höger för att skjuta ner de attackerande robotarna. Först behöver du skapa ett skript för att styra raketen.
 
@@ -117,7 +117,7 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 **Tips:** Om skotten rör sig för långsamt eller snabbt, ändra hur mycket **y ändras**. Testa dig fram!
 
 
-## Delmoment 3: Attackerande robot
+## 3: Attackerande robot
 Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
 
 För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.
@@ -171,7 +171,7 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 > **Testa ditt projekt!** Klicka på START. Rör sig robotarna nedåt från toppen av scenen mot botten? Förvinner de när de blir träffade av ett skott? Stoppas alla skript när en av robotarna nuddar botten eller raketen?
 
 
-## Delmoment 4: Game Over
+## 4: Game Over
 Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många poäng du fått. Det ska vi ändra på! Du ska låta roboten skicka ett **meddelande** när spelet avslutas, så att den kan tala om hur många poäng du fått.
 
 19. När **Robot1** (någon av klonerna) **rör färgen röd** eller **Spaceship** så ska den skicka ut ett **meddelande** innan den stoppar alla skript. Meddelandet kan du kalla för **"Game over"**.
@@ -190,13 +190,13 @@ Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många p
 Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!
 
 
-## Delmoment 5: Flera nivåer för spelet
+## 5: Flera nivåer för spelet
 
 Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället går till en ny **nivå**, där robotarna ändrar färg och blir snabbare. Det blir alltså svårare att spela! Det här kan du göra genom att lägga till nya VARIABLER.
 
 21. Skapa två stycken nya _variabler_ som heter **hastighet** och **nivå**. Hastighet ska inte visas på scenen, men nivå ska visas.
 
-2. Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i Delmoment 3:
+2. Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i 3:
 
   * När **timern** tar slut ska den istället för att avsluta _scriptet_:
 
@@ -258,12 +258,12 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
   * Starta när den **tar emot meddelandet vinst**
   * Säg **"Du vann! Du fick  poäng!"**
 
-**Tips:** Titta på delmoment 4 om du har glömt hur du gjorde!
+**Tips:** Titta på uppgift 4 om du har glömt hur du gjorde!
 
 > Testa ditt projekt! Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?
 
 
-## Delmoment 6: Bakgrund när spelet är vunnet
+## 6: Bakgrund när spelet är vunnet
 Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyggt slut för spelet!
 
 27. Gå till SCEN och kopiera **klädseln** som du har ritat i början av uppgiften.

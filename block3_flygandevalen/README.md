@@ -6,7 +6,7 @@ Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/1047325
 
 ![image alt text](image_0.png)
 
-## Delmoment 1: En val som följer muspekaren
+## 1: En val som följer muspekaren
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
 1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
@@ -47,7 +47,7 @@ Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det u
 
 > Testa ditt projekt! Klicka på START. Fungerar det bättre att styra valen nu?
 
-## Delmoment 2: En himmel som bakgrund
+## 2: En himmel som bakgrund
 Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajter. Då kan du välja att programmera dem senare i en av våra utmaningar!
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
@@ -61,7 +61,7 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 
   ![image alt text](image_8.png)
 
-## Delmoment 3: Munkar att äta
+## 3: Munkar att äta
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita själv finns det färdiga i Scratch-biblioteket. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
 12. Rita en egen munk med **"Rita ny sprajt”** eller gå till biblioteket med **”Välj sprajt från bibliotek”**. Under ”Saker” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den!
@@ -131,7 +131,7 @@ Om du vill att munkarna ska bli unika kan du:
 
 **Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
 
-## Delmoment 4: Poäng för att äta munkar!
+## 4: Poäng för att äta munkar!
 Det räcker inte med att bara äta munkar. Du ska kunna samla poäng också! För varje munk som valen äter ska spelet lägga till 1 poäng, och du vill kunna se hur många poäng du har fått.
 
 För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.

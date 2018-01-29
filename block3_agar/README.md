@@ -6,7 +6,7 @@ Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Mathe
 
   ![image alt exempel](image_1.png)
 
-## Delmoment 1: Bakgrund och sprajtar
+## 1: Bakgrund och sprajtar
 
 Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och ytterligare en mindre sprajt som skall bli mat.
 
@@ -31,7 +31,7 @@ Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och 
 
   _Så här kan de olika klädslarna se ut._
 
-## Delmoment 2: Styra spelaren
+## 2: Styra spelaren
 
 Du skall styra sprajten **Cell** med musen och när du äter de små kulorna skall storleken på sprajten öka. Därför behöver vi en variabel **"Vikt"** som håller reda på storleken eller vikten.
 
@@ -59,7 +59,7 @@ Du skall styra sprajten **Cell** med musen och när du äter de små kulorna ska
 
 > Testa ditt skript. Följer **Cell** med när du drar musen över spelplanen?
 
-## Delmoment 3: Mat
+## 3: Mat
 
 Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge skriptet går.
 
@@ -112,7 +112,7 @@ Nästa steg är att se till att du har något att äta. Vi har redan skapat en s
 > Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
 och äta upp små kulor.
 
-## Delmoment 4: Utökad speldynamik
+## 4: Utökad speldynamik
 
 Du skall nu se till att utökad spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att **Cell** rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tyngre/större den blir.
 
@@ -142,7 +142,7 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 
 **Tips:** Tycker du att **Cell** rör sig för fort? Ändra koden i punkt 1. Tycker du att **Cell** förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.
 
-## Delmoment 5: En motståndare
+## 5: En motståndare
 
 Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas _artificiell intelligens_ och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.
 

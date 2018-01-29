@@ -8,7 +8,7 @@ Ett exempel på hur spelet kan se ut hittar du här:
 
 ![image alt text](image_0.png)
 
-## Delmoment 1 - Remixa ett projekt
+## 1 - Remixa ett projekt
 
 Vi börjar med att remixa ett befintligt projekt.
 
@@ -36,7 +36,7 @@ I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta s
 
 > Testa programmet! Kan du förflytta roboten över scenen med hjälp av piltangenterna? Förflyttar sig scenen när du rör på roboten?
 
-## Delmoment 2 – Förstå koden
+## 2 – Förstå koden
 
 Det är bra om du förstår hur koden i det remixade programmet fungerar. På så sätt blir det enklare att förändra spelet efter dina önskemål. Du kanske vill utöka banan, eller använda dig av en egenritad bakgrund.
 
@@ -80,7 +80,7 @@ Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y
 
 Resten av koden är till för att förflytta bakgrunden. Först ändras variabeln **"fokus y"** och sedan skickas meddelandet **“flytta”** som får alla bakgrund-sprajter att förflyttas –10 steg. OM-satsen gör att roboten inte kan förflytta sig utanför den uppritade bakgrunden.
 
-## Delmoment 3 – Lägg till en nyckel
+## 3 – Lägg till en nyckel
 
 Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du få  skapa målet för spelet: nycklar som roboten ska hitta.
 
@@ -111,7 +111,7 @@ Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tu
 
 *Skriv in namnet på klädseln och tryck på Enter*
 
-## Delmoment 4 – Koda nyckeln
+## 4 – Koda nyckeln
 
 Nu är det äntligen dags att koda! Vi ska placera ut ett antal nycklar slumpmässigt på scenen och om **Roboten** kommer nära dem ska den få poäng.
 

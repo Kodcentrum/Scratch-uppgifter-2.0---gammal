@@ -6,7 +6,7 @@ Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/
 
   ![image alt text](image_1.png)
 
-## Delmoment 1: Välja en insekt som sprajt
+## 1: Välja en insekt som sprajt
 
 I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
 
@@ -22,7 +22,7 @@ I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får b�
 
 Nu har du gjort spindel och det är dags att skapa en rolig bakgrund!
 
-## Delmoment 2: Skapa en bakgrund
+## 2: Skapa en bakgrund
 
 Du ska nu få infoga en bakgrundsbild från biblioteket och därefter rita lite spindelnät.
 
@@ -48,7 +48,7 @@ Ungefär så här ska programmet se ut nu. Exakt hur spindelnätet ser ut spelar
 
   ![image alt text](image_7.png)
 
-## Delmoment 3: Ditt första skript
+## 3: Ditt första skript
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
@@ -90,7 +90,7 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 > Tryck på spindeln igen! Hur ser animationen ut nu? Åker den för fort eller för långsamt? Åker den för långt eller för kort på tråden? Du kan ändra både hur mycket du ska flytta spindeln och hur många gånger tills du är nöjd.
 
 
-## Delmoment 4: Sätt en Startposition
+## 4: Sätt en Startposition
 
 För att slippa dra tillbaka spindeln varje gång du vill testa din animation ska du nu skapa koda som säger åt datorn att placera spindeln på en särskild plats. Detta kallas för att INITIERA programmet och berättar för datorn vad som ska hända när programmet startar.
 
@@ -107,7 +107,7 @@ För att starta och stoppa ett program, finns det i Scratch två särskilda knap
 
 Nu kommer spindeln automatiskt att flyttas till sin startposition varje gång du trycker på flaggan, utan att du behöver dra den dit själv!
 
-## Delmoment 5: Ner faller regnet...
+## 5: Ner faller regnet...
 
 Nästa sak som händer i ramsan är att det börjar regna. Därför behöver du ett moln i ditt program. Det ska du få koda nu!
 
@@ -175,7 +175,7 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 
 > Testa spelet! Glider molnet till den lodrätta tråden och blir till ett regnmoln?
 
-## Delmoment 6: Skicka meddelanden
+## 6: Skicka meddelanden
 
 När du klickar på molnet ska även spindeln spindeln spolas bort och glida bort ifrån tråden. Men hur ska spindeln få reda på att du klickat på molnet? Svaret är MEDDELANDEN! När molnet har klickats på skickar den ut ett meddelande som spindeln kan lyssna på. Fiffigt va?
 
@@ -215,7 +215,7 @@ Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du f
 
 > Tryck på molnet! Rör sig både molnet och spindeln nu?
 
-## Delmoment 7: Ljudeffekt
+## 7: Ljudeffekt
 
 Du ska få göra det lite roligare genom att lägga till ett ljud till animationen.
 
@@ -231,7 +231,7 @@ Nu har du lagt till ett ljud till sprajten som kan spelas upp. Block för olika 
 
  ![image alt text](image_27.png)
 
-## Delmoment 8: Upp stiger solen...
+## 8: Upp stiger solen...
 
 Härnäst i ramsan om spindeln kommer solen som gör spindeln glad. Nu är det dags att lägga till en sol till ditt program. Solen ska fungera på nästan samma sak som molnet du just har kodat. När du klickar på solen ska du animera den och solen ska skicka ett meddelande. När spindeln tar emot det meddelandet ska den åka tillbaka till tråden och bli glad.
 
@@ -261,7 +261,7 @@ Nu är det dags att animera solen!
 
 > Klicka på solen! Glider den och hamnar ovanför molnet?
 
-## Delmoment 9: Torka bort allt regn
+## 9: Torka bort allt regn
 
 Nu är regnmolnet kvar även om du klickar på solen vilket är konstigt. Det sista du ska fixa är att se till att molnet åker bort och blir till ett vitt och fluffigt moln. Du ska också se till att spindeln åker tillbaka till tråden.
 

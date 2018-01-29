@@ -6,7 +6,7 @@ I denna uppgift ska du göra ett spel där du styr en liten ninja som kan hoppa 
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Sätta upp scen, mark och ninjan
+## 1: Sätta upp scen, mark och ninjan
 Du börjar med att göra bakgrunden, rita mark och ninjans alla klädslar. Ninjan kommer behöva 4 klädslar till att springa, 1 till att hoppa och 1 till att sparka.
 
 1.	Skapa ett nytt projekt och ta bort katten
@@ -100,7 +100,7 @@ Nu är det bara 2 sprajtar till som behövs:
 
 _Så här kan det se ut när du har markerat i:et. Den röda pilen pekar på där du kan ändra storleken._
 
-## Delmoment 2: Gör så att allting åker!
+## 2: Gör så att allting åker!
 
 Nu ska du få koda så att byggnader åker sakta åt vänster så att det ser ut som om den är långt borta. Du ska också få koda på att hindret åker åt vänster, men den sprajten ska åka snabbare så att det känns som att den är närmare. _Eftersom ninjan kommer att stå stilla ser det ut som om den rör sig åt höger när det egentligen är huset och hindret som rör sig_. Häfftigt va!
 
@@ -147,11 +147,11 @@ _Ungefär så här ska stenen och huset vara placerat_
 
   ![image alt block](image_8.png)
 
-  _De här blocken behöver du för det här delmomentet. Tänk på att vissa block behöver du använda mer än en gång._
+  _De här blocken behöver du för den här uppgiften. Tänk på att vissa block behöver du använda mer än en gång._
 
 > Testa spelet! Ser det ut som att ninjan springer förbi byggnaden? Far hindren lite snabbare än huset?
 
-## Delmoment 3: Ninjan hoppar och springer
+## 3: Ninjan hoppar och springer
 
 Nu ska du koda ninjan så at den kan hoppa och sparka genom väggar. Spellogiken är sådan att ninjan ska kunna hoppa över stenen men inte över väggen (i:et). För att ta sig förbi väggen behöver ninja sparka ner den.
 
@@ -225,7 +225,7 @@ Nu ska du se till att ninjan inte kan hoppa och springa samtidigt:
 
   _Så här kan koden för **sparkar** se ut nu._
 
-## Delmoment 4: Farliga hinder
+## 4: Farliga hinder
 
 Om ninjan rör stenen så ska ninjan flyga iväg och spelet avslutas. Detsamma ska hända om ninjan springer eller hoppar på väggen. Om ninjan istället sparkar på väggen så ska den säga krasch och ninjan springa vidare. Det här ska du koda nu!
 

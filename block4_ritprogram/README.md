@@ -9,7 +9,7 @@ Du kan se ett exempel på ritprogrammet här:
 ![image alt text](image_0.jpg)
 
 
-## Delmoment 1: En penna som kan rita
+## 1: En penna som kan rita
 
 Börja med att skapa en penna som ritar när du drar runt den på scenen.
 
@@ -45,7 +45,7 @@ Börja med att skapa en penna som ritar när du drar runt den på scenen.
 > Testa ditt projekt! Klicka på START. Försvinner din teckning när du klickar på den gröna flaggan?
 
 
-## Delmoment 2: Radera allt
+## 2: Radera allt
 
 Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behöver starta och stoppa projektet varje gång. Här i exemplet används ett kryss, men du kan välja att göra en egen knapp.
 
@@ -58,7 +58,7 @@ Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behö
 > Testa ditt projekt! Klicka på START och rita något. Kan du sudda hela teckningen genom att klicka på *sprajten* **"radera"**?
 
 
-## Delmoment 3: Byta färg på pennan
+## 3: Byta färg på pennan
 
 Än så länge kan du bara rita blåa streck men det ska så klart gå att rita med andra färger! För att göra det behöver du först nya *sprajter* för olika färgade knappar som du ska kunna klicka på för att ändra färg på pennan.
 
@@ -120,7 +120,7 @@ Ungefär så här borde din knapprad se ut på scenen:
 > Testa ditt projekt! Klicka på START och rita något. Klicka nu på de olika knapparna. Fungerar alla färgvalknappar? Byter de pennans *klädsel* till rätt färg? Får de pennan att måla med rätt färg? Ritar alla pennans *klädslar* med pennspetsen?
 
 
-## Delmoment 4: Rita inom ramarna
+## 4: Rita inom ramarna
 
 Du har säkert märkt att du kan måla överallt på skärmen, till och med där knapparna sitter. Nu kommer du att få göra en bakgrund till ritprogrammet, och bestämma var pennan ska kunna rita – och inte rita.
 
@@ -164,7 +164,7 @@ Verkar det krångligt? Här är några tips!
 *Så här ser vårt exempel ut, tänk på att du behöver skriva in koordinaterna för din rityta!*
 
 
-## Delmoment 5: Suddgummi
+## 5: Suddgummi
 
 Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna sudda? Nu ska du lägga till ett verktyg som ser ut att sudda, men som egentligen ritar med bakgrundsfärgen.
 
@@ -198,7 +198,7 @@ Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna s
 **Nu har du ett fungerande ritprogram!** För att göra det extra roligt kan du nu lägga till stämplar.
 
 
-## Delmoment 6: Stämplar
+## 6: Stämplar
 
 Nu ska skapa ett stämpelverktyg som du kan använda för att stämpla små bilder på teckningen. Det går att göra flera olika stämplar och du väljer själv hur de ska se ut.
 

@@ -12,7 +12,7 @@ men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Ladda ner bilder
+## 1: Ladda ner bilder
 
 
 Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** från <a href="http://www.kodboken.se/" target="_blank">kodboken.se</a>. Det är en mapp med olika bilder på Ruby, där hon har olika klädslar, som du kan spara på din dator och sedan välja bilder ur.
@@ -25,7 +25,7 @@ Innan du bestämmer reglerna behöver du ladda ner **”Ruby med klädslar”** 
 
   3. Öppna upp zip-filen på din dator så att du kan titta på de olika bilderna.
 
-## Delmoment 2: Bestämma regler
+## 2: Bestämma regler
 
 Det första du behöver göra är att komma på de regler som avgör vilka kläder Ruby ska ha på sig. Det är främst vilken veckodag som ska avgöra vad Ruby ska ha på sig. Det är din fantasi som styr och det är helt upp till dig vilka regler som ska gälla.
 
@@ -47,7 +47,7 @@ Du kan också tänka på vad det är för **väder** och om Ruby ska vara **inom
 
 **Tips:** Om du tycker det är svårt att komma på regler kan du utgå ifrån vad du själv brukar ha på dig på olika dagar eller när du gör roliga saker.
 
-## Delmoment 3: Bakgrund och en sprajt
+## 3: Bakgrund och en sprajt
 
 Vi börjar med en bakgrund och en sprajt för Ruby!
 
@@ -66,7 +66,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
 5.  Du kan förminska sprajten lite om du tycker den är för stor.
 
-6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i Delmoment 2.
+6.	**Lägg till flera klädslar** till sprajten genom att ladda upp bilder från din dator. Välj de kläder och utseende på Ruby som behövs för de reglerna du satte upp i 2.
 
     ![image alt exempel](image_4.png)
 
@@ -82,7 +82,7 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
   _Dessa block behöver du för punkt 7._
 
-## Delmoment 4: Acceptera uppdraget
+## 4: Acceptera uppdraget
 
 När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren ska sedan acceptera uppdraget genom att klicka på en knapp.
 
@@ -110,11 +110,11 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
 
   ![image alt block](image_7.png)
 
-  _Dessa block behöver du delmoment 4._
+  _Dessa block behöver du för koden._
 
-## Delmoment 5: Välja dag
+## 5: Välja dag
 
-Många av de reglerna som du skapade i Delmoment 2 är beroende på vilken dag det är. Nu ska du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
+Många av de reglerna som du skapade i 2 är beroende på vilken dag det är. Nu ska du få koda vilken veckodag det är. Det finns flera möjliga sätt att göra det på och du får själv välja vilken du tycker är bäst.
 
 1.	Fråga användaren vad det är för dag
 
@@ -177,9 +177,9 @@ _Så här kommer veckodagen visas på skärmen om du väljer att göra alternati
 > Testa programmet! Vad händer om du trycker på Ja-knappen? Visas veckodagen på skärmen?
 
 
-## Delmoment 6: Byta kläder på Ruby
+## 6: Byta kläder på Ruby
 
-Nu är det dags att IMPLEMENTERA dina regler från Delmoment 2. IMPLEMENTERA innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.
+Nu är det dags att IMPLEMENTERA dina regler från för Ruby. IMPLEMENTERA innebär att du kodar en strategi eller logik som du har bestämt innan. I det här fallet handlar det om logiken eller reglerna för vad kläder Ruby ska ha på sig.
 
 1.	**Fortsätt på skriptet** du gjorde ovan som startar när sprajten tar emot meddelandet **”byt klädsel”**.
 
@@ -203,7 +203,7 @@ Nu är det dags att IMPLEMENTERA dina regler från Delmoment 2. IMPLEMENTERA inn
 
 5.	Efter du har kodat alla OM-block så **säg** _”Tack! Nu kan jag börja leka.”_
 
-## Delmoment 7: Välja mellan två kläder
+## 7: Välja mellan två kläder
 
 Om du vill låta användaren välja mellan två slumpmässigt valda klädslar kan du följa detta exempel.
 
@@ -317,7 +317,7 @@ Det sista som du ska koda är att se till att klädseln ändras när ett meddela
 
 > Testa programmet! Vad händer när du är på en veckodag där två kläder ska slumpas fram? Visas de två valen på skärmen med lite mellanrum?
 
-## Delmoment 8: Egna aktiviteter och val
+## 8: Egna aktiviteter och val
 
 Nu har du en stomme till ett program där du har kodat vilka kläder Ruby ska få på olika dagar. Nu är det fritt fram att koda andra aktiviteter och val. Det är väldigt fritt och kanske känner du att det är svårt att komma på hur du ska koda. Här är några tips.
 

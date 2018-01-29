@@ -4,7 +4,7 @@ Här får du göra ett digitalt födelsedagskort som du kan skicka till någon s
 
 ![image alt text](image_0.png)
 
-## Delmoment 1: Välja sprajtar och bakgrund
+## 1: Välja sprajtar och bakgrund
 
 Först behöver du en festlig **bakgrund** och några dansande **sprajtar**!
 
@@ -25,7 +25,7 @@ Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedags
 * Säga grattis till födelsedagsbarnet
 
 
-## Delmoment 2: Fråga efter födelsedagsbarnets namn
+## 2: Fråga efter födelsedagsbarnets namn
 
 Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
 
@@ -43,7 +43,7 @@ Du kommer att förstå senare vad namnet ska användas till!*
 > Testa ditt projekt! Klicka på START. Frågar katten "Vem fyller år?"? Kan du skriva ett svar på frågan i rutan?
 
 
-## Delmoment 3: Katten kan dansa!
+## 3: Katten kan dansa!
 
 Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist! Katten ska vända sig fram och tillbaka, så du behöver skapa en ny **klädsel** åt katten.
 
@@ -63,7 +63,7 @@ Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist!
 
   **Tips:** Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!
 
-8. Gå till fliken SKRIPT och ändra skriptet som du skapade i Delmoment 2. Det ska nu:
+8. Gå till fliken SKRIPT och ändra skriptet som du skapade i uppgift 2. Det ska nu:
 
   * Starta när START-flaggan klickas på
 
@@ -93,7 +93,7 @@ om en stund. Kan du lista ut varför?_
 > Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar katten lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.
 
 
-## Delmoment 4: Festens slut
+## 4: Festens slut
 
 Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det kan du fixa med ett nytt **meddelande** som berättar att festen är slut, så att katten kan säga "*Grattis"* och sluta dansa.
 
@@ -118,7 +118,7 @@ Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det ka
 **Tips:** Om den säger orden ihop så lägg till ett mellanslag efter _"Grattis"_ i skriptet!
 
 
-## Delmoment 5: Alla ska dansa!
+## 5: Alla ska dansa!
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
 
@@ -133,7 +133,7 @@ Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma v
 > Testa ditt projekt! Dansar alla sprajtar nu? Dansar de i rätt hastighet? Testa att ändra antalet sekunder som de väntar innan byte av klädsel.
 
 
-## Delmoment 6: Partystämning och tårta
+## 6: Partystämning och tårta
 
 Du har dansare och musik, men det är inget riktigt födelsedagsfirande utan en tårta! Tårtan ska få dyka upp i slutet av animationen. Du kan också skapa partystämning genom att byta färg på scenen i takt med musiken.
 
