@@ -1,0 +1,202 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="sten-sax-och-p-se">Sten, sax och påse</h1>
+<p>I denna uppgift ska du få koda ett Sten, sax och påse spel för två spelare. Du kommer få lära dig variabler, slumptal och hur två micro:Bits kan kommunicera med varandra.</p>
+<p>Ett exempel på spelet hittar du här: <a href="https://makecode.microbit.org/_dzK16s3k6Vq1">https://makecode.microbit.org/_dzK16s3k6Vq1</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<h2 id="1-kom-ig-ng-med-micro-bits">1 – Kom igång med micro:Bits</h2>
+<p>Här kommer några tips för att komma igång med din micro:Bit</p>
+<p><strong>Hitta micro:Bit editorn</strong></p>
+<p>För att koda program till din micro:Bit gå till denna adress</p>
+<p><a href="https://makecode.microbit.org">https://makecode.microbit.org</a></p>
+<p><strong>micro:Bit editorn</strong></p>
+<p><img src="image_1.png" alt="image alt text"></p>
+<p>Editorn är indelat i tre stora delar</p>
+<ol>
+<li><p>Till höger finns kodytan där du bygger upp din kod</p>
+</li>
+<li><p>I mitten hittar du alla kodblock som behöver i olika kategorier</p>
+</li>
+<li><p>Till vänster hittar du en simulator där du kan testa din kod innan du kopierar över den till din micro:Bit</p>
+</li>
+</ol>
+<p>Det finns också två andra knappar som kan vara bra att känna till</p>
+<ul>
+<li><p>Om du klickar på kugghjulet i övre delen av fönstret så hittar du inställningar där du bland annat kan ändra <strong>språket</strong> till svenska</p>
+</li>
+<li><p>En <strong>dela knapp</strong> som gör att du kan dela med dig av din kod till kompisar</p>
+</li>
+</ul>
+<p><strong>Föra över program till micro:Biten</strong></p>
+<p>När du har skapat ett program i editorn behöver du flytta över den till micro:Biten. Det gör du genom att</p>
+<ol>
+<li><p>Namnge projektet</p>
+<p><img src="image_2.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på &quot;Ladda ned&quot;-knappen. Vilket gör att en liten fil med ändelsen <strong>hex</strong> laddas ner till din dator.</p>
+</li>
+</ol>
+<p><img src="image_3.png" alt="image alt text"></p>
+<ol>
+<li><p>Koppla in micro:Biten till datorn med hjälp av en USB kabel</p>
+</li>
+<li><p>Flytta <strong>hex</strong>-filen till micro:Biten</p>
+</li>
+</ol>
+<h2 id="2-f-r-en-spelare">2 – För en spelare</h2>
+<p>När du startar micro:Bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:Biten och ett block som hela tiden kör en loop i bakgrunden.</p>
+<p>Sten, sax och påse spelet ska däremot starta när du skakar på micro:Biten.</p>
+<ol>
+<li><p>Dra ett block <strong>&quot;för skaka&quot; </strong>från kategorin <strong>Input</strong> till kodytan</p>
+<p> <img src="image_4.png" alt="image alt text"></p>
+<p> <img src="image_5.png" alt="image alt text"></p>
+</li>
+<li><p>Dra in ett block <strong>&quot;sätt <em>namnlös</em> på 0</strong>&quot; från kategorin <strong>Variabler</strong> och lägg det innanför “för skaka”-blocket</p>
+</li>
+<li><p>Klicka på nedåtpilen bredvid <strong><em>namnlös</em></strong> och sedan på <strong>Ändra namn på variablen...</strong></p>
+<p> <img src="image_6.png" alt="image alt text"></p>
+</li>
+<li><p>Döp variabeln till <strong>&quot;hand&quot;</strong></p>
+</li>
+<li><p>Istället för <strong>0</strong> ska du sätta <strong>&quot;hand&quot;</strong> till ett slumptal mellan 0 och 2. Variabeln kan alltså få värdena 0 (<em>sten</em>), 1 (<em>sax</em>) eller 2 (<em>påse</em>).</p>
+<p> <img src="image_7.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet på variabeln <strong>&quot;hand&quot;</strong>. För att göra det enkelt och snyggt ska du få koda en funktion.</p>
+<ol>
+<li><p>Klicka på kategorin <strong>Avancerat</strong> och sedan <strong>Funktioner</strong></p>
+</li>
+<li><p>Klicka på <strong>Skapa en funktion</strong> och döp den till <strong>&quot;VisaHand&quot;</strong></p>
+<p> <img src="image_8.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska du se definitionen av funktionen på kodytan.</p>
+<p> <img src="image_9.png" alt="image alt text"></p>
+</li>
+<li><p>Innanför detta block lägg följande kod</p>
+<ol>
+<li><p>OM <strong>&quot;hand&quot;</strong> är lika med 0</p>
+<ol>
+<li><p>Visa ikon <strong>&quot;Diamant&quot;</strong></p>
+<p><img src="image_10.png" alt="image alt text"></p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Fortsätt sedan på koden för <strong>&quot;VisaHand&quot;</strong> och lägg in två OM-satser till</p>
+<ol>
+<li><p>Visa en sax OM <strong>&quot;hand&quot;</strong> är 1</p>
+</li>
+<li><p>Visa en påse OM <strong>&quot;hand&quot;</strong> är 2</p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Du får själv välja ikoner eller så kan du välja blocket <strong>&quot;visa lysdioder&quot;</strong> och rita din egen ikon!</p>
+<ol>
+<li><p>Lägg in ett block <strong>&quot;anropa funktionen VisaHand&quot;</strong> precis efter du har slumpat fram värdet på <strong>“hand”</strong></p>
+<p> <img src="image_11.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Testa!</strong> Du dels testa ditt spel genom simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong>.</p>
+<p><strong>Ladda ner spelet! </strong>Döp spelet till <strong>sten</strong> och klicka på <strong>&quot;Ladda ner&quot;</strong> för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du skakar på den?</p>
+</blockquote>
+<h2 id="3-f-r-tv-spelare-initiering">3 – För två spelare – initiering</h2>
+<p>Nu ska koda så att två micro:Bits kan kommunicera med varandra genom radiosignaler. På det sättet blir det roligare att spela.</p>
+<p>Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:Bits är dem som kommunicerar!</p>
+<ol>
+<li><p>Lägg in följande kod under blocket <strong>&quot;vid start&quot;</strong></p>
+<ol>
+<li><p>Sätt <strong>&quot;hand&quot;</strong> på -1</p>
+</li>
+<li><p>Radio <strong>ställ in grupp </strong>1. Detta block hittar du under kategorin <strong>Radio</strong>. <em>Välj ditt eget gruppnummer</em>, vilket gör att bara du och din kompis kan kommunicera.</p>
+<p><img src="image_12.png" alt="image alt text"></p>
+</li>
+</ol>
+</li>
+<li><p>Under blocket <strong>&quot;för alltid&quot;</strong> lägg in ett block <strong>radio sänd nummer “hand”</strong>.</p>
+<p> <img src="image_13.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu är du klar med initieringen av spelet, men fortfarande händer inte så mycket mer. Det ska du få ändra på nu.</p>
+<h2 id="4-f-r-tv-spelare-vem-vann-">4 – För två spelare – vem vann?</h2>
+<p>Nu kommer du hela tiden sända värdet på variabeln <strong>&quot;hand&quot;</strong> till den andra micro:Biten i din grupp. Samtidigt kommer den andra micro:Biten i din grupp också sända ut värdet på sin variabel <strong>“hand”</strong>. När du tar emot det värdet kan du kolla om du vann eller förlorade. Det ska du få koda nu!</p>
+<ol>
+<li><p>Från kategorin <strong>Radio</strong> dra in ett block <strong>&quot;när radio mottages...&quot;</strong> till kodytan</p>
+<p> <img src="image_14.png" alt="image alt text"></p>
+</li>
+<li><p>Istället för att kalla variabeln som du tar emot <strong>&quot;receivedNumber&quot;</strong> så ska du kalla den <strong>“hand2”</strong></p>
+</li>
+<li><p>Klicka på den lilla pilen bredvid variabeln namnet och sedan på <strong>&quot;ändra namn på variabel&quot;</strong></p>
+<p> <img src="image_15.png" alt="image alt text"></p>
+</li>
+<li><p>Döp variabeln till <strong>&quot;hand2&quot;</strong></p>
+</li>
+</ol>
+<p>I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när både <strong>&quot;hand&quot;</strong> och <strong>“hand2”</strong> har fått ett slumptal mellan 0 och 2, det vill säga när både du och din motspelare har skakat på micro:Bitsen.</p>
+<ol>
+<li><p>Lägg därför en OM-sats innan för blocket <strong>&quot;när radio mottages...&quot;</strong> som kollar villkoret att både <strong>“hand”</strong> och <strong>“hand2”</strong> är större än –1. Du hittar de flesta block under kategorin <strong>Logik</strong>.</p>
+<p> <img src="image_16.png" alt="image alt text"></p>
+</li>
+<li><p>Innanför detta kodblock lägg följande block <strong>sätt &quot;status&quot; på -1.</strong></p>
+</li>
+</ol>
+<p><strong>&quot;Status&quot; </strong>är en variabel som har koll på om du vinner eller förlorar. Om <strong>“status”</strong> har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “<strong>status” </strong>till 1 vilket betyder vinst om du har en bättre hand än din kompis.</p>
+<ol>
+<li><p>Skapa följande kod efter du satt <strong>&quot;status&quot;</strong> till -1</p>
+<ol>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 0 (sten) OCH <strong>“hand2”</strong> är 1 (sax)</p>
+<p><img src="image_17.png" alt="image alt text"></p>
+</li>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 1 (sax) OCH <strong>“hand2”</strong> är 2 (påse)</p>
+</li>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 2 (påse) OCH <strong>“hand2”</strong> är 0 (sten)</p>
+</li>
+</ol>
+</li>
+<li><p>För att visa vem som har vunnit skapa följande kod direkt efter du har satt värdet på <strong>&quot;status&quot;</strong></p>
+<ol>
+<li><p>Upprepa 4 gånger</p>
+<ol>
+<li><p>OM <strong>&quot;status&quot;</strong> är 1</p>
+<ol>
+<li>Visa ikon <strong>&quot;Glad&quot;</strong></li>
+</ol>
+</li>
+<li><p>ANNARS</p>
+<ol>
+<li>Visa ikon <strong>&quot;Ledsen&quot;</strong></li>
+</ol>
+</li>
+<li><p>Anropa funktionen <strong>&quot;VisaHand&quot;</strong></p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Lägg in ett block som sätter <strong>&quot;Hand&quot;</strong> till <strong>–1</strong></p>
+<p> <img src="image_18.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Testa!</strong> Du dels testa ditt spel genom simulatorn till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong> och gör sedan samma sak på den andra micro:Biten</p>
+<p><strong>Ladda ner spelet! </strong>Döp spelet till <strong>sten2</strong> och klicka på <strong>&quot;Ladda ner&quot;</strong> för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:Bits? </p>
+</blockquote>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du skapat ett nytt spel!</p>
+<p>Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong></p>
+<p>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA och dela koden med en kompis.</p>
+</blockquote>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li><p>Vad är en variabel?</p>
+</li>
+<li><p>Vad kan du använda ett slumptal till?</p>
+</li>
+<li><p>Vad kan du använda funktioner till?</p>
+</li>
+</ul>
+</body></html>
