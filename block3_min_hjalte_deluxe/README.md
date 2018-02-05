@@ -35,7 +35,7 @@ Du skall koda så att en regndroppe ramlar från toppen av skärmen ned till bot
    * Repetera tills y-läge < -180
      * Ändra y med -10
 
-![Lägg till block](./repetera_tills_1.png)
+![Lägg till block](./repetera_tills.png)
 
 > Testa! Faller regndroppen nedåt när du trycker på START? Flyttar den sig till toppen nästa gång du trycker start?
 
