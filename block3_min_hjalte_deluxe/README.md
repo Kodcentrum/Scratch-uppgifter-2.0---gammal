@@ -1,6 +1,6 @@
 # Min hjälte deluxe – del 1
 
-I denna uppgift får du chansen att jobba vidare med spelet **Min hjälte**. Du kommer få lägga till funktioner som olika väder, tävling mellan dig och din nemesis. Och du kommer få jobba med meddelanden, variabler och kloner.
+I denna uppgift får du chansen att jobba vidare med spelet **Min hjälte**. Du kommer få lägga till funktioner som olika väder och en tävling mellan dig och din motståndare. För att göra det kommer du använda kloner, variabler och meddelanden.
 
 ## 1 – Förberedelser
 
