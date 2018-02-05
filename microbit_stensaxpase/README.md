@@ -56,7 +56,7 @@ När du startar micro:Bit studion så finns det två block redan där. Ett block
 
 Sten, sax och påse spelet ska däremot starta när du skakar på micro:Biten.
 
-1. Dra ett block **"för skaka" **från kategorin **Input** till kodytan
+1. Dra ett block **"för skaka"** från kategorin **Input** till kodytan
 
     ![image alt text](image_4.png)
 
@@ -109,7 +109,7 @@ Du får själv välja ikoner eller så kan du välja blocket **"visa lysdioder"*
 
 > **Testa!** Du dels testa ditt spel genom simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE**.
 
-> **Ladda ner spelet! **Döp spelet till **sten** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du skakar på den?
+> **Ladda ner spelet!** Döp spelet till **sten** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du skakar på den?
 
 ## 3 – För två spelare – initiering
 
@@ -121,7 +121,7 @@ Här behöver du kommunicera med minst en annan person som kodar samma uppgift, 
 
     1. Sätt **"hand"** på -1
 
-    2. Radio **ställ in grupp **1. Detta block hittar du under kategorin **Radio**. *Välj ditt eget gruppnummer*, vilket gör att bara du och din kompis kan kommunicera.
+    2. Radio **ställ in grupp** 1. Detta block hittar du under kategorin **Radio**. *Välj ditt eget gruppnummer*, vilket gör att bara du och din kompis kan kommunicera.
 
     ![image alt text](image_12.png)
 
@@ -155,7 +155,7 @@ I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när b�
 
 2.  Innanför detta kodblock lägg följande block **sätt "status" på -1.**
 
-**"Status" **är en variabel som har koll på om du vinner eller förlorar. Om **“status”** har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “**status” **till 1 vilket betyder vinst om du har en bättre hand än din kompis.
+**"Status"** är en variabel som har koll på om du vinner eller förlorar. Om **“status”** har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “**status”** till 1 vilket betyder vinst om du har en bättre hand än din kompis.
 
 1. Skapa följande kod efter du satt **"status"** till -1
 
@@ -188,7 +188,7 @@ I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när b�
 
  > **Testa!** Du dels testa ditt spel genom simulatorn till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE** och gör sedan samma sak på den andra micro:Biten
 
-> **Ladda ner spelet! **Döp spelet till **sten2** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:Bits? 
+> **Ladda ner spelet!** Döp spelet till **sten2** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:Bits?
 
 ## Färdig!
 
