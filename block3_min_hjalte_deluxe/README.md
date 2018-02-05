@@ -71,3 +71,5 @@ För att bli av med ursprungssprajten: Lägg till ett block **"göm"** under **"
 Faller det inte längre några regndroppar? Det är för att en klon får samma beteende som dess ursprungssprajt och nu har vi sagt att den skall vara gömd. Lägg till ett block **"visa"** under **"när jag startar som klon"**.
 
 ![Visa/dölj klon](./skapa_klon_2.png)
+
+> Testa! Döljs ursprungssprajten från scenen när du trycker på START?
