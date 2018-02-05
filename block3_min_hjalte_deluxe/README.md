@@ -64,11 +64,11 @@ Du skall koda så att en regndroppe ramlar från toppen av skärmen ned till bot
 
 > Testa! Faller det ned en massa regndroppar nu när du trycker på START?
 
-Du ser kanske det är en regndroppe som hänger kvar uppe i taket av scenen? Det är vår _ursprungssprajt_. Vi har bara skrivit kod för hur klonerna skall bete sig. Men vi har inte sagt vad som skall hända med urssprungssprajten.
+Du ser kanske att det är en regndroppe som hänger kvar uppe i taket av scenen? Det är vår _ursprungssprajt_. Vi har bara skrivit kod för hur klonerna skall bete sig. Men vi har inte sagt vad som skall hända med urssprungssprajten.
 
-För att bli av med ursprungssprajten: Lägg till ett block **"göm"** under **"när START klickas på"**.
+1. För att bli av med ursprungssprajten: Lägg till ett block **"göm"** under **"när START klickas på"**.
 
-Faller det inte längre några regndroppar? Det är för att en klon får samma beteende som dess ursprungssprajt och nu har vi sagt att den skall vara gömd. Lägg till ett block **"visa"** under **"när jag startar som klon"**.
+2. Nu faller det inte längre några regndroppar. Det är för att en klon får samma beteende som dess ursprungssprajt och nu har vi sagt att den skall vara gömd. Lägg till ett block **"visa"** under **"när jag startar som klon"**.
 
 ![Visa/dölj klon](./skapa_klon_2.png)
 
