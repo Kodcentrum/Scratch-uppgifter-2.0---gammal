@@ -1,22 +1,22 @@
 # Sten, sax och påse
 
-I denna uppgift ska du få koda ett Sten, sax och påse spel för två spelare. Du kommer få lära dig variabler, slumptal och hur två micro:Bits kan kommunicera med varandra.
+I denna uppgift ska du få koda ett Sten, sax och påse spel för två spelare. Du kommer få lära dig variabler, slumptal och hur två micro:bits kan kommunicera med varandra.
 
 Ett exempel på spelet hittar du här: [https://makecode.microbit.org/_dzK16s3k6Vq1](https://makecode.microbit.org/_dzK16s3k6Vq1)
 
 ![image alt text](image_0.png)
 
-## 1 – Kom igång med micro:Bits
+## 1 – Kom igång med micro:bits
 
-Här kommer några tips för att komma igång med din micro:Bit
+Här kommer några tips för att komma igång med din micro:bit
 
-**Hitta micro:Bit editorn**
+### Hitta till micro:bit editorn
 
-För att koda program till din micro:Bit gå till denna adress
+För att koda program till din micro:bit gå till denna adress
 
 [https://makecode.microbit.org](https://makecode.microbit.org)
 
-**micro:Bit editorn**
+### micro:bit editorn
 
 ![image alt text](image_1.png)
 
@@ -26,7 +26,7 @@ Editorn är indelat i tre stora delar
 
 2. I mitten hittar du alla kodblock som behöver i olika kategorier
 
-3. Till vänster hittar du en simulator där du kan testa din kod innan du kopierar över den till din micro:Bit
+3. Till vänster hittar du en simulator där du kan testa din kod innan du kopierar över den till din micro:bit
 
 Det finns också två andra knappar som kan vara bra att känna till
 
@@ -34,27 +34,29 @@ Det finns också två andra knappar som kan vara bra att känna till
 
 * En **dela knapp** som gör att du kan dela med dig av din kod till kompisar
 
-**Föra över program till micro:Biten**
+### Föra över program till micro:biten
 
-När du har skapat ett program i editorn behöver du flytta över den till micro:Biten. Det gör du genom att
+När du har skapat ett program i editorn behöver du flytta över den till micro:biten. Det gör du genom att
 
 1. Namnge projektet
 
- ![image alt text](image_2.png)
+    ![image alt text](image_2.png)
 
 2. Klicka på "Ladda ned"-knappen. Vilket gör att en liten fil med ändelsen **hex** laddas ner till din dator.
 
-![image alt text](image_3.png)
+    ![image alt text](image_3.png)
 
-3. Koppla in micro:Biten till datorn med hjälp av en USB kabel
+3. Koppla in micro:biten till datorn med hjälp av en USB kabel
 
-4. Flytta **hex**-filen till micro:Biten
+4. Flytta **hex**-filen till micro:biten
 
 ## 2 – För en spelare
 
-När du startar micro:Bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:Biten och ett block som hela tiden kör en loop i bakgrunden.
+Nu ska du få börja koda! En enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.
 
-Sten, sax och påse spelet ska däremot starta när du skakar på micro:Biten.
+När du startar micro:bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:biten och ett block som hela tiden kör en loop i bakgrunden.
+
+Sten, sax och påse spelet ska däremot starta när du skakar på micro:biten.
 
 1. Dra ett block **"för skaka"** från kategorin **Input** till kodytan
 
@@ -69,6 +71,8 @@ Sten, sax och påse spelet ska däremot starta när du skakar på micro:Biten.
     ![image alt text](image_6.png)
 
 4. Döp variabeln till **"hand"**
+
+    > En variabel är ett minnesfack som kan hålla olika värden. Variabeln **"hand"** kommer hålla reda på om din "hand" är en sten, sax eller påse.
 
 5. Istället för **0** ska du sätta **"hand"** till ett slumptal mellan 0 och 2. Variabeln kan alltså få värdena 0 (_sten_), 1 (_sax_) eller 2 (_påse_).
 
@@ -90,7 +94,7 @@ Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet p
 
     1. OM **"hand"** är lika med 0
 
-        1. Visa ikon **"Diamant"**
+        1. Visa ikon **"Diamant"** (detta block hittar du under **Grundläggande**)
 
         ![image alt text](image_10.png)
 
@@ -100,28 +104,30 @@ Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet p
 
     3. Visa en påse OM **"hand"** är 2
 
-Du får själv välja ikoner eller så kan du välja blocket **"visa lysdioder"** och rita din egen ikon!
+    > Du får själv välja ikoner eller så kan du välja blocket **"visa lysdioder"** och rita din egen ikon!
 
 6. Lägg in ett block **"anropa funktionen VisaHand"** precis efter du har slumpat fram värdet på **“hand”**
 
     ![image alt text](image_11.png)
 
 
-> **Testa!** Du dels testa ditt spel genom simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE**.
+> **Testa!** Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE**.
 
-> **Ladda ner spelet!** Döp spelet till **sten** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du skakar på den?
+> **Ladda ner spelet!** Döp spelet till **sten** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du skakar på den?
 
 ## 3 – För två spelare – initiering
 
-Nu ska koda så att två micro:Bits kan kommunicera med varandra genom radiosignaler. På det sättet blir det roligare att spela.
+Nu ska koda så att två micro:bits kan kommunicera med varandra genom radiosignaler. På det sättet blir det roligare att spela.
 
-Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:Bits är dem som kommunicerar!
+Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:bits är dem som kommunicerar!
 
 1. Lägg in följande kod under blocket **"vid start"**
 
     1. Sätt **"hand"** på -1
 
-    2. Radio **ställ in grupp** 1. Detta block hittar du under kategorin **Radio**. *Välj ditt eget gruppnummer*, vilket gör att bara du och din kompis kan kommunicera.
+    2. Radio **ställ in grupp** 1. Detta block hittar du under kategorin **Radio**.
+
+    > **Välj ditt eget gruppnummer**, vilket gör att bara du och din kompis kan kommunicera.
 
     ![image alt text](image_12.png)
 
@@ -133,7 +139,7 @@ Nu är du klar med initieringen av spelet, men fortfarande händer inte så myck
 
 ## 4 – För två spelare – vem vann?
 
-Nu kommer du hela tiden sända värdet på variabeln **"hand"** till den andra micro:Biten i din grupp. Samtidigt kommer den andra micro:Biten i din grupp också sända ut värdet på sin variabel **“hand”**. När du tar emot det värdet kan du kolla om du vann eller förlorade. Det ska du få koda nu!
+Nu kommer du hela tiden sända värdet på variabeln **"hand"** till den andra micro:biten i din grupp. Samtidigt kommer den andra micro:biten i din grupp också sända ut värdet på sin variabel **“hand”**. När du tar emot det värdet kan du kolla om du vann eller förlorade. Det ska du få koda nu!
 
 1. Från kategorin **Radio** dra in ett block **"när radio mottages..."** till kodytan
 
@@ -147,7 +153,7 @@ Nu kommer du hela tiden sända värdet på variabeln **"hand"** till den andra m
 
 4. Döp variabeln till **"hand2"**
 
-I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när både **"hand"** och **“hand2”** har fått ett slumptal mellan 0 och 2, det vill säga när både du och din motspelare har skakat på micro:Bitsen.
+I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när både **"hand"** och **“hand2”** har fått ett slumptal mellan 0 och 2, det vill säga när både du och din motspelare har skakat på micro:bitsen.
 
 1. Lägg därför en OM-sats innan för blocket **"när radio mottages..."** som kollar villkoret att både **“hand”** och **“hand2”** är större än –1. Du hittar de flesta block under kategorin **Logik**.
 
@@ -155,7 +161,7 @@ I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när b�
 
 2.  Innanför detta kodblock lägg följande block **sätt "status" på -1.**
 
-**"Status"** är en variabel som har koll på om du vinner eller förlorar. Om **“status”** har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “**status”** till 1 vilket betyder vinst om du har en bättre hand än din kompis.
+    > **"Status"** är en variabel som har koll på om du vinner eller förlorar. Om **“status”** har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “**status”** till 1 vilket betyder vinst om du har en bättre hand än din kompis.
 
 1. Skapa följande kod efter du satt **"status"** till -1
 
@@ -186,9 +192,9 @@ I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när b�
     ![image alt text](image_18.png)
 
 
- > **Testa!** Du dels testa ditt spel genom simulatorn till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE** och gör sedan samma sak på den andra micro:Biten
+ > **Testa!** Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE** och gör sedan samma sak på den andra micro:biten
 
-> **Ladda ner spelet!** Döp spelet till **sten2** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:Biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:Bits?
+> **Ladda ner spelet!** Döp spelet till **sten2** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:bits?
 
 ## Färdig!
 
