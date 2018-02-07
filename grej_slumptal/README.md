@@ -1,6 +1,6 @@
 ## Slumptal
 
-*Ett slumptal är ett tal som inte kommer vara samma varje gång du kör programmet *
+*Ett slumptal är ett tal som inte kommer vara samma varje gång du kör programmet*
 
 Ett slumptal används för att styra ett program på ett slumpmässigt sätt, det vill säga att programmet inte ska bete sig samma varje gång vi kör det. Det finns många användning för ett slumptal i ett program. De kan användas för att
 

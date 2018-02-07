@@ -4,7 +4,7 @@
 
 En operator är en matematisk instruktion eller funktion som använder sig av en eller flera *ingångsvärden* och omvandlar dem till ett nytt *utgångsvärde*. Det finns olika typer av operatorer i ett program och de vanligaste är
 
-* *Aritmetriska operatorer*, vilka du säker känner igen från skolan eftersom de är + (addition), – (subtraktion), * (multiplikation) och / (division)
+* *Aritmetriska operatorer*, vilka du säkert känner igen från skolan eftersom de är + (addition), – (subtraktion), * (multiplikation) och / (division)
 
 * *Logiska operatorer* som jobbar med booleska variabler som kan vara antingen SANT eller FALSKT. De vanligaste logiska operatorerna är OCH, ELLER och INTE
 
