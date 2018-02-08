@@ -64,7 +64,7 @@ Du skall koda så att en regndroppe ramlar från toppen av skärmen ned till bot
 
 > Testa! Faller det ned en massa regndroppar nu när du trycker på START?
 
-Du ser kanske att det är en regndroppe som hänger kvar uppe i taket av scenen? Det är vår _ursprungssprajt_. Vi har bara skrivit kod för hur klonerna skall bete sig. Men vi har inte sagt vad som skall hända med urssprungssprajten.
+Ser du att en regndroppe hänger kvar uppe i taket av scenen? Det är vår _ursprungssprajt_. Vi har bara skrivit kod för hur klonerna av den här sprajten skall bete sig. Men vi har inte sagt vad som skall hända med urssprungssprajten.
 
 1. För att bli av med ursprungssprajten: Lägg till ett block **"göm"** under **"när START klickas på"**.
 
@@ -73,3 +73,15 @@ Du ser kanske att det är en regndroppe som hänger kvar uppe i taket av scenen?
 ![Visa/dölj klon](./skapa_klon_2.png)
 
 > Testa! Döljs ursprungssprajten från scenen när du trycker på START?
+
+## 4 – Ge din hjälte ett paraply
+
+Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply. Nu skall du skriva kod för att ge hen ett sådant.
+
+![Ge din hjälte ett paraply](./paraply.gif)
+
+1. Lägg till en paraplysprajt från biblioteket. (Eller måla ett eget paraply i en ny sprajt genom att klicka på penseln igen)
+
+2. Lägg till ett nytt block i koden för **när jag startar som klon**, efter att den har ändrat y med -10, som kollar om klonen rör vid paraplyet. Och om den gör det så skall klonen raderas. Du kommer behöva lägga till de här blocken:
+
+   ![De här blocken behöver du](./kollision.png)
