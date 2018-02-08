@@ -119,3 +119,28 @@ I verkligheten så regnar det inte jämnt. I bland är det uppehåll. Du skall n
        * sätt väder till sol
 
 > Testa! Ändrar sig vädret? I bland kan det ta väldigt lång tid innan vändret ändras. Varför det?
+
+## Färdig!
+
+Snyggt jobbat, nu har du lagt till ännu fler händelser i din berättelse.
+
+**Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.
+
+> Testa! Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!
+
+## Utmaningar
+
+### Dölj paraplyet när det inte regnar
+
+Lägg till kod i paraplyt som döljer paraplyt när det är sol och visar det igen när det regnar.
+
+### Lägg till ett nytt väder
+
+Kan du komma på något mer väder? Kanske skulle du även kunna lägga till vind? Eller att det regnar köttbullar?
+
+## Frågeställningar
+
+* Vad är en variabel?
+* Vad kan du använda ett slumptal till?
+* Vad är en klon?
+* Varför kan det vara bra att skapa kloner i stället för att bara kopiera en sprajt flera gånger?
