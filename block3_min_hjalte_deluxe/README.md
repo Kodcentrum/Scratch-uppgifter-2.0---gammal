@@ -4,7 +4,7 @@ I denna uppgift får du chansen att jobba vidare med spelet **Min hjälte**. Du 
 
 ## 1 – Förberedelser
 
-För att kunna jobba med denna uppgift måste du ha skapat ett färdigt berättelse **Min hjälte** som har några olika funktioner.
+För att kunna jobba med denna uppgift måste du ha skapat en färdig berättelse **Min hjälte** som har några olika funktioner.
 
 **Har du kodat Min hjälte?**
 
