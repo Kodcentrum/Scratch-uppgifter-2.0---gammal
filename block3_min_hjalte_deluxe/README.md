@@ -90,7 +90,7 @@ Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply.
 
 ## 5 – Slumpa vädret
 
-I verkligheten så regnar det inte jämnt. I bland är det uppehåll. Du skall nu skriva kod så att det bara regnar då och då. Men precis som i verkligheten så skall det vara svårt att förutspå vädret. Därför skall vi använda oss av slumpen.
+I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu skriva kod så att det bara regnar då och då. Men precis som i verkligheten så skall det vara svårt att förutspå vädret. Därför skall vi använda oss av slumpen.
 
 1. Börja med att skapa en variabel för alla sprajtar som du kallar **väder**.
 
