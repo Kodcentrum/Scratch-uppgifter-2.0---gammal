@@ -45,7 +45,7 @@ Du skall koda så att en regndroppe ramlar från toppen av skärmen ned till bot
 
 1. Under _Kontroll_ finns det ett block som heter **"när jag startar som klon"**. Dra ut det och flytta din kod från **"när START klickas på"** till **"när jag startar som klon"**.
 
-2. Modifiera koden så att den säger:
+2. Ändra koden så att den säger:
 
    * när jag startar som klon
    * sätt **y** till **180**
