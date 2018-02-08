@@ -85,3 +85,5 @@ Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply.
 2. Lägg till ett nytt block i koden för **när jag startar som klon**, efter att den har ändrat y med -10, som kollar om klonen rör vid paraplyet. Och om den gör det så skall klonen raderas. Du kommer behöva lägga till de här blocken:
 
    ![De här blocken behöver du](./kollision.png)
+
+> Testa! Fungerar paraplyt?
