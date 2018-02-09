@@ -2,7 +2,7 @@
 
 Nu ska du få göra en version av spelet <a href="http://www.nickelodeon.se/apps/4fb1Y5JOKkiyAq4yoWWG0c-skywhale" target="_blank">Skywhale</a> där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre. Här är det en flygande val som åker runt på himlen och ska äta så många munkar som möjligt. Varje munk ger poäng! Du kommer att lära dig att använda variabler och slumptal.
 
-Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">Flygande valen</a> i Scratch.
+Här kan du se ett exempel här: [https://scratch.mit.edu/projects/104732551/](https://scratch.mit.edu/projects/104732551/)
 
 ![image alt text](image_0.png)
 

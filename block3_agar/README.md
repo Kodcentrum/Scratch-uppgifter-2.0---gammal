@@ -1,8 +1,6 @@
 # Agar
 
-Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">Exempel</a>
+Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: [https://scratch.mit.edu/projects/102124910/](https://scratch.mit.edu/projects/102124910/)
 
   ![image alt exempel](image_1.png)
 
@@ -55,8 +53,6 @@ Du skall styra sprajten **Cell** med musen och när du äter de små kulorna ska
 
   ![image alt block](image_4.png)
 
-  _Det här är alla block du behöver för punkt 2._
-
 > Testa ditt skript. Följer **Cell** med när du drar musen över spelplanen?
 
 ## 3: Mat
@@ -107,10 +103,7 @@ Nästa steg är att se till att du har något att äta. Vi har redan skapat en s
 
   ![image alt kod](image_5.png)
 
-  _Det här är alla block du behöver för punkterna 1-3._
-
-> Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
-och äta upp små kulor.
+> Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell och äta upp små kulor.
 
 ## 4: Utökad speldynamik
 
@@ -136,8 +129,6 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 
   ![image alt kod](image_10.png)
 
-  _Det här är alla block du behöver för punkt 2._
-
 > Testa din kod! Du kan självklart göra det enklare eller svårare genom att ändra på skripten du gjorde ovan.
 
 **Tips:** Tycker du att **Cell** rör sig för fort? Ändra koden i punkt 1. Tycker du att **Cell** förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.
@@ -146,7 +137,7 @@ Du skall nu se till att utökad spelet så att det svårare att spela ju mer po�
 
 Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas _artificiell intelligens_ och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.
 
-Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan du koda en helt annan motståndare. Det finns inget som sätter stopp - bara din fantasi!
+> Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan du koda en helt annan motståndare. Det finns inget som sätter stopp - bara din fantasi!
 
 1. Rita en ny sprajt. Rita en fylld cirkel i valfri färg som  skall vara lite mindre än sprajten **Cell**.
 
@@ -176,8 +167,6 @@ Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan d
 
   ![image alt kod](image_11.png)
 
-  _Det här är alla block du behöver för punkt 3._
-
 4. Skapa ett nytt skript för **Fiende** som säger:
 
   * **När jag tar emot** meddelandet **"skapa"**
@@ -202,13 +191,12 @@ Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan d
 
   ![image alt kod](image_12.png)
 
-  _Det här är alla block du behöver för punkt 4._
-
 5. Ändra skriptet för **Mat**:
 
   * **Radera klonen** OM **Rör Fiende**. Placera denna kod på samma ställe där du känner av om du rör **Cell**.
 
 ## Färdig!
+
 Grattis, nu har du gjort klart uppgiften.
 
 **Glöm inte att spara ditt projekt!** Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.

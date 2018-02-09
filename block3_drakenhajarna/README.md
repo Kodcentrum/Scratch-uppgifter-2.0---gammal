@@ -2,9 +2,7 @@
 
 I den här uppgiften ska du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem. Ett mål är att skapa mer effektiv kod.
 
-Ett exempel på hur  spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/116717825/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116717825/](https://scratch.mit.edu/projects/116717825/)
 
 ![image alt exempel](image_1.png)
 
@@ -111,9 +109,8 @@ Nu ska du få skapa hajar som ska försöka äta upp draken. Flera hajar skapar 
 **Tips:** Är spelet för svårt? Blir draken uppäten för fort? Du kan pröva med att använda **förminskningsverktyget** och göra hajen mindre.
 
 ## 3: Spelet slutar och börjar om
+
 Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska också få koda så att det räcker med att trycka på mellanslag för att börja om spelet.
-
-
 
 1.	**Rita en ny bakgrund.** Den ska visas när spelet tar slut så du kan använda t. ex. penseln för att skriva **”Spelet slut!”**.
 
@@ -159,8 +156,6 @@ Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska oc
 
   ![image alt kopiera](image_7.png)
 
-  _Denna meny kommer upp om du högerklickar på ett block._
-
 8.	Skapa nya skript för **draken**. **Alla skript** som körs när START klickas på ska också köras när den tar emot meddelandet **”nytt spel”**. Du kan **högerklicka** på blocken och välj **kopiera!**
 
 > Testa! Kan du starta om spelet genom att klicka på mellanslag?
@@ -172,7 +167,7 @@ _Ungefär så här mycket kod ska du ha skapat för **Drake** nu._
 ## 4: Funktioner
 Du kanske tidigare stött på FUNKTIONER i matematik eller på andra ställen. När du kodar FUNKTIONER så fungerar dom på ett lite annorlunda sätt. FUNKTIONER är en **litet skript** som kan **köras flera gånger**.
 
-Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra uppgiften **kopierade** du massor av block som gör precis som sak. Det är **onödigt och kan skapa en massa problem**. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste **ändra på många ställen**. I stället ska du få koda **funktioner** som sedan kan **återanvändas** och **köras flera gånger**. De kommer fungera som vanliga **block**.
+> Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra uppgiften **kopierade** du massor av block som gör precis som sak. Det är **onödigt och kan skapa en massa problem**. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste **ändra på många ställen**. I stället ska du få koda **funktioner** som sedan kan **återanvändas** och **köras flera gånger**. De kommer fungera som vanliga **block**.
 
 Vi börjar med hajen:
 
@@ -183,7 +178,6 @@ Vi börjar med hajen:
 
 ![image alt nyttblock](image_9.png)
 
-_Hur det kan se ut på skärmen när du klickat på **Skapa ett block**_
 
 3.	Nu ska det ha dykt upp ett **stort lila block** i hajen som används för att berätta **vad funktionen gör**. ![image alt nyttblock](image_10.png) Flytta koden som startar när START klickas på så dessa block är under **definitionen** av **”för alltid(klona mig)”**.
 
@@ -192,8 +186,6 @@ _Hur det kan se ut på skärmen när du klickat på **Skapa ett block**_
 5.	Ta bort koden som körs när sprajten tar emot meddelande **”nytt spel”** och lägg till ett block för **”för alltid(klona mig)”**.
 
 ![image alt block](image_11.png)
-
-_Ungefär så här kan koden för **Haj** set ut nu. Fiffigt va!_
 
 > Testa spelet! Fungerar det precis som förut? Tycker du det är enklare att förstå koden nu?
 

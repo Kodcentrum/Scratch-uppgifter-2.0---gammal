@@ -2,7 +2,7 @@
 
 Nu ska du få skapa ett program som är en interaktiv berättelse, en berättelse där användaren styr vad som ska hända. Programmet är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att illustrera barnvisan ”Imse Vimse Spindel” med hjälp av enkla animationer.
 
-Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">här på Scratch</a>
+Ett exempel på det färdiga spelet kan du se här: [https://scratch.mit.edu/projects/118774105/](https://scratch.mit.edu/projects/118774105/)
 
   ![image alt text](image_1.png)
 
@@ -11,10 +11,12 @@ Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/
 I ditt nya projekt visas en katt som enda sprajt på en vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
 
 1.	Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
-![image alt text](image_2.png)
+
+  ![image alt text](image_2.png)
 
 2.	Nu vill du lägga till en insekt i stället. Tryck på knappen för NY SPRAJT:
-![image alt text](image_3.png)
+
+  ![image alt text](image_3.png)
 
   I menyn till vänster finns en kategori som heter **”Djur”**, tryck på den. I listan hittar du flera insekter. Välj den som heter **”Ladybug2”**. Tryck på insekten så att den blir markerad och sedan på OK nere till höger. (Tyvärr finns det ingen riktig spindel, så därför får du använda dig av **”Ladybug2”**)
 
@@ -27,14 +29,16 @@ Nu har du gjort spindel och det är dags att skapa en rolig bakgrund!
 Du ska nu få infoga en bakgrundsbild från biblioteket och därefter rita lite spindelnät.
 
 1.	För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
-![image alt text](image_4.png)
+
+  ![image alt text](image_4.png)
 
 2.	Tryck sedan på knappen för NY BAKGRUND:
-![image alt text](image_5.png)
+
+  ![image alt text](image_5.png)
 
 I menyn till vänster finns en kategori som heter **”Utomhus”**, tryck på den. I listan hittar du flera utomhusmiljöer. Välj den som heter **”brick wall2”**. Tryck på den bilden så att den blir markerad och sedan på OK nere till höger.
 
-**Tips:** Om du vill så får du använda en annan bakgrund, det är bara att markera en annan bild.
+> **Tips:** Om du vill så får du använda en annan bakgrund, det är bara att markera en annan bild.
 
 Nu får du se till att rita lite spindelnät:
 
@@ -63,19 +67,13 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
   ![image alt text](image_9.png)
 
-  _Tryck först på Händelser och dra sedan ut "när denna sprajt klickas på till fönstret till höger._
-
   ![image alt text](image_10.png)
-
-  _Tryck på Rörelse och dra sedan ut "ändra y med 10" och placera den som på bilden._
 
 > Testa nu vad som händer när du trycker på spindeln. Den flyttar sig uppåt! Det är bra, men du vill ju att spindeln ska fortsätta uppåt på tråden. Hur gör du det?
 
 2.	Det kan du ordna med skriptet **”repetera 10”** som finns under rubriken **KONTROLL**. Det här är en LOOP som gör att du kan upprepa en viss kod ett antal gånger.
 
   ![image alt text](image_11.png)
-
-  _För att spindeln ska fortsätta gå upp för tråden så behöver du lägga "ändra y med 10" i mitten av "repetera 10"-loopen._
 
 3. Markera **10:an** och skrv in **7** istället, så att loopen körs _7_ gånger. Då kan du sjunga med i ramsan när spindeln åker upp!
 
@@ -85,8 +83,6 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 
   ![image alt block](image_12.png)
 
-  _Ungefär så här ska ditt första skript se ut._
-
 > Tryck på spindeln igen! Hur ser animationen ut nu? Åker den för fort eller för långsamt? Åker den för långt eller för kort på tråden? Du kan ändra både hur mycket du ska flytta spindeln och hur många gånger tills du är nöjd.
 
 
@@ -95,7 +91,7 @@ Animationen du ska koda nu är för att få spindeln att klättra på den lodrä
 För att slippa dra tillbaka spindeln varje gång du vill testa din animation ska du nu skapa koda som säger åt datorn att placera spindeln på en särskild plats. Detta kallas för att INITIERA programmet och berättar för datorn vad som ska hända när programmet startar.
 
 
-För att starta och stoppa ett program, finns det i Scratch två särskilda knappar.  ![image alt text](image_31.png) Har du lagt märke till dem än? Nu ska du se till att spindeln hamnar i början av tråden när du klickar på START-knappen.
+> För att starta och stoppa ett program, finns det i Scratch två särskilda knappar.  ![image alt text](image_31.png) Har du lagt märke till dem än? Nu ska du se till att spindeln hamnar i början av tråden när du klickar på START-knappen.
 
 1.	Dra ett block för **HÄNDELSER**: **”när START (flaggan) klickas på”** till skriptytan.
 
@@ -122,6 +118,7 @@ Sprajten **cloud** är ett helt vanligt moln men i ramsan regnar det. Du ska dä
 1. Gå till fliken KLÄDSLAR
 
 2. Högerklicka på klädseln. Du ska då få fram en meny där du kan klicka på KOPIERA. Nu ska du ha två likadana klädslar.
+
   ![image alt text](image_15.png)
   ![image alt text](image_15b.png)
 
@@ -155,8 +152,6 @@ Nu är det dags att animera molnet!
 
   ![image alt text](image_19.png)
 
-  _När du klickar på den lilla nedåt-pilen så kan du välja klädsel_
-
 Nu ska du få animera molnet. Målet är att få den att glida åt höger när du klickar på den samtidigt som den byter utseende. Den ska hamna precis ovanför spindeln.
 
 1. Dra ut ett block för **HÄNDELSER**: **”när denna sprajt klickas på”** till skriptytan.
@@ -170,8 +165,6 @@ Nu ska du få animera molnet. Målet är att få den att glida åt höger när d
 5. Dra sedan ett block **UTSEENDE**: **byt klädsel...** till skriptet. Se till att klädseln **"cloud2"** väljs i listan över klädslar.
 
   ![image alt text](image_20.png)
-
-  _Ungefär så här ska koden för molnet se ut_.
 
 > Testa spelet! Glider molnet till den lodrätta tråden och blir till ett regnmoln?
 
@@ -190,22 +183,20 @@ Block för att skicka och ta emot meddelanden hittar du under **HÄNDELSER**.
 3.	I rutan som dyker upp skriver du in **”molndans”**.
 
   ![image alt text](image_22.png)
-  _Den lilla nedåtpilen är markerat i rött. Om du klickar på den pilen och sedan på "nytt meddelande..." så kommer rutan till höger upp._
 
 Nu skickar molnet meddelande **"molndans"** när du klickar på den. Nu ska du fixa så att spindeln lyssnar på detta meddelande och glider bort från tråden.
 
 1. Klicka på spindeln sprajten så att den är markerad och du ser koden du gjorde tidigare
 
-2.	Dra ett block **HÄNDELSER**: **”när jag tar emot…”** till skriptytan och välj **"molndans"** i listan över meddelanden.  
+2.	Dra ett block **HÄNDELSER**: **”när jag tar emot...”** till skriptytan och välj **"molndans"** i listan över meddelanden.  
 
    ![image alt text](image_23.png)
 
-3.	Dra ett block **UTSEENDE**: **”säg … i 2 sek”** och placera direkt under. Skriv in **”Usch…”** i stället för ”Hello”
+3.	Dra ett block **UTSEENDE**: **”säg ... i 2 sek”** och placera direkt under. Skriv in **”Usch…”** i stället för ”Hello”
 
 4.	Dra ett block **UTSEENDE**: **”byt klädsel till…”** och placera den direkt under **”säg..”**-blocket.
 
   ![image alt text](image_24.png)
-  _Det här är spindelns två klädslar_
 
 4.	Spindel sprajten har två klädslar som du kan se om du klickar på fliken KLÄDSLAR. De två klädslarna skiljer sig åt på hur munnen ser ut. Klädseln **”ladybug2-a”** ser lite mer ledsen ut så välj den i **”byt klädsel till…”**-blocket genom att klicka på den lilla nedåtpilen.
 
@@ -229,7 +220,7 @@ Nu har du lagt till ett ljud till sprajten som kan spelas upp. Block för olika 
 
 4.	Välj **”screech”** från menyn genom att klicka på den lilla **nedåtpilen**.
 
- ![image alt text](image_27.png)
+  ![image alt text](image_27.png)
 
 ## 8: Upp stiger solen...
 
@@ -257,8 +248,6 @@ Nu är det dags att animera solen!
 
   ![image alt text](image_28.png)
 
-   _Ungefär så här ska koden som animerar solen se ut._
-
 > Klicka på solen! Glider den och hamnar ovanför molnet?
 
 ## 9: Torka bort allt regn
@@ -275,8 +264,6 @@ Nu är regnmolnet kvar även om du klickar på solen vilket är konstigt. Det si
 
   ![image alt text](image_29.png)
 
-   _De här blocken behöver du för koden ovan. Kan du pussla ihop dem?_
-
 2. **Skapa ett skript** for **spindeln** som säger:
 
    * När jag **tar emot ”soldans”**
@@ -285,7 +272,7 @@ Nu är regnmolnet kvar även om du klickar på solen vilket är konstigt. Det si
 
    * **Glid 1 sekund x: y:**. Ange samma koordinater som spindeln startar på i början av programmet.
 
-  **Tips**. Du behöver använda samma block som i skriptet för molnet.
+  > **Tips**. Du behöver använda samma block som i skriptet för molnet.
 
 ## Färdig!
 Grattis, nu har du skapat ett nytt program!

@@ -2,9 +2,7 @@
 
 I denna uppgift ska du få skapa en magisk matta som kan flyga till olika spännande platser! Du får själv välja vad som händer på de olika platserna, och du skapar på så sätt en interaktiv berättelse. Du kommer att använda meddelanden för att få olika delar av berättelsen att prata med varandra.
 
-Ett exempel på hur  spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/116594645/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116594645/](https://scratch.mit.edu/projects/116594645/)
 
 ![image alt exempel](image_1.png)
 
@@ -37,8 +35,6 @@ Nu ska du koda så att mattan rör sig upp och ned om och om igen, så att det s
 
   ![image alt scenen](image_3.png)![image alt scenen](image_9.png)
 
-  _Klicka här för att markera scenen så du kan skapa skriptet till höger._
-
 2.	Skapa ett skript för mattan som säger:
 
   *	Startar när START klickas på
@@ -61,14 +57,12 @@ Nu ska du koda så att mattan rör sig upp och ned om och om igen, så att det s
 
   * Sedan ska mattan **för alltid glida upp och ner** igen. **Återanvända koden** du skapade ovan i punkt 2!
 
-    **Tips:** För att återanvända kod kan du högerklicka på ett kodblock och välj **kopiera**: ![image alt block](image_10.png)
-
-
-> Testa programmet! Glider mattan upp och ner? Vad händer om du klickar på bakgrunden?
+    > **Tips:** För att återanvända kod kan du högerklicka på ett kodblock och välj **kopiera**: ![image alt block](image_10.png)
 
   ![image alt block](image_4.png)
 
-  _Här är några av de block som behövs för koden ovan. Tänkt på att du kan behöva använda ett block mer än en gång._
+  > Testa programmet! Glider mattan upp och ner? Vad händer om du klickar på bakgrunden?
+
 
 ## 3: Byta bakgrund när mattan rör bollen
 
@@ -110,11 +104,13 @@ Nu ska du koda så att mattan åker till basketplanen när den åker in i basket
 
 > Testa programmet! Vad händer när du klickar på bollen?
 
+## 4: Ljudeffekter
+
+För att göra det lite roligare ska vi lägga till ljudeffekter.
+
 5.	Nu kan du lägga till en **ljudeffekt** när mattan åker in i bollen. Gå till mattan och klicka på **ljud-fliken**. Lägg till ljudet **"Spiral"**
 
   ![image alt block](image_6.png)
-
-  _Så här kan det se ut på ljud-fliken när du lagt till **spiral**._
 
 6.	Sätt in **ljudblocket** på rätt ställe så att det spelas när mattan far in i bollen. Testa dig fram för att se vart det passar bäst att placera ljudet.
 
@@ -134,11 +130,9 @@ Nu är det dags att byta bakgrund och dölja basketbollen:
 
   ![image alt block](image_7.png)
 
-  _Här är de block som behövs för punkterna 2 till 6._
+> Testa! Fungerar ljuden? Nu har du kodat ett enkelt program med en magisk matta som kan åka till en basketplan!
 
-> Nu har du kodat ett enkelt program med en magisk matta som kan åka till en basketplan!
-
-## 4: Åka tillbaka till öknen
+## 5: Åka tillbaka till öknen
 
 Det sista du ska få koda är att göra så att mattan kan åka tillbaka till öknen. Då behöver du en ny sprajt att klicka på.
 
@@ -186,17 +180,14 @@ Det sista du ska få koda är att göra så att mattan kan åka tillbaka till ö
 
     * Ändra storleken med **2**
 
-**Tips:** Detta är nästan samma skript som händer när den tar emot meddelandet **”bollkollision”**. Du kan därför kopiera den koden om du vill och göra de nödvändiga ändringarna.
+> **Tips:** Detta är nästan samma skript som händer när den tar emot meddelandet **”bollkollision”**. Du kan därför kopiera den koden om du vill och göra de nödvändiga ändringarna.
 
   ![image alt block](image_8.png)
 
-  _Här är de block som behövs för punkterna 2 till 6._
-
 > Testa spelet! Kan du åka tillbaka till öknen genom att klicka på solen?
 
-Är basketbollen försvunnen i öknen? Varför? Kan du fixa det?
 
-**Tips:** använd meddelandet **"öken"**.
+> Är basketbollen försvunnen i öknen? Varför? Kan du fixa det? **Tips:** använd meddelandet **"öken"**.
 
 ## Färdig!
 Grattis, nu har du gjort klart uppgiften.

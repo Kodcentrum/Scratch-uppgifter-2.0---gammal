@@ -2,9 +2,7 @@
 
 I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pankakor eller brädor till en koja. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.
 
-Ett exempel på hur  spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/116997344/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116997344/](https://scratch.mit.edu/projects/116997344/)
 
 ![image alt exempel](image_1.png)
 
@@ -56,15 +54,11 @@ Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan
 
 11.	Se till att både **Calvrett** och **gå-gata** visas när de tar emot meddelandet **”visa hem”**
 
-![image alt block](image_2.png)
-
-_De här blocken behöver du för att skapa koden ovan. Tänk på att vissa block behöver du använda mer än en gång._
+  ![image alt block](image_2.png)
 
 > Testa att klicka på START och sedan på pilen. Byts bakgrunden och sprajterna försvinner?
 
 ![image alt pilar](image_3.png)
-
-_Så här kan det se ut på gatan när du har lagt till två nya pilar._
 
 Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan de olika scenerna:
 
@@ -167,11 +161,9 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
 14.	**Ändra** i koden för **gå-gata** så att den bara **göms** och skickar ett meddelande om **längden på ”inköpslista” är större än 0**. Det är ju ingen idé att gå och handla om du inte vet vad som behövs.
 
-> Testa spelet! Vad händer när du klickar på Ja? Vad händer när du klickar på Nej?
-
   ![image alt block](image_8.png)
 
-  _Dessa block behöver du för punkterna 12 och 14 ovan._
+> Testa spelet! Vad händer när du klickar på Ja? Vad händer när du klickar på Nej?
 
 ## 3: Skapa sprajtar för affären
 
@@ -243,8 +235,6 @@ Nu ska du sätta priser på varorna:
 
   ![image alt affär](image_9.png)
 
-  _Så här kan affären se ut nu._
-
 > Testa programmet! Visas varor och priser när du kommer in i affären? Vad händer när du går tillbaka till gatan, försvinner varorna och priserna?
 
 ## 4: Köpa varor
@@ -274,8 +264,6 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
     * Skicka meddelandet **”för dyrt”**
 
     ![image alt block](image_10.png)
-
-    _De här blocken behöver du för punkt 3._
 
 4.	**Kopiera** detta skript till sprajterna **bananer**, **apelsin** och **transport**. **Ändra ”prisVattenmelon”** på två ställen så att du jämför med rätt variabel. **Ändra** också **”en vattenmelon”** till en **”bananer”**, **”en apelsin”** och **”ett transportmedel”** för de olika sprajterna.
 
@@ -322,8 +310,6 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
       * **Säg** *”Det verkar som det fattas något. Har du handlat allt?”*
 
   ![image alt block](image_11.png)
-
-  _De här blocken behöver du för punkt 4._
 
 5. Lägg till sprajten **Fruit Platter** från biblioteket och ge den namnet **”Frukttallrik”**.
 

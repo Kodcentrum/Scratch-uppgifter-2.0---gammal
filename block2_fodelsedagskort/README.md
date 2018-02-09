@@ -12,7 +12,9 @@ Först behöver du en festlig **bakgrund** och några dansande **sprajtar**!
 
 2. Lägg till en bakgrund, till exempel **Musik och Dans > Party**.
 
-3. Behåll katten som sprajt eller välj någon annan som huvudkaraktär. Lägg till två nya sprajtar som ska dansa på var sin sida om katten. Till exempel **Musik och Dans > Ballerina** och **Musik och Dans > Cassy Dance.** Lägg alla tre sprajtar bredvid varandra på **scenen** med utrymme för att dansa.
+3. Behåll katten som sprajt eller välj någon annan som huvudkaraktär.
+
+4. Lägg till två nya sprajtar som ska dansa på var sin sida om katten. Till exempel **Musik och Dans > Ballerina** och **Musik och Dans > Cassy Dance.** Lägg alla tre sprajtar bredvid varandra på **scenen** med utrymme för att dansa.
 
 Nu har du dansare och bakgrund till festen. Nästa steg är att få födelsedagskortet att:
 
@@ -47,11 +49,15 @@ Du kommer att förstå senare vad namnet ska användas till!*
 
 Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist! Katten ska vända sig fram och tillbaka, så du behöver skapa en ny **klädsel** åt katten.
 
-5. Klicka på kattens sprajt och gå till fliken KLÄDSLAR. Ta bort _Costume2_. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
+1. Klicka på kattens sprajt och gå till fliken KLÄDSLAR.
+
+2. Ta bort _Costume2_.
+
+3. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
 
   ![image alt text](image_2.png)
 
-6. Välj kopian som nu heter _costume2_ och klicka på knappen för att "vända vänster-höger" som du hittar i övre, högra hörnet.
+3. Välj kopian som nu heter _costume2_ och klicka på knappen för att "vända vänster-höger" som du hittar i övre, högra hörnet.
 
   ![image alt text](image_3.png)
 
@@ -61,7 +67,7 @@ Nu vill du ge katten några dansrörelser. Du ska få lära den att dansa twist!
 
   ![image alt text](image_6.png)
 
-  **Tips:** Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!
+  > **Tips:** Om du inte hör någonting så kanske du har stängt av ljudet eller har hörlurar inkopplade, fråga någon vuxen om hjälp om du inte kan sätta på ljudet!
 
 8. Gå till fliken SKRIPT och ändra skriptet som du skapade i uppgift 2. Det ska nu:
 
@@ -111,7 +117,6 @@ Som du kan se så slutar inte katten att dansa fast att melodin är slut. Det ka
 
   ![image alt text](image_9.png)
 
-  _Kan du läsa steg för steg vad detta skript gör?_
 
 > Testa ditt projekt! Slutar katten och dansa när melodin är slut? Säger katten _"Grattis …"_ och det namn som du skrev in när kortet frågade _"Vem fyller år?"_ i början?
 
@@ -157,9 +162,6 @@ Du har dansare och musik, men det är inget riktigt födelsedagsfirande utan en 
 
 
   ![image alt text](image_12.png)
-
-  _Testa att ändra antal sekunder för vänta och
-värdet för färgeffekten och se vad som händer!_
 
 > **Testa ditt projekt!** Kommer det upp en tårta när katten säger _"Grattis …"_? Ändrar scenen färg? Slutar den ändra färg när melodin är slut?
 
