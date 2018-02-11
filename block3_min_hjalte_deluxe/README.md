@@ -107,7 +107,7 @@ I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu
 
       ![Välj namn för variabeln](./variabel_2.png)
 
-1) Ändra koden för din regndroppe så att koden för **när START klickas på** blir:
+2. Ändra koden för din regndroppe så att koden för **när START klickas på** blir:
 
    ![Slumpa väder](./slumpa_väder_1.png)
 
@@ -117,13 +117,13 @@ I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu
      * om **(väder) = `regn`** då
        * skapa klon av mig själv
 
-1) När du trycker START så kommer det inte regna längre. Det är för att vi inte har ändrat vår variabel till värdet `regn`. Det skall vi göra nu.
+3. När du trycker START så kommer det inte regna längre. Det är för att vi inte har ändrat vår variabel till värdet `regn`. Det skall vi göra nu.
 
-1) Välj scenen. Det är där du skall skriva koden för att styra vädret.
+4. Välj scenen. Det är där du skall skriva koden för att styra vädret.
 
    ![Välj scenen](./scen.png)
 
-1) Lägg till ett nytt block **när START klickas på** som innehåller koden:
+5. Lägg till ett nytt block **när START klickas på** som innehåller koden:
 
    ![Slumpa väder](./slumpa_väder_2.png)
 
