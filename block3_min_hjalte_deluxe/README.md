@@ -80,7 +80,7 @@ Ser du att en regndroppe hänger kvar uppe i taket av scenen? Det är vår _ursp
 
 ## 4 – Ge din hjälte ett paraply
 
-Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply. Nu skall du skriva kod för att ge hen ett sådant.
+Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply. Nu skall du skriva kod för att ge hen något som skyddar mot regnet.
 
 ![Ge din hjälte ett paraply](./paraply.gif)
 
