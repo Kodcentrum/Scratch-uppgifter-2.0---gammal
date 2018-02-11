@@ -116,7 +116,6 @@ I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu
 
    * när START klickas på
    * för alltid
-
      * vänta `3` sekunder
      * om **(slumptal `1` till `2`)** = `1` då
        * sätt väder till regn
