@@ -1,6 +1,6 @@
 # Min hjälte deluxe – del 1
 
-I denna uppgift får du chansen att jobba vidare med spelet **Min hjälte**. Du kommer få lägga till funktioner som olika väder och en tävling mellan dig och din motståndare. För att göra det kommer du använda kloner, variabler och meddelanden.
+I denna uppgift får du chansen att jobba vidare med berättelsen **Min hjälte**. Du kommer få lägga till funktioner för att visa olika väder. För att göra det kommer du använda kloner, variabler och meddelanden.
 
 ## 1 – Förberedelser
 
@@ -10,7 +10,7 @@ För att kunna jobba med denna uppgift måste du ha skapat en färdig berättels
 
 Om du _inte_ är klar med Min hjälte får du börja med att göra klart den. Du hittar uppgiften [här](https://www.kodboken.se/start/skapa-berattelser/uppgifter-i-scratch/min-hjalte) eller i menyn till höger.
 
-> Nu är det dags att koda vidare på spelet!
+> Nu är det dags att koda vidare på berättelsen!
 
 ## 2 – Lägg till en regndroppe
 
