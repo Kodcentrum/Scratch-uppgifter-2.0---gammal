@@ -94,15 +94,17 @@ I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu
 
 1. Börja med att skapa en variabel för alla sprajtar som du kallar **väder**.
 
-2. Ändra koden för din regndroppe så att koden för **när START klickas på** ser ut såhär:
+2. Ändra koden för din regndroppe så att koden för **när START klickas på** blir:
+
+   ![Slumpa väder](./slumpa_väder_1.png)
 
    * när START klickas på
    * göm
    * för alltid
-     * om **väder = regn** då
+     * om **(väder) = `regn`** då
        * skapa klon av mig själv
 
-3. När du trycker START så kommer det inte regna längre. Det är för att vi inte har ändrat vår variabel till "regn". Det skall vi göra nu.
+3. När du trycker START så kommer det inte regna längre. Det är för att vi inte har ändrat vår variabel till värdet `regn`. Det skall vi göra nu.
 
 4. Välj scenen. Det är där du skall skriva koden för att styra vädret.
 
@@ -110,10 +112,13 @@ I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu
 
 5. Lägg till ett nytt block **när START klickas på** som innehåller koden:
 
+   ![Slumpa väder](./slumpa_väder_2.png)
+
    * när START klickas på
    * för alltid
-     * vänta 3 sekunder
-     * om **slumptal 1 till 2** = 1 då
+
+     * vänta `3` sekunder
+     * om **(slumptal `1` till `2`)** = `1` då
        * sätt väder till regn
      * annars
        * sätt väder till sol
