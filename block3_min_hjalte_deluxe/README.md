@@ -96,7 +96,7 @@ Din hjälte blir alldeles blöt om den skall vara ute i regnet utan ett paraply.
 
 I verkligheten så regnar det inte jämt. I bland är det uppehåll. Du skall nu skriva kod så att det bara regnar då och då. Men precis som i verkligheten så skall det vara svårt att förutspå vädret. Därför skall vi använda oss av slumpen.
 
-1. Börja med att skapa en variabel.
+1. Börja med att skapa en variabel för alla sprajtar som du ger namnet `väder`. Det gör du såhär:
 
    1. Gå till kategorin **Data**
    2. Tryck på knappen **Skapa en variabel**
