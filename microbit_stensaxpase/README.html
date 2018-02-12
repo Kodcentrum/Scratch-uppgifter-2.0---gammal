@@ -5,7 +5,7 @@
 <p>Ett exempel på spelet hittar du här: <a href="https://makecode.microbit.org/_dzK16s3k6Vq1">https://makecode.microbit.org/_dzK16s3k6Vq1</a></p>
 <p><img src="image_0.png" alt="image alt text"></p>
 <h2 id="1-kom-ig-ng-med-micro-bits">1 – Kom igång med micro:bits</h2>
-<p>Här kommer några tips för att komma igång med din micro:bit</p>
+<p>Här kommer några tips för att komma igång med din micro:bit. Om du har använt micro:bits förut kan du hoppa vidare till nästa steg.</p>
 <h3 id="hitta-till-micro-bit-editorn">Hitta till micro:bit editorn</h3>
 <p>För att koda program till din micro:bit gå till denna adress</p>
 <p><a href="https://makecode.microbit.org">https://makecode.microbit.org</a></p>
@@ -39,11 +39,16 @@
 <li><p>Koppla in micro:biten till datorn med hjälp av en USB kabel</p>
 </li>
 <li><p>Flytta <strong>hex</strong>-filen till micro:biten</p>
+<blockquote>
+<p>Om du har svårt att veta hur du ska flytta över filen till micro:biten, fråga en vuxen!</p>
+</blockquote>
 </li>
 </ol>
 <h2 id="2-f-r-en-spelare">2 – För en spelare</h2>
-<p>Nu ska du få börja koda! En enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.</p>
+<p>Nu ska du få börja koda en enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.</p>
+<blockquote>
 <p>När du startar micro:bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:biten och ett block som hela tiden kör en loop i bakgrunden.</p>
+</blockquote>
 <p>Sten, sax och påse spelet ska däremot starta när du skakar på micro:biten.</p>
 <ol>
 <li><p>Dra ett block <strong>&quot;för skaka&quot;</strong> från kategorin <strong>Input</strong> till kodytan</p>
@@ -78,7 +83,7 @@
 <ol>
 <li><p>OM <strong>&quot;hand&quot;</strong> är lika med 0</p>
 <ol>
-<li><p>Visa ikon <strong>&quot;Diamant&quot;</strong> (detta block hittar du under <strong>Grundläggande</strong>)</p>
+<li><p>Visa ikon <strong>&quot;Diamant&quot;</strong> (detta block hittar du under kategorin <strong>Grundläggande</strong>)</p>
 <p><img src="image_10.png" alt="image alt text"></p>
 </li>
 </ol>
@@ -114,7 +119,7 @@
 </li>
 <li><p>Radio <strong>ställ in grupp</strong> 1. Detta block hittar du under kategorin <strong>Radio</strong>.</p>
 <blockquote>
-<p><strong>Välj ditt eget gruppnummer</strong>, vilket gör att bara du och din kompis kan kommunicera.</p>
+<p><strong>Välj ditt eget gruppnummer</strong>! Det gör att bara du och din kompis kan kommunicera.</p>
 </blockquote>
 <p><img src="image_12.png" alt="image alt text"></p>
 </li>
@@ -164,15 +169,9 @@
 <ol>
 <li><p>Upprepa 4 gånger</p>
 <ol>
-<li><p>OM <strong>&quot;status&quot;</strong> är 1</p>
-<ol>
-<li>Visa ikon <strong>&quot;Glad&quot;</strong></li>
-</ol>
+<li><p>OM <strong>&quot;status&quot;</strong> är 1: Visa ikon <strong>&quot;Glad&quot;</strong></p>
 </li>
-<li><p>ANNARS</p>
-<ol>
-<li>Visa ikon <strong>&quot;Ledsen&quot;</strong></li>
-</ol>
+<li><p>ANNARS: Visa ikon <strong>&quot;Ledsen&quot;</strong></p>
 </li>
 <li><p>Anropa funktionen <strong>&quot;VisaHand&quot;</strong></p>
 </li>
@@ -180,12 +179,12 @@
 </li>
 </ol>
 </li>
-<li><p>Lägg in ett block som sätter <strong>&quot;Hand&quot;</strong> till <strong>–1</strong></p>
+<li><p>Lägg in ett block som sätter <strong>&quot;Hand&quot;</strong> till <strong>–1</strong> sist</p>
 <p> <img src="image_18.png" alt="image alt text"></p>
 </li>
 </ol>
 <blockquote>
-<p><strong>Testa!</strong> Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong> och gör sedan samma sak på den andra micro:biten</p>
+<p><strong>Testa!</strong> Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong> och gör sedan samma sak på den andra micro:biten som dyker upp.</p>
 <p><strong>Ladda ner spelet!</strong> Döp spelet till <strong>sten2</strong> och klicka på <strong>&quot;Ladda ner&quot;</strong> för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:bits?</p>
 </blockquote>
 <h2 id="f-rdig-">Färdig!</h2>
@@ -195,6 +194,28 @@
 <p><strong>Testa ditt projekt</strong></p>
 <p>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA och dela koden med en kompis.</p>
 </blockquote>
+<h2 id="utmaningar">Utmaningar</h2>
+<h4 id="animation">Animation</h4>
+<p>Skapa en animation i stället för att visa en glad eller ledsen ikon när du tar emot radiosignalen från din kompis.</p>
+<ul>
+<li><p>Du kan använda block i kategorierna <strong>Grundläggande</strong> och <strong>Loopar</strong></p>
+</li>
+<li><p>Eller så kan du använda mer avancerade block som du hittar om du klickar på <strong>Avancerat</strong> och sedan <strong>Bilder</strong></p>
+</li>
+</ul>
+<h5 id="javascript">Javascript</h5>
+<p>Utforska det textbaserade språket <em>Javascript</em>! Precis all kod du kan skriva med hjälp av block kan du också skriva med ett textbaserad programmeringsspråk.</p>
+<ul>
+<li><p>Klicka på knappen <strong>JavaScript</strong></p>
+<p>  <img src="image_19.png" alt="image alt js"></p>
+</li>
+<li><p>Nu visas all kod som du skrivit i Javascript i stället. Gå igenom rad för rad och försök förstå vad koden gör.</p>
+<p>  <img src="image_20.png" alt="image alt jsex"></p>
+</li>
+<li><p>Skriv <strong>en</strong> kodrad som gör att texten &quot;Sten, sax och påse&quot; visas på micro:biten när du startar den.</p>
+<p>  Använd functionen <strong>basic.showString()</strong> och lägg in texten du vill visa mellan parenteserna.</p>
+</li>
+</ul>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>
 <ul>
 <li><p>Vad är en variabel?</p>

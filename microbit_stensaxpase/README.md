@@ -8,7 +8,7 @@ Ett exempel på spelet hittar du här: [https://makecode.microbit.org/_dzK16s3k6
 
 ## 1 – Kom igång med micro:bits
 
-Här kommer några tips för att komma igång med din micro:bit
+Här kommer några tips för att komma igång med din micro:bit. Om du har använt micro:bits förut kan du hoppa vidare till nästa steg.
 
 ### Hitta till micro:bit editorn
 
@@ -50,11 +50,13 @@ När du har skapat ett program i editorn behöver du flytta över den till micro
 
 4. Flytta **hex**-filen till micro:biten
 
+    > Om du har svårt att veta hur du ska flytta över filen till micro:biten, fråga en vuxen!
+
 ## 2 – För en spelare
 
-Nu ska du få börja koda! En enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.
+Nu ska du få börja koda en enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.
 
-När du startar micro:bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:biten och ett block som hela tiden kör en loop i bakgrunden.
+> När du startar micro:bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:biten och ett block som hela tiden kör en loop i bakgrunden.
 
 Sten, sax och påse spelet ska däremot starta när du skakar på micro:biten.
 
@@ -94,7 +96,7 @@ Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet p
 
     1. OM **"hand"** är lika med 0
 
-        1. Visa ikon **"Diamant"** (detta block hittar du under **Grundläggande**)
+        1. Visa ikon **"Diamant"** (detta block hittar du under kategorin **Grundläggande**)
 
         ![image alt text](image_10.png)
 
@@ -127,7 +129,7 @@ Här behöver du kommunicera med minst en annan person som kodar samma uppgift, 
 
     2. Radio **ställ in grupp** 1. Detta block hittar du under kategorin **Radio**.
 
-    > **Välj ditt eget gruppnummer**, vilket gör att bara du och din kompis kan kommunicera.
+    > **Välj ditt eget gruppnummer**! Det gör att bara du och din kompis kan kommunicera.
 
     ![image alt text](image_12.png)
 
@@ -177,22 +179,18 @@ I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när b�
 
     4. Upprepa 4 gånger
 
-        1. OM **"status"** är 1
+        1. OM **"status"** är 1: Visa ikon **"Glad"**
 
-            1. Visa ikon **"Glad"**
-
-        2. ANNARS
-
-            2. Visa ikon **"Ledsen"**
+        2. ANNARS: Visa ikon **"Ledsen"**
 
         3. Anropa funktionen **"VisaHand"**
 
-3. Lägg in ett block som sätter **"Hand"** till **–1**
+3. Lägg in ett block som sätter **"Hand"** till **–1** sist
 
     ![image alt text](image_18.png)
 
 
- > **Testa!** Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE** och gör sedan samma sak på den andra micro:biten
+ > **Testa!** Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid **SHAKE** och gör sedan samma sak på den andra micro:biten som dyker upp.
 
 > **Ladda ner spelet!** Döp spelet till **sten2** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:bits?
 
@@ -205,6 +203,32 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 > **Testa ditt projekt**
 
 > Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA och dela koden med en kompis.
+
+## Utmaningar
+
+#### Animation
+
+Skapa en animation i stället för att visa en glad eller ledsen ikon när du tar emot radiosignalen från din kompis.
+
+* Du kan använda block i kategorierna **Grundläggande** och **Loopar**
+
+* Eller så kan du använda mer avancerade block som du hittar om du klickar på **Avancerat** och sedan **Bilder**
+
+##### Javascript
+
+Utforska det textbaserade språket *Javascript*! Precis all kod du kan skriva med hjälp av block kan du också skriva med ett textbaserad programmeringsspråk.
+
+* Klicka på knappen **JavaScript**
+
+    ![image alt js](image_19.png)
+
+* Nu visas all kod som du skrivit i Javascript i stället. Gå igenom rad för rad och försök förstå vad koden gör.
+
+    ![image alt jsex](image_20.png)
+
+* Skriv **en** kodrad som gör att texten "Sten, sax och påse" visas på micro:biten när du startar den.
+
+    Använd functionen **basic.showString()** och lägg in texten du vill visa mellan parenteserna.
 
 ## Frågeställningar
 
