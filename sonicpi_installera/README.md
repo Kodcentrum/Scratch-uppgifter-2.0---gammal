@@ -1,17 +1,17 @@
 # Installera Sonic-Pi
 
-Sonic Pi är ett programmeringsspråk där du kan programmera musik! 
+Sonic Pi är ett programmeringsspråk där du kan programmera musik!
 
 Mycket musik skapas idag digitalt med datorer, men det är inte så många som programmerar musik, utan de använder färdiga program för att sätta ihop och skapa nya ljud. Sam Aaron skapade Sonic Pi för att han tycker att musik och programmering passar väldigt bra ihop. När du programmerar i Sonic Pi hör du direkt det som du kodar – på så sätt kan du lära dig programmera samtidigt som du skapar musik.
 
 Sonic Pi är helt gratis och finns till Windows, Mac OS X, Linux och Raspberry Pi. Det här är en instruktion för hur du laddar ned och installerar Sonic Pi till Windows.
 
 
-## Delmoment 1: Ladda ned programmet
+## 1: Ladda ned programmet
 
-1.	Gå till <a href="http://sonic-pi.net/" target="_blank"> **Sonic Pi:s hemsida**</a>. 
+1.	Gå till <a href="http://sonic-pi.net/" target="_blank"> **Sonic Pi:s hemsida**</a>.
 
-2.	Skrolla ned och hitta menyn för nedladdning. Klicka på knappen för det operativsystem som din dator kör. I vårt exempel klickar du på **Windows**. 
+2.	Skrolla ned och hitta menyn för nedladdning. Klicka på knappen för det operativsystem som din dator kör. I vårt exempel klickar du på **Windows**.
 
 ![image alt text](image_0.png)
 
@@ -19,12 +19,12 @@ Sonic Pi är helt gratis och finns till Windows, Mac OS X, Linux och Raspberry P
 
 ![image alt text](image_1.png)
 
-4.	En ruta kommer upp längst ner i webbläsaren. Klicka på **Save As** och spara den på det ställe du vill ha programmet. 
+4.	En ruta kommer upp längst ner i webbläsaren. Klicka på **Save As** och spara den på det ställe du vill ha programmet.
 
 ![image alt text](image_2.png)
 
 
-## Delmoment 2: Installera programmet
+## 2: Installera programmet
 
 5.	När nedladdningen är färdig, hitta filen **Sonic Pi for Win v2 10.0**. Om du inte själv valde en mapp när du sparade programmet, ligger det antagligen i mappen för **Downloads**. Dubbelklicka på filen.  
 

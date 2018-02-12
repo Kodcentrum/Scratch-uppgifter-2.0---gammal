@@ -1,0 +1,211 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="framtidens-musikspelare">Framtidens musikspelare</h1>
+<p>Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, senare cd-spelare och mp3-spelare, och nu streamar många musik direkt från nätet vilket gör att du kan lyssna lite varstans.</p>
+<p>Musikspelarna blir också smartare och kan föreslå musik som de tror att du kommer att tycka om. Vad vill du ha för pryl eller program som spelar din favoritmusik och hur vill du att den ska fungera?</p>
+<p>I den här uppgiften kommer vi att göra ett par glasögon som känner av hur personen som bär dem mår – om den är glad eller arg – och spela musik som passar till humöret! Vi tänker oss att våra musikspelande glasögon har en sensor som kan läsa av humöret, kanske genom personens hjärnvågor. Du kan så klart göra en musikspelare som ser ut som något helt annat och som känner av något annat!</p>
+<p>Ett exempel på projektet hittar du här:  <a href="https://scratch.mit.edu/projects/129448994/" target="_blank"> https://scratch.mit.edu/projects/129448994/</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<h2 id="1-v-lj-bakgrund-och-sprajt">1: Välj bakgrund och sprajt</h2>
+<p>Först behöver du lägga in en bakgrund.</p>
+<ol>
+<li><p>För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.</p>
+</li>
+<li><p>Tryck sedan på knappen för <strong>välj bakgrund från biblioteket</strong>.</p>
+<p><img src="image_1.png" alt="image alt text"></p>
+</li>
+<li><p>Välj en bakgrund, i det här exemplet väljer vi den som heter <strong>School2</strong>. Klicka OK.</p>
+<p><img src="image_2.png" alt="image alt text"></p>
+</li>
+<li><p>Tryck på <strong>saxen</strong> (högt uppe i mitten) och sedan på katt-sprajten så försvinner den.</p>
+<p><img src="image_3.png" alt="image alt text"></p>
+</li>
+<li><p>Nu vill du lägga till en ny sprajt. Tryck på knappen för NY SPRAJT. I det här exemplet väljer vi sprajten som heter <strong>Giga</strong>. Klicka OK.</p>
+<p><img src="image_4.png" alt="image alt text"></p>
+</li>
+</ol>
+<p><strong>Tips:</strong> Sprajten Giga har flera utseenden, som du ser om du trycker på fliken för KLÄDSLAR. Vi kommer att använda tre klädslar: en där Giga ler, en där Giga skrattar och en där Giga är arg. Om du har valt en annan sprajt, se till så att det är en <strong>sprajt med olika klädslar</strong> för de utseenden som du behöver!</p>
+<h2 id="2-knappar-som-ndrar-hum-r">2: Knappar som ändrar humör</h2>
+<p>Nu ska vi lägga in skript så att Giga ändrar humör när man klickar på två knappar. Giga ska kunna bli antingen glad eller arg. Vi behöver lägga in två knappar som gör så att d kan styra Gigas humör. I vårt exempel är knapparna två sprajter som ser ut som hjärtan med ansikten.</p>
+<ol>
+<li><p>Tryck på knappen för NY SPRAJT. Välj sprajten som heter <strong>Heart Face</strong>. Klicka OK.</p>
+<p><img src="image_5.png" alt="image alt text"></p>
+</li>
+<li><p>Vi behöver två sprajter, den ena ska vara glad och den andra ska vara arg. Kopiera sprajten &quot;Heart Face” genom att först klicka på <strong>stämpeln</strong> för att kopiera, längst upp i den grå bannern, och sedan <strong>klicka på sprajten</strong>. Då kommer du få en till likadan sprajt.</p>
+<p><img src="image_6.png" alt="image alt text"></p>
+</li>
+<li><p>Flytta båda sprajtar längst upp till vänster på scenen genom att dra och släppa dem där.</p>
+<p><img src="image_7.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska vi ändra humör på den andra sprajten, den knappen som gör att Gigi ändrar humör till arg. Klicka på sprajten <strong>HeartFace2</strong>. Klicka på fliken KLÄDSLAR.</p>
+<p><img src="image_8.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på hjärtats mun så att den blir markerad. Rotera munnen genom att klicka på den lilla cirkeln i markeringen, vrid den upp och ner så att hjärtat ser argt ut. Eller rita en egen arg mun om du vill!</p>
+<p><img src="image_9.png" alt="image alt text">
+<img src="image_10.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på fliken för SKRIPT för att komma tillbaka till kodarläge. Nu ska vi koda knapparna!</p>
+</li>
+<li><p>Nu ska vi göra en VARIABEL som har koll på om Giga känner sig glad eller arg. Om Giga är glad ska variabeln ha värdet <strong>1</strong>. Om Giga känner sig arg ska variabeln ha värdet <strong>0</strong>. Dra in block från DATA: <strong>Skapa ny variabel</strong>. Döp variabeln till <em>glad</em>.</p>
+<p><img src="image_11.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på <strong>Heart Face</strong>, det glada hjärtat, och klicka på fliken för SKRIPT. Dra in skript för HÄNDELSER: <strong>När denna sprajt klickas på</strong>.</p>
+<p><img src="image_12.png" alt="image alt text"></p>
+</li>
+<li><p>Dra in block från DATA: <strong>sätt glad till 0</strong>. Koppla ihop med det andra skriptet. Ändra 0 till <strong>1</strong> genom att klicka och skriva i den vita rutan. När du klickar på sprajten ska variabeln ändras till 1.</p>
+<p><img src="image_13.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Hur ska Giga veta om att den ska bli glad eller arg? Genom att få ett meddelande! Knappen ska skicka ett meddelande till Giga.</p>
+<ol>
+<li><p>Dra in skript för HÄNDELSER: <strong>skicka meddelande1</strong>. Klicka på lilla triangeln och ge meddelandet ett namn. Döp meddelandet till <em>känsla</em>. Klicka OK.</p>
+<p><img src="image_14.png" alt="image alt text">
+<img src="image_15.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska vi göra samma sak för andra knappen som ser arg ut! Klicka på <strong>HeartFace2</strong>, sprajten som ser arg ut, och gå in på SKRIPT. Lägg in samma skript för sprajten förutom att du sätter <strong>variabeln</strong> <em>glad</em> till <strong>0</strong>.</p>
+<p><img src="image_16.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Ändras variabeln när du klickar på knapparna? Du måste ha variabeln synlig på scenen för att kunna se det.</p>
+</blockquote>
+<h2 id="3-giga-ndrar-hum-r">3: Giga ändrar humör</h2>
+<p>Nu ska Gigas humör ändras beroende på vilken knapp du trycker på. Giga ska ta emot meddelanden från knapparna och behöver hela tiden KÄNNA AV om den är glad eller arg, om variabeln är 1 eller 0. Till det använder vi en LOOP.</p>
+<ol>
+<li><p>Klicka på sprajten för Giga. Lägg in block från HÄNDELSER: <strong>När jag tar emot känsla</strong>.</p>
+</li>
+<li><p>Därefter behövs en loop som ska känna av om variabeln förändras under hela tiden som skriptet körs. Dra in block för KONTROLL: <strong>för alltid</strong>.</p>
+</li>
+<li><p>Lägg in block för KONTROLL: <strong>Om __ då annars</strong>. Detta skript ska kolla om variabeln är 0 eller 1.</p>
+</li>
+<li><p>Dra in block för OPERATORER, välj den med lika med-tecken <strong>=</strong>. I det skriptet, lägg in skript för DATA: variabeln glad. Skriv in nummer 1.</p>
+</li>
+<li><p>Giga ska byta klädsel för att bli glad eller arg beroende på om variabeln är <strong>0</strong> eller <strong>1</strong>. Lägg in ett block för UTSEENDE: <strong>byt klädsel till giga-b</strong> om variabeln är <strong>1</strong>. <strong>Annars</strong> blocket UTSEENDE: <strong>byt klädsel till giga-d</strong>. Giga-b är klädsel för när Giga ser glad ut, Giga-d är klädsel som göra att Giga ser arg ut!</p>
+<p><img src="image_17.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Vad händer när du klickar på hjärtknapparna? Blir Giga glad eller arg? Titta på variabeln <em>glad</em> längst upp i vänstra hörnet, visst ändras den mellan 1 och 0 beroende på om Giga är glad eller arg? Det kallas för en BOOLESK VARIABEL som kan vara antingen 1 eller 0, sant eller falskt. Precis det språk som datorer förstår, ström på eller av!</p>
+</blockquote>
+<p>  <img src="image_18.png" alt="image alt text"></p>
+<h2 id="4-glas-gon-som-spelar-musik">4: Glasögon som spelar musik</h2>
+<p>Nu ska Giga få ett par musikspelande glasögon som känner av om Giga är glad eller arg. Du kan tänka att glasögonen har en sensor som kan läsa av känslor, kanske genom Gigas hjärnvågor? Beroende på humöret spelar glasögonen olika musik!</p>
+<ol>
+<li><p>Lägg in en ny sprajt. Tryck på knappen för NY SPRAJT. Välj sprajten som heter <strong>Glasses</strong>. Klicka OK.</p>
+<p><img src="image_19.png" alt="image alt text"></p>
+</li>
+<li><p>Flytta på glasögonen så att de sitter på Gigas huvud. Ser glasögonen för små ut? Klicka på <strong>förstora</strong>-ikonen längst upp i den grå bannern. Klicka sedan på glasögon-sprajten flera gånger för att få lagom storlek.  </p>
+<p><img src="image_20.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska glasögonen känna av vilket humör Giga är på! Lägg in skript för HÄNDELSER: <strong>när jag tar emot känsla</strong>.</p>
+</li>
+<li><p>Fortsätt med att kontrollera om Giga är glad eller arg. Lägg in block KONTROLL: <strong>Om __ då ... annars</strong>. I skriptet, lägg in OPERATOR: <strong>=</strong> och sedan lägg in block för DATA: <strong>variabeln glad</strong>. Skriv in <strong>= 1</strong>.</p>
+<p><img src="image_21.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska vi hitta ljud som glasögonen ska spela! Klicka på LJUD-fliken. Välj <strong>lägg in nytt ljud från bibliotek</strong>.</p>
+<p><img src="image_22.png" alt="image alt text"></p>
+</li>
+<li><p>Hitta ett ljud som glasögonen kan spela när Giga är glad. I det här exemplet har vi valt <strong>dance magic</strong>. Lägg in ljudet genom att klicka på OK.</p>
+<p><img src="image_23.png" alt="image alt text"></p>
+</li>
+<li><p>Hitta ett ljud som ska spelas när Giga är arg. Vi har valt ljudet <strong>jungle</strong>. Lägg in genom att klicka på OK.</p>
+<p><img src="image_24.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på SKRIPT-fliken igen. Under <strong>Om __ då ...</strong>, lägg in skript för LJUD: <strong>spela __ tills färdigt</strong>. Ändra ljud genom att klicka på pilen och hitta <strong>dance magic</strong> i listan.</p>
+</li>
+<li><p>Under <strong>annars</strong>, lägg in ett till skript för LJUD: <strong>spela __ tills färdigt</strong>. Ändra ljud genom att klicka på pilen och hitta <strong>jungle</strong>.</p>
+<p><img src="image_25.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Vad händer om du klickar på glada knappen? Spelas musiken? Vad händer om du klickar på arga knappen? Ändrar Giga min? Spelas annan musik? Bra!</p>
+</blockquote>
+<ol>
+<li><p>Musiken ska fortsätta spela hela tiden. Med blocket <strong>för alltid</strong> fortsätter programmet att loopa musiken. Lägg in från KONTROLL: <strong>för alltid</strong>, direkt efter när jag tar emot känsla.</p>
+</li>
+<li><p>Lägg sedan in skript för att stoppa musiken innan nästa låt börjar köras, så att du är säker på att bara en låt spelas. Lägg in block för LJUD: <strong>stoppa alla ljud</strong> under <strong>om</strong> och <strong>annars</strong>.</p>
+<p><img src="image_26.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Spelas ljudet om och om igen nu? Bra! I nästa steg ska vi se till att du kan stoppa och starta musiken.</p>
+</blockquote>
+<h2 id="5-styr-musiken-med-glas-gonen">5: Styr musiken med glasögonen</h2>
+<p>I denna uppgift lägger vi in skript så att du kan spela och stoppa musiken genom att klicka på dem. Glasögonen ska ändra färg beroende på om spela eller stopp är klickad på, så att du kan se om musikspelaren är igång!</p>
+<ol>
+<li><p>Klicka på fliken KLÄDSEL. Kopiera glasögonens klädsel genom att klicka på <strong>stämpel</strong> i den grå bannern och sedan på glasögonen.</p>
+<p><img src="image_27.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka på den första klädseln som heter <strong>glasses</strong>. Klicka på <strong>fyll i</strong> (färgburken) i högermenyn. Välj den <strong>röda</strong> färgen i paletten och sedan den <strong>tonade</strong> färgen längst ner till vänster. Klicka sedan i glaset i glasögonen för att fylla i färgen. Gör likadant på båda sidor!</p>
+<p><img src="image_28.png" alt="image alt text"></p>
+</li>
+<li><p>Klicka nu på den andra klädseln <strong>glasses2</strong>. Gör samma sak som ovan fast med grön färg.</p>
+<p><img src="image_29.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu ska vi göra ett skript för att glasögonen ska spela eller stoppa musik och byta färg, när du trycker med muspekaren på glasögonen!</p>
+<p>För att kunna göra det måste glasögonen kolla vilken klädsel den har, om glasögonen är gröna så ska det betyda att glasögonen spelar och är de röda ska det betyda att glasögonen har stoppat musiken. Här behöver du använda <strong>klädselnummer</strong> för att se om det är den första eller andra klädseln som är på.</p>
+<ol>
+<li><p>Gå tillbaka till SKRIPT-fliken. Lägg in block för HÄNDELSER: <strong>när denna sprajt klickas på</strong>.</p>
+</li>
+<li><p>Lägg in block för <strong>Om __ då ...</strong> och efter <strong>om</strong> lägger du till block OPERATOR: <strong>=</strong> och UTSEENDE: <strong>klädselnummer</strong> till vänster om likamedtecknet. Skriv in <strong>1</strong> för den första klädseln, glasögonen med röda glas.</p>
+<p><img src="image_30.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska vi lägga till skript för när musiken ska spelas eller stoppas. Här använder vi ljudets <strong>volym</strong> och sätter den till <strong>100%</strong> om på, <strong>0%</strong> om av. Ta block för LJUD: <strong>sätt volym till 100%</strong> och LJUD: <strong>sätt volym på 0%</strong>. Du behöver själv skriva in värdet på volymen i den vita rutan.</p>
+<p><img src="image_31.png" alt="image alt text"></p>
+</li>
+<li><p>Glasögonen ska byta klädsel också! Lägg in UTSEENDE: <strong>byt klädsel till glasses</strong> och UTSEENDE: <strong>byt klädsel till glasses 2</strong>.</p>
+<p><img src="image_32.png" alt="image alt text"></p>
+</li>
+</ol>
+<p><strong>Tips:</strong> Tänk på att glasögonen ska bli gröna när volymen är på 100% och röda när volymen är på 0%. Du vill kunna starta musiken när glasögonen är röda, och stoppa musiken när glasögonen är gröna!</p>
+<p>Nu vill vi att glasögonen ska vara avstängda när programmet startar. Detta kallas för att initiera programmet, du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.</p>
+<ol>
+<li><p>Lägg till HÄNDELSER: <strong>när grön flagga klickas på</strong>. Under det fäster du LJUD: <strong>stoppa alla ljud</strong> och LJUD:<strong>sätt volym till 0%</strong> och UTSEENDE: <strong>byt klädsel till glasses</strong>.</p>
+<p><img src="image_33.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Såhär ska alla skript för glasögonen se ut:</p>
+<p>  <img src="image_34.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Kan du starta och stoppa musiken genom att trycka på glasögonen? Ändrar de färg så att de är gröna när musiken är på och röda när musiken är av?</p>
+</blockquote>
+<h2 id="6-giga-f-rklarar-hur-du-g-r">6: Giga förklarar hur du gör</h2>
+<p>I det sista uppgiften lägger vi in skript för att Giga ska hälsa när du trycker på START-flaggan och förklara hur glasögonen funderar. Giga ska också ha ett INIT-SKRIPT som säger att hon varken ska skratta eller se arg ut när programmet börjar.</p>
+<ol>
+<li><p>Lägg in skript: HÄNDELSER: <strong>när flagga klickas på</strong>. Här lägger du till UTSEENDE: <strong>byt klädsel till giga-a</strong>.</p>
+</li>
+<li><p>Lägg in skript för UTSEENDE: <strong>säg ... i 5 sekunder</strong>. Skriv genom att klicka i det vita fältet, till exempel: <em>”Hej! Klicka på mina glasögon för att spela musik! Ändra mitt känsloläge med hjärtknapparna.”</em></p>
+</li>
+<li><p>Välj hur lång tid Giga ska säga sin mening. Testa gärna och se hur lång tid du behöver för att läsa pratbubblan!</p>
+<p><img src="image_35.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Tryck på START. Hinner du läsa Gigas pratbubbla? Fungerar de musikspelande glasögonen som de ska?</p>
+</blockquote>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du gjort klart uppgiften.</p>
+<p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong><br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+</blockquote>
+<h2 id="utmaning-1-egen-musik">Utmaning 1: Egen musik</h2>
+<p>Om du vill kan byta ut musiken till egen musik. Under LJUD-fliken kan du själv spela in musik med <strong>Spela in ljud</strong> eller importera ljudfiler från din dator med <strong>Ladda upp ljud från fil</strong>.</p>
+<p>Om du vill programmera egen musik kan du till exempel använda programmet Sonic Pi! Det finns <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-sonic-pi" target="_blank">  uppgifter till Sonic Pi här</a>.</p>
+<h2 id="utmaning-2-fler-k-nslor">Utmaning 2: Fler känslor</h2>
+<p>Kan du lägga till fler känslolägen för Giga? Här kan du själv ändra Gigas klädslar, så att du får olika för ledsen, trött, hungrig och så vidare. Lägg till flera hjärtknappar som visar vilket humör det gäller. Kopiera koden som du redan har gjort och ändra så att flera olika musikstycken kan spelas!</p>
+<h2 id="utmaning-3-du-sj-lv-i-framtiden">Utmaning 3: Du själv i framtiden</h2>
+<p>Om du vill att det ska vara du själv som spelar musik i framtiden, kan du byta ut Giga mot en bild på dig själv. För att göra det här exemplet med olika humör behöver du ta flera likadana bilder på dig där du gör olika miner för de humör som behövs.</p>
+<p>Eller så använder du en bild men redigerar din mun i Scratch. Lite klurigt men prova dig fram!</p>
+<ol>
+<li><p>Ladda upp bilderna till datorn.</p>
+</li>
+<li><p>Gå in på Giga KLÄDSLAR och välj <strong>Ladda upp klädsel från fil</strong>. Ta in alla dina bilder och sudda bort bakgrunden från dem. Döp gärna bilderna med ditt namn och humör, till exempel <em>”Anneli glad”</em>.</p>
+</li>
+<li><p>Se till så att alla bilder på dig har samma centerpunkt, med <strong>Sätt klädselns centrum</strong>. Annars kan det se ut som att du hoppar omkring på scenen.</p>
+</li>
+<li><p>Ändra i skripten för sprajten så att det är de nya klädslarna med dina bilder som visas istället för Giga.</p>
+</li>
+</ol>
+</body></html>

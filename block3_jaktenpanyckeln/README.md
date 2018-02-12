@@ -8,7 +8,7 @@ Så här kan det se ut:
 
 ![image alt text](image_0.png)
 
-## Delmoment 1 - Remixa ett projekt
+##  1 - Remixa ett projekt
 
 Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
@@ -74,7 +74,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 5. Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på spelplanen.
 
-## Delmoment 2 - Sätta bakgrund
+## 2 - Sätta bakgrund
 
 Du ska få börja med att ladda en bakgrundsbild för spelet. Det kan vara vad du vill, men i detta exempel har vi valt en spöklik skog.
 
@@ -97,7 +97,7 @@ Så här kan spelet se ut nu!
 
 ![image alt text](image_12.png)
 
-## Delmoment 3 - Flytta roboten
+## 3 - Flytta roboten
 
 Nu ska du få koda roboten så att den förflyttar sig på scenen. Det sker genom att ställa en fråga till spelaren om vilka koordinater den vill att roboten ska gå till.
 
@@ -148,7 +148,7 @@ Vi vill självklart att den ska kunna röra sig längs y-axeln så fortsätta p�
 
 > Testa spelet igen! Var hamnar roboten när spelet startar?
 
-## Delmoment 4: Gömma nyckel  
+## 4: Gömma nyckel  
 
 Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
@@ -218,7 +218,7 @@ Nu ska vi lägg till målet för spelet. En nyckel som roboten ska hitta.
 
 > Testa spelet på en kompis! Har din kompis svårt att hitta nyckeln?
 
-## Delmoment 5: Ledtrådar - stenar
+## 5: Ledtrådar - stenar
 
 Om du låter en kompis spela programmet nu så kommer det vara svårt att hitta nyckeln eftersom spelplanen är så stor. Därför ska vi skapa ledtrådar som gör det lite lättare att hitta nyckeln.
 
@@ -252,7 +252,7 @@ Så här kan det se ut nu:
 
 > **Tips:** Om du märker att Roboten hamnar bakom stenarna, så kan du lägga in kodblocket **"Lägg överst"** precis i början av Robotens startskript.
 
-## Delmoment 6: Ledtrådar  - roboten
+## 6: Ledtrådar  - roboten
 
 En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseende om det "bränns", det vill säga om Roboten kommer i närheten av nyckeln.
 
@@ -264,7 +264,7 @@ En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseend
 
 3. Du kan också rita på klädslarna för att göra dem olika. Här i bilden nedan har roboten fått röda kinder.
 
-![image alt text](image_27.png)*En robot med röda kinder*
+    ![image alt text](image_27.png)*En robot med röda kinder*
 
 1. Markera Roboten
 
@@ -278,11 +278,11 @@ En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseend
 
         * Byt till klädsel **Robot1**. Välj den klädsel som roboten ska ha långt i från nyckeln.
 
-![image alt text](image_28.png)
+    ![image alt text](image_28.png)
 
-## Delmoment 7: Slumpmässig placering
+## 7: Slumpmässig placering
 
-Detta delmoment är valfritt men gör att spelat blir roligare för dig som har kodadet det. Nu ska du nämligen koda så att nyckeln hamnar på en slumpmässig plats på spelplanen!
+Denna uppgift är valfritt men gör att spelat blir roligare för dig som har kodadet det. Nu ska du nämligen koda så att nyckeln hamnar på en slumpmässig plats på spelplanen!
 
 1. Markera sprajten **Robot**
 
@@ -394,13 +394,13 @@ Du kan också rita saker på bakgrunden i en särskild färg som du kan känna a
 
 Nu kan spelaren gissa hur många gånger som helst. Du kan göra det lite svårare genom att koda ett maximalt antal gissningar.
 
-![image alt text](image_30.png)
+    ![image alt text](image_30.png)
 
 1. Börja med att skapa en variabel som heter **"antal gissningar"**
 
 2. Varje gång du flyttar Roboten ändrar du värdet på **"antal gissningar"** med 1.
 
-![image alt text](image_31.png)
+    ![image alt text](image_31.png)
 
 3. Du får också kolla om **"antalet gissningar"** är lika med det maximala antalet som du har bestämt.
 

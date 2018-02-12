@@ -8,7 +8,7 @@ Ett exempel på hur det kan se ut hittar du här:
 
 ![image alt text](image_0.png)
 
-## Delmoment 1 - Remixa ett projekt
+## 1 - Remixa ett projekt
 
 Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!
 
@@ -28,8 +28,7 @@ Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att de
 
 4. Döp om projekt till något som passar bättre.
 
-
-![image alt text](image_3.png)
+    ![image alt text](image_3.png)
 
 *Namnet på projektet har fått ordet "remix" på slutet*
 
@@ -47,7 +46,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 2. Klicka på fliken **Klädslar**. Där finns koordinatsystemet uppritat på olika sätt.
 
-![image alt text](image_6.png)
+    ![image alt text](image_6.png)
 
 > Vi kommer använda koordinatsystemet med ett rutnät så att du kan lära dig hur koordinater fungerar. När du lärt dig detta kan du använda en annan klädsel. En annan klädsel kan du också använda om krysset och rutnätet är i vägen för andra sprajter.
 
@@ -67,7 +66,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 4. Placera **Robot**-sprajten ungefär vid **x: 0, y:0**. Denna punkt kallas *origo*, och är mitt på scenen.
 
-## Delmoment 2 - Bakgrund och frukter
+## 2 - Bakgrund och frukter
 
 Du ska få börja med att ladda en bakgrundsbild för spelet.
 
@@ -98,7 +97,7 @@ Det kan se ut så här:
 
 ![image alt text](image_13.png)
 
-## Delmoment 3 - Animera roboten
+## 3 - Animera roboten
 
 Nu ska vi animera roboten så att den rör sig mellan de olika frukterna: först till äpplet, sedan till bananerna, sedan till vattenmelonen och till sist till apelsinen.
 

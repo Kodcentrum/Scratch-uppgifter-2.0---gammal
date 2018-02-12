@@ -2,14 +2,15 @@
 
 Nu ska du få göra en version av spelet <a href="http://www.nickelodeon.se/apps/4fb1Y5JOKkiyAq4yoWWG0c-skywhale" target="_blank">Skywhale</a> där en narval flyger omkring och äter munkar för att få extra energi och samlar andra objekt för att flyga högre och högre. Här är det en flygande val som åker runt på himlen och ska äta så många munkar som möjligt. Varje munk ger poäng! Du kommer att lära dig att använda variabler och slumptal.
 
-Här kan du se ett exempel på <a href="https://scratch.mit.edu/projects/104732551/" target="_blank">Flygande valen</a> i Scratch.
+Här kan du se ett exempel här: [https://scratch.mit.edu/projects/104732551/](https://scratch.mit.edu/projects/104732551/)
 
 ![image alt text](image_0.png)
 
-## Delmoment 1: En val som följer muspekaren
+## 1: En val som följer muspekaren
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
 1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
+
    ![image alt text](image_1.png)
 
 2. Välj **"Rita ny sprajt”** (penseln). Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, gå till biblioteket genom att trycka på knappen för **”Välj sprajt från bibliotek”**.
@@ -28,7 +29,7 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
   ![image alt text](image_4.png)
 
-**Tips:** För att valen inte ska vända sig upp och ned i spelet, gå in på sprajtens informationsruta och välj att den bara kan vända sig åt höger-vänster*.*
+**Tips:** För att valen inte ska vända sig upp och ned i spelet, gå in på sprajtens informationsruta och välj att den bara kan vända sig åt *höger-vänster.*
 
 > Testa ditt projekt! Klicka på START. Kan du styra valen med muspekaren? Går den lagom snabbt?
 Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
@@ -47,7 +48,7 @@ Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det u
 
 > Testa ditt projekt! Klicka på START. Fungerar det bättre att styra valen nu?
 
-## Delmoment 2: En himmel som bakgrund
+## 2: En himmel som bakgrund
 Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himmel, men du får hitta på som du vill. Du behöver inte rita moln på himlen, för det lägger du till som sprajter. Då kan du välja att programmera dem senare i en av våra utmaningar!
 
 9. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
@@ -61,7 +62,7 @@ Du ska nu få rita en bakgrund till spelet. Här i exemplet är det en blå himm
 
   ![image alt text](image_8.png)
 
-## Delmoment 3: Munkar att äta
+## 3: Munkar att äta
 I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa dessa sprajtar och få dem att röra sig slumpmässigt. Om du inte vill rita själv finns det färdiga i Scratch-biblioteket. Du gör en sprajt som du kopierar efter att skriptet är klart.
 
 12. Rita en egen munk med **"Rita ny sprajt”** eller gå till biblioteket med **”Välj sprajt från bibliotek”**. Under ”Saker” hittar du en munk, **”Donut”**. Gör sprajten lagom stor och placera på scenen. Vänta med att kopiera sprajten till efter att du har programmerat den!
@@ -87,7 +88,7 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 **Tips:** Blocket för **"slumptal”** hittar du under **OPERATORER**. Du lägger in blocket inuti rutan för värdet på **”vänd”**. Skriv in de värden som du vill att skriptet ska slumpa mellan. Prova dig fram vilka värden som blir bra, minusvärde ger vänster och plusvärde är höger!
 
 > Testa ditt projekt! Klicka på START. Flyger munken runt på himlen?
-Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
+> Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
 
 
 Nu ska du få valen att äta munken. När valen når en munk ska den försvinna för att komma tillbaka en stund senare, så att munkarna inte tar slut!
@@ -131,7 +132,7 @@ Om du vill att munkarna ska bli unika kan du:
 
 **Tips:** Om du vill kan du lägga till en ljudeffekt när valen äter munken! Lägg in ett block för **"spela ljudet”** i det skript du nyss gjort.
 
-## Delmoment 4: Poäng för att äta munkar!
+## 4: Poäng för att äta munkar!
 Det räcker inte med att bara äta munkar. Du ska kunna samla poäng också! För varje munk som valen äter ska spelet lägga till 1 poäng, och du vill kunna se hur många poäng du har fått.
 
 För att räkna poäng behöver du skapa en VARIABEL. Det kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.
