@@ -58,7 +58,7 @@ Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan
 
 > Testa att klicka på START och sedan på pilen. Byts bakgrunden och sprajterna försvinner?
 
-![image alt pilar](image_3.png)
+  ![image alt pilar](image_3.png)
 
 Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan de olika scenerna:
 

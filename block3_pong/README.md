@@ -2,9 +2,7 @@
 
 Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.
 
-Här kan du se en version av spelet:
-
-* <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">Exampel</a>
+Här kan du se en version av spelet: [https://scratch.mit.edu/projects/80839730/](https://scratch.mit.edu/projects/80839730/)
 
 ![image alt text](image_0.png)
 
@@ -25,11 +23,6 @@ Först behöver du göra en bakgrund och två plattor som du ska kunna styra.
 5. Skapa en kopia av sprajten och lägg båda sprajtar framför varsin mållinje, lika nära mållinjerna.
 
   ![image alt text](image_2.png)
-
-  _Ungefär så här borde din spelplan se ut._
-
-  _Ju mindre plattor du gör, desto svårare blir spelet!_
-
 
 ## 2: Styra plattorna
 
@@ -56,8 +49,6 @@ Du behöver använda två tangenter för att styra varje platta, uppåt och ned�
       * Studsa vid kanten
 
   ![image alt text](image_3.png)
-
-  _Det här är blocken som du behöver använda!_
 
 7. Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.
 
@@ -90,8 +81,6 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   ![image alt text](image_4.png)
 
-  _Dessa block behöver du. I exemplet används gå 10 steg, men du kan själv välja hastighet för bollen._
-
 11. Nu har du en boll som studsar omkring. Fast nu behöver du se till att den kan studsa på plattorna så att du kan fånga bollen!
 
   Inuti **för alltid** blocket i bollens skript behöver du lägga till:
@@ -102,8 +91,6 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
   ![image alt text](image_5.png)
 
-  _Lägg blocken innanför **för alltid**-blocket men ovanför **gå 10 steg**_
-
 > Testa ditt projekt! Klicka på START. Studsar bollen på plattorna? Startar den i mitten? Rör den sig åt ett slumpmässigt håll varje gång du startar?
 
 
@@ -111,15 +98,13 @@ Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver
 
 Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bollen nuddar den andra spelarens mållinje! För att göra det behöver du skapa en VARIABEL för poäng.
 
-En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.
+> En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.
 
 12. Välj bollens sprajt och skapa två **variabler** från **DATA**. Den ena ska heta **Röd poäng** och den andra ska heta **Blå poäng**. Om du har valt andra färger för mållinjerna får du döpa variablerna efter dem.
 
 13. Välj att variablerna ska vara **synliga** och placera dem högst upp på varsin sida av spelplanen.
 
   ![image alt text](image_6.png)
-
-  _Din spelplan borde se ut ungefär så här!_
 
 14. Gå till skriptet för bollen och lägga till:
 
@@ -175,8 +160,6 @@ Nu när du har poängräkning så behöver du se till att det går att vinna spe
     * **Stoppa alla** skript
 
   ![image alt text](image_9.png)
-
-  _Här är blocken som du behöver använda!_
 
 > Testa ditt projekt! Klicka på START. Stoppas spelet om någon spelare får 5 poäng?
 *Du kan ändra talet 5 så att man kan vinna med färre eller fler poäng!*

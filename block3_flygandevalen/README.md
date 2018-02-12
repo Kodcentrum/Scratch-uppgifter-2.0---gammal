@@ -10,6 +10,7 @@ Här kan du se ett exempel här: [https://scratch.mit.edu/projects/104732551/](h
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
 1. Tryck på **saxen** (högt uppe i mitten) och sedan på katten så försvinner den.
+
    ![image alt text](image_1.png)
 
 2. Välj **"Rita ny sprajt”** (penseln). Här får du själv prova dig fram och rita din egen val. Om du hellre vill använda en färdig sprajt, gå till biblioteket genom att trycka på knappen för **”Välj sprajt från bibliotek”**.
@@ -87,7 +88,7 @@ I spelet ska valen äta munkar som rör sig över himlen. Du ska nu få skapa de
 **Tips:** Blocket för **"slumptal”** hittar du under **OPERATORER**. Du lägger in blocket inuti rutan för värdet på **”vänd”**. Skriv in de värden som du vill att skriptet ska slumpa mellan. Prova dig fram vilka värden som blir bra, minusvärde ger vänster och plusvärde är höger!
 
 > Testa ditt projekt! Klicka på START. Flyger munken runt på himlen?
-Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
+> Pröva att byta ut värdena för "slumptal” och ”gå”-blocken. Rör sig munken annorlunda? Vad gör "studsa om vid kanten”-blocket? Pröva att ta bort det blocket och se vad som händer!
 
 
 Nu ska du få valen att äta munken. När valen når en munk ska den försvinna för att komma tillbaka en stund senare, så att munkarna inte tar slut!

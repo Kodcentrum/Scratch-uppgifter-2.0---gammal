@@ -1,8 +1,8 @@
 # Ninjaspringare
 
-I denna uppgift ska du göra ett spel där du styr en liten ninja som kan hoppa jättehögt och sparka igenom väggar! Det kommer att se ut som om ninjan springer åt höger men det är sprajten som står till och istället är det bakgrunden som ska åka åt vänster. Den här uppgiften är för dig som gillar att rita och animera mycket.  Ett exempel på hur  spelet kan se ut ser du här:
+I denna uppgift ska du göra ett spel där du styr en liten ninja som kan hoppa jättehögt och sparka igenom väggar! Det kommer att se ut som om ninjan springer åt höger men det är sprajten som står till och istället är det bakgrunden som ska åka åt vänster. Den här uppgiften är för dig som gillar att rita och animera mycket.  
 
-* <a href="https://scratch.mit.edu/projects/116954542/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116954542/](https://scratch.mit.edu/projects/116954542/)
 
 ![image alt exempel](image_1.png)
 
@@ -17,7 +17,7 @@ Du börjar med att göra bakgrunden, rita mark och ninjans alla klädslar. Ninja
 
 4.	Placera den så att den **täcker botten** av skärmen och ge den namnet **mark**.
 
-![image alt namn](image_2.png)
+    ![image alt namn](image_2.png)
 
 _Så här kan huvudet på ninjan se ut. Den röda rutan visar var du kan ändra namn på en klädsel._
 
@@ -31,7 +31,7 @@ Nu ska du rita ninjan:
 
 4.	Ge sprajten namnet **ninja**.
 
-![image alt namn](image_3.png)
+    ![image alt namn](image_3.png)
 
 _Ungefär så här ska ninjans ben se ut. Till vänster är det **första** benet du ska rita och till höger ser du det **andra** benet också._
 
@@ -55,26 +55,25 @@ Nu ska vi rita ninjans ben och vi börjar med det högra:
 
   * För alltid:
 
-    * **Vänta** 0.2 sekunder
+        * **Vänta** 0.2 sekunder
 
-    * **Byt** klädsel till **”springer1”**
+        * **Byt** klädsel till **”springer1”**
 
-    * **Vänta** 0.2 sekunder
+        * **Vänta** 0.2 sekunder
 
-    * **Byt** klädsel till **”springer2”**
+        * **Byt** klädsel till **”springer2”**
 
-    * **Vänta** 0.2 sekunder
+        * **Vänta** 0.2 sekunder
 
-    * **Byt** klädsel till **”springer3”**
+        *  **Byt** klädsel till **”springer3”**
 
-    * **Vänta** 0.2 sekunder
+        * **Vänta** 0.2 sekunder
 
-    * **Byt** klädsel till **”springer4”**
+        * **Byt** klädsel till **”springer4”**
 
 > Testa animationen genom att klicka på den gröna flaggan! Hur ser animationen ut? Ser det ut som om ninjan springer?
 
 Nu ska vi rita benen för de 2 sista klädslarna:
-
 
 ![image alt namn](image_4.png)
 
@@ -96,7 +95,7 @@ Nu är det bara 2 sprajtar till som behövs:
 
 4.	**Markera i:et** med markeringsverktyget och dra i den **mittersta översta lilla kvadraten**. Gör så att i:e nästan **når toppen av bildytan**. Nu ser den mer ut som en vägg.
 
-![image alt namn](image_7.png)
+    ![image alt namn](image_7.png)
 
 _Så här kan det se ut när du har markerat i:et. Den röda pilen pekar på där du kan ändra storleken._
 
@@ -105,7 +104,6 @@ _Så här kan det se ut när du har markerat i:et. Den röda pilen pekar på dä
 Nu ska du få koda så att byggnader åker sakta åt vänster så att det ser ut som om den är långt borta. Du ska också få koda på att hindret åker åt vänster, men den sprajten ska åka snabbare så att det känns som att den är närmare. _Eftersom ninjan kommer att stå stilla ser det ut som om den rör sig åt höger när det egentligen är huset och hindret som rör sig_. Häfftigt va!
 
 ![image alt namn](image_13.png)
-_Ungefär så här ska stenen och huset vara placerat_
 
 1.	**Flytta** sprajten **bakgrundshus** så att **nedre kanten** är lite **ovanför** sprajten **mark**. Skriv sedan ner **y-värdet** för **bakgrundshus**.
 
@@ -189,13 +187,14 @@ Nu ska du koda ninjan så at den kan hoppa och sparka genom väggar. Spellogiken
 
   * **Vänta 1** sekund
 
-> Testa spelet! Kan du hoppa över stenen? Vad händer om du trycker på ”högerpil”? Ser det ut som om ninjan sparkar?
-
   ![image alt block](image_9.png)
 
-  _De här blocken behöver du för punkterna ovan._
 
-> Tyvärr fungerar inte koden som den ska för tillfället. Koden för att animera att ninjan springer byter klädsel direkt och det ser inte ut som om ninjan sparkar alls. Detta ska du fixa nu!
+
+> Testa spelet! Kan du hoppa över stenen? Vad händer om du trycker på ”högerpil”? Ser det ut som om ninjan sparkar?
+
+
+Tyvärr fungerar inte koden som den ska för tillfället. Koden för att animera att ninjan springer byter klädsel direkt och det ser inte ut som om ninjan sparkar alls. Detta ska du fixa nu!
 
 1.	Lägg till blocket **stoppa andra skript i sprajt** när du byt klädsel till **”sparka”** och när du byter klädsel till **"hoppar"**.
 
@@ -209,8 +208,6 @@ Nu ska du koda ninjan så at den kan hoppa och sparka genom väggar. Spellogiken
 
 ![image alt block](image_10.png)
 
-_Så här kan koden för **ninja** se ut nu._
-
 Nu ska du se till att ninjan inte kan hoppa och springa samtidigt:
 
 1.	Skapa en **variabel** i ninja som heter **”tillstånd ninja”**.
@@ -222,8 +219,6 @@ Nu ska du se till att ninjan inte kan hoppa och springa samtidigt:
 4.	Gör likadant i skriptet för ninjan som startar när du trycker ner **högerpilen** men sätt då **”tillstånd ninja”** till **”sparkar”**.
 
   ![image alt block](image_11.png)
-
-  _Så här kan koden för **sparkar** se ut nu._
 
 ## 4: Farliga hinder
 
@@ -269,7 +264,7 @@ Om ninjan rör stenen så ska ninjan flyga iväg och spelet avslutas. Detsamma s
 
 3.	Du behöver sätta en startposition och startriktning på ninjan. Se till att **ninja visas och pekar i 90** riktning när spelet **börjar**. Se också till att den är **placerad på lämpligt ställe** (sätt x- och y-värdena).
 
-![image alt block](image_12.png)
+    ![image alt block](image_12.png)
 
 _De här blocken behöver du för punkt 1 och 2. Tänk på att vissa av blocken ska användas för **hinder** och andra för **ninja**._
 

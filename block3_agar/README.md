@@ -228,7 +228,6 @@ I stället för att du förlorar 5 i vikt kan du koda så att du dör om **Cell*
 
 ## Frågeställningar
 
-
 * Vad är en variabel?
 
 * Vad är en klon?

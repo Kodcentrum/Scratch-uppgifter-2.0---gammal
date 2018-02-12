@@ -7,9 +7,7 @@ Makey Makey är ett kretskort som kan användas för att styra program på din d
 Du kan titta på en film som visar hur du använder Makey Makey här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
 
-Här är ett exempelprojekt för hur du gör "Fantasisynth med Makey Makey" i Scratch:
-
-* <a href="https://scratch.mit.edu/projects/130726473/" target="_blank"> Exempel</a>
+Här är ett exempelprojekt för hur du gör "Fantasisynth med Makey Makey" i Scratch: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">https://scratch.mit.edu/projects/130726473/</a>
 
 
 ![image alt text](image_6.png)
@@ -53,18 +51,18 @@ Nu behöver du byta ut vilka tangenter som din fantasisynth spelas med, till de 
 
 9. Gör på samma sätt med de andra tangenterna, men hoppa över **"äpple3"** tills vidare, för den ska ha ett specialskript. Byt ut koden så att:
 
-* Skriptet för **"spela äpple 2"** har **mellanslag**.
-* Skriptet för **"spela äpple 4"** har **vänsterpil**.
-* Skriptet för **"spela äpple 5"** har **nedåtpil**.
-* Skriptet för **"spela äpple 6"** har **högerpil**.
+    * Skriptet för **"spela äpple 2"** har **mellanslag**.
+    * Skriptet för **"spela äpple 4"** har **vänsterpil**.
+    * Skriptet för **"spela äpple 5"** har **nedåtpil**.
+    * Skriptet för **"spela äpple 6"** har **högerpil**.
 
-![image alt text](image_4.png)
+    ![image alt text](image_4.png)
 
 10.	Klicka nu på skriptet för **"spela äpple 3"**. Denna ska skicka meddelandet när du klickar på musknappen. Därför behövs det ett skript som **för alltid** känner av **om musknappen är nedtryckt** och då **skickar meddelandet**.
 
 11.	Du behöver också lägga in att **vänta tills musknappen inte är nedtryckt** innan programmet gör något annat.
 
-![image alt text](image_7.png)
+    ![image alt text](image_7.png)
 
 > Testa ditt projekt! Klicka på START. Använd  först tangentbord och mus och testa om skriptet fungerar. Händer det något när du klickar med musen? Spelas det en ton? Spelas det toner när du använder piltangenter och mellanslag?
 

@@ -6,13 +6,13 @@ Det kan vara ett par musikspelande skor, ett armband, en mössa eller något hel
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
 
 Exempel på Framtidens musikspelare hittar du här:
-* <a href="https://scratch.mit.edu/projects/83586544" target="_blank">Exempel 1</a>
-* <a href="https://scratch.mit.edu/projects/81999316/" target="_blank">Exempel 2</a>
+* [Exempel 1](https://scratch.mit.edu/projects/83586544)
 
 ![image alt text](image_0.jpg)
 
-![image alt text](image_1.jpg)
+* [Exempel 2](https://scratch.mit.edu/projects/81999316/)
 
+![image alt text](image_1.jpg)
 
 ## 1: Komma på en idé
 
@@ -110,7 +110,7 @@ Nu behöver du säga åt *sprajten* att den ska känna av om du har muspekaren p
 
 **Tips:** För att inte alla ljud ska spelas samtidigt och bli ett enda kaos, lägg in ett block som **stoppar alla ljud** innan en ny musikloop ska starta.  
 
-![image alt text](image_7.jpg)
+  ![image alt text](image_7.jpg)
 
 *Så här kan ett skript se ut för att musikspelaren ska byta musik.*
 

@@ -4,23 +4,27 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
+![image alt text](example.png)
+
 ## 1: Välja en skalbagge som sprajt
 
 I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
 
 1. Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
-![image alt text](image_2.png)
+
+    ![image alt text](image_2.png)
 
 2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för NY SPRAJT:
-![image alt text](image_3.png)
+
+    ![image alt text](image_3.png)
 
   I menyn till vänster finns en kategori som heter "Djur", tryck på den. I listan hittar du skalbaggen. Tryck på skalbaggen så att den blir markerad och sedan på OK nere till höger.
 
 3. För att spelet ska bli enklare att spela måste vi minska storleken på skalbaggen. Tryck på förminskningsknappen och sedan på sprajten tills den är lagom stor (som en tummnagel ungefär).
 
-  ![image alt text](image_4.png)
+    ![image alt text](image_4.png)
 
-  ![image alt text](image_5.png)
+    ![image alt text](image_5.png)
 
 Nu är skalbaggen klar och det är dags att måla banan som skalbaggen skall springa på!
 
@@ -31,9 +35,10 @@ Du ska nu få rita en grå bana på grönt gräs som skalbaggen kan springa på.
 
 4. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
 
-  ![image alt text](image_6.png)	![image alt text](image_7.png)
+    ![image alt text](image_6.png)	![image alt text](image_7.png)
 
 5. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
+
   ![image alt text](image_8a.png)
 
 6. Tryck på PENSEL och välj en grå färg. Gör penseln större genom att dra reglaget ända till höger. Rita nu en oval (utdragen cirkel) - gör den så stor som du kan!

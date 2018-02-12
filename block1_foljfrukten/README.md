@@ -28,8 +28,7 @@ Vi börjar med att remixa projekt som redan finns på Scratch. Detta gör att de
 
 4. Döp om projekt till något som passar bättre.
 
-
-![image alt text](image_3.png)
+    ![image alt text](image_3.png)
 
 *Namnet på projektet har fått ordet "remix" på slutet*
 
@@ -47,7 +46,7 @@ Innan vi börjar koda ska vi först titta lite närmare på våra två sprajter 
 
 2. Klicka på fliken **Klädslar**. Där finns koordinatsystemet uppritat på olika sätt.
 
-![image alt text](image_6.png)
+    ![image alt text](image_6.png)
 
 > Vi kommer använda koordinatsystemet med ett rutnät så att du kan lära dig hur koordinater fungerar. När du lärt dig detta kan du använda en annan klädsel. En annan klädsel kan du också använda om krysset och rutnätet är i vägen för andra sprajter.
 

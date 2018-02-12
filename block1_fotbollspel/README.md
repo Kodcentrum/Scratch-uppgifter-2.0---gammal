@@ -6,7 +6,6 @@ Ett exempel på det färdiga spelet finns här: [http://www.scratch.mit.edu/proj
 
 ![image alt text](image_0.png)
 
-
 ## 1: Välj sprajtar för fotbollsspelare och boll
 
 Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.
@@ -164,7 +163,7 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   ![image alt text](image_16.jpg)
 
-> **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
+> **Testa ditt projekt!** Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
 
 
 ## Färdig!
@@ -182,7 +181,7 @@ Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 ### Animera fotbollsspelaren
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
 
-![image alt text](image_17.jpg)
+  ![image alt text](image_17.jpg)
 
 ### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.

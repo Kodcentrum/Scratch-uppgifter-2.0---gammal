@@ -2,9 +2,7 @@
 
 Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk! Programmet låter dig rita med olika färgpennor, sudda med suddgummi och måla med stämplar som du själv väljer.
 
-Du kan se ett exempel på ritprogrammet här:
-
-* <a href="https://scratch.mit.edu/projects/82515788/" target="_blank">Exempel 1</a>
+Du kan se ett exempel på ritprogrammet här: [https://scratch.mit.edu/projects/82515788](https://scratch.mit.edu/projects/82515788)
 
 ![image alt text](image_0.jpg)
 
@@ -103,8 +101,8 @@ Nu ska du få göra fler knappar för alla olika färger, och skript som ändrar
 
 17. Nu behöver du byta färg på knapparna. Gå in under KLÄDSLAR. Ändra färg med FÄRGLÄGG EN FORM (färgburken).
 
-![image alt text](image_7.jpg)
-![image alt text](image_8.jpg)
+    ![image alt text](image_7.jpg)
+    ![image alt text](image_8.jpg)
 
 **Tips:** Använd tonade färger för att få knapparna att blänka! Blanda t ex rött och rosa för att få till en tonad röd knapp. Om knappen ser för ljus ut, som t ex den gula knappen, tona mot en mörkare färg.
 
@@ -126,7 +124,7 @@ Du har säkert märkt att du kan måla överallt på skärmen, till och med där
 
 20. Börja med att rita en egen bakgrund. Välj *Scenen* och gå till BAKGRUNDER. Välj själv hur du vill att bakgrunden ska se ut!
 
-![image alt text](image_10.jpg)
+    ![image alt text](image_10.jpg)
 
 **Tips:** Här i exemplet är knappraden en mörkt grå REKTANGEL som täcker hela nederkanten. För ritytan kan du använda FYLL MED FÄRG om du t ex vill ha en ljusgrå nyans istället för helt vit.
 

@@ -30,8 +30,7 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 1.  Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller KOPIERA skalbaggens sprajt om du vill att två skalbaggar tävlar mot varandra. Ändra storlek så att båda får plats på banan.
 
-2. Om du har en ny sprajt som inte är kopia på den första, kan du KOPIERA SKRIPT för skalbaggen.
-På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom att högerklicka överst på skriptet, välja kopiera, och dra till den nya sprajten.  Nu gör båda sprajtar samma sak!
+2. Om du har en ny sprajt som inte är kopia på den första, kan du KOPIERA SKRIPT för skalbaggen. På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom att högerklicka överst på skriptet, välja kopiera, och dra till den nya sprajten.  Nu gör båda sprajtar samma sak!
 
   ![image alt text](image_3.jpg)
 
@@ -66,7 +65,7 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 4. Rita en gul mållinje i slutet av labyrinten. Tänk på att använda samma gula färg som till mållinjen du ritade i Tillägg 1. Om du inte vill ha en mållinje kan du istället rita gula bananer eller något annat som spelaren ska nå fram till.
 
-Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
+> Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
 ## Tillägg 4: Mjukare styrning
 

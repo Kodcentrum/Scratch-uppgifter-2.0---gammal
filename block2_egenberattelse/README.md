@@ -66,15 +66,15 @@ Eftersom det är din berättelse behöver du själv prova dig fram och hitta de 
 
 Använd blocket **"när START (flaggan) klickas på"** från **HÄNDELSER**.
 
-![image alt text](image_5.png)
+  ![image alt text](image_5.png)
 
 Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:"** från **RÖRELSE**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
 
-![image alt text](image_6.png)
+  ![image alt text](image_6.png)
 
 **Tips:** En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**, t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
 
-![image alt text](image_7.jpg)
+  ![image alt text](image_7.jpg)
 
 * **Hur ska sprajten röra sig?**
 

@@ -50,7 +50,7 @@ Du börjar med att skapa en bakgrund och lägga till en drake. Draken kommer att
 
 **Tips:** Om du vill att drakens klädsel bara ska vända sig åt höger och vänster även om draken åker uppåt och neråt så kan du sätta **rotationsstil** till **vänster-höger**.
 
-![image alt rotationsstil](image_3.png)
+  ![image alt rotationsstil](image_3.png)
 
 _Den röda rektangeln visar de olika rotationsstilarna. Den blåmarkerade är **vänster-höger**._
 
@@ -160,7 +160,7 @@ Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska oc
 
 > Testa! Kan du starta om spelet genom att klicka på mellanslag?
 
-![image alt block](image_8.png)
+  ![image alt block](image_8.png)
 
 _Ungefär så här mycket kod ska du ha skapat för **Drake** nu._
 
@@ -176,7 +176,7 @@ Vi börjar med hajen:
 
 2.	Klicka på **Flera block** och sen på **Skapa ett block** för att skapa en funktion. Namnge block till **”för alltid(klona mig)”**.
 
-![image alt nyttblock](image_9.png)
+  ![image alt nyttblock](image_9.png)
 
 
 3.	Nu ska det ha dykt upp ett **stort lila block** i hajen som används för att berätta **vad funktionen gör**. ![image alt nyttblock](image_10.png) Flytta koden som startar när START klickas på så dessa block är under **definitionen** av **”för alltid(klona mig)”**.
@@ -185,7 +185,7 @@ Vi börjar med hajen:
 
 5.	Ta bort koden som körs när sprajten tar emot meddelande **”nytt spel”** och lägg till ett block för **”för alltid(klona mig)”**.
 
-![image alt block](image_11.png)
+  ![image alt block](image_11.png)
 
 > Testa spelet! Fungerar det precis som förut? Tycker du det är enklare att förstå koden nu?
 

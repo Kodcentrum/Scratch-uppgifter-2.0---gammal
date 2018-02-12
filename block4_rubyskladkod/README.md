@@ -4,9 +4,7 @@ Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att d
 
 _Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>_
 
-Ett exempel på hur programmet kan se ut hittar du här:
-
-* <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">Exempel</a>
+Ett exempel på hur programmet kan se ut hittar du här:  [https://scratch.mit.edu/projects/117618751](https://scratch.mit.edu/projects/117618751)
 
 men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
 
@@ -80,8 +78,6 @@ Vi börjar med en bakgrund och en sprajt för Ruby!
 
   ![image alt block](image_5.png)
 
-  _Dessa block behöver du för punkt 7._
-
 ## 4: Acceptera uppdraget
 
 När programmet startar ska Ruby fråga användaren om den vill hjälpa till med att välja kläder. Användaren ska sedan acceptera uppdraget genom att klicka på en knapp.
@@ -109,8 +105,6 @@ När programmet startar ska Ruby fråga användaren om den vill hjälpa till med
   * **Göm** sprajten
 
   ![image alt block](image_7.png)
-
-  _Dessa block behöver du för koden._
 
 ## 5: Välja dag
 
@@ -283,8 +277,6 @@ Nu är det dags att skapa kod för **Ruby**. För ska du koda så att två slump
 
   ![image alt block](image_11.png)
 
-  _Dessa block behöver du för koden ovan._
-
   **"repetera tills"**-loopen behöver du ha så att inte två likadana klädslar väljs. Tyvärr gör det koden lite svårare att läsa.
 
 Det sista som du ska koda är att se till att klädseln ändras när ett meddelande från knapparna tas emot.
@@ -445,8 +437,6 @@ Det här är ett tredje förslag på hur veckodag kan kodas istället för att f
   * Sätt **”Idag är det: ”** till **objekt ”idag”** i **”veckodagar”**
 
   ![image alt block](image_20.png)
-
-  _Dessa block behöver du för koden ovan._
 
 7.	**Kopiera sprajten** så att du har två pilar.
 

@@ -4,8 +4,7 @@ Hur skulle du vilja spela musik? Förr i tiden fanns bara piano eller violer ell
 
 Om du kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill!
 
-Ett exempel på projektet hittar du här:  
- <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">  Exempel</a>
+Ett exempel på projektet hittar du här: [https://scratch.mit.edu/projects/128504924/](https://scratch.mit.edu/projects/128504924/)
 
 ![image alt text](image_0.png)
 

@@ -3,7 +3,6 @@
 I denna uppgift ska du få skapa ett enkelt prick-till-prick spel. Du ska få lära dig att använda koordinater och penn-funktionen i Scratch. Det är en perfekt uppgift om du är kreativ.
 
 Ett exempel på hur det kan se ut hittar du här:
-
 [https://scratch.mit.edu/projects/188770418/](https://scratch.mit.edu/projects/188770418/)
 
 ![image alt text](image_0.png)
@@ -28,7 +27,7 @@ Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enkla
 
 3. Döp om projektet till något som passar bättre.
 
-![image alt text](image_3.png)
+    ![image alt text](image_3.png)
 
 I projektet har du nu en sprajt som visar koordinatsystemet scenen. Denna sprajt har en enkel kod som placerar axlarna på rätt ställe på spelplanen.
 
@@ -52,7 +51,7 @@ I början av spelet vill vi att den ska vara placerad vid prick nummer 1.
 
     * Gå till x: 50 y: 25
 
-![image alt text](image_5.png)
+    ![image alt text](image_5.png)
 
 > Testa ditt program: klicka på den **Gröna flaggan**. Hamnar spetsen på vid prick nummer 1?
 
@@ -68,9 +67,9 @@ Det kommer den inte göra! Anledningen är att centrum för pennan är satt till
 
 4. Klicka på **pennspetsen** så att centrum för pennan hamnar där.   
 
-![image alt text](image_7.png)
+    ![image alt text](image_7.png)
 
-*Ungefär denna placering ska pennans centrum ha*
+    *Ungefär denna placering ska pennans centrum ha*
 
 > Testa programmet igen! Flyttar sig pennan så att den nu pekar på prick nummer 1?
 
@@ -84,9 +83,9 @@ Vi ska börja med att fortsätta på *start-skriptet* som du skapade ovan och pl
 
 3. Sätt pennans storlek till **3**
 
-Alla dessa kodblock hittar du under kategorin **Penna**.
+    Alla dessa kodblock hittar du under kategorin **Penna**.
 
-![image alt text](image_8.png)
+    ![image alt text](image_8.png)
 
 1. Skapa en variabel som ska hålla svaret till en fråga vi ska ställa till den som ska spela.
 
@@ -113,9 +112,7 @@ Alla dessa kodblock hittar du under kategorin **Penna**.
 
     7. Penna upp
 
-![image alt text](image_10.png)
-
-*Dessa kodblock behöver du för skriptet ovan*
+    ![image alt text](image_10.png)
 
 > Testa ditt program! Klicka på den **gröna flaggan** för att starta spelet och sedan **r** för att rita. Får du ange x– och y–koordinater? Ritas ett streck ut på skärmen?
 

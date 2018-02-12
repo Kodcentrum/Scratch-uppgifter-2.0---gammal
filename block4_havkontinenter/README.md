@@ -4,9 +4,7 @@ I denna uppgift ska du få skapa en prototyp till frågesport som du till exempe
 
   ![image alt exempel](image_1.png)
 
-Ett exempel på hur  spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/116509972/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116509972/](https://scratch.mit.edu/projects/116509972/)
 
 ## 1: Bakgrund och några sprajtar
 
@@ -26,8 +24,6 @@ Ett exempel på hur  spelet kan se ut ser du här:
 6.	Skapa en lista för all sprajter som heter **”alternativ”**
 
   ![image alt exempel](image_2.png)
-
-  _Ett exempel på hur spelet kan se ut nu._
 
 ## 2: Starta spelet
 
@@ -63,8 +59,6 @@ I förra uppgiften skapade du en knapp, **Ball** för att starta spelet samt var
 
   ![image alt nyttblock](image_4.png)
 
-  _Här hittar du knappen för att skapa ett nytt block._
-
 10.	Skapa ett nytt block som heter **”fråga”**, och som gör följande. (Du kan skapa nya block under fliken **Fler block**)
 
   *	Sätt **”rätt svar”** till ett **slumptal** mellan **1** och **längden på ”gissningar”**
@@ -72,8 +66,6 @@ I förra uppgiften skapade du en knapp, **Ball** för att starta spelet samt var
   *	Säg **”Var ligger ”** + **objekt ”rätt svar” i "alternativ"** + **”?”**. +-tecknet här betyder att du ska sammanfoga flera olika strängar och variabler.
 
    ![image alt block](image_5.png)
-
-   _Det här är några av de block du behöver för punkt 2._
 
 11.	Se till att blocket **”fråga”** körs när sprajten **Ball** tar emot meddelandet **”starta nytt havsspel”**. Du kan lägga in blocket efter koden du skapade ovan i punkt 2.
 
@@ -106,8 +98,6 @@ Nu till kodandet:
 
   ![image alt block](image_6.png)
 
-  _Det här är några av de block du behöver för punkt 2._
-
 Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har. Det är i allmänhet inte bra att använda sig av siffror på det här sättet. Och det blir krångligt när du ska kopiera sprajten. Till exempel behöver du byta ut **3**:an på flera ställen. Därför ska du ersätta **3**:an med en LOKAL VARIABEL som bara finns för denna sprajt. Den kommer att fungera som ett **id-nummer** för sprajten.
 
   ![image alt lokalvar](image_7.png)
@@ -122,7 +112,7 @@ Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen o
 
 5.	**Ändra** i det skriptet som du skapade i punkt 2 ovan så att **3**:an byts ut mot variabeln **”id”**.
 
-![image alt block](image_9.png) **INTE** ![image alt block](image_8.png)
+  ![image alt block](image_9.png) **INTE** ![image alt block](image_8.png)
 
 Nu kan du skapa fler prickar! Eftersom du har använder **"id"** som är UNIK för varje sprajt kan du lätt känna igen dem.
 
@@ -165,8 +155,6 @@ Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 Nu har du lagt till en liten färganimation som visas om du gissar rätt.
 
 ![image alt block](image_10.png)
-
-_Det här är några av de block du behöver för punkterna ovan._
 
 ## 5: Kontinenter
 

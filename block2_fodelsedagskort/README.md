@@ -37,7 +37,7 @@ Vi börjar med första steget! Du ska få katten att fråga vem som fyller år.
 
   * Välj **KÄNNA AV**: **"Fråga ___ och vänta"** och skriv in "*Vem fyller år?"*.
 
-![image alt text](image_1.png)
+  ![image alt text](image_1.png)
 
 *När du har skrivit in ett namn i rutan, tryck på Enter.
 Du kommer att förstå senare vad namnet ska användas till!*

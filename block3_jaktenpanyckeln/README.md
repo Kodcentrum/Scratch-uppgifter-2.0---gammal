@@ -264,7 +264,7 @@ En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseend
 
 3. Du kan också rita på klädslarna för att göra dem olika. Här i bilden nedan har roboten fått röda kinder.
 
-![image alt text](image_27.png)*En robot med röda kinder*
+    ![image alt text](image_27.png)*En robot med röda kinder*
 
 1. Markera Roboten
 
@@ -278,7 +278,7 @@ En annan ledtråd som vi ska skapa är att **Roboten** kommer förändra utseend
 
         * Byt till klädsel **Robot1**. Välj den klädsel som roboten ska ha långt i från nyckeln.
 
-![image alt text](image_28.png)
+    ![image alt text](image_28.png)
 
 ## 7: Slumpmässig placering
 
@@ -394,13 +394,13 @@ Du kan också rita saker på bakgrunden i en särskild färg som du kan känna a
 
 Nu kan spelaren gissa hur många gånger som helst. Du kan göra det lite svårare genom att koda ett maximalt antal gissningar.
 
-![image alt text](image_30.png)
+    ![image alt text](image_30.png)
 
 1. Börja med att skapa en variabel som heter **"antal gissningar"**
 
 2. Varje gång du flyttar Roboten ändrar du värdet på **"antal gissningar"** med 1.
 
-![image alt text](image_31.png)
+    ![image alt text](image_31.png)
 
 3. Du får också kolla om **"antalet gissningar"** är lika med det maximala antalet som du har bestämt.
 
