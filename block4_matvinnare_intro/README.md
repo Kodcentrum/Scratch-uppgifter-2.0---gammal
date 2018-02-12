@@ -22,7 +22,7 @@ att minska på matsvinnet!
 
 
 
-## 1. Steg 1: Remixa ett projekt
+## 1: Remixa ett projekt
 
 Vi börjar med att remixa ett projekt som redan finns på Scratch. I
 startprojektet får du två sprajtar som vi har ritat åt dig, en tallrik
@@ -54,7 +54,7 @@ I projektet har du nu två SPRAJTAR som redan finns med på SCENEN:
     ![image alt text](image_4.png)
 
 
-## 2. Steg 2: Välj sprajtar
+## 2: Välj sprajtar
 
 Nu ska du få lägga till några sprajtar som du behöver! Först får du
 välja tre sprajtar som kan visa en maträtt i tre delar (3/3). Du får
@@ -73,7 +73,7 @@ välja en figur som kan äta maten också.
 
     ![image alt text](image_7.png)
 
-## 3. Steg 3: Bakgrund till scenen
+## 3: Bakgrund till scenen
 
 Nästa steg är att välja en BAKGRUND till din scen. Rita själv eller välj
 ur biblioteket. Hur ser din skolmatsal ut? Eller hur skulle du vilja att
@@ -85,7 +85,7 @@ en skolmatsal kunde se ut?
 
 2.  Tryck sedan på knappen för VÄLJ BAKGRUND FRÅN BIBLIOTEKET. Välj vilken bakgrund du vill och tryck på OK.
 
-## 4. Steg 4: Mät matsvinnet med variabler
+## 4: Mät matsvinnet med variabler
 
 Nu ska du göra så att soptunnan kan visa hur mycket matsvinn det blir
 när du slänger maten. För att göra det behöver du skapa en **VARIABEL**
@@ -115,7 +115,7 @@ slänger i soptunnan:
 **Testa ditt projekt! Klicka på START.** Står viktmätaren på 0 när du
 startar programmet?
 
-## 5. Steg 5: Väg maten som slängs
+## 5: Väg maten som slängs
 
 Nu ska du skapa ett skript för vad som händer när du slänger maten i
 soptunnan. Här i vårt exempel är det tacosarna som talar om för
@@ -176,7 +176,7 @@ kommatecken för decimaler!
 
 10.  Lägg till ett skript som talar om vad som händer om du låter din figur äta upp maten istället! Här kan du också använda ljudeffekter och animationer. Här i vårt exempel är det när tacon rör vid Pico som den byter klädsel och spelar ett tugg-ljud:
 
-    ![image alt text](image_17.png)
+  ![image alt text](image_17.png)
 
 **Tips:** Om du byter klädsel för att animera en sprajt, glöm inte att
 ändra i startskriptet så att du startar med rätt klädsel! Se på bilden
@@ -187,7 +187,7 @@ har gjort skriptet för, till soptunnan. Vad händer när du slänger
 tacosen? Ändrar sig viktmätaren? Stämmer vikten på en taco, är värdet en
 tredjedel av 0.36?
 
-## 6. Steg 6: Kopiera skriptet
+## 6: Kopiera skriptet
 
 Nu är du alldeles strax klar med ditt program! Men först ska du se till
 så att alla taco-sprajtar har likadana skript som säger vad som händer

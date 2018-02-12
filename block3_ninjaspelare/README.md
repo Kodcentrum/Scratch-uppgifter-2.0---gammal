@@ -55,21 +55,21 @@ Nu ska vi rita ninjans ben och vi börjar med det högra:
 
   * För alltid:
 
-        * **Vänta** 0.2 sekunder
+    * **Vänta** 0.2 sekunder
 
-        * **Byt** klädsel till **”springer1”**
+    * **Byt** klädsel till **”springer1”**
 
-        * **Vänta** 0.2 sekunder
+    * **Vänta** 0.2 sekunder
 
-        * **Byt** klädsel till **”springer2”**
+    * **Byt** klädsel till **”springer2”**
 
-        * **Vänta** 0.2 sekunder
+    * **Vänta** 0.2 sekunder
 
-        *  **Byt** klädsel till **”springer3”**
+    *  **Byt** klädsel till **”springer3”**
 
-        * **Vänta** 0.2 sekunder
+    * **Vänta** 0.2 sekunder
 
-        * **Byt** klädsel till **”springer4”**
+    * **Byt** klädsel till **”springer4”**
 
 > Testa animationen genom att klicka på den gröna flaggan! Hur ser animationen ut? Ser det ut som om ninjan springer?
 
@@ -177,7 +177,7 @@ Nu ska du koda ninjan så at den kan hoppa och sparka genom väggar. Spellogiken
 
   **Tips:** Om det ändå blir för svårt att hoppa över stenen så kan du prova med att **förminska klädseln**. (Om du förminskar sprajten påverkas i:et också).
 
-    Ett annat tips är att du kan lägga in ett **vänta 0.001 sekunder**-block efter du har **ändrat y-värdet**.
+  Ett annat tips är att du kan lägga in ett **vänta 0.001 sekunder**-block efter du har **ändrat y-värdet**.
 
 4.	Skapa ett nytt skript för ninjan som säger:
 

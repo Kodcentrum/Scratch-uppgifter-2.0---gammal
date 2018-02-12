@@ -18,7 +18,7 @@ En bra uppgift att kolla på för att få inspiration är `block3_jaktenpanyckel
 
 * För varje uppgift ska det finnas ett exempel projekt i Scratch. Detta projekt ska länkas till i början av uppgiften tillsammans med en skärmdump
 
-* Sträva efter kort deluppgifter som går att testa individuellt
+* Sträva efter korta deluppgifter som går att testa individuellt
 
 * Varje deluppgift ska ha som rubrik en siffra följt av en kort och enkel text, t.ex. **2 - Sätta bakgrund**
 
@@ -66,6 +66,6 @@ En bra uppgift att kolla på för att få inspiration är `block3_jaktenpanyckel
 
 * Beskär bilderna så att det inte är minimalt med grått runt dem
 
-* Försök att skapa bilder för max 3 algoritmer, gör inte bilderna för stora med massor av block. 
+* Försök att skapa bilder för max 3 algoritmer, gör inte bilderna för stora med massor av block.
 
 * Annotera bilder från Scratchs gränssnitt med pilar, cirklar etc för att tydliggöra vad som ska hända eller var användaren ska klicka

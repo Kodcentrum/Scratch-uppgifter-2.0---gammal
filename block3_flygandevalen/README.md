@@ -29,7 +29,7 @@ När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund.
 
   ![image alt text](image_4.png)
 
-**Tips:** För att valen inte ska vända sig upp och ned i spelet, gå in på sprajtens informationsruta och välj att den bara kan vända sig åt höger-vänster*.*
+**Tips:** För att valen inte ska vända sig upp och ned i spelet, gå in på sprajtens informationsruta och välj att den bara kan vända sig åt *höger-vänster.*
 
 > Testa ditt projekt! Klicka på START. Kan du styra valen med muspekaren? Går den lagom snabbt?
 Vad händer om du inte rör muspekaren och valen hinner ikapp den? Hur ser det ut? Varför händer det, tror du?
