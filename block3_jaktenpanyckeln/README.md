@@ -13,7 +13,7 @@ Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
 1. Öppna din webbläsare och gå till
 
-    [https://scratch.mit.edu/projects/172763192/](https://scratch.mit.edu/projects/172763192/)
+    <a href="https://scratch.mit.edu/projects/172763192/" target="_blank">https://scratch.mit.edu/projects/172763192/</a>
 
 2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 

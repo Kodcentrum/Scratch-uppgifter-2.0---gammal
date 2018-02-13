@@ -12,7 +12,7 @@ Vi börjar med att remixa ett befintligt projekt.
 
 1. Öppna din webbläsare och gå till
 
-    [https://scratch.mit.edu/projects/172763496/](https://scratch.mit.edu/projects/172763496/)
+    <a href="https://scratch.mit.edu/projects/172763496/" target="_blank">https://scratch.mit.edu/projects/172763496/</a>
 
 2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 
