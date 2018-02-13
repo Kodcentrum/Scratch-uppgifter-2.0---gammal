@@ -4,7 +4,7 @@ För denna uppgift kommer du använda ScratchX som du kan använda för interage
 
 http://scratchx.org/?url=https://chrisse23.github.io/spotifyExtension/musicPlayer.sbx
 
-Om du inte kommer in på sidan, prova med att trycka på "Open Extension URL". 
+Om du inte kommer in på sidan, prova med att trycka på "Open Extension URL".
 
 ![image alt text](image_10.png)
 
@@ -14,7 +14,7 @@ Klistra in https://chrisse23.github.io/spotifyExtension/musicPlayer.sbx.
 
 Klicka på open. Sedan klicka där det står "Klicka här för att aktivera Adobe Flash Player" och sedan tillåt i dialogen.
 
-## Delmoment 1: Titta på startblocken
+## 1: Titta på startblocken
 
 1. I detta projekt får du redan några utplacerade startblock.
 
@@ -26,17 +26,17 @@ Klicka på open. Sedan klicka där det står "Klicka här för att aktivera Adob
 
 4. När användaren har skrivit in ett låtnamn så söker vi efter låtar med det namnet på            Spotify och svaret läggs i variabel svar.
 
-5. Efter det kollar vi om det finns något i variabel svar och finns det som visar vi svaret från Spotify vilket är låtar, låtnamn och artister. Under delmoment 4 kommer du att göra detta.
+5. Efter det kollar vi om det finns något i variabel svar och finns det som visar vi svaret från Spotify vilket är låtar, låtnamn och artister. Senare kommer du att göra detta.
 
 6. Nu ska du få skapa en variabel. Under data tryck på skapa en variabel och ge den namnet position och sedan sätt den till 0. Lägg den ovanför fråga blocket. Du kan också välja blocket göm variabel position på samma ställe.
 
 Om du testar programmet nu så kommer du att se att du får skriva ett låtnamn och variabel svar kommer att fyllas med värden. Nu ska vi skapa upp musikspelaren och sedan visa vad som finns i variabel svar för användaren.
 
-## Delmoment 2: Skapa en bakgrund
+## 2: Skapa en bakgrund
 
 1. För att ändra bakgrunden så tryck på SCEN längst till vänster och sedan på rita ny bakgrund eller välj bakgrund från biblioteket.
 
-## Delmoment 3: Skapa upp sprajtar för kontrollera musikspelaren
+## 3: Skapa upp sprajtar för kontrollera musikspelaren
 
 1. Tryck på knappen NY SPRAJT och leta upp sprajten button3.
 
@@ -47,14 +47,14 @@ Om du testar programmet nu så kommer du att se att du får skriva ett låtnamn 
 3. Döp klädseln till spela-knapp.
 
 4. Tryck på knappen NY KLÄDSEL och leta upp sprajten button3 och måla även den så den ser ut som på bilden nedanför.
-    
+
     ![image alt text](image_2.png)
 
 5. Döp klädseln till pausa-knapp.
 
 Som du ser så frågar vi efter en namnet på en låt men sedan händer inget mer. Det ska vi fixa nu!
 
-## Delmoment 4: Visa sökresultatet från Spotify
+## 4: Visa sökresultatet från Spotify
 
 1. Klicka på bakgrundscenen och välj Skript.
 
@@ -66,7 +66,7 @@ Som du ser så frågar vi efter en namnet på en låt men sedan händer inget me
 
     3. **Skapa en ny variabel** som heter Låt.
 
-3. När du ska använda en variabel visas det med [ ] och namnet på variabel innanför. 
+3. När du ska använda en variabel visas det med [ ] och namnet på variabel innanför.
 
 4. Välj kategorien **FLER BLOCK.** Nu ska du i skriptet som säger om längden av svar är större än 0 så:
 
@@ -78,7 +78,7 @@ Nu visar vi på skärmen vilken artist och låt som kommer att spelas. Ditt bloc
 
  ![image alt text](image_3.png)
 
-## Delmoment 5: Spela och pausa musik
+## 5: Spela och pausa musik
 
 1. Klicka på sprajten som är din spela-knapp och välj blocket **när denna sprajt klickas på**.
 
@@ -88,7 +88,7 @@ Nu visar vi på skärmen vilken artist och låt som kommer att spelas. Ditt bloc
 
         1. **Sätt variabel [Låt] till** blocket **hämta från variabel [svar] på variabel [position] låten**.
 
-        2. Under kategorien **FLER BLOCK** välj blocket **Spela låt från url variabel [låt]**. 
+        2. Under kategorien **FLER BLOCK** välj blocket **Spela låt från url variabel [låt]**.
 
         3. **Byt klädsel till pausa-knapp**.
 
@@ -110,11 +110,11 @@ Nu borde ditt skript se ut ungefär som på bilden nedan.
 
 ![image alt text](image_4.png)
 
-## Delmoment 6: Nästa låt
+## 6: Nästa låt
 
 Nu ska vi göra en ny sprajt för att kunna välja mellan låtar vi sökt på.
 
-1. Tryck på knappen NY SPRAJT och leta upp sprajten button3. 
+1. Tryck på knappen NY SPRAJT och leta upp sprajten button3.
 
 2. Tryck sedan på KLÄDSLAR och måla knappen så den ser ut som på bilden.
 
@@ -138,9 +138,9 @@ Nu borde ditt skript se ut ungefär som på bilden nedan.
 
 ![image alt text](image_6.png)
 
-## Delmoment 7: Tidigare låt
+## 7: Tidigare låt
 
-5. Tryck på knappen NY SPRAJT och leta upp sprajten button3. 
+5. Tryck på knappen NY SPRAJT och leta upp sprajten button3.
 
 6. Tryck sedan på KLÄDSLAR och måla knappen så den ser ut som på bilden.
 
@@ -160,9 +160,9 @@ Nu borde ditt skript se ut ungefär som på bilden nedan.
 
 ![image alt text](image_8.png)
 
-Nu är din musikspelare nästan klar! Vi har ett delmoment kvar och det är att för varje låt vi spelar ska vi visa fyra andra artister som liknar den vi spelar just nu. Så kan användaren få lite tips om vad personen kan spela härnäst.
+Nu är din musikspelare nästan klar! Vi har en uppgift kvar och det är att för varje låt vi spelar ska vi visa fyra andra artister som liknar den vi spelar just nu. Så kan användaren få lite tips om vad personen kan spela härnäst.
 
-## Delmoment 8:  Relaterade artister
+## 8:  Relaterade artister
 
 1. Tryck på knappen NY SPRAJT och leta upp sprajten wizard.
 
@@ -195,4 +195,3 @@ Nu när du har gjort klart din musikspelare kanske du vill utveckla den lite mer
 Under blocket **DATA** går det också att skapa en lista, skulle du kunna använda det för att låta användaren köa låtar som ska spela efteråt?
 
 Om du tittar under kategorien **FLER BLOCK** så finns det tre block som du inte använt. Dessa heter **Starta från x sekunder**, **Fade in** och **Fade out**. Det första blocket kan du använda för att starta på en plats i låten du väljer mellan 0-30 sekunder. **Fade in** kan användas för tona in låten och **Fade out** för att tona ut låten. Kan du använda dessa tre block för att kunna göra dj-spelare?
-

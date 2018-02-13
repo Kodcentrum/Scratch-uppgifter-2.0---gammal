@@ -8,7 +8,7 @@ Ett exempel på hur spelet kan se ut hittar du här:
 
 ![image alt text](image_0.png)
 
-## Delmoment 1 - Remixa ett projekt
+## 1 - Remixa ett projekt
 
 Vi börjar med att remixa ett befintligt projekt.
 
@@ -30,13 +30,13 @@ Vi börjar med att remixa ett befintligt projekt.
 
 I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta som spelet utspelar sig på. Hur dessa fungerar ska vi titta på strax. Du har också en sprajt som är en robot och som kan röra sig över scenen.
 
-![image alt text](image_4.png)
+    ![image alt text](image_4.png)
 
 *De fem sprajtarna i det remixade programmet*
 
 > Testa programmet! Kan du förflytta roboten över scenen med hjälp av piltangenterna? Förflyttar sig scenen när du rör på roboten?
 
-## Delmoment 2 – Förstå koden
+## 2 – Förstå koden
 
 Det är bra om du förstår hur koden i det remixade programmet fungerar. På så sätt blir det enklare att förändra spelet efter dina önskemål. Du kanske vill utöka banan, eller använda dig av en egenritad bakgrund.
 
@@ -44,7 +44,7 @@ Det är bra om du förstår hur koden i det remixade programmet fungerar. På s�
 
 En sprajt eller en bakgrund kan i Scratch maximalt vara 480 pixlar bred och 360 pixlar hög, eftersom det är storleken på scenen. Därför är det svårt att importera till exempel en jättestor karta som bakgrund. I detta spel har vi löst det genom att skapa fyra sprajter som är 480 x 360 pixlar var och lägga dem sida vid sida, som så här:
 
-![image alt text](image_5.png)
+    ![image alt text](image_5.png)
 
 I bilderna som finns i det remixade spelet har en smal vit linje ritats ut mellan bilderna för att göra detta extra tydligt. Denna går självklart att ta bort, men för tillfället får den vara kvar.
 
@@ -52,11 +52,11 @@ När vi sedan rör roboten över scenen kommer bilderna att flyttas med roboten.
 
 För att få detta att fungera så behöver vi introducera ett nytt koordinatsystem. Roboten kommer att förflytta sig inom det vanliga koordinatsystemet på scenen, medan bakgrunden kommer att förflytta sig i sitt eget koordinatsystem som vi skapar med hjälp av variabler. I stället för att ange koordinaterna med x och y i detta koordinatsystem så anges dem med variablerna **"fokus x"** och **“fokus y”**.
 
- ![image alt text](image_6.png)
+    ![image alt text](image_6.png)
 
 Nu tittar vi på koden för sprajten **upp_vänster**, den bakgrunds-sprajt som är längst upp till vänster. Den har ett enkelt skript som körs när den tar emot meddelandet **"flytta"**. Det enda skriptet gör är att flytta sprajten till en ny position på scenen som beror på variablerna **“fokus x”** och **“fokus y”**.
 
-![image alt text](image_7.png)
+    ![image alt text](image_7.png)
 
 Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på att placera den sprajten korrekt beroende på variablerna **"fokus x"** och **“fokus y”**.
 
@@ -66,13 +66,13 @@ Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på
 
 Sprajten **Robot** har lite mer kod, men mycket av den fungerar på samma sätt. Vi börjar med att titta på startskriptet.
 
-![image alt text](image_8.png)
+    ![image alt text](image_8.png)
 
 När spelet startar så sätts båda variablerna **"fokus x"** och **“fokus y”** till 0. Därefter så skickas meddelandet **“flytta”** som gör att alla bakgrund-sprajter placeras ut korrekt. Till sists så placeras roboten på ett lämpligt ställe på scenen.
 
 Roboten har också fyra skript som startar när de fyra piltangenterna trycks ned. Vi tar och tittar på skriptet som körs när **uppåt-pilen** trycks ned.
 
-![image alt text](image_9.png)
+    ![image alt text](image_9.png)
 
 Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y-axeln och studsar tillbaka om den nuddar kanten. Det är inte så konstigt. Men denna kod gör ju inte att bakgrunden flyttas med.
 
@@ -80,7 +80,7 @@ Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y
 
 Resten av koden är till för att förflytta bakgrunden. Först ändras variabeln **"fokus y"** och sedan skickas meddelandet **“flytta”** som får alla bakgrund-sprajter att förflyttas –10 steg. OM-satsen gör att roboten inte kan förflytta sig utanför den uppritade bakgrunden.
 
-## Delmoment 3 – Lägg till en nyckel
+## 3 – Lägg till en nyckel
 
 Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du få  skapa målet för spelet: nycklar som roboten ska hitta.
 
@@ -94,7 +94,7 @@ Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du 
 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
-![image alt text](image_11.png)
+    ![image alt text](image_11.png)
 
 1. Markera **Nyckel** sprajten och klicka på fliken **Klädslar**.
 
@@ -102,16 +102,16 @@ Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tu
 
 3. Rita en **rund cirkel** i en **ljus färg** med hjälp av **Cirkelverktyget**
 
-![image alt text](image_13.png)
-*Ungefär så här stor ska cirkeln vara*
+    ![image alt text](image_13.png)
+    *Ungefär så här stor ska cirkeln vara*
 
 4. **Döp** klädseln till **cirkel**. Du kan ändra namnet på en klädsel i den lilla textrutan ovanför alla ritverktyg.
 
- ![image alt text](image_14.png)
+    ![image alt text](image_14.png)
 
 *Skriv in namnet på klädseln och tryck på Enter*
 
-## Delmoment 4 – Koda nyckeln
+## 4 – Koda nyckeln
 
 Nu är det äntligen dags att koda! Vi ska placera ut ett antal nycklar slumpmässigt på scenen och om **Roboten** kommer nära dem ska den få poäng.
 
@@ -131,7 +131,7 @@ Nu är det äntligen dags att koda! Vi ska placera ut ett antal nycklar slumpmä
 
         2. **Skapa klon** av mig själv
 
-![image alt text](image_15.png)
+    ![image alt text](image_15.png)
 
 Detta är **startskriptet** för nyckeln. Eftersom vi kommer att skapa nycklar med hjälp av KLONER kommer vi att gömma sprajten. Sedan placerar vid ut 5 KLONER på scenen med 3 sekunders mellanrum.
 
@@ -139,7 +139,7 @@ Nu ska vi koda vad som händer när klonerna startar.
 
 * Börja med att skapa två variabler **"mitt x"** och **“mitt y”**. **OBS!** Dessa två variabler ska endast vara för **Nyckel**–sprajten. De ska inte visas på scenen.
 
-![image alt text](image_16.png)
+    ![image alt text](image_16.png)
 
 *Det är viktigt att du kryssar i "Enbart för denna sprajt"*
 
@@ -151,7 +151,7 @@ Skapa ett skript för nyckeln som säger
 
 2. Gå till x: **"fokus x" – “min x”**,  y: **“fokus y” – “min y”**
 
-![image alt text](image_17.png)
+    ![image alt text](image_17.png)
 
 Detta skript kommer göra så att nyckeln placeras ut på bakgrunden.
 
@@ -187,9 +187,7 @@ Skapa ett till skript för nyckeln som säger
 
         4. Göm
 
-
-
-![image alt text](image_18.png)
+    ![image alt text](image_18.png)
 
 *Dessa kodblock behöver du för skriptet ovan*
 
