@@ -11,8 +11,7 @@ hemma eller i skolan? Här ska du få skapa en soptunna som talar om hur
 mycket mat du slänger!
 
 Ett exempel på hur det kan se ut hittar du här:
-
-[*https://scratch.mit.edu/projects/188545076/*](https://scratch.mit.edu/projects/188545076/)
+<a href="https://scratch.mit.edu/projects/188545076/" target="_blank">https://scratch.mit.edu/projects/188545076/</a>
 
 ![image alt text](image_0.png)
 

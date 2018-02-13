@@ -2,57 +2,13 @@
 
 I denna uppgift ska du få koda ett Sten, sax och påse spel för två spelare. Du kommer få lära dig variabler, slumptal och hur två micro:bits kan kommunicera med varandra.
 
-Ett exempel på spelet hittar du här: [https://makecode.microbit.org/_dzK16s3k6Vq1](https://makecode.microbit.org/_dzK16s3k6Vq1)
+Ett exempel på spelet hittar du här: <a href="https://makecode.microbit.org/_dzK16s3k6Vq1" target="_blank">https://makecode.microbit.org/_dzK16s3k6Vq1</a>
 
 ![image alt text](image_0.png)
 
-## 1 – Kom igång med micro:bits
+Om du aldrig har kodat en micro:bit förut är det bra om du gör uppgiften **Uppvärmning** först. Då får du lära dig lite enklare saker om micro:biten.
 
-Här kommer några tips för att komma igång med din micro:bit. Om du har använt micro:bits förut kan du hoppa vidare till nästa steg.
-
-### Hitta till micro:bit editorn
-
-För att koda program till din micro:bit gå till denna adress
-
-[https://makecode.microbit.org](https://makecode.microbit.org)
-
-### micro:bit editorn
-
-![image alt text](image_1.png)
-
-Editorn är indelat i tre stora delar
-
-1. Till höger finns kodytan där du bygger upp din kod
-
-2. I mitten hittar du alla kodblock som behöver i olika kategorier
-
-3. Till vänster hittar du en simulator där du kan testa din kod innan du kopierar över den till din micro:bit
-
-Det finns också två andra knappar som kan vara bra att känna till
-
-* Om du klickar på kugghjulet i övre delen av fönstret så hittar du inställningar där du bland annat kan ändra **språket** till svenska
-
-* En **dela knapp** som gör att du kan dela med dig av din kod till kompisar
-
-### Föra över program till micro:biten
-
-När du har skapat ett program i editorn behöver du flytta över den till micro:biten. Det gör du genom att
-
-1. Namnge projektet
-
-    ![image alt text](image_2.png)
-
-2. Klicka på "Ladda ned"-knappen. Vilket gör att en liten fil med ändelsen **hex** laddas ner till din dator.
-
-    ![image alt text](image_3.png)
-
-3. Koppla in micro:biten till datorn med hjälp av en USB kabel
-
-4. Flytta **hex**-filen till micro:biten
-
-    > Om du har svårt att veta hur du ska flytta över filen till micro:biten, fråga en vuxen!
-
-## 2 – För en spelare
+## 1 – För en spelare
 
 Nu ska du få börja koda en enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.
 
@@ -100,6 +56,8 @@ Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet p
 
         ![image alt text](image_10.png)
 
+        "Diamant" är den ikonen som är mest lik en sten. När **"hand"** är 0 så betyder det ju att din hand är en sten.
+
 5. Fortsätt sedan på koden för **"VisaHand"** och lägg in två OM-satser till
 
     2. Visa en sax OM **"hand"** är 1
@@ -117,11 +75,11 @@ Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet p
 
 > **Ladda ner spelet!** Döp spelet till **sten** och klicka på **"Ladda ner"** för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du skakar på den?
 
-## 3 – För två spelare – initiering
+## 2 – För två spelare – initiering
 
 Nu ska koda så att två micro:bits kan kommunicera med varandra genom radiosignaler. På det sättet blir det roligare att spela.
 
-Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:bits är dem som kommunicerar!
+Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:bits är de som kommunicerar!
 
 1. Lägg in följande kod under blocket **"vid start"**
 
@@ -139,7 +97,7 @@ Här behöver du kommunicera med minst en annan person som kodar samma uppgift, 
 
 Nu är du klar med initieringen av spelet, men fortfarande händer inte så mycket mer. Det ska du få ändra på nu.
 
-## 4 – För två spelare – vem vann?
+## 3 – För två spelare – vem vann?
 
 Nu kommer du hela tiden sända värdet på variabeln **"hand"** till den andra micro:biten i din grupp. Samtidigt kommer den andra micro:biten i din grupp också sända ut värdet på sin variabel **“hand”**. När du tar emot det värdet kan du kolla om du vann eller förlorade. Det ska du få koda nu!
 

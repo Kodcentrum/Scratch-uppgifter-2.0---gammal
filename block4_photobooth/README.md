@@ -3,7 +3,7 @@
 Nu kommer du att få skapa en Photo Booth-app där du kan ändra din egen bild från webbkameran till att bli det som du drömmer om att vara. Det är din fantasi som styr vad ditt program ska innehålla, här får du tips på hur du kan byta frisyr, sätta dit solglasögon eller kanske en stilig mustasch!
 
 Här kan du titta på exempel på
- [Photo Booth](https://scratch.mit.edu/projects/98186215/) och en [Disco-version](https://scratch.mit.edu/projects/103740293/) på Scratch.
+ <a href="https://scratch.mit.edu/projects/98186215/" target="_blank">Photo Booth</a> och en <a href="https://scratch.mit.edu/projects/103740293/" target="_blank">Disco-version</a> på Scratch.
 
 
 

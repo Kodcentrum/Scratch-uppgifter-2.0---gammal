@@ -2,7 +2,7 @@
 
 I den här uppgiften ska du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem. Ett mål är att skapa mer effektiv kod.
 
-Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116717825/](https://scratch.mit.edu/projects/116717825/)
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116717825/" target="_blank">https://scratch.mit.edu/projects/116717825/</a>
 
 ![image alt exempel](image_1.png)
 

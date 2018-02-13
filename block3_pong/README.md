@@ -2,7 +2,7 @@
 
 Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.
 
-Här kan du se en version av spelet: [https://scratch.mit.edu/projects/80839730/](https://scratch.mit.edu/projects/80839730/)
+Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a>
 
 ![image alt text](image_0.png)
 

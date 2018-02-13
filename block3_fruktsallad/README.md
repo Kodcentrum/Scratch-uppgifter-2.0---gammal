@@ -2,7 +2,7 @@
 
 I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pankakor eller brädor till en koja. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.
 
-Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116997344/](https://scratch.mit.edu/projects/116997344/)
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116997344/" target="_blank">https://scratch.mit.edu/projects/116997344/</a>
 
 ![image alt exempel](image_1.png)
 

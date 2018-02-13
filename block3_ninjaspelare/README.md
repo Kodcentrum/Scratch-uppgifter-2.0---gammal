@@ -2,7 +2,7 @@
 
 I denna uppgift ska du göra ett spel där du styr en liten ninja som kan hoppa jättehögt och sparka igenom väggar! Det kommer att se ut som om ninjan springer åt höger men det är sprajten som står till och istället är det bakgrunden som ska åka åt vänster. Den här uppgiften är för dig som gillar att rita och animera mycket.  
 
-Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116954542/](https://scratch.mit.edu/projects/116954542/)
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116954542/" target="_blank">https://scratch.mit.edu/projects/116954542/</a>
 
 ![image alt exempel](image_1.png)
 

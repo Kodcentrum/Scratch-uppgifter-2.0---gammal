@@ -4,7 +4,7 @@ I denna uppgift ska du få skapa en prototyp till frågesport som du till exempe
 
   ![image alt exempel](image_1.png)
 
-Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116509972/](https://scratch.mit.edu/projects/116509972/)
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116509972/" target="_blank">https://scratch.mit.edu/projects/116509972/</a>
 
 ## 1: Bakgrund och några sprajtar
 
