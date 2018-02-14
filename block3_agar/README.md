@@ -1,6 +1,6 @@
 # Agar
 
-Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: [https://scratch.mit.edu/projects/102124910/](https://scratch.mit.edu/projects/102124910/)
+Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">https://scratch.mit.edu/projects/102124910/</a>
 
   ![image alt exempel](image_1.png)
 

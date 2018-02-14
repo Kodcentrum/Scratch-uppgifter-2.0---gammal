@@ -2,7 +2,7 @@
 
 I denna uppgift får du chansen att jobba vidare med spelet **Bug Race**. Du kommer få lägga till funktioner som omstart, flera liv och mat. Och du kommer få jobba med meddelanden, variabler och kloner.
 
-Ett exempel på hur det kan se ut hittar du [här](https://scratch.mit.edu/projects/196756892/):
+Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a>
 
 ![image alt text](image_0.png)
 
@@ -71,19 +71,19 @@ Visst är det tråkigt att spelet tar slut när du kommit runt ett varv? Nu ska 
 
 1. Ändra på koden för sprajten **Skalbagge**
 
-    1. Under "När **start** klickas på" dra in ett block “**Sätt Varv** till **0**”
+    * Under "När **start** klickas på" dra in ett block “**Sätt Varv** till **0**”
 
     ![image alt text](image_8.png)
 
-    2. Ta bort koden som ligger i **"OM rör** mållinjen"-blocket
+    * Ta bort koden som ligger i **"OM rör** mållinjen"-blocket
 
 2. Skapa följande skript i stället när skalbaggen rör mållinjen
 
-    3. Säg **"Mål"** i **2 sekunder**
+    * Säg **"Mål"** i **2 sekunder**
 
-    4. Öka variabel **"Varv"** med 1
+    * Öka variabel **"Varv"** med 1
 
-    5. Skicka meddelandet **"start"**
+    * Skicka meddelandet **"start"**
 
 ![image alt text](image_9.png)
 
@@ -101,29 +101,31 @@ Nu ska du få koda en till variabel som håller reda på hur många liv skalbagg
 
 3. Lägg in följande kod när skalbaggen nuddar gräset, *innan meddelandet* **starta** *skickas*
 
-    1. **Ändra** **Liv** med **-1**
+    * **Ändra** **Liv** med **-1**
 
-    2. Skicka meddelandet **"Game over?"** och **vänta**
+    * Skicka meddelandet **"Game over?"** och **vänta**
 
     ![image alt text](image_11.png)
 
 4. Skapa ett nytt skript för **Skalbaggen** som säger
 
-    1. När jag tar emot meddelandet **"Game over?"**
+    * När jag tar emot meddelandet **"Game over?"**
 
-    2. OM **"Liv" < 1**
+    * OM **"Liv" < 1**
 
-        1. Säg **"Game over"** i **2 sekunder**
+        * Säg **"Game over"** i **2 sekunder**
 
-        2. Stoppa alla
+        * Stoppa alla
 
         ![image alt text](image_12.png)
+
+    > Tecknet **"<"** är en **operator** som betyder **"mindre än"**. Alltså kommer spelet bara ta slut OM "Liv" är **mindre än 1**, det vill säga 0.
 
 > Test igen! Vad händer om du åker ut i gräset 4 gånger?
 
 ## 5 – Mat
 
-För att skalbaggen ska få nya liv när den har åkt ut i gräset ska du få koda en ny sprajt som ska föreställa mat.
+Det är tråkigt att bara förlora liv och till sist kommer skalbaggen dö. Därför ska du få koda en ny sprajt som föreställer mat till skalbaggen och som den kan äta för att öka antalet liv den har.
 
 1. Skapa en ny sprajt som ska bli mat åt Skalbaggen. *Här har jag använt mig av ett äpple, men du kan välja vad du vill!*
 
@@ -133,17 +135,17 @@ För att skalbaggen ska få nya liv när den har åkt ut i gräset ska du få ko
 
 3. Skapa ett skript för **Äpplet** som säger
 
-    1. När **start** klickas på
+    * När **start** klickas på
 
-    2. Dölj
+    * Dölj
 
-    3. Gå tillbaka 1 lager
+    * Gå tillbaka 1 lager
 
-    4. För alltid:
+    * För alltid:
 
-        1. **Vänta** 3 sekunder
+        * **Vänta** 3 sekunder
 
-        2. **Skapa klon** av mig själv
+        * **Skapa klon** av mig själv
 
     ![image alt text](image_14.png)
 
@@ -155,21 +157,21 @@ Detta skript kommer skapa en ny klon av sprajten var tredje sekund. En klon är 
 
 1. Skapa ett nytt skript för **Äpplet** som säger
 
-    1. När jag **startar som klon**
+    * När jag **startar som klon**
 
-    2. **Repetera** tills **rör färgen grå** (*färgen på banan*):
+    * **Repetera** tills **rör färgen grå** (*färgen på banan*):
 
-        1. **Gå** till **x**: **slumptal** mellan **-240 och 240** **y**: **slumptal** mellan **-160 och 160**
+        * **Gå** till **x**: **slumptal** mellan **-240 och 240** **y**: **slumptal** mellan **-160 och 160**
 
-    3. Visa
+    * Visa
 
-    4. För alltid:
+    * För alltid:
 
-        2. OM **rör skalbaggen**:
+        * OM **rör skalbaggen**:
 
-            1. Ändra **"Liv"** med **1**
+            * Ändra **"Liv"** med **1**
 
-            2. **Radera** klonen
+            * **Radera** klonen
 
     ![image alt text](image_15.png)
 
@@ -181,11 +183,11 @@ Det kommer ganska många äpplen faktiskt, och om inte skalbaggen hinner äta up
 
 1. Skapa ett tredje skript för **Äpplet** som säger
 
-    1. När **startar som klon**
+    * När **startar som klon**
 
-    2. **Vänta** 10 sekunder
+    * **Vänta** 10 sekunder
 
-    3. **Radera** klonen
+    * **Radera** klonen
 
     ![image alt text](image_16.png)
 
@@ -213,7 +215,7 @@ Just nu avslutas aldrig spelet och du kan fortsätta spela det så länge du vil
 
 2. Du vinner när du kommit upp i 20 liv
 
-3. Du har spelat i 2 minuter
+3. Du vinner när du spelat i 2 minuter
 
 **Flera spelare**
 

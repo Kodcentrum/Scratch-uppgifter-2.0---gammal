@@ -3,7 +3,7 @@
 I denna uppgift ska du få skapa ett enkelt prick-till-prick spel. Du ska få lära dig att använda koordinater och penn-funktionen i Scratch. Det är en perfekt uppgift om du är kreativ.
 
 Ett exempel på hur det kan se ut hittar du här:
-[https://scratch.mit.edu/projects/188770418/](https://scratch.mit.edu/projects/188770418/)
+<a href="https://scratch.mit.edu/projects/188770418/" target="_blank">https://scratch.mit.edu/projects/188770418/</a>
 
 ![image alt text](image_0.png)
 
@@ -13,7 +13,7 @@ Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enkla
 
 1. Öppna din webbläsare och gå till
 
-    [https://scratch.mit.edu/projects/172763429/](https://scratch.mit.edu/projects/172763429/)
+    <a href="https://scratch.mit.edu/projects/172763429/" target="_blank">https://scratch.mit.edu/projects/172763429/</a>
 
 2. Klicka på knappen **"Se inuti"** så att du kan se koden och Scratch studion.
 

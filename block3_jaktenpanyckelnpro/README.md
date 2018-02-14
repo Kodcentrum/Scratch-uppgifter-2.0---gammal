@@ -2,9 +2,7 @@
 
 I denna uppgift ska du få koda en mer avancerad version av spelet "Jakten på nyckeln". Den kommer att vara lite närmare hur ett riktigt platsbaserat spel fungerar. Dock så krävs det mer avancerad kod för att få det att fungera, och därför är denna uppgift bara lämplig om du är en mer van kodare. Du behöver till exempel kunna använda variabler och kloner.
 
-Ett exempel på hur spelet kan se ut hittar du här:
-
-[https://scratch.mit.edu/projects/172533037](https://scratch.mit.edu/projects/172533037)
+Ett exempel på hur spelet kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172533037" target="_blank">https://scratch.mit.edu/projects/172533037</a>
 
 ![image alt text](image_0.png)
 
@@ -14,7 +12,7 @@ Vi börjar med att remixa ett befintligt projekt.
 
 1. Öppna din webbläsare och gå till
 
-    [https://scratch.mit.edu/projects/172763496/](https://scratch.mit.edu/projects/172763496/)
+    <a href="https://scratch.mit.edu/projects/172763496/" target="_blank">https://scratch.mit.edu/projects/172763496/</a>
 
 2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 

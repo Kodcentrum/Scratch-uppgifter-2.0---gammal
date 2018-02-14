@@ -2,7 +2,7 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="bug-race-deluxe-del-2">Bug race deluxe - del 2</h1>
 <p>Detta är fortsättning på uppgifterna <strong>Bug race</strong> och <strong>Bug race deluxe – del 1</strong>. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort, du kommer lägga in hinder för den och du kommer skapa flera banor.</p>
-<p>Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/197016490">här:</a></p>
+<p>Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/197016490" target="_blank">https://scratch.mit.edu/projects/197016490</a></p>
 <p><img src="image_0.png" alt="image alt text"></p>
 <h2 id="1-fart">1 – Fart</h2>
 <p>Vi vill att farten ska ändras när skalbaggen äter mat så att det blir svårare ju fler liv du får.</p>
@@ -60,7 +60,7 @@
 <p>Nu behöver du ändra koden så att den nya sprajten beter sig mer som ett hinder än mat.</p>
 <ol>
 <li><p>Ändra koden som körs när sprajten <strong>Hinder</strong> rör vid sprajten <strong>Skalbagge</strong></p>
-<ol>
+<ul>
 <li><p>Ändra <strong>Liv</strong> med <strong>-1</strong></p>
 </li>
 <li><p><strong>Skicka</strong> meddelandet <strong>&quot;game over?&quot;</strong> och <strong>vänta</strong></p>
@@ -70,11 +70,11 @@
 <li><p><strong>Radera</strong> klonen</p>
 <p><img src="image_10.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <blockquote>
-<p>Test! Kommer stenarna upp för ofta eller stannar de kvar för länge? Ändra på koden som placerar ut kloner och tar bort dem.</p>
+<p>Testa! Kommer stenarna upp för ofta eller stannar de kvar för länge? Ändra på koden som placerar ut kloner och tar bort dem.</p>
 </blockquote>
 <h2 id="3-skott">3 – Skott</h2>
 <p>För att skalbaggen ska ha en chans att klara sig runt banan ska du få koda skott som skalbaggen kan använda sig av för att skjuta bort stenarna.</p>
@@ -104,7 +104,7 @@
 </ul>
 <ol>
 <li><p>Skapa ett skript för sprajten <strong>Skottet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När <strong>START</strong> klickas på</p>
 </li>
 <li><p>Göm</p>
@@ -112,28 +112,28 @@
 <li><p>Sätt <strong>Antal skott</strong> till 0</p>
 <p><img src="image_12.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 <li><p>Skapa ett andra skript för sprajten <strong>Skottet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När <strong>mellanslag trycks ned</strong></p>
 </li>
 <li><p>OM <strong>&quot;Antal skott&quot;</strong> är <strong>mindre än 5</strong></p>
-<ol>
+<ul>
 <li><p>Ändra <strong>&quot;Antal skott&quot;</strong> med 1</p>
 </li>
 <li><p><strong>Skapa klon</strong> av mig själv</p>
 </li>
-</ol>
+</ul>
 <p><img src="image_13.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <p>Nu har du skript som gör att maximalt 4 skott avfyras när du trycker ner mellanslag. Nu ska du koda så att skottet visas och försvinner när den når till kanten.</p>
 <ol>
 <li><p>Skapa ett nytt skript för <strong>Skottet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När jag startar som klon</p>
 </li>
 <li><p>Gå till x: <strong>x-läge av Skalbagge</strong> y: <strong>y-läge av Skalbagge</strong></p>
@@ -143,16 +143,16 @@
 <li><p>Visa</p>
 </li>
 <li><p><strong>Repetera</strong> tills <strong>rör kanten:</strong></p>
-<ol>
+<ul>
 <li><strong>Gå 5</strong> steg</li>
-</ol>
+</ul>
 </li>
 <li><p>Ändra &quot;<strong>Antal skott&quot;</strong> med <strong>-1</strong></p>
 </li>
 <li><p><strong>Radera</strong> klonen</p>
 <p><img src="image_14.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 <li><p>Ändra koden för sprajten <strong>Hinder</strong> så att den försvinner om den rör sprajten <strong>Skott</strong></p>
 <p> <img src="image_15.png" alt="image alt text"></p>
@@ -192,16 +192,16 @@
 <li><p>Ändra på OM-blocket som körs när skalbaggen nuddar mållinjen.</p>
 </li>
 <li><p>Lägg in dessa block precis innan du skickar meddelandet <strong>&quot;starta&quot;</strong></p>
-<ol>
+<ul>
 <li><p>Skicka meddelandet <strong>&quot;Byt bakgrund&quot;</strong> OM <strong>“Varv”</strong> är lika med 3</p>
 <p><img src="image_20.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 <li><p>Markera bakgrunden</p>
 </li>
 <li><p>Skapa detta skript för bakgrunden</p>
-<ol>
+<ul>
 <li><p>När jag <strong>tar emot &quot;Byt bana&quot;</strong></p>
 </li>
 <li><p>Nästa bakgrund</p>
@@ -209,7 +209,7 @@
 <li><p>Sätt <strong>&quot;Varv&quot;</strong> till <strong>0</strong></p>
 <p><img src="image_21.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <p><strong>Varje gång du kommer i mål</strong></p>
@@ -222,13 +222,13 @@
 <li><p>Markera bakgrunden</p>
 </li>
 <li><p>Skapa detta skript för bakgrunden</p>
-<ol>
+<ul>
 <li><p>När jag <strong>tar emot &quot;Byt bana&quot;</strong></p>
 </li>
 <li><p>Nästa bakgrund</p>
 <p><img src="image_23.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <h2 id="f-rdig-">Färdig!</h2>
@@ -241,19 +241,19 @@
 <h2 id="utmaningar">Utmaningar</h2>
 <p><strong>Andra typer av hinder</strong></p>
 <p>Hindren som du har kodat nu står till på banan och du kan ganska enkelt skjuta ner dem. Försök koda ett annat typ av hinder. Till exempel</p>
-<ol>
+<ul>
 <li><p>Ett hinder som du behöver skjuta på flera gånger</p>
 </li>
 <li><p>Ett rörligt hinder som rör sig över banan</p>
 </li>
-</ol>
+</ul>
 <p><strong>Möjligt att köra på gräset</strong></p>
 <p>Gör det möjligt för skalbaggen att åka på gräset. I stället för att starta om från början så kan till exempel hastigheten minska. Detta gör att det blir enklare att undvika svåra hinder.</p>
 <p><strong>Andra typer av underlag</strong></p>
 <p>Nu finns det två typer av underlag: bana och gräs. Rita och koda ett till underlag, till exempel grus. Vad som ska hända om skalbaggen kommer på detta underlag får du bestämma.</p>
 <p><strong>Flera spelare</strong></p>
 <p>Har du fortfarande bara en spelare? Koda en till sprajt som en kompis kan styra. Här är några tips:</p>
-<ol>
+<ul>
 <li><p>Du måste ha en variabel <strong>&quot;Fart2&quot;</strong> för den andra spelaren</p>
 </li>
 <li><p>Du måste koda en sprajt <strong>Skott</strong> för den andra spelaren</p>
@@ -262,7 +262,7 @@
 </li>
 <li><p>Du måste bestämma regler för när den nya banan ska visas</p>
 </li>
-</ol>
+</ul>
 <h2 id="fr-gest-llningar">Frågeställningar</h2>
 <ul>
 <li><p>Vad är fördelen med att koda ett stort program i flera steg där varje steg är ett färdigt program?</p>

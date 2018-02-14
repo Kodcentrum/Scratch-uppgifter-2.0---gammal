@@ -2,7 +2,7 @@
 
 I denna uppgift ska du få skapa en magisk matta som kan flyga till olika spännande platser! Du får själv välja vad som händer på de olika platserna, och du skapar på så sätt en interaktiv berättelse. Du kommer att använda meddelanden för att få olika delar av berättelsen att prata med varandra.
 
-Ett exempel på hur  spelet kan se ut ser du här: [https://scratch.mit.edu/projects/116594645/](https://scratch.mit.edu/projects/116594645/)
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116594645/" target="_blank">https://scratch.mit.edu/projects/116594645/</a>
 
 ![image alt exempel](image_1.png)
 

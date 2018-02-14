@@ -2,7 +2,7 @@
 
 Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Du kommer att få lära dig att skapa kloner och att använda slumptal och variabler.
 
-Här kan du se en version av spelet: [https://scratch.mit.edu/projects/118440149/](https://scratch.mit.edu/projects/118440149/)
+Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/118440149/" target="_blank">https://scratch.mit.edu/projects/118440149/</a>
 
 ![image alt text](image_0.jpg)
 
