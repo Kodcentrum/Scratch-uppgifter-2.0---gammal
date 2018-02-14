@@ -2,7 +2,7 @@
 
 Detta är fortsättning på uppgifterna **Bug race** och **Bug race deluxe – del 1**. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort, du kommer lägga in hinder för den och du kommer skapa flera banor.
 
-Ett exempel på hur det kan se ut hittar du [här:](https://scratch.mit.edu/projects/197016490)
+Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/197016490" target="_blank">https://scratch.mit.edu/projects/197016490</a>
 
 ![image alt text](image_0.png)
 
@@ -66,17 +66,17 @@ Nu behöver du ändra koden så att den nya sprajten beter sig mer som ett hinde
 
 1. Ändra koden som körs när sprajten **Hinder** rör vid sprajten **Skalbagge**
 
-    1. Ändra **Liv** med **-1**
+    * Ändra **Liv** med **-1**
 
-    2. **Skicka** meddelandet **"game over?"** och **vänta**
+    * **Skicka** meddelandet **"game over?"** och **vänta**
 
-    3. **Skicka** meddelandet **"starta"**
+    * **Skicka** meddelandet **"starta"**
 
-    4. **Radera** klonen
+    * **Radera** klonen
 
     ![image alt text](image_10.png)
 
-> Test! Kommer stenarna upp för ofta eller stannar de kvar för länge? Ändra på koden som placerar ut kloner och tar bort dem.
+> Testa! Kommer stenarna upp för ofta eller stannar de kvar för länge? Ändra på koden som placerar ut kloner och tar bort dem.
 
 ## 3 – Skott
 
@@ -106,23 +106,23 @@ Nu behöver du skapa ett skript för skottet som gör att det:
 
 1. Skapa ett skript för sprajten **Skottet** som säger
 
-    1. När **START** klickas på
+    * När **START** klickas på
 
-    2. Göm
+    * Göm
 
-    3. Sätt **Antal skott** till 0
+    * Sätt **Antal skott** till 0
 
     ![image alt text](image_12.png)
 
 2. Skapa ett andra skript för sprajten **Skottet** som säger
 
-    4. När **mellanslag trycks ned**
+    * När **mellanslag trycks ned**
 
-    5. OM **"Antal skott"** är **mindre än 5**
+    * OM **"Antal skott"** är **mindre än 5**
 
-        1. Ändra **"Antal skott"** med 1
+        * Ändra **"Antal skott"** med 1
 
-        2. **Skapa klon** av mig själv
+        * **Skapa klon** av mig själv
 
     ![image alt text](image_13.png)
 
@@ -130,21 +130,21 @@ Nu har du skript som gör att maximalt 4 skott avfyras när du trycker ner mella
 
 1. Skapa ett nytt skript för **Skottet** som säger
 
-    1. När jag startar som klon
+    * När jag startar som klon
 
-    2. Gå till x: **x-läge av Skalbagge** y: **y-läge av Skalbagge**
+    * Gå till x: **x-läge av Skalbagge** y: **y-läge av Skalbagge**
 
-    3. Peka i riktning av **Skalbagge**
+    * Peka i riktning av **Skalbagge**
 
-    4. Visa
+    * Visa
 
-    5. **Repetera** tills **rör kanten:**
+    * **Repetera** tills **rör kanten:**
 
-        1. **Gå 5** steg
+        * **Gå 5** steg
 
-    6. Ändra "**Antal skott"** med **-1**
+    * Ändra "**Antal skott"** med **-1**
 
-    7. **Radera** klonen
+    * **Radera** klonen
 
     ![image alt text](image_14.png)
 
@@ -188,7 +188,7 @@ När ska skalbaggen komma till den nya banan? Ja, det är upp till dig. Här är
 
 2. Lägg in dessa block precis innan du skickar meddelandet **"starta"**
 
-    1. Skicka meddelandet **"Byt bakgrund"** OM **“Varv”** är lika med 3
+    * Skicka meddelandet **"Byt bakgrund"** OM **“Varv”** är lika med 3
 
     ![image alt text](image_20.png)
 
@@ -196,11 +196,11 @@ När ska skalbaggen komma till den nya banan? Ja, det är upp till dig. Här är
 
 4. Skapa detta skript för bakgrunden
 
-    2. När jag **tar emot "Byt bana"**
+    * När jag **tar emot "Byt bana"**
 
-    3. Nästa bakgrund
+    * Nästa bakgrund
 
-    4. Sätt **"Varv"** till **0**
+    * Sätt **"Varv"** till **0**
 
     ![image alt text](image_21.png)
 
@@ -216,9 +216,9 @@ När ska skalbaggen komma till den nya banan? Ja, det är upp till dig. Här är
 
 4. Skapa detta skript för bakgrunden
 
-    1. När jag **tar emot "Byt bana"**
+    * När jag **tar emot "Byt bana"**
 
-    2. Nästa bakgrund
+    * Nästa bakgrund
 
     ![image alt text](image_23.png)
 
@@ -238,9 +238,9 @@ Grattis, nu har du skapat ett nytt spel!
 
 Hindren som du har kodat nu står till på banan och du kan ganska enkelt skjuta ner dem. Försök koda ett annat typ av hinder. Till exempel
 
-1. Ett hinder som du behöver skjuta på flera gånger
+* Ett hinder som du behöver skjuta på flera gånger
 
-2. Ett rörligt hinder som rör sig över banan
+* Ett rörligt hinder som rör sig över banan
 
 **Möjligt att köra på gräset**
 
@@ -254,13 +254,13 @@ Nu finns det två typer av underlag: bana och gräs. Rita och koda ett till unde
 
 Har du fortfarande bara en spelare? Koda en till sprajt som en kompis kan styra. Här är några tips:
 
-1. Du måste ha en variabel **"Fart2"** för den andra spelaren
+* Du måste ha en variabel **"Fart2"** för den andra spelaren
 
-2. Du måste koda en sprajt **Skott** för den andra spelaren
+* Du måste koda en sprajt **Skott** för den andra spelaren
 
-3. Du måste se till att sprajten **Hinder** känner av skott från den andra spelaren
+* Du måste se till att sprajten **Hinder** känner av skott från den andra spelaren
 
-4. Du måste bestämma regler för när den nya banan ska visas
+* Du måste bestämma regler för när den nya banan ska visas
 
 ## Frågeställningar
 

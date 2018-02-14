@@ -2,9 +2,9 @@
 
 Tycker du det är jobbigt att välja kläder på morgonen? Skulle du vilja att det fanns ett program som valde kläder åt dig efter några enkla regler? Om det till exempel var fredag så skulle programmet välja ut randiga kläder; eller om det var soligt skulle programmet välja shorts. I den här uppgiften ska du få skapa en prototyp till precis ett sådant program! Du ska få koda ett program som hjälper flickan Ruby att välja kläder.
 
-_Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>_
+*Denna uppgift är en variant på uppgiften <a href="http://www.helloruby.com/play/8" target="_blank">Dresscode</a> från boken Hello Ruby av Linda Liukas. Du kan använda <a href="http://www.kodboken.se/start/lana-bild-ljud/hej-ruby" target="_blank">Lindas bilder och läsa mer om boken här.</a>*
 
-Ett exempel på hur programmet kan se ut hittar du här:  [https://scratch.mit.edu/projects/117618751](https://scratch.mit.edu/projects/117618751)
+Ett exempel på hur programmet kan se ut hittar du här:  <a href="https://scratch.mit.edu/projects/117618751/" target="_blank">https://scratch.mit.edu/projects/117618751</a>
 
 men tänk på att du kommer göra ett program som kanske ser helt annorlunda ut.
 

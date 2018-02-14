@@ -2,7 +2,7 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="bug-race-deluxe-del-1">Bug race deluxe – del 1</h1>
 <p>I denna uppgift får du chansen att jobba vidare med spelet <strong>Bug Race</strong>. Du kommer få lägga till funktioner som omstart, flera liv och mat. Och du kommer få jobba med meddelanden, variabler och kloner.</p>
-<p>Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/196756892/">här</a>:</p>
+<p>Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a></p>
 <p><img src="image_0.png" alt="image alt text"></p>
 <h2 id="1-f-rberedelser">1 – Förberedelser</h2>
 <p>För att kunna jobba med denna uppgift måste du ha skapat ett färdigt spel <strong>Bug race</strong> som har några olika funktioner.</p>
@@ -55,23 +55,23 @@
 <p> <img src="image_7.png" alt="image alt text"></p>
 </li>
 <li><p>Ändra på koden för sprajten <strong>Skalbagge</strong></p>
-<ol>
+<ul>
 <li><p>Under &quot;När <strong>start</strong> klickas på&quot; dra in ett block “<strong>Sätt Varv</strong> till <strong>0</strong>”</p>
 <p><img src="image_8.png" alt="image alt text"></p>
 </li>
 <li><p>Ta bort koden som ligger i <strong>&quot;OM rör</strong> mållinjen&quot;-blocket</p>
 </li>
-</ol>
+</ul>
 </li>
 <li><p>Skapa följande skript i stället när skalbaggen rör mållinjen</p>
-<ol>
+<ul>
 <li><p>Säg <strong>&quot;Mål&quot;</strong> i <strong>2 sekunder</strong></p>
 </li>
 <li><p>Öka variabel <strong>&quot;Varv&quot;</strong> med 1</p>
 </li>
 <li><p>Skicka meddelandet <strong>&quot;start&quot;</strong></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <p><img src="image_9.png" alt="image alt text"></p>
@@ -87,35 +87,38 @@
 <p> <img src="image_10.png" alt="image alt text"></p>
 </li>
 <li><p>Lägg in följande kod när skalbaggen nuddar gräset, <em>innan meddelandet</em> <strong>starta</strong> <em>skickas</em></p>
-<ol>
+<ul>
 <li><p><strong>Ändra</strong> <strong>Liv</strong> med <strong>-1</strong></p>
 </li>
 <li><p>Skicka meddelandet <strong>&quot;Game over?&quot;</strong> och <strong>vänta</strong></p>
 <p><img src="image_11.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 <li><p>Skapa ett nytt skript för <strong>Skalbaggen</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När jag tar emot meddelandet <strong>&quot;Game over?&quot;</strong></p>
 </li>
 <li><p>OM <strong>&quot;Liv&quot; &lt; 1</strong></p>
-<ol>
+<ul>
 <li><p>Säg <strong>&quot;Game over&quot;</strong> i <strong>2 sekunder</strong></p>
 </li>
 <li><p>Stoppa alla</p>
 <p><img src="image_12.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
+<blockquote>
+<p>Tecknet <strong>&quot;&lt;&quot;</strong> är en <strong>operator</strong> som betyder <strong>&quot;mindre än&quot;</strong>. Alltså kommer spelet bara ta slut OM &quot;Liv&quot; är <strong>mindre än 1</strong>, det vill säga 0.</p>
+</blockquote>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <blockquote>
 <p>Test igen! Vad händer om du åker ut i gräset 4 gånger?</p>
 </blockquote>
 <h2 id="5-mat">5 – Mat</h2>
-<p>För att skalbaggen ska få nya liv när den har åkt ut i gräset ska du få koda en ny sprajt som ska föreställa mat.</p>
+<p>Det är tråkigt att bara förlora liv och till sist kommer skalbaggen dö. Därför ska du få koda en ny sprajt som föreställer mat till skalbaggen och som den kan äta för att öka antalet liv den har.</p>
 <ol>
 <li><p>Skapa en ny sprajt som ska bli mat åt Skalbaggen. <em>Här har jag använt mig av ett äpple, men du kan välja vad du vill!</em></p>
 <p> <img src="image_13.png" alt="image alt text"></p>
@@ -123,7 +126,7 @@
 <li><p>Placera den nya spratejn utanför banan</p>
 </li>
 <li><p>Skapa ett skript för <strong>Äpplet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När <strong>start</strong> klickas på</p>
 </li>
 <li><p>Dölj</p>
@@ -131,15 +134,15 @@
 <li><p>Gå tillbaka 1 lager</p>
 </li>
 <li><p>För alltid:</p>
-<ol>
+<ul>
 <li><p><strong>Vänta</strong> 3 sekunder</p>
 </li>
 <li><p><strong>Skapa klon</strong> av mig själv</p>
 </li>
-</ol>
+</ul>
 <p><img src="image_14.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <p>Detta skript kommer skapa en ny klon av sprajten var tredje sekund. En klon är som en kopia av en sprajt som beter sig precis på samma sätt som alla andra kloner. Om du tycker det skapas äpplen för ofta kan du ändra på <strong>vänta</strong>-blocket.</p>
@@ -149,30 +152,30 @@
 </blockquote>
 <ol>
 <li><p>Skapa ett nytt skript för <strong>Äpplet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När jag <strong>startar som klon</strong></p>
 </li>
 <li><p><strong>Repetera</strong> tills <strong>rör färgen grå</strong> (<em>färgen på banan</em>):</p>
-<ol>
+<ul>
 <li><strong>Gå</strong> till <strong>x</strong>: <strong>slumptal</strong> mellan <strong>-240 och 240</strong> <strong>y</strong>: <strong>slumptal</strong> mellan <strong>-160 och 160</strong></li>
-</ol>
+</ul>
 </li>
 <li><p>Visa</p>
 </li>
 <li><p>För alltid:</p>
-<ol>
+<ul>
 <li><p>OM <strong>rör skalbaggen</strong>:</p>
-<ol>
+<ul>
 <li><p>Ändra <strong>&quot;Liv&quot;</strong> med <strong>1</strong></p>
 </li>
 <li><p><strong>Radera</strong> klonen</p>
 </li>
-</ol>
+</ul>
 </li>
-</ol>
+</ul>
 <p><img src="image_15.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <p>Den första loopen kommer placera klonen på en slumpmässig plats på banan. Och för alltid loopen ser till att äpplet försvinner om skalbaggen nuddar den.</p>
@@ -182,7 +185,7 @@
 <p>Det kommer ganska många äpplen faktiskt, och om inte skalbaggen hinner äta upp alla kommer hela banan vara fylld med mat.  </p>
 <ol>
 <li><p>Skapa ett tredje skript för <strong>Äpplet</strong> som säger</p>
-<ol>
+<ul>
 <li><p>När <strong>startar som klon</strong></p>
 </li>
 <li><p><strong>Vänta</strong> 10 sekunder</p>
@@ -190,7 +193,7 @@
 <li><p><strong>Radera</strong> klonen</p>
 <p><img src="image_16.png" alt="image alt text"></p>
 </li>
-</ol>
+</ul>
 </li>
 </ol>
 <h2 id="f-rdig-">Färdig!</h2>
@@ -210,7 +213,7 @@
 </li>
 <li><p>Du vinner när du kommit upp i 20 liv</p>
 </li>
-<li><p>Du har spelat i 2 minuter</p>
+<li><p>Du vinner när du spelat i 2 minuter</p>
 </li>
 </ol>
 <p><strong>Flera spelare</strong></p>

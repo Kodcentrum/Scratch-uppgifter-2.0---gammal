@@ -3,8 +3,7 @@
 Har du någon gång letat efter en skatt? I denna uppgift ska du få koda en enklare skattjakt. Du kommer få öva dig på koordinater som är ett sätt att ange någon eller någots position. I spelet kommer det vara skattens position som är viktig.
 
 Så här kan det se ut:
-
-[https://scratch.mit.edu/projects/172502923/](https://scratch.mit.edu/projects/172502923/)
+<a href="https://scratch.mit.edu/projects/116997344/" target="_blank">https://scratch.mit.edu/projects/116997344/</a>
 
 ![image alt text](image_0.png)
 
@@ -14,7 +13,7 @@ Vi börjar med att remixa ett projekt som redan finns på Scratch.
 
 1. Öppna din webbläsare och gå till
 
-    [https://scratch.mit.edu/projects/172763192/](https://scratch.mit.edu/projects/172763192/)
+    <a href="https://scratch.mit.edu/projects/172763192/" target="_blank">https://scratch.mit.edu/projects/172763192/</a>
 
 2. Klicka på knappen **"Se inuti"** så att du kan se koden.
 

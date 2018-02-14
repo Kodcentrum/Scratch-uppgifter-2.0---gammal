@@ -11,8 +11,7 @@ hemma eller i skolan? Här ska du få skapa en soptunna som talar om hur
 mycket mat du slänger!
 
 Ett exempel på hur det kan se ut hittar du här:
-
-[*https://scratch.mit.edu/projects/188545076/*](https://scratch.mit.edu/projects/188545076/)
+<a href="https://scratch.mit.edu/projects/188545076/" target="_blank">https://scratch.mit.edu/projects/188545076/</a>
 
 ![image alt text](image_0.png)
 
@@ -28,7 +27,7 @@ Vi börjar med att remixa ett projekt som redan finns på Scratch. I
 startprojektet får du två sprajtar som vi har ritat åt dig, en tallrik
 och en soptunna. Så kan du komma igång och koda snabbare!
 
-Öppna din webbläsare och gå till startprojektet: [*https://scratch.mit.edu/projects/188522752/*](https://scratch.mit.edu/projects/188522752/)
+Öppna din webbläsare och gå till startprojektet: <a href="https://scratch.mit.edu/projects/188522752/" target="_blank">https://scratch.mit.edu/projects/188522752/</a>
 
 1.  Klicka på knappen **“Se inuti”** så att du kan se koden.
 

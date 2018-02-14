@@ -16,7 +16,11 @@ En bra uppgift att kolla på för att få inspiration är `block3_jaktenpanyckel
 
 ### Disposition
 
-* För varje uppgift ska det finnas ett exempel projekt i Scratch. Detta projekt ska länkas till i början av uppgiften tillsammans med en skärmdump
+* För varje uppgift ska det finnas ett exempelprojekt i Scratch. Detta projekt ska länkas till i början av uppgiften tillsammans med en skärmdump
+
+* Länken till exempelprojektet ska öppnas i ett nytt fönster, så vanliga HTML måste användas för det, t.ex:
+
+        <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
 * Sträva efter korta deluppgifter som går att testa individuellt
 
@@ -24,7 +28,7 @@ En bra uppgift att kolla på för att få inspiration är `block3_jaktenpanyckel
 
 * Varje deluppgift ska börja med en kort text som förklarar vad som ska göras i deluppgiften
 
-* Varje deluppgift kan avslutas med en uppmaning att testa koden.
+* Varje deluppgift ska avslutas med en uppmaning att testa koden (om möjligt).
 
 * Avsluta uppgiften med en rubrik **Färdig** och som ska ha ungefär denna text:
 

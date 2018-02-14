@@ -4,11 +4,11 @@ Det här är ett spel där du ska försöka ta dig igenom en labyrint och komma 
 
 Två exempel på hur olika spelet kan se ut ser du här:
 
-* [Exempel 1](https://scratch.mit.edu/projects/52105140/)
+* <a href="https://scratch.mit.edu/projects/52105140/" target="_blank">Exempel 1</a>
 
 ![image alt text](image_0.png)
 
-* [Exempel 2](https://scratch.mit.edu/projects/34921466/)
+* <a href="https://scratch.mit.edu/projects/34921466/" target="_blank">Exempel 2</a>
 
 ![image alt text](image_1.png)
 
