@@ -1,5 +1,7 @@
 ## Hacking
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_hacking/hacking.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
+
 *Hacking handlar om att använda ett program på ett annat sätt än vad det var tänkt för, en hackare är en person som utforskar program och utökar dess användningsområde*
 
 Hackare tycker om utmaningar och att kreativt komma förbi begränsningar i datorprogram för att uppnå nya och smarta sätt att använda programmen. Det är en lekfull och utforskande syssla som kallas hacking. Det finns etiska regler som varje hackare ska följa.

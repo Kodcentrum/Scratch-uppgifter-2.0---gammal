@@ -1,5 +1,7 @@
 ## Slumptal
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_slumptal/slumptal.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
+
 *Ett slumptal är ett tal som inte kommer vara samma varje gång du kör programmet*
 
 Ett slumptal används för att styra ett program på ett slumpmässigt sätt, det vill säga att programmet inte ska bete sig på samma sätt varje gång vi kör det. Det finns många användning för ett slumptal i ett program. De kan användas för att

@@ -1,5 +1,7 @@
 ## Meddelande
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_meddelande/meddelande.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
+
 *Ett meddelande kan användas för att kommunicera mellan olika delar av ett program eller för att genomföra samma instruktioner vid olika tillfällen*
 
 
