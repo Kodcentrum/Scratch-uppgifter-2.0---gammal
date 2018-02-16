@@ -2,7 +2,7 @@
 
 I denna uppgift får du chansen att jobba vidare med berättelsen **Min hjälte**. Du kommer få lägga till funktioner för att visa olika väder. För att göra det kommer du använda kloner, variabler och meddelanden.
 
-Ett exempel på hur det kan se ut hittar du [här](https://scratch.mit.edu/projects/203420852/).
+Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/203420852/" target="_blank">här</a>.
 
 ![Färdig uppgift](./färdig_uppgift.png)
 
