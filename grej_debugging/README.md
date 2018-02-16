@@ -1,7 +1,5 @@
 ## Debugging
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_debugging/debugging.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
-
 *Debugging är att felsöka och åtgärda fel i ett datorprogram*
 
 Varje program har felaktig kod. Och det är i princip omöjligt att skriva helt felfri kod. Det är då viktigare att hitta felen och åtgärda dem. Det är vad debugging handlar om. Ett fel i koden kallas *bug* på engelska, därav namnet på åtgärden. Debugging är en del av att testa ett program vilket är en stor del av utveckling av nya program. Det finns speciella programmerare som bara testar kod.
