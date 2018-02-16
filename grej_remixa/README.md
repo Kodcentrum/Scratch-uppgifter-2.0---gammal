@@ -1,5 +1,7 @@
 ## Remixa
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_remixa/remixa.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
+
 *Remixa är att fortsätta på någon annans kod så att det blir precis som du vill ha det*
 
 Att koda program handlar också om att dela med sig av dessa program. Men programmet kanske inte fungerar precis som du vill eller kanske har du idéer hur programmet kan göras bättre.

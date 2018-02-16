@@ -1,5 +1,6 @@
 ## Algoritm
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_algoritm/algoritm.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
 
 *En algoritm är en instruktion som löser ett problem eller uppgift.*
 

@@ -1,5 +1,7 @@
 ## Villkor
 
+<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_villkor/villkor.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
+
 *Ett villkor är ett sätt att utföra instruktioner vid ett specifikt tillstånd*
 
 
