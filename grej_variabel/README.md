@@ -1,6 +1,5 @@
 ## Variabel
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_variabel/variabel.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
 
 *En variabel är ett minnesfack i ett program som används för att spara värden*
 

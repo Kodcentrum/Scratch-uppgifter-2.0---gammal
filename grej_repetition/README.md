@@ -1,6 +1,5 @@
 ## Repetition – loopar
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_repetition/repetition.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
 
 *En typ av algoritm som upprepar instruktioner flera gånger*
 
