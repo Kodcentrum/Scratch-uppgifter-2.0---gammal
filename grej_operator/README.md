@@ -1,7 +1,5 @@
 ## Operatorer
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/grej_operator/operator.pptx?raw=True&embedded=true"  width="500px" height="300px"></iframe>
-
 *En operator är en instruktion som tar ett eller flera värden och omvandlar dem till ett nytt värde*
 
 En operator är en matematisk instruktion eller funktion som använder sig av en eller flera *ingångsvärden* och omvandlar dem till ett nytt *utgångsvärde*. Det finns olika typer av operatorer i ett program och de vanligaste är
