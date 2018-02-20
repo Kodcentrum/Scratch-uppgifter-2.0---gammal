@@ -48,7 +48,7 @@ Det är nu din uppgift att debugga koden. Du ska hitta de 11 felen och fixa dem.
 
 * Bananer kommer att dyka upp över hela banan och om du äter en så får du 1 extra liv
 
-* När du kommer i mål så börjar du om direkt från start positionen
+* När du kommer i mål så börjar du om direkt från startpositionen
 
 *Du vinner när du har klarat av 10 varv.*
 
