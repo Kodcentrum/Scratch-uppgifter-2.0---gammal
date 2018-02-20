@@ -76,7 +76,7 @@ Om du har problem med att hitta buggarna kommer här några ledtrådar och tips.
 
 * Börja med det enklaste felet – varför åker skalbaggen iväg?
 
-* Spela spelet länge, det kanske är någon bugg som inte visar sig förrän senare i spelet
+* Spela spelet länge, det kanske är någon bugg som inte visar sig förrän senare i spelet eller när du spelat mer än en gång
 
 * Fråga och diskutera med en kompis
 
