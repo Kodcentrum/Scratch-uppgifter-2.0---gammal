@@ -11,7 +11,6 @@ På nedanstående bild visas hur en grundläggande HTML-sida ser ut. Sidan start
 
 ![Ovanstående kod ger denna enkla hemsida](basic-html-page-code.png)
 
----
 
 ## 1 - Använda HTML-taggar
 
@@ -118,10 +117,10 @@ Nu får du själv fortsätta med din hemsida och på egen hand lägga in taggar 
 
 För att bli klar med uppgiften borde du ha minst:
 
-- En ```<h1>``` - tagg
-- En ```<p>``` - tagg
-- En ```<i>``` - tagg
-- En ```<img>``` - tagg
-- En ```<a>``` - tagg
+- En ```<h1>``` - tagg för en stor rubrik
+- En ```<p>``` - tagg för vanlig text
+- En ```<i>``` - tagg för kursiv text
+- En ```<img>``` - tagg för att lägga in en bild
+- En ```<a>``` - tagg för att lägga in en länk
 
 För att publicera din hemsida så att du kan visa den för familj och vänner, skapa ett konto och sedan tryck på publicera-knappen längst upp till höger. Grattis - du har nu kodat din första hemsida med html!
