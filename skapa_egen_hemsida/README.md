@@ -6,9 +6,9 @@ En hemsida är uppbyggd av tre byggstenar HTML, CSS och Javascript. HTML är sid
 På nedanstående bild visas hur en grundläggande HTML-sida ser ut. Sidan startar och slutar alltid med en ```<html>``` - tagg. Det som syns på sidan är de HTML-taggar som finns inom ```<body>```.
 
 
-![En grundläggande HTML-sida](https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1517954207979_basic-html-page.png)
+![En grundläggande HTML-sida](basic-html-page.png)
 
-![Ovanstående kod ger denna enkla hemsida](https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1517960288157_basic-html-page.png)
+![Ovanstående kod ger denna enkla hemsida](basic-html-page.png)
 
 ---
 
