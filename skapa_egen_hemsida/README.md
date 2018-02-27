@@ -1,5 +1,6 @@
-# Gör din egen hemsida!
-I denna uppgift kommer du få göra en egen hemsida med Mozilla Thimble som är ett verktyg att göra just hemsidor i.  Du kommer sedan kunna publicera denna sida och visa för familj och vänner! Ett exempel på en sida kan du hitta [här](https://thimbleprojects.org/christoffer/408964/ "Exempeluppgift").
+**I denna uppgift kommer du få göra en egen hemsida med Mozilla Thimble som är ett verktyg att göra just hemsidor i.  Du kommer sedan kunna publicera denna sida och visa för familj och vänner!**
+
+Ett exempel på en sida kan du hitta [här](https://thimbleprojects.org/christoffer/408964/ "Exempeluppgift").
 
 En hemsida är uppbyggd av tre byggstenar HTML, CSS och Javascript. HTML är sidans struktur och som byggblock använder man HTML-taggar. Exempel på en HTML-tagg kan vara ```<h1>``` för att skapa en rubrik eller ```<img>``` för att lägga in en bild. CSS används för att bestämma hur sidan ska se ut gällande färg och form. Exempelvis om en knapp ska vara grön eller röd, vilken bakgrundsfärg sidan ska ha. Javascript används för interaktion på hemsidan, till exempel vad som ska hända när man trycker på en viss knapp. I denna uppgift kommer vi främst att fokusera på HTML när vi ska bygga vår hemsida.
 
@@ -90,7 +91,7 @@ Används för att länka till en annan hemsida. Länken placeras inom href=. Sed
 
 Nu ska du få göra din egen hemsida.
 
-1. Starta med att klicka på denna [länk](https://thimble.mozilla.org/sv-SE/). 
+1. Starta med att klicka på denna [länk till Mozilla Thimble](https://thimble.mozilla.org/sv-SE/). 
 2. Klicka sedan på **Starta ett projekt från grunden.**
 
 Såhär ser din startvy ut. Där det står “Redigerare” är där vi kommer att skriva vår kod. Vi kommer enbart att skriva kod innanför **```<body>```**-taggarna.
