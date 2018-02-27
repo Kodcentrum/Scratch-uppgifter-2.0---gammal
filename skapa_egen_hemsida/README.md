@@ -8,7 +8,7 @@ På nedanstående bild visas hur en grundläggande HTML-sida ser ut. Sidan start
 
 ![En grundläggande HTML-sida](basic-html-page.png)
 
-![Ovanstående kod ger denna enkla hemsida](basic-html-page.png)
+![Ovanstående kod ger denna enkla hemsida](basic-html-page-code.png)
 
 ---
 
