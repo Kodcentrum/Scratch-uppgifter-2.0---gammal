@@ -123,5 +123,5 @@ För att bli klar med uppgiften borde du ha minst:
 - En ```<img>``` - tagg för att lägga in en bild
 - En ```<a>``` - tagg för att lägga in en länk
 
-## Färdig! 
+## 4 - Färdig! 
 Grattis - nu har du kodat din första hemsida med html! För att publicera din hemsida så att du kan visa den för familj och vänner, skapa ett konto och sedan tryck på publicera-knappen längst upp till höger. 
