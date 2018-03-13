@@ -42,7 +42,7 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 	Om roboten skulle hamna för långt till höger kan du bara dra in henne till mitten igen.
 
-![Alt Text](Robot_1.gif)
+![Alt Text](Robot_2.gif)
 
 3. Testa sätta ett minustecken framför siffran. Vad händer då? 
 
@@ -50,7 +50,7 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att klicka på våra Gå-skript.
 
-![Alt Text](Robot_2.gif)
+![Alt Text](Robot_3.gif)
 
 ## 3: Vänd-skriptet
 
@@ -66,7 +66,7 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 Nu när vi har Vänd-skripten kan vi få roboten att vända sig om.
 
-![Alt Text](Robot_3.gif)
+![Alt Text](Robot_4.gif)
 
 ## 4: Vänta-skriptet
 
@@ -80,7 +80,7 @@ Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika s�
 
 2. Klicka på det första skriptet.
 
-![Alt Text](Robot_4.gif)
+![Alt Text](Robot_5.gif)
 
 3. Roboten gör allt vi sa åt henne, men det går så snabbt att vi inte hinner se alla steg. Vi kan lägga till ett **"vänta 1 sekunder"** ifrån rubriken **Kontroll** mellan varje Gå-skript och Vänd-skript. Nu kan vi följa varje steg hon gör.
 
