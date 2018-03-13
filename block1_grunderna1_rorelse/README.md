@@ -18,15 +18,15 @@ När man ska koda i Scratch kan man antingen starta ett eget program själv, ell
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
-	Bild - Ändra språk
+![Alt Text](Image_1.png)
 
 3. Se till att du är inloggad på ditt konto.
 
-	Bild - Logga in
+![Alt Text](Image_2.png)
 
 4. Klicka på Se inuti.
 
-	Bild - Se inuti
+![Alt Text](Image_3.png)
 
 Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen kod än, bara en robotsprajt. Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig.
 
@@ -34,7 +34,7 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 1. Se till att robotsprajten är markerad och dra ut ett **"gå 10 steg"**-skript ifrån rubriken **Rörelse** till skriptytan.
 
-	Gif - Dra ut block
+![Alt Text](Skript_1.gif)
 
 2. Testa att klicka på en blå del av skriptet. Vad händer?
 
@@ -42,21 +42,21 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 	Om roboten skulle hamna för långt till höger kan du bara dra in henne till mitten igen.
 
-	Gif - Dra in roboten
+![Alt Text](Robot_1.gif)
 
 3. Testa sätta ett minustecken framför siffran. Vad händer då? 
 
-	Gif - Minustecken
+![Alt Text](Skript_2.gif)
 
 Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att klicka på våra Gå-skript.
 
-	Gif - Röra sig fram och tillbaka
+![Alt Text](Robot_2.gif)
 
 ## 3: Vänd-skriptet
 
 Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på sig. För att göra det har vi två olika skript, **"vänd höger 15 grader"** och **"vänd vänster 15 grader"** under rubriken **Rörelse**.
 
-	Bild - Vänd-skripten
+![Alt Text](Image_4.png)
 
 1. Dra ut båda två och klicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
 
@@ -66,7 +66,7 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 Nu när vi har Vänd-skripten kan vi få roboten att vända sig om.
 
-	Gif - Vänd sig runt omkring
+![Alt Text](Robot_3.gif)
 
 ## 4: Vänta-skriptet
 
@@ -76,15 +76,15 @@ Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika s�
 
 1. Sätt ihop några av skripten du tagit fram efter varandra.
 
-	Gif - Sätt ihop
+![Alt Text](Skript_3.gif)
 
 2. Klicka på det första skriptet.
 
-	Gif - Rör sig för snabbt
+![Alt Text](Robot_4.gif)
 
 3. Roboten gör allt vi sa åt henne, men det går så snabbt att vi inte hinner se alla steg. Vi kan lägga till ett **"vänta 1 sekunder"** ifrån rubriken **Kontroll** mellan varje Gå-skript och Vänd-skript. Nu kan vi följa varje steg hon gör.
 
-	Gif - Rör sig långsamt
+![Alt Text](Skript_4.gif)
 
 ## 5: Start-skriptet
 
@@ -92,7 +92,7 @@ Nu har vi lärt oss hur man får roboten att röra sig genom att klicka direkt p
 
 1. Dra in Flagg-skriptet ovanför rörelse-skripten som du skapade och testa klicka på den gröna flaggan ovanför roboten.
 
-	Gif - Dra in blocket och klicka på gröna flaggan
+![Alt Text](Skript_5.gif)
 
 Det finns många olika sorters händelse-skript man kan använda. 
 
