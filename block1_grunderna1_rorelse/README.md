@@ -6,7 +6,7 @@ De flesta program och spel du kommer göra i Scratch kommer innehålla någon fo
 
 I vårt fall ska vi få en av kodcentrum-robotarna att röra sig så här:
 
-	![Alt text](https://github.com/andreascmj/Scratch-uppgifter/blob/master/block1_grunderna1_rorelse/Robot_1.gif)
+	![Alt text](https://i.imgur.com/K6mv6Kf.gif)
 
 ## 1: Remixa 
 
