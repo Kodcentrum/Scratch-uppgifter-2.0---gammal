@@ -10,19 +10,23 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-	Länk
+[Projektlänk](https://scratch.mit.edu/projects/210050842/)
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
-	Bild - Ändra språk
+![Alt Text](Image_1.png)
 
 3. Se till att du är inloggad på ditt konto.
 
-	Bild - Logga in
+![Alt Text](Image_2.png)
 
 4. Klicka på Se inuti.
 
-	Bild - Se inuti
+![Alt Text](Image_3.png)
+
+5. Klicka på remixknappen för att spara en egen kopia av programmet
+
+![Alt Text](Remixknapp.png)
 
 Vi kan nu koda som vi vill i det remixade projektet. I detta program finns redan några rörelse-skript utplacerade. Vi ska nu lära oss hur vi kan få roboten att repetera saker flera gånger.
 
@@ -32,7 +36,7 @@ På skriptytan finns redan några skript utplacerade. Om du klickar på den grö
 
 1. Dra ut ett **"repetera 10"**-skript ifrån rubriken **Kontroll** och placera runtomkring rörelseskripten. Se till att repetera-skriptet också sitter ihop med start-skriptet.
 
-	Gif - Dra ut repetera
+![Alt Text](Skript_1.gif)
 
 2. Klicka på gröna flaggan.
 
@@ -46,7 +50,7 @@ Nu ska vi lära oss hur vi får roboten att gå fram och tillbaka för alltid, �
 
 2. Ta fram ett **"för alltid"**-skript från **Kontroll** och lägg runt skripten.
 
-	Gif - Dra ut för alltid
+![Alt Text](Skript_2.gif)
 
 3. Klicka på gröna flaggan.
 

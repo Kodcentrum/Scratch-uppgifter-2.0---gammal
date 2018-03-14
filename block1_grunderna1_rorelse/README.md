@@ -14,7 +14,7 @@ När man ska koda i Scratch kan man antingen starta ett eget program själv, ell
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-	Länk
+[Programlänk](https://scratch.mit.edu/projects/210051047/)
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
@@ -28,6 +28,10 @@ När man ska koda i Scratch kan man antingen starta ett eget program själv, ell
 
 ![Alt Text](Image_3.png)
 
+5. Klicka på remixknappen för att spara en egen kopia av programmet
+
+![Alt Text](Remixknapp.png)
+
 Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen kod än, bara en robotsprajt. Vi ska nu lära oss hur vi kan lägga in kod för att få roboten att röra sig.
 
 ## 2: Gå-skriptet
@@ -36,9 +40,9 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 ![Alt Text](Skript_1.gif)
 
-2. Testa att klicka på en blå del av skriptet. Vad händer?
+2. Testa att dubbelklicka på en blå del av skriptet. Vad händer?
 
-	Roboten rör sig en liten bit till höger varje gång vi klickar. Testa nu att klicka på siffran 10 i skriptet och ändra till en högre siffra. Vad händer då?
+	Roboten rör sig en liten bit till höger varje gång vi dubbelklickar. Testa nu att klicka på siffran 10 i skriptet och ändra till en högre siffra. Vad händer då?
 
 	Om roboten skulle hamna för långt till höger kan du bara dra in henne till mitten igen.
 
@@ -48,7 +52,7 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 ![Alt Text](Skript_2.gif)
 
-Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att klicka på våra Gå-skript.
+Snyggt jobbat! Vi kan nu få roboten att gå fram och tillbaka bara genom att dubbelklicka på våra Gå-skript.
 
 ![Alt Text](Robot_3.gif)
 
@@ -58,7 +62,7 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 ![Alt Text](Image_4.png)
 
-1. Dra ut båda två och klicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
+1. Dra ut båda två och dubbelklicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
 
 2. Testa byta till 360. Vad händer då? 
 
@@ -78,7 +82,7 @@ Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika s�
 
 ![Alt Text](Skript_3.gif)
 
-2. Klicka på det första skriptet.
+2. Dubbelklicka på det första skriptet.
 
 ![Alt Text](Robot_5.gif)
 
@@ -88,7 +92,7 @@ Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika s�
 
 ## 5: Start-skriptet
 
-Nu har vi lärt oss hur man får roboten att röra sig genom att klicka direkt på blocken. För att slippa klicka på blocken, och få programmet att starta behöver vi en startknapp. För detta använder vi skriptet **"när Grön flagga klickas på"** under rubriken **Händelser**.
+Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka direkt på blocken. För att slippa dubbelklicka på blocken, och få programmet att starta behöver vi en startknapp. För detta använder vi skriptet **"när Grön flagga klickas på"** under rubriken **Händelser**.
 
 1. Dra in Flagg-skriptet ovanför rörelse-skripten som du skapade och testa klicka på den gröna flaggan ovanför roboten.
 
