@@ -1,0 +1,84 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="g-r-din-egen-hemsida-">Gör din egen hemsida!</h1>
+<p>I denna uppgift kommer du få göra en egen hemsida med Mozilla Thimble som är ett verktyg att göra just hemsidor i.  Du kommer sedan kunna publicera denna sida och visa för familj och vänner! Ett exempel på en sida kan du hitta <a href="https://thimbleprojects.org/christoffer/408964/" title="Exempeluppgift">här</a>.</p>
+<p>En hemsida är uppbyggd av tre byggstenar HTML, CSS och Javascript. HTML är sidans struktur och som byggblock använder man HTML-taggar. Exempel på en HTML-tagg kan vara <code>&lt;h1&gt;</code> för att skapa en rubrik eller <code>&lt;img&gt;</code> för att lägga in en bild. CSS används för att bestämma hur sidan ska se ut gällande färg och form. Exempelvis om en knapp ska vara grön eller röd, vilken bakgrundsfärg sidan ska ha. Javascript används för interaktion på hemsidan, till exempel vad som ska hända när man trycker på en viss knapp. I denna uppgift kommer vi främst att fokusera på HTML när vi ska bygga vår hemsida.</p>
+<p>På nedanstående bild visas hur en grundläggande HTML-sida ser ut. Sidan startar och slutar alltid med en <code>&lt;html&gt;</code> - tagg. Det som syns på sidan är de HTML-taggar som finns inom <code>&lt;body&gt;</code>.</p>
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1517954207979_basic-html-page.png" alt="En grundläggande HTML-sida"></p>
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1517960288157_basic-html-page.png" alt="Ovanstående kod ger denna enkla hemsida"></p>
+<hr>
+<h2 id="html-taggar">HTML-taggar</h2>
+<p>De finns väldigt många HTML-taggar men i denna uppgift är det tänkt att ni kan använda följande:</p>
+<ul>
+<li><code>&lt;img /&gt;</code> - För att visa en bild</li>
+<li><code>&lt;h1&gt;&lt;/h1&gt;</code> - Stor rubrik</li>
+<li><code>&lt;h2&gt;&lt;/h2&gt;</code> - Mellan rubrik</li>
+<li><code>&lt;h3&gt;&lt;/h3&gt;</code> - Liten rubrik</li>
+<li><code>&lt;p&gt;&lt;/p&gt;</code> - Vanlig text</li>
+<li><code>&lt;i&gt;&lt;/i&gt;</code> - Kursiv text</li>
+<li><code>&lt;b&gt;&lt;/b&gt;</code> - Fet text</li>
+<li><code>&lt;br /&gt;</code> - Radbryt</li>
+<li><code>&lt;a&gt;&lt;/a&gt;</code> - Länk till en annan hemsida</li>
+</ul>
+<p>En HTML-tagg har oftast en starttagg och en sluttagg <code>&lt;h1&gt;</code> (starttagg) <code>&lt;/h2&gt;</code>(sluttagg.)</p>
+<h2 id="-img-"><code>&lt;img&gt;</code></h2>
+<p>Denna tagg används för att visa en bild från en annan hemsida. Du kan exempelvis gå in på Google och googla fram en bild och sedan kopierar du länken till den bilden. Kopiera sedan in länken efter src=.</p>
+<pre><code>&lt;img src=&quot;https://d2btg9txypwkc4.cloudfront.net/media/catalog/category/Artiklar_katt.jpg&quot; /&gt;
+</code></pre><h2 id="-h1-"><code>&lt;h1&gt;</code></h2>
+<p>Denna tagg används för att visa en stor rubrik, den text man vill visa skrivs mellan starttaggen och sluttagen.</p>
+<pre><code>&lt;h1&gt;En stor rubrik&lt;/h1&gt;
+</code></pre><h2 id="-h2-"><code>&lt;h2&gt;</code></h2>
+<p>Som <code>&lt;h1&gt;</code> men ger en mellan rubrik.</p>
+<pre><code>&lt;h2&gt;En stor rubrik&lt;/h2&gt;
+</code></pre><h2 id="-h3-"><code>&lt;h3&gt;</code></h2>
+<p>Som <code>&lt;h1&gt;</code> men ger en liten rubrik.</p>
+<pre><code>&lt;h3&gt;En stor rubrik&lt;/h3&gt;
+</code></pre><h2 id="-p-"><code>&lt;p&gt;</code></h2>
+<p>Används för vanlig text på en hemsida.</p>
+<pre><code>&lt;p&gt;Hej&lt;/p&gt;
+</code></pre><h2 id="-i-"><code>&lt;i&gt;</code></h2>
+<p>Denna tagg används för att göra en text kursiv. Sätt taggarna runt den text du önskar bli kursiv. Används vanligtvis inom en annan text exempelvis en <code>&lt;p&gt;</code> - tagg.</p>
+<pre><code>&lt;p&gt;Hej på &lt;i&gt;dig&lt;/i&gt;&lt;/p&gt;
+</code></pre><p>I ovanstående exempel skulle “dig” bli kursivt.</p>
+<h2 id="-b-"><code>&lt;b&gt;</code></h2>
+<p>Används på samma sätt som en <code>&lt;i&gt;</code> - tagg men ger fet text istället.</p>
+<pre><code>&lt;p&gt;Hej på &lt;b&gt;dig&lt;/b&gt;&lt;/p&gt;
+</code></pre><p>I ovanstående exempel skulle “dig” bli i fet text.</p>
+<h2 id="-br-"><code>&lt;br /&gt;</code></h2>
+<p>För att ge ett radbryt mellan exempelvis en rubrik och textstycke.</p>
+<pre><code>&lt;h1&gt;Rubrik&lt;/h1&gt;
+&lt;br /&gt;
+&lt;p&gt;Här kommer lite text.&lt;/p&gt;
+</code></pre><h2 id="-a-"><code>&lt;a&gt;</code></h2>
+<p>Används för att länka till en annan hemsida. Länken placeras inom href=. Sedan skriver du vad länktexten ska vara. Då visas bara den texten och inte själva länken.</p>
+<pre><code>&lt;a href=&quot;www.kodboken.se&quot;&gt;Tryck här för att komma till kodboken.se&lt;/a&gt;
+</code></pre><hr>
+<h2 id="uppgift">Uppgift</h2>
+<p>Nu ska du få göra din egen hemsida.</p>
+<ol>
+<li>Starta med att klicka på denna <a href="https://thimble.mozilla.org/sv-SE/">länk</a>. </li>
+<li>Klicka sedan på <strong>Starta ett projekt från grunden.</strong></li>
+</ol>
+<p>Såhär ser din startvy ut. Där det står “Redigerare” är där vi kommer att skriva vår kod. Vi kommer enbart att skriva kod innanför <strong><code>&lt;body&gt;</code></strong>-taggarna.</p>
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1518726489828_mozilla-thimble.png" alt=""></p>
+<p>Dessa två knappar växlar mellan hur hemsidan ser ut på en dator och på en mobil.</p>
+<p><img src="https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1518727255697_mozilla-thimble-desktop-mobile.png" alt=""></p>
+<p>Det första vi ska ändra är rubriken på vår hemsida. </p>
+<ol>
+<li><p>Innanför <strong><code>&lt;h1&gt;</code></strong>-taggarna ersätt texten med något du själv vill att det ska stå. Ser du hur texten i förhandsgranskningen ändras på en gång?
+<img src="https://d2mxuefqeaa7sj.cloudfront.net/s_6CF75DA471D28416DAE93F7FC3BE58495D5DCD279AF3A43FADC9C051A5061F25_1518727310049_mozilla-thimble-change-h1.png" alt=""></p>
+</li>
+<li><p>Ta nu bort texten innanför <strong><code>&lt;p</code>&gt;</strong>-taggarna på samma sätt som innan och skriv något du själv vill att det ska stå.</p>
+</li>
+</ol>
+<p>Nu har du gjort det första på din egen hemsida! Nu får du själv fortsätta med din hemsida och på egen hand lägga in taggar bland de som beskrivits tidigare. </p>
+<p>För att bli klar med uppgiften borde du ha minst:</p>
+<ul>
+<li>En <code>&lt;h1&gt;</code> - tagg</li>
+<li>En <code>&lt;p&gt;</code> - tagg</li>
+<li>En <code>&lt;i&gt;</code> - tagg</li>
+<li>En <code>&lt;img&gt;</code> - tagg</li>
+<li>En <code>&lt;a&gt;</code> - tagg</li>
+</ul>
+<p>För att publicera din hemsida så att du kan visa den för familj och vänner, skapa ett konto och sedan tryck på publicera-knappen längst upp till höger.</p>
+</body></html>
