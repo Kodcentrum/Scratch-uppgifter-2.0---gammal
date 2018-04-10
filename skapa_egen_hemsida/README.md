@@ -112,6 +112,7 @@ Det första vi ska ändra är rubriken på vår hemsida.
 
 Nu har du gjort det första på din egen hemsida! 
 
+
 ## 3 - Lägg in bilder och rubriker
 Nu får du själv fortsätta med din hemsida och på egen hand lägga in taggar bland de som beskrivits tidigare. 
 
