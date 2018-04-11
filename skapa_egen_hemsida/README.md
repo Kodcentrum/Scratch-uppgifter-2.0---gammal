@@ -12,7 +12,7 @@ På nedanstående bild visas hur en grundläggande HTML-sida ser ut. Sidan start
 ![Ovanstående kod ger denna enkla hemsida](basic-html-page-code.png)
 
 
-## 1 - Använda HTML-taggar
+## 1: Använda HTML-taggar
 
 De finns väldigt många HTML-taggar men i denna uppgift är det tänkt att ni kan använda följande:
 
@@ -86,7 +86,7 @@ Används för att länka till en annan hemsida. Länken placeras inom href=. Sed
     <a href="www.kodboken.se">Tryck här för att komma till kodboken.se</a>
 
 
-## 2 - Koda din egen hemsida med html
+## 2: Koda din egen hemsida med html
 
 Nu ska du få göra din egen hemsida.
 
@@ -113,7 +113,7 @@ Det första vi ska ändra är rubriken på vår hemsida.
 Nu har du gjort det första på din egen hemsida! 
 
 
-## 3 - Lägg in bilder och rubriker
+## 3: Lägg in bilder och rubriker
 
 Nu får du själv fortsätta med din hemsida och på egen hand lägga in taggar bland de som beskrivits tidigare. 
 
@@ -125,5 +125,5 @@ För att bli klar med uppgiften borde du ha minst:
 - En ```<img>``` - tagg för att lägga in en bild
 - En ```<a>``` - tagg för att lägga in en länk
 
-### Färdig! 
+## Färdig! 
 Grattis - nu har du kodat din första hemsida med html! För att publicera din hemsida så att du kan visa den för familj och vänner, skapa ett konto och sedan tryck på publicera-knappen längst upp till höger. 
