@@ -22,11 +22,11 @@ I den här uppgiften har vi redan ritat ut en bana (bakgrunden) och lagt ut en s
 
 Nu programmerar vi!
 
-Om du inte ser några block på skriptytan klickar du på sprajten “Beetle” ![Beetle](beetle.png) så att blocken dyker upp.
+Om du inte ser några block på skriptytan klickar du på sprajten “Beetle” ![Beetle](beetle.png)så att blocken dyker upp.
 
-Om du testar att klicka på den gröna flaggan ![Flagga](flagga.png) för att starta spelet så händer ingenting just nu. 
+Om du testar att klicka på den gröna flaggan ![Flagga](flagga.png)för att starta spelet så händer ingenting just nu. 
 
-1. För att få skalbaggen att gå framåt behöver vi använda blocket **gå 2 steg** och sätta den på blocket **när ![flagga](flagga.png) klickas på**.
+1. För att få skalbaggen att gå framåt behöver vi använda blocket **gå 2 steg** och sätta den på blocket **när ![flagga](flagga.png)klickas på**.
 
     ![Skript 1](skript-01.png)
 
@@ -35,7 +35,7 @@ Om du testar att klicka på den gröna flaggan ![Flagga](flagga.png) för att st
 Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid. 
 
 2. Vi får flytta **gå 2 steg** till blocket **för alltid** och stoppa in det där. 
-3. Sen drar vi **för alltid > gå 2 steg** till start-blocket (**när ![flagga](flagga.png) klickas på**).
+3. Sen drar vi **för alltid > gå 2 steg** till start-blocket (**när ![flagga](flagga.png)klickas på**).
 
     ![Skript 2](skript-02.png)
 
@@ -43,7 +43,7 @@ Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid.
 
 När vi startar spelet igen så börjar inte skalbaggen om från början där vi vill att den ska. Vi måste säga till programmet att skalbaggen ska gå till en viss position när den gröna flaggan klickas på. 
 
-4. Lägg blocket **gå till x:9 y:98** mellan **när ![flagga](flagga.png) klickas på** och **för alltid**.
+4. Lägg blocket **gå till x:9 y:98** mellan **när ![flagga](flagga.png)klickas på** och **för alltid**.
 
     ![Skript 3](skript-03.png)
 
@@ -65,7 +65,7 @@ Nu ska vi få skalbaggen att vända när vi trycker på piltangenterna. Det finn
 
 När du startar spelet nu efter några gånger märker du att skalbaggen pekar åt olika håll nästan varje gång. Vi vill att skalbaggen ska peka framåt varje gång vi startar. 
 
-7. Lägg blocket **peka i 90 vinkel** mellan **när ![flagga](flagga.png) klickas på** och **gå till x:9 y:98**.
+7. Lägg blocket **peka i 90 vinkel** mellan **när ![flagga](flagga.png)klickas på** och **gå till x:9 y:98**.
 
     ![När flagga klickas på, peka i 90, gå till x y, för alltid](skript-05.png)
 
@@ -97,6 +97,6 @@ Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exak
 
 **Bra jobbat!**
 
-> ## Fortsättning
->
-> Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
+## Fortsättning
+
+Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
