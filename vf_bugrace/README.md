@@ -1,26 +1,22 @@
-<style>
-  i.sb {
-    border: 1px solid gray;
+<style> i.sb {
+    border: 1px solid lightgray;
     border-radius: 5px;
-    background: gray;
+    background: lightgray;
     padding: 2px 5px 4px 5px;
     font-style: normal;
     display: inline-block;
-  }
-
-  i.sb img {
+  } i.sb img {
     position: relative;
     padding-right: 2px;
     vertical-align: middle;
     height: 20px;
-  }
-</style>
+  }</style>
 
 # Bug race
 
 Nu ska du få bygga ett spel i Scratch där du kör runt en skalbagge på en bana.
 
-## Scratch studio
+### Scratch studio
 
 Först lär vi oss de olika delarna i Scratch:
 
