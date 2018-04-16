@@ -117,7 +117,7 @@ Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exak
 
 **Bra jobbat!**
 
-### Fortsättning
+## 3: Fortsättning
 
 Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
 
