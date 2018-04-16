@@ -1,32 +1,57 @@
+<style>
+  i.sb {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: gray;
+    padding: 2px 5px 4px 5px;
+    font-style: normal;
+    display: inline-block;
+  }
+
+  i.sb img {
+    position: relative;
+    padding-right: 2px;
+    vertical-align: middle;
+    height: 20px;
+  }
+</style>
+
 # Bug race
 
 Nu ska du få bygga ett spel i Scratch där du kör runt en skalbagge på en bana.
 
-## 1: Scratch studio
+## Scratch studio
 
 Först lär vi oss de olika delarna i Scratch:
 
 ![Scratch studio](scratch-studio.png)
 
-Ett skript är flera kommandon i följd som datorn kan förstå. I Scratch ser kommandona ut som block (skriptblock). Datorn läser dem uppifrån och ned när de sitter ihop. Som ett exempel, om vi kollar på bilden nedan, så kommer datorn läsa det som att den först ska gå 10 steg, sen vänta 1 sekund och sist gå 5 steg till.
+- Ett skript är flera kommandon i följd
+- I Scratch ser kommandona ut som block
+- Blocken ska sitta ihop (som ett pussel)
+- Datorn läser blocken uppifrån och ned
+
+### Exempel 
 
 ![Skript-kommandon](skript-kommandon.png)
 
-## 2: Börja programmera
+Datorn läser detta som att den först ska gå 10 steg, sen vänta 1 sekund och sist gå 5 steg till.
 
-Vi startar med att gå till Scratch-uppgiften i en webbläsare: <a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>.
+**Gå vidare till nästa steg för att börja programmera.**
 
-I den här uppgiften har vi redan ritat ut en bana (bakgrunden) och lagt ut en skalbagge (en sprajt) som du skall styra. Även alla block som behövs till skriptet ligger framme på skriptytan.
+## 1: Börja programmera
 
-> Om du undrar hur eller varför det fungerar eller om du har andra frågor kan du prata med någon av volontärerna.
+Vi startar med att gå till Scratch-uppgiften i en webbläsare: 
 
-Nu programmerar vi!
+**<a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>**
 
-Om du inte ser några block på skriptytan klickar du på sprajten “Beetle” ![Beetle](beetle.png)så att blocken dyker upp.
+Vi har redan ritat ut en bana och lagt ut en skalbagge som du skall styra. Även alla block som behövs ligger framme.
 
-Om du testar att klicka på den gröna flaggan ![Flagga](flagga.png)för att starta spelet så händer ingenting just nu. 
+> Om du undrar _hur_ eller _varför_ det fungerar eller om du har andra frågor kan du prata med någon av volontärerna.
 
-1. För att få skalbaggen att gå framåt behöver vi använda blocket **gå 2 steg** och sätta den på blocket **när ![flagga](flagga.png)klickas på**.
+**Nu programmerar vi!**
+
+1. För att få skalbaggen att gå framåt behöver vi använda blocket <i class="sb">gå 2 steg</i> och sätta den efter blocket <i class="sb">när ![flagga](flagga.png) klickas på</i>.
 
     ![Skript 1](skript-01.png)
 
@@ -34,8 +59,8 @@ Om du testar att klicka på den gröna flaggan ![Flagga](flagga.png)för att sta
 
 Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid. 
 
-2. Vi får flytta **gå 2 steg** till blocket **för alltid** och stoppa in det där. 
-3. Sen drar vi **för alltid > gå 2 steg** till start-blocket (**när ![flagga](flagga.png)klickas på**).
+2. Vi får flytta <i class="sb">gå 2 steg</i> till blocket <i class="sb">för alltid</i> och stoppa in det där. 
+3. Sen drar vi <i class="sb">för alltid > gå 2 steg</i> till start-blocket <i class="sb">när ![flagga](flagga.png)klickas på</i>.
 
     ![Skript 2](skript-02.png)
 
@@ -43,21 +68,21 @@ Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid.
 
 När vi startar spelet igen så börjar inte skalbaggen om från början där vi vill att den ska. Vi måste säga till programmet att skalbaggen ska gå till en viss position när den gröna flaggan klickas på. 
 
-4. Lägg blocket **gå till x:9 y:98** mellan **när ![flagga](flagga.png)klickas på** och **för alltid**.
+4. Lägg blocket <i class="sb">gå till x:9 y:98</i> mellan <i class="sb">när ![flagga](flagga.png)klickas på</i> och <i class="sb">för alltid</i>.
 
     ![Skript 3](skript-03.png)
 
 > Tryck på flaggan några gånger och se hur skalbaggen alltid börjar på samma position.
 
-Nu ska vi få skalbaggen att vända när vi trycker på piltangenterna. Det finns två block som vi ska använda. 
+Nu ska vi få skalbaggen att vända när vi trycker på piltangenterna.
 
-5. När högerpil trycks ned vill vi att skalbaggen ska vända åt höger så vi drar blocket **vänd höger 15 grader** till blocket **när högerpil trycks ned**.
+5. När högerpil trycks ned vill vi att skalbaggen ska vända åt höger så vi drar blocket <i class="sb">vänd höger 15 grader</i> till blocket <i class="sb">när högerpil trycks ned</i>.
 
     ![När högerpil vänd åt höger](skript-04a.png)
 
 > Starta spelet och tryck på högerpilen på tangentbordet flera gånger. Skalbaggen svänger åt höger!
 
-6. Gör samma sak med **när vänsterpil trycks ned** och **vänd vänster 15 grader**.
+6. Gör samma sak med <i class="sb">när vänsterpil trycks ned</i> och <i class="sb">vänd vänster 15 grader</i>.
 
     ![När vänsterpil vänd åt vänster](skript-04b.png)
 
@@ -65,7 +90,7 @@ Nu ska vi få skalbaggen att vända när vi trycker på piltangenterna. Det finn
 
 När du startar spelet nu efter några gånger märker du att skalbaggen pekar åt olika håll nästan varje gång. Vi vill att skalbaggen ska peka framåt varje gång vi startar. 
 
-7. Lägg blocket **peka i 90 vinkel** mellan **när ![flagga](flagga.png)klickas på** och **gå till x:9 y:98**.
+7. Lägg blocket <i class="sb">peka i 90 vinkel</i> mellan <i class="sb">när ![flagga](flagga.png)klickas på</i> och <i class="sb">gå till x:9 y:98</i>.
 
     ![När flagga klickas på, peka i 90, gå till x y, för alltid](skript-05.png)
 
@@ -73,9 +98,9 @@ När du startar spelet nu efter några gånger märker du att skalbaggen pekar �
 
 Det går nu att köra runt på banan, men inget händer när vi kör utanför banan. Om vi åker utanför banan ska spelet säga _Game over!_ och avsluta spelet. Skriptet behöver kolla varje gång skalbaggen går 2 steg om vi rör färgen grön (samma som gräset) och då säga _Game over!_ samt stoppa spelet (stoppa alla skript).
 
-8. Sätt in blocket **rör färgen ![grön](gron.png)?** på den tomma rutan av **om <> då**-blocket.  
-9. Dra även in **säg Game over! i 2 sekunder** in i **om <> då** och sen även **stoppa alla**.  
-10. Slutligen flyttar vi hela **om <> då**-blocket och lägger det efter **gå 2 steg**.
+8. Sätt in blocket <i class="sb">rör färgen ![grön](gron.png)?</i> på den tomma rutan av <i class="sb">om <> då</i>-blocket.  
+9. Dra även in <i class="sb">säg Game over! i 2 sekunder</i> in i <i class="sb">om <> då</i> och sen även <i class="sb">stoppa alla</i>.  
+10. Slutligen flyttar vi hela <i class="sb">om <> då</i>-blocket och lägger det efter <i class="sb">gå 2 steg</i>.
 
     ![för alltid, gå 2 steg, om då](skript-06.png)
 
@@ -89,7 +114,7 @@ Precis som vi kollade i förra steget om vi rörde den gröna färgen vill vi nu
 
 > Hur hela skriptet ser ut kan du se på nästa sida, men _försök gärna själv först_.
 
-## 3: Ett färdigt spel
+## 2: Ett färdigt spel
 
 Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exakt likadant på alla ställen så länge det fungerar som du vill.
 
@@ -97,6 +122,6 @@ Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exak
 
 **Bra jobbat!**
 
-## Fortsättning
+### Fortsättning
 
 Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
