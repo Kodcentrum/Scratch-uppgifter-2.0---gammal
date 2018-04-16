@@ -15,7 +15,7 @@
 
 Nu ska du få bygga ett spel i Scratch där du kör runt en skalbagge på en bana.
 
-**Scratch studio**
+### Scratch studio
 
 Först lär vi oss de olika delarna i Scratch:
 
@@ -26,7 +26,7 @@ Först lär vi oss de olika delarna i Scratch:
 - Blocken ska sitta ihop (som ett pussel)
 - Datorn läser blocken uppifrån och ned
 
-**Exempel** 
+### Exempel
 
 ![Skript-kommandon](skript-kommandon.png)
 
