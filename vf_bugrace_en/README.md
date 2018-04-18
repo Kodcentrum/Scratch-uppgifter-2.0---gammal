@@ -13,112 +13,110 @@
 
 # Bug race - English
 
-Nu ska du få bygga ett spel i Scratch där du kör runt en skalbagge på en bana.
+Let's build a racing game in Scratch.
 
 ### Scratch studio
 
-Först lär vi oss de olika delarna i Scratch:
+First, we learn the different parts of Scratch:
 
 ![Scratch studio](scratch-studio.png)
 
-- Ett skript är flera kommandon i följd
-- I Scratch ser kommandona ut som block
-- Blocken ska sitta ihop (som ett pussel)
-- Datorn läser blocken uppifrån och ned
+- A script is multiple commands in sequence
+- In Scratch, the commands appear as blocks
+- The blocks should be together (like a puzzle)
+- The computer reads the blocks from top to bottom
 
-### Exempel
+### Illustration
 
-![Skript-kommandon](skript-kommandon.png)
+![Script commands](skript-kommandon.png)
 
-Datorn läser detta som att den först ska gå 10 steg, sen vänta 1 sekund och sist gå 5 steg till.
+The computer first reads this as move 10 steps, then wait 1 second and lastly move 5 more steps.
 
-**Gå vidare till nästa steg för att börja programmera.**
+**Proceed to the next step to start programming.**
 
-## 1: Börja programmera
+## 1: Start programming
 
-Vi startar med att gå till Scratch-uppgiften i en webbläsare: 
+Let's open our game in the Scratch studio:
 
 **<a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>**
 
-Vi har redan ritat ut en bana och lagt ut en skalbagge som du skall styra. Även alla block som behövs ligger framme.
+We have already drawn out a path and put out a beetle that you will steer. Also all the blocks needed is there.
 
-> Om du undrar _hur_ eller _varför_ det fungerar eller om du har andra frågor kan du prata med någon av volontärerna.
+> If you wonder _how_ or _why_ it works or if you have other questions, talk to one of the volunteers.
 
-**Nu programmerar vi!**
+**Let's code!**
 
-1. För att få skalbaggen att gå framåt behöver vi använda blocket <i class="sb">gå 2 steg</i> och sätta den efter blocket <i class="sb">när ![flagga](flagga.png) klickas på</i>.
+1. To get the beetle forward, we need to use the block <i class="sb">move 2 steps</i> and put it on the block <i class="sb">when ![Flagga](flagga.png) clicked</i>.
 
-    ![Skript 1](skript-01.png)
+    ![Script 1](skript-01.png)
 
-> Tryck på flaggan och se hur skalbaggen rör sig framåt varje gång du trycker.
+> Click the flag and see how the beetle moves forward each time you press.
 
-Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid. 
+Now we will get the beetle to move 2 steps forever.
 
-2. Vi får flytta <i class="sb">gå 2 steg</i> till blocket <i class="sb">för alltid</i> och stoppa in det där. 
-3. Sen drar vi <i class="sb">för alltid > gå 2 steg</i> till start-blocket <i class="sb">när ![flagga](flagga.png)klickas på</i>.
+2. We'll have to put <i class="sb">move 2 steps</i> in the block <i class="sb">forever</i>.
+3. Then we put the new <i class="sb">forever</i> block back on the start block <i class="sb">when ![Flagga](flagga.png) clicked</i>.
 
-    ![Skript 2](skript-02.png)
+    ![Script 2](skript-02.png)
 
-> Tryck på flaggan och se hur den går ända till kanten.
+> Click the flag and see how it goes right to the edge.
 
-När vi startar spelet igen så börjar inte skalbaggen om från början där vi vill att den ska. Vi måste säga till programmet att skalbaggen ska gå till en viss position när den gröna flaggan klickas på. 
+When we start the game again, the beetle does not start from the position we want. We must tell the computer that the beetle should go to a specific position when the green flag is clicked.
 
-4. Lägg blocket <i class="sb">gå till x:9 y:98</i> mellan <i class="sb">när ![flagga](flagga.png)klickas på</i> och <i class="sb">för alltid</i>.
+4. Put the block <i class="sb">go to x:9 y:98</i> between <i class="sb">when ![Flagga](flagga.png) clicked</i> and <i class="sb">forever</i>.
 
-    ![Skript 3](skript-03.png)
+    ![Script 3](skript-03.png)
 
-> Tryck på flaggan några gånger och se hur skalbaggen alltid börjar på samma position.
+> Click the flag a few times and see how the beetle always starts from the same position.
 
-Nu ska vi få skalbaggen att vända när vi trycker på piltangenterna.
+Now we'll get the beetle to turn when we press the arrow keys.
 
-5. När högerpil trycks ned vill vi att skalbaggen ska vända åt höger så vi drar blocket <i class="sb">vänd höger 15 grader</i> till blocket <i class="sb">när högerpil trycks ned</i>.
+5. When the right arrow key is pressed down we want the beetle to turn right so we put the block <i class="sb">turn right 15 degrees</i> on <i class="sb">when right arrow key pressed</i>
 
-    ![När högerpil vänd åt höger](skript-04a.png)
+    ![When right arrow turn right](skript-04a.png)
 
-> Starta spelet och tryck på högerpilen på tangentbordet flera gånger. Skalbaggen svänger åt höger!
+> Start the game and press the right arrow on the keyboard several times. The beetle turns to the right!
 
-6. Gör samma sak med <i class="sb">när vänsterpil trycks ned</i> och <i class="sb">vänd vänster 15 grader</i>.
+6. Do the same with <i class="sb">when left arrow key pressed</i> and <i class="sb">turn left 15 degrees</i>.
 
-    ![När vänsterpil vänd åt vänster](skript-04b.png)
+    ![When left arrow turn left](skript-04b.png)
 
-> Tryck på flaggan och använd höger och vänster piltangenter för att styra skalbaggen.
+> Click the flag and use the right and left arrow keys to steer the beetle.
 
-När du startar spelet nu efter några gånger märker du att skalbaggen pekar åt olika håll nästan varje gång. Vi vill att skalbaggen ska peka framåt varje gång vi startar. 
+When you start the game now after a few times, you notice that the beetle points to different directions almost every time. We want the beetle to point forward each time we start.
 
-7. Lägg blocket <i class="sb">peka i 90 vinkel</i> mellan <i class="sb">när ![flagga](flagga.png)klickas på</i> och <i class="sb">gå till x:9 y:98</i>.
+7. Put the block <i class="sb">point in direction 90</i> between <i class="sb">when ![Flagga](flagga.png) clicked</i> and <i class="sb">go to x:9 y:98</i>.
 
-    ![När flagga klickas på, peka i 90, gå till x y, för alltid](skript-05.png)
+    ![When flag clicked point, go to, foreover](skript-05.png)
 
-> Tryck på flaggan och se hur skalbaggen alltid pekar framåt när du startar.
+> Click the flag and see how the beetle always points forward when you start.
 
-Det går nu att köra runt på banan, men inget händer när vi kör utanför banan. Om vi åker utanför banan ska spelet säga _Game over!_ och avsluta spelet. Skriptet behöver kolla varje gång skalbaggen går 2 steg om vi rör färgen grön (samma som gräset) och då säga _Game over!_ samt stoppa spelet (stoppa alla skript).
+It is now possible to drive around the track, but nothing happens when we drive off the track. If we go off the track, the game should say _Game over!_ and finish the game. The script needs to check every time the beetle moves 2 steps if we touch the color green (same as the grass) and then say _Game over!_ and stop the game (stop all scripts).
 
-8. Sätt in blocket <i class="sb">rör färgen ![grön](gron.png)?</i> på den tomma rutan av <i class="sb">om <> då</i>-blocket.  
-9. Dra även in <i class="sb">säg Game over! i 2 sekunder</i> in i <i class="sb">om <> då</i> och sen även <i class="sb">stoppa alla</i>.  
-10. Slutligen flyttar vi hela <i class="sb">om <> då</i>-blocket och lägger det efter <i class="sb">gå 2 steg</i>.
+8. Put the block <i class="sb">touching color ![green](gron.png)?</i> on the empty box of the <i class="sb">if <> then</i> block.
+9. Then put the blocks <i class="sb">say Game over! for 2 secs</i> and <i class="sb">stop all</i> into <i class="sb">if <> then</i>.
+10. Lastly, put the whole <i class="sb">if <> then</i> block inside <i class="sb">forever</i> right after <i class="sb">move 2 steps</i>.
 
-    ![för alltid, gå 2 steg, om då](skript-06.png)
+    ![Forever, move 2 steps, if then](skript-06.png)
 
-> Tryck på flaggan och se vad som händer om du kör utanför banan.
+> Click on the flag and see what happens if you run off the track.
 
-Nu är vi nästan klara. Vi behöver bara säga till spelet att vi vunnit när vi kommit i mål (det gula strecket).
+Now we are almost done. We just need to tell the game that we won when we reach the finish line (the yellow line).
 
-Precis som vi kollade i förra steget om vi rörde den gröna färgen vill vi nu kolla om vi rör den gula färgen istället. Om vi rör den gula färgen vill vi säga _Jag vann!_ och sen stoppa spelet.
+In the same way that we checked if the beetle touched the green color, we want to check if the beetle is touching the yellow color instead. If it touches the yellow color we want to say _I won!_ and then stop the game.
 
-11. Se om du kan klura ut hur du ska göra för att det ska fungera som vi vill. När du är klar kan du testa att trycka på flaggan och se om det fungerar. 
+11. See if you can figure out what to do for it to work as we want. When you're done, try clicking the flag and see if it works.
 
-> Hur hela skriptet ser ut kan du se på nästa sida, men _försök gärna själv först_.
+> On the next page you can see what the entire script looks like, but please try yourself first.
 
-## 2: Ett färdigt spel
+## 2: A finished game
 
-Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exakt likadant på alla ställen så länge det fungerar som du vill.
+Here's what the whole script looks like when it's done. It need not be exactly the same in all places as long as it works as you want.
 
-![Hela skriptet](skript-07.png)
+![Final script](skript-07.png)
 
-**Bra jobbat!**
+**Nice work!**
 
-## 3: Fortsättning
+## 3: Proceeding
 
-Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
-
-<h2 id="dummy"></h2>
+You can continue to program at home or at school. For example, you can add some obstacles to the track and you can also make it a two player game. There is more to do and more information can be found on kodboken.se.
