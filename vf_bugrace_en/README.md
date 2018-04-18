@@ -120,3 +120,5 @@ Here's what the whole script looks like when it's done. It need not be exactly t
 ## 3: Proceeding
 
 You can continue to program at home or at school. For example, you can add some obstacles to the track and you can also make it a two player game. There is more to do and more information can be found on kodboken.se.
+
+<h2 id="dummy"></h2>
