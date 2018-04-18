@@ -36,11 +36,11 @@ The computer first reads this as move 10 steps, then wait 1 second and lastly mo
 
 ## 1: Start programming
 
-Let's open our game in the Scratch studio:
+Let's open our game in Scratch studio:
 
 **<a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>**
 
-We have already drawn out a path and put out a beetle that you will steer. Also all the blocks needed is there.
+We have already drawn out a track and put out a beetle that you will steer. Also all the blocks needed is there.
 
 > If you wonder _how_ or _why_ it works or if you have other questions, talk to one of the volunteers.
 
@@ -59,7 +59,7 @@ Now we will get the beetle to move 2 steps forever.
 
     ![Script 2](skript-02.png)
 
-> Click the flag and see how it goes right to the edge.
+> Click the flag and see how it goes all the way to the edge.
 
 When we start the game again, the beetle does not start from the position we want. We must tell the computer that the beetle should go to a specific position when the green flag is clicked.
 
