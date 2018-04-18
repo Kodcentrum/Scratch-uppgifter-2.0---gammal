@@ -22,7 +22,7 @@ Först lär vi oss de olika delarna i Scratch:
 ![Scratch studio](scratch-studio.png)
 
 - Ett skript är flera kommandon i följd
-- I Scratch ser kommandona ut som block
+- I Scratch ser kommandon ut som block
 - Blocken ska sitta ihop (som ett pussel)
 - Datorn läser blocken uppifrån och ned
 
