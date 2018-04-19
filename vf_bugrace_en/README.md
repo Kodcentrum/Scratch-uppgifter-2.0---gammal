@@ -40,7 +40,7 @@ Let's open our game in Scratch studio:
 
 **<a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>**
 
-We have already drawn out a track and put out a beetle that you will steer. Also all the blocks needed is there.
+We have already drawn out a track and put out a beetle that you will steer. Also all the blocks needed are there.
 
 > If you wonder _how_ or _why_ it works or if you have other questions, talk to one of the volunteers.
 
@@ -111,7 +111,7 @@ In the same way that we checked if the beetle touched the green color, we want t
 
 ## 2: A finished game
 
-Here's what the whole script looks like when it's done. It need not be exactly the same in all places as long as it works as you want.
+Here's what the whole script looks like when it's done. It doesn't need to be exactly the same in all places as long as it works as you want.
 
 ![Final script](skript-07.png)
 
