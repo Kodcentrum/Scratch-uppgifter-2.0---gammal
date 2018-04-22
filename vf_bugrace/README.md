@@ -88,7 +88,7 @@ Precis som vi kollade i förra steget om vi rörde den gröna färgen vill vi nu
 
 > Hur hela skriptet ser ut kan du se på nästa sida, men _försök gärna själv först_.
 
-## 1: Ett färdigt spel
+## Ett färdigt spel
 
 Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exakt likadant på alla ställen så länge det fungerar som du vill.
 
@@ -100,4 +100,3 @@ Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exak
 
 Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
 
-<h2 id="dummy"></h2>
