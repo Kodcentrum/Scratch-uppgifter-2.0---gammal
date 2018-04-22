@@ -11,34 +11,11 @@
     top: 5px;
   }</style>
 
-# Bug race
+# Programmera Bug race
 
 Nu ska du få bygga ett spel i Scratch där du kör runt en skalbagge på en bana.
 
-### Scratch studio
-
-Först lär vi oss de olika delarna i Scratch:
-
-![Scratch studio](scratch-studio.png)
-
-- Ett skript är flera kommandon i följd
-- I Scratch ser kommandon ut som block
-- Blocken ska sitta ihop (som ett pussel)
-- Datorn läser blocken uppifrån och ned
-
-### Exempel
-
-![Skript-kommandon](skript-kommandon.png)
-
-Datorn läser detta som att den först ska gå 10 steg, sen vänta 1 sekund och sist gå 5 steg till.
-
-**Gå vidare till nästa steg för att börja programmera.**
-
-## 1: Börja programmera
-
-Vi startar med att gå till Scratch-uppgiften i en webbläsare: 
-
-**<a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a>**
+**<a href="http://bit.ly/bugrace-vf" target="_blank">Klicka här för att öppna Scratch-uppgiften.</a>**
 
 Vi har redan ritat ut en bana och lagt ut en skalbagge som du skall styra. Även alla block som behövs ligger framme.
 
@@ -51,6 +28,8 @@ Vi har redan ritat ut en bana och lagt ut en skalbagge som du skall styra. Även
     ![Skript 1](skript-01.png)
 
 > Tryck på flaggan och se hur skalbaggen rör sig framåt varje gång du trycker.
+>
+> ![Start-flagga](start-flag.png)
 
 Nu ska vi få skalbaggen att gå 2 steg hela tiden - för alltid. 
 
@@ -109,7 +88,7 @@ Precis som vi kollade i förra steget om vi rörde den gröna färgen vill vi nu
 
 > Hur hela skriptet ser ut kan du se på nästa sida, men _försök gärna själv först_.
 
-## 2: Ett färdigt spel
+## 1: Ett färdigt spel
 
 Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exakt likadant på alla ställen så länge det fungerar som du vill.
 
@@ -117,7 +96,7 @@ Så här ser hela skriptet ut när det är färdigt. Det behöver inte vara exak
 
 **Bra jobbat!**
 
-## 3: Fortsättning
+### Fortsättning
 
 Du kan fortsätta programmera hemma eller i skolan. Du kan till exempel lägga till lite hinder på banan och du kan göra att två spelare kör varsin skalbagge samtidigt. Det finns mer att göra och fler uppgifter hittar du på kodboken.se.
 
