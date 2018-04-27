@@ -2,7 +2,7 @@
 
 **Kan du knäcka koden?**
 
-Denna lek går ut på att barnen skall knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga alternativ och med hjälp av dessa så sall de försöka lista ut rätt kod. Leken är inspirerad av spelet Mastermind. 
+Denna lek är inspirerad av spelet Mastermind och går ut på att deltagarna ska försöka knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga kod-rader och med hjälp av dessa ska de försöka lista ut rätt kod.
 
 ![Exempel på kodknäckaren](./kodknackaren.png)
 
@@ -14,9 +14,9 @@ Denna lek går ut på att barnen skall knäcka en kod genom uteslutningsmetoden.
 
 **Tidåtgång: Ca 10min**
 
-Lämpligt för 1-2 barn per kod.
+Dela in deltagarna i mindre grupper eller låt dem jobba parvis. 
 
-1. Skriv ut dokumentet från ovan.
-2. Göm undan facitsidan
-3. Ge barnen ett problem i taget.
-4. När barnen tror att de har gissat färdigt – ge dem inte rätta svaret direkt. Gå igenom koden och "testa" den mot de olika svarsalternativen för att se om deras gissning fungerar. Så att ni tillsammans kommer fram till att det är rätt svar.
+1. Dela ut den utskrivna pdf:en med Kodknäckaren. 
+2. Göm undan facitsidan. 
+3. Ge deltagarna ett problem i taget att lösa.
+4. När deltagarna tror att de har gissat färdigt – ge dem inte rätta svaret direkt. Gå igenom koden och "testa" den mot de olika svarsalternativen för att se om deras gissning fungerar, så att ni tillsammans kommer fram till om det är rätt svar eller om ni behöver hitta en annan lösning tillsammans. 
