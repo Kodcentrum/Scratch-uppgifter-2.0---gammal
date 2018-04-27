@@ -2,7 +2,7 @@
 
 **Kan du knäcka koden?**
 
-Denna lek går ut på att barnen skall knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga alternativ och med hjälp av dessa så sall de försöka lista ut rätt kod.
+Denna lek går ut på att barnen skall knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga alternativ och med hjälp av dessa så sall de försöka lista ut rätt kod. Leken är inspirerad av spelet Mastermind. 
 
 ![Exempel på kodknäckaren](./kodknackaren.png)
 
