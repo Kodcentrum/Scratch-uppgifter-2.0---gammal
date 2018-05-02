@@ -2,7 +2,9 @@
 
 **Kan du knäcka koden och räkna ut vilka emojis som ska stå i vilken ordning?**
 
-Denna lek är inspirerad av spelet Mastermind och går ut på att deltagarna ska försöka knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga kodrader med emojis. Med hjälp av dessa ska de försöka lista ut rätt kodrad. Vita och svarta cirklar ger ledtrådar för hur många emojis som är rätt och om de ligger i rätt ordning. Det gäller alltså att lista ut vilka emojis som ska vara med i kodraden och i vilken ordning de ska stå!
+Denna lek är inspirerad av spelet Mastermind och går ut på att deltagarna ska försöka knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga kodrader med emojis. Med hjälp av dessa ska de försöka lista ut rätt kodrad. 
+
+Vita och svarta cirklar ger ledtrådar för hur många emojis som är rätt och om de ligger i rätt ordning. Det gäller alltså att lista ut vilka emojis som ska vara med i kodraden och i vilken ordning de ska stå!
 
 ![Exempel på kodknäckaren](./kodknackaren.png)
 
