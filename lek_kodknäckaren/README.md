@@ -1,6 +1,6 @@
 # Kodknäckaren
 
-**Kan du knäcka koden?**
+**Kan du knäcka koden och räkna ut vilka emojis som ska stå i vilken ordning?**
 
 Denna lek är inspirerad av spelet Mastermind och går ut på att deltagarna ska försöka knäcka en kod genom uteslutningsmetoden. De får ett papper med ett par felaktiga kod-rader och med hjälp av dessa ska de försöka lista ut rätt kod.
 
