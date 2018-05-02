@@ -8,7 +8,7 @@ Denna lek är inspirerad av spelet Mastermind och går ut på att deltagarna ska
 
 ## Material att ladda ned och skriva ut
 
-* [Kodknäckaren (inkl facit)](kodknackaren.pdf)
+* [Kodknäckaren (inkl facit)](https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/lek_kodkn%C3%A4ckaren/kodknackaren.pdf)
 
 ## Instruktioner för handledare
 
