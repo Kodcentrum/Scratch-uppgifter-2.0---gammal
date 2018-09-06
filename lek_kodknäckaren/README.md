@@ -1,4 +1,4 @@
-# Kodknäckaren
+# Emojikoden
 
 **Kan du knäcka koden och räkna ut vilka emojis som ska stå i vilken ordning?**
 
@@ -10,7 +10,7 @@ Vita och svarta cirklar ger ledtrådar för hur många emojis som är rätt och 
 
 ## Material att ladda ned och skriva ut
 
-* [Ladda ned Kodknäckaren (inkl facit) som PDF](https://github.com/Kodcentrum/Scratch-uppgifter/raw/master/lek_kodkn%C3%A4ckaren/kodknackaren.pdf)
+* [Ladda ned Emojikoden (inkl facit) som PDF](https://github.com/Kodcentrum/Scratch-uppgifter/raw/master/lek_kodkn%C3%A4ckaren/kodknackaren.pdf)
 
 ## Instruktioner för handledare
 
@@ -18,6 +18,6 @@ Vita och svarta cirklar ger ledtrådar för hur många emojis som är rätt och 
 
 Dela in deltagarna i mindre grupper eller låt dem jobba parvis. 
 
-1. Dela ut den utskrivna pdf:en med Kodknäckaren. Göm undan facitsidan. 
+1. Dela ut den utskrivna pdf:en med Emojikoden. Göm undan facitsidan. 
 3. Ge deltagarna ett problem i taget att lösa. Förklara uppgiften och vad de vita och svarta cirklarna betyder. 
 4. När deltagarna tror att de kommit fram till rätt kod – ge dem inte svaret direkt. Gå igenom koden och "testa" den mot de olika svarsalternativen för att se om deras kod fungerar, så att ni tillsammans kommer fram till om det är rätt kod eller om ni behöver hitta en annan lösning tillsammans. 
