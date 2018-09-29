@@ -8,13 +8,13 @@ I vårt fall ska vi få en av kodcentrum-robotarna att röra sig så här:
 
 ![Alt Text](Robot_1.gif)
 
-## 1: Remixa 
+## 1: Remixa
 
 När man ska koda i Scratch kan man antingen starta ett eget program själv, eller jobba vidare på någon annans program. Detta kallas för att remixa. Vi ska nu testa att remixa ett program från kodboken.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-[Programlänk](https://scratch.mit.edu/projects/210051047/)
+<a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Projektlänk</a> <!--_-->
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
@@ -48,7 +48,7 @@ Vi kan nu koda som vi vill i det remixade projektet. I just detta finns ingen ko
 
 ![Alt Text](Robot_2.gif)
 
-3. Testa sätta ett minustecken framför siffran. Vad händer då? 
+3. Testa sätta ett minustecken framför siffran. Vad händer då?
 
 ![Alt Text](Skript_2.gif)
 
@@ -64,7 +64,7 @@ Förutom att gå fram och tillbaka så vill vi att roboten ska kunna vända på 
 
 1. Dra ut båda två och dubbelklicka på dem. Vad händer om du byter siffran 15 till något större? Testa med 30, 90, 180 och 270.
 
-2. Testa byta till 360. Vad händer då? 
+2. Testa byta till 360. Vad händer då?
 
 3. Testa byta till något ännu större än 360 och till något negativt. Vad händer då?
 
@@ -76,7 +76,7 @@ Nu när vi har Vänd-skripten kan vi få roboten att vända sig om.
 
 Nu har vi lärt oss hur vi får roboten att göra enskilda rörelser, men hur ska vi göra för att få henne att göra flera saker i rad?
 
-Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika sätt. 
+Scratch-skripten funkar lite som legobitar, man kan sätta ihop dem på olika sätt.
 
 1. Sätt ihop några av skripten du tagit fram efter varandra.
 
@@ -98,7 +98,7 @@ Nu har vi lärt oss hur man får roboten att röra sig genom att dubbelklicka di
 
 ![Alt Text](Skript_5.gif)
 
-Det finns många olika sorters händelse-skript man kan använda. 
+Det finns många olika sorters händelse-skript man kan använda.
 
 Alla skript i programmet måste vara kopplade till ett händelse-skript, annars kommer inte programmet veta när den ska köra skripten.
 
