@@ -10,7 +10,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-[Projektlänk](https://scratch.mit.edu/projects/210050672/)
+<a href="https://scratch.mit.edu/projects/210050672/" target='_blank'>Projektlänk</a> <!--_-->
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
