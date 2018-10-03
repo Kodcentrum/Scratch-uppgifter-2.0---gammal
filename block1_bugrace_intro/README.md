@@ -63,6 +63,7 @@ Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm in
 Börja med att dra och sätta ned skalbagge-sprajten på den målade banan, där du tycker den ska stå när spelet börjar. Tryck även på SKRIPT-fliken högst upp i mitten, om den inte redan är vald.
 
 Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
+
 Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START - som alltså är den gröna flaggan som finns högt upp. För att göra det måste du tala om för skalbaggen vad den ska göra. Du ska alltså koda och lägga till ditt första skript som säger:
 
 "När jag trycker på START, ska skalbaggen röra sig."
@@ -70,7 +71,7 @@ Det första du ska göra är att se till att skalbaggen rör sig när du trycker
 Gör såhär:
 
 7. I mitten överst hittar du flera färgglada rubriker med en massa kod-pusselbitar under. Klicka på bruna rubriken **HÄNDELSER** och välj pusselbiten som är blocket för: **"när START (gröna flaggan) klickas på"**. Ta tag i och dra detta block till skriptytan (den stora tomma ytan till höger) och släpp den någonstans där. Välj sedan mörkblå rubriken **RÖRELSE** och välj blocket **"gå 10 steg"**. Lägg detta block  under det första blocket med den gröna flaggan på scriptytan och koppla ihop de två som om de vore pusselbitar.
-> Tips: om man för dem nära varandra dyker en vit kant upp, då kan man släppa så kopplar de automatiskt ihop sig vid varandra.
+> Tips: om man för block nära varandra på scriptytan dyker en vit kant upp, då kan man släppa så kopplar blocken automatiskt ihop sig.
 
   ![image alt text](image_11.png)
 
@@ -82,7 +83,7 @@ Gör såhär:
 
 > Testa nu vad som händer när du trycker på START. Skalbaggen flyttar sig åt höger! Det är bra, men du vill ju att skalbaggen skall röra sig framåt hela tiden när spelet startats. Hur gör du det?
 
-8. Under rubriken **KONTROLL** finns scriptblocket **"för alltid"**. Det här är en LOOP, något som sker om och om igen, som gör att sprajten fortsätter röra sig framåt så länge spelet är igång. Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så den hamnar runt omkring blocket **"gå 10 steg"**. Kolla på bilden nedan så ser du hur du ska göra.
+8. Under rubriken **KONTROLL** finns scriptblocket **"för alltid"**. Det här är en LOOP, något som sker om och om igen, som kommer göra att skalbaggen fortsätter röra sig framåt så länge spelet är igång. Dra in **"för alltid"**-loopen och lägg den direkt under **"när START klickas på"** så blocket **"gå 10 steg"** hamnar inuti loopen. Kolla på bilden nedan så ser du hur du ska göra.
 
   ![image alt text](image_13.png)
 
@@ -93,20 +94,21 @@ Gör såhär:
 
 ## 4: Sätt en Startposition
 
-För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill spela, kan du säga åt datorn att placera den på en förbestämd plats varje gång du startar spelet. Detta kallas för att **initiera programmet**, du gör ett INIT-SKRIPT som berättar för datorn hur programmet du byggt ska starta.
+För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gång du vill spela, kan du säga åt datorn att placera den på en förbestämd plats varje gång du startar spelet. Detta kallas för att **initiera programmet**, du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.
 
 Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
 
-9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spels yta. 
+9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
 
   ![image alt text](image_14.png)
 
-Nu kommer skalbaggen automatiskt att förflyttas till sin startposition varje gång du trycker på gröna START-flaggan.
+Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje gång du trycker på gröna START-flaggan.
 
 
 ## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
+Gör såhär:
 
 10. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg den bredvid varandra vart som som helst fritt på skriptytan. Bredvid ordet **mellanslag** i dessa två block finns en liten svart triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
 
@@ -119,7 +121,7 @@ Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar
 
 ## 6: Ändra startriktning
 
-Om du trycker på START igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll  och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
+Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 
 12. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
 
@@ -130,11 +132,12 @@ Om du trycker på START igen märker du att skalbaggen behåller den riktning so
 
 ## 7: Känna av när skalbaggen åker av banan
 
-Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför din bana. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
+Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför banan. Hur ska den kunna veta det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen, som säger att: "**OM** skalbaggen rör vid färgen som finns utanför banan betyder det att den har åkt av banan, och **DÅ** ska spelet ta slut", alltså att spelet blir Game Over!
+Gör såhär:
 
 13. Under **KONTROLL** finns blocket "**om <> då**", dra in det till scriptytan, lägg det fritt någonstans bredvid de övriga scripten. Det här blocket säger att **OM** det som står inom **<>** händer, **DÅ** ska något annat direkt hända. Till exempel: Om skalbaggen <rör färgen grön>, säg Game Over i 2 sekunder.
 
-14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. Dra in detta block till **<>** inom blocket "**om <> då**" som du lagt på scriptytan. Tryck sedan på den lilla fyrkanten med färg i så du får fram en liten hand som symbol. Flytta sedan handen till spelets färgyta utanför banan och klicka en gång med musen - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelet utanför banan. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid just denna färg.
+14. Under **KÄNNA AV** finns blocket "**Rör färgen <> ?"**. Dra in detta block till **<>** inom blocket "**om <> då**" som du lagt på scriptytan. Tryck sedan på den lilla fyrkanten med färg i (till höger om texten **"rör färgen"**) så du får fram en liten hand som symbol. Flytta handen till spelets bakgrundsyta med annan färg än banan och klicka en gång - då byts färgen i den lilla fyrkanten på scriptytan och får nu samma färg som den du har i spelets bakgrund. Nu har du talat om för datorn att något ska hända när skalbaggen rör vid denna färg.
 
   ![image alt text](image_17.png)
 
@@ -145,11 +148,14 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 
 ## 8: Göra klart skriptet
 
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen nuddar färgen utanför banan? Det behöver ju göras efter **varje** steg skalbaggen tar, för att inte missa om den hamnar utanför banan. Datorn måste kolla vart sckalbaggen är om och om igen, hela tiden. Därför måste du slå ihop skriptet som känner av färgen utanför banan med skriptet du gjort tidigare som får skalbaggen att röra sig - så det blir ett helt, långt skript. Gör såhär:
+Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla exaktvart skalbaggen befinner sig "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med skriptet du har som får skalbaggen att röra sig. 
+Gör såhär:
 
-16. Lägg skriptet som känner av färgen utanför banan, **inuti** din "för alltid"-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
+16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
-17. När spelet blir Game Over ska ju allt ta slut och skalbaggen sluta springa. Under **KONTROLL** finns blocket **"stoppa detta skript"**. Stoppa in detta block längst ned inuti scriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar.
+17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa detta skript"**. Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar.
+
+> Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
 
 
 ## Färdig!
@@ -157,7 +163,7 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 
 ![image alt text](image_18.png)
 
-**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet till vänster högt upp, där det nu står "Untitled". Spara sedan. Du måste vara inloggad för att kunna spara.
+**Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet till vänster högt upp, där det nu står "Untitled". Spara sedan, men måste vara inloggad för att kunna spara.
 
 > **Testa ditt projekt**  
 Visa gärna någon det som du har gjort och låt dem testa. Tryck på knappen DELA som du finner bredvid knappen för att SPARA för att andra ska kunna hitta spelet på Scratch.
