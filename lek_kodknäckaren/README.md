@@ -10,7 +10,7 @@ Vita och svarta cirklar ger ledtrådar för hur många emojis som är rätt och 
 
 ## Material att ladda ned och skriva ut
 
-* [Ladda ned Emojikoden (inkl facit) som PDF](https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/lek_kodkn%C3%A4ckaren/Emojikoden.pdf target="_blank")
+* [Ladda ned Emojikoden (inkl facit) som PDF](https://github.com/Kodcentrum/Scratch-uppgifter/blob/master/lek_kodkn%C3%A4ckaren/Emojikoden.pdf)
 
 ## Instruktioner för handledare
 
