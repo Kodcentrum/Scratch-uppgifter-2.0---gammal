@@ -2,13 +2,17 @@
 
 Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet. Ramlar figuren utanför banan blir du Game Over!
 
-Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a> Kanske ditt kommer se lite annorlunda ut, du bestämmer.
+Ett exempel på det färdiga spelet kan du se <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>. Kanske ditt kommer se lite annorlunda ut, men grunderna för hur du bygger spelet skapar du om du följer instruktionerna i denna guide.
 
 ![image alt text](example.png)
 
+Nu ska vi börja koda spelet! Klicka dig fram genom denna guide, steg för steg på de gröna knapparna här under. Öppna även <a href="https://scratch.mit.edu" target="_blank">verktyget Scratch</a> där du kodar och skapar själva spelet utifrån våra instruktioner. (Tips: lägg gärna två fönster bredvid varandra, en med Kodbokens instruktioner och en med Scratch. Om det blir för trångt på skärmen kan du kan även öppna Kodboken och Scratch som två olika flikar (Tabs) att växla mellan medan du skapar.
+
+Då börjar vi! Klicka fram nästa sida i vår guide här nedan på grön cirkel med siffran 1 i.
+
 ## 1: Välja en skalbagge som sprajt
 
-En **sprajt** är alla de figurer eller anndra saker du väljer att lägga in i ditt spel eller projekt, som en katt, en boll, ett ritat träd eller annat. I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
+En **sprajt** är alla de figurer eller andra saker du väljer att lägga in i ditt spel eller projekt i Scratch, som en katt, en boll, ett ritat träd eller annat. Alla sprajter kan styras med den kod (script) du väljer att lägga in i Scratch. I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
 
 1. Tryck på saxen (högt uppe i mitten ovanför katten) och klicka sedan på katten så försvinner den - du har nu klippt bort den ur projektet.
 
