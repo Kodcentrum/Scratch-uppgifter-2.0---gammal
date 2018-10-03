@@ -156,7 +156,7 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 ## Utmaning
 Saknas något? Hur skulle du vilja utveckla spelet?
 
-Det får du göra i nästa uppgift!
+Det får du göra i nästa uppgift som heter Bug Race Tillägg!
 
 ## Frågeställningar
 
