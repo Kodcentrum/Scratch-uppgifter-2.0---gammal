@@ -7,6 +7,7 @@ Ett exempel på det färdiga spelet kan du se <a href="https://scratch.mit.edu/p
 ![image alt text](example.png)
 
 Nu ska vi börja koda spelet! Klicka dig fram genom denna guide, steg för steg på de gröna knapparna här under (om du inte har skrivit ut instruktionen på papper). Öppna även <a href="https://scratch.mit.edu" target="_blank">verktyget Scratch</a> där du kodar och skapar själva spelet utifrån våra instruktioner. 
+
 > Tips: lägg gärna två fönster bredvid varandra på din datorskärm, ett fönster med Kodbokens instruktioner och ett annat med Scratch verktyg. Om det blir för litet och trångt på skärmen kan du kan testa att öppna Kodboken och Scratch som två olika flikar (Tabs) att växla mellan medan du skapar.
 
 Då börjar vi! Klicka fram nästa sida i vår guide här nedan på grön cirkel med siffran 1 i.
