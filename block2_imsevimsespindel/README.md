@@ -8,6 +8,8 @@ Nu ska du få skapa ett program som är en interaktiv berättelse, en berättels
 Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
 
   ![image alt text](image_1.png)
+  
+  Då börjar vi koda!
 
 ## 1: Välja en insekt som sprajt
 
