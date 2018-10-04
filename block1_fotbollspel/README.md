@@ -6,6 +6,11 @@ Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu
 
 ![image alt text](image_0.png)
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
+
 ## 1: Välj sprajtar för fotbollsspelare och boll
 
 Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.
