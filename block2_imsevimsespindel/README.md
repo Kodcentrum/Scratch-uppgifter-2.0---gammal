@@ -2,6 +2,9 @@
 
 Nu ska du få skapa ett program som är en interaktiv berättelse, en berättelse där användaren styr vad som ska hända. Programmet är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att illustrera barnvisan ”Imse Vimse Spindel” med hjälp av enkla animationer.
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+
 Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
 
   ![image alt text](image_1.png)
