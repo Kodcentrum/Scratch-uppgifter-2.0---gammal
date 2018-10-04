@@ -6,6 +6,11 @@ Här kan du se ett exempel här: <a href="https://scratch.mit.edu/projects/10473
 
 ![image alt text](image_0.png)
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
+
 ## 1: En val som följer muspekaren
 När du startar ett nytt projekt visas en katt som enda sprajt på vit bakgrund. Ta bort katten och rita en egen sprajt som ska vara spelets huvudkaraktär, den flygande valen. Den ska kunna styras med hjälp av muspekaren.
 
