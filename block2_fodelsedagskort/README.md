@@ -4,6 +4,11 @@ Här får du göra ett digitalt födelsedagskort som du kan skicka till någon s
 
 ![image alt text](image_0.png)
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
+
 ## 1: Välja sprajtar och bakgrund
 
 Först behöver du en festlig **bakgrund** och några dansande **sprajtar**!
