@@ -1,18 +1,16 @@
 # Bug Race (intro)
 
-Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på tangentbordet. Ramlar figuren utanför banan blir du Game Over!
+Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Ramlar figuren utanför banan blir du Game Over!
 
-Ett exempel på det färdiga spelet kan du se <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>. Kanske ditt kommer se lite annorlunda ut, men grunderna för hur du bygger spelet skapar du om du följer instruktionerna i denna guide.
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Öppna även verktyget Scratch i nytt fönster eller anann flik (tab)</a> (www.scratch.mit.edu) där du kodar och skapar själva Bug Race-spelet utifrån Kodbokens instruktioner. 
+
+<a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Ett exempel på det färdiga spelet kan du se på www.scratch.mit.edu</a>.
 
 ![image alt text](example.png)
 
-Nu ska vi börja koda spelet! Klicka dig fram genom denna guide, steg för steg på de gröna knapparna här under (om du inte har skrivit ut instruktionen på papper). Öppna även <a href="https://scratch.mit.edu" target="_blank">verktyget Scratch</a> där du kodar och skapar själva spelet utifrån våra instruktioner. 
+Då börjar vi!
 
-> Tips: lägg gärna två fönster bredvid varandra på din datorskärm, ett fönster med Kodbokens instruktioner och ett annat med Scratch verktyg. Om det blir för litet och trångt på skärmen kan du kan testa att öppna Kodboken och Scratch som två olika flikar (Tabs) att växla mellan medan du skapar.
-
-Då börjar vi! Klicka fram nästa sida i vår guide här nedan på grön cirkel med siffran 1 i.
-
-## 1: Välja en skalbagge som sprajt
+## 1: Välj en skalbagge som sprajt
 
 En **sprajt** är alla de figurer eller andra saker du väljer att lägga in i ditt spel eller projekt i Scratch, som en katt, en boll, ett ritat träd eller annat. Alla sprajter kan styras med den kod (script) du väljer att lägga in i Scratch. I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
 
