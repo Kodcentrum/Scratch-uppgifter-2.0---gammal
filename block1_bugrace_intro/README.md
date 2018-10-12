@@ -167,7 +167,10 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet till vänster högt upp, där det nu står "Untitled". Spara sedan, men måste vara inloggad för att kunna spara.
 
 > **Testa ditt projekt**  
-Visa gärna någon det som du har gjort och låt dem testa. Tryck på knappen DELA som du finner bredvid knappen för att SPARA för att andra ska kunna hitta spelet på Scratch.
+Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner bredvid knappen för att SPARA, så kan andra hitta spelet på Scratch sajt. 
+
+> **Om att dela ditt projekt**
+Tänk på att om du delar ditt projekt kan alla som vill se och prova det. Det är viktigt att du inte sparar och delar något där du lagt in information eller bilder du inte vill sprida till andra.
 
 
 ## Utmaning
