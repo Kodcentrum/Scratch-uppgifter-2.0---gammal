@@ -2,6 +2,9 @@
 
 Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig i programmeringsverktyget Scratch.
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+
 De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer man för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig.
 
 Nu ska vi prova att koda en av Kodcentrums robotar att röra sig så här:
