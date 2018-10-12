@@ -2,6 +2,9 @@
 
 Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad som händer i programmet.
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+
 Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende var du klickar, till exempel spel som startar olika banor när du klickar på dem.
 
 ## 1: Remixa
