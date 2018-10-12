@@ -170,7 +170,8 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner bredvid knappen för att SPARA, så kan andra hitta spelet på Scratch sajt. 
 
 > **Viktigt om att dela**
-Tänk på att om du delar ditt projekt kan alla som vill se och prova det. Det är viktigt att du inte sparar och delar något där du lagt in information eller bilder du inte vill sprida till andra.
+
+Tänk på att om du delar ditt projekt kan alla som vill se och prova det. Det är viktigt när du sparar och delar att det inte innhåller information eller bilder du inte vill sprida till andra.
 
 
 ## Utmaning
@@ -188,4 +189,4 @@ Tips på hur du kan bygga vidare på Bug Race får du i nästa uppgift som heter
 
 * Vad är ett INIT- eller Start-Skript?
 
-* Vad händer i spelet om sprajten har samma färg som bakgrunden?
+* Vad händer i spelet Bug Race om sprajten har samma färg som bakgrunden?
