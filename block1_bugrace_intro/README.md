@@ -169,7 +169,7 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 > **Testa ditt projekt**  
 Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner bredvid knappen för att SPARA, så kan andra hitta spelet på Scratch sajt. 
 
-> **Om att dela ditt projekt**
+> **Viktigt om att dela**
 Tänk på att om du delar ditt projekt kan alla som vill se och prova det. Det är viktigt att du inte sparar och delar något där du lagt in information eller bilder du inte vill sprida till andra.
 
 
