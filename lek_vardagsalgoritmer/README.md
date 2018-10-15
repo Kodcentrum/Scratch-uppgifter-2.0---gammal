@@ -2,12 +2,12 @@
 
 ### **Skapa dina egna algoritmer med exempel från vardagen!**
 
-I den här här leken får du klura ut lösningen på olika vardagsproblem med hjälp av kodblock. Klipp ut kodblocken och placera rätt dem i rätt ordning för att bygga din algoritm med koden för lösningen. Det finns tre problem att lösa i stigande svårighetsgrad.
+I den här här leken får du klura ut lösningen på olika vardagsproblem med hjälp av kodblock. Klipp ut och placera kodblocken i rätt ordning för att bygga din algoritm med koden för lösningen. Det finns tre problem att lösa i stigande svårighetsgrad.
 
 ![Exempel på kodknäckaren](Robot_steker_pannkakor.png)
 
 ## Material att ladda ned och skriva ut
-* [Vardagsalgoritmer](Vardagsalgoritmer_samlade.pdf) PDF med tre problem aatt lösa med tillhörande kodblock. I stigande svårighetsgrad. 
+* [Vardagsalgoritmer](Vardagsalgoritmer_samlade.pdf) - PDF med tre problem i stigande svårighetsgrad. 
 
 ## Instruktioner för handledare
 **Tidåtgång: Ca 15min**
