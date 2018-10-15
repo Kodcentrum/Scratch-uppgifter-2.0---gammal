@@ -1,6 +1,6 @@
 # Vardagsalgoritmer
 
-### **Skapa dina egna algoritmer med exempel från vardagen!**
+### **Lös vardagsproblem med dina algoritmer!**
 
 I den här här leken får du klura ut lösningen på olika vardagsproblem med hjälp av kodblock. Klipp ut och placera kodblocken i rätt ordning för att bygga din algoritm med koden för lösningen. Det finns tre problem att lösa i stigande svårighetsgrad.
 
