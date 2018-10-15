@@ -7,17 +7,17 @@ I den här här leken får du klura ut lösningen på olika vardagsproblem med h
 ![Exempel på kodknäckaren](Robot_steker_pannkakor.png)
 
 ## Material att ladda ned och skriva ut
-* [Vardagsalgoritmer](Vardagsalgoritmer_samlade.pdf)
+* [Vardagsalgoritmer](Vardagsalgoritmer_samlade.pdf) PDF med tre problem aatt lösa med tillhörande kodblock. I stigande svårighetsgrad. 
 
 ## Instruktioner för handledare
 **Tidåtgång: Ca 15min**
 
 Låt deltagarna lösa uppgiften på egen hand eller två och två.
 
-1. Skriv ut PDF Vardagsalgoritmer ovan (tre problem att lösa i stigande svårighetsgrad)
+1. Skriv ut PDF Vardagsalgoritmer ovan
 2. Klipp ut blocken som tillhör varje algoritm. 
 3. Ge barnen ett problem i taget med dess kodblock att skapa algoritmer för. Be dem lägga blocken på rätt plats så önskat resultat uppnås.
-4. När deltagarna anser sig ha lagt blocken på rätt plats, går ni tillsammans igenom algoritmen och ser se så den ger rätt resultat. (det finns flera lösningar till problemen.)
+4. När deltagarna anser sig ha lagt blocken på rätt plats, går ni tillsammans igenom algoritmen och ser se så den ger rätt resultat. Det finns olika lösningar till problemen.
 
 ## Debugg variant
-Som ovan fast att du som handledare lägger ut blocken i fel ordning. Barnens uppgift är sedan att debugga algoritmen. Alltså lägga blocken i rätt ordning.
+Som ovan fast att du som handledare lägger ut blocken i fel ordning. Deltagarnas uppgift är sedan att debugga algoritmen - alltså att lägga blocken i rätt ordning.
