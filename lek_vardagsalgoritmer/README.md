@@ -3,6 +3,7 @@
 **Skapa dina egna algoritmer med exempel från vardagen!**
 
 I den här här leken får du klura ut lösningen på ett problem med hjälp av olika kodblock. Klipp ut kodblocken och placera rätt block i rätt ordning för att bygga din algoritm med lösningen. Det finns tre algoritmer i stigande svårighetsgrad.
+[Pannkaksrobot](Robot_steker_pannkakor.png)
 
 ## Material att ladda ned och skriva ut
 * Klädsel (lätt): [Vardagsalgoritmer](Vardagsalgoritmer_samlade.pdf)
