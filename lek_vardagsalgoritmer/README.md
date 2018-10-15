@@ -16,7 +16,7 @@ Låt deltagarna lösa uppgiften på egen hand eller två och två.
 
 1. Skriv ut PDF Vardagsalgoritmer ovan
 2. Klipp ut blocken som tillhör varje algoritm. 
-3. Ge barnen ett problem i taget med dess kodblock att skapa algoritmer för. Be dem lägga blocken på rätt plats så önskat resultat uppnås.
+3. Ge deltagarna ett problem i taget med dess kodblock att skapa algoritmer för. Be dem lägga blocken på rätt plats så önskat resultat uppnås.
 4. När deltagarna anser sig ha lagt blocken på rätt plats, går ni tillsammans igenom algoritmen och ser se så den ger rätt resultat. Det finns olika lösningar till problemen.
 
 ## Debugg variant
