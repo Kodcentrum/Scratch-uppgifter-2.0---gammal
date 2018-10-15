@@ -7,7 +7,7 @@ I den här här leken får du klura ut lösningen på olika vardagsproblem med h
 ![Exempel på kodknäckaren](Robot_steker_pannkakor.png)
 
 ## Material att ladda ned och skriva ut
-* [Ladda ned Vardagsalgoritmer](https://github.com/Kodcentrum/Scratch-uppgifter/raw/master/lek_vardagsalgoritmer/Vardagsalgoritmer_samlade.pdf)
+* [Klicka för att ladda ned Vardagsalgoritmer som PDF](https://github.com/Kodcentrum/Scratch-uppgifter/raw/master/lek_vardagsalgoritmer/Vardagsalgoritmer_samlade.pdf)
 
 ## Instruktioner för handledare
 **Tidåtgång: Ca 15min**
