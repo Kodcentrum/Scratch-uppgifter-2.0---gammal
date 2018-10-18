@@ -6,6 +6,11 @@ Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.
 
 ![image alt exempel](image_1.png)
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
+
 ## 1: Sätt upp en scen och sprajtar
 
 1.	Skapa ett nytt projekt och ta bort katten.

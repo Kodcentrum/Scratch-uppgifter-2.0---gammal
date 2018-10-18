@@ -2,6 +2,9 @@
 
 Nu ska du få lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+
 Detta gör att man kan få sprajtar att röra sig hela tiden, istället för bara några steg. Tänk till exempel hur fienderna i Pacman rör sig hela tiden, eller hur bollen i Pong studsar fram och tillbaka.
 
 ## 1: Remixa
@@ -10,7 +13,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-[Projektlänk](https://scratch.mit.edu/projects/210050842/)
+<a href="https://scratch.mit.edu/projects/210050842/" target='_blank'>Projektlänk</a> <!--_-->
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
@@ -40,7 +43,7 @@ På skriptytan finns redan några skript utplacerade. Om du klickar på den grö
 
 2. Klicka på gröna flaggan.
 
-Snyggt jobbat! Nu rör sig roboten fram och tillbaka flera gånger innan hon stannar. Och vi behövde bara lägga till ett extra skript för att göra det. 
+Snyggt jobbat! Nu rör sig roboten fram och tillbaka flera gånger innan hon stannar. Och vi behövde bara lägga till ett extra skript för att göra det.
 
 ## 3: För-alltid-blocket
 
