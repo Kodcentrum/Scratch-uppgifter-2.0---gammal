@@ -92,7 +92,7 @@ Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du 
 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
-    ![image alt text](image_11.png)
+![image alt text](image_11.png)
 
 1. Markera **Nyckel** sprajten och klicka på fliken **Klädslar**.
 
