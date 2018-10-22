@@ -16,13 +16,13 @@ Nu ska du få börja koda en enkel variant där du skakar fram en sten, sax elle
 
 Sten, sax och påse spelet ska däremot starta när du skakar på micro:biten.
 
-1. Dra ett block **"för skaka"** från kategorin **Input** till kodytan
+1. Dra ett block **"när skaka"** från kategorin **Input** till kodytan
 
     ![image alt text](image_4.png)
 
     ![image alt text](image_5.png)
 
-2. Dra in ett block **"sätt _namnlös_ på 0**" från kategorin **Variabler** och lägg det innanför “för skaka”-blocket
+2. Dra in ett block **"sätt _namnlös_ till 0**" från kategorin **Variabler** och lägg det innanför när skaka”-blocket
 
 3. Klicka på nedåtpilen bredvid **_namnlös_** och sedan på **Ändra namn på variablen...**
 
@@ -83,7 +83,7 @@ Här behöver du kommunicera med minst en annan person som kodar samma uppgift, 
 
 1. Lägg in följande kod under blocket **"vid start"**
 
-    1. Sätt **"hand"** på -1
+    1. Sätt **"hand"** till -1
 
     2. Radio **ställ in grupp** 1. Detta block hittar du under kategorin **Radio**.
 
@@ -107,9 +107,7 @@ Nu kommer du hela tiden sända värdet på variabeln **"hand"** till den andra m
 
 2. Istället för att kalla variabeln som du tar emot **"receivedNumber"** så ska du kalla den **“hand2”**
 
-3. Klicka på den lilla pilen bredvid variabeln namnet och sedan på **"ändra namn på variabel"**
-
-    ![image alt text](image_15.png)
+3. Klicka på den texten *"receivedNumber"* så kommer det upp en ruta där du kan skriva in det nya namnet.
 
 4. Döp variabeln till **"hand2"**
 
@@ -164,7 +162,7 @@ Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att 
 
 ## Utmaningar
 
-#### Animation
+### Animation
 
 Skapa en animation i stället för att visa en glad eller ledsen ikon när du tar emot radiosignalen från din kompis.
 
@@ -172,7 +170,7 @@ Skapa en animation i stället för att visa en glad eller ledsen ikon när du ta
 
 * Eller så kan du använda mer avancerade block som du hittar om du klickar på **Avancerat** och sedan **Bilder**
 
-##### Javascript
+#### Javascript
 
 Utforska det textbaserade språket *Javascript*! Precis all kod du kan skriva med hjälp av block kan du också skriva med ett textbaserad programmeringsspråk.
 
