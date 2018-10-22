@@ -21,8 +21,8 @@
 </li>
 </ol>
 <p>I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta som spelet utspelar sig på. Hur dessa fungerar ska vi titta på strax. Du har också en sprajt som är en robot och som kan röra sig över scenen.</p>
-<pre><code>![image alt text](image_4.png)
-</code></pre><p><em>De fem sprajtarna i det remixade programmet</em></p>
+<p><img src="image_4.png" alt="image alt text"></p>
+<p><em>De fem sprajtarna i det remixade programmet</em></p>
 <blockquote>
 <p>Testa programmet! Kan du förflytta roboten över scenen med hjälp av piltangenterna? Förflyttar sig scenen när du rör på roboten?</p>
 </blockquote>
@@ -30,24 +30,24 @@
 <p>Det är bra om du förstår hur koden i det remixade programmet fungerar. På så sätt blir det enklare att förändra spelet efter dina önskemål. Du kanske vill utöka banan, eller använda dig av en egenritad bakgrund.</p>
 <h3 id="bakgrunden">Bakgrunden</h3>
 <p>En sprajt eller en bakgrund kan i Scratch maximalt vara 480 pixlar bred och 360 pixlar hög, eftersom det är storleken på scenen. Därför är det svårt att importera till exempel en jättestor karta som bakgrund. I detta spel har vi löst det genom att skapa fyra sprajter som är 480 x 360 pixlar var och lägga dem sida vid sida, som så här:</p>
-<pre><code>![image alt text](image_5.png)
-</code></pre><p>I bilderna som finns i det remixade spelet har en smal vit linje ritats ut mellan bilderna för att göra detta extra tydligt. Denna går självklart att ta bort, men för tillfället får den vara kvar.</p>
+<p><img src="image_5.png" alt="image alt text"></p>
+<p>I bilderna som finns i det remixade spelet har en smal vit linje ritats ut mellan bilderna för att göra detta extra tydligt. Denna går självklart att ta bort, men för tillfället får den vara kvar.</p>
 <p>När vi sedan rör roboten över scenen kommer bilderna att flyttas med roboten. Ibland kanske en hel bakgrunds-sprajt visas på scenen, ibland visas delar av två och ibland visas delar av tre, osv, beroende vara roboten är.</p>
 <p>För att få detta att fungera så behöver vi introducera ett nytt koordinatsystem. Roboten kommer att förflytta sig inom det vanliga koordinatsystemet på scenen, medan bakgrunden kommer att förflytta sig i sitt eget koordinatsystem som vi skapar med hjälp av variabler. I stället för att ange koordinaterna med x och y i detta koordinatsystem så anges dem med variablerna <strong>&quot;fokus x&quot;</strong> och <strong>“fokus y”</strong>.</p>
-<pre><code>![image alt text](image_6.png)
-</code></pre><p>Nu tittar vi på koden för sprajten <strong>upp_vänster</strong>, den bakgrunds-sprajt som är längst upp till vänster. Den har ett enkelt skript som körs när den tar emot meddelandet <strong>&quot;flytta&quot;</strong>. Det enda skriptet gör är att flytta sprajten till en ny position på scenen som beror på variablerna <strong>“fokus x”</strong> och <strong>“fokus y”</strong>.</p>
-<pre><code>![image alt text](image_7.png)
-</code></pre><p>Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på att placera den sprajten korrekt beroende på variablerna <strong>&quot;fokus x&quot;</strong> och <strong>“fokus y”</strong>.</p>
+<p><img src="image_6.png" alt="image alt text"></p>
+<p>Nu tittar vi på koden för sprajten <strong>upp_vänster</strong>, den bakgrunds-sprajt som är längst upp till vänster. Den har ett enkelt skript som körs när den tar emot meddelandet <strong>&quot;flytta&quot;</strong>. Det enda skriptet gör är att flytta sprajten till en ny position på scenen som beror på variablerna <strong>“fokus x”</strong> och <strong>“fokus y”</strong>.</p>
+<p><img src="image_7.png" alt="image alt text"></p>
+<p>Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på att placera den sprajten korrekt beroende på variablerna <strong>&quot;fokus x&quot;</strong> och <strong>“fokus y”</strong>.</p>
 <blockquote>
 <p>Se om du kan förstå hur deras kod fungerar!</p>
 </blockquote>
 <h3 id="roboten">Roboten</h3>
 <p>Sprajten <strong>Robot</strong> har lite mer kod, men mycket av den fungerar på samma sätt. Vi börjar med att titta på startskriptet.</p>
-<pre><code>![image alt text](image_8.png)
-</code></pre><p>När spelet startar så sätts båda variablerna <strong>&quot;fokus x&quot;</strong> och <strong>“fokus y”</strong> till 0. Därefter så skickas meddelandet <strong>“flytta”</strong> som gör att alla bakgrund-sprajter placeras ut korrekt. Till sists så placeras roboten på ett lämpligt ställe på scenen.</p>
+<p><img src="image_8.png" alt="image alt text"></p>
+<p>När spelet startar så sätts båda variablerna <strong>&quot;fokus x&quot;</strong> och <strong>“fokus y”</strong> till 0. Därefter så skickas meddelandet <strong>“flytta”</strong> som gör att alla bakgrund-sprajter placeras ut korrekt. Till sists så placeras roboten på ett lämpligt ställe på scenen.</p>
 <p>Roboten har också fyra skript som startar när de fyra piltangenterna trycks ned. Vi tar och tittar på skriptet som körs när <strong>uppåt-pilen</strong> trycks ned.</p>
-<pre><code>![image alt text](image_9.png)
-</code></pre><p>Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y-axeln och studsar tillbaka om den nuddar kanten. Det är inte så konstigt. Men denna kod gör ju inte att bakgrunden flyttas med.</p>
+<p><img src="image_9.png" alt="image alt text"></p>
+<p>Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y-axeln och studsar tillbaka om den nuddar kanten. Det är inte så konstigt. Men denna kod gör ju inte att bakgrunden flyttas med.</p>
 <blockquote>
 <p>Om du vill kan du dra bort OM-satsen från skriptet och ser hur spelet fungerar ut den.</p>
 </blockquote>
@@ -64,8 +64,8 @@
 </li>
 </ol>
 <p>Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn <strong>ring</strong> och ska fungera som <strong>ledtråd</strong> till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:</p>
-<pre><code>![image alt text](image_11.png)
-</code></pre><ol>
+<p><img src="image_11.png" alt="image alt text"></p>
+<ol>
 <li><p>Markera <strong>Nyckel</strong> sprajten och klicka på fliken <strong>Klädslar</strong>.</p>
 </li>
 <li><p>Klicka på <strong>Rita ny klädsel</strong> <img src="image_12.png" alt="image alt text"></p>

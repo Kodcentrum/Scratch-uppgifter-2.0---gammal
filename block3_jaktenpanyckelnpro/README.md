@@ -28,7 +28,7 @@ Vi börjar med att remixa ett befintligt projekt.
 
 I projektet har du nu fem sprajtar. Fyra av dessa bildar bakgrunden, den karta som spelet utspelar sig på. Hur dessa fungerar ska vi titta på strax. Du har också en sprajt som är en robot och som kan röra sig över scenen.
 
-    ![image alt text](image_4.png)
+![image alt text](image_4.png)
 
 *De fem sprajtarna i det remixade programmet*
 
@@ -42,7 +42,7 @@ Det är bra om du förstår hur koden i det remixade programmet fungerar. På s�
 
 En sprajt eller en bakgrund kan i Scratch maximalt vara 480 pixlar bred och 360 pixlar hög, eftersom det är storleken på scenen. Därför är det svårt att importera till exempel en jättestor karta som bakgrund. I detta spel har vi löst det genom att skapa fyra sprajter som är 480 x 360 pixlar var och lägga dem sida vid sida, som så här:
 
-    ![image alt text](image_5.png)
+![image alt text](image_5.png)
 
 I bilderna som finns i det remixade spelet har en smal vit linje ritats ut mellan bilderna för att göra detta extra tydligt. Denna går självklart att ta bort, men för tillfället får den vara kvar.
 
@@ -50,11 +50,11 @@ När vi sedan rör roboten över scenen kommer bilderna att flyttas med roboten.
 
 För att få detta att fungera så behöver vi introducera ett nytt koordinatsystem. Roboten kommer att förflytta sig inom det vanliga koordinatsystemet på scenen, medan bakgrunden kommer att förflytta sig i sitt eget koordinatsystem som vi skapar med hjälp av variabler. I stället för att ange koordinaterna med x och y i detta koordinatsystem så anges dem med variablerna **"fokus x"** och **“fokus y”**.
 
-    ![image alt text](image_6.png)
+![image alt text](image_6.png)
 
 Nu tittar vi på koden för sprajten **upp_vänster**, den bakgrunds-sprajt som är längst upp till vänster. Den har ett enkelt skript som körs när den tar emot meddelandet **"flytta"**. Det enda skriptet gör är att flytta sprajten till en ny position på scenen som beror på variablerna **“fokus x”** och **“fokus y”**.
 
-    ![image alt text](image_7.png)
+![image alt text](image_7.png)
 
 Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på att placera den sprajten korrekt beroende på variablerna **"fokus x"** och **“fokus y”**.
 
@@ -64,13 +64,13 @@ Liknande kod finns för de andra tre bakgrunds-sprajterna. Deras kod går ut på
 
 Sprajten **Robot** har lite mer kod, men mycket av den fungerar på samma sätt. Vi börjar med att titta på startskriptet.
 
-    ![image alt text](image_8.png)
+![image alt text](image_8.png)
 
 När spelet startar så sätts båda variablerna **"fokus x"** och **“fokus y”** till 0. Därefter så skickas meddelandet **“flytta”** som gör att alla bakgrund-sprajter placeras ut korrekt. Till sists så placeras roboten på ett lämpligt ställe på scenen.
 
 Roboten har också fyra skript som startar när de fyra piltangenterna trycks ned. Vi tar och tittar på skriptet som körs när **uppåt-pilen** trycks ned.
 
-    ![image alt text](image_9.png)
+![image alt text](image_9.png)
 
 Det första som händer är helt enkelt att roboten förflyttas 10 steg längs y-axeln och studsar tillbaka om den nuddar kanten. Det är inte så konstigt. Men denna kod gör ju inte att bakgrunden flyttas med.
 
@@ -92,7 +92,7 @@ Efter en lång introduktion är det nu dags att börja remixa spelet! Nu ska du 
 
 Nästa steg är att rita en nya klädsel för nyckeln. Den kommer att vara en tunn **ring** och ska fungera som **ledtråd** till nyckeln när Roboten kommer nära så att spelaren vet när den är på rätt väg. Ungefär så här kommer det se ut när du spelar:
 
-    ![image alt text](image_11.png)
+![image alt text](image_11.png)
 
 1. Markera **Nyckel** sprajten och klicka på fliken **Klädslar**.
 
