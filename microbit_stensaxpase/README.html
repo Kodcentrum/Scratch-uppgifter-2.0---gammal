@@ -1,0 +1,189 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="sten-sax-och-p-se">Sten, sax och påse</h1>
+<p>I denna uppgift ska du få koda ett Sten, sax och påse spel för två spelare. Du kommer få lära dig variabler, slumptal och hur två micro:bits kan kommunicera med varandra.</p>
+<p>Ett exempel på spelet hittar du här: <a href="https://makecode.microbit.org/_dzK16s3k6Vq1" target="_blank">https://makecode.microbit.org/_dzK16s3k6Vq1</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<p>Om du aldrig har kodat en micro:bit förut är det bra om du gör uppgiften <strong>Uppvärmning</strong> först. Då får du lära dig lite enklare saker om micro:biten.</p>
+<h2 id="1-f-r-en-spelare">1 – För en spelare</h2>
+<p>Nu ska du få börja koda en enkel variant där du skakar fram en sten, sax eller en påse som visas på micro:bit displayen.</p>
+<blockquote>
+<p>När du startar micro:bit studion så finns det två block redan där. Ett block som startar kod när du starta micro:biten och ett block som hela tiden kör en loop i bakgrunden.</p>
+</blockquote>
+<p>Sten, sax och påse spelet ska däremot starta när du skakar på micro:biten.</p>
+<ol>
+<li><p>Dra ett block <strong>&quot;när skaka&quot;</strong> från kategorin <strong>Input</strong> till kodytan</p>
+<p> <img src="image_4.png" alt="image alt text"></p>
+<p> <img src="image_5.png" alt="image alt text"></p>
+</li>
+<li><p>Dra in ett block <strong>&quot;sätt <em>namnlös</em> till 0</strong>&quot; från kategorin <strong>Variabler</strong> och lägg det innanför när skaka”-blocket</p>
+</li>
+<li><p>Klicka på nedåtpilen bredvid <strong><em>namnlös</em></strong> och sedan på <strong>Ändra namn på variablen...</strong></p>
+<p> <img src="image_6.png" alt="image alt text"></p>
+</li>
+<li><p>Döp variabeln till <strong>&quot;hand&quot;</strong></p>
+<blockquote>
+<p>En variabel är ett minnesfack som kan hålla olika värden. Variabeln <strong>&quot;hand&quot;</strong> kommer hålla reda på om din &quot;hand&quot; är en sten, sax eller påse.</p>
+</blockquote>
+</li>
+<li><p>Istället för <strong>0</strong> ska du sätta <strong>&quot;hand&quot;</strong> till ett slumptal mellan 0 och 2. Variabeln kan alltså få värdena 0 (<em>sten</em>), 1 (<em>sax</em>) eller 2 (<em>påse</em>).</p>
+<p> <img src="image_7.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu ska du få visa en sten, sax eller påse på displayen beroende på värdet på variabeln <strong>&quot;hand&quot;</strong>. För att göra det enkelt och snyggt ska du få koda en funktion.</p>
+<ol>
+<li><p>Klicka på kategorin <strong>Avancerat</strong> och sedan <strong>Funktioner</strong></p>
+</li>
+<li><p>Klicka på <strong>Skapa en funktion</strong> och döp den till <strong>&quot;VisaHand&quot;</strong></p>
+<p> <img src="image_8.png" alt="image alt text"></p>
+</li>
+<li><p>Nu ska du se definitionen av funktionen på kodytan.</p>
+<p> <img src="image_9.png" alt="image alt text"></p>
+</li>
+<li><p>Innanför detta block lägg följande kod</p>
+<ol>
+<li><p>OM <strong>&quot;hand&quot;</strong> är lika med 0</p>
+<ol>
+<li><p>Visa ikon <strong>&quot;Diamant&quot;</strong> (detta block hittar du under kategorin <strong>Grundläggande</strong>)</p>
+<p><img src="image_10.png" alt="image alt text"></p>
+<p>&quot;Diamant&quot; är den ikonen som är mest lik en sten. När <strong>&quot;hand&quot;</strong> är 0 så betyder det ju att din hand är en sten.</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Fortsätt sedan på koden för <strong>&quot;VisaHand&quot;</strong> och lägg in två OM-satser till</p>
+<ol>
+<li><p>Visa en sax OM <strong>&quot;hand&quot;</strong> är 1</p>
+</li>
+<li><p>Visa en påse OM <strong>&quot;hand&quot;</strong> är 2</p>
+<blockquote>
+<p>Du får själv välja ikoner eller så kan du välja blocket <strong>&quot;visa lysdioder&quot;</strong> och rita din egen ikon!</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><p>Lägg in ett block <strong>&quot;anropa funktionen VisaHand&quot;</strong> precis efter du har slumpat fram värdet på <strong>“hand”</strong></p>
+<p> <img src="image_11.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Testa!</strong> Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong>.</p>
+<p><strong>Ladda ner spelet!</strong> Döp spelet till <strong>sten</strong> och klicka på <strong>&quot;Ladda ner&quot;</strong> för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du skakar på den?</p>
+</blockquote>
+<h2 id="2-f-r-tv-spelare-initiering">2 – För två spelare – initiering</h2>
+<p>Nu ska koda så att två micro:bits kan kommunicera med varandra genom radiosignaler. På det sättet blir det roligare att spela.</p>
+<p>Här behöver du kommunicera med minst en annan person som kodar samma uppgift, så att just era micro:bits är de som kommunicerar!</p>
+<ol>
+<li><p>Lägg in följande kod under blocket <strong>&quot;vid start&quot;</strong></p>
+<ol>
+<li><p>Sätt <strong>&quot;hand&quot;</strong> till -1</p>
+</li>
+<li><p>Radio <strong>ställ in grupp</strong> 1. Detta block hittar du under kategorin <strong>Radio</strong>.</p>
+<blockquote>
+<p><strong>Välj ditt eget gruppnummer</strong>! Det gör att bara du och din kompis kan kommunicera.</p>
+</blockquote>
+<p><img src="image_12.png" alt="image alt text"></p>
+</li>
+</ol>
+</li>
+<li><p>Under blocket <strong>&quot;för alltid&quot;</strong> lägg in ett block <strong>radio sänd nummer “hand”</strong>.</p>
+<p> <img src="image_13.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu är du klar med initieringen av spelet, men fortfarande händer inte så mycket mer. Det ska du få ändra på nu.</p>
+<h2 id="3-f-r-tv-spelare-vem-vann-">3 – För två spelare – vem vann?</h2>
+<p>Nu kommer du hela tiden sända värdet på variabeln <strong>&quot;hand&quot;</strong> till den andra micro:biten i din grupp. Samtidigt kommer den andra micro:biten i din grupp också sända ut värdet på sin variabel <strong>“hand”</strong>. När du tar emot det värdet kan du kolla om du vann eller förlorade. Det ska du få koda nu!</p>
+<ol>
+<li><p>Från kategorin <strong>Radio</strong> dra in ett block <strong>&quot;när radio mottages...&quot;</strong> till kodytan</p>
+<p> <img src="image_14.png" alt="image alt text"></p>
+</li>
+<li><p>Istället för att kalla variabeln som du tar emot <strong>&quot;receivedNumber&quot;</strong> så ska du kalla den <strong>“hand2”</strong></p>
+</li>
+<li><p>Klicka på den texten <em>&quot;receivedNumber&quot;</em> så kommer det upp en ruta där du kan skriva in det nya namnet.</p>
+</li>
+<li><p>Döp variabeln till <strong>&quot;hand2&quot;</strong></p>
+</li>
+</ol>
+<p>I detta block ska vi kolla vem som har vunnit men vi vill bara göra det när både <strong>&quot;hand&quot;</strong> och <strong>“hand2”</strong> har fått ett slumptal mellan 0 och 2, det vill säga när både du och din motspelare har skakat på micro:bitsen.</p>
+<ol>
+<li><p>Lägg därför en OM-sats innan för blocket <strong>&quot;när radio mottages...&quot;</strong> som kollar villkoret att både <strong>“hand”</strong> och <strong>“hand2”</strong> är större än –1. Du hittar de flesta block under kategorin <strong>Logik</strong>.</p>
+<p> <img src="image_16.png" alt="image alt text"></p>
+</li>
+<li><p>Innanför detta kodblock lägg följande block <strong>sätt &quot;status&quot; på -1.</strong></p>
+<blockquote>
+<p><strong>&quot;Status&quot;</strong> är en variabel som har koll på om du vinner eller förlorar. Om <strong>“status”</strong> har värdet -1 blev det oavgjort eller så förlorade du. Nu ska du koda så att du ändrar “<strong>status”</strong> till 1 vilket betyder vinst om du har en bättre hand än din kompis.</p>
+</blockquote>
+</li>
+<li><p>Skapa följande kod efter du satt <strong>&quot;status&quot;</strong> till -1</p>
+<ol>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 0 (sten) OCH <strong>“hand2”</strong> är 1 (sax)</p>
+<p><img src="image_17.png" alt="image alt text"></p>
+</li>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 1 (sax) OCH <strong>“hand2”</strong> är 2 (påse)</p>
+</li>
+<li><p>Sätt  <strong>&quot;status&quot;</strong> till 1 OM <strong>“hand”</strong> är 2 (påse) OCH <strong>“hand2”</strong> är 0 (sten)</p>
+</li>
+</ol>
+</li>
+<li><p>För att visa vem som har vunnit skapa följande kod direkt efter du har satt värdet på <strong>&quot;status&quot;</strong></p>
+<ol>
+<li><p>Upprepa 4 gånger</p>
+<ol>
+<li><p>OM <strong>&quot;status&quot;</strong> är 1: Visa ikon <strong>&quot;Glad&quot;</strong></p>
+</li>
+<li><p>ANNARS: Visa ikon <strong>&quot;Ledsen&quot;</strong></p>
+</li>
+<li><p>Anropa funktionen <strong>&quot;VisaHand&quot;</strong></p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Lägg in ett block som sätter <strong>&quot;Hand&quot;</strong> till <strong>–1</strong> sist</p>
+<p> <img src="image_18.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Testa!</strong> Du kan testa ditt spel med hjälp av simulator till vänster i fönstret. Klicka på den lilla cirkeln bredvid <strong>SHAKE</strong> och gör sedan samma sak på den andra micro:biten som dyker upp.</p>
+<p><strong>Ladda ner spelet!</strong> Döp spelet till <strong>sten2</strong> och klicka på <strong>&quot;Ladda ner&quot;</strong> för sedan över filen med programmet till micro:biten med en USB-kabel. Vad händer om du och din kompis skakar på era micro:bits?</p>
+</blockquote>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du skapat ett nytt spel!</p>
+<p>Glöm inte att spara ditt projekt! Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong></p>
+<p>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA och dela koden med en kompis.</p>
+</blockquote>
+<h2 id="utmaningar">Utmaningar</h2>
+<h3 id="animation">Animation</h3>
+<p>Skapa en animation i stället för att visa en glad eller ledsen ikon när du tar emot radiosignalen från din kompis.</p>
+<ul>
+<li><p>Du kan använda block i kategorierna <strong>Grundläggande</strong> och <strong>Loopar</strong></p>
+</li>
+<li><p>Eller så kan du använda mer avancerade block som du hittar om du klickar på <strong>Avancerat</strong> och sedan <strong>Bilder</strong></p>
+</li>
+</ul>
+<h4 id="javascript">Javascript</h4>
+<p>Utforska det textbaserade språket <em>Javascript</em>! Precis all kod du kan skriva med hjälp av block kan du också skriva med ett textbaserad programmeringsspråk.</p>
+<ul>
+<li><p>Klicka på knappen <strong>JavaScript</strong></p>
+<p>  <img src="image_19.png" alt="image alt js"></p>
+</li>
+<li><p>Nu visas all kod som du skrivit i Javascript i stället. Gå igenom rad för rad och försök förstå vad koden gör.</p>
+<p>  <img src="image_20.png" alt="image alt jsex"></p>
+</li>
+<li><p>Skriv <strong>en</strong> kodrad som gör att texten &quot;Sten, sax och påse&quot; visas på micro:biten när du startar den.</p>
+<p>  Använd functionen <strong>basic.showString()</strong> och lägg in texten du vill visa mellan parenteserna.</p>
+</li>
+</ul>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li><p>Vad är en variabel?</p>
+</li>
+<li><p>Vad kan du använda ett slumptal till?</p>
+</li>
+<li><p>Vad kan du använda funktioner till?</p>
+</li>
+</ul>
+</body></html>
