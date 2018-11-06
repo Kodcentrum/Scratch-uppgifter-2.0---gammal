@@ -111,7 +111,7 @@ Nu kommer skalbaggen automatiskt att förflyttas till samma startposition varje 
 Nästa steg blir att göra det möjligt att styra skalbaggen, så den inte rusar rakt av banan! För det behöver du två korta skript. Ett som säger åt datorn att skalbaggen ska svänga åt höger när du trycker ned höger piltangent på datorns tangentbord, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
 Gör såhär:
 
-10. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg den bredvid varandra vart som som helst fritt på skriptytan. Bredvid ordet **mellanslag** i dessa två block finns en liten svart triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
+10. Under rubriken **HÄNDELSER** finns ett block som säger **"när mellanslag trycks ned"**. Dra in två sådana block och lägg den bredvid varandra var som som helst fritt på skriptytan. Bredvid ordet **mellanslag** i dessa två block finns en liten svart triangel. Klicka på lilla triangeln i vardera block och välj i rullistan som kommer fram -  ändra till **vänsterpil** i det ena blocket och till **högerpil** i det andra.
 
 11. Nu ska vi få sprajten att kunna vända sig. Under **RÖRELSE** hittar du ett block som säger **"vänd (pil vänster) 15 grader"** och ett som säger **"vänd (pil höger) 15 grader"**. Koppla fast dessa två block under blocken **"när vänsterpil trycks ned"** och **"när högerpil trycks ned"**.
 
@@ -149,7 +149,7 @@ Gör såhär:
 
 ## 8: Göra klart skriptet
 
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla exaktvart skalbaggen befinner sig "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med skriptet du har som får skalbaggen att röra sig. 
+Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla exakt var skalbaggen befinner sig "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med skriptet du har som får skalbaggen att röra sig. 
 Gör såhär:
 
 16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
