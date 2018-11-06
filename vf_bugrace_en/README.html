@@ -1,0 +1,119 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<style> i.sb {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background: lightgray;
+    padding: 2px 5px 4px 5px;
+    font-style: normal;
+    display: inline-block;
+  } i.sb img {
+    position: relative;
+    margin: 0 2px 0 0 !important;
+    top: 5px;
+  }</style>
+
+<h1 id="bug-race-english">Bug race - English</h1>
+<p>Let&#39;s build a racing game in Scratch.</p>
+<h3 id="scratch-studio">Scratch studio</h3>
+<p>First, we learn the different parts of Scratch:</p>
+<p><img src="scratch-studio.png" alt="Scratch studio"></p>
+<ul>
+<li>A script is multiple commands in sequence</li>
+<li>In Scratch, the commands appear as blocks</li>
+<li>The blocks should be together (like a puzzle)</li>
+<li>The computer reads the blocks from top to bottom</li>
+</ul>
+<h3 id="illustration">Illustration</h3>
+<p><img src="skript-kommandon.png" alt="Script commands"></p>
+<p>The computer first reads this as move 10 steps, then wait 1 second and lastly move 5 more steps.</p>
+<p><strong>Proceed to the next step to start programming.</strong></p>
+<h2 id="1-start-programming">1: Start programming</h2>
+<p>Let&#39;s open our game in Scratch studio:</p>
+<p><strong><a href="http://bit.ly/bugrace-vf" target="_blank">bit.ly/bugrace-vf</a></strong></p>
+<p>We have already drawn out a track and put out a beetle that you will steer. Also all the blocks needed are there.</p>
+<blockquote>
+<p>If you wonder <em>how</em> or <em>why</em> it works or if you have other questions, talk to one of the volunteers.</p>
+</blockquote>
+<p><strong>Let&#39;s code!</strong></p>
+<ol>
+<li><p>To get the beetle forward, we need to use the block <i class="sb">move 2 steps</i> and put it on the block <i class="sb">when <img src="flagga.png" alt="Flagga"> clicked</i>.</p>
+<p> <img src="skript-01.png" alt="Script 1"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click the flag and see how the beetle moves forward each time you press.</p>
+</blockquote>
+<p>Now we will get the beetle to move 2 steps forever.</p>
+<ol start="2">
+<li>We&#39;ll have to put <i class="sb">move 2 steps</i> in the block <i class="sb">forever</i>.</li>
+<li><p>Then we put the new <i class="sb">forever</i> block back on the start block <i class="sb">when <img src="flagga.png" alt="Flagga"> clicked</i>.</p>
+<p> <img src="skript-02.png" alt="Script 2"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click the flag and see how it goes all the way to the edge.</p>
+</blockquote>
+<p>When we start the game again, the beetle does not start from the position we want. We must tell the computer that the beetle should go to a specific position when the green flag is clicked.</p>
+<ol start="4">
+<li><p>Put the block <i class="sb">go to x:9 y:98</i> between <i class="sb">when <img src="flagga.png" alt="Flagga"> clicked</i> and <i class="sb">forever</i>.</p>
+<p> <img src="skript-03.png" alt="Script 3"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click the flag a few times and see how the beetle always starts from the same position.</p>
+</blockquote>
+<p>Now we&#39;ll get the beetle to turn when we press the arrow keys.</p>
+<ol start="5">
+<li><p>When the right arrow key is pressed down we want the beetle to turn right so we put the block <i class="sb">turn right 15 degrees</i> on <i class="sb">when right arrow key pressed</i></p>
+<p> <img src="skript-04a.png" alt="When right arrow turn right"></p>
+</li>
+</ol>
+<blockquote>
+<p>Start the game and press the right arrow on the keyboard several times. The beetle turns to the right!</p>
+</blockquote>
+<ol start="6">
+<li><p>Do the same with <i class="sb">when left arrow key pressed</i> and <i class="sb">turn left 15 degrees</i>.</p>
+<p> <img src="skript-04b.png" alt="When left arrow turn left"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click the flag and use the right and left arrow keys to steer the beetle.</p>
+</blockquote>
+<p>When you start the game now after a few times, you notice that the beetle points to different directions almost every time. We want the beetle to point forward each time we start.</p>
+<ol start="7">
+<li><p>Put the block <i class="sb">point in direction 90</i> between <i class="sb">when <img src="flagga.png" alt="Flagga"> clicked</i> and <i class="sb">go to x:9 y:98</i>.</p>
+<p> <img src="skript-05.png" alt="When flag clicked point, go to, foreover"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click the flag and see how the beetle always points forward when you start.</p>
+</blockquote>
+<p>It is now possible to drive around the track, but nothing happens when we drive off the track. If we go off the track, the game should say <em>Game over!</em> and finish the game. The script needs to check every time the beetle moves 2 steps if we touch the color green (same as the grass) and then say <em>Game over!</em> and stop the game (stop all scripts).</p>
+<ol start="8">
+<li>Put the block <i class="sb">touching color <img src="gron.png" alt="green">?</i> on the empty box of the <i class="sb">if &lt;&gt; then</i> block.</li>
+<li>Then put the blocks <i class="sb">say Game over! for 2 secs</i> and <i class="sb">stop all</i> into <i class="sb">if &lt;&gt; then</i>.</li>
+<li><p>Lastly, put the whole <i class="sb">if &lt;&gt; then</i> block inside <i class="sb">forever</i> right after <i class="sb">move 2 steps</i>.</p>
+<p><img src="skript-06.png" alt="Forever, move 2 steps, if then"></p>
+</li>
+</ol>
+<blockquote>
+<p>Click on the flag and see what happens if you run off the track.</p>
+</blockquote>
+<p>Now we are almost done. We just need to tell the game that we won when we reach the finish line (the yellow line).</p>
+<p>In the same way that we checked if the beetle touched the green color, we want to check if the beetle is touching the yellow color instead. If it touches the yellow color we want to say <em>I won!</em> and then stop the game.</p>
+<ol start="11">
+<li>See if you can figure out what to do for it to work as we want. When you&#39;re done, try clicking the flag and see if it works.</li>
+</ol>
+<blockquote>
+<p>On the next page you can see what the entire script looks like, but please try yourself first.
+</p>
+</blockquote>
+<h2 id="2-a-finished-game">2: A finished game</h2>
+<p>Here&#39;s what the whole script looks like when it&#39;s done. It doesn&#39;t need to be exactly the same in all places as long as it works as you want.</p>
+<p><img src="skript-07.png" alt="Final script"></p>
+<p><strong>Nice work!</strong></p>
+<h2 id="3-proceeding">3: Proceeding</h2>
+<p>You can continue to program at home or at school. For example, you can add some obstacles to the track and you can also make it a two player game. There is more to do and more information can be found on kodboken.se.</p>
+<h2 id="dummy"></h2>
+</body></html>

@@ -6,15 +6,15 @@ Det kan vara ett par musikspelande skor, ett armband, en mössa eller något hel
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
 
 Exempel på Framtidens musikspelare hittar du här:
-* <a href="https://scratch.mit.edu/projects/83586544" target="_blank">Exempel 1</a>
-* <a href="https://scratch.mit.edu/projects/81999316/" target="_blank">Exempel 2</a>
+* <a href="https://scratch.mit.edu/projects/83586544/" target="_blank">Exempel 1</a>
 
 ![image alt text](image_0.jpg)
 
+* <a href="https://scratch.mit.edu/projects/81999316/" target="_blank">Exempel 2</a>
+
 ![image alt text](image_1.jpg)
 
-
-## Delmoment 1: Komma på en idé
+## 1: Komma på en idé
 
 Det första du behöver göra är att komma på vad du vill göra för musikspelare. Det är din fantasi som styr och helt upp till dig hur den ska se ut och fungera!
 
@@ -49,7 +49,7 @@ Det första du behöver göra är att komma på vad du vill göra för musikspel
 **Tips:** Är det ändå svårt att komma på en idé, **Välj sprajt från biblioteket** i Scratch och se om du kan hitta något där som kan bli en musikspelare.
 
 
-## Delmoment 2: Ditt framtida jag
+## 2: Ditt framtida jag
 
 Först behöver du en *scen* för din animation och en *sprajt* som ska föreställa dig själv i framtiden. Du kommer att få klippa in en bild av ditt eget ansikte och sätta som *sprajtens* huvud – om du vill!
 
@@ -74,7 +74,7 @@ Först behöver du en *scen* för din animation och en *sprajt* som ska förest�
   ![image alt text](image_5.jpg)
 
 
-## Delmoment 3: Skapa en prototyp
+## 3: Skapa en prototyp
 
 Nu ska du få ta din idé till musikspelare och omvandla den till en PROTOTYP i Scratch. En prototyp är en enkel testversion som du gör för att visa upp din idé. Din prototyp ska visa hur musikspelaren är tänkt att **se ut** och **fungera**, och **när** den kan användas.
 
@@ -110,14 +110,14 @@ Nu behöver du säga åt *sprajten* att den ska känna av om du har muspekaren p
 
 **Tips:** För att inte alla ljud ska spelas samtidigt och bli ett enda kaos, lägg in ett block som **stoppar alla ljud** innan en ny musikloop ska starta.  
 
-![image alt text](image_7.jpg)
+  ![image alt text](image_7.jpg)
 
 *Så här kan ett skript se ut för att musikspelaren ska byta musik.*
 
 > Testa ditt projekt! Klicka på START. Prova att klicka på *sprajten* för musikspelaren. Byter den *klädsel*? Vad händer när du för muspekaren över *sprajten*? Byter den musikloop? Spelar den ett ljud i taget?
 
 
-## Delmoment 4: Stoppa musiken
+## 4: Stoppa musiken
 
 Nu ska du få bestämma hur du vill kunna stänga av musikspelaren. Eftersom du även vill ha den avstängd när du trycker på START, gör du det som ett INIT-SKRIPT som du kan använda flera ställen i ditt program.
 

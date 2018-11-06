@@ -1,8 +1,13 @@
 # Bug Race (tillägg)
 
-Du har redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
+Om du redan har skapat spelet Bug Race Intro så har du redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
 
-Här finns förslag på hur du kan fortsätta med Bug Race, välj ett eller flera tillägg eller hitta på själv! Du kan behöva titta i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
+Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktinen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för [Bug Race (intro)](bug-race-intro) om du har glömt hur du gjorde vissa skript.
+
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
 
 ## Tillägg 1: Mållinje för att vinna spelet
 
@@ -30,8 +35,7 @@ Nu har du ett spel för en spelare. Men det kan vara roligt att spela flera – 
 
 1.  Börja med att lägga till en ny sprajt. Välj fritt i biblioteket eller KOPIERA skalbaggens sprajt om du vill att två skalbaggar tävlar mot varandra. Ändra storlek så att båda får plats på banan.
 
-2. Om du har en ny sprajt som inte är kopia på den första, kan du KOPIERA SKRIPT för skalbaggen.
-På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom att högerklicka överst på skriptet, välja kopiera, och dra till den nya sprajten.  Nu gör båda sprajtar samma sak!
+2. Om du har en ny sprajt som inte är kopia på den första, kan du KOPIERA SKRIPT för skalbaggen. På så sätt behöver du inte skapa samma skript en gång till. Du kopierar genom att högerklicka överst på skriptet, välja kopiera, och dra till den nya sprajten.  Nu gör båda sprajtar samma sak!
 
   ![image alt text](image_3.jpg)
 
@@ -66,7 +70,7 @@ Eftersom skriptet för sprajtarna bara känner av om de rör sig på grön färg
 
 4. Rita en gul mållinje i slutet av labyrinten. Tänk på att använda samma gula färg som till mållinjen du ritade i Tillägg 1. Om du inte vill ha en mållinje kan du istället rita gula bananer eller något annat som spelaren ska nå fram till.
 
-Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
+> Tips: Gör flera olika bakgrunder och se vilka som är roliga att spela med!
 
 ## Tillägg 4: Mjukare styrning
 

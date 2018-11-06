@@ -2,12 +2,9 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="draken-mot-hajarna">Draken mot hajarna</h1>
 <p>I den här uppgiften ska du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem. Ett mål är att skapa mer effektiv kod.</p>
-<p>Ett exempel på hur  spelet kan se ut ser du här:</p>
-<ul>
-<li><a href="https://scratch.mit.edu/projects/116717825/" target="_blank">Exempel</a></li>
-</ul>
+<p>Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116717825/" target="_blank">https://scratch.mit.edu/projects/116717825/</a></p>
 <p><img src="image_1.png" alt="image alt exempel"></p>
-<h2 id="delmoment-1-s-tta-upp-bakgrunden-och-draken">Delmoment 1: Sätta upp bakgrunden och draken</h2>
+<h2 id="1-s-tta-upp-bakgrunden-och-draken">1: Sätta upp bakgrunden och draken</h2>
 <p>Du börjar med att skapa en bakgrund och lägga till en drake. Draken kommer att åka upp och ner på scenen och styrs med hjälp av piltangenterna.</p>
 <ol>
 <li><p>Skapa ett nytt projekt och ta bort katten</p>
@@ -53,9 +50,9 @@
 <p>Klicka på START knappen. Åker draken upp och ner precis som om den svävar? Kan du styra den med piltangenterna?</p>
 </blockquote>
 <p><strong>Tips:</strong> Om du vill att drakens klädsel bara ska vända sig åt höger och vänster även om draken åker uppåt och neråt så kan du sätta <strong>rotationsstil</strong> till <strong>vänster-höger</strong>.</p>
-<p><img src="image_3.png" alt="image alt rotationsstil"></p>
+<p>  <img src="image_3.png" alt="image alt rotationsstil"></p>
 <p><em>Den röda rektangeln visar de olika rotationsstilarna. Den blåmarkerade är <strong>vänster-höger</strong>.</em></p>
-<h2 id="delmoment-2-hajar">Delmoment 2: Hajar</h2>
+<h2 id="2-hajar">2: Hajar</h2>
 <p>Nu ska du få skapa hajar som ska försöka äta upp draken. Flera hajar skapar du med hjälp av KLONER, vilket är ett sätt att skapa kopior av en sprajt som ser likadana ut och beter sig på samma sätt.</p>
 <ol>
 <li><p>Lägg till sprajten <strong>Shark</strong> och ge den namnet <strong>Haj</strong></p>
@@ -106,14 +103,14 @@
 </li>
 <li><p>Lägg till ett <strong>visa</strong>-block på lämpligt ställe så draken syns när <strong>spelet startar</strong>.</p>
 <p><img src="image_4.png" alt="image alt block"></p>
-<p><em>Här de block du behöver för delmoment 2. Tänk på att vissa ska användas för <strong>Drake</strong> och andra för <strong>Haj</strong>.</em></p>
+<p><em>Här de block du behöver för 2. Tänk på att vissa ska användas för <strong>Drake</strong> och andra för <strong>Haj</strong>.</em></p>
 </li>
 </ol>
 <blockquote>
 <p>Testa spelet! Försvinner draken när hajen äter upp den?</p>
 </blockquote>
 <p><strong>Tips:</strong> Är spelet för svårt? Blir draken uppäten för fort? Du kan pröva med att använda <strong>förminskningsverktyget</strong> och göra hajen mindre.</p>
-<h2 id="delmoment-3-spelet-slutar-och-b-rjar-om">Delmoment 3: Spelet slutar och börjar om</h2>
+<h2 id="3-spelet-slutar-och-b-rjar-om">3: Spelet slutar och börjar om</h2>
 <p>Nu ska du få skapa en ny bakgrund som ska visas när spelet tar slut. Du ska också få koda så att det räcker med att trycka på mellanslag för att börja om spelet.</p>
 <ol>
 <li><p><strong>Rita en ny bakgrund.</strong> Den ska visas när spelet tar slut så du kan använda t. ex. penseln för att skriva <strong>”Spelet slut!”</strong>.</p>
@@ -160,7 +157,6 @@
 </li>
 </ul>
 <p><img src="image_7.png" alt="image alt kopiera"></p>
-<p><em>Denna meny kommer upp om du högerklickar på ett block.</em></p>
 </li>
 <li><p>Skapa nya skript för <strong>draken</strong>. <strong>Alla skript</strong> som körs när START klickas på ska också köras när den tar emot meddelandet <strong>”nytt spel”</strong>. Du kan <strong>högerklicka</strong> på blocken och välj <strong>kopiera!</strong></p>
 </li>
@@ -168,30 +164,30 @@
 <blockquote>
 <p>Testa! Kan du starta om spelet genom att klicka på mellanslag?</p>
 </blockquote>
-<p><img src="image_8.png" alt="image alt block"></p>
+<p>  <img src="image_8.png" alt="image alt block"></p>
 <p><em>Ungefär så här mycket kod ska du ha skapat för <strong>Drake</strong> nu.</em></p>
-<h2 id="delmoment-4-funktioner">Delmoment 4: Funktioner</h2>
+<h2 id="4-funktioner">4: Funktioner</h2>
 <p>Du kanske tidigare stött på FUNKTIONER i matematik eller på andra ställen. När du kodar FUNKTIONER så fungerar dom på ett lite annorlunda sätt. FUNKTIONER är en <strong>litet skript</strong> som kan <strong>köras flera gånger</strong>.</p>
-<p>Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra delmomentet <strong>kopierade</strong> du massor av block som gör precis som sak. Det är <strong>onödigt och kan skapa en massa problem</strong>. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste <strong>ändra på många ställen</strong>. I stället ska du få koda <strong>funktioner</strong> som sedan kan <strong>återanvändas</strong> och <strong>köras flera gånger</strong>. De kommer fungera som vanliga <strong>block</strong>.</p>
+<blockquote>
+<p>Du kan till exempel använda FUNKTIONER du kodar till att spara tid och göra så att din kod är lättare att förstå. I förra uppgiften <strong>kopierade</strong> du massor av block som gör precis som sak. Det är <strong>onödigt och kan skapa en massa problem</strong>. Det blir till exempel krångligt om du vill ändra i koden eftersom du då måste <strong>ändra på många ställen</strong>. I stället ska du få koda <strong>funktioner</strong> som sedan kan <strong>återanvändas</strong> och <strong>köras flera gånger</strong>. De kommer fungera som vanliga <strong>block</strong>.</p>
+</blockquote>
 <p>Vi börjar med hajen:</p>
 <ol>
 <li><p>Klicka på <strong>hajen</strong> så att den är markerad och du kan skapa koda för den sprajten</p>
 </li>
 <li><p>Klicka på <strong>Flera block</strong> och sen på <strong>Skapa ett block</strong> för att skapa en funktion. Namnge block till <strong>”för alltid(klona mig)”</strong>.</p>
+<p><img src="image_9.png" alt="image alt nyttblock"></p>
 </li>
 </ol>
-<p><img src="image_9.png" alt="image alt nyttblock"></p>
-<p><em>Hur det kan se ut på skärmen när du klickat på <strong>Skapa ett block</strong></em></p>
 <ol>
 <li><p>Nu ska det ha dykt upp ett <strong>stort lila block</strong> i hajen som används för att berätta <strong>vad funktionen gör</strong>. <img src="image_10.png" alt="image alt nyttblock"> Flytta koden som startar när START klickas på så dessa block är under <strong>definitionen</strong> av <strong>”för alltid(klona mig)”</strong>.</p>
 </li>
 <li><p>Lägg till ett <strong>block</strong> för <strong>”för alltid(klona mig)”</strong> under blocket med den gröna flaggan. Nu kommer denna funktion köras när du klickar på START</p>
 </li>
 <li><p>Ta bort koden som körs när sprajten tar emot meddelande <strong>”nytt spel”</strong> och lägg till ett block för <strong>”för alltid(klona mig)”</strong>.</p>
+<p><img src="image_11.png" alt="image alt block"></p>
 </li>
 </ol>
-<p><img src="image_11.png" alt="image alt block"></p>
-<p><em>Ungefär så här kan koden för <strong>Haj</strong> set ut nu. Fiffigt va!</em></p>
 <blockquote>
 <p>Testa spelet! Fungerar det precis som förut? Tycker du det är enklare att förstå koden nu?</p>
 </blockquote>

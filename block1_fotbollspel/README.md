@@ -2,14 +2,16 @@
 
 Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 
-Ett exempel på det färdiga spelet finns här:
-
- * <a href="http://www.scratch.mit.edu/projects/72797634/" target="_blank">Exempel</a>
+Ett exempel på det färdiga spelet finns här: <a href="https://scratch.mit.edu/projects/72797634/" target="_blank">https://scratch.mit.edu/projects/72797634/<a/>
 
 ![image alt text](image_0.png)
 
+> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+  
+  Då börjar vi koda!
 
-## Delmoment 1: Välj sprajtar för fotbollsspelare och boll
+## 1: Välj sprajtar för fotbollsspelare och boll
 
 Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajtar från biblioteket, en fotbollsspelare och en fotboll.
 
@@ -27,12 +29,12 @@ Skapa ett nytt projekt. Börja med att ta bort katten och välj två nya sprajta
 
   ![image alt text](image_3.png)
 
-4. Sprajtarnas rotationsstil är också viktigt för spelet. De flesta sprajtar är förinställda på "full rotation" och det göra att din spelare hamnar upp och ned när den rör sig. Ställ in så att spelaren bara ska kunna rotera åt "vänster-höger". För bollen fungerar "full rotation".
+4. Sprajtarnas *rotationsstil* är också viktigt för spelet. De flesta sprajtar är förinställda på "full rotation" och det göra att din spelare hamnar upp och ned när den rör sig. Ställ in så att spelaren bara ska kunna rotera åt "vänster-höger". För bollen fungerar "full rotation".
 
   ![image alt text](image_4.jpg)   ![image alt text](image_5.jpg)
 
 
-## Delmoment 2: Fotbollsplan som bakgrund
+## 2: Fotbollsplan som bakgrund
 
 Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enkelt!
 
@@ -47,16 +49,21 @@ Nu ska du rita en fotbollsplan som bakgrund till scenen. Men vi håller det enke
 
   ![image alt text](image_8.png)
 
-  _Ungefär så här ska fotbollsplanen se ut!_
-
-
-## Delmoment 3: Få spelaren att röra på sig
+## 3: Få spelaren att röra på sig
 
 Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
-Dra din fotbollsspelare till den målade banan om den inte redan står där (som på bilden ovanför). Tryck på SKRIPT-fliken. Du ska nu göra ett skript som låter dig styra spelaren med _piltangenterna_.
+Dra din fotbollsspelare till den målade banan om den inte redan står där. Tryck på SKRIPT-fliken. Du ska nu göra ett skript som låter dig styra spelaren med _piltangenterna_.
 
-8. Dra ut ett block för **HÄNDELSER**: **"när \_____ trycks ned"** till skriptytan. Välj **"vänsterpil"** i rullistan. Under blocket kopplar du fast blocket **"gå 10 steg"** från **RÖRELSE**. Högerklicka på skriptet och kopiera, tills du har fyra stycken likadana skript som du lägger bredvid varandra. Ändra i rullistan så att du har ett skript för **"högerpil"**, ett för **"uppåtpil"** och ett för **"nedåtpil"**.
+1. Dra ut ett block för **HÄNDELSER**: **"när \_____ trycks ned"** till skriptytan.
+
+2. Välj **"vänsterpil"** i rullistan.
+
+3. Under blocket kopplar du fast blocket **"gå 10 steg"** från **RÖRELSE**.
+
+4. Högerklicka på skriptet och kopiera, tills du har fyra stycken likadana skript som du lägger bredvid varandra.
+
+5. Ändra i rullistan så att du har ett skript för **"högerpil"**, ett för **"uppåtpil"** och ett för **"nedåtpil"**.
 
   ![image alt text](image_9.jpg)
 
@@ -77,19 +84,23 @@ Dra din fotbollsspelare till den målade banan om den inte redan står där (som
   _Så här borde dina skript för fotbollsspelaren se ut nu._
 
 
-## Delmoment 4: Få spelaren att sparka på bollen
+## 4: Få spelaren att sparka på bollen
 
 Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! Du ska göra så att bollens sprajt **känner av** spelarens sprajt, och **då** få bollen att röra sig i samma riktning som spelaren men med en högre hastighet, så att det ser ut som att bollen skjuts iväg.  
 
-11. Gå till bollens SKRIPT. Välj en **"för alltid"**-LOOP från **KONTROLL** och sätt under startpositionen i skriptet för **"när START (flaggan) klickas på"**.
+1. Gå till bollens SKRIPT.
 
-12. Välj blocket **"om <> då"** som finns under **KONTROLL** och lägg inuti loopen. Från **KÄNNA AV** tar du blocket **Rör \_____?"** och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att **om** bollen **rör** sprajten **då** ska något hända.
+2. Välj en **"för alltid"**-LOOP från **KONTROLL** och sätt under startpositionen i skriptet för **"när START (flaggan) klickas på"**.
 
-13. Vad ska hända? Jo, bollen ska röra sig! Välj **"gå 10 steg"** från **RÖRELSE** och lägg in i kommandot för **"om <> då"**. Ändra antalet steg – det ska vara högre än 10 eftersom spelaren rör sig med den hastigheten och du vill att bollen ska röra sig fortare. Prova dig fram tills du får rätt effekt!
+3. Välj blocket **"om <> då"** som finns under **KONTROLL** och lägg inuti loopen.
+
+4. Från **KÄNNA AV** tar du blocket **Rör \_____?"** och väljer spelarens sprajt ur rullistan. Fäst blocket till kommandot så att **om** bollen **rör** sprajten **då** ska något hända.
+
+5. Vad ska hända? Jo, bollen ska röra sig! Välj **"gå 10 steg"** från **RÖRELSE** och lägg in i kommandot för **"om <> då"**.
+
+6. Ändra antalet steg – det ska vara högre än 10 eftersom spelaren rör sig med den hastigheten och du vill att bollen ska röra sig fortare. Prova dig fram tills du får rätt effekt!
 
   ![image alt text](image_11.jpg)
-
-  _Om bollen rör pingvinen, då går den 50 steg._
 
 > Testa ditt projekt! Klicka på START. Vad händer när spelaren nuddar bollen? Har bollen en bra hastighet? Vad händer när bollen når scenkanten?
 
@@ -98,24 +109,26 @@ Nästa steg blir att göra det möjligt för spelaren att sparka bollen i mål! 
 > Testa ditt projekt igen. Klicka på START. När bollen har studsat vid kanten, kan spelaren då komma från andra hållet och sparka på bollen? Vad händer?
 
 
-## Delmoment 5: Få bollen att röra sig i rätt riktning
+## 5: Få bollen att röra sig i rätt riktning
 
 Antagligen rör sig bollen bara i samma riktning, oavsett vilket håll din spelare kommer från. Du behöver säga åt bollen i vilken riktning du vill att den ska röra sig!
 
-Eftersom du vill att spelaren ska kunna sparka på bollen från alla möjliga håll, behöver du tala om för bollen att den ska röra sig i **motsatt riktning från där spelaren står** när den rör vid bollen. Det här är lite knepigt, men går om du gör det i två steg: först säger du åt bollen att **peka mot spelaren**, sedan säger du åt den att **vända sig helt om**. Det behöver den göra innan den rör sig framåt!
+> Eftersom du vill att spelaren ska kunna sparka på bollen från alla möjliga håll, behöver du tala om för bollen att den ska röra sig i **motsatt riktning från där spelaren står** när den rör vid bollen. Det här är lite knepigt, men går om du gör det i två steg: först säger du åt bollen att **peka mot spelaren**, sedan säger du åt den att **vända sig helt om**. Det behöver den göra innan den rör sig framåt!
 
-14. Ta blocket **"peka mot ____"** från **RÖRELSE** och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vändas helt om.  Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
+1. Ta blocket **"peka mot ____"** från **RÖRELSE** och välj spelarens sprajt i rullistan. Till det fäster du sedan blocket som heter **"vänd () grader"** och skriver in **180** för att bollen ska vändas helt om.  
+
+2. Lägg in de två blocken i kommandot som du redan har gjort för **"om <> då"**. Tänk på att de ska ligga före **"gå () steg"**.
 
   ![image alt text](image_12.jpg)
 
 > Testa ditt projekt! Klicka på START. Kan du få spelaren att sparka på bollen åt olika håll? Kan du sparka bollen i mål?
 
 
-## Delmoment 7: Göra mål
+## 6: Göra mål
 
 Nu ska du få fotbollsspelaren att ropa "Mål!" när bollen nuddar det vita målet. För att göra det måste bollen **känna av** när den nuddar det vita målet, och **då meddela** spelaren att den är i mål.
 
-Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. Det är ett sätt för olika delar i programmet att kunna "prata" med varandra. Du kommer snart att se varför det är bra att ha!
+> Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. Det är ett sätt för olika delar i programmet att kunna "prata" med varandra. Du kommer snart att se varför det är bra att ha!
 
 15. Börja med att säga till bollens sprajt att **om** den **rör färgen** för målet, **då** ska bollen göra något. Lägg kommandot i samma LOOP som den första **"om <> då"**-blocket. Färgen för målet får du om du klickar i rutan för **"rör färgen [ ]"** och sedan klickar på ditt mål på scenen.
 
@@ -125,24 +138,21 @@ Att en sprajt kan **skicka meddelande** till en annan, kallas för en FUNKTION. 
 
   ![image alt text](image_13.png)
 
-  _Så här borde bollens skript se ut nu._
 
 17. Nu är det spelarens tur! Du behöver tala om för spelarens sprajt att när den **tar emot meddelande** "Mål", då ska den säga "Mål!" – eller något annat om du hellre vill det. Under **UTSEENDE** hittar du **"säg ____ i 2 sekunder"**. Ändra antalet sekunder om du vill att det spelaren säger ska stå längre.
 
   ![image alt text](image_14.jpg)
-
-  _Nu vet spelaren när det blir mål!_
 
 > Testa ditt projekt! Klicka på START. Vad händer när du får spelaren att sparka bollen i mål? Ropar fotbollsspelaren "Mål!" när bollen är i mål?
 
   **Tips:** Om färgen på rektangeln (mål) är densamma som färgen på halvcirkeln (strafflinje), kan inte programmet känna skillnad på mål och strafflinje. Ändra i så fall så att nyansen på vitt skiljer sig åt. Det räcker med en liten skillnad i nyans, för att en dator ska förstå att det är olika färg!
 
 
-## Delmoment 8: Starta om efter mål
+## 7: Starta om efter mål
 
 Något saknas! Vad ska hända när fotbollsspelaren har skjutit bollen i mål? Nu ligger bara bollen kvar och spelaren har inget mer att göra. Det ska du få fixa till nu. När bollen går i mål, flyttas spelare och boll tillbaka till där de stod från början, så att du kan spela igen.
 
-En **startposition** är alltid bra att sätta, för att slippa dra tillbaka spelaren varje gång du trycker på START. Du gör då ett INIT-SKRIPT som talar om hur programmet ska starta.
+> En **startposition** är alltid bra att sätta, för att slippa dra tillbaka spelaren varje gång du trycker på START. Du gör då ett INIT-SKRIPT som talar om hur programmet ska starta.
 
 Men istället för att sätta startpositionen i början på skriptet, ska du få använda dig av **meddelanden** igen! På så sätt skapar du nämligen en FUNKTION som går att använda på flera ställen i ditt program, och du behöver inte upprepa samma skript.
 
@@ -158,7 +168,7 @@ Men istället för att sätta startpositionen i början på skriptet, ska du få
 
   ![image alt text](image_16.jpg)
 
-> **Testa ditt projekt! **Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
+> **Testa ditt projekt!** Klicka på START. Startar spelaren och bollen på rätt plats? Vad händer när spelaren sparkar bollen i mål, hoppar spelaren och bollen tillbaka till startposition?
 
 
 ## Färdig!
@@ -176,7 +186,7 @@ Har du tid över? Här kommer en utmaning för dig som vill fortsätta.
 ### Animera fotbollsspelaren
 Du kan till exempel ANIMERA fotbollsspelaren genom att **byta klädsel** på sprajten när den gör mål.
 
-![image alt text](image_17.jpg)
+  ![image alt text](image_17.jpg)
 
 ### Poängräknare
 Du kan även skapa en **poängräknare** som håller reda på hur många mål du hinner göra inom en viss tid. Eller så kan du göra ett spel för **två spelare** och skapa en målvakt som ska försöka stoppa bollen.

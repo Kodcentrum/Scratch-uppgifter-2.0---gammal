@@ -1,20 +1,16 @@
 <!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="agar">Agar</h1>
-<p><strong>Spelet Agar.io är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga!</strong></p>
-<p>I det här spelet är du en cell som äter små kulor. Det är en variant på agar.io för en spelare. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur  spelet kan se ut ser du här:</p>
-<ul>
-<li><p><a href="https://scratch.mit.edu/projects/102124910/" target="_blank">Exempel</a></p>
-<p><img src="image_1.png" alt="image alt exempel"></p>
-</li>
-</ul>
-<h2 id="delmoment-1-bakgrund-och-sprajtar">Delmoment 1: Bakgrund och sprajtar</h2>
+<p>Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">https://scratch.mit.edu/projects/102124910/</a></p>
+<p>  <img src="image_1.png" alt="image alt exempel"></p>
+<h2 id="1-bakgrund-och-sprajtar">1: Bakgrund och sprajtar</h2>
 <p>Börja med att skapa en bakgrund och lägg till sprajten som du skall styra och ytterligare en mindre sprajt som skall bli mat.</p>
 <ol>
-<li>Skapa ett nytt projekt och ta bort katten.</li>
-</ol>
-<ol>
+<li><p>Skapa ett nytt projekt och ta bort katten.</p>
+</li>
 <li><p>Rita en ny <strong>bakgrund</strong> som ser ut som ett rutnät. Det gör du lättast med <strong>linjeverktyget</strong>.</p>
+<p> Så här kan det se ut:
+ <img src="image-rutnat.png" alt="image alt exempel"></p>
 </li>
 <li><p>Rita en ny sprajt. Den skall var en ganska stor och fylla upp ungefär hälften av spelplanen. Den skall vara rund och <strong>fylld cirkel</strong>. Om du vill göra det lättare ritare du en större och om du vill göra det svårare ritare du en mindre cirkel.</p>
 </li>
@@ -29,7 +25,7 @@
 <p><em>Så här kan de olika klädslarna se ut.</em></p>
 </li>
 </ol>
-<h2 id="delmoment-2-styra-spelaren">Delmoment 2: Styra spelaren</h2>
+<h2 id="2-styra-spelaren">2: Styra spelaren</h2>
 <p>Du skall styra sprajten <strong>Cell</strong> med musen och när du äter de små kulorna skall storleken på sprajten öka. Därför behöver vi en variabel <strong>&quot;Vikt&quot;</strong> som håller reda på storleken eller vikten.</p>
 <ol>
 <li><p>Skapa en <strong>variabel</strong> som heter <strong>&quot;Vikt&quot;</strong>, den ska vara <strong>synlig</strong> på scenen. Du hittar variabler under kategorin <strong>Data</strong>.</p>
@@ -54,13 +50,12 @@
 </li>
 </ul>
 <p><img src="image_4.png" alt="image alt block"></p>
-<p><em>Det här är alla block du behöver för punkt 2.</em></p>
 </li>
 </ol>
 <blockquote>
 <p>Testa ditt skript. Följer <strong>Cell</strong> med när du drar musen över spelplanen?</p>
 </blockquote>
-<h2 id="delmoment-3-mat">Delmoment 3: Mat</h2>
+<h2 id="3-mat">3: Mat</h2>
 <p>Nästa steg är att se till att du har något att äta. Vi har redan skapat en sprajt för maten och för att få flera kulor samtidigt kommer vi använda oss av KLONER. Det är som kopior av sprajten som skapas av ditt skript och bara finns så länge skriptet går.</p>
 <ol>
 <li><p>Börja med ett skript för sprajten <strong>Mat</strong> som säger:</p>
@@ -111,17 +106,15 @@
 </ul>
 <p>Det här skriptet ser till att ta bort klonen av <strong>Mat</strong> om den inte äts upp inom en viss tid.</p>
 <p><img src="image_5.png" alt="image alt kod"></p>
-<p><em>Det här är alla block du behöver för punkterna 1-3.</em></p>
 </li>
 </ol>
 <blockquote>
-<p>Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell
-och äta upp små kulor.</p>
+<p>Testa ditt program! Du skall nu ha en enkel version av spelet där du kan styra din cell och äta upp små kulor.</p>
 </blockquote>
-<h2 id="delmoment-4-ut-kad-speldynamik">Delmoment 4: Utökad speldynamik</h2>
+<h2 id="4-ut-kad-speldynamik">4: Utökad speldynamik</h2>
 <p>Du skall nu se till att utökad spelet så att det svårare att spela ju mer poäng du får. Först skall du se till att <strong>Cell</strong> rör sig långsammare ju tyngre/större den är. För det andra skall du se till att den förlorar vikt ju tyngre/större den blir.</p>
 <ol>
-<li><p>Just nu går <strong>Cell</strong> 20 steg varje gång du rör musen: <img src="image_6.png" alt="image alt kod">. Ändra det så att den rör sig i proportion till vad variabeln <strong>&quot;Vikt&quot;</strong> har för värde.</p>
+<li><p>Just nu går <strong>Cell</strong> 20 steg varje gång du rör musen: <img src="image_6.png" alt="image alt kod">. Ändra det så att den får ett värde som beror på vad variabeln <strong>&quot;Vikt&quot;</strong> har för värde:</p>
 <ul>
 <li><p>Om du ändrar den till <img src="image_7.png" alt="image alt kod"> så kommer <strong>Cell</strong> röra sig mer ju större den är. Till exempel så kommer den röra sig 20 steg i början och sedan 30 steg när du har ätit 10 kulor.  Detta är raka motsatsen mot vad vi vill.</p>
 </li>
@@ -145,16 +138,17 @@ och äta upp små kulor.</p>
 </li>
 </ul>
 <p><img src="image_10.png" alt="image alt kod"></p>
-<p><em>Det här är alla block du behöver för punkt 2.</em></p>
 </li>
 </ol>
 <blockquote>
 <p>Testa din kod! Du kan självklart göra det enklare eller svårare genom att ändra på skripten du gjorde ovan.</p>
 </blockquote>
 <p><strong>Tips:</strong> Tycker du att <strong>Cell</strong> rör sig för fort? Ändra koden i punkt 1. Tycker du att <strong>Cell</strong> förlorar vikt för fort? Ändra på hur många sekunder du väntar innan du förlorar vikten. Du kan också koda så att du inte förlorar vikt förrän du har kommit upp i en viss storlek.</p>
-<h2 id="delmoment-5-en-motst-ndare">Delmoment 5: En motståndare</h2>
+<h2 id="5-en-motst-ndare">5: En motståndare</h2>
 <p>Det är nu dags att vi skapar en motståndare. I stället för att den styrs av en annan spelare skall du koda datorn att vara din motståndare. Detta kallas <em>artificiell intelligens</em> och är ett stort forskningsområde som många programmerare jobbar med. Här skall du koda en ganska dum motståndare som rör sig slumpmässigt över spelplanen.</p>
+<blockquote>
 <p>Se koden som ett förslag på vad du kan göra. Om du är lite kreativ så kan du koda en helt annan motståndare. Det finns inget som sätter stopp - bara din fantasi!</p>
+</blockquote>
 <ol>
 <li><p>Rita en ny sprajt. Rita en fylld cirkel i valfri färg som  skall vara lite mindre än sprajten <strong>Cell</strong>.</p>
 </li>
@@ -187,7 +181,6 @@ och äta upp små kulor.</p>
 </ul>
 <p>Detta skript kommer göra att <strong>Fiende</strong> dyker upp först när <strong>&quot;Vikt&quot;</strong> är större än 50. <strong>Fiende</strong> kommer också bara dyka upp med 40% säkerhet, det för att inte göra det allt för svårt. Om du vill kan du ta bort detta villkor. När <strong>Fiende</strong> har dykt upp kommer den stanna på spelplanen mellan en halv och 2 minuter (30 till 120 sekunder).</p>
 <p><img src="image_11.png" alt="image alt kod"></p>
-<p><em>Det här är alla block du behöver för punkt 3.</em></p>
 </li>
 <li><p>Skapa ett nytt skript för <strong>Fiende</strong> som säger:</p>
 <ul>
@@ -214,7 +207,6 @@ och äta upp små kulor.</p>
 </ul>
 <p>Det här skriptet kontrollerar hur <strong>Fiende</strong> skall bete sig. Nu dyker den upp på ett slumpmässigt ställe på spelplanen och går i en slumpmässig riktning. Detta fortgår tills <strong>storlek</strong> är mindre än 100, vilket är ett sätt att stoppa skriptet när den försvinner (blir gömd) av skriptet i punkt 3. Det är därför vi använder oss av en <strong>&quot;repetera tills&quot;</strong>-block istället för ett <strong>&quot;för alltid&quot;</strong>-block.</p>
 <p><img src="image_12.png" alt="image alt kod"></p>
-<p><em>Det här är alla block du behöver för punkt 4.</em></p>
 </li>
 <li><p>Ändra skriptet för <strong>Mat</strong>:</p>
 <ul>

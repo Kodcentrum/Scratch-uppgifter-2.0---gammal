@@ -1,0 +1,320 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="ritprogram">Ritprogram</h1>
+<p>Nu kommer du att få skapa ett ritprogram där du sedan kan göra egna konstverk! Programmet låter dig rita med olika färgpennor, sudda med suddgummi och måla med stämplar som du själv väljer.</p>
+<p>Du kan se ett exempel på ritprogrammet här:</p>
+<ul>
+<li><a href="https://scratch.mit.edu/projects/82515788/" target="_blank">Exempel 1</a></li>
+</ul>
+<p><img src="image_0.jpg" alt="image alt text"></p>
+<h2 id="steg-1-en-penna-som-kan-rita">Steg 1 En penna som kan rita</h2>
+<p>Börja med att skapa en penna som ritar när du drar runt den på scenen.</p>
+<ol>
+<li><p>Skapa ett nytt Scratch-projekt och ta bort katten. Välj en ny <em>sprajt</em> från biblioteket: <strong>Saker/Pencil</strong>. Byt namn på den nya <em>sprajten</em> till <strong>&quot;penna&quot;</strong>.</p>
+</li>
+<li><p>Gå till fliken KLÄDSLAR. Ändra klädselns <em>centrum</em> till pennans spets, genom att flytta korsets mittpunkt dit. Det är viktigt för att pennan ska kunna rita från spetsen!</p>
+<p><img src="image_1.png" alt="image alt text">
+<img src="image_2.png" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="steg-2-g-r-s-pennan-f-ljer-musen">Steg 2 Gör så pennan följer musen</h2>
+<ol>
+<li><p>Skapa ett <em>skript</em> för pennan som säger:</p>
+<ul>
+<li>Starta när START klickas på</li>
+<li><strong>För alltid gå till</strong> muspekaren</li>
+</ul>
+<p><img src="image_3.png" alt="image alt text"></p>
+<p>Nu vill du kunna använda <em>sprajten</em> som en riktig penna, som du kan styra med musen och rita med genom att trycka ned musknappen. Titta under skriptfliken <strong>PENNA</strong>, här finns alla block som har att göra med att kunna rita.</p>
+</li>
+</ol>
+<h2 id="steg-3-g-r-s-pennan-ritar-n-r-man-klickar-med-musen">Steg  3 Gör så pennan ritar när man klickar med musen</h2>
+<ol>
+<li><p>Skapa ett skript som säger att när musknappen är nedtryckt ska pennan vara nere, och annars ska pennan vara uppe. Lägg ett <strong>KONTROLL</strong> -block i ditt första skript, som säger att:</p>
+<ul>
+<li><p>OM <strong>musknappen</strong> är <strong>nedtryckt</strong> ska <strong>penna</strong> vara <strong>ned</strong></p>
+</li>
+<li><p>ANNARS ska <strong>penna</strong> vara <strong>upp</strong></p>
+</li>
+</ul>
+<p><img src="image_4.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Följer pennan muspekaren? Vad händer om du håller nere musknappen och flyttar musen? (Tänk inte på vilken färg pennan har, det kommer du till senare!)
+Testa att stänga av och starta programmet på nytt. Märker du att det du har ritat fortsätter att vara kvar? Det behöver du ändra på!</p>
+</blockquote>
+<ol>
+<li>Lägg till blocket <strong>radera</strong> (finns under <strong>PENNA</strong>), precis ovanför <strong>för alltid-loopen</strong>. Då raderas allt som blivit ritat när programmet startas på nytt.</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START. Försvinner din teckning när du klickar på den gröna flaggan?</p>
+</blockquote>
+<h2 id="steg-4-g-r-en-knapp-som-kan-radera-allt">Steg 4  Gör en knapp som kan radera allt</h2>
+<p>Nu vill du lägga till en knapp som suddar hela teckningen så att du inte behöver starta och stoppa projektet varje gång. Här i exemplet används ett kryss, men du kan välja att göra en egen knapp.</p>
+<ol>
+<li><p>Lägg till <em>sprajten</em> <strong>Saker/Button5</strong> från biblioteket.  </p>
+</li>
+<li><p>Byt namn på <em>sprajten</em> till <strong>&quot;radera&quot;</strong>. Förminska den så att den inte tar för stor plats på scenen och placera knappen<em> </em>där du vill ha den, t ex längst ner till vänster.</p>
+</li>
+<li><p>Skapa ett <em>skript</em> som säger att den ska <strong>radera</strong> allt när du <strong>klickar på</strong> <em>sprajten</em>. Detta kräver endast två block, kan du lista ut vilka? Titta annars hur du gjorde i skriptet för <em>sprajten</em> <strong>&quot;penna&quot;</strong>.</p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och rita något. Kan du sudda hela teckningen genom att klicka på <em>sprajten</em> <strong>&quot;radera&quot;</strong>?</p>
+</blockquote>
+<h2 id="steg-5-g-r-en-knapp-som-kan-byta-f-rg-p-pennan">Steg 5  Gör en knapp som kan byta färg på pennan</h2>
+<p>Än så länge kan du bara rita blåa streck men det ska så klart gå att rita med andra färger! För att göra det behöver du först nya <em>sprajter</em> för olika färgade knappar som du ska kunna klicka på för att ändra färg på pennan.</p>
+<ol>
+<li><p>Välj en <em>sprajt</em> som ser ut som en knapp, t ex <strong>Saker/Button1</strong> och ge den namnet <strong>&quot;grön knapp&quot;</strong>. Förminska knappen så att du får plats med flera bredvid varandra, och placera den till exempel längst ned på scenen bredvid <strong>&quot;radera&quot;</strong>-knappen.</p>
+</li>
+<li><p>Skapa ett <em>skript</em> för <em>sprajten</em> <strong>&quot;grön knapp&quot;</strong> som säger:</p>
+<ul>
+<li><p>Starta när <em>sprajten</em> <strong>klickas på</strong></p>
+</li>
+<li><p><strong>Skicka</strong> meddelandet <strong>&quot;grön&quot;</strong></p>
+</li>
+</ul>
+<p><img src="image_5.jpg" alt="image alt text"></p>
+<p>Det är allt som knappen behöver göra! Själva jobbet med att byta färg görs av <em>sprajten</em> <strong>&quot;penna&quot;</strong>.</p>
+</li>
+</ol>
+<h2 id="steg-6-g-r-s-pennan-har-m-nga-olika-f-rger">Steg 6  Gör  så pennan har många olika färger</h2>
+<ol>
+<li><p>Klicka på <em>sprajten</em> <strong>&quot;penna&quot;</strong> och gå in på KLÄDSLAR. Här finns två klädslar som båda föreställer gula pennor. Ta bort en av klädslarna. Kopiera den du behållit – en gång för varje färg du vill ha: t ex grön, röd, blå.</p>
+</li>
+<li><p>Markera de kopierade klädslarna och ändra färg på varje klädsel med FÄRGLÄGG EN FORM (färgburken). Se till så att alla <em>klädslar</em> får olika färg.</p>
+</li>
+<li><p>Byt namn på <em>klädslarna</em> så att de heter som sin färg, t ex <strong>&quot;grön&quot;</strong>.</p>
+</li>
+</ol>
+<h2 id="steg-7-g-r-s-pennan-byter-f-rg-n-r-man-klickar-p-pennan">Steg 7 Gör så pennan byter färg när man klickar på pennan</h2>
+<ol>
+<li><p>Skapa nu ett nytt <em>skript</em> för <em>sprajten</em> <strong>&quot;penna&quot;</strong> som säger:</p>
+<ul>
+<li><p>Starta när den <strong>tar emot</strong> <em>meddelandet</em> <strong>&quot;grön&quot;</strong></p>
+</li>
+<li><p>Då <strong>byt klädsel till</strong> <strong>&quot;grön&quot;</strong></p>
+</li>
+<li><p>Sedan <strong>sätt pennans färg till</strong> <em>grön</em></p>
+</li>
+</ul>
+<p><img src="image_6.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<p><strong>Tips:</strong> Klicka på den färgade rutan i blocket <strong>sätt pennans färg till</strong> och klicka sedan på din gröna knapp på scenen, så får du rätt färg att rita med.</p>
+<blockquote>
+<p>Klicka på START och rita något. Klicka nu på den gröna knappen och rita igen. Byter pennan klädsel? Ritar den i grönt nu? Ritar den från pennspetsen?</p>
+</blockquote>
+<h2 id="steg-8-g-r-en-knapp-f-r-varje-f-rg">Steg 8 Gör en knapp för varje färg</h2>
+<p>Nu ska du få göra fler knappar för alla olika färger, och skript som ändrar pennans färg när du klickar på knappen.</p>
+<ol>
+<li><p>Kopiera <em>sprajten</em> <strong>&quot;grön knapp&quot;</strong> så att du har lika många knappar som du vill ha färger. Om du tittar på skript-fliken ser du att även skriptet har kopierats.</p>
+</li>
+<li><p>Börja med att döpa om knapparna till t ex <strong>&quot;gul knapp&quot;</strong>, <strong>&quot;röd knapp&quot;</strong>, <strong>&quot;blå knapp&quot;</strong> och placera dem där du vill ha dem på scenen, förslagsvis i en rad längst ned.</p>
+</li>
+</ol>
+<h2 id="steg-9-byt-f-rg-p-knapparna">Steg  9 Byt färg på knapparna</h2>
+<ol>
+<li>Nu behöver du byta färg på knapparna. Gå in under KLÄDSLAR. Ändra färg med FÄRGLÄGG EN FORM (färgburken).</li>
+</ol>
+<p><img src="image_7.jpg" alt="image alt text">
+<img src="image_8.jpg" alt="image alt text"></p>
+<p><strong>Tips:</strong> Använd tonade färger för att få knapparna att blänka! Blanda t ex rött och rosa för att få till en tonad röd knapp. Om knappen ser för ljus ut, som t ex den gula knappen, tona mot en mörkare färg.</p>
+<p>Ungefär så här borde din knapprad se ut på scenen:</p>
+<p><img src="image_9.jpg" alt="image alt text"></p>
+<h2 id="steg-10-l-gg-till-kod-f-r-att-byta-f-rg-n-r-knappen-klickas-p-">Steg 10 Lägg till kod för att byta färg när knappen klickas på</h2>
+<ol>
+<li><p>Nu behöver du ändra i <em>skripten</em> för varje <em>sprajt</em>. De ska <strong>skicka meddelande</strong> för sin färg när de <strong>klickas på</strong>.</p>
+</li>
+<li><p>Gå sedan till <em>sprajten</em> <strong>&quot;penna&quot;</strong>. Kopiera <em>skriptet</em> som <strong>tar emot</strong> <em>meddelande</em>, och gör ett sådant skript för varje ny färg. Skripten ska <strong>byta klädsel</strong> och <strong>ändra pennans färg</strong> till den färg som meddelandet anger.</p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och rita något. Klicka nu på de olika knapparna. Fungerar alla färgvalknappar? Byter de pennans <em>klädsel</em> till rätt färg? Får de pennan att måla med rätt färg? Ritar alla pennans <em>klädslar</em> med pennspetsen?</p>
+</blockquote>
+<h2 id="steg-11-g-r-s-man-inte-kan-rita-p-knapparna">Steg 11 Gör så man inte kan rita på knapparna</h2>
+<p>Du har säkert märkt att du kan måla överallt på skärmen, till och med där knapparna sitter. Nu kommer du att få göra en bakgrund till ritprogrammet, och bestämma var pennan ska kunna rita – och inte rita.</p>
+<ol>
+<li>Börja med att rita en egen bakgrund. Välj <em>Scenen</em> och gå till BAKGRUNDER. Välj själv hur du vill att bakgrunden ska se ut!</li>
+</ol>
+<p><img src="image_10.jpg" alt="image alt text"></p>
+<p><strong>Tips:</strong> Här i exemplet är knappraden en mörkt grå REKTANGEL som täcker hela nederkanten. För ritytan kan du använda FYLL MED FÄRG om du t ex vill ha en ljusgrå nyans istället för helt vit.</p>
+<h2 id="steg-12-hitta-hur-stor-ritytan-r">Steg 12  Hitta hur stor ritytan är</h2>
+<p>Nu behöver du ta reda på din ritytas KOORDINATER. Hela <em>Scenen</em> går mellan -240 och 240 på x-axeln och -180 och 180 på y-axeln, det kan du se om du för muspekaren vänster och höger (X), uppåt och nedåt (Y) på <em>Scenen</em>. Titta längst ned till höger under <em>Scenen</em> för att se hur värdena ändras!</p>
+<ol>
+<li>Ta reda på <strong>koordinaterna för din rityta</strong> genom att dra muspekaren till ritytans kanter. I det här exemplet är ritytan mellan 240 och -240 på x-axeln och 180 och -115 på y-axeln. Skriv ner koordinaterna så du kommer ihåg</li>
+</ol>
+<h2 id="steg-13-g-r-s-pennan-bara-kan-r-ra-sig-mellan-koordinaterna">Steg 13 Gör så pennan bara kan röra sig mellan koordinaterna</h2>
+<ol>
+<li><p>Gå till <em>skriptet</em> för <em>sprajten</em> <strong>&quot;penna&quot;</strong> och ändra inuti <em>loopen</em>. Nu är det många block som behövs för att det ska bli rätt! Du behöver dels använda <strong>KÄNNA AV</strong> var musen är, dels plocka fram <strong>OPERATORER</strong> som säger vad som måste stämma för att skriptet ska utföras:</p>
+<ul>
+<li><strong>För alltid:</strong><ul>
+<li><strong>Om</strong> <em>sprajten</em> känner av att<ul>
+<li><strong>mus y</strong> är <em>mer</em> än <strong>-115</strong></li>
+<li>och <strong>mus y</strong> är <em>mindre</em> än <strong>180</strong></li>
+<li>och <strong>mus x</strong> är <em>mer än</em> <strong>-240</strong></li>
+<li>och mus x är <em>mindre än</em> <strong>240</strong></li>
+</ul>
+</li>
+<li><strong>Då</strong> ska <em>sprajten</em> <strong>visas</strong> och fortsätta med <em>skriptet</em> som du redan gjort</li>
+<li><strong>Annars</strong> ska <em>sprajten</em> <strong>gömmas</strong> så att det inte går att rita</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Verkar det krångligt? Här är några tips!</p>
+<p><strong>Tips 1</strong>: <strong>OCH</strong> är en OPERATOR som säger att allt i skriptet måste stämma för att skriptet ska utföras. Här behöver du pussla in totalt tre block med <strong>och</strong> för att få in alla värden!</p>
+<p><img src="image_11.jpg" alt="image alt text"></p>
+<p><strong>Tips 2</strong>: <strong>Mer än</strong> har symbolen <strong>&gt;</strong>. <strong>Mindre än</strong> har symbolen <strong>&lt;</strong>. De är båda OPERATORER.</p>
+<p><img src="image_12.jpg" alt="image alt text"></p>
+<p><strong>Tips 3:</strong> Tänk på att du ska sätta in <strong>koordinaterna för din rityta</strong>. Här gäller det att få <strong>alla värden rätt</strong>, allt måste stämma för att skriptet ska utföras och pennan visas. Testa dig fram om det blir fel!</p>
+<h2 id="steg-14-testa-hur-ditt-program-fungerar">Steg 14 Testa hur ditt program fungerar</h2>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och rita något. Syns pennan? Vad händer med pennan när du lämnar ritytan? Kan du fortfarande rita inom ritytan? Kan du rita utanför ritytan?</p>
+</blockquote>
+<p><img src="image_13.jpg" alt="image alt text">
+<em>Så här ser vårt exempel ut, tänk på att du behöver skriva in koordinaterna för din rityta!</em></p>
+<h2 id="steg-15-skapa-ett-suddgummi-som-kan-sudda">Steg 15 Skapa ett suddgummi som kan sudda</h2>
+<p>Det är kul att kunna rita, men alla gör misstag och då kanske du vill kunna sudda? Nu ska du lägga till ett verktyg som ser ut att sudda, men som egentligen ritar med bakgrundsfärgen.</p>
+<ol>
+<li>Välj en ny <em>sprajt</em> för suddgummi, här i exemplet <strong>Saker/Button3</strong>. Förminska den om det behövs och placera i knappraden. Ändra namnet till <strong>&quot;sudd&quot;</strong>.</li>
+</ol>
+<h2 id="steg-16-l-gg-till-kod-f-r-suddgummi-som-skickar-meddelande">Steg  16 Lägg till kod för suddgummi som skickar meddelande</h2>
+<ol>
+<li><p>Gör ett <em>skript</em> för <em>sprajten</em> som säger:</p>
+<ul>
+<li><p>Starta när <em>sprajten</em> <strong>klickas på</strong></p>
+</li>
+<li><p><strong>Skicka</strong> <em>meddelandet</em> <strong>&quot;sudda&quot;</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="steg-17-g-r-s-pennan-kan-se-ut-som-ett-sudd">Steg 17 Gör så pennan kan se ut som ett sudd</h2>
+<ol>
+<li><p>Markera <em>sprajten</em> <strong>&quot;penna&quot;</strong> och gå till KLÄDSLAR. Lägg till <em>klädseln</em> <strong>Saker/Button3</strong> från biblioteket. Ändra namnet till <strong>&quot;sudd&quot;</strong>.</p>
+</li>
+<li><p>Skapa ett nytt <em>skript</em> för <em>sprajten</em> <strong>&quot;penna&quot;</strong> som säger:</p>
+<ul>
+<li><p>Starta när den <strong>tar emot *</strong>meddelandet<strong>* &quot;sudda&quot;</strong></p>
+</li>
+<li><p><strong>Byt klädsel</strong> till <strong>&quot;sudd&quot;</strong>.</p>
+</li>
+<li><p><strong>Sätt pennans färg</strong> till samma färg som bakgrunden</p>
+</li>
+<li><p><strong>Sätt pennans storlek</strong> till en större storlek – testa dig fram vad som passar för suddet!</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="steg-18-g-r-s-pennan-blir-lagom-stor-n-r-man-v-ljer-f-rg">Steg 18 Gör så pennan blir lagom stor när man väljer färg</h2>
+<ol>
+<li>Lägg nu in block som sätter <strong>pennans storlek</strong> för alla <em>skript</em> som byter färg på pennan, annars kommer storleken ändras utifrån suddet. Välj själv hur tjockt pennstreck du vill ha.</li>
+</ol>
+<p><strong>Tips</strong>: Om pennstorleken är väldigt stor kan du behöva ändra koordinaterna för ritytan, annars kan det bli så att du ritar utanför. Samma gäller för suddet, testa så att du inte kan sudda utanför!</p>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och rita något, klicka sedan på suddgummit. Suddar den? Fungerar det ända fram till kanten – men inte utanför? Kan du byta mellan penna och sudd?</p>
+</blockquote>
+<p><strong>Nu har du ett fungerande ritprogram!</strong> För att göra det extra roligt kan du nu lägga till stämplar.</p>
+<h2 id="steg-19-l-gg-till-en-st-mpel">Steg 19 Lägg till en stämpel</h2>
+<p>Nu ska skapa ett stämpelverktyg som du kan använda för att stämpla små bilder på teckningen. Det går att göra flera olika stämplar och du väljer själv hur de ska se ut.</p>
+<p>Du kommer att använda <em>sprajten</em> <strong>&quot;penna&quot;</strong> även när du stämplar. För att <em>sprajten</em> ska veta om den ska rita eller stämpla, behöver du skapa en VARIABEL för <strong>&quot;pennläge&quot;</strong>. Är pennläge <em>&quot;sant&quot;</em> ska <em>sprajten</em> rita, är pennläge <em>&quot;falskt&quot;</em> ska den stämpla.</p>
+<ol>
+<li><p>Välj en ny <em>sprajt</em> från biblioteket. Du kan välja helt fritt, som exempel använder vi en blomma: <strong>Saker/Flower Shape</strong>.</p>
+</li>
+<li><p>Förminska <em>sprajten</em> du skapade och placera den i din knapprad. Om du behöver kan du förminska alla knappar för att få plats med flera stämplar.</p>
+<p><img src="image_14.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="steg-20-g-r-s-n-r-st-mpel-klickas-att-den-skickar-ett-meddelande">Steg 20 Gör så när stämpel klickas att den skickar ett meddelande</h2>
+<ol>
+<li><p>Gör ett <em>skript</em> för <em>sprajten</em> som säger:</p>
+<ul>
+<li><p>Starta när <em>sprajten</em> <strong>klickas på</strong></p>
+</li>
+<li><p><strong>Skicka</strong> <em>meddelandet</em> <strong>&quot;blomma&quot;</strong>– eller det som din stämpel föreställer</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="steg-21-g-r-s-n-r-st-mpel-klickas-p-att-pennan-ser-ut-som-st-mpeln">Steg 21  Gör så när stämpel klickas på att pennan ser ut som stämpeln</h2>
+<ol>
+<li><p>Gå till <em>sprajten</em> <strong>&quot;penna&quot;</strong> och gå till fliken KLÄDSLAR. Lägg till en ny <em>klädsel</em> och välj samma bild som stämpeln, här <strong>Saker/Flower Shape</strong>. Döp klädseln till det bilden föreställer, t ex <strong>&quot;blomma&quot;</strong>.</p>
+</li>
+<li><p>För <em>sprajten</em> <strong>&quot;penna&quot;</strong> behöver du nu skapa en VARIABEL som du kallar <strong>&quot;pennläge&quot;</strong> och som bara gäller för den <em>sprajten</em>. Gör ett nytt <em>skript</em> för <em>sprajten</em> <strong>&quot;penna&quot;</strong> som säger:</p>
+<ul>
+<li><p>Starta när den <strong>tar emot</strong> <em>meddelandet</em> <strong>&quot;blomma&quot;</strong></p>
+</li>
+<li><p><strong>Byt klädsel till &quot;blomma&quot;</strong></p>
+</li>
+<li><p><strong>Sätt &quot;pennläge&quot; till &quot;falskt&quot;</strong></p>
+</li>
+</ul>
+<p><img src="image_15.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<h2 id="steg-22-g-r-s-pennan-kan-b-de-rita-och-st-mpla">Steg  22 Gör så pennan kan både rita och stämpla</h2>
+<ol>
+<li><p>Lägg till ett block för att sätta <strong>pennläge</strong> till <strong>&quot;sant&quot;</strong> i alla dina <em>skript</em> som väljer färg på pennan och även den som suddar.</p>
+<p>Nu behöver du se till att variabeln <strong>&quot;pennläge&quot;</strong> kontrolleras <strong>när musknappen är nere</strong>, så att <em>sprajten</em> <strong>&quot;penna&quot;</strong> vet om den ska rita eller stämpla.</p>
+</li>
+<li><p>Lägg in ett skript innanför <strong>Om musknappen</strong> är <strong>nedtryckt</strong> som säger:</p>
+<ul>
+<li><p>OM <strong>pennläge = &quot;sant&quot;</strong></p>
+</li>
+<li><p>ska vi använda <strong>penna ned</strong></p>
+</li>
+<li><p>ANNARS <strong>stämpla</strong></p>
+</li>
+</ul>
+<p><img src="image_16.jpg" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och prova stämplarna. Fungerar de som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka pennan?</p>
+</blockquote>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du gjort klart uppgiften.</p>
+<p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong><br>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+</blockquote>
+<h2 id="utmaning">Utmaning</h2>
+<p>Har du tid över? Här kommer en utmaning för dig som vill fortsätta.</p>
+<h3 id="regnb-gspenna">Regnbågspenna</h3>
+<p>Du kan lägga till en specialpenna som målar i regnbågens alla färger istället för bara med en färg.</p>
+<ol>
+<li><p>Lägg till en <em>sprajt</em> eller rita en egen som ska vara knappen för regnbågsfärg. Placera den i din knapprad. Här i exemplet har vi använt <strong>Saker/Button2</strong> och ändrat färg på <em>klädseln</em>.</p>
+<p><img src="image_17.jpg" alt="image alt text"></p>
+</li>
+<li><p>Gör ett skript som säger att den ska <strong>skicka</strong> <em>meddelandet</em> <strong>&quot;regnbåge&quot;</strong> när du klickar på den.</p>
+</li>
+<li><p>Gå till <em>sprajten</em> <strong>&quot;penna&quot;</strong> och lägg till en <em>klädsel </em>för regnbågspennan. Du får själv<em> </em>hitta på hur du vill att regnbågspennan ska se ut!</p>
+</li>
+<li><p>Skapa ett <em>skript</em> som <strong>för alltid</strong> <strong>ändrar pennans färg</strong> när den <strong>tar emot</strong> <em>meddelandet</em> <strong>&quot;regnbåge&quot;</strong>. Färgen ska ändras ett visst <strong>antal </strong>gånger och sedan <strong>vänta</strong> en stund för att skapa regnbågseffekten. Testa dig fram för att hitta bra värden!</p>
+</li>
+</ol>
+<blockquote>
+<p>Testa ditt projekt! Klicka på START och prova regnbågspennan. Fungerar den som du vill? Vad händer om du byter tillbaka till någon av färgerna – får du tillbaka rätt färg?</p>
+</blockquote>
+<p><img src="image_18.jpg" alt="image alt text"></p>
+<p>Om pennan fortsätter rita med regnbågsfärg även när du trycker på någon annan knapp, beror det på att du inte har sagt åt <em>sprajten</em> när den ska <strong>sluta ändra pennans färg</strong>. Det ska du göra nu.</p>
+<ol>
+<li>Ändra i <em>loopen</em> för regnbågs-<em>skriptet</em> så att den bara ändrar pennans färg <strong>om</strong> du har valt regnbågsfärg. För det behöver du en <em>variabel</em> som du kallar för <strong>&quot;regnbågsfärg&quot;</strong> och <strong>sätter till</strong> <strong>&quot;sant&quot;</strong> när den ska <strong>ändra pennans färg</strong>.</li>
+</ol>
+<p><strong>Tips:</strong> Titta på hur du gjorde för <em>variabeln</em> <strong>&quot;pennläge&quot;</strong>. Använd <strong>&quot;sant&quot;</strong> och <strong>&quot;falskt&quot;</strong> på samma sätt för att kontrollera <strong>om</strong> <em>sprajten</em> ska rita med regnbågsfärg eller inte. Du behöver använda <strong>sätt &quot;regnbågsfärg&quot; till &quot;falskt&quot;</strong> för varje <em>skript</em> där du inte vill att pennan ska rita med regnbågsfärg.</p>
+<blockquote>
+<p>Testa ditt projekt! Kan du byta mellan regnbågspennan och de andra färgerna?  </p>
+</blockquote>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li><p>Varför kan det vara viktigt att ändra centrum på en sprajt?</p>
+</li>
+<li><p>Vad för trick använder du för att radera det du ritat?</p>
+</li>
+<li><p>Vad används en logisk operator, som t ex OCH, till?</p>
+</li>
+</ul>
+</body></html>

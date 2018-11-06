@@ -1,0 +1,242 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="bug-race-deluxe-del-1">Bug race deluxe – del 1</h1>
+<p>I denna uppgift får du chansen att jobba vidare med spelet <strong>Bug Race</strong>. Du kommer få lägga till funktioner som omstart, flera liv och mat. Och du kommer få jobba med meddelanden, variabler och kloner.</p>
+<p>Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/196756892/" target="_blank">https://scratch.mit.edu/projects/196756892/</a></p>
+<p><img src="image_0.png" alt="image alt text"></p>
+<h2 id="1-f-rberedelser">1 – Förberedelser</h2>
+<p>För att kunna jobba med denna uppgift måste du ha skapat ett färdigt spel <strong>Bug race</strong> som har några olika funktioner.</p>
+<p><strong>Har du kodat Bug race?</strong></p>
+<p>Om du <em>inte</em> är klar med Bug race får du börja med att göra klart det. Du hittar uppgiften <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bug-race-intro">här</a> eller i menyn till höger.</p>
+<p><strong>Finns det en mållinje i spelet?</strong></p>
+<p>Om du <em>inte</em> har ritat till en mållinje och kodat vad som händer när skalbaggen kommer dit är det bra om du gör det. Du hittar uppgiften <a href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bug-race-tillagg?chpt=1">här</a>.<br>    <img src="image_1.png" alt="image alt text"></p>
+<p><strong>Finns det två spelare som tävlar mot varandra?</strong></p>
+<p>Det är okej om denna funktion är med. Men instruktionerna i denna uppgift är bara för ena spelaren. Men du kan självklart koda den andra spelaren själv.</p>
+<p><img src="image_2.png" alt="image alt text"></p>
+<blockquote>
+<p>Nu är det dags att koda vidare på spelet!</p>
+</blockquote>
+<h2 id="2-omstart">2 – Omstart</h2>
+<p>Du ska koda så att skalbaggen inte dör om den nuddar gräset. I stället ska skalbaggen börja om från början. Det ska vi fixa med meddelanden.</p>
+<ol>
+<li><p>Markera sprajten <strong>Skalbagge</strong></p>
+</li>
+<li><p>Under <em>Händelser</em> hittar du ett block som heter <strong>&quot;när jag tar emot...&quot;</strong> – dra in det till kodytan.</p>
+</li>
+<li><p>Klicka på den lilla pilen bredvid <strong>meddelande1</strong> och välj <strong>&quot;nytt meddelande...&quot;</strong></p>
+<p> <img src="image_3.png" alt="image alt text"></p>
+</li>
+<li><p>Kalla det nya meddelande <strong>&quot;starta&quot;</strong></p>
+</li>
+<li><p>Flytta blocken som ligger under &quot;<strong>När</strong> start <strong>klickas på</strong>&quot; till under &quot;<strong>När</strong> jag tar emot <strong>starta&quot;</strong></p>
+<p> <img src="image_4.png" alt="image alt text"></p>
+</li>
+<li><p>Lägg ett block <strong>&quot;skicka start</strong>&quot; under “När <strong>start</strong> klickas på”</p>
+<p> <img src="image_5.png" alt="image alt text"></p>
+</li>
+</ol>
+<p>Nu fungerar programmet precis som förut, men vi vill ju att skalbaggen ska starta om när vi rör gräset.</p>
+<ol>
+<li><p>Ta bort blocken som ligger i &quot;<strong>OM rör färgen grön</strong>&quot;-blocket</p>
+</li>
+<li><p>Lägg in ett block <strong>&quot;skicka start&quot;</strong> där istället.</p>
+<p> <img src="image_6.png" alt="image alt text"></p>
+</li>
+</ol>
+<blockquote>
+<p>Testa! Startar skalbaggen om från början när den rör gräset?</p>
+</blockquote>
+<h2 id="3-flera-varv-och-en-varvr-knare">3 – Flera varv och en varvräknare</h2>
+<p>Visst är det tråkigt att spelet tar slut när du kommit runt ett varv? Nu ska du koda så att skalbaggen kan åka flera varv.</p>
+<ol>
+<li><p>Under <em>Data</em> klicka på <strong>&quot;Skapa en ny variabel&quot;</strong></p>
+</li>
+<li><p>Döp variabeln till <strong>&quot;Varv&quot;</strong></p>
+<p> <img src="image_7.png" alt="image alt text"></p>
+</li>
+<li><p>Ändra på koden för sprajten <strong>Skalbagge</strong></p>
+<ul>
+<li><p>Under &quot;När <strong>start</strong> klickas på&quot; dra in ett block “<strong>Sätt Varv</strong> till <strong>0</strong>”</p>
+<p><img src="image_8.png" alt="image alt text"></p>
+</li>
+<li><p>Ta bort koden som ligger i <strong>&quot;OM rör</strong> mållinjen&quot;-blocket</p>
+</li>
+</ul>
+</li>
+<li><p>Skapa följande skript i stället när skalbaggen rör mållinjen</p>
+<ul>
+<li><p>Säg <strong>&quot;Mål&quot;</strong> i <strong>2 sekunder</strong></p>
+</li>
+<li><p>Öka variabel <strong>&quot;Varv&quot;</strong> med 1</p>
+</li>
+<li><p>Skicka meddelandet <strong>&quot;start&quot;</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="image_9.png" alt="image alt text"></p>
+<blockquote>
+<p>Testa! Vad händer om du går i mål?</p>
+</blockquote>
+<h2 id="4-flera-liv">4 – Flera liv</h2>
+<p>Nu ska du få koda en till variabel som håller reda på hur många liv skalbaggen har. Den kommer minska om skalbaggen åker ut i gräset.</p>
+<ol>
+<li><p>Lägg till en variabel som heter &quot;<strong>Liv</strong>&quot;</p>
+</li>
+<li><p>Sätt <strong>Liv</strong> till 4 när spelet startar</p>
+<p> <img src="image_10.png" alt="image alt text"></p>
+</li>
+<li><p>Lägg in följande kod när skalbaggen nuddar gräset, <em>innan meddelandet</em> <strong>starta</strong> <em>skickas</em></p>
+<ul>
+<li><p><strong>Ändra</strong> <strong>Liv</strong> med <strong>-1</strong></p>
+</li>
+<li><p>Skicka meddelandet <strong>&quot;Game over?&quot;</strong> och <strong>vänta</strong></p>
+<p><img src="image_11.png" alt="image alt text"></p>
+</li>
+</ul>
+</li>
+<li><p>Skapa ett nytt skript för <strong>Skalbaggen</strong> som säger</p>
+<ul>
+<li><p>När jag tar emot meddelandet <strong>&quot;Game over?&quot;</strong></p>
+</li>
+<li><p>OM <strong>&quot;Liv&quot; &lt; 1</strong></p>
+<ul>
+<li><p>Säg <strong>&quot;Game over&quot;</strong> i <strong>2 sekunder</strong></p>
+</li>
+<li><p>Stoppa alla</p>
+<p><img src="image_12.png" alt="image alt text"></p>
+</li>
+</ul>
+<blockquote>
+<p>Tecknet <strong>&quot;&lt;&quot;</strong> är en <strong>operator</strong> som betyder <strong>&quot;mindre än&quot;</strong>. Alltså kommer spelet bara ta slut OM &quot;Liv&quot; är <strong>mindre än 1</strong>, det vill säga 0.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>Test igen! Vad händer om du åker ut i gräset 4 gånger?</p>
+</blockquote>
+<h2 id="5-mat">5 – Mat</h2>
+<p>Det är tråkigt att bara förlora liv och till sist kommer skalbaggen dö. Därför ska du få koda en ny sprajt som föreställer mat till skalbaggen och som den kan äta för att öka antalet liv den har.</p>
+<ol>
+<li><p>Skapa en ny sprajt som ska bli mat åt Skalbaggen. <em>Här har jag använt mig av ett äpple, men du kan välja vad du vill!</em></p>
+<p> <img src="image_13.png" alt="image alt text"></p>
+</li>
+<li><p>Placera den nya spratejn utanför banan</p>
+</li>
+<li><p>Skapa ett skript för <strong>Äpplet</strong> som säger</p>
+<ul>
+<li><p>När <strong>start</strong> klickas på</p>
+</li>
+<li><p>Dölj</p>
+</li>
+<li><p>Gå tillbaka 1 lager</p>
+</li>
+<li><p>För alltid:</p>
+<ul>
+<li><p><strong>Vänta</strong> 3 sekunder</p>
+</li>
+<li><p><strong>Skapa klon</strong> av mig själv</p>
+</li>
+</ul>
+<p><img src="image_14.png" alt="image alt text"></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Detta skript kommer skapa en ny klon av sprajten var tredje sekund. En klon är som en kopia av en sprajt som beter sig precis på samma sätt som alla andra kloner. Om du tycker det skapas äpplen för ofta kan du ändra på <strong>vänta</strong>-blocket.</p>
+<blockquote>
+<p>Testa spelet! Kommer det några äpplen på banan?</p>
+<p>Nej, det ska du få koda nu.</p>
+</blockquote>
+<ol>
+<li><p>Skapa ett nytt skript för <strong>Äpplet</strong> som säger</p>
+<ul>
+<li><p>När jag <strong>startar som klon</strong></p>
+</li>
+<li><p><strong>Repetera</strong> tills <strong>rör färgen grå</strong> (<em>färgen på banan</em>):</p>
+<ul>
+<li><strong>Gå</strong> till <strong>x</strong>: <strong>slumptal</strong> mellan <strong>-240 och 240</strong> <strong>y</strong>: <strong>slumptal</strong> mellan <strong>-160 och 160</strong></li>
+</ul>
+</li>
+<li><p>Visa</p>
+</li>
+<li><p>För alltid:</p>
+<ul>
+<li><p>OM <strong>rör skalbaggen</strong>:</p>
+<ul>
+<li><p>Ändra <strong>&quot;Liv&quot;</strong> med <strong>1</strong></p>
+</li>
+<li><p><strong>Radera</strong> klonen</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="image_15.png" alt="image alt text"></p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Den första loopen kommer placera klonen på en slumpmässig plats på banan. Och för alltid loopen ser till att äpplet försvinner om skalbaggen nuddar den.</p>
+<blockquote>
+<p>Testa! Kommer det några äpplen på banan nu?</p>
+</blockquote>
+<p>Det kommer ganska många äpplen faktiskt, och om inte skalbaggen hinner äta upp alla kommer hela banan vara fylld med mat.  </p>
+<ol>
+<li><p>Skapa ett tredje skript för <strong>Äpplet</strong> som säger</p>
+<ul>
+<li><p>När <strong>startar som klon</strong></p>
+</li>
+<li><p><strong>Vänta</strong> 10 sekunder</p>
+</li>
+<li><p><strong>Radera</strong> klonen</p>
+<p><img src="image_16.png" alt="image alt text"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="f-rdig-">Färdig!</h2>
+<p>Grattis, nu har du skapat ett nytt spel!</p>
+<p><strong>Glöm inte att spara ditt projekt!</strong> Döp det gärna till uppgiftens namn så att du enkelt kan hitta den igen.</p>
+<blockquote>
+<p><strong>Testa ditt projekt</strong></p>
+<p>Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för att andra ska kunna hitta spelet på Scratch. Gå ut till projektsidan och låt någon annan testa spelet!</p>
+</blockquote>
+<h2 id="utmaningar">Utmaningar</h2>
+<p><strong>Klocka</strong></p>
+<p>Koda en klocka som håller reda på hur länge du har spelet. Skapa en <strong>variabel</strong> som heter <strong>Tid</strong> och som ökar med 1 varje sekund.</p>
+<p><strong>Spelets slut</strong></p>
+<p>Just nu avslutas aldrig spelet och du kan fortsätta spela det så länge du vill och inte dör. Koda ett spelavslut, t.ex.</p>
+<ol>
+<li><p>Du vinner när du klarat av 10 varv</p>
+</li>
+<li><p>Du vinner när du kommit upp i 20 liv</p>
+</li>
+<li><p>Du vinner när du spelat i 2 minuter</p>
+</li>
+</ol>
+<p><strong>Flera spelare</strong></p>
+<p>Nu är det bara en spelare som du har kodat alla nya funktioner för. Koda en till sprajt som en kompis kan styra. Här är några tips:</p>
+<ol>
+<li><p>Du måste ha en variabel <strong>&quot;Liv&quot;</strong> och <strong>“Varv”</strong> för varje spelare</p>
+</li>
+<li><p>Du måste skicka ett meddelandet <strong>Start2</strong> för den andra spelaren</p>
+</li>
+<li><p>Sprajten <strong>Äpplet</strong> måste känna igen om den rör båda spelarna</p>
+</li>
+</ol>
+<h2 id="fr-gest-llningar">Frågeställningar</h2>
+<ul>
+<li><p>Vad är en variabel?</p>
+</li>
+<li><p>Vad kan du använda ett slumptal till?</p>
+</li>
+<li><p>Vad är en klon?</p>
+</li>
+<li><p>Varför kan det vara bra att skapa kloner i stället för att bara kopiera en sprajt flera gånger?</p>
+</li>
+<li><p>Vad kan du använda ett meddelande till?</p>
+</li>
+</ul>
+</body></html>

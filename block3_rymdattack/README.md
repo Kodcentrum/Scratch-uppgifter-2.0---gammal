@@ -2,13 +2,11 @@
 
 Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Du kommer att få lära dig att skapa kloner och att använda slumptal och variabler.
 
-Här kan du se en version av spelet:
-
-* <a href="https://scratch.mit.edu/projects/118440149/" target="_blank">Exampel</a>
+Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/118440149/" target="_blank">https://scratch.mit.edu/projects/118440149/</a>
 
 ![image alt text](image_0.jpg)
 
-## Delmoment 1: Bakgrund och sprajtar
+## 1: Bakgrund och sprajtar
 
 Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra en röd linje som rymdraketen ska sväva över, den linjen kommer att bli viktig senare i den här uppgiften!
 
@@ -22,10 +20,7 @@ Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra
 
   ![image alt text](image_1.png)
 
-  _Ungefär så här borde din scen se ut nu._
-
-
-## Delmoment 2: Styra och skjuta
+## 2: Styra och skjuta
 
 Meningen med spelet är att styra rymdraketen åt vänster och höger för att skjuta ner de attackerande robotarna. Först behöver du skapa ett skript för att styra raketen.
 
@@ -58,8 +53,6 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 10. **Rita en ny sprajt** genom att zooma in så mycket så att du ser alla rutor (**pixlar**). Gör en gul ifylld rektangel som täcker mittpunkten. Den ska vara **6 rutor lång** och **2 rutor bred**.
 
   ![image alt text](image_4.png)
-
-  _Så här!_
 
   Nu behöver du skapa ett skript för skottet som gör att det:
 
@@ -109,15 +102,13 @@ Nu ska du göra så att raketen kan skjuta. För att göra det måste du först 
 
   ![image alt text](image_5.png)
 
-  _Det här är alla block som du behöver för steg 11-14._
-
 
 > Testa ditt projekt! Klicka på START. Skjuter du skott när du klickar på **mellanslag**? Skjuter du från raketen? Kan du bara skjuta tre skott?
 
 **Tips:** Om skotten rör sig för långsamt eller snabbt, ändra hur mycket **y ändras**. Testa dig fram!
 
 
-## Delmoment 3: Attackerande robot
+## 3: Attackerande robot
 Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!
 
 För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.
@@ -166,12 +157,10 @@ För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig sjä
 
   ![image alt text](image_6.png)
 
-  _Det här är alla block du behöver för steg 17 och 18!_
-
 > **Testa ditt projekt!** Klicka på START. Rör sig robotarna nedåt från toppen av scenen mot botten? Förvinner de när de blir träffade av ett skott? Stoppas alla skript när en av robotarna nuddar botten eller raketen?
 
 
-## Delmoment 4: Game Over
+## 4: Game Over
 Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många poäng du fått. Det ska vi ändra på! Du ska låta roboten skicka ett **meddelande** när spelet avslutas, så att den kan tala om hur många poäng du fått.
 
 19. När **Robot1** (någon av klonerna) **rör färgen röd** eller **Spaceship** så ska den skicka ut ett **meddelande** innan den stoppar alla skript. Meddelandet kan du kalla för **"Game over"**.
@@ -184,19 +173,16 @@ Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många p
 
   ![image alt text](image_7.png)
 
-  _Det här kan vara lite klurigt att fästa ihop. Använd dessa block.
-  Lägg till mellanslag för att få meddelandet att se snyggt ut!_
-
 Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!
 
 
-## Delmoment 5: Flera nivåer för spelet
+## 5: Flera nivåer för spelet
 
 Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället går till en ny **nivå**, där robotarna ändrar färg och blir snabbare. Det blir alltså svårare att spela! Det här kan du göra genom att lägga till nya VARIABLER.
 
 21. Skapa två stycken nya _variabler_ som heter **hastighet** och **nivå**. Hastighet ska inte visas på scenen, men nivå ska visas.
 
-2. Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i Delmoment 3:
+2. Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i 3:
 
   * När **timern** tar slut ska den istället för att avsluta _scriptet_:
 
@@ -249,8 +235,6 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
 
   ![image alt text](image_9.png)
 
-  _Dessa är blocken du behöver använda!_
-
   Om du förstår skriptet så ser du att den gör ändringarna för **varje nivå**, så att det kan bli svårare och svårare. Nu ändrar den hastigheten och färgeffekten medan den lägger till mer tid.
 
 26. Skapa sedan ett nytt skript som säger:
@@ -258,12 +242,12 @@ Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället 
   * Starta när den **tar emot meddelandet vinst**
   * Säg **"Du vann! Du fick  poäng!"**
 
-**Tips:** Titta på delmoment 4 om du har glömt hur du gjorde!
+**Tips:** Titta på uppgift 4 om du har glömt hur du gjorde!
 
 > Testa ditt projekt! Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?
 
 
-## Delmoment 6: Bakgrund när spelet är vunnet
+## 6: Bakgrund när spelet är vunnet
 Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyggt slut för spelet!
 
 27. Gå till SCEN och kopiera **klädseln** som du har ritat i början av uppgiften.
@@ -271,8 +255,6 @@ Du kan även lägga till skript som **ändrar bakgrund** för att göra ett snyg
 28. Rita något som du vill att vinnaren ska se när du har vunnit spelet.
 
   ![image alt text](image_10.png)
-
-  _Du kan skriva med text-verktyget!_
 
 29. Gör nu två skript till scenen som säger:
 

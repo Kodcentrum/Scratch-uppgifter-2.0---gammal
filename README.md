@@ -1,6 +1,6 @@
 # Kodstugans övningar
 
-_Här finns övningarna för [Scratch](https://scratch.mit.edu) som används i Kodstugans träffar under hösten 2015._
+_Här finns uppgifter för [Scratch](https://scratch.mit.edu) som används i Kodcentrums verksamhet och på Kodboken.se._
 
 Tanken är att alla ska kunna hjälpas åt att förbättra övningarna. Om du vill hjälpa till så läs igenom [riktlinjerna](CONTRIBUTING.md).
 

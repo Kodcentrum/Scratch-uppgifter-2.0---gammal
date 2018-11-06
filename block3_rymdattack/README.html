@@ -2,12 +2,9 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="rymdattack">Rymdattack</h1>
 <p>Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Du kommer att få lära dig att skapa kloner och att använda slumptal och variabler.</p>
-<p>Här kan du se en version av spelet:</p>
-<ul>
-<li><a href="https://scratch.mit.edu/projects/118440149/" target="_blank">Exampel</a></li>
-</ul>
+<p>Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/118440149/" target="_blank">https://scratch.mit.edu/projects/118440149/</a></p>
 <p><img src="image_0.jpg" alt="image alt text"></p>
-<h2 id="delmoment-1-bakgrund-och-sprajtar">Delmoment 1: Bakgrund och sprajtar</h2>
+<h2 id="1-bakgrund-och-sprajtar">1: Bakgrund och sprajtar</h2>
 <p>Börja med att skapa en bakgrund som ser ut som rymden. Längst ned ska du göra en röd linje som rymdraketen ska sväva över, den linjen kommer att bli viktig senare i den här uppgiften!</p>
 <ol>
 <li><p>Skapa ett nytt Scratch-projekt och ta bort katten. Rita en ny <strong>bakgrund</strong> och fyll den med svart färg. Om du vill kan du rita dit små stjärnor också.</p>
@@ -18,10 +15,9 @@
 </li>
 <li><p>Nu behöver du ett gäng med elaka robotar! Men du börjar med att bara en. Lägg till sprajten <strong>Fantasy/Robot1</strong> från biblioteket. Förminska den så att den är ungefär lika stor som rymdraketen.</p>
 <p><img src="image_1.png" alt="image alt text"></p>
-<p><em>Ungefär så här borde din scen se ut nu.</em></p>
 </li>
 </ol>
-<h2 id="delmoment-2-styra-och-skjuta">Delmoment 2: Styra och skjuta</h2>
+<h2 id="2-styra-och-skjuta">2: Styra och skjuta</h2>
 <p>Meningen med spelet är att styra rymdraketen åt vänster och höger för att skjuta ner de attackerande robotarna. Först behöver du skapa ett skript för att styra raketen.</p>
 <ol>
 <li><p>Ändra raketens <strong>rotationsstil</strong> så att den bara kan röra sig åt <strong>vänster-höger</strong>.</p>
@@ -55,7 +51,6 @@
 </li>
 <li><p><strong>Rita en ny sprajt</strong> genom att zooma in så mycket så att du ser alla rutor (<strong>pixlar</strong>). Gör en gul ifylld rektangel som täcker mittpunkten. Den ska vara <strong>6 rutor lång</strong> och <strong>2 rutor bred</strong>.</p>
 <p><img src="image_4.png" alt="image alt text"></p>
-<p><em>Så här!</em></p>
 <p>Nu behöver du skapa ett skript för skottet som gör att det:</p>
 <ul>
 <li><p>Avfyras när du trycker på mellanslag</p>
@@ -108,14 +103,13 @@
 </li>
 </ul>
 <p><img src="image_5.png" alt="image alt text"></p>
-<p><em>Det här är alla block som du behöver för steg 11-14.</em></p>
 </li>
 </ol>
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Skjuter du skott när du klickar på <strong>mellanslag</strong>? Skjuter du från raketen? Kan du bara skjuta tre skott?</p>
 </blockquote>
 <p><strong>Tips:</strong> Om skotten rör sig för långsamt eller snabbt, ändra hur mycket <strong>y ändras</strong>. Testa dig fram!</p>
-<h2 id="delmoment-3-attackerande-robot">Delmoment 3: Attackerande robot</h2>
+<h2 id="3-attackerande-robot">3: Attackerande robot</h2>
 <p>Nu har du gjort en raket som kan röra på sig och skjuta, nu behöver du få robotar att visa sig överst på scenen och dyka nedåt. Om robotarna nuddar raketen eller den röda linjen, då ska spelet avslutas. Men om raketen lyckas skjuta ner dem innan, då ska robotarna förstöras och du ska få en poäng för varje robot. Det ska också finnas en timer som stoppar allt när den når 0, så att spelet avslutas!</p>
 <p>För att skapa flera robotar kommer du att säga åt sprajten att KLONA sig själv. Då gör den en kopia av sig själv, så att du själv inte behöver skapa flera sprajter med samma skript.</p>
 <ol>
@@ -172,13 +166,12 @@
 </li>
 </ul>
 <p><img src="image_6.png" alt="image alt text"></p>
-<p><em>Det här är alla block du behöver för steg 17 och 18!</em></p>
 </li>
 </ol>
 <blockquote>
 <p><strong>Testa ditt projekt!</strong> Klicka på START. Rör sig robotarna nedåt från toppen av scenen mot botten? Förvinner de när de blir träffade av ett skott? Stoppas alla skript när en av robotarna nuddar botten eller raketen?</p>
 </blockquote>
-<h2 id="delmoment-4-game-over">Delmoment 4: Game Over</h2>
+<h2 id="4-game-over">4: Game Over</h2>
 <p>Nu när spelet tar slut stängs hela skriptet och du får inte veta hur många poäng du fått. Det ska vi ändra på! Du ska låta roboten skicka ett <strong>meddelande</strong> när spelet avslutas, så att den kan tala om hur många poäng du fått.</p>
 <ol>
 <li><p>När <strong>Robot1</strong> (någon av klonerna) <strong>rör färgen röd</strong> eller <strong>Spaceship</strong> så ska den skicka ut ett <strong>meddelande</strong> innan den stoppar alla skript. Meddelandet kan du kalla för <strong>&quot;Game over&quot;</strong>.</p>
@@ -191,17 +184,15 @@
 </li>
 </ul>
 <p><img src="image_7.png" alt="image alt text"></p>
-<p><em>Det här kan vara lite klurigt att fästa ihop. Använd dessa block.
-Lägg till mellanslag för att få meddelandet att se snyggt ut!</em></p>
 </li>
 </ol>
 <p>Nu har du ett skript som gäller för om du förlorar – i nästa steg får du göra en helt annan sak för när du vinner spelet!</p>
-<h2 id="delmoment-5-flera-niv-er-f-r-spelet">Delmoment 5: Flera nivåer för spelet</h2>
+<h2 id="5-flera-niv-er-f-r-spelet">5: Flera nivåer för spelet</h2>
 <p>Om tiden tar slut avslutas spelet, men nu ska du få göra så att du istället går till en ny <strong>nivå</strong>, där robotarna ändrar färg och blir snabbare. Det blir alltså svårare att spela! Det här kan du göra genom att lägga till nya VARIABLER.</p>
 <ol>
 <li><p>Skapa två stycken nya <em>variabler</em> som heter <strong>hastighet</strong> och <strong>nivå</strong>. Hastighet ska inte visas på scenen, men nivå ska visas.</p>
 </li>
-<li><p>Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i Delmoment 3:</p>
+<li><p>Gå till robotens SKRIPT-flik och ändra skriptet för timern som du gjorde i 3:</p>
 <ul>
 <li><p>När <strong>timern</strong> tar slut ska den istället för att avsluta <em>scriptet</em>:</p>
 <ul>
@@ -259,7 +250,6 @@ Lägg till mellanslag för att få meddelandet att se snyggt ut!</em></p>
 </li>
 </ul>
 <p><img src="image_9.png" alt="image alt text"></p>
-<p><em>Dessa är blocken du behöver använda!</em></p>
 <p>Om du förstår skriptet så ser du att den gör ändringarna för <strong>varje nivå</strong>, så att det kan bli svårare och svårare. Nu ändrar den hastigheten och färgeffekten medan den lägger till mer tid.</p>
 </li>
 <li><p>Skapa sedan ett nytt skript som säger:</p>
@@ -269,18 +259,17 @@ Lägg till mellanslag för att få meddelandet att se snyggt ut!</em></p>
 </ul>
 </li>
 </ol>
-<p><strong>Tips:</strong> Titta på delmoment 4 om du har glömt hur du gjorde!</p>
+<p><strong>Tips:</strong> Titta på uppgift 4 om du har glömt hur du gjorde!</p>
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Kan du komma på fler ändringar som du vill göra för nästa nivå? Storlek kanske? Om spelet är för enkelt, vad ska du ändra för att göra det svårare?</p>
 </blockquote>
-<h2 id="delmoment-6-bakgrund-n-r-spelet-r-vunnet">Delmoment 6: Bakgrund när spelet är vunnet</h2>
+<h2 id="6-bakgrund-n-r-spelet-r-vunnet">6: Bakgrund när spelet är vunnet</h2>
 <p>Du kan även lägga till skript som <strong>ändrar bakgrund</strong> för att göra ett snyggt slut för spelet!</p>
 <ol>
 <li><p>Gå till SCEN och kopiera <strong>klädseln</strong> som du har ritat i början av uppgiften.</p>
 </li>
 <li><p>Rita något som du vill att vinnaren ska se när du har vunnit spelet.</p>
 <p><img src="image_10.png" alt="image alt text"></p>
-<p><em>Du kan skriva med text-verktyget!</em></p>
 </li>
 <li><p>Gör nu två skript till scenen som säger:</p>
 <ul>

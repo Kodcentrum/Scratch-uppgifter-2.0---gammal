@@ -2,13 +2,11 @@
 
 I den här uppgiften ska du få koda ett äventyrsspel! Du kommer att få skapa en liten affär där användaren kommer kunna köpa lite varor som han har fått i uppgift att handla till en fruktsallad. Även om det är frukt till en fruktsallad i det här exemplet kan du göra ett helt annat äventyrsspel, till exempel ingredienser till pankakor eller brädor till en koja. Det blir mycket kodande, många sprajts och så kommer du att få lära dig att använda listor.
 
-Ett exempel på hur  spelet kan se ut ser du här:
-
-* <a href="https://scratch.mit.edu/projects/116997344/" target="_blank">Exempel</a>
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116997344/" target="_blank">https://scratch.mit.edu/projects/116997344/</a>
 
 ![image alt exempel](image_1.png)
 
-## Delmoment 1: Röra sig mellan bakgrunder
+## 1: Röra sig mellan bakgrunder
 
 Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan ta sig mellan bakgrunderna med hjälp av olika pilar. Du ska också få skapa en sprajt som är den spelkaraktären som ger uppdraget att handla till spelaren.
 
@@ -56,15 +54,11 @@ Du ska börja med att skapa **3 bakgrunder** och sedan koda så att spelaren kan
 
 11.	Se till att både **Calvrett** och **gå-gata** visas när de tar emot meddelandet **”visa hem”**
 
-![image alt block](image_2.png)
-
-_De här blocken behöver du för att skapa koden ovan. Tänk på att vissa block behöver du använda mer än en gång._
+  ![image alt block](image_2.png)
 
 > Testa att klicka på START och sedan på pilen. Byts bakgrunden och sprajterna försvinner?
 
-![image alt pilar](image_3.png)
-
-_Så här kan det se ut på gatan när du har lagt till två nya pilar._
+  ![image alt pilar](image_3.png)
 
 Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan de olika scenerna:
 
@@ -96,7 +90,7 @@ Nu ska du få göra lite fler pilar så att spelaren kan vandra omkring mellan d
 
 > Testa spelet igen! Kan du nu gå mellan de olika scenerna?
 
-## Delmoment 2: Prata med Calvrett
+## 2: Prata med Calvrett
 
 Nu ska du gå till första scenen och skapa skript för Calvrett (eller sprajten du valde) som gör att du får i uppdrag att köpa frukt.
 
@@ -167,13 +161,11 @@ Nu är det dags att skapa en VARIABEL som håller reda på hur många kronor du 
 
 14.	**Ändra** i koden för **gå-gata** så att den bara **göms** och skickar ett meddelande om **längden på ”inköpslista” är större än 0**. Det är ju ingen idé att gå och handla om du inte vet vad som behövs.
 
-> Testa spelet! Vad händer när du klickar på Ja? Vad händer när du klickar på Nej?
-
   ![image alt block](image_8.png)
 
-  _Dessa block behöver du för punkterna 12 och 14 ovan._
+> Testa spelet! Vad händer när du klickar på Ja? Vad händer när du klickar på Nej?
 
-## Delmoment 3: Skapa sprajtar för affären
+## 3: Skapa sprajtar för affären
 
 Nu ska du få skapa en affär. Den kommer innehålla de varor som du behöver för fruktsalladen, men också _minst_ en annan vara. Varorna som behövs till salladen ska spelaren ha råd med, men det kan finnas andra varor som är för dyra.
 
@@ -243,11 +235,9 @@ Nu ska du sätta priser på varorna:
 
   ![image alt affär](image_9.png)
 
-  _Så här kan affären se ut nu._
-
 > Testa programmet! Visas varor och priser när du kommer in i affären? Vad händer när du går tillbaka till gatan, försvinner varorna och priserna?
 
-## Delmoment 4: Köpa varor
+## 4: Köpa varor
 
 Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har handlat i affären. Sedan ska du koda så att när spelaren klickar på en vara ska den hamna i ryggsäcken om spelaren har tillräckligt med pengar.
 
@@ -275,8 +265,6 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
 
     ![image alt block](image_10.png)
 
-    _De här blocken behöver du för punkt 3._
-
 4.	**Kopiera** detta skript till sprajterna **bananer**, **apelsin** och **transport**. **Ändra ”prisVattenmelon”** på två ställen så att du jämför med rätt variabel. **Ändra** också **”en vattenmelon”** till en **”bananer”**, **”en apelsin”** och **”ett transportmedel”** för de olika sprajterna.
 
 5.	Se till att **allt tas bort** i **”rycksäck”** och **”inköpslista”** när spelet startar. Du kan till exempel skapa ett nytt **skript för scenen**.
@@ -289,7 +277,7 @@ Först ska du skapa en ryggsäck så att du kan hålla reda på allt du har hand
 
 > Testa spelet igen! Vad händer om du försöker köpa ett transportmedel? Läggs saker till i listan om du till exempel försöker köpa en banan eller en vattenmelon?
 
-## Delmoment 5: Laga fruktsallad
+## 5: Laga fruktsallad
 
 Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bara att du går tillbaka till **Calvrett** och ser till att han lagar den!
 
@@ -322,8 +310,6 @@ Nu har du gjort ett spel där du kan köpa saker till en fruktsallad. Fattas bar
       * **Säg** *”Det verkar som det fattas något. Har du handlat allt?”*
 
   ![image alt block](image_11.png)
-
-  _De här blocken behöver du för punkt 4._
 
 5. Lägg till sprajten **Fruit Platter** från biblioteket och ge den namnet **”Frukttallrik”**.
 

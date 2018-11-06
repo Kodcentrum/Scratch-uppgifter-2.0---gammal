@@ -2,12 +2,9 @@
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
 <h1 id="pong">Pong</h1>
 <p>Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.</p>
-<p>Här kan du se en version av spelet:</p>
-<ul>
-<li><a href="https://scratch.mit.edu/projects/80839730/" target="_blank">Exampel</a></li>
-</ul>
+<p>Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a></p>
 <p><img src="image_0.png" alt="image alt text"></p>
-<h2 id="delmoment-1-g-r-plattorna-och-en-spelplan">Delmoment 1: Gör plattorna och en spelplan</h2>
+<h2 id="1-g-r-plattorna-och-en-spelplan">1: Gör plattorna och en spelplan</h2>
 <p>Först behöver du göra en bakgrund och två plattor som du ska kunna styra.</p>
 <ol>
 <li><p>Skapa ett nytt projekt. Ta bort katten genom att högerklicka på den och välja radera.</p>
@@ -21,11 +18,9 @@
 </li>
 <li><p>Skapa en kopia av sprajten och lägg båda sprajtar framför varsin mållinje, lika nära mållinjerna.</p>
 <p><img src="image_2.png" alt="image alt text"></p>
-<p><em>Ungefär så här borde din spelplan se ut.</em></p>
-<p><em>Ju mindre plattor du gör, desto svårare blir spelet!</em></p>
 </li>
 </ol>
-<h2 id="delmoment-2-styra-plattorna">Delmoment 2: Styra plattorna</h2>
+<h2 id="2-styra-plattorna">2: Styra plattorna</h2>
 <p>Nu ska du göra ett skript för att styra plattorna och skydda din mållinje!</p>
 <p>Du behöver använda två tangenter för att styra varje platta, uppåt och nedåt. Det får inte vara möjligt att gå utanför skärmen med din platta. Börja med sprajten vid den <strong>blå mållinjen till höger</strong>, och gör ett skript som låter dig styra den med tangenterna K och M.</p>
 <ol>
@@ -55,7 +50,6 @@
 </li>
 </ul>
 <p><img src="image_3.png" alt="image alt text"></p>
-<p><em>Det här är blocken som du behöver använda!</em></p>
 </li>
 <li><p>Gör nu samma sak för den andra sprajten, men använd två andra tangenter för att styra uppåt och nedåt. I vårt exempel används A för upp och Z för ner.</p>
 </li>
@@ -64,7 +58,7 @@
 <p>Testa ditt projekt! Klicka på START. Kan du styra dina plattor upp och ner? Stannar dom hela tiden inom skärmen? Vad händer om dom nuddar kanten?</p>
 </blockquote>
 <p><strong>Tips:</strong> Ibland kan plattorna flippas när de studsar vid kanten, det fixar du genom att ändra <strong>rotationsstil</strong>. Se till att båda plattorna bara kan rotera <strong>vänster-höger</strong>.</p>
-<h2 id="delmoment-3-en-studsande-boll">Delmoment 3: En studsande boll</h2>
+<h2 id="3-en-studsande-boll">3: En studsande boll</h2>
 <p>Nu har du gjort bakgrunden med mållinjer och plattor att styra med, nu behöver du en boll att spela med!</p>
 <ol>
 <li><p>Skapa en ny sprajt genom att klicka på <strong>&quot;Välj en sprajt från biblioteket&quot;</strong>. Välj en som liknar en boll! I exemplet används <strong>Saker/Baseball</strong>.</p>
@@ -86,7 +80,6 @@
 </li>
 </ul>
 <p><img src="image_4.png" alt="image alt text"></p>
-<p><em>Dessa block behöver du. I exemplet används gå 10 steg, men du kan själv välja hastighet för bollen.</em></p>
 </li>
 <li><p>Nu har du en boll som studsar omkring. Fast nu behöver du se till att den kan studsa på plattorna så att du kan fånga bollen!</p>
 <p>Inuti <strong>för alltid</strong> blocket i bollens skript behöver du lägga till:</p>
@@ -97,21 +90,21 @@
 </li>
 </ul>
 <p><img src="image_5.png" alt="image alt text"></p>
-<p><em>Lägg blocken innanför <strong>för alltid</strong>-blocket men ovanför <strong>gå 10 steg</strong></em></p>
 </li>
 </ol>
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Studsar bollen på plattorna? Startar den i mitten? Rör den sig åt ett slumpmässigt håll varje gång du startar?</p>
 </blockquote>
-<h2 id="delmoment-4-po-ngsystem">Delmoment 4: Poängsystem</h2>
+<h2 id="4-po-ngsystem">4: Poängsystem</h2>
 <p>Nu ska du skapa ett poängsystem för båda spelare, som räknar poäng när bollen nuddar den andra spelarens mållinje! För att göra det behöver du skapa en VARIABEL för poäng.</p>
+<blockquote>
 <p>En VARIABEL kan liknas vid en låda där du lägger in saker. I variabeln lägger du ett värde, t ex en siffra, som kan öka eller minska. På samma sätt kan du ta ur eller lägga i fler saker i en låda. Låter det konstigt? Snart får du se hur det fungerar.</p>
+</blockquote>
 <ol>
 <li><p>Välj bollens sprajt och skapa två <strong>variabler</strong> från <strong>DATA</strong>. Den ena ska heta <strong>Röd poäng</strong> och den andra ska heta <strong>Blå poäng</strong>. Om du har valt andra färger för mållinjerna får du döpa variablerna efter dem.</p>
 </li>
 <li><p>Välj att variablerna ska vara <strong>synliga</strong> och placera dem högst upp på varsin sida av spelplanen.</p>
 <p><img src="image_6.png" alt="image alt text"></p>
-<p><em>Din spelplan borde se ut ungefär så här!</em></p>
 </li>
 <li><p>Gå till skriptet för bollen och lägga till:</p>
 <ul>
@@ -145,7 +138,7 @@
 <blockquote>
 <p>Testa ditt projekt! Klicka på START. Åker bollen tillbaka till mitten när den nuddar en mållinje? Åker den i ett slumpmässigt håll då? Får rätt spelare poäng?</p>
 </blockquote>
-<h2 id="delmoment-5-game-over-">Delmoment 5: Game Over!</h2>
+<h2 id="5-game-over-">5: Game Over!</h2>
 <p>Nu när du har poängräkning så behöver du se till att det går att vinna spelet, och inte bara få poäng i en evighet!</p>
 <ol>
 <li><p>Gör ett nytt skript för bollen som säger:</p>
@@ -172,7 +165,6 @@
 </li>
 </ul>
 <p><img src="image_9.png" alt="image alt text"></p>
-<p><em>Här är blocken som du behöver använda!</em></p>
 </li>
 </ol>
 <blockquote>

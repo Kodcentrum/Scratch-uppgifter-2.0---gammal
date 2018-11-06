@@ -4,11 +4,9 @@ I denna uppgift ska du få skapa en prototyp till frågesport som du till exempe
 
   ![image alt exempel](image_1.png)
 
-Ett exempel på hur  spelet kan se ut ser du här:
+Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116509972/" target="_blank">https://scratch.mit.edu/projects/116509972/</a>
 
-* <a href="https://scratch.mit.edu/projects/116509972/" target="_blank">Exempel</a>
-
-## Delmoment 1: Bakgrund och några sprajtar
+## 1: Bakgrund och några sprajtar
 
 1.	Skapa ett nytt projekt och ta bort katten.
 
@@ -27,11 +25,9 @@ Ett exempel på hur  spelet kan se ut ser du här:
 
   ![image alt exempel](image_2.png)
 
-  _Ett exempel på hur spelet kan se ut nu._
+## 2: Starta spelet
 
-## Delmoment 2: Starta spelet
-
-I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt variabeln **"poäng"** och listan **"alternativ"**. När du klickar på knappen ska spelet börja: **"poäng"** ska nollställas och i listan **"alternativ"** ska alla svars alternativ läggas till. Det ska du få koda nu!
+I förra uppgiften skapade du en knapp, **Ball** för att starta spelet samt variabeln **"poäng"** och listan **"alternativ"**. När du klickar på knappen ska spelet börja: **"poäng"** ska nollställas och i listan **"alternativ"** ska alla svars alternativ läggas till. Det ska du få koda nu!
 
 1.	Skapa ett skript för sprajten **Ball** som säger:
 
@@ -63,8 +59,6 @@ I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt v
 
   ![image alt nyttblock](image_4.png)
 
-  _Här hittar du knappen för att skapa ett nytt block._
-
 10.	Skapa ett nytt block som heter **”fråga”**, och som gör följande. (Du kan skapa nya block under fliken **Fler block**)
 
   *	Sätt **”rätt svar”** till ett **slumptal** mellan **1** och **längden på ”gissningar”**
@@ -73,11 +67,9 @@ I förra delmomentet skapade du en knapp, **Ball** för att starta spelet samt v
 
    ![image alt block](image_5.png)
 
-   _Det här är några av de block du behöver för punkt 2._
-
 11.	Se till att blocket **”fråga”** körs när sprajten **Ball** tar emot meddelandet **”starta nytt havsspel”**. Du kan lägga in blocket efter koden du skapade ovan i punkt 2.
 
-## Delmoment 3: Hav-prickar!
+## 3: Hav-prickar!
 
 Nu ska du göra så att du eller någon annan kan gissa på olika hav genom att klicka på hav-prickar. Du skapade en sådan sprajt ovan och det ska bli enkelt att skapa fler sådana prickar utan för mycket kod:
 
@@ -106,8 +98,6 @@ Nu till kodandet:
 
   ![image alt block](image_6.png)
 
-  _Det här är några av de block du behöver för punkt 2._
-
 Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen och det är den plats i listan som just det här havet har. Det är i allmänhet inte bra att använda sig av siffror på det här sättet. Och det blir krångligt när du ska kopiera sprajten. Till exempel behöver du byta ut **3**:an på flera ställen. Därför ska du ersätta **3**:an med en LOKAL VARIABEL som bara finns för denna sprajt. Den kommer att fungera som ett **id-nummer** för sprajten.
 
   ![image alt lokalvar](image_7.png)
@@ -122,7 +112,7 @@ Du använder dig av **3** här eftersom pricken är placerad i Indiska oceanen o
 
 5.	**Ändra** i det skriptet som du skapade i punkt 2 ovan så att **3**:an byts ut mot variabeln **”id”**.
 
-![image alt block](image_9.png) **INTE** ![image alt block](image_8.png)
+  ![image alt block](image_9.png) **INTE** ![image alt block](image_8.png)
 
 Nu kan du skapa fler prickar! Eftersom du har använder **"id"** som är UNIK för varje sprajt kan du lätt känna igen dem.
 
@@ -134,7 +124,7 @@ Nu kan du skapa fler prickar! Eftersom du har använder **"id"** som är UNIK f�
 
 > Vad händer nu om du klickar på de olika prickarna? Visar de rätt namn?
 
-## Delmoment 4: Rätta gissningen
+## 4: Rätta gissningen
 
 Nu fattas bara att du kontrollerar så att spelaren klickar på rätt prick.
 
@@ -166,9 +156,7 @@ Nu har du lagt till en liten färganimation som visas om du gissar rätt.
 
 ![image alt block](image_10.png)
 
-_Det här är några av de block du behöver för punkterna ovan._
-
-## Delmoment 5: Kontinenter
+## 5: Kontinenter
 
 Nu ska du få utöka programmet med ett spel som går ut på att gissa kontinenter. Du kommer att kopiera mycket kod från sprajtar du redan kodat. Detta är något programmerare gör ofta eftersom det är enklare än att skapa samma kod igen.
 

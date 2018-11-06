@@ -1,9 +1,10 @@
-# Gör din egen hemsida!
-I denna uppgift kommer du få göra en egen hemsida med Mozilla Thimble som är ett verktyg att göra just hemsidor i.  Du kommer sedan kunna publicera denna sida och visa för familj och vänner! Ett exempel på en sida kan du hitta [här](https://thimbleprojects.org/christoffer/408964/).
+**I denna uppgift kommer du få göra en egen hemsida med Mozilla Thimble som är ett verktyg att göra just hemsidor i.  Du kommer sedan kunna publicera denna sida och visa för familj och vänner!**
+
+Ett exempel på en sida kan du hitta [här](https://thimbleprojects.org/christoffer/408964/ "Exempeluppgift").
 
 En hemsida är uppbyggd av tre byggstenar HTML, CSS och Javascript. HTML är sidans struktur och som byggblock använder man HTML-taggar. Exempel på en HTML-tagg kan vara ```<h1>``` för att skapa en rubrik eller ```<img>``` för att lägga in en bild. CSS används för att bestämma hur sidan ska se ut gällande färg och form. Exempelvis om en knapp ska vara grön eller röd, vilken bakgrundsfärg sidan ska ha. Javascript används för interaktion på hemsidan, till exempel vad som ska hända när man trycker på en viss knapp. I denna uppgift kommer vi främst att fokusera på HTML när vi ska bygga vår hemsida.
 
-## Uppgift
+## 1:  Uppgift
 
 Nu ska du få göra din egen hemsida. 
 
@@ -67,7 +68,7 @@ Det finns såklart många fler HTML-taggar, du kan nu fortsätta och bygga på d
 
 För att publicera din hemsida så att du kan visa den för familj och vänner, skapa ett konto och sedan tryck på publicera-knappen längst upp till höger.
 
-## HTML-taggar
+## 2: Använda HTML-taggar
 
 De finns väldigt många HTML-taggar men i denna uppgift är det tänkt att ni kan använda följande:
 
@@ -84,33 +85,33 @@ De finns väldigt många HTML-taggar men i denna uppgift är det tänkt att ni k
 
 En HTML-tagg har oftast en starttagg och en sluttagg ```<h1>``` (starttagg) ```</h2>```(sluttagg.)
 
-## ```<img>```
+### ```<img>```
 
 Denna tagg används för att visa en bild från en annan hemsida. Du kan exempelvis gå in på Google och googla fram en bild och sedan kopierar du länken till den bilden. Kopiera sedan in länken efter src=.
 
     <img src="https://d2btg9txypwkc4.cloudfront.net/media/catalog/category/Artiklar_katt.jpg" />
-## ```<h1>```
+### ```<h1>```
 
 Denna tagg används för att visa en stor rubrik, den text man vill visa skrivs mellan starttaggen och sluttagen.
 
     <h1>En stor rubrik</h1>
-## ```<h2>```
+### ```<h2>```
 
 Som ```<h1>``` men ger en mellan rubrik.
 
     <h2>En stor rubrik</h2>
 
-## ```<h3>```
+### ```<h3>```
 
 Som ```<h1>``` men ger en liten rubrik.
 
     <h3>En stor rubrik</h3>
-## ```<p>```
+### ```<p>```
 
 Används för vanlig text på en hemsida.
 
     <p>Hej</p>
-## ```<i>```
+### ```<i>```
 
 Denna tagg används för att göra en text kursiv. Sätt taggarna runt den text du önskar bli kursiv. Används vanligtvis inom en annan text exempelvis en ```<p>``` - tagg.
 
@@ -118,7 +119,7 @@ Denna tagg används för att göra en text kursiv. Sätt taggarna runt den text 
 
 I ovanstående exempel skulle “dig” bli kursivt.
 
-## ```<b>```
+### ```<b>```
 
 Används på samma sätt som en ```<i>``` - tagg men ger fet text istället.
 
@@ -126,7 +127,7 @@ Används på samma sätt som en ```<i>``` - tagg men ger fet text istället.
 
 I ovanstående exempel skulle “dig” bli i fet text.
 
-## ```<br />```
+### ```<br />```
 
 För att ge ett radbryt mellan exempelvis en rubrik och textstycke.
 
@@ -134,7 +135,7 @@ För att ge ett radbryt mellan exempelvis en rubrik och textstycke.
     <br />
     <p>Här kommer lite text.</p>
 
-## ```<a>```
+### ```<a>```
 
 Används för att länka till en annan hemsida. Länken placeras inom href=. Sedan skriver du vad länktexten ska vara. Då visas bara den texten och inte själva länken.
 

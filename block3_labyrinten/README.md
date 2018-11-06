@@ -13,7 +13,7 @@ Två exempel på hur olika spelet kan se ut ser du här:
 ![image alt text](image_1.png)
 
 
-## Delmoment 1: Rita en labyrint
+## 1 – Rita en labyrint
 
 Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **regler** för att få spelet att fungera.
 
@@ -29,11 +29,7 @@ Du väljer själv hur du vill rita din labyrint, men du måste följa vissa **re
 
   ![image alt text](image_2.png)
 
-  _Exempel på en enkel labyrint med olika färger
-för bakgrund, väggar, start- och målpunkt._
-
-
-## Delmoment 2: Gör din karaktär
+## 2 – Gör din karaktär
 
 Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för karaktär vill du spela som?
 
@@ -64,15 +60,13 @@ Nu ska du själv rita den sprajt som ska ta sig igenom labyrinten! Vad för kara
 **Tips:** Du kan själv ändra hastigheten genom att ändra hur många steg sprajten tar när den rör sig.
 
 
-## Delmoment 3: Vinna eller förlora
+## 3 – Vinna eller förlora
 
 Dags att göra det här till ett spel! Du behöver se till så att varje gång din sprajt nuddar väggen, förlorar du och hamnar tillbaka på startpunkten. Men nuddar sprajten målpunkten vinner du.
 
 9. Ta först reda på var din startpunkt är. Sätt din sprajt mitt på **startpunkten** på SCEN. Högerklicka på sprajten och gå in på **information** (lilla i:et vid din sprajt). Titta på vad din sprajt har för KOORDINATER. Kom ihåg eller skriv upp dem!
 
   ![image alt text](image_5.png)
-
-  _Exemplet har koordinater_ x: -209 _och_ y: -136
 
   Nu behöver du uppdatera alla skript för **rörelser** så att sprajten hela tiden **känner av** ifall den är i mål eller nuddar en vägg.
 
@@ -92,8 +86,6 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 
   ![image alt text](image_6.png)
 
-  _Det här är blocken som du behöver använda_
-
   **Tips:** Förstår du hur sprajten ska kunna **känna av** väggen, startpunkten och målpunkten? Kom ihåg att de har olika **färg**! Förstår du hur sprajten ska kunna **veta var startpunkten är**, när den ska gå tillbaka dit? Tänk på att du har tagit fram dess KOORDINATER tidigare. Minns du?
 
 11. Gör nu samma ändringar för alla skripten. Kom ihåg att du fortfarande måste ha rätt riktning och tangent för varje skript.
@@ -101,7 +93,7 @@ Dags att göra det här till ett spel! Du behöver se till så att varje gång d
 > Testa ditt projekt! Klicka på START. Går sprajten åt rätt håll och med en hastighet som känns bra? Säger den att "Du dog!" när du nuddar en vägg? Går den tillbaka till startpunkten. Säger den "Du vann!" när du nuddar målpunkten?
 
 
-## Delmoment 4: En timer
+## 4: En timer
 
 Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid på sig att ta sig igenom labyrinten. Om du inte är i mål när tiden är slut förlorar du!
 
@@ -136,7 +128,7 @@ Dags att göra spelet lite svårare! Du ska se till att spelaren har en viss tid
 > Testa ditt projekt! Klicka på START. Räknar tiden ned? Vad händer om du nuddar väggen? Är det enkelt eller svårt att spela? Tänk på att du kan ändra tiden som timern startar med, om du vill.
 
 
-## Delmoment 5: Flera banor
+## 5 – Flera banor
 
 Som spelet ser ut nu händer ingenting när du vinner. Det ska du ändra på nu! Du ska få göra så att du kommer till en ny bana, en ny nivå, när du tagit dig genom labyrinten.
 
@@ -170,7 +162,7 @@ Visa gärna någon det som du har gjort och låt dem testa. Tryck på DELA för 
 Har du tid över? Här kommer ett par utmaningar för dig som vill fortsätta.
 
 ### Fler nivåer
-Du kan lägga till ännu fler nivåer genom att rita nya **klädslar** som följer reglerna:
+Du kan lägga till ännu fler nivåer genom att rita nya **bakgrunder** som följer reglerna:
 
   * Samma position på startpunkten
 

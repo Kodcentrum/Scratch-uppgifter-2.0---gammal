@@ -5,7 +5,7 @@ Nu ska du få skapa en egen berättelse i Scratch. En berättelse innehåller of
 Exempel: _En spindel är på väg till sitt hus uppe i spindelnätet. Då börjar det regna, en regndroppe träffar spindeln som faller ner i en vattenpöl. Spindeln försöker klättra upp igen men kommer inte ur vattenpölen som blir allt djupare. – Hjälp! ropar spindeln som inte kan simma. Då kommer solen och jagar bort regnmolnet. Solen torkar bort vattnet och spindeln kan klättra upp till sitt hus._ Känner du igen berättelsen?
 
 
-## Delmoment 1: Planera din berättelse
+## 1: Planera din berättelse
 
 Det är en god idé att först tänka igenom vad berättelsen ska handla om. Du kan rita upp det som ska hända på ett papper, det kallas för att göra ett STORYBOARD. Det behöver inte vara snyggt utan bara så att det går att förstå, streckgubbar fungerar bra!
 
@@ -26,7 +26,7 @@ Samtidigt som du ritar upp berättelsen steg för steg, behöver du fundera på 
 2. Testa din storyboard på någon. Förstår hen berättelsen? Går den att animera i Scratch?
 
 
-## Delmoment 2: VEM? Välja huvudkaraktär
+## 2: VEM? Välja huvudkaraktär
 
 Börja med att ta bort katten och välja en ny sprajt till din berättelse. Du behöver en huvudkaraktär, men kanske också några fler karaktärer som ska vara med?
 
@@ -43,7 +43,7 @@ Börja med att ta bort katten och välja en ny sprajt till din berättelse. Du b
   ![image alt text](image_2.png)
 
 
-## Delmoment 3: VAR – välja bakgrund
+## 3: VAR – välja bakgrund
 
 Nu ska du välja bakgrund för din berättelse, en eller flera olika ifall du vill kunna byta scen i berättelsen. Du kan använda färdiga bakgrunder från biblioteket, eller rita själv.  
 
@@ -54,7 +54,7 @@ Nu ska du välja bakgrund för din berättelse, en eller flera olika ifall du vi
 **Tips:** Ska du rita flera bakgrunder trycker du på "Rita ny bakgrund" för att skapa en ny rityta. Du kan även kopiera din första bakgrund om du vill använda samma miljö men t ex rita till ett hus som sprajten ska komma fram till.
 
 
-## Delmoment 4: Animera berättelsen med skript
+## 4: Animera berättelsen med skript
 
 Nu när du har sprajt och bakgrund färdig kan du börja skapa ditt första skript. Det är skripten som ska ANIMERA din berättelse, få saker att hända i den.
 
@@ -66,15 +66,15 @@ Eftersom det är din berättelse behöver du själv prova dig fram och hitta de 
 
 Använd blocket **"när START (flaggan) klickas på"** från **HÄNDELSER**.
 
-![image alt text](image_5.png)
+  ![image alt text](image_5.png)
 
 Kom ihåg att sätta en startposition för din sprajt. Placera sprajten där du vill att den ska starta och välj **"gå till x: y:"** från **RÖRELSE**, koppla fast direkt under START-flaggan. De värden som står för X och Y är koordinater för sprajtens startposition.  
 
-![image alt text](image_6.png)
+  ![image alt text](image_6.png)
 
 **Tips:** En enkel berättelse kan vara ett enda långt skript med block som följer varandra från START. Men för längre berättelser kan du behöva använda andra **HÄNDELSER** eller block från **KONTROLL**, t ex att något sker **när** bakgrunden ändras, **om** sprajten **rör** en viss färg eller vid en annan sprajt.
 
-![image alt text](image_7.jpg)
+  ![image alt text](image_7.jpg)
 
 * **Hur ska sprajten röra sig?**
 
