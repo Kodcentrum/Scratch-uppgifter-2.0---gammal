@@ -49,7 +49,7 @@ Denna tagg används för att länka till en annan hemsida. Länken placeras inom
 
 ![image alt text](uppgift-a-tagg.png)
 
-Tycker du att det ser lite trångt ut mellan bilden och länken? Det kan vi ordna med en HTML-tagg som heter <br />.  För att ge ett radbryt mellan exempelvis en rubrik och textstycke.
+Tycker du att det ser lite trångt ut mellan bilden och länken? Det kan vi ordna med en HTML-tagg som heter ```<br/>.  För att ge ett radbryt mellan exempelvis en rubrik och textstycke.
 
 1. Gör en ny rad under din ```<img>```-tagg och skriv in ```<br />```  och tryck sedan enter och skriv in ```<br />``` igen.
 2. Nu borde du ha lite mer mellanrum mellan din bild och din länk. Koden borde se ut som på bilden nedan.
