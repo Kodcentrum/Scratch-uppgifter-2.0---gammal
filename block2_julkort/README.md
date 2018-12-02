@@ -1,6 +1,7 @@
 # Julkort
 
 Här får du göra ett digitalt julkort som du kan skicka till någon du vill hälsa God Jul till. Det är interaktivt så att mottagaren av kortet  kan skriva in sitt namn och bli personligt julfirad med fest, musik och julklappar! Kortets tema går att ändra om du vill göra födelsedagskort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
+Här kan du se ett exempelprojekt på ett julkort: https://scratch.mit.edu/projects/266913274/ 
 
 ![image alt text](image_0.png)
 
@@ -54,23 +55,9 @@ Du kommer att förstå senare vad namnet ska användas till!*
 
 ## 3: Pingvinen kan dansa!
 
-Nu vill du ge pingvinen några dansrörelser. Du ska få lära den att dansa twist! Pingvinen ska vända sig fram och tillbaka, så du behöver skapa en ny **klädsel** åt den.
+Nu vill du ge pingvinen några dansrörelser till musik. 
 
-1. Klicka på pingvinens sprajt och gå till fliken KLÄDSLAR.
-
-2. Ta bort _Costume2_.
-
-3. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
-
-  ![image alt text](image_2.png)
-
-3. Välj kopian som nu heter _costume2_ och klicka på knappen för att "vända vänster-höger" som du hittar i övre, högra hörnet.
-
-  ![image alt text](image_3.png)
-
-  Nu har du två klädslar som du kan animera för att skapa en dans, men du behöver en melodi som pingvinen kan dansa till.
-
-7. Gå till fliken LJUD och välj t ex ljudet **Musikloopar > Eggs** från biblioteket. Prova att spela genom att trycka på **play** knappen!
+1. Gå till fliken LJUD och välj t ex ljudet **Musikloopar > Eggs** från biblioteket. Prova att spela genom att trycka på **play** knappen!
 
   ![image alt text](image_6.png)
 
@@ -105,6 +92,20 @@ om en stund. Kan du lista ut varför?_
 
 > Testa ditt projekt! Spelas ljudet efter att du har skrivit in ett namn? Dansar pingvinen lagom fort eller går det för snabbt eller långsamt? Testa att byta ut hur länge den ska vänta mellan klädselbyte.
 
+  > **Tips:**  Saknar din sprajt olika klädslar. Då kan du skapa nya klädslar enklast såhär - och få din sprajt att dansa twist!
+  
+  Klicka på din sprajt och gå till fliken KLÄDSLAR.
+
+1. Kopiera _Costume1_ med stämpeln, så att du har två likadana klädslar.
+
+  ![image alt text](image_2.png)
+
+2. Välj kopian som nu heter _costume2_ och klicka på knappen för att "vända vänster-höger" som du hittar i övre, högra hörnet.
+
+  ![image alt text](image_3.png)
+
+  Nu har du två klädslar som du kan animera för att skapa en dans.
+
 
 ## 4: Festens slut
 
@@ -134,7 +135,7 @@ Som du kan se så slutar inte pingvinen att dansa fast att melodin är slut. Det
 
 Nu vill vi att de två andra sprajtarna ska dansa också! Du ska få bestämma vad de gör när festen börjar och när festen slutar. Du kommer att få se varför **skicka** och **ta emot meddelande** är så bra att ha. Det kallas för en FUNKTION och är en del av programmet som kan anropas flera gånger och från flera olika skript i programmet.
 
-11. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med pingvinen (.
+11. Först måste du se till så att dina sprajtar har flera klädslar att byta mellan. Om de inte redan har olika klädslar som du vill använda, kan du göra på samma sätt som du gjorde med pingvinen.
 
 12. Nu ska du skapa två skript för vardera sprajt. Gör skriptet för en sprajt och kopiera sedan till den andra. Bestäm själv vad som händer när de **tar emot** meddelanden "FESTA" och "FESTEN SLUT".
 
