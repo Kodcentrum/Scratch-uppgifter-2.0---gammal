@@ -41,9 +41,9 @@ och en soptunna. Så kan du komma igång och koda snabbare!
 När du har remixat programmet så ser du att projektets namn har
 förändrats. Om du tittar under namnet ska du också se ditt eget
 användarnamn. Du kan döpa om projekt om du vill!
-    ![image alt text](image_3.png)
 
     ![image alt text](image_3.png)
+
 
 I projektet har du nu två SPRAJTAR som redan finns med på SCENEN:
 
