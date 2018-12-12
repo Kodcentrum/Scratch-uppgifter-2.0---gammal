@@ -2,7 +2,7 @@
 
 Om du redan har skapat spelet Bug Race Intro så har du redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
 
-Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktinen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för a< href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugrace?chpt=0"> Bug Race Intro </a> om du har glömt hur du gjorde vissa skript.
+Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktinen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för a< href="https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bugrace?chpt=0" target="_blank">Bug Race Intro </a> om du har glömt hur du gjorde vissa skript.
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
   Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
