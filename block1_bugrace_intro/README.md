@@ -3,17 +3,17 @@
 Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att få en skalbagge att springa runt en bana och försöka undvika att hamna utanför banan genom att styra med vänster- och högerpil på datorns tangentbord. Ramlar figuren utanför banan blir du Game Over!!
 
 > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner. 
+  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
 
 Hur kommer spelet Bug Race se ut? <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">Ett exempel på det färdiga spelet kan du finna på www.scratch.mit.edu</a>.
 
 ![image alt text](example.png)
 
-Då börjar vi!
+Då börjar vi! Hurra!
 
 ## 1: Välj en skalbagge som sprajt
 
-En **sprajt** är alla de figurer eller andra saker du väljer att lägga in i ditt spel eller projekt i Scratch, som en katt, en boll, ett ritat träd eller annat. Alla sprajter kan styras med den kod (script) du väljer att lägga in i Scratch. 
+En **sprajt** är alla de figurer eller andra saker du väljer att lägga in i ditt spel eller projekt i Scratch, som en katt, en boll, ett ritat träd eller annat. Alla sprajter kan styras med den kod (script) du väljer att lägga in i Scratch.
 
 I ditt nya projekt visas först en katt som enda sprajt på vit bakgrund. Nu ska vi byta ut katten mot en skalbagge, så börja med att ta bort katten och välja en ny sprajt istället. Gör såhär:
 
@@ -52,7 +52,7 @@ Du ska nu få färglägga spelets bakgrund och rita en bana som skalbaggen kan s
 
   ![image alt text](image_8.png)	![image alt text](image_9.png)
 
-  Ungefär så här kan banan se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan. Är banan bred blir spelet lite lättare! 
+  Ungefär så här kan banan se ut. Om banan är väldigt smal kommer spelet bli väldigt svårt, skalbaggen hamnar då lätt utanför banan. Är banan bred blir spelet lite lättare!
 
   ![image alt text](image_10.png)
 
@@ -99,7 +99,7 @@ För att slippa dra tillbaka skalbaggen till startplatsen på din bana varje gå
 
 Innan du gör ditt skript, flytta skalbaggen till den startposition på banan som du tycker din sprajt alltid ska börja på.
 
-9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel. 
+9. Under **RÖRELSE** väljer du blocket **"gå till x:__ y:__"** och koppla fast blocket direkt under **"när START klickas på"**, ovanför **"för alltid"**-loopen. De siffror (värden) som står vid X och Y är KOORDINATERNA för den startposition som du har ställt skalbaggen på - alltså en bestämd plats i ditt spel.
 
   ![image alt text](image_14.png)
 
@@ -124,7 +124,7 @@ Gör såhär:
 
 Om du trycker på START-flaggan igen märker du att skalbaggen behåller den riktning som den hade när du avslutade spelet sist. Kan lätt bli fel håll och detta kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 
-12. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**. 
+12. Under **RÖRELSE** väljer du blocket som säger **"peka i 90 riktning"**.
 
 > Testa vad som händer om du ändrar på värdet från 90 grader till något annat (klicka på lilla svarta triangel-pilen bredvid 90). Det står även en hjälptext i rullistan när du väljer riktning, så du vet åt vilket håll skalbaggen kommer gå.
 
@@ -144,19 +144,19 @@ Gör såhär:
 
 15. Till sist skapar du ett skript för att spelet ska säga att det är Game Over om skalbaggen nuddar färgen utanför banan. Under **UTSEENDE** väljer du blocket **"säg Hello! i 2 sekunder"** och drar in detta block innanför **"om <**"**Rör färgen grön?> då"**". Klicka sedan på ordet "Hello!" och ändra texten till det du vill skalbaggen ska säga - till exempel Game Over.
 
-> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på? 
+> Testa ditt spel! Händer det något när skalbaggen nuddar färgen utanför banan? Om inte, vad tror du att det kan bero på?
 
 
 ## 8: Göra klart skriptet
 
-Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla exakt var skalbaggen befinner sig "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med skriptet du har som får skalbaggen att röra sig. 
+Något saknas för att koden ska fungera! Tänk efter: **När** vill du att datorn ska känna av om skalbaggen rör färgen utanför banan? Det behöver ju göras **efter varje steg** skalbaggen tar, för att inte missa om den springer av banan. Datorn måste kolla exakt var skalbaggen befinner sig "om och om igen", hela tiden. Därför måste du koppla ihop skriptet som känner av färgen utanför banan med skriptet du har som får skalbaggen att röra sig.
 Gör såhär:
 
 16. Lägg skriptet som känner av färgen utanför banan, **inuti** din **"för alltid"**-loop. Nu kollar datorn av om skalbaggen ramlat av banan **varje gång** innan den tar nästa steg framåt igen. Sen kollar den igen - har jag ramlat av banan? Om inte, spring vidare, kolla, spring...
 
 17. När spelet blir Game Over ska ju allt ta slut och skalbaggen stoppa. Under **KONTROLL** finns blocket **"stoppa detta skript"**. Lägg in detta block längst ned inuti skriptet med **"om <> då"**. På så sätt avslutas spelet och skalbaggen stannar.
 
-> Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut. 
+> Är det svårt att veta hur alla blocken ska läggas in i skriptet? På nästa sida kan du se en bild på hur det färdiga skriptet ska se ut.
 
 
 ## Färdig!
@@ -167,7 +167,7 @@ Grattis, nu har du skapat ditt första spel! Det färdiga skriptet i sin helhet 
 **Glöm inte att spara ditt projekt - och att döpa det!** Döp det gärna till uppgiftens namn Bug Race - eller hitta på ett eget namn, så att du enkelt kan hitta det igen. Du skriver in namn på spelet till vänster högt upp, där det nu står "Untitled". Spara sedan, men måste vara inloggad för att kunna spara.
 
 > **Testa ditt projekt**  
-Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner bredvid knappen för att SPARA, så kan andra hitta spelet på Scratch sajt. 
+Visa gärna någon ditt spel och låt dem testa. Om du vill, tryck på knappen DELA som du finner bredvid knappen för att SPARA, så kan andra hitta spelet på Scratch sajt.
 
 > **Viktigt om du delar ditt projekt:** Tänk på att delade projekt kan ses, testas och remixas (omskapas) av alla som vill på Scratch sajt. Det är viktigt när du sparar och delar att projektet inte innhåller information, bilder eller ljud du inte vill sprida till andra.
 
