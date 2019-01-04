@@ -1,0 +1,148 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"></head><body>
+<h1 id="labyrintgenerator">Labyrintgenerator</h1>
+<p><em>(Bidrag till kodboken.se)</em></p>
+<p>Vårt uppdrag är att skriva en labyrintgenerator i Scratch. </p>
+<ul>
+<li>Man ska kunna välja bredd och höjd på labyrinten, som ska vara rektangulär.</li>
+<li>Det ska gå att ta sig mellan labyrintens fyra hörn. </li>
+<li>Labyrinten ska se olika ut från gång till gång.</li>
+<li>En labyrintgenerator kan man ha nytta av i olika spel. Därför är det bra om vi har några få sprajtar som man kan importera med ryggsäcken.</li>
+</ul>
+<p>Så här kan det se ut när vi är klara:</p>
+<p><img src="00-maze-goal.png" alt="Målbild för labyrinten"></p>
+<p>Verkar det svårt? Vi tar ett steg i taget. Jag har formulerat en önskelista som kanske hjälper.</p>
+<h2 id="-nskan-1-det-g-r-att-v-lja-bredd-och-h-jd-p-labyrinten">Önskan 1. Det går att välja bredd och höjd på labyrinten</h2>
+<p>Den här önskan kan vi uppfylla genom att katten frågar om bredd och höjd. Vi sparar svaren i variablerna <code>BREDD</code> och <code>HÖJD</code>.</p>
+<p>Pröva nu att göra en lösning på egen hand innan du går vidare.</p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<p>Här är några block som kan vara bra att ha:</p>
+<p><img src="01-useful-blocks.png" alt="Användbara block"></p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p><img src="01-solution.png" alt="Lösningsförslag. Det går att välja bredd och höjd på labyriten"></p>
+<p>Än så länge är det bara katten som frågar. Ingen labyrint syns än.</p>
+<p>Jag har valt STORA BOKSTÄVER för variabler som används av flera block. Ett exempel är variabeln <code>BREDD</code>. Sådana globala variabler kan ge programfel som är svåra att hitta. Därför sätts deras värden bara en gång.</p>
+<p>Variabler med små bokstäver används inom ett block.</p>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<ol>
+<li>Behöver vi kontrollera indata bättre? Vad är rimliga värden på variablerna <code>BREDD</code> och <code>HÖJD</code>?</li>
+</ol>
+<h2 id="-nskan-2-det-syns-ett-rutn-t">Önskan 2. Det syns ett rutnät</h2>
+<p>Vi vill att det ser ut något i den här stilen om vi svarar <code>BREDD</code> 5 och <code>HÖJD</code> 3.</p>
+<p>Om vi pekar med muspekaren på scenen så ser vi att Scratch har ett koordinatsystem där <code>X</code> går från &ndash;240 till 240 och <code>Y</code> går från &ndash;180 till 180. Våra yttersta prickar behöver ligga en liten bit in från kanten så att de syns. Jag har därför använt variablerna
+<code>XSTART</code>,
+<code>YSTART</code>,
+<code>XSLUT</code> och
+<code>YSLUT</code> som du kan se i bilden. Jag satte t.ex. <code>XSTART</code> till &ndash;230 för att hålla mig en bit från vänsterkanten. Genom att använda variabler och inte skriva t.ex. &ndash;230 direkt i koden kan jag justera storleken enkelt om det behövs.</p>
+<p><img src="02-coords.png" alt="Koordinater"></p>
+<p>Med 5&times;3 rutor (bredd&times;höjd) behövs det ju sex hörnprickar på bredden och fyra på höjden. Avståndet mellan ytterhörnen på bredden är <code>XSLUT</code>&ndash;<code>XSTART</code> pixlar och genom att dividera med <code>BREDD</code> får vi antalet pixlar mellan hörnprickarna. Vi kallar det avståndet <code>XSTEG</code>. Se bilden, där <code>YSTEG</code> också visas.</p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<ul>
+<li>Det kan vara bra att dela upp koden i flera block. Tänk på att du kan skapa egna block. Ett användbart block kan vara</li>
+</ul>
+<p><img src="02-custom-block.png" alt="Rita hörn(B, H)"></p>
+<p>där <code>B</code> är bredden och <code>H</code> höjden. Det nedre vänstra hörnet kan t.ex. vara <code>(B, H) (0, 0)</code> och övre högra hörnet <code>(B, H) = (BREDD, HÖJD)</code>.</p>
+<ul>
+<li><p>Ändra gärna koden som du skrev i steg 1. Det är viktigt att skriva om kod som inte passar längre.</p>
+</li>
+<li><p>Hörnprickarna kanske kan vara en ny klädsel hos katten? Då slipper vi skapa en ny sprajt.</p>
+</li>
+<li><p>Några block som kan vara bra att ha:</p>
+</li>
+</ul>
+<p><img src="02-set-variable.png" alt="Sätt variabelns värde"></p>
+<p><img src="02-stamp.png" alt="Stämpla"></p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p><img src="02-solution.png" alt="Lösningsförslag. Det syns ett rutnät"></p>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<h2 id="-nskan-3-det-finns-en-ytterv-gg">Önskan 3. Det finns en yttervägg</h2>
+<p>Så här kan det se ut när vi är klara:</p>
+<p><img src="03-Goal.png" alt="Labyrint med ytterväggar"></p>
+<p>Det är fyra ytterväggar att rita. Kan du dela upp jobbet i mindre delar?</p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<ul>
+<li>Det kan vara praktiskt att ha ett block för att rita en vägg med olika startpunkt och riktning.</li>
+</ul>
+<p><img src="03-Wall.png" alt="Blocket Rita vägg"></p>
+<ul>
+<li>Har vi ett block för att rita en vägg så kan vi använda det fyra gånger för de olika väggarna.</li>
+</ul>
+<p><img src="03-Walls.png" alt="Blocket Rita ytterväggar"></p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p>Här ser du de block som jag har lagt till eller ändrat. Resten är som innan.</p>
+<p><img src="03-Top-complete.png" alt="Koden för grön flagga">
+<img src="03-Walls-complete.png" alt="Förslag på Rita ytterväggar">
+<img src="03-Wall-complete.png" alt="Förslag på Rita vägg"></p>
+<h3 id="f-rb-ttringsid-er">Förbättringsidéer</h3>
+<h2 id="-nskan-4-det-finns-innerv-ggar-och-man-kan-g-mellan-labyrintens-h-rn">Önskan 4. Det finns innerväggar och man kan gå mellan labyrintens hörn</h2>
+<p>Just nu får vi den här rektangeln om vi svarar <code>BREDD</code> 6 och <code>HÖJD</code> 4:</p>
+<p><img src="04-start.png" alt="Labyrint med ytterväggar"></p>
+<p>Utan innerväggar är det ingen labyrint. Men innerväggarna kan inte ritas hur som helst om vi vill kunna gå genom labyrinten.</p>
+<p>Kan de här reglerna fungera?</p>
+<ul>
+<li>Regel 1. En rektangel som är minst 2 bred eller hög kan delas i två mindre rektanglar om vi ritar en rak innervägg som har ett hål någonstans.</li>
+<li>Regel 2. En rektangel som har bredd eller längd 1 kan inte delas i mindre bitar. Den duger som den är.</li>
+</ul>
+<p>Vi behöver ett sätt att komma ihåg vilka rektanglar vi jobbar med.</p>
+<ul>
+<li>Vi kallar kom ihåg-listan för <code>ritlista</code>. Du ser den till höger i bilden.</li>
+<li>I <code>ritlista</code> sparar vi hörnen i rektanglarna som vi har kvar att fixa</li>
+<li>Till en början är det hela labyrinten med koordinaterna (0,0) och (6,4) för hörnen</li>
+<li>Koordinaterna (0,0) är nedre vänstra hörnet</li>
+<li>Koordinaterna (6,4) är övre högre hörnet</li>
+</ul>
+<p><img src="04-ritlista-01.png" alt="Steg 1"> </p>
+<h3 id="vi-delar-p-h-jden-och-f-r-tv-mindre-rektanglar">Vi delar på höjden och får två mindre rektanglar</h3>
+<ul>
+<li>I vår kod tar vi nu och delar rektangeln mitt på höjden. Det gör vi genom att lägga ihop y-koordinaterna och dela med 2: (0 + 4) / 2 blir 2.</li>
+<li>Väggen som delar den stora rektangeln ska alltså ha y = 2.</li>
+<li>Var hålet i vägggen ska vara slumpar vi fram med blocket <em>slumptal a till b</em></li>
+<li>Vi ritar väggen och lämnar hålet som är en ruta brett. </li>
+<li>Nu är vi klara med den stora rektangeln. Därför tar vi bort koordinaterna (0,0) och (6,4) ur listan och lägger dit koordinaterna för hörnen i de två mindre rektanglarna som vi strax ska rita väggar i</li>
+<li>Den undre, grönmarkerade rektangeln har hörnen (0,0) och (6,2)</li>
+<li>Den övre, gulmarkerade rektangeln har hörnen (0,2) till (6,4)</li>
+</ul>
+<p>Så här ser det ut när vi är klara:</p>
+<p><img src="04-ritlista-02.png" alt="Steg 1"> </p>
+<h3 id="vi-delar-igen-och-f-r-fler-rektanglar">Vi delar igen och får fler rektanglar</h3>
+<ul>
+<li>Först i ritlistan ligger nu koordinaterna (0,0) och (6,2). De var grönmarkerade ovan</li>
+<li>Vi gör på samma sätt som vi gjorde för den stora rektangeln</li>
+<li>Du ser ändringarna i grönt och gult i bilden</li>
+<li>Rektangeln (0, 0) till (6,2) försvann ur ritlistan</li>
+<li>Den byttes ut mot de två mindre gröna och gula rektanglarna</li>
+</ul>
+<p><img src="04-ritlista-03.png" alt="Steg 1"> </p>
+<h3 id="en-delning-till">En delning till</h3>
+<ul>
+<li>Vi gör likadant som ovan. Det nya är markerat med grönt och gult</li>
+</ul>
+<p><img src="04-ritlista-04.png" alt="Steg 1"> </p>
+<h3 id="bara-sm-rektanglar-kvar">Bara små rektanglar kvar</h3>
+<ul>
+<li>Första rektangeln i ritlistan är (0,0) till (6, 1)</li>
+<li>Den rektangeln har höjden 1 och kan därför inte delas på höjden. Vi tar bort den ur ritlistan som nu har tre rektanglar kvar</li>
+</ul>
+<p><img src="04-ritlista-05.png" alt="Steg 1"> </p>
+<h3 id="inga-rektanglar-kvar">Inga rektanglar kvar</h3>
+<p>Vi går igenom ritlistan och till slut är ritlistan tom och vi är färdiga:</p>
+<p><img src="04-ritlista-06.png" alt="Steg 1"> </p>
+<h3 id="ledtr-dar">Ledtrådar</h3>
+<p>De här blocken kan vara bra att känna till:</p>
+<p><img src="04-useful-blocks.png" alt="Användbara block"> </p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p>Variabeln <code>ritlista</code> håller reda på alla rektanglar där vi ska rita innerväggar. Varje rektangel motsvaras av fyra värden i listan: <code>b</code>, <code>h</code> för nedre vänstra hörnet, <code>b1</code>, <code>h1</code> för övre högre hörnet i rektangeln.</p>
+<p><img src="04-b1.png" alt="Kod 1">
+<img src="04-b2.png" alt="Kod 2">
+<img src="04-b3.png" alt="Kod 3">
+<img src="04-b4.png" alt="Kod 4">
+<img src="04-b5.png" alt="Kod 5"></p>
+<h2 id="-nskan-5-v-ggarna-delar-sig-horisontellt-eller-vertikalt-inte-bara-horisontellt-som-i-nr-4">Önskan 5. Väggarna delar sig horisontellt eller vertikalt, inte bara horisontellt som i nr 4</h2>
+<p>Det enda som behövs är att ändra
+i funktionen <em>Rita vägg med hål</em> så att den ibland delar vertikalt istället för bara horisontellt.</p>
+<h3 id="l-sningsf-rslag">Lösningsförslag</h3>
+<p>Så här blev min version:</p>
+<p><img src="05-final.png" alt="Nya Rita vägg med hål"></p>
+<p><a href="https://scratch.mit.edu/studios/3568525/">Här hittar du projektet på Scratch</a></p>
+<p><a href="https://github.com/theJollySin/mazelib/blob/master/docs/MAZE_GEN_ALGOS.md">Fler algoritmer för att skapa labyrinter finns här</a></p>
+</body></html>
