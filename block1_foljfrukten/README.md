@@ -1,6 +1,9 @@
-# Följ frukten
+# Följ frukten (offline-version)
 
 I denna uppgift ska du få leka med koordinater i Scratch. Koordinater behövs för att ange någon eller någots position. Du ska få animera en robot så att den rör sig runt på scenen och äter frukt.
+
+> Bläddra dig fram genom denna guide, steg för steg.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
 
 Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172523787/" target="_blank">https://scratch.mit.edu/projects/172523787/</a>
 
