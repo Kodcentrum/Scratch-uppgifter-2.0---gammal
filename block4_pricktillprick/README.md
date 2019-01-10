@@ -10,6 +10,8 @@ Ett exempel på hur det kan se ut hittar du här:
 
 ![image alt text](image_0.png)
 
+Då börjar vi!
+
 ## 1: Remixa ett projekt
 
 Vi börjar med att remixa ett existerande projekt. Detta gör att det blir enklare att komma igång. Dessutom får du två sprajtar och lite kod på köpet. Smart va?!
