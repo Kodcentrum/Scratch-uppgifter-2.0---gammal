@@ -1,6 +1,9 @@
-# Prick till prick
+# Prick till prick - offline-version
 
 I denna uppgift ska du få skapa ett enkelt prick-till-prick spel. Du ska få lära dig att använda koordinater och penn-funktionen i Scratch. Det är en perfekt uppgift om du är kreativ.
+
+> Bläddra dig fram genom denna guide, steg för steg.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
 
 Ett exempel på hur det kan se ut hittar du här:
 <a href="https://scratch.mit.edu/projects/188770418/" target="_blank">https://scratch.mit.edu/projects/188770418/</a>
