@@ -2,6 +2,9 @@
 
 Pong är ett klassiskt spel för två spelare, men som också går att spela själv. Du styr två plattor och studsar en boll fram och tillbaka över spelplanen. Spelet var från början ett arkadspel från Atari och kom 1972. Du kommer att få lära dig att använda funktioner, slumptal och variabler.
 
+> Bläddra dig fram genom denna guide, steg för steg.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+
 Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/80839730/" target="_blank">https://scratch.mit.edu/projects/80839730/</a>
 
 ![image alt text](image_0.png)
