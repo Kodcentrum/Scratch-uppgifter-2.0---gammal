@@ -1,4 +1,4 @@
-# Fantasisynth med Makey Makey
+# Fantasisynth med Makey Makey (offline)
 
 Om du har tillgång till Makey Makey kan du koppla den till din fantasisynth, som du skapat i Scratch, och spela musik på riktiga äpplen! För att göra det kommer du att behöva ändra lite i koden i ditt Scratch-projekt som du skapade i uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>
 
@@ -83,7 +83,7 @@ Om du vill komponera egen musik med din fantasisynth har du här en tabell över
 
 
 
-<a href="https://wiki.scratch.mit.edu/wiki/MIDI_Notes Scratch Wikipedia" target="_blank">Tabellen hittar du även här på Scratch Wikipedia.  </a>
+<a href="https://en.scratch-wiki.info/wiki/MIDI_Notes" target="_blank">Tabellen hittar du även här på Scratch Wiki.  </a>
 
 
 ## Färdig!
