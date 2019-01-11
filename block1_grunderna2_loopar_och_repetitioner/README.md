@@ -1,4 +1,4 @@
-# Startövning 2: Repetition (Loopar)
+# Startövning 2: Repetition (Loopar) (offline-version)
 
 Nu ska du få lära dig hur man kan få skript att köra flera gånger genom att bara lägga till ett extra skript.
 
