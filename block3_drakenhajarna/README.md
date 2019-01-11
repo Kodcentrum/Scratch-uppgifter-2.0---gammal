@@ -1,4 +1,7 @@
-# Draken mot hajarna
+# Draken mot hajarna (offline-version)
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 I den här uppgiften ska du få koda en drake som kan flyga runt. Du kommer styra den med piltangenterna. Det kommer också att finnas hajar som hoppar och försöker äta upp draken. I den här uppgiften kommer du att jobba med funktioner (egna block) och du kommer lära dig vad som är bra med dem. Ett mål är att skapa mer effektiv kod.
 
