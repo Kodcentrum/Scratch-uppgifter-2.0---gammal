@@ -1,6 +1,9 @@
-# Hav och kontinenter
+# Hav och kontinenter (offline-version)
 
 I denna uppgift ska du få skapa en prototyp till frågesport som du till exempel kan använda i skolan. Först ska du få koda ett spel som går ut på att gissa var olika hav ligger. Därefter kommer du att få utöka programmet med frågor om var olika kontinenter ligger. Även om det i detta exempel är ett geografispel, kan frågesporten också göras på helt andra teman, allt från att gissa djur till ABC-spel eller matematikfrågor! I uppgiften kommer du få använda dig av många funktioner och sprajtar.
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
   ![image alt exempel](image_1.png)
 
