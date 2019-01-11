@@ -1,13 +1,17 @@
-# Fantasisynth
+# Fantasisynth (offline-version)
 
 Hur skulle du vilja spela musik? Förr i tiden fanns bara piano eller violer eller gitarrer som kunde spela klassisk musik. Idag finns datorer som kan spela nästan vilka otroliga ljud som helst som används som digitala instrument.
 
 Om du kunde spela musik på vad som helst, vad skulle du vilja spela på då? I vårt exempel har vi gjort en synth av äpplen, men ditt intrument kan se ut precis hur du vill!
 
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
+
 Ett exempel på projektet hittar du här: <a href="https://scratch.mit.edu/projects/128504924/" target="_blank">https://scratch.mit.edu/projects/128504924/</a>
 
 ![image alt text](image_0.png)
 
+Redo? Då börjar vi koda!
 
 ## 1: Komma på en idé
 Det första du behöver göra är att komma på hur ditt synth ska se ut!
