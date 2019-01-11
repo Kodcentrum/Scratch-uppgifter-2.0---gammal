@@ -1,6 +1,7 @@
 # Startövning 2: Repetition (Loopar) (offline-version)
 
-  > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Programmera ditt projekt i verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar utifrån Kodbokens instruktioner. Notera att denna instruktion är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+  > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Programmera ditt projekt i verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar utifrån Kodbokens instruktioner. 
+  Notera att denna instruktion är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
   
 Nu ska du få lära dig hur man kan få skript att köra flera gånger om och om igen (loopa), genom att bara lägga till ett extra skript.
 
