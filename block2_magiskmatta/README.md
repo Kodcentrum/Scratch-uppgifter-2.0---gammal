@@ -1,13 +1,13 @@
-# Magisk matta
+# Magisk matta (offline-version)
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>.
 
 I denna uppgift ska du få skapa en magisk matta som kan flyga till olika spännande platser! Du får själv välja vad som händer på de olika platserna, och du skapar på så sätt en interaktiv berättelse. Du kommer att använda meddelanden för att få olika delar av berättelsen att prata med varandra.
 
-Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116594645/" target="_blank">https://scratch.mit.edu/projects/116594645/</a>
+Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116594645/" target="_blank">https://scratch.mit.edu/projects/116594645/</a>
 
 ![image alt exempel](image_1.png)
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
   Då börjar vi koda!
 
