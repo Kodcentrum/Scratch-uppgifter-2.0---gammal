@@ -1,6 +1,11 @@
-# Agar
+# Agar (offline-version)
 
-Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">https://scratch.mit.edu/projects/102124910/</a>
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>.
+
+Spelet <a href="http://agar.io/" target="_blank">Agar.io</a> är skapat av Matheus Valadares från Brasilien och har blivit en stor succé världen över. Vår version och instruktionen till den är skapad av Samuel Genheden, volontär i Göteborgs kodstuga! I det här spelet är du en cell som äter små kulor. Detta är en bra övning för dig som tycker om matte. Det blir mycket variabler och operatorer. 
+
+Ett exempel på hur spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/102124910/" target="_blank">https://scratch.mit.edu/projects/102124910/</a>
 
   ![image alt exempel](image_1.png)
 
