@@ -1,29 +1,29 @@
 # Startövning 1: Rörelse (offline-version)
 
 Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig i programmeringsverktyget Scratch.
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
+  
+  > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Programmera ditt projekt i verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar utifrån Kodbokens instruktioner. 
+  Notera att denna instruktion är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
 
 De flesta program och spel du kommer skapa i verktyget Scratch kommer innehålla någon form av figurer. I Scratch kallas alla figurer man för **sprajtar**. Dessa sprajtar brukar ofta röra sig över skärmen, tänk till exempel hur Super Mario eller Pacman rör sig.
 
 Nu ska vi prova att koda en av Kodcentrums robotar att röra sig så här:
 
-![Alt Text](Robot_1.gif)
+![Animerad robot rör sig åt höger](Robot_1.gif)
 
 ## 1: Remixa projekt
 
-När man ska koda i Scratch kan man antingen starta ett eget program själv, eller jobba vidare på någon annans skapade program och kod. Detta kallas för att remixa. Vi ska nu testa att remixa ett program.
+När man ska koda i Scratch kan man antingen starta ett eget program själv och koda det, eller jobba vidare på någon annans skapade program och kod. Det senare kallas för att remixa. Vi ska nu testa att remixa ett påbörjat program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet på Scratch.
 
-<a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Projektlänk</a> <!--_-->
+<a href="https://scratch.mit.edu/projects/210051047/" target='_blank'>Länk till påbörjat programprojekt</a> <!--_-->
 
-2. Om texten på Scratch hemsida är på Engelska så kan du ändra språk till Svenska längst ner på sidan.
+2. Om texten på Scratch hemsida är på Engelska så kan du ändra språk till Svenska högst upp på sidan ovanför projektet
 
 ![Alt Text](Image_1.png)
 
-3. Se till att du är inloggad på ditt Scratch-konto. (Om du inte har ett konto, klicka på "Gå med Scratch" och skapa ett.)
+3. Se till att du är inloggad på ditt Scratch-konto. (Om du inte har ett konto, klicka på "Gå med Scratch" och skapa ett, det är gratis.)
 
 ![Alt Text](Image_2.png)
 
