@@ -1,4 +1,4 @@
-﻿# Matvinnaren - intro
+﻿# Matvinnaren - intro (offline-version)
 
 Brukar du slänga mat som du inte orkar eller vill äta upp? Det gör rätt
 många av oss, i Sverige slänger vi mat som motsvarar ett utsläpp på
@@ -10,8 +10,8 @@ alla kan hjälpas åt med. Vad skulle få dig att slänga mindre mat själv,
 hemma eller i skolan? Här ska du få skapa en soptunna som talar om hur
 mycket mat du slänger!
 
-> Bläddra dig fram genom denna guide, steg för steg.
-  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Ett exempel på hur det färdiga projektet kan se ut hittar du här:
 <a href="https://scratch.mit.edu/projects/188545076/" target="_blank">https://scratch.mit.edu/projects/188545076/</a>
