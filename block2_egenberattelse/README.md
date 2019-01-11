@@ -1,5 +1,8 @@
 # Egen berättelse (offline-version)
 
+> Bläddra dig fram genom denna guide, steg för steg.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+  
 Nu ska du få skapa en egen berättelse i Scratch. En berättelse innehåller ofta en huvudkaraktär som ska nå ett mål men som möter något hinder på vägen, ett problem som behöver lösas.
 
 Exempel: _En spindel är på väg till sitt hus uppe i spindelnätet. Då börjar det regna, en regndroppe träffar spindeln som faller ner i en vattenpöl. Spindeln försöker klättra upp igen men kommer inte ur vattenpölen som blir allt djupare. – Hjälp! ropar spindeln som inte kan simma. Då kommer solen och jagar bort regnmolnet. Solen torkar bort vattnet och spindeln kan klättra upp till sitt hus._ Känner du igen berättelsen?
