@@ -1,7 +1,10 @@
-# Framtidens musikspelare
+# Framtidens musikspelare (offline-version)
 
 Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, senare cd-spelare och mp3-spelare, och nu streamar många musik direkt från nätet vilket gör att du kan lyssna lite varstans. Vad vill du ha för pryl eller program som spelar din favoritmusik? Hur ska den fungera?
 Det kan vara ett par musikspelande skor, ett armband, en mössa eller något helt annat – och du får animera dig själv i framtiden när du dansar till musiken!
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 **Här behöver du ladda upp en bild på dig själv och du behöver kunna använda ljud på datorn.**
 
