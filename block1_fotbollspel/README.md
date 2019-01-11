@@ -1,4 +1,4 @@
-# Fotbollsspel
+# Fotbollsspel (offline-version)
 
 Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Scratch. Spelet går ut på att styra en fotbollsspelare som ska skjuta bollen i mål.
 
