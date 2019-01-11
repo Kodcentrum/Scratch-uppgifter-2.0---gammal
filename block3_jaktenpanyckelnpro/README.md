@@ -1,8 +1,11 @@
-# Jakten på nyckeln PRO
+# Jakten på nyckeln PRO (offline-version)
 
 I denna uppgift ska du få koda en mer avancerad version av spelet "Jakten på nyckeln". Den kommer att vara lite närmare hur ett riktigt platsbaserat spel fungerar. Dock så krävs det mer avancerad kod för att få det att fungera, och därför är denna uppgift bara lämplig om du är en mer van kodare. Du behöver till exempel kunna använda variabler och kloner.
 
-Ett exempel på hur spelet kan se ut hittar du här: <a href="https://scratch.mit.edu/projects/172533037" target="_blank">https://scratch.mit.edu/projects/172533037</a>
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
+
+Ett exempel på hur spelet kan se komma att se ut hittar du här: <a href="https://scratch.mit.edu/projects/172533037" target="_blank">https://scratch.mit.edu/projects/172533037</a>
 
 ![image alt text](image_0.png)
 
