@@ -1,6 +1,6 @@
 # Julkort (offline-version)
 
- > Bläddra dig fram genom denna guide, steg för steg.
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
   Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>.
   
 Här får du göra ett digitalt julkort som du kan skicka till någon du vill hälsa God Jul till. Det är interaktivt så att mottagaren av kortet  kan skriva in sitt namn och bli personligt julfirad med fest, musik och julklappar! Kortets tema går att ändra om du vill göra födelsedagskort eller annat. Ett mål med uppgiften är att du skall lära dig att använda meddelanden och funktioner.
@@ -8,9 +8,6 @@ Här får du göra ett digitalt julkort som du kan skicka till någon du vill h�
 Klicka på bilden här under för att se ett exempelprojekt på ett julkort, eller hitta det på Scratch sajt med https://scratch.mit.edu/projects/266913274/: <a href="https://scratch.mit.edu/projects/266913274/" target="blank">
 
 ![image alt text](image_0.png)</a>
-
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
   
   Då börjar vi koda!
 
