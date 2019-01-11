@@ -13,7 +13,7 @@ Ett exempel på hur det kan se ut hittar du här: <a href="https://scratch.mit.e
 
  > För att kunna jobba med denna uppgift måste du ha skapat ett färdigt spel **Bug race** som har några olika funktioner.
 
-**Har du kodat Bug race?**
+**Har du redan kodat Bug race?**
 
 Om du *inte* är klar med Bug race får du börja med att göra klart det. Du hittar uppgiften [här](https://www.kodboken.se/start/kom-igang/uppgifter-i-scratch/bug-race-intro) eller i menyn till höger.
 
