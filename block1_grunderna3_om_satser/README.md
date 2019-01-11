@@ -1,4 +1,4 @@
-# Startövning 3: Villkor
+# Startövning 3: Villkor (offline-version)
 
 Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad som händer i programmet.
 
