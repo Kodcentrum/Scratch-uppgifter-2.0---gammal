@@ -1,4 +1,4 @@
-# Startövning 1: Rörelse
+# Startövning 1: Rörelse (offline-version)
 
 Nu ska du få lära dig grunderna i hur man får figurer och saker att röra sig i programmeringsverktyget Scratch.
 
