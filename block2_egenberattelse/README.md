@@ -1,4 +1,4 @@
-# Egen berättelse
+# Egen berättelse (offline-version)
 
 Nu ska du få skapa en egen berättelse i Scratch. En berättelse innehåller ofta en huvudkaraktär som ska nå ett mål men som möter något hinder på vägen, ett problem som behöver lösas.
 
