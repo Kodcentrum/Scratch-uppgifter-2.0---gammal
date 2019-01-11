@@ -1,6 +1,9 @@
-# Photo Booth
+# Photo Booth (offline-version)
 
 Nu kommer du att få skapa en Photo Booth-app där du kan ändra din egen bild från webbkameran till att bli det som du drömmer om att vara. Det är din fantasi som styr vad ditt program ska innehålla, här får du tips på hur du kan byta frisyr, sätta dit solglasögon eller kanske en stilig mustasch!
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Här kan du titta på exempel på
  <a href="https://scratch.mit.edu/projects/98186215/" target="_blank">Photo Booth</a> och en <a href="https://scratch.mit.edu/projects/103740293/" target="_blank">Disco-version</a> på Scratch.
