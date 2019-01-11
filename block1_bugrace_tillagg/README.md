@@ -4,8 +4,9 @@ Om du redan har skapat spelet Bug Race Intro så har du redan ett fungerande spe
 
 Här finns förslag på hur du kan fortsätta utveckla Bug Race, välj ett eller flera tillägg från instruktinen eller hitta på egna! Du kan behöva titta tillbaka i instruktionen för Bug Race Intro om du har glömt hur du gjorde vissa skript.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva spelet utifrån Kodbokens instruktioner.
+> Bläddra dig fram genom denna guide, steg för steg.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+
   
   Då börjar vi koda!
 
