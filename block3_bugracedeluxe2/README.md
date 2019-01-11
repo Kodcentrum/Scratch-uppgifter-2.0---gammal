@@ -1,4 +1,7 @@
-# Bug race deluxe - del 2
+# Bug race deluxe - del 2 (offline-version)
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Detta är fortsättning på uppgifterna **Bug race** och **Bug race deluxe – del 1**. Du måste ha gjort båda dessa för att kunna göra denna övning. I del 2 kommer du få koda så att skalbaggen kan åka olika fort, du kommer lägga in hinder för den och du kommer skapa flera banor.
 
