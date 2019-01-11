@@ -1,6 +1,9 @@
-# Min hjälte deluxe – del 1
+# Min hjälte deluxe – del 1 (offline-version)
 
 I denna uppgift får du chansen att jobba vidare med berättelsen **Min hjälte**. Du kommer få lägga till funktioner för att visa olika väder. För att göra det kommer du använda kloner, variabler och meddelanden.
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Ett exempel på hur det kan se ut hittar du <a href="https://scratch.mit.edu/projects/203420852/" target="_blank">här</a>.
 
