@@ -1,13 +1,13 @@
-# Imse Vimse Spindel - offline-version
+# Imse Vimse Spindel (offline-version)
 
 Nu ska du få skapa ett program som är en interaktiv berättelse, en berättelse där användaren styr vad som ska hända. Programmet är enkelt även om du aldrig har jobbat med Scratch tidigare. Målet är att illustrera barnvisan ”Imse Vimse Spindel” med hjälp av enkla animationer.
 
   > Bläddra dig fram genom denna guide, steg för steg.
-  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>.
 
-Ett exempel på det färdiga spelet kan du se här: <a href="https://scratch.mit.edu/projects/118774105/" target="_blank">https://scratch.mit.edu/projects/118774105/</a>
+Klicka på bilden här under för att se ett exempel på det färdiga spelet, eller gå till projektet på Scratch sajt med https://scratch.mit.edu/projects/118774105/<a href="https://scratch.mit.edu/projects/118774105/" target="_blank">
 
-  ![image alt text](image_1.png)
+  ![image alt text](image_1.png)</a>
   
   Då börjar vi koda!
 
