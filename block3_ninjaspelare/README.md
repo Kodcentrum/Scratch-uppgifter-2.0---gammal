@@ -1,6 +1,9 @@
-# Ninjaspringare
+# Ninjaspringare (offline-version)
 
 I denna uppgift ska du göra ett spel där du styr en liten ninja som kan hoppa jättehögt och sparka igenom väggar! Det kommer att se ut som om ninjan springer åt höger men det är sprajten som står still och istället är det bakgrunden som ska åka åt vänster. Den här uppgiften är för dig som gillar att rita och animera mycket.  
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Ett exempel på hur  spelet kan se ut ser du här: <a href="https://scratch.mit.edu/projects/116954542/" target="_blank">https://scratch.mit.edu/projects/116954542/</a>
 
