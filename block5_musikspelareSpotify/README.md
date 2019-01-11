@@ -1,3 +1,5 @@
+(Anpassad för Scratch 2.0 och support för ScratchX finns ej sedan jan 2019 (Jessica))
+
 I detta projekt kommer du få skapa en musikspelare som spelar musik från Spotify. Du kommer kunna söka efter låtar och artister på Spotify och få tips på liknande artister.
 
 För denna uppgift kommer du använda ScratchX som du kan använda för interagera med fysiska enheter och där vi kan använda våra egna block för att spela musik från Spotify. Du kommer inte kunna logga in på ditt Scratch-konto så du behöver spara ner ditt projekt till datorn. Efter det kan du ladda upp det igen och fortsätta arbeta. Använd nedanstående länk för att börja med uppgiften.
