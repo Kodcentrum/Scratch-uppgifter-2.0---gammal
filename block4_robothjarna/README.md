@@ -1,9 +1,11 @@
-# Robothjärna
+# Robothjärna (offline-version)
 
 Den här uppgiften är lite annorlunda. Du kommer att börja med ett färdigt program, och fylla i det som saknas &ndash; nämligen robotens hjärna!
 
-Börja med att öppna Scratch-projektet <a href="https://scratch.mit.edu/projects/169127533/">Robothjärna</a> och *Remixa* det, så att du får en egen
-version att experimentera med.
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
+
+Börja med att öppna Scratch-projektet <a href="https://scratch.mit.edu/projects/169127533/">Robothjärna</a> och *Remixa* det, så att du får en egen version att experimentera med.
 
 Klicka på  ![Se inuti](se-inuti.PNG) och sedan på ![Remix](remix.PNG)
 
