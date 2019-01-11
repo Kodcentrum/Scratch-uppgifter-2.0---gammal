@@ -1,4 +1,4 @@
-# Fantasisynth med Makey Makey (offline)
+# Fantasisynth med Makey Makey (offline-version)
 
 Om du har tillgång till Makey Makey kan du koppla den till din fantasisynth, som du skapat i Scratch, och spela musik på riktiga äpplen! För att göra det kommer du att behöva ändra lite i koden i ditt Scratch-projekt som du skapade i uppgiften <a href="https://www.kodboken.se/start/skapa-musik/uppgifter-i-scratch/fantasisynth" target="_blank"> Fantasisynth </a>
 
@@ -6,12 +6,16 @@ Makey Makey är ett kretskort som kan användas för att styra program på din d
 
 Du kan titta på en film som visar hur du använder Makey Makey här:  
  <a href="https://www.youtube.com/watch?v=ICd7HzurorM&feature=youtu.be&list=PLD0HD_3AJljWqSuZ31DeGi2Iv7Yzp0NRp" target="_blank">  Interactive Institute - introduktion till Makey Makey </a>
+ 
+  > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Här är ett exempelprojekt för hur du gör "Fantasisynth med Makey Makey" i Scratch: <a href="https://scratch.mit.edu/projects/130726473/" target="_blank">https://scratch.mit.edu/projects/130726473/</a>
 
 
 ![image alt text](image_6.png)
 
+Då börjar vi koppla!
 
 ## 1: Koppla in Makey Makey
 Vi kopplar in Makey Makeyn i datorn och testar hur den fungerar!Makey makeyn överför signaler från det ledande objektet, via kretskortet till datorn. De tangenter som finns på en Makey Makey är uppåtpil, nedåtpil, högerpil, vänsterpil,  mellanslag och musklick. Precis som om du skulle använda ett tangentbord och en mus.
