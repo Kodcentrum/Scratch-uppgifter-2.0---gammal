@@ -1,11 +1,10 @@
 # Startövning 3: Villkor (offline-version)
 
+  > Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">Programmera ditt projekt i verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar utifrån Kodbokens instruktioner. Notera att denna instruktion är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+  
 Nu ska du få lära dig hur man kan få olika skript att köra beroende på vad som händer i programmet.
 
-> Bläddra dig fram genom denna guide, steg för steg. <a href="https://scratch.mit.edu" target="_blank">
-  Öppna även verktyget Scratch på sajten www.scratch.mit.edu</a> där du kodar och skapar själva koden utifrån Kodbokens instruktioner. 
-
-Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende var du klickar, till exempel spel som startar olika banor när du klickar på dem.
+Vi ska göra en robot som ställer frågor och säger olika saker beroende på vad vi svarar. Tänk på program som du brukar använda där olika saker händer beroende på var du klickar, till exempel spel som startar olika banor när du klickar på dem.
 
 ## 1: Remixa
 
@@ -13,7 +12,7 @@ Precis som i den förra uppgiften ska vi börja med att remixa ett program.
 
 1. Klicka på länken nedanför för att komma till det förberedda programmet.
 
-<a href="https://scratch.mit.edu/projects/210050672/" target='_blank'>Projektlänk</a> <!--_-->
+<a href="https://scratch.mit.edu/projects/210050672/" target='_blank'>Länk till påbörjat programprojekt</a> <!--_-->
 
 2. Om texten på hemsidan är på Engelska så kan du ändra språk längst ner på sidan.
 
