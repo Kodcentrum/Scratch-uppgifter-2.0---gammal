@@ -1,4 +1,4 @@
-# Framtidens musikspelare
+# Framtidens musikspelare (offline-version)
 
 Hur vill du lyssna på musik i framtiden? Förr i tiden hade vi grammofoner, senare cd-spelare och mp3-spelare, och nu streamar många musik direkt från nätet vilket gör att du kan lyssna lite varstans.
 
@@ -6,11 +6,15 @@ Musikspelarna blir också smartare och kan föreslå musik som de tror att du ko
 
 I den här uppgiften kommer vi att göra ett par glasögon som känner av hur personen som bär dem mår – om den är glad eller arg – och spela musik som passar till humöret! Vi tänker oss att våra musikspelande glasögon har en sensor som kan läsa av humöret, kanske genom personens hjärnvågor. Du kan så klart göra en musikspelare som ser ut som något helt annat och som känner av något annat!
 
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
+
 Ett exempel på projektet hittar du här:  <a href="https://scratch.mit.edu/projects/129448994/" target="_blank"> https://scratch.mit.edu/projects/129448994/</a>
 
 
 ![image alt text](image_0.png)
 
+Redo att börja koda? Klicka på sida 1 här under för att gå vidare.
 
 ## 1: Välj bakgrund och sprajt
 Först behöver du lägga in en bakgrund.
