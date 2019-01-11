@@ -1,4 +1,4 @@
-# Bug Race (tillägg) - offline-version
+# Bug Race (tillägg) (offline-version)
 
 Om du redan har skapat spelet Bug Race Intro så har du redan ett fungerande spel där du styr en skalbagge som springer runt en bana. Målet med spelet är att undvika att hamna utanför banan, då blir det Game Over. Men hur vinner du spelet?
 
