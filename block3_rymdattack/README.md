@@ -1,6 +1,9 @@
-# Rymdattack
+# Rymdattack (offline-version)
 
 Det här spelet bygger på ett klassiskt spel från 1978 som heter Space Invaders.  I vår version styr du en rymdraket som ska skjuta mot attackerande robotar. Du kommer att få lära dig att skapa kloner och att använda slumptal och variabler.
+
+ > Bläddra dig fram genom denna guide, steg för steg och koda projektet med verktyget Scratch.
+  Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion.</a>
 
 Här kan du se en version av spelet: <a href="https://scratch.mit.edu/projects/118440149/" target="_blank">https://scratch.mit.edu/projects/118440149/</a>
 
