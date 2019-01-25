@@ -5,7 +5,7 @@ Det här är ett enkelt spel för dig som har börjat lära dig lite grann om Sc
 > Bläddra dig fram genom denna guide, steg för steg.
   Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
   
-Hur kan spelet komma att se ut? Klicka på bilden här under för att testa ett exempel på det färdiga spelet: <a href="https://scratch.mit.edu/projects/72797634/" target="_blank"
+Hur kan spelet komma att se ut? Klicka på bilden här under för att testa ett exempel på det färdiga spelet: <a href="https://scratch.mit.edu/projects/72797634/" target="_blank">
 
 ![image alt text](image_0.png)</a>
   
