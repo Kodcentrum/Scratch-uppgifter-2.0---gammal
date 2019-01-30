@@ -4,6 +4,8 @@ Nu ska du få skapa ett roligt spel som är enkelt även om du aldrig har jobbat
 
 > Bläddra dig fram genom denna guide, steg för steg.
   Instruktionen är anpassad för äldre versionen Scratch 2.0, som enkelt laddas ned för användning offline, därmed inget behov av att skapa konto då projekt sparas lokalt på datorn. <a href="https://scratch.mit.edu/download" target="_blank"> Ladda ned Scratch 2.0 (offline-version) på Scratch sajt för att sen koda med denna instruktion</a>.
+  
+> Tips: <a href="https://www.kodboken.se/start/kom-igang/bug-race-videotutorials-offline" target="_blank"> Här finns även videotutorials</a> som följer Bug Race Intro instruktion steg för steg anpassad för Scratch offlineversion. 
 
 Hur kan spelet Bug Race komma att se ut? Klicka på bilden här under och testa ett exempel på det färdiga spelet på Scratch sajt. (Starta spelet där genom att klicka på den gröna flaggan på projektet som kommer fram.) <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">
 
